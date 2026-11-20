@@ -1,0 +1,16 @@
+{
+  "username": "dev_73334",
+  "country": "Hungary",
+  "primary_language": "Python",
+  "total_pushes": 338,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 529.2313608595323,
+  "s_quality": 103.14136708246235,
+  "s_impact": 485.67578788452965,
+  "s_consistency": 183.59641241572757,
+  "rank_score": 360.0,
+  "rank": 307
+}

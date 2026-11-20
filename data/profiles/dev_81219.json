@@ -1,0 +1,16 @@
+{
+  "username": "dev_81219",
+  "country": "Italy",
+  "primary_language": "Rust",
+  "total_pushes": 387,
+  "merged_prs": 34,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 530.3884687012863,
+  "s_quality": 96.26370236885913,
+  "s_impact": 478.1112975606053,
+  "s_consistency": 195.00442483983406,
+  "rank_score": 358.5,
+  "rank": 436
+}

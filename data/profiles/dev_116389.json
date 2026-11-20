@@ -1,0 +1,16 @@
+{
+  "username": "dev_116389",
+  "country": "Montenegro",
+  "primary_language": "C++",
+  "total_pushes": 50,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 546.7724171841761,
+  "s_quality": 103.31883223125935,
+  "s_impact": 452.2454034245575,
+  "s_consistency": 183.70452999690838,
+  "rank_score": 357.8,
+  "rank": 525
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_121258",
+  "country": "Nauru",
+  "primary_language": "Rust",
+  "total_pushes": 385,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 531.8561412721518,
+  "s_quality": 84.4107041493785,
+  "s_impact": 486.5099933096617,
+  "s_consistency": 187.1496877065979,
+  "rank_score": 357.0,
+  "rank": 633
+}

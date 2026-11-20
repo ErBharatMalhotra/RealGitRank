@@ -1,16 +1,16 @@
 {
   "username": "dev_2463",
-  "country": "France",
-  "primary_language": "C++",
-  "total_pushes": 324,
-  "merged_prs": 0,
+  "country": "Algeria",
+  "primary_language": "TypeScript",
+  "total_pushes": 384,
+  "merged_prs": 37,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 0.0,
-  "s_quality": 60.55954792140726,
-  "s_impact": 464.89607317392677,
-  "s_consistency": 181.3784750330423,
-  "rank_score": 158.6,
-  "rank": 4428
+  "s_pr": 527.6344269675483,
+  "s_quality": 85.82792702439916,
+  "s_impact": 490.62040995283087,
+  "s_consistency": 193.34350099072358,
+  "rank_score": 357.8,
+  "rank": 526
 }

@@ -1,0 +1,16 @@
+{
+  "username": "dev_153252",
+  "country": "Serbia",
+  "primary_language": "Rust",
+  "total_pushes": 334,
+  "merged_prs": 35,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 531.0798045563527,
+  "s_quality": 91.0127627108488,
+  "s_impact": 488.5863736503788,
+  "s_consistency": 181.1362626776703,
+  "rank_score": 357.9,
+  "rank": 513
+}

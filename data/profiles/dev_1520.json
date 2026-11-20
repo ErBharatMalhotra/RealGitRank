@@ -1,16 +1,16 @@
 {
   "username": "dev_1520",
-  "country": "Malaysia",
-  "primary_language": "Kotlin",
-  "total_pushes": 345,
-  "merged_prs": 22,
+  "country": "Albania",
+  "primary_language": "Ruby",
+  "total_pushes": 352,
+  "merged_prs": 33,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 415.01224356318056,
-  "s_quality": 64.88629760216627,
-  "s_impact": 458.8676926357206,
-  "s_consistency": 186.35616367402585,
-  "rank_score": 304.1,
-  "rank": 1688
+  "s_pr": 519.4563458010565,
+  "s_quality": 102.40488951021828,
+  "s_impact": 515.8875631056251,
+  "s_consistency": 129.36861971238793,
+  "rank_score": 355.8,
+  "rank": 815
 }

@@ -1,0 +1,16 @@
+{
+  "username": "dev_103433",
+  "country": "Malawi",
+  "primary_language": "Rust",
+  "total_pushes": 380,
+  "merged_prs": 36,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 510.48165098901114,
+  "s_quality": 82.97851413619713,
+  "s_impact": 505.19233145509634,
+  "s_consistency": 199.16257463976785,
+  "rank_score": 355.6,
+  "rank": 844
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_54902",
+  "country": "Estonia",
+  "primary_language": "Go",
+  "total_pushes": 394,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 547.3148119795077,
+  "s_quality": 97.42378131654478,
+  "s_impact": 468.68168915621027,
+  "s_consistency": 197.1515965474486,
+  "rank_score": 362.7,
+  "rank": 141
+}

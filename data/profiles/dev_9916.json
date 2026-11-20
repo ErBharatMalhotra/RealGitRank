@@ -1,0 +1,16 @@
+{
+  "username": "dev_9916",
+  "country": "Austria",
+  "primary_language": "Rust",
+  "total_pushes": 264,
+  "merged_prs": 29,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 512.4150105302963,
+  "s_quality": 95.14590049517666,
+  "s_impact": 509.53350646870985,
+  "s_consistency": 171.09976096689095,
+  "rank_score": 356.2,
+  "rank": 748
+}

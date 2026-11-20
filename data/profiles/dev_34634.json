@@ -1,0 +1,16 @@
+{
+  "username": "dev_34634",
+  "country": "Chile",
+  "primary_language": "Rust",
+  "total_pushes": 222,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 552.8123842639818,
+  "s_quality": 65.87353489748196,
+  "s_impact": 477.42004497222587,
+  "s_consistency": 172.31165713009884,
+  "rank_score": 355.2,
+  "rank": 910
+}

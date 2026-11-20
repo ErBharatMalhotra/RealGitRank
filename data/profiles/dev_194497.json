@@ -1,0 +1,16 @@
+{
+  "username": "dev_194497",
+  "country": "Zimbabwe",
+  "primary_language": "Swift",
+  "total_pushes": 222,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 549.0261239928664,
+  "s_quality": 95.17154185635334,
+  "s_impact": 479.86976125749186,
+  "s_consistency": 207.0561486778971,
+  "rank_score": 367.0,
+  "rank": 38
+}

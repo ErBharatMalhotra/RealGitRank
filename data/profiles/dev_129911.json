@@ -1,0 +1,16 @@
+{
+  "username": "dev_129911",
+  "country": "Norway",
+  "primary_language": "Java",
+  "total_pushes": 50,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 539.9270129615198,
+  "s_quality": 87.31151950374398,
+  "s_impact": 478.66406342520014,
+  "s_consistency": 198.51690778164388,
+  "rank_score": 360.2,
+  "rank": 290
+}

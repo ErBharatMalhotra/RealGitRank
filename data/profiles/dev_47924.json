@@ -1,0 +1,16 @@
+{
+  "username": "dev_47924",
+  "country": "Dominica",
+  "primary_language": "Rust",
+  "total_pushes": 252,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 529.5790949348043,
+  "s_quality": 76.566215217858,
+  "s_impact": 495.73562422295873,
+  "s_consistency": 185.61835872224393,
+  "rank_score": 356.3,
+  "rank": 730
+}

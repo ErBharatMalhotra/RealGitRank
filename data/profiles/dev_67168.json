@@ -1,0 +1,16 @@
+{
+  "username": "dev_67168",
+  "country": "Guatemala",
+  "primary_language": "Go",
+  "total_pushes": 376,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 543.2882715309318,
+  "s_quality": 69.56983785587532,
+  "s_impact": 506.71486146572454,
+  "s_consistency": 183.77918734878938,
+  "rank_score": 361.8,
+  "rank": 192
+}

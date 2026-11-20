@@ -1,0 +1,16 @@
+{
+  "username": "dev_117231",
+  "country": "Morocco",
+  "primary_language": "Go",
+  "total_pushes": 27,
+  "merged_prs": 35,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 502.259051960913,
+  "s_quality": 84.34422862798385,
+  "s_impact": 508.5061620697217,
+  "s_consistency": 209.0115278100978,
+  "rank_score": 355.4,
+  "rank": 885
+}

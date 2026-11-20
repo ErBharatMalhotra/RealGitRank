@@ -1,0 +1,16 @@
+{
+  "username": "dev_98865",
+  "country": "Libya",
+  "primary_language": "Python",
+  "total_pushes": 360,
+  "merged_prs": 33,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 529.9736871687326,
+  "s_quality": 83.03190326669682,
+  "s_impact": 481.01857299861314,
+  "s_consistency": 194.350478392909,
+  "rank_score": 355.7,
+  "rank": 828
+}

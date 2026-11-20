@@ -1,0 +1,16 @@
+{
+  "username": "dev_45532",
+  "country": "Denmark",
+  "primary_language": "Rust",
+  "total_pushes": 184,
+  "merged_prs": 33,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 530.1491083917454,
+  "s_quality": 100.71399802784177,
+  "s_impact": 479.682329513909,
+  "s_consistency": 170.7895385416539,
+  "rank_score": 356.3,
+  "rank": 737
+}

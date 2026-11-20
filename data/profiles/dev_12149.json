@@ -1,0 +1,16 @@
+{
+  "username": "dev_12149",
+  "country": "Bahrain",
+  "primary_language": "Java",
+  "total_pushes": 103,
+  "merged_prs": 35,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 532.7554361183778,
+  "s_quality": 58.29031174309029,
+  "s_impact": 489.78413851310603,
+  "s_consistency": 213.30086917036013,
+  "rank_score": 355.5,
+  "rank": 868
+}

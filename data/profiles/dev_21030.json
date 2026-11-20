@@ -1,0 +1,16 @@
+{
+  "username": "dev_21030",
+  "country": "Bosnia and Herzegovina",
+  "primary_language": "Rust",
+  "total_pushes": 295,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 534.4785701672496,
+  "s_quality": 82.051824346525,
+  "s_impact": 519.8445253854377,
+  "s_consistency": 193.75646213456506,
+  "rank_score": 366.6,
+  "rank": 44
+}

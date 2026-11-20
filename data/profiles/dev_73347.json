@@ -1,0 +1,16 @@
+{
+  "username": "dev_73347",
+  "country": "Hungary",
+  "primary_language": "Go",
+  "total_pushes": 44,
+  "merged_prs": 34,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 522.1814963177808,
+  "s_quality": 76.59886372121514,
+  "s_impact": 510.53813002923914,
+  "s_consistency": 199.8837420767147,
+  "rank_score": 359.5,
+  "rank": 348
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_100086",
+  "country": "Lithuania",
+  "primary_language": "Ruby",
+  "total_pushes": 109,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 542.4328903465679,
+  "s_quality": 80.65440702997341,
+  "s_impact": 504.404934066602,
+  "s_consistency": 137.97068003731673,
+  "rank_score": 356.8,
+  "rank": 659
+}

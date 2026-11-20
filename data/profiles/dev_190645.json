@@ -1,0 +1,16 @@
+{
+  "username": "dev_190645",
+  "country": "Venezuela",
+  "primary_language": "Rust",
+  "total_pushes": 132,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 545.2850699470723,
+  "s_quality": 85.86327293936483,
+  "s_impact": 460.45332620167784,
+  "s_consistency": 187.7313064475372,
+  "rank_score": 355.6,
+  "rank": 836
+}

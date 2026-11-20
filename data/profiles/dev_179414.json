@@ -1,0 +1,16 @@
+{
+  "username": "dev_179414",
+  "country": "Turkmenistan",
+  "primary_language": "Rust",
+  "total_pushes": 19,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 546.374015485447,
+  "s_quality": 93.20486211258147,
+  "s_impact": 499.97038621682185,
+  "s_consistency": 203.05304682267968,
+  "rank_score": 370.0,
+  "rank": 10
+}

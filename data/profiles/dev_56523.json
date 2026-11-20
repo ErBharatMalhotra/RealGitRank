@@ -1,0 +1,16 @@
+{
+  "username": "dev_56523",
+  "country": "Ethiopia",
+  "primary_language": "C++",
+  "total_pushes": 51,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 551.8090344932066,
+  "s_quality": 72.21399695488714,
+  "s_impact": 496.0190492357456,
+  "s_consistency": 179.0016085123739,
+  "rank_score": 362.0,
+  "rank": 179
+}

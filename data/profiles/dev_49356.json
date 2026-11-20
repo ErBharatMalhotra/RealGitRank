@@ -1,0 +1,16 @@
+{
+  "username": "dev_49356",
+  "country": "Ecuador",
+  "primary_language": "Kotlin",
+  "total_pushes": 225,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 538.1061209422019,
+  "s_quality": 66.42815448637981,
+  "s_impact": 503.1741169371441,
+  "s_consistency": 195.18501016773095,
+  "rank_score": 360.0,
+  "rank": 306
+}

@@ -64,8 +64,10 @@ def badge_svg(username, score=None, rank=None, verified=False, unranked=False):
 </svg>'''
 
 
-# Generate for all ranked users
-for u in lb:
+# Generate badges ONLY for top 1000 globally (hybrid scalability)
+# Rest use default.svg (unranked) — keeps repo size manageable
+top_users = sorted(lb, key=lambda x: x["rank"])[:1000]
+for u in top_users:
     svg = badge_svg(u["username"], u["rank_score"], u["rank"], u["is_human_verified"])
     with open(f"web/public/badges/{u['username']}.svg", "w", encoding="utf-8") as f:
         f.write(svg)

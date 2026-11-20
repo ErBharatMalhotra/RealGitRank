@@ -1,0 +1,16 @@
+{
+  "username": "dev_24484",
+  "country": "Brunei",
+  "primary_language": "Swift",
+  "total_pushes": 5,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 541.7924448847064,
+  "s_quality": 75.60688308675425,
+  "s_impact": 472.85207060494355,
+  "s_consistency": 206.25649553953028,
+  "rank_score": 357.7,
+  "rank": 537
+}

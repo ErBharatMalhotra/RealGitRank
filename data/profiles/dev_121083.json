@@ -1,0 +1,16 @@
+{
+  "username": "dev_121083",
+  "country": "Nauru",
+  "primary_language": "Kotlin",
+  "total_pushes": 33,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 537.2422675008361,
+  "s_quality": 80.65819687650756,
+  "s_impact": 489.24135253559723,
+  "s_consistency": 176.49344677701848,
+  "rank_score": 357.0,
+  "rank": 635
+}

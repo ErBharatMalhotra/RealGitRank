@@ -1,0 +1,16 @@
+{
+  "username": "dev_13832",
+  "country": "Bangladesh",
+  "primary_language": "Java",
+  "total_pushes": 111,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 543.8306097995825,
+  "s_quality": 73.17943163869543,
+  "s_impact": 500.6336088358202,
+  "s_consistency": 168.7749583642993,
+  "rank_score": 359.1,
+  "rank": 385
+}

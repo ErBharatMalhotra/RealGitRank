@@ -1,0 +1,16 @@
+{
+  "username": "dev_165258",
+  "country": "Sudan",
+  "primary_language": "Python",
+  "total_pushes": 113,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 542.477625141616,
+  "s_quality": 83.12181983914539,
+  "s_impact": 485.50715918664145,
+  "s_consistency": 181.70190026417288,
+  "rank_score": 359.3,
+  "rank": 366
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_94865",
+  "country": "Latvia",
+  "primary_language": "Go",
+  "total_pushes": 306,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 541.917591576207,
+  "s_quality": 74.31047042281969,
+  "s_impact": 481.3100236551329,
+  "s_consistency": 200.49887301980823,
+  "rank_score": 358.7,
+  "rank": 420
+}

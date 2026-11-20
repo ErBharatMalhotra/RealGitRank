@@ -1,0 +1,16 @@
+{
+  "username": "dev_194308",
+  "country": "Zimbabwe",
+  "primary_language": "Java",
+  "total_pushes": 63,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 542.3940303540087,
+  "s_quality": 73.35903773546961,
+  "s_impact": 501.4147131647085,
+  "s_consistency": 177.3630754161636,
+  "rank_score": 360.1,
+  "rank": 302
+}

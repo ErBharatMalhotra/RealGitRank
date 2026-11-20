@@ -1,0 +1,16 @@
+{
+  "username": "dev_192707",
+  "country": "Yemen",
+  "primary_language": "Python",
+  "total_pushes": 93,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 536.6313443185697,
+  "s_quality": 75.85992047651379,
+  "s_impact": 490.38541030109144,
+  "s_consistency": 201.72560328479258,
+  "rank_score": 359.6,
+  "rank": 341
+}

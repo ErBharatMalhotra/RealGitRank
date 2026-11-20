@@ -1,16 +1,16 @@
 {
   "username": "dev_3021",
-  "country": "Canada",
-  "primary_language": "Go",
-  "total_pushes": 333,
-  "merged_prs": 25,
+  "country": "Andorra",
+  "primary_language": "JavaScript",
+  "total_pushes": 258,
+  "merged_prs": 39,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 433.34421246598146,
-  "s_quality": 89.06752954231368,
-  "s_impact": 474.57403856082243,
-  "s_consistency": 129.99875055899417,
-  "rank_score": 312.1,
-  "rank": 1300
+  "s_pr": 547.9077782465284,
+  "s_quality": 91.15128263549015,
+  "s_impact": 478.4232252058246,
+  "s_consistency": 179.17731650215612,
+  "rank_score": 361.0,
+  "rank": 224
 }

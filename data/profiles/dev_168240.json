@@ -1,0 +1,16 @@
+{
+  "username": "dev_168240",
+  "country": "Switzerland",
+  "primary_language": "TypeScript",
+  "total_pushes": 100,
+  "merged_prs": 35,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 530.7200789800276,
+  "s_quality": 97.92488458081013,
+  "s_impact": 504.44281653330756,
+  "s_consistency": 199.23475255308134,
+  "rank_score": 366.2,
+  "rank": 50
+}

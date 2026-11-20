@@ -1,0 +1,16 @@
+{
+  "username": "dev_87849",
+  "country": "Kiribati",
+  "primary_language": "Go",
+  "total_pushes": 120,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 540.2585211570904,
+  "s_quality": 72.9151669168431,
+  "s_impact": 477.9349723925119,
+  "s_consistency": 191.48683720916623,
+  "rank_score": 355.5,
+  "rank": 861
+}

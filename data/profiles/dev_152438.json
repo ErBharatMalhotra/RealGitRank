@@ -1,0 +1,16 @@
+{
+  "username": "dev_152438",
+  "country": "Senegal",
+  "primary_language": "Java",
+  "total_pushes": 103,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 553.069142247746,
+  "s_quality": 68.53423022806876,
+  "s_impact": 470.8401116241524,
+  "s_consistency": 197.49483222676082,
+  "rank_score": 358.0,
+  "rank": 494
+}

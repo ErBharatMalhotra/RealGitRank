@@ -1,0 +1,16 @@
+{
+  "username": "dev_170322",
+  "country": "Tajikistan",
+  "primary_language": "Swift",
+  "total_pushes": 231,
+  "merged_prs": 35,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 531.8299191783975,
+  "s_quality": 81.82521051106227,
+  "s_impact": 493.6014955829332,
+  "s_consistency": 202.15168228697442,
+  "rank_score": 360.3,
+  "rank": 288
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_130012",
+  "country": "Oman",
+  "primary_language": "Kotlin",
+  "total_pushes": 131,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 529.1442146728573,
+  "s_quality": 94.15899083327884,
+  "s_impact": 499.6542551462375,
+  "s_consistency": 201.19309997730954,
+  "rank_score": 363.8,
+  "rank": 112
+}

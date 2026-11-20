@@ -1,0 +1,16 @@
+{
+  "username": "dev_108956",
+  "country": "Marshall Islands",
+  "primary_language": "Go",
+  "total_pushes": 51,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 522.8364782373684,
+  "s_quality": 87.64248487539871,
+  "s_impact": 515.6089754525544,
+  "s_consistency": 201.7461149718031,
+  "rank_score": 364.1,
+  "rank": 102
+}

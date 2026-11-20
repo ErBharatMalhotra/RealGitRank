@@ -1,0 +1,16 @@
+{
+  "username": "dev_170706",
+  "country": "Tajikistan",
+  "primary_language": "Python",
+  "total_pushes": 396,
+  "merged_prs": 36,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 538.7360925951523,
+  "s_quality": 79.72624898719499,
+  "s_impact": 483.8324048996931,
+  "s_consistency": 191.44284888791438,
+  "rank_score": 358.2,
+  "rank": 470
+}

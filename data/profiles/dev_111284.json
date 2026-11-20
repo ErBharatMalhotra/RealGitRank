@@ -1,0 +1,16 @@
+{
+  "username": "dev_111284",
+  "country": "Mexico",
+  "primary_language": "Go",
+  "total_pushes": 68,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 537.8081170221434,
+  "s_quality": 74.49801970176934,
+  "s_impact": 489.9276375624356,
+  "s_consistency": 199.08853476104733,
+  "rank_score": 359.2,
+  "rank": 376
+}

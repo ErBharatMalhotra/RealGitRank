@@ -1,0 +1,16 @@
+{
+  "username": "dev_110070",
+  "country": "Mauritius",
+  "primary_language": "Ruby",
+  "total_pushes": 32,
+  "merged_prs": 30,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 518.2320028979007,
+  "s_quality": 89.98279755051738,
+  "s_impact": 490.9362314714426,
+  "s_consistency": 194.66996673219398,
+  "rank_score": 355.8,
+  "rank": 820
+}

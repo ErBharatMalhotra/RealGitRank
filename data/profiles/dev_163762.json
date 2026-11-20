@@ -1,0 +1,16 @@
+{
+  "username": "dev_163762",
+  "country": "Spain",
+  "primary_language": "Ruby",
+  "total_pushes": 330,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 548.9961505212888,
+  "s_quality": 79.16911721822461,
+  "s_impact": 505.24833937892447,
+  "s_consistency": 183.95604742572706,
+  "rank_score": 365.8,
+  "rank": 54
+}
