@@ -1,20 +1,19 @@
 {
   "username": "TixXin",
   "country": "",
-  "primary_language": "HTML",
+  "primary_language": "Unknown",
   "total_pushes": 1,
-  "merged_prs": 0,
+  "merged_prs": 2,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 0.0,
-  "s_quality": 43.45293923874293,
+  "s_pr": 131.83,
+  "s_quality": 32.96,
   "s_impact": 0.0,
-  "s_consistency": 44.657359027997266,
-  "rank_score": 17.6,
-  "rank": 320,
+  "s_consistency": 43.85,
+  "rank_score": 61.0,
+  "rank": 781,
   "avatar_url": "https://avatars.githubusercontent.com/u/39865687?u=e014c724e5d890454107253a3d7539173ee9f29e&v=4",
   "bio": "\u5728\u505a\u6d6e\u5c7f Fuyu\uff0c\u4e00\u5ea7\u684c\u9762\u4e0a\u7684\u5c9b \u00b7 \u535a\u5ba2\u6ca1\u505c\u66f4",
-  "company": "",
-  "location": ""
+  "company": ""
 }

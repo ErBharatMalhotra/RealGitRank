@@ -1,7 +1,8 @@
 {
-  "last_run_utc": "2026-11-20T09:25:37.355529+00:00",
+  "last_run_utc": "2026-11-20T13:43:33.442452+00:00",
   "data_age_hours": 0,
   "status": "ok",
-  "users": 6101,
+  "users": 15845,
+  "new_today": 15845,
   "source": "real"
 }
