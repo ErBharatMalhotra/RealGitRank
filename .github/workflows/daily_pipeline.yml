@@ -52,6 +52,9 @@ jobs:
       - name: Rebuild static site
         run: |
           python -m src.pipeline.sitemap
+          # Replace (not merge) the copied data dir so profiles for users who
+          # dropped out of the top 1000 don't linger as stale public files.
+          rm -rf web/public/data
           cp -r data web/public/data
           python -m src.pipeline.chunks
           cd web
