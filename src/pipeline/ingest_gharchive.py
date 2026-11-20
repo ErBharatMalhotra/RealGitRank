@@ -3,21 +3,44 @@
 Extracts everything available from GitHub Archive WITHOUT any API:
 - Pushes, merged PRs, closed issues, active repos
 - Commit message entropy (PushEvent payload.commits[].message)
-- Circadian hours (from created_at)
+- Circadian hours + hour std-dev (from created_at)
 - Stars (WatchEvent count per repo owner)
 - Forks (ForkEvent count per repo owner)
 - Org name (from event.org)
 - PR reviews (PullRequestReviewEvent count)
 - Issue comments (IssueCommentEvent count)
 - Releases (ReleaseEvent count)
+
+Quality signals are derived from what the events feed really exposes:
+- ``avg_files_changed``       mean ``pull_request.changed_files`` over merged PRs
+- ``multi_file_commit_ratio`` share of those merged PRs touching more than one file
+- ``test_file_ratio``         share of commits + merged PRs whose message/title/body
+                              mentions tests (PushEvent carries messages, not file lists)
+- ``active_shipping_weeks``   distinct ISO weeks the user pushed in (lower bound)
+- ``push_hour_stddev``        real std-dev of the user's active hours
+
+Anything we cannot observe is written as NaN ("unknown") instead of an invented
+constant, so the scoring engine can skip the payload-delta bot penalty rather than
+guess. See DATA_PIPELINE.md.
 """
-import os, sys, urllib.request, glob
+import os, sys, urllib.request
 from datetime import datetime, timedelta, timezone
+from statistics import pstdev
+
 import duckdb
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 BASE = "https://data.gharchive.org"
+
+# Never scored (mirrors the exclusions in config/scoring_weights.yaml)
+BOT_LOGINS = {"github-actions", "dependabot", "renovate[bot]", "dependabot-preview[bot]"}
+
+# Commit/PR text that suggests test coverage work
+TEST_KEYWORDS = ("test", "spec", "pytest", "jest", "unittest", "e2e", "coverage", "fixture")
+
+# Keep parquet small enough for the repo
+MAX_USERS = 50000
 
 
 def download_hour(date_str, hour, out_dir):
@@ -33,6 +56,205 @@ def download_hour(date_str, hour, out_dir):
     except Exception as e:
         print(f"  skip hour {hour}: {e}")
         return None
+
+
+def is_bot_login(login):
+    return not login or "[bot]" in login or login in BOT_LOGINS
+
+
+def has_test_signal(text):
+    """True when a commit message or PR title/body talks about tests."""
+    if not text:
+        return False
+    low = str(text).lower()
+    return any(keyword in low for keyword in TEST_KEYWORDS)
+
+
+def created_parts(created):
+    """Return (hour, date) for a gharchive created_at value, or (None, None)."""
+    if created is None:
+        return None, None
+    if hasattr(created, "hour") and hasattr(created, "date"):
+        return created.hour, created.date()
+    try:
+        dt = datetime.fromisoformat(str(created).replace("Z", "+00:00"))
+        return dt.hour, dt.date()
+    except ValueError:
+        return None, None
+
+
+def new_user(login):
+    return {
+        "username": login,
+        "total_pushes": 0,
+        "merged_prs": 0,
+        "merged_pr_weighted": 0.0,
+        "closed_issues": 0,
+        "repos": set(),
+        "commit_msgs": set(),
+        "hours": [],
+        "dates": set(),
+        "pr_files": [],
+        "multi_file_prs": 0,
+        "test_hits": 0,
+        "evidence": 0,
+        "org": "",
+        "pr_reviews": 0,
+        "issue_comments": 0,
+        "releases": 0,
+        "stars_received": 0,
+        "forks_received": 0,
+    }
+
+
+def aggregate_events(events, agg=None):
+    """Fold raw gharchive event dicts into per-user accumulators."""
+    if agg is None:
+        agg = {}
+
+    def get(login):
+        if login not in agg:
+            agg[login] = new_user(login)
+        return agg[login]
+
+    for r in events:
+        if not isinstance(r, dict):
+            continue
+
+        actor = r.get("actor") or {}
+        login = actor.get("login") if isinstance(actor, dict) else None
+        if is_bot_login(login):
+            continue
+
+        etype = r.get("type")
+        repo = r.get("repo") or {}
+        repo_name = repo.get("name") if isinstance(repo, dict) else None
+        org = r.get("org") or {}
+        org_login = org.get("login") if isinstance(org, dict) else None
+        payload = r.get("payload") or {}
+        if not isinstance(payload, dict):
+            payload = {}
+
+        u = get(login)
+        if org_login and not u["org"]:
+            u["org"] = org_login
+
+        hour, day = created_parts(r.get("created_at"))
+        if hour is not None:
+            u["hours"].append(hour)
+        if day is not None:
+            u["dates"].add(day)
+        if repo_name:
+            u["repos"].add(repo_name)
+
+        if etype == "PushEvent":
+            u["total_pushes"] += 1
+            commits = payload.get("commits")
+            if isinstance(commits, list):
+                for c in commits:
+                    if not isinstance(c, dict):
+                        continue
+                    message = c.get("message")
+                    if not message:
+                        continue
+                    u["commit_msgs"].add(message)
+                    u["evidence"] += 1
+                    if has_test_signal(message):
+                        u["test_hits"] += 1
+
+        elif etype == "PullRequestEvent":
+            if payload.get("action") != "closed":
+                continue
+            pr = payload.get("pull_request") or {}
+            if not (isinstance(pr, dict) and pr.get("merged")):
+                continue
+            u["merged_prs"] += 1
+            owner = repo_name.split("/")[0] if repo_name and "/" in repo_name else None
+            # External merges (someone else merged your PR) weigh more than self-merges.
+            u["merged_pr_weighted"] += 1.0 if owner == login else 1.5
+            changed = pr.get("changed_files")
+            if isinstance(changed, int) and changed >= 0:
+                u["pr_files"].append(changed)
+                if changed > 1:
+                    u["multi_file_prs"] += 1
+            u["evidence"] += 1
+            if has_test_signal(f"{pr.get('title') or ''} {pr.get('body') or ''}"):
+                u["test_hits"] += 1
+
+        elif etype == "IssuesEvent":
+            if payload.get("action") == "closed":
+                u["closed_issues"] += 1
+
+        elif etype == "PullRequestReviewEvent":
+            u["pr_reviews"] += 1
+
+        elif etype == "IssueCommentEvent":
+            u["issue_comments"] += 1
+
+        elif etype == "ReleaseEvent":
+            u["releases"] += 1
+
+        elif etype in ("WatchEvent", "ForkEvent"):
+            # Credit the repo owner, not the actor.
+            if repo_name and "/" in repo_name:
+                owner = repo_name.split("/")[0]
+                if owner != login:
+                    key = "stars_received" if etype == "WatchEvent" else "forks_received"
+                    get(owner)[key] += 1
+
+    return agg
+
+
+def build_rows(agg):
+    """Turn accumulators into one scoring row per user (real metrics, NaN = unknown)."""
+    rows = []
+    for d in agg.values():
+        tp = d["total_pushes"]
+        mp = d["merged_prs"]
+        if tp < 1 and mp < 1:
+            continue
+
+        hours = d["hours"]
+        repos = len(d["repos"])
+        files = d["pr_files"]
+        iso_weeks = {(day.isocalendar()[0], day.isocalendar()[1]) for day in d["dates"]}
+
+        rows.append({
+            "username": d["username"],
+            "country": "",
+            "primary_language": "Unknown",
+            "org": d["org"],
+            "total_pushes": tp,
+            "merged_prs": mp,
+            "merged_prs_external_weighted": round(d["merged_pr_weighted"], 2),
+            "closed_issues": d["closed_issues"],
+            "active_repos_touched": repos if repos > 0 else 1,
+            "unique_commit_messages": len(d["commit_msgs"]) if d["commit_msgs"] else tp,
+            "distinct_active_hours": len(set(hours)) if hours else 1,
+            "avg_files_changed": (sum(files) / len(files)) if files else float("nan"),
+            "push_hour_stddev": pstdev(hours) if len(hours) > 1 else float("nan"),
+            "test_file_ratio": (d["test_hits"] / d["evidence"]) if d["evidence"] else float("nan"),
+            "multi_file_commit_ratio": (d["multi_file_prs"] / len(files)) if files else float("nan"),
+            "language_diversity": min(repos, 5) if repos > 0 else 1,
+            "stars_fraud_filtered": d["stars_received"],
+            "forks_fraud_filtered": d["forks_received"],
+            "dependents": 0,
+            "active_shipping_weeks": max(1, min(52, len(iso_weeks))),
+            "pr_reviews": d["pr_reviews"],
+            "issue_comments": d["issue_comments"],
+            "releases": d["releases"],
+        })
+
+    # Sort by merged_prs then total_pushes
+    rows.sort(key=lambda x: (x["merged_prs"], x["total_pushes"]), reverse=True)
+    return rows[:MAX_USERS]
+
+
+def read_events(con, path):
+    """Read one gharchive file into a list of event dicts."""
+    cur = con.execute(f"SELECT * FROM read_json_auto('{path}')")
+    cols = [d[0] for d in cur.description]
+    return [dict(zip(cols, row)) for row in cur.fetchall()]
 
 
 def ingest():
@@ -53,137 +275,17 @@ def ingest():
         return False
 
     con = duckdb.connect()
-
-    # Per-user aggregation dictionaries
-    agg = {}  # username -> dict of metrics
-
-    def get(u):
-        if u not in agg:
-            agg[u] = {
-                "username": u, "total_pushes": 0, "merged_prs": 0, "closed_issues": 0,
-                "active_repos_touched": set(), "unique_commit_messages": 0, "commit_msgs": set(),
-                "distinct_hours": set(), "org": "", "pr_reviews": 0, "issue_comments": 0,
-                "releases": 0, "stars_received": 0, "forks_received": 0,
-            }
-        return agg[u]
-
+    agg = {}
     for f in files:
         try:
-            # Read all events from file
-            rows = con.execute(f"SELECT * FROM read_json_auto('{f}')").fetchall()
-            cols = [d[0] for d in con.execute(f"SELECT * FROM read_json_auto('{f}') LIMIT 0").description]
-            idx = {c: i for i, c in enumerate(cols)}
-            for row in rows:
-                r = dict(zip(cols, row))
-                actor = r.get("actor") or {}
-                login = (actor.get("login") if isinstance(actor, dict) else None)
-                if not login or "[bot]" in login or login in ("github-actions", "dependabot", "renovate[bot]"):
-                    continue
-                etype = r.get("type")
-                repo = r.get("repo") or {}
-                repo_name = repo.get("name") if isinstance(repo, dict) else None
-                org = r.get("org") or {}
-                org_login = org.get("login") if isinstance(org, dict) else None
-                created = r.get("created_at")
-                payload = r.get("payload") or {}
-
-                u = get(login)
-                if org_login and not u["org"]:
-                    u["org"] = org_login
-                if created:
-                    try:
-                        hour = created.hour if hasattr(created, "hour") else int(str(created)[11:13])
-                        u["distinct_hours"].add(hour)
-                    except Exception:
-                        pass
-                if repo_name:
-                    u["active_repos_touched"].add(repo_name)
-
-                if etype == "PushEvent":
-                    u["total_pushes"] += 1
-                    commits = payload.get("commits") if isinstance(payload, dict) else None
-                    if isinstance(commits, list):
-                        for c in commits:
-                            if isinstance(c, dict) and c.get("message"):
-                                u["commit_msgs"].add(c["message"])
-
-                elif etype == "PullRequestEvent":
-                    if isinstance(payload, dict) and payload.get("action") == "closed":
-                        pr = payload.get("pull_request") or {}
-                        if isinstance(pr, dict) and pr.get("merged"):
-                            u["merged_prs"] += 1
-
-                elif etype == "IssuesEvent":
-                    if isinstance(payload, dict) and payload.get("action") == "closed":
-                        u["closed_issues"] += 1
-
-                elif etype == "PullRequestReviewEvent":
-                    u["pr_reviews"] += 1
-
-                elif etype == "IssueCommentEvent":
-                    u["issue_comments"] += 1
-
-                elif etype == "ReleaseEvent":
-                    u["releases"] += 1
-
-                elif etype == "WatchEvent":
-                    # star on a repo — credit the repo owner
-                    if repo_name and "/" in repo_name:
-                        owner = repo_name.split("/")[0]
-                        if owner != login:
-                            # credit owner if they're in our set (will be added if not)
-                            get(owner)["stars_received"] += 1
-
-                elif etype == "ForkEvent":
-                    if repo_name and "/" in repo_name:
-                        owner = repo_name.split("/")[0]
-                        if owner != login:
-                            get(owner)["forks_received"] += 1
-
+            aggregate_events(read_events(con, f), agg)
         except Exception as e:
             print(f"  error processing {f}: {e}")
+    con.close()
 
     print(f"Aggregated {len(agg)} users")
 
-    # Filter: at least 1 push or 1 merged PR
-    rows = []
-    for u, d in agg.items():
-        tp = d["total_pushes"]
-        mp = d["merged_prs"]
-        if tp < 1 and mp < 1:
-            continue
-        ar = len(d["active_repos_touched"])
-        dah = len(d["distinct_hours"])
-        rows.append({
-            "username": d["username"],
-            "country": "",
-            "primary_language": "Unknown",
-            "org": d["org"],
-            "total_pushes": tp,
-            "merged_prs": mp,
-            "merged_prs_external_weighted": mp * 1.5,
-            "closed_issues": d["closed_issues"],
-            "active_repos_touched": ar if ar > 0 else 1,
-            "unique_commit_messages": len(d["commit_msgs"]) if d["commit_msgs"] else tp,
-            "distinct_active_hours": dah if dah > 0 else 1,
-            "avg_files_changed": 2.0,
-            "push_hour_stddev": 4.0,
-            "test_file_ratio": 0.0,
-            "multi_file_commit_ratio": 0.3,
-            "language_diversity": min(ar, 5) if ar > 0 else 1,
-            "stars_fraud_filtered": d["stars_received"],
-            "forks_fraud_filtered": d["forks_received"],
-            "dependents": 0,
-            "active_shipping_weeks": min(52, max(1, tp // 5)),
-            "pr_reviews": d["pr_reviews"],
-            "issue_comments": d["issue_comments"],
-            "releases": d["releases"],
-        })
-
-    # Sort by merged_prs then total_pushes
-    rows.sort(key=lambda x: (x["merged_prs"], x["total_pushes"]), reverse=True)
-    # Keep top 50000 for repo size sanity (real data; scale up later)
-    rows = rows[:50000]
+    rows = build_rows(agg)
 
     import pyarrow as pa, pyarrow.parquet as pq
     os.makedirs("data", exist_ok=True)
