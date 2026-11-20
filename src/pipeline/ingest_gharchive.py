@@ -19,15 +19,16 @@ Quality signals are derived from what the events feed really exposes:
 - ``active_shipping_weeks``   distinct ISO weeks the user pushed in (lower bound)
 - ``push_hour_stddev``        real std-dev of the user's active hours
 
-Anything we cannot observe is written as NaN ("unknown") instead of an invented
-constant, so the scoring engine can skip the payload-delta bot penalty rather than
-guess. See DATA_PIPELINE.md.
+The public gharchive feed ships trimmed payloads: PushEvent payloads are empty (no
+commit messages) and PullRequestEvent carries only url/id/number/head/base (no merged
+flag, no changed_files, no title), with merges reported as action="merged". So those
+quality signals usually stay NaN ("unknown") rather than being invented; the scoring
+engine skips the corresponding penalties for unknown values instead of guessing.
+Merged PRs are recognised from both action="merged" and action="closed"+merged=true.
 """
-import os, sys, urllib.request
+import gzip, json, os, sys, urllib.request
 from datetime import datetime, timedelta, timezone
 from statistics import pstdev
-
-import duckdb
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -163,10 +164,15 @@ def aggregate_events(events, agg=None):
                         u["test_hits"] += 1
 
         elif etype == "PullRequestEvent":
-            if payload.get("action") != "closed":
+            # gharchive reports merges as action="merged"; the Events API uses
+            # action="closed" plus pull_request.merged. Accept both.
+            action = payload.get("action")
+            if action not in ("merged", "closed"):
                 continue
             pr = payload.get("pull_request") or {}
-            if not (isinstance(pr, dict) and pr.get("merged")):
+            if not isinstance(pr, dict):
+                continue
+            if action != "merged" and pr.get("merged") is not True:
                 continue
             u["merged_prs"] += 1
             owner = repo_name.split("/")[0] if repo_name and "/" in repo_name else None
@@ -229,7 +235,8 @@ def build_rows(agg):
             "merged_prs_external_weighted": round(d["merged_pr_weighted"], 2),
             "closed_issues": d["closed_issues"],
             "active_repos_touched": repos if repos > 0 else 1,
-            "unique_commit_messages": len(d["commit_msgs"]) if d["commit_msgs"] else tp,
+            # NaN = no commit messages observed in this feed, so entropy is unknown
+            "unique_commit_messages": len(d["commit_msgs"]) if d["commit_msgs"] else float("nan"),
             "distinct_active_hours": len(set(hours)) if hours else 1,
             "avg_files_changed": (sum(files) / len(files)) if files else float("nan"),
             "push_hour_stddev": pstdev(hours) if len(hours) > 1 else float("nan"),
@@ -250,11 +257,24 @@ def build_rows(agg):
     return rows[:MAX_USERS]
 
 
-def read_events(con, path):
-    """Read one gharchive file into a list of event dicts."""
-    cur = con.execute(f"SELECT * FROM read_json_auto('{path}')")
-    cols = [d[0] for d in cur.description]
-    return [dict(zip(cols, row)) for row in cur.fetchall()]
+def read_events(path):
+    """Stream a gharchive .json.gz file into event dicts.
+
+    Parsed in Python on purpose: duckdb's read_json_auto infers struct schemas from a
+    sample, and gharchive PR payloads vary enough that fields such as
+    ``pull_request.merged`` were missing from the inferred struct - which zeroed the
+    whole Delivery pillar. Streaming the JSON keeps every key intact.
+    """
+    opener = gzip.open if path.endswith(".gz") else open
+    with opener(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                yield json.loads(line)
+            except json.JSONDecodeError:
+                continue
 
 
 def ingest():
@@ -274,14 +294,12 @@ def ingest():
     if not files:
         return False
 
-    con = duckdb.connect()
     agg = {}
     for f in files:
         try:
-            aggregate_events(read_events(con, f), agg)
+            aggregate_events(read_events(f), agg)
         except Exception as e:
             print(f"  error processing {f}: {e}")
-    con.close()
 
     print(f"Aggregated {len(agg)} users")
 

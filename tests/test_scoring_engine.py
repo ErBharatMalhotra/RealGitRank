@@ -81,6 +81,13 @@ def test_entropy_penalty_threshold(tmp_path):
     assert out["is_bot_classified"] is False
 
 
+def test_unknown_entropy_is_not_penalized(tmp_path):
+    """No commit messages in the feed means entropy is unknown, not zero."""
+    out = score(tmp_path, [row(unique_commit_messages=float("nan"))])[0]
+    assert out["bot_penalty"] == 0.0
+    assert out["is_human_verified"] is True
+
+
 def test_circadian_penalty_threshold(tmp_path):
     out = score(tmp_path, [row(distinct_active_hours=23)])[0]
     assert out["bot_penalty"] == 0.3

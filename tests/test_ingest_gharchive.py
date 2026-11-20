@@ -27,12 +27,22 @@ def push(login, messages, when=None, repo="owner/repo"):
     )
 
 
-def merged_pr(login, changed_files=None, title="change", repo="owner/repo", when=None):
+def merged_pr(login, changed_files=None, title="change", repo="owner/repo", when=None, action="closed"):
     pr = {"merged": True, "title": title, "body": ""}
     if changed_files is not None:
         pr["changed_files"] = changed_files
     return event(login, "PullRequestEvent", repo=repo, when=when,
-                 payload={"action": "closed", "pull_request": pr})
+                 payload={"action": action, "pull_request": pr})
+
+
+def gharchive_merged_pr(login, repo="owner/repo", when=None):
+    """Shape produced by the live feed: action="merged", trimmed pull_request object."""
+    return event(
+        login, "PullRequestEvent", repo=repo, when=when,
+        payload={"action": "merged", "number": 7, "pull_request": {
+            "url": f"https://api.github.com/repos/{repo}/pulls/7", "id": 1, "number": 7,
+            "head": {"ref": "feature"}, "base": {"ref": "main"}}},
+    )
 
 
 def rows(events):
@@ -81,6 +91,32 @@ def test_merged_pr_file_counts_are_real():
     assert r["merged_prs_external_weighted"] == pytest.approx(2.5)
 
 
+def test_merged_action_is_counted_without_merged_flag():
+    """The live feed uses action="merged" and carries no merged/changed_files fields."""
+    out = rows([
+        gharchive_merged_pr("frank", repo="someone/else"),
+        gharchive_merged_pr("frank", repo="frank/own"),
+    ])
+    r = by_name(out, "frank")
+    assert r["merged_prs"] == 2
+    assert r["merged_prs_external_weighted"] == pytest.approx(2.5)
+    assert r["avg_files_changed"] != r["avg_files_changed"]  # unknown, not invented
+
+
+def test_closed_without_merge_is_ignored():
+    closed_unmerged = event("gina", "PullRequestEvent",
+                            payload={"action": "closed", "pull_request": {"merged": False}})
+    assert rows([closed_unmerged]) == []
+
+
+def test_entropy_is_unknown_without_commit_messages():
+    """Empty PushEvent payloads must not be read as perfectly unique messages."""
+    r = by_name(rows([event("hugo", "PushEvent")]), "hugo")
+    assert r["total_pushes"] == 1
+    assert r["unique_commit_messages"] != r["unique_commit_messages"]  # NaN
+    assert r["test_file_ratio"] != r["test_file_ratio"]  # NaN
+
+
 def test_pr_without_file_counts_stays_unknown():
     r = by_name(rows([merged_pr("carol")]), "carol")
     assert r["avg_files_changed"] != r["avg_files_changed"]  # NaN
@@ -124,11 +160,10 @@ def test_users_without_shipping_activity_are_filtered():
     assert out == []
 
 
-def test_duckdb_gharchive_json_round_trip(tmp_path):
-    """The real ingest reads hourly JSON files through duckdb, so keep that path tested."""
+def test_gharchive_file_round_trip(tmp_path):
+    """read_events must keep payload keys that schema inference used to drop."""
+    import gzip
     import json
-
-    import duckdb
 
     from ingest_gharchive import read_events
 
@@ -145,14 +180,17 @@ def test_duckdb_gharchive_json_round_trip(tmp_path):
                 "merged": True, "title": "fix parser", "body": "", "changed_files": 3}},
         },
     ]
-    path = tmp_path / "2026-11-20-10.json"
-    path.write_text("\n".join(json.dumps(e) for e in events), encoding="utf-8")
+    payload = "\n".join(json.dumps(e) for e in events)
+    plain = tmp_path / "2026-11-20-10.json"
+    plain.write_text(payload, encoding="utf-8")
+    packed = tmp_path / "2026-11-20-11.json.gz"
+    with gzip.open(packed, "wt", encoding="utf-8") as f:
+        f.write(payload)
 
-    con = duckdb.connect()
-    try:
-        found = read_events(con, str(path))
-    finally:
-        con.close()
+    found = list(read_events(str(plain)))
+    assert len(found) == 2
+    assert found[1]["payload"]["pull_request"]["merged"] is True
+    assert len(list(read_events(str(packed)))) == 2
 
     zoe = by_name(build_rows(aggregate_events(found)), "zoe")
     assert zoe["merged_prs"] == 1

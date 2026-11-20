@@ -45,6 +45,7 @@ def compute_rank_scores(parquet_file_path):
     data = {c: [r[i] for r in rows] for i, c in enumerate(cols)}
 
     total_pushes = _num(data, "total_pushes", 0.0, n)
+    unique_msgs_raw = _float_col(data, "unique_commit_messages", n)
     unique_msgs = _num(data, "unique_commit_messages", 0.0, n)
     distinct_hours = _num(data, "distinct_active_hours", 1.0, n)
     merged_prs = _num(data, "merged_prs", 0.0, n)
@@ -76,8 +77,10 @@ def compute_rank_scores(parquet_file_path):
     denom = np.maximum(total_pushes, 1.0)
     entropy_ratio = unique_msgs / denom
     pushes_exist = total_pushes > 0
+    # Entropy is only judged when commit messages were actually observed.
+    entropy_known = np.zeros(n, dtype=bool) if unique_msgs_raw is None else ~np.isnan(unique_msgs_raw)
     bot_penalty = np.zeros(n)
-    bot_penalty = np.where(pushes_exist & (entropy_ratio < 0.10), bot_penalty + 0.50, bot_penalty)
+    bot_penalty = np.where(pushes_exist & entropy_known & (entropy_ratio < 0.10), bot_penalty + 0.50, bot_penalty)
     bot_penalty = np.where(distinct_hours >= 23, bot_penalty + 0.30, bot_penalty)
     if avg_files is not None:
         files_known = ~np.isnan(avg_files)
