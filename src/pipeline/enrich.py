@@ -148,9 +148,11 @@ def enrich(top_n=10000):
         info = cache.get(u["username"])
         if info:
             country = extract_country(info["location"])
-            if country and not u.get("country"):
+            if country:
                 u["country"] = country
                 updated += 1
+            u["avatar_url"] = info.get("avatar_url", "")
+            u["bio"] = info.get("bio", "")
             # Save avatar/bio to profile if exists
             prof_path = f"data/profiles/{u['username']}.json"
             if os.path.exists(prof_path):
@@ -160,18 +162,10 @@ def enrich(top_n=10000):
                 prof["bio"] = info.get("bio", "")
                 prof["company"] = info.get("company", "")
                 prof["location"] = info.get("location", "")
-                if country and not prof.get("country"):
+                if country:
                     prof["country"] = country
                 with open(prof_path, "w") as f:
                     json.dump(prof, f, indent=2)
-
-    # Update leaderboard country field
-    for u in lb:
-        info = cache.get(u["username"])
-        if info:
-            country = extract_country(info["location"])
-            if country:
-                u["country"] = country
 
     with open("data/leaderboard.json", "w") as f:
         json.dump(lb, f, indent=2)

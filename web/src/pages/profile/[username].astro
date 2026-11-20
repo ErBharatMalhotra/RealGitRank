@@ -50,7 +50,10 @@ const { data } = Astro.props;
   </head>
   <body>
     <a href="/">← Back to leaderboard</a>
-    <h1>{username}</h1>
+    <div style="display:flex;align-items:center;gap:16px;margin-bottom:12px">
+      {data.avatar_url && <img src={data.avatar_url} alt={username} width="64" height="64" style="border-radius:50%;border:2px solid var(--accent)" />}
+      <h1 style="margin:0">{username}</h1>
+    </div>
     <p>{data.is_human_verified ? '✓ Verified Human Engineer' : (data.is_bot_classified ? '🤖 Classified as bot' : 'Developer')}</p>
     <img class="badge" src={`/badges/${username}.svg`} alt="badge" width="200" height="60" />
     <div class="card">
