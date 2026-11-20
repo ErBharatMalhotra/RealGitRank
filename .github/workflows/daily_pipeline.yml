@@ -25,7 +25,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install deps
-        run: pip install duckdb numpy pyarrow google-cloud-bigquery requests
+        run: pip install duckdb numpy pyarrow google-cloud-bigquery requests pytz
 
       - name: Run pipeline (gharchive.org -> DuckDB -> snapshots)
         run: python src/pipeline/run.py
