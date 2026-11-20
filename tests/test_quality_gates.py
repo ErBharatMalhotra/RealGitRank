@@ -1,5 +1,7 @@
 """Tests for the SPEC quality gates and the rolling baseline."""
-from quality_gates import DEFAULT_GATES, append_history, evaluate, summarize
+import textwrap
+
+from quality_gates import CONFIG_PATH, DEFAULT_GATES, append_history, evaluate, load_gate_config, summarize
 
 GATES = dict(DEFAULT_GATES)
 
@@ -68,6 +70,25 @@ def test_null_username_fails():
     assert any("null usernames" in e for e in errors)
 
 
+def test_null_username_rate_threshold_comes_from_config():
+    """username_null_max_pct used to be ignored: any null failed the build."""
+    permissive = dict(GATES, username_null_max_pct=1)
+    errors, _ = evaluate(today(nulls=2), baseline(), permissive)  # 0.2% of 1000 rows
+    assert errors == []
+
+    strict = dict(GATES, username_null_max_pct=0)
+    errors, _ = evaluate(today(nulls=2), baseline(), strict)
+    assert any("null usernames" in e for e in errors)
+
+
+def test_min_rows_absolute_floor_comes_from_config():
+    errors, _ = evaluate(today(rows=1000), baseline(runs=0), dict(GATES, min_rows_absolute=5000))
+    assert any("row count too low" in e for e in errors)
+
+    errors, _ = evaluate(today(rows=1000), baseline(runs=0), dict(GATES, min_rows_absolute=10))
+    assert errors == []
+
+
 def test_out_of_range_and_flat_scores_fail():
     snapping = today()
     snapping["score_max"] = 1200
@@ -96,6 +117,40 @@ def test_summarize_leaderboard():
     assert s["score_min"] == 100.0
     assert s["score_max"] == 300.0
     assert s["bot_rate"] == round(1 / 3, 5)
+
+
+def test_gates_load_thresholds_from_pipeline_yaml():
+    gates = load_gate_config(CONFIG_PATH)
+    assert gates["row_count_min_pct_of_30d_median"] == 80
+    assert gates["score_shift_sigma_max"] == 3
+    assert gates["bot_classification_jump_max_x"] == 2
+    assert gates["min_baseline_days"] == 5
+    assert gates["min_rows_absolute"] == 10
+    assert set(DEFAULT_GATES) <= set(gates)
+
+
+def test_thresholds_from_a_config_file_change_the_verdict(tmp_path):
+    """Proof the gates read the YAML: same snapshot, two configs, two outcomes."""
+    config = tmp_path / "pipeline.yaml"
+
+    def write(pct):
+        config.write_text(
+            textwrap.dedent(
+                f"""
+                quality_gates:
+                  row_count_min_pct_of_30d_median: {pct}
+                  username_null_max_pct: 0
+                  score_shift_sigma_max: 3
+                  bot_classification_jump_max_x: 2
+                """
+            ),
+            encoding="utf-8",
+        )
+        return load_gate_config(str(config))
+
+    snapshot = today(rows=700)  # below 80% of the 1000-row baseline
+    assert any("row count" in e for e in evaluate(snapshot, baseline(), write(80))[0])
+    assert evaluate(snapshot, baseline(), write(50))[0] == []
 
 
 def test_append_history_replaces_same_date_and_caps():
