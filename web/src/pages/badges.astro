@@ -1,0 +1,200 @@
+---
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>README Badges — RealGitRank</title>
+    <meta name="description" content="Find your RealGitRank badge and copy the markdown snippet for your GitHub README." />
+    <link rel="canonical" href="https://realgitrank.bharatdn.com/badges/" />
+    <style>
+      :root { --bg: #0b0f19; --panel: #131a2b; --ink: #e8ecf4; --muted: #8a93a6; --accent: #f59e0b; --accent-2: #14b8a6; --line: #1f2740; }
+      body { font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; max-width: 860px; margin: 0 auto; padding: 28px 20px 56px; background: var(--bg); color: var(--ink); line-height: 1.55; }
+      h1 { font-size: 2.4rem; margin: 0 0 4px; letter-spacing: -0.02em; }
+      h1 span { color: var(--accent); }
+      h2 { font-size: 1.1rem; margin: 0 0 12px; }
+      .sub { color: var(--muted); margin: 0 0 24px; }
+      .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 20px; margin: 0 0 20px; }
+      label { display: block; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+      input { width: 100%; box-sizing: border-box; padding: 12px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font-size: 15px; font-family: inherit; }
+      input:focus { border-color: var(--accent); outline: none; }
+      .results { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+      .results button { background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; font-family: inherit; font-size: 13px; cursor: pointer; }
+      .results button:hover { border-color: var(--accent); color: var(--accent); }
+      .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 20px; margin-bottom: 20px; }
+      .card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+      .who { font-size: 20px; font-weight: 700; }
+      .meta { color: var(--muted); font-size: 13px; }
+      .badge-preview { margin: 16px 0; min-height: 64px; }
+      pre { background: var(--bg); padding: 12px; border-radius: 6px; overflow: auto; font-size: 12.5px; border: 1px solid var(--line); margin: 0 0 12px; }
+      .copy { padding: 10px 18px; border-radius: 6px; border: 1px solid var(--accent); background: var(--accent); color: #111827; font-family: inherit; font-size: 14px; font-weight: 700; cursor: pointer; }
+      .copy:hover { filter: brightness(1.08); }
+      .copy.done { background: var(--accent-2); border-color: var(--accent-2); }
+      .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; margin-bottom: 20px; }
+      .gallery figure { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; text-align: center; }
+      .gallery img { width: 100%; height: auto; display: block; border-radius: 6px; }
+      .gallery figcaption { color: var(--muted); font-size: 12px; margin-top: 8px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      ol { margin: 0; padding-left: 20px; color: var(--ink); }
+      ol li { margin: 6px 0; }
+      a { color: var(--accent); }
+      .note { color: var(--muted); font-size: 13px; margin: 8px 0 0; }
+      :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    </style>
+  </head>
+  <body>
+    <a href="/">← Leaderboard</a>
+    <h1>Real<span>Git</span>Rank badges</h1>
+    <p class="sub">Find your badge, copy the markdown, and show your verified engineering impact in your README.</p>
+
+    <div class="panel">
+      <label for="q">Find your GitHub username</label>
+      <input id="q" type="search" placeholder="e.g. sirine2907" autocomplete="off" spellcheck="false" />
+      <div class="results" id="results"></div>
+      <p class="note" id="hint">Type at least 2 characters. Profiles ranked in today's snapshot are included.</p>
+    </div>
+
+    <div id="card"></div>
+
+    <h2>Top badges right now</h2>
+    <div class="gallery" id="gallery"></div>
+
+    <div class="card" id="how">
+      <h2>Get your badge</h2>
+      <ol>
+        <li>Get ranked: push real work to GitHub. RealGitRank scores merged PRs, code health, adoption and consistency every day — commit count alone doesn't move you.</li>
+        <li>Find your username above (or open <code>/badges/?u=your-username</code> directly) and copy the markdown snippet.</li>
+        <li>Paste it in your README. The badge image refreshes with every daily snapshot.</li>
+      </ol>
+      <p class="note">Badge images are generated for the global top 1,000, so everyone else gets the neutral “Not Ranked” badge until they break into the top 1,000. The badge link always points at your profile page.</p>
+      <p class="note">Not on the leaderboard yet? <a href="/">Check the leaderboard</a> to see where you stand.</p>
+    </div>
+
+    <script is:inline>
+      const CDN = 'https://realgitrank.bharatdn.com';
+      const input = document.getElementById('q');
+      const results = document.getElementById('results');
+      const hint = document.getElementById('hint');
+      const card = document.getElementById('card');
+      const gallery = document.getElementById('gallery');
+      const esc = (v) => String(v == null ? '' : v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+      const BADGE_LIMIT = 1000;
+
+      let usersPromise = null;
+      function allUsers() {
+        if (!usersPromise) {
+          usersPromise = (async () => {
+            try {
+              const idx = await (await fetch('/data/chunks/index.json')).json();
+              const pages = await Promise.all(
+                Array.from({ length: idx.pages || 0 }, (_, i) =>
+                  fetch(`/data/chunks/page_${i + 1}.json`).then((r) => (r.ok ? r.json() : [])).catch(() => [])
+                )
+              );
+              return pages.flat().filter((u) => u && u.username);
+            } catch (e) {
+              return [];
+            }
+          })();
+        }
+        return usersPromise;
+      }
+
+      async function loadGallery() {
+        try {
+          const top = await (await fetch('/data/chunks/page_1.json')).json();
+          gallery.innerHTML = top.slice(0, 12).map((u) => `
+            <figure>
+              <img src="/badges/${encodeURIComponent(u.username)}.svg" alt="RealGitRank badge for ${esc(u.username)}" loading="lazy" onerror="this.src='/badges/default.svg'" />
+              <figcaption>#${esc(u.rank)} · ${esc(u.username)}</figcaption>
+            </figure>`).join('');
+        } catch (e) {
+          gallery.innerHTML = '<p class="note">Could not load badges right now.</p>';
+        }
+      }
+
+      function select(user) {
+        const hasBadge = user.rank <= BADGE_LIMIT;
+        const badgeUrl = `${CDN}/badges/${hasBadge ? encodeURIComponent(user.username) : 'default'}.svg`;
+        const profileUrl = `${CDN}/profile/${encodeURIComponent(user.username)}`;
+        const snippet = `[![RealGitRank](${badgeUrl})](${profileUrl})`;
+        card.innerHTML = `
+          <div class="card">
+            <div class="card-head">
+              <div class="who">${esc(user.username)}</div>
+              <div class="meta">Global rank #${esc(user.rank)} · Score ${esc(user.rank_score)}${user.is_human_verified ? ' · ✓ verified human' : ''}</div>
+            </div>
+            <div class="badge-preview"><img src="/badges/${encodeURIComponent(user.username)}.svg" alt="RealGitRank badge for ${esc(user.username)}" width="220" height="64" onerror="this.src='/badges/default.svg'" /></div>
+            <label for="snippet">README markdown</label>
+            <pre id="snippet">${esc(snippet)}</pre>
+            <button class="copy" id="copy" type="button">Copy markdown</button>
+            ${hasBadge ? '' : '<p class="note">Your badge image isn’t generated yet (top 1,000 only) — the snippet uses the neutral badge for now.</p>'}
+          </div>`;
+        const button = document.getElementById('copy');
+        button.addEventListener('click', async () => {
+          try {
+            await navigator.clipboard.writeText(snippet);
+          } catch (e) {
+            const range = document.createRange();
+            range.selectNodeContents(document.getElementById('snippet'));
+            const sel = window.getSelection();
+            sel.removeAllRanges();
+            sel.addRange(range);
+            document.execCommand('copy');
+            sel.removeAllRanges();
+          }
+          button.textContent = 'Copied ✓';
+          button.classList.add('done');
+          setTimeout(() => { button.textContent = 'Copy markdown'; button.classList.remove('done'); }, 1800);
+        });
+        card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      async function search(value) {
+        const q = value.trim().toLowerCase();
+        results.innerHTML = '';
+        if (q.length < 2) { hint.textContent = 'Type at least 2 characters.'; return; }
+        hint.textContent = 'Searching…';
+        const users = await allUsers();
+        const exact = users.find((u) => u.username.toLowerCase() === q);
+        if (exact) {
+          hint.textContent = '';
+          select(exact);
+          return;
+        }
+        const matches = users.filter((u) => u.username.toLowerCase().includes(q)).slice(0, 8);
+        if (!matches.length) {
+          hint.textContent = `No ranked user matches “${value.trim()}”. They may not have been scored yet.`;
+          return;
+        }
+        hint.textContent = `${matches.length === 8 ? '8+' : matches.length} match${matches.length === 1 ? '' : 'es'} — pick one:`;
+        results.innerHTML = '';
+        matches.forEach((u) => {
+          const b = document.createElement('button');
+          b.type = 'button';
+          b.textContent = `#${u.rank} ${u.username}`;
+          b.addEventListener('click', () => { input.value = u.username; results.innerHTML = ''; hint.textContent = ''; select(u); });
+          results.appendChild(b);
+        });
+      }
+
+      let timer = null;
+      input.addEventListener('input', () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => search(input.value), 220);
+      });
+
+      (async () => {
+        loadGallery();
+        const preset = new URLSearchParams(location.search).get('u');
+        if (preset) {
+          input.value = preset;
+          const users = await allUsers();
+          const hit = users.find((u) => u.username.toLowerCase() === preset.toLowerCase());
+          hint.textContent = '';
+          if (hit) select(hit);
+          else hint.textContent = `No ranked user matches “${preset}”.`;
+        }
+      })();
+    </script>
+  </body>
+</html>
