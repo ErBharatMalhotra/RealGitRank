@@ -8,10 +8,15 @@ on:
 permissions:
   contents: write
   issues: write
+  pages: write
+  id-token: write
 
 jobs:
   ingest-and-score:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -50,6 +55,15 @@ jobs:
           git add data/ web/public/badges/
           git commit -m "chore: daily RealGitRank snapshot $(date -u +%Y-%m-%d)" || echo "no changes"
           git push origin HEAD:main
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
       - name: Open issue on failure
         if: failure()
