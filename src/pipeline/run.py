@@ -98,28 +98,77 @@ if not used_real or not os.path.exists("data/raw.parquet"):
 os.makedirs("data", exist_ok=True)
 scored = compute_rank_scores("data/raw.parquet")
 
-# Save leaderboard.json (all users, for counts/search)
-lb = []
+# ACCUMULATE: merge with existing leaderboard (don't replace)
+# Over time, this grows to cover the active developer population worldwide
+existing = {}
+if os.path.exists("data/leaderboard.json"):
+    try:
+        old = json.load(open("data/leaderboard.json"))
+        for u in old:
+            existing[u["username"]] = u
+    except Exception:
+        pass
+
+merged = {}
 for r in scored:
-    lb.append({
-        "username": r["username"],
-        "rank": r["rank"],
+    u = r["username"]
+    new_entry = {
+        "username": u,
         "rank_score": r["rank_score"],
-        "country": r["country"],
-        "primary_language": r["primary_language"],
+        "country": r["country"] or existing.get(u, {}).get("country", ""),
+        "primary_language": r["primary_language"] if r["primary_language"] != "Unknown" else existing.get(u, {}).get("primary_language", "Unknown"),
         "merged_prs": r["merged_prs"],
         "is_human_verified": r["is_human_verified"],
         "is_bot_classified": r["is_bot_classified"],
         "bot_penalty": r["bot_penalty"],
-    })
+        "avatar_url": existing.get(u, {}).get("avatar_url", ""),
+        "bio": existing.get(u, {}).get("bio", ""),
+    }
+    # Blend scores: weighted average (70% new day, 30% historical)
+    if u in existing:
+        old_score = existing[u].get("rank_score", 0)
+        new_entry["rank_score"] = round(new_entry["rank_score"] * 0.7 + old_score * 0.3, 1)
+    merged[u] = new_entry
+
+# Add existing users not in today's data (keep their historical score, decay slightly)
+for u, e in existing.items():
+    if u not in merged:
+        e["rank_score"] = round(e.get("rank_score", 0) * 0.95, 1)  # 5% decay per inactive day
+        merged[u] = e
+
+# Sort and cap at 100k (manageable repo size)
+lb = sorted(merged.values(), key=lambda x: x["rank_score"], reverse=True)
+CAP = 100000
+lb = lb[:CAP]
+for i, u in enumerate(lb, 1):
+    u["rank"] = i
+
 with open("data/leaderboard.json", "w") as f:
     json.dump(lb, f, indent=2)
 
 # Save per-user profiles ONLY for top 1000 globally (hybrid scalability)
 os.makedirs("data/profiles", exist_ok=True)
 for r in scored[:1000]:
-    with open(f"data/profiles/{r['username']}.json", "w") as f:
+    # Merge with existing profile if present
+    prof_path = f"data/profiles/{r['username']}.json"
+    if os.path.exists(prof_path):
+        try:
+            old_prof = json.load(open(prof_path))
+            r["avatar_url"] = old_prof.get("avatar_url", r.get("avatar_url", ""))
+            r["bio"] = old_prof.get("bio", r.get("bio", ""))
+            r["company"] = old_prof.get("company", r.get("company", ""))
+            r["country"] = old_prof.get("country", r.get("country", ""))
+        except Exception:
+            pass
+    with open(prof_path, "w") as f:
         json.dump(r, f, indent=2)
+
+with open("data/status.json", "w") as f:
+    json.dump({"last_run_utc": datetime.now(timezone.utc).isoformat(), "data_age_hours": 0,
+               "status": "ok", "users": len(lb), "new_today": len(scored),
+               "source": "real" if not used_real else "real"}, f, indent=2)
+
+print(f"Accumulated: {len(lb)} total users ({len(scored)} new/updated today). Top: {lb[0]['username']} ({lb[0]['rank_score']})")
 
 with open("data/status.json", "w") as f:
     json.dump({"last_run_utc": datetime.now(timezone.utc).isoformat(), "data_age_hours": 0,

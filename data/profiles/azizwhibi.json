@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498003,
+  "s_quality": 31.288985995498,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 831,
   "avatar_url": "https://avatars.githubusercontent.com/u/132499655?u=04c725872999fbb72555a36cfddfff2b02dd84a2&v=4",
   "bio": "Final-year Software Engineering student in Tunisia with a strong foundation in mobile and full-stack development. Currently exploring DevOps and AIOps.",
-  "company": "ESPRIT",
-  "location": "Tunisia"
+  "company": "ESPRIT"
 }

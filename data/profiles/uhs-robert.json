@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 52.08340141229636,
+  "s_quality": 52.083401412296354,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
   "rank": 118,
   "avatar_url": "https://avatars.githubusercontent.com/u/175656619?u=c664dfc64b8b50a9f02960eecbfe8b770b3fb155&v=4",
   "bio": "Principal Solutions Architect of UpHill Solutions",
-  "company": "UpHill Solutions",
-  "location": "Virginia"
+  "company": "UpHill Solutions"
 }

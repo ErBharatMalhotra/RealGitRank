@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498003,
+  "s_quality": 31.288985995498,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 628,
   "avatar_url": "https://avatars.githubusercontent.com/u/202399?u=8b3ef78ca5077ede01d01931652a833c92cec45d&v=4",
   "bio": "Mentor de desenvolvedores em forma\u00e7\u00e3o!",
-  "company": "Comunidade CoDe",
-  "location": "Brasil"
+  "company": "Comunidade CoDe"
 }

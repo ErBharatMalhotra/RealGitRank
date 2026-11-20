@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 52.08340141229636,
+  "s_quality": 52.083401412296354,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
   "rank": 109,
   "avatar_url": "https://avatars.githubusercontent.com/u/726523?u=9c6697e5aeab6861de60c9c8948d2314b59c81ad&v=4",
   "bio": "Founder & CTO @ Kedify | KEDA Maintainer",
-  "company": "Kedify",
-  "location": "Czech Republic"
+  "company": "Kedify"
 }

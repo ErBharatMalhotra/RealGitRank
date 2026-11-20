@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498003,
+  "s_quality": 31.288985995498,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 649,
   "avatar_url": "https://avatars.githubusercontent.com/u/341501263?u=7a0a50c0d7c337a192cf97afb0706fb81bd162cf&v=4",
   "bio": "",
-  "company": "",
-  "location": ""
+  "company": ""
 }

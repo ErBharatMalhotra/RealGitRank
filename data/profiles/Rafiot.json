@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 235,
   "avatar_url": "https://avatars.githubusercontent.com/u/248875?v=4",
   "bio": "",
-  "company": "@CIRCL @MISP @Lookyloo @pandora-analysis @ail-project ",
-  "location": ""
+  "company": "@CIRCL @MISP @Lookyloo @pandora-analysis @ail-project "
 }

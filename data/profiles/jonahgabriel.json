@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 273,
   "avatar_url": "https://avatars.githubusercontent.com/u/1002253?u=1977cf3f37ff2370e5b8e6f21f4628551a70abc0&v=4",
   "bio": "CEO, Engineer, Systems Architect | Building the Next Layer of Intelligent Infrastructure",
-  "company": "Jonah Gray",
-  "location": "New York"
+  "company": "Jonah Gray"
 }

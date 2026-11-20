@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498003,
+  "s_quality": 31.288985995498,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 955,
   "avatar_url": "https://avatars.githubusercontent.com/u/264426220?u=05e8bb5f2a0ac84a2548f4ce5546ec0491fe5ea8&v=4",
   "bio": "Second-year CS student at MMU Kenya. I build web apps with Django & MySQL . Full Stack Web Developer | Intern at Codomax Digital Solutions",
-  "company": "Multimedia University of Kenya ",
-  "location": "Nairobi,Kenya"
+  "company": "Multimedia University of Kenya "
 }

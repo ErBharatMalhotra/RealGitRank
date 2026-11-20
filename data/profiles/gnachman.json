@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498003,
+  "s_quality": 31.288985995498,
   "s_impact": 20.79441541679836,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
   "rank": 146,
   "avatar_url": "https://avatars.githubusercontent.com/u/427546?u=d1d55d90f88c2cc95fa619b2f3db314eacf7423e&v=4",
   "bio": "",
-  "company": "",
-  "location": "Sunnyvale, CA"
+  "company": ""
 }

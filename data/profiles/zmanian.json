@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498003,
+  "s_quality": 31.288985995498,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 723,
   "avatar_url": "https://avatars.githubusercontent.com/u/93434?u=1f5c07e41cce59b217b44537040c30fc6d26b5ee&v=4",
   "bio": "",
-  "company": "Iqlusioninc",
-  "location": "United States"
+  "company": "Iqlusioninc"
 }

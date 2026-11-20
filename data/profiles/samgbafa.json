@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 58.777707951722654,
+  "s_quality": 58.77770795172265,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 21.4,
   "rank": 73,
   "avatar_url": "https://avatars.githubusercontent.com/u/5846858?u=181fc1051bfb41b714b40d82ce9121b5b8bb3e24&v=4",
   "bio": "Network philosopher, systems designer, engineer, founder. Thinking about how to use technology for good",
-  "company": "@TinyCloudLabs",
-  "location": "NYC"
+  "company": "@TinyCloudLabs"
 }

@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498003,
+  "s_quality": 31.288985995498,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 920,
   "avatar_url": "https://avatars.githubusercontent.com/u/19554510?u=3bf66415c721e714c1319b4b0913620c5e92cab9&v=4",
   "bio": "Postdoctoral Scholar @ University of Calgary",
-  "company": "",
-  "location": "Calgary"
+  "company": ""
 }

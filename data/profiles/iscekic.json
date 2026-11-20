@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 258,
   "avatar_url": "https://avatars.githubusercontent.com/u/4062236?u=4b4359cc78cc8a6b1498fc01e8f1e1d244930050&v=4",
   "bio": "Staff full-stack engineer",
-  "company": "Kilo Code",
-  "location": "Novi Sad, Serbia"
+  "company": "Kilo Code"
 }

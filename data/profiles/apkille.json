@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498003,
+  "s_quality": 31.288985995498,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 651,
   "avatar_url": "https://avatars.githubusercontent.com/u/68079167?u=3249414f8a2e48f20dcfd2c0af358533bf68a032&v=4",
   "bio": "",
-  "company": "NYU and Flatiron Institute",
-  "location": "New York, NY"
+  "company": "NYU and Flatiron Institute"
 }

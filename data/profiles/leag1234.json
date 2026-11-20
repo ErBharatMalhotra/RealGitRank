@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 411,
   "avatar_url": "https://avatars.githubusercontent.com/u/57147261?u=d280e9c5b48683311b6f02091f9d027b873943c2&v=4",
   "bio": "https://www.indidea.org/gael/blog/about-gael-duval/",
-  "company": "/e/OS",
-  "location": ""
+  "company": "/e/OS"
 }

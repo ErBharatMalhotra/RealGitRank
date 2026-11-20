@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 254,
   "avatar_url": "https://avatars.githubusercontent.com/u/153232337?u=244b14f315c3b9feb614babf4c4d2ff18bb6a326&v=4",
   "bio": "Software architect working with .NET, identity, observability, developer tooling, and AI-assisted engineering. Building @melodic-software.",
-  "company": "@melodic-software",
-  "location": "Northeastern Ohio"
+  "company": "@melodic-software"
 }

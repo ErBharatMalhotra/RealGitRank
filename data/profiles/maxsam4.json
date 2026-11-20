@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 52.08340141229636,
+  "s_quality": 52.083401412296354,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
   "rank": 94,
   "avatar_url": "https://avatars.githubusercontent.com/u/7436022?u=b88a81b54b2f8de24b8482672866342b763d6022&v=4",
   "bio": "Blockchain Engineer | Ethereum Developer | Security Researcher | Loves coding and gaming",
-  "company": "@0xPolygon",
-  "location": "India"
+  "company": "@0xPolygon"
 }

@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 292,
   "avatar_url": "https://avatars.githubusercontent.com/u/3335181?u=e8cf069a9b3ef5f35413ae9788ce35b58455711e&v=4",
   "bio": "Long-time Typescript community & open source person. Occasional open source maintainer. Cranking away on @typescript-eslint.\r\n\r\nFrontend @sentry",
-  "company": "@getsentry",
-  "location": "Somerville, MA, USA"
+  "company": "@getsentry"
 }

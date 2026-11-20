@@ -41,6 +41,11 @@ jobs:
           GH_ENRICH_TOKEN: ${{ secrets.GH_ENRICH_TOKEN }}
         run: python src/pipeline/enrich.py || echo "enrichment skipped (no token)"
 
+      - name: Enrich language (one-time, cached) — optional
+        env:
+          GH_ENRICH_TOKEN: ${{ secrets.GH_ENRICH_TOKEN }}
+        run: python -c "import sys; sys.path.insert(0,'src/pipeline'); from enrich import enrich_language; enrich_language()" || echo "language enrichment skipped"
+
       - name: Generate badges
         run: python src/pipeline/badges.py
 

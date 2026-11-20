@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 52.08340141229636,
+  "s_quality": 52.083401412296354,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
   "rank": 140,
   "avatar_url": "https://avatars.githubusercontent.com/u/3763599?u=9642d3d5effd7b98774ed5b13438b411dc21a1dd&v=4",
   "bio": "Building the tools behind user interfaces @ahrefs",
-  "company": "@ahrefs",
-  "location": "Barcelona"
+  "company": "@ahrefs"
 }

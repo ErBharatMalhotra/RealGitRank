@@ -107,7 +107,7 @@ def extract_country(location):
     return ""
 
 
-def enrich(top_n=10000):
+def enrich(top_n=10000, do_language=False):
     if not TOKEN:
         print("No GITHUB_TOKEN — skipping enrichment (country stays empty)")
         return False
@@ -171,6 +171,81 @@ def enrich(top_n=10000):
         json.dump(lb, f, indent=2)
 
     print(f"Enrichment complete: {updated} countries updated")
+    return True
+
+
+def enrich_language(top_n=1000):
+    """One-time: fetch primary language from top repos. Cached permanently."""
+    if not TOKEN:
+        print("No token — skipping language enrichment")
+        return False
+
+    cache_path = "data/language_cache.json"
+    cache = {}
+    if os.path.exists(cache_path):
+        with open(cache_path) as f:
+            cache = json.load(f)
+
+    with open("data/leaderboard.json") as f:
+        lb = json.load(f)
+    top_users = sorted(lb, key=lambda x: x["rank"])[:top_n]
+    to_fetch = [u["username"] for u in top_users if u["username"] not in cache]
+
+    print(f"Language enrichment: {len(to_fetch)} new (cached: {len(cache)})")
+
+    for i in range(0, len(to_fetch), BATCH):
+        batch = to_fetch[i:i + BATCH]
+        parts = []
+        for j, login in enumerate(batch):
+            safe = login.replace('"', '\\"')
+            parts.append(f'u{j}: user(login: "{safe}") {{ repositories(first: 3, orderBy: {{field: STARGAZERS, direction: DESC}}) {{ nodes {{ primaryLanguage {{ name }} }} }} }}')
+        query = "query { " + " ".join(parts) + " }"
+        body = json.dumps({"query": query}).encode()
+        req = urllib.request.Request(GQL_URL, data=body, headers={
+            "Authorization": f"Bearer {TOKEN}",
+            "Content-Type": "application/json",
+            "User-Agent": "RealGitRank/1.0",
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read())
+        except Exception as e:
+            print(f"  GQL error: {e}")
+            continue
+        for j, login in enumerate(batch):
+            u = (data.get("data") or {}).get(f"u{j}")
+            if u:
+                repos = (u.get("repositories") or {}).get("nodes") or []
+                langs = [r.get("primaryLanguage", {}).get("name") for r in repos if r.get("primaryLanguage")]
+                cache[login] = langs[0] if langs else ""
+        time.sleep(1)
+        if (i // BATCH) % 5 == 0:
+            with open(cache_path, "w") as f:
+                json.dump(cache, f)
+            print(f"  {min(i + BATCH, len(to_fetch))}/{len(to_fetch)}")
+
+    with open(cache_path, "w") as f:
+        json.dump(cache, f)
+
+    # Apply to leaderboard + profiles
+    updated = 0
+    for u in lb:
+        lang = cache.get(u["username"])
+        if lang:
+            u["primary_language"] = lang
+            updated += 1
+            prof_path = f"data/profiles/{u['username']}.json"
+            if os.path.exists(prof_path):
+                with open(prof_path) as f:
+                    prof = json.load(f)
+                prof["primary_language"] = lang
+                with open(prof_path, "w") as f:
+                    json.dump(prof, f, indent=2)
+
+    with open("data/leaderboard.json", "w") as f:
+        json.dump(lb, f, indent=2)
+
+    print(f"Language enrichment: {updated} updated")
     return True
 
 

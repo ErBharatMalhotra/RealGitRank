@@ -8,13 +8,12 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 216,
   "avatar_url": "https://avatars.githubusercontent.com/u/72358751?v=4",
   "bio": "Systems Engineering student & AI-assisted developer. Building robust backend systems, cloud architectures, and modern web applications. \ud83d\ude80",
-  "company": "",
-  "location": "Santa Fe"
+  "company": ""
 }
