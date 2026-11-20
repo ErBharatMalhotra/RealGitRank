@@ -5,21 +5,26 @@ from datetime import datetime, timezone
 import duckdb
 from scoring_engine import compute_rank_scores
 
-# Try real data from gharchive.org (zero GCP, zero auth, free forever) FIRST
+# Network ingest is skipped when RGR_OFFLINE=1 (offline dev / local verification).
+offline = os.environ.get("RGR_OFFLINE") == "1"
 used_real = False
-try:
-    from ingest_gharchive import ingest as gh_ingest
-    used_real = gh_ingest()
-except Exception as e:
-    print(f"gharchive ingest error: {e}")
-
-# If gharchive failed, try BigQuery (if credentials exist)
-if not used_real:
+if offline:
+    print("RGR_OFFLINE=1 - skipping gharchive/BigQuery ingest, using local snapshot")
+else:
+    # Try real data from gharchive.org (zero GCP, zero auth, free forever) FIRST
     try:
-        from ingest_bigquery import ingest as bq_ingest
-        used_real = bq_ingest()
+        from ingest_gharchive import ingest as gh_ingest
+        used_real = gh_ingest()
     except Exception as e:
-        print(f"BigQuery module error: {e}")
+        print(f"gharchive ingest error: {e}")
+
+    # If gharchive failed, try BigQuery (if credentials exist)
+    if not used_real:
+        try:
+            from ingest_bigquery import ingest as bq_ingest
+            used_real = bq_ingest()
+        except Exception as e:
+            print(f"BigQuery module error: {e}")
 
 # If no real data, generate mock (for local dev / demo)
 if not used_real or not os.path.exists("data/raw.parquet"):
@@ -180,16 +185,12 @@ for r in scored[:1000]:
     with open(prof_path, "w") as f:
         json.dump(r, f, indent=2)
 
-with open("data/status.json", "w") as f:
-    json.dump({"last_run_utc": datetime.now(timezone.utc).isoformat(), "data_age_hours": 0,
-               "status": "ok", "users": len(lb), "new_today": len(scored),
-               "source": "real" if not used_real else "real"}, f, indent=2)
-
 print(f"Accumulated: {len(lb)} total users ({len(scored)} new/updated today). Top: {lb[0]['username']} ({lb[0]['rank_score']})")
 
 with open("data/status.json", "w") as f:
     json.dump({"last_run_utc": datetime.now(timezone.utc).isoformat(), "data_age_hours": 0,
-               "status": "ok", "users": len(scored), "source": "real" if used_real else "mock"}, f, indent=2)
+               "status": "ok", "users": len(lb), "new_today": len(scored),
+               "source": "real" if used_real else "mock"}, f, indent=2)
 
 print(f"Scored {len(scored)} users. Top: {scored[0]['username']} ({scored[0]['rank_score']})")
 print(f"Profile JSONs: {min(1000, len(scored))} (top 1000 only)")
