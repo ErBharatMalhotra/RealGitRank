@@ -5,41 +5,120 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Profile — RealGitRank</title>
+    <meta name="robots" content="noindex" />
     <style>
       :root { --bg: #0b0f19; --panel: #131a2b; --ink: #e8ecf4; --muted: #8a93a6; --accent: #f59e0b; --accent-2: #14b8a6; --line: #1f2740; }
       body { font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; max-width: 760px; margin: 0 auto; padding: 28px 20px; background: var(--bg); color: var(--ink); }
       h1 { font-size: 2.4rem; margin: 0 0 4px; color: var(--ink); }
+      h3 { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; margin: 20px 0 8px; }
       .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 20px; margin: 16px 0; }
+      .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .stat { background: var(--bg); padding: 12px; border-radius: 6px; border: 1px solid var(--line); }
+      .val { font-size: 22px; font-weight: 700; color: var(--accent-2); font-variant-numeric: tabular-nums; }
+      .label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; }
       a { color: var(--accent); }
-      .val { font-size: 22px; font-weight: 700; color: var(--accent-2); }
-      .label { color: var(--muted); font-size: 11px; text-transform: uppercase; }
       img.badge { margin: 12px 0; border-radius: 6px; }
+      pre { background: var(--bg); padding: 10px; border-radius: 6px; overflow: auto; font-size: 12px; border: 1px solid var(--line); }
+      .muted { color: var(--muted); }
       :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     </style>
   </head>
   <body>
     <a href="/">← Leaderboard</a>
-    <div id="content"><p style="color:var(--muted)">Loading profile...</p></div>
-    <script>
+    <div id="content"><p class="muted">Loading profile...</p></div>
+    <script is:inline>
       const params = new URLSearchParams(location.search);
       const u = params.get('u');
+      const hintRank = parseInt(params.get('r') || '', 10);
       const el = document.getElementById('content');
-      if (!u) { el.innerHTML = '<p>No username provided. <a href="/">Go home</a></p>'; }
-      else {
-        fetch(`/data/profiles/${u}.json`).then(r => r.ok ? r.json() : null).then(d => {
-          if (!d) { el.innerHTML = `<h1>${u}</h1><p>Not ranked yet.</p><img class="badge" src="/badges/default.svg" width="200" height="60" alt="badge" /><p><a href="/">← Leaderboard</a></p>`; return; }
-          el.innerHTML = `<h1>${u}</h1><p>${d.is_human_verified ? '✓ Verified Human Engineer' : (d.is_bot_classified ? '🤖 Classified as bot' : 'Developer')}</p>
-            <img class="badge" src="/badges/${u}.svg" width="200" height="60" alt="badge" />
-            <div class="card"><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-              <div><div class="label">Rank Score</div><div class="val">${d.rank_score}</div></div>
-              <div><div class="label">Global Rank</div><div class="val">#${d.rank}</div></div>
-              <div><div class="label">Country</div><div class="val" style="font-size:16px">${d.country}</div></div>
-              <div><div class="label">Language</div><div class="val" style="font-size:16px">${d.primary_language}</div></div>
-              <div><div class="label">Merged PRs</div><div class="val">${d.merged_prs}</div></div>
-              <div><div class="label">Bot Penalty</div><div class="val">${d.bot_penalty.toFixed(2)}</div></div>
-            </div></div>`;
-        }).catch(() => { el.innerHTML = `<p>Error loading profile.</p>`; });
+      const CHUNK_SIZE = 1000;
+
+      const esc = (v) => String(v == null ? '' : v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+      async function fetchJSON(url) {
+        try {
+          const r = await fetch(url);
+          return r.ok ? await r.json() : null;
+        } catch (e) {
+          return null;
+        }
       }
+
+      // Users ranked above the top-1000 profile cut-off only live in the leaderboard
+      // chunks (page_<n>.json, 1000 users each, rank ordered). Use the rank hint from
+      // the leaderboard link when present, otherwise scan pages until we find the user.
+      async function findInChunks(username) {
+        const want = username.toLowerCase();
+        const pages = [];
+        if (Number.isFinite(hintRank) && hintRank > 0) {
+          pages.push(Math.ceil(hintRank / CHUNK_SIZE));
+        }
+        const idx = await fetchJSON('/data/chunks/index.json');
+        const totalPages = idx && idx.pages ? idx.pages : 0;
+        for (let p = 1; p <= totalPages; p++) if (!pages.includes(p)) pages.push(p);
+        for (const p of pages) {
+          const data = await fetchJSON(`/data/chunks/page_${p}.json`);
+          if (!Array.isArray(data)) continue;
+          const hit = data.find((x) => (x.username || '').toLowerCase() === want);
+          if (hit) return hit;
+        }
+        return null;
+      }
+
+      function notRanked(username) {
+        el.innerHTML = `<h1>${esc(username)}</h1>
+          <p>Not ranked yet — this GitHub user hasn't shown up in a RealGitRank snapshot.</p>
+          <img class="badge" src="/badges/default.svg" width="200" height="60" alt="badge" />
+          <p class="muted">Contribute on GitHub and you'll appear in the next daily snapshot.</p>`;
+      }
+
+      function renderFromChunk(d) {
+        el.innerHTML = `<h1>${esc(d.username)}</h1>
+          <p>${d.is_human_verified ? '✓ Verified Human Engineer' : (d.is_bot_classified ? '🤖 Classified as bot' : 'Developer')}</p>
+          <img class="badge" src="/badges/${encodeURIComponent(d.username)}.svg" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
+          <div class="card">
+            <div class="grid">
+              <div class="stat"><div class="label">Rank Score</div><div class="val">${esc(d.rank_score)}</div></div>
+              <div class="stat"><div class="label">Global Rank</div><div class="val">#${esc(d.rank)}</div></div>
+              <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
+              <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
+              <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
+              <div class="stat"><div class="label">Bot Penalty</div><div class="val">${Number(d.bot_penalty || 0).toFixed(2)}</div></div>
+            </div>
+          </div>
+          ${d.bio ? `<div class="card"><h3>Bio</h3><p style="margin:0">${esc(d.bio)}</p></div>` : ''}
+          <div class="card">
+            <h3>README Badge</h3>
+            <pre>[![RealGitRank](https://realgitrank.bharatdn.com/badges/${esc(d.username)}.svg)](https://realgitrank.bharatdn.com/profile/${esc(d.username)})</pre>
+          </div>
+          <p class="muted" style="font-size:13px">Ranked in today's snapshot. Detailed pillar breakdowns are generated for the top 1,000 developers.</p>`;
+      }
+
+      function renderFromProfile(d, username) {
+        el.innerHTML = `<h1>${esc(username)}</h1><p>${d.is_human_verified ? '✓ Verified Human Engineer' : (d.is_bot_classified ? '🤖 Classified as bot' : 'Developer')}</p>
+          <img class="badge" src="/badges/${encodeURIComponent(username)}.svg" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
+          <div class="card"><div class="grid">
+            <div class="stat"><div class="label">Rank Score</div><div class="val">${esc(d.rank_score)}</div></div>
+            <div class="stat"><div class="label">Global Rank</div><div class="val">#${esc(d.rank)}</div></div>
+            <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
+            <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
+            <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
+            <div class="stat"><div class="label">Bot Penalty</div><div class="val">${Number(d.bot_penalty || 0).toFixed(2)}</div></div>
+          </div></div>
+          <div class="card"><h3>README Badge</h3>
+            <pre>[![RealGitRank](https://realgitrank.bharatdn.com/badges/${esc(username)}.svg)](https://realgitrank.bharatdn.com/profile/${esc(username)})</pre>
+          </div>`;
+      }
+
+      (async () => {
+        if (!u) { el.innerHTML = '<p>No username provided. <a href="/">Go home</a></p>'; return; }
+        // Fresh per-user profile JSON (top 1,000 only); chunks cover everyone else.
+        const profile = await fetchJSON(`/data/profiles/${encodeURIComponent(u)}.json`);
+        if (profile) { renderFromProfile(profile, u); return; }
+        const chunkUser = await findInChunks(u);
+        if (chunkUser) { renderFromChunk(chunkUser); return; }
+        notRanked(u);
+      })();
     </script>
   </body>
 </html>

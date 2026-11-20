@@ -18,5 +18,17 @@
     <p><a href="/">← Back to leaderboard</a></p>
     <p style="color:#94a3b8;font-size:13px">Not ranked? Contribute on GitHub and you'll appear in the next daily snapshot.</p>
   </div>
+  <script>
+    // Shared links to /profile/<user>/ only exist as build-time pages for the top 1,000.
+    // Everyone else is served through the query-param profile page, which reads the
+    // leaderboard chunks, so route old links there instead of showing a 404.
+    (function () {
+      var m = location.pathname.match(/^\/profile\/([^\/]+)\/?$/);
+      if (!m) return;
+      var user = decodeURIComponent(m[1]);
+      if (!user || user === 'index.html') return;
+      location.replace('/profile/?u=' + encodeURIComponent(user));
+    })();
+  </script>
 </body>
 </html>
