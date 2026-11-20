@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "ErBharatMalhotra"
           git config user.email "mr.bharatmalhotra@gmail.com"
-          git add data/ web/dist/ web/public/badges/
+          git add data/ web/public/badges/
           git commit -m "chore: daily RealGitRank snapshot $(date -u +%Y-%m-%d)" || echo "no changes"
           git push origin HEAD:main
 
