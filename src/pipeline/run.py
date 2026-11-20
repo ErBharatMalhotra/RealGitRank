@@ -136,12 +136,29 @@ for u, e in existing.items():
         e["rank_score"] = round(e.get("rank_score", 0) * 0.95, 1)  # 5% decay per inactive day
         merged[u] = e
 
-# Sort and cap at 100k (manageable repo size)
+# Sort globally
 lb = sorted(merged.values(), key=lambda x: x["rank_score"], reverse=True)
-CAP = 100000
-lb = lb[:CAP]
+
+# Per-country minimum: ensure at least 100 devs per country
+included_usernames = set(u["username"] for u in lb[:200000])
+for country in set(u["country"] or "Unknown" for u in lb):
+    country_users = [u for u in lb if (u["country"] or "Unknown") == country]
+    added = 0
+    for u in country_users:
+        if added >= 100:
+            break
+        if u["username"] not in included_usernames:
+            lb.append(u)
+            included_usernames.add(u["username"])
+            added += 1
+
+# Re-sort and cap
+lb.sort(key=lambda x: x["rank_score"], reverse=True)
+lb = lb[:220000]
 for i, u in enumerate(lb, 1):
     u["rank"] = i
+
+print(f"Total: {len(lb)} users (top 200k + per-country minimums)")
 
 with open("data/leaderboard.json", "w") as f:
     json.dump(lb, f, indent=2)

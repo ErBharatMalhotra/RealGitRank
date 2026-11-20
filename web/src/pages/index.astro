@@ -1,5 +1,4 @@
 ---
-import leaderboard from '../../../data/leaderboard.json';
 ---
 <html lang="en">
   <head>
@@ -15,7 +14,7 @@ import leaderboard from '../../../data/leaderboard.json';
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="sitemap" href="/sitemap.xml" />
     <script type="application/ld+json">
-      {JSON.stringify({"@context":"https://schema.org","@type":"WebSite","name":"RealGitRank","url":"https://realgitrank.bharatdn.com/","description":"Anti-bot GitHub developer ranking engine"})}
+      {"@context":"https://schema.org","@type":"WebSite","name":"RealGitRank","url":"https://realgitrank.bharatdn.com/","description":"Anti-bot GitHub developer ranking engine"}
     </script>
     <style>
       :root { --bg: #0b0f19; --panel: #131a2b; --ink: #e8ecf4; --muted: #8a93a6; --accent: #f59e0b; --accent-2: #14b8a6; --line: #1f2740; }
@@ -23,10 +22,12 @@ import leaderboard from '../../../data/leaderboard.json';
       h1 { font-size: 2.6rem; margin: 0 0 4px; letter-spacing: -0.02em; color: var(--ink); }
       h1 span { color: var(--accent); }
       .sub { color: var(--muted); margin-bottom: 24px; font-size: 15px; }
-      input { width: 100%; padding: 12px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font-size: 15px; margin-bottom: 18px; font-family: inherit; }
-      input:focus { border-color: var(--accent); outline: none; }
+      .controls { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
+      input, select { padding: 10px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font-size: 14px; font-family: inherit; }
+      input { flex: 1; min-width: 200px; }
+      input:focus, select:focus { border-color: var(--accent); outline: none; }
       table { width: 100%; border-collapse: collapse; font-size: 14px; }
-      th, td { padding: 11px 10px; text-align: left; border-bottom: 1px solid var(--line); }
+      th, td { padding: 10px; text-align: left; border-bottom: 1px solid var(--line); }
       th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
       tr:hover { background: var(--panel); }
       a { color: var(--accent); text-decoration: none; font-weight: 500; }
@@ -35,58 +36,95 @@ import leaderboard from '../../../data/leaderboard.json';
       .verified { color: var(--accent); }
       .bot { color: #f87171; font-size: 11px; }
       .badge { height: 22px; vertical-align: middle; border-radius: 4px; }
+      .avatar { width: 24px; height: 24px; border-radius: 50%; vertical-align: middle; margin-right: 6px; }
       :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+      .loadmore { display: block; margin: 20px auto; padding: 12px 24px; border-radius: 6px; border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; font-family: inherit; font-size: 14px; font-weight: 600; }
+      .loadmore:hover { background: var(--accent); color: var(--bg); }
+      .stats { color: var(--muted); font-size: 13px; margin-bottom: 12px; }
     </style>
   </head>
   <body>
     <h1>Real<span>Git</span>Rank</h1>
-    <p class="sub">Commit count measures typing speed. RealGitRank measures engineering impact. {leaderboard.length.toLocaleString()} developers ranked worldwide. Showing top 100. <a href="/countries" style="margin-left:8px">🌍 Countries & Worldwide →</a></p>
-    <div style="display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap">
-      <input id="q" type="text" placeholder="Search username, country, language..." style="flex:1;min-width:200px" />
-      <select id="country" style="padding:12px 14px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-family:inherit">
-        <option value="">All countries</option>
-      </select>
-      <select id="lang" style="padding:12px 14px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-family:inherit">
-        <option value="">All languages</option>
-      </select>
+    <p class="sub">Commit count measures typing speed. RealGitRank measures engineering impact. <span id="total">Loading...</span> developers ranked worldwide. <a href="/countries">🌍 Countries & Worldwide →</a></p>
+    <div class="controls">
+      <input id="q" type="text" placeholder="Search username, country, language..." />
+      <select id="country"><option value="">All countries</option></select>
+      <select id="lang"><option value="">All languages</option></select>
     </div>
+    <div class="stats" id="stats">Loading...</div>
     <table id="tbl">
       <thead><tr><th>#</th><th>User</th><th>Score</th><th>Country</th><th>Lang</th><th>PRs</th><th>Badge</th></tr></thead>
-      <tbody>
-        {leaderboard.slice(0, 100).map((u) => (
-          <tr data-u={u.username.toLowerCase()} data-c={u.country.toLowerCase()} data-l={u.primary_language.toLowerCase()}>
-            <td>{u.rank}</td>
-            <td><img src={u.avatar_url || '/badges/default.svg'} alt="" width="24" height="24" style="border-radius:50%;vertical-align:middle;margin-right:6px" loading="lazy" onerror="this.style.display='none'" /><a href={u.rank <= 1000 ? `/profile/${u.username}` : `/profile/?u=${u.username}`}>{u.username}</a> {u.is_human_verified && <span class="verified">✓</span>} {u.is_bot_classified && <span class="bot">[bot]</span>}</td>
-            <td class="score">{u.rank_score}</td>
-            <td>{u.country}</td>
-            <td>{u.primary_language}</td>
-            <td>{u.merged_prs}</td>
-            <td><img class="badge" src={`/badges/${u.username}.svg`} alt="badge" loading="lazy" /></td>
-          </tr>
-        ))}
-      </tbody>
+      <tbody id="tbody"></tbody>
     </table>
-    <script define:vars={{ countries: [...new Set(leaderboard.map(u => u.country))], langs: [...new Set(leaderboard.map(u => u.primary_language))] }}>
+    <button class="loadmore" id="loadmore">Load more</button>
+    <script>
+      let allData = [];
+      let currentPage = 1;
+      let totalPages = 1;
+      const tbody = document.getElementById('tbody');
       const q = document.getElementById('q');
       const countrySel = document.getElementById('country');
       const langSel = document.getElementById('lang');
-      const rows = document.querySelectorAll('#tbl tbody tr');
-      countries.sort().forEach(c => { const o = document.createElement('option'); o.value = c.toLowerCase(); o.textContent = c; countrySel.appendChild(o); });
-      langs.sort().forEach(l => { const o = document.createElement('option'); o.value = l.toLowerCase(); o.textContent = l; langSel.appendChild(o); });
-      function apply() {
+      const stats = document.getElementById('stats');
+      const loadmore = document.getElementById('loadmore');
+
+      function row(u) {
+        const tr = document.createElement('tr');
+        tr.dataset.u = (u.username||'').toLowerCase();
+        tr.dataset.c = (u.country||'').toLowerCase();
+        tr.dataset.l = (u.primary_language||'').toLowerCase();
+        const link = u.rank <= 1000 ? `/profile/${u.username}` : `/profile/?u=${u.username}`;
+        tr.innerHTML = `<td>${u.rank}</td>
+          <td><img src="${u.avatar_url||''}" alt="" width="24" height="24" style="border-radius:50%;vertical-align:middle;margin-right:6px" onerror="this.style.display='none'" /><a href="${link}">${u.username}</a> ${u.is_human_verified?'✓':''} ${u.is_bot_classified?'[bot]':''}</td>
+          <td class="score">${u.rank_score}</td>
+          <td>${u.country||'—'}</td>
+          <td>${u.primary_language||'—'}</td>
+          <td>${u.merged_prs}</td>
+          <td><img class="badge" src="/badges/${u.username}.svg" alt="badge" loading="lazy" onerror="this.src='/badges/default.svg'" /></td>`;
+        return tr;
+      }
+
+      function applyFilter() {
         const v = q.value.toLowerCase();
         const c = countrySel.value;
         const l = langSel.value;
-        rows.forEach(r => {
+        let visible = 0;
+        document.querySelectorAll('#tbl tbody tr').forEach(r => {
           const match = (r.dataset.u.includes(v) || r.dataset.c.includes(v) || r.dataset.l.includes(v))
             && (!c || r.dataset.c === c) && (!l || r.dataset.l === l);
           r.style.display = match ? '' : 'none';
+          if (match) visible++;
         });
+        stats.textContent = `Showing ${visible} of ${allData.length} loaded (${totalPages > 1 ? currentPage + '/' + totalPages + ' pages' : ''})`;
       }
-      q.addEventListener('input', apply);
-      countrySel.addEventListener('change', apply);
-      langSel.addEventListener('change', apply);
+
+      async function loadPage(p) {
+        const r = await fetch(`/data/chunks/page_${p}.json`);
+        const data = await r.json();
+        data.forEach(u => { allData.push(u); tbody.appendChild(row(u)); });
+        currentPage = p;
+        // populate dropdowns on first load
+        if (p === 1) {
+          const countries = [...new Set(allData.map(u => u.country).filter(Boolean))].sort();
+          const langs = [...new Set(allData.map(u => u.primary_language).filter(Boolean))].sort();
+          countries.forEach(c => { const o = document.createElement('option'); o.value = c.toLowerCase(); o.textContent = c; countrySel.appendChild(o); });
+          langs.forEach(l => { const o = document.createElement('option'); o.value = l.toLowerCase(); o.textContent = l; langSel.appendChild(o); });
+          document.getElementById('total').textContent = (await (await fetch('/data/chunks/index.json')).json()).total.toLocaleString();
+        }
+        applyFilter();
+        if (currentPage >= totalPages) loadmore.style.display = 'none';
+      }
+
+      loadmore.addEventListener('click', () => { if (currentPage < totalPages) loadPage(currentPage + 1); });
+      q.addEventListener('input', applyFilter);
+      countrySel.addEventListener('change', applyFilter);
+      langSel.addEventListener('change', applyFilter);
+
+      fetch('/data/chunks/index.json').then(r => r.json()).then(idx => {
+        totalPages = idx.pages;
+        loadPage(1);
+      });
     </script>
   </body>
 </html>

@@ -6,6 +6,7 @@ web/.astro/
 # Data intermediates
 data/raw.parquet
 web/public/data/
+web/public/data/chunks/
 
 # Secrets
 .env
