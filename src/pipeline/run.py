@@ -5,13 +5,21 @@ from datetime import datetime, timezone
 import duckdb
 from scoring_engine import compute_rank_scores
 
-# Try real BigQuery ingest first
+# Try real data from gharchive.org (zero GCP, zero auth, free forever) FIRST
 used_real = False
 try:
-    from ingest_bigquery import ingest as bq_ingest
-    used_real = bq_ingest()
+    from ingest_gharchive import ingest as gh_ingest
+    used_real = gh_ingest()
 except Exception as e:
-    print(f"BigQuery module error: {e}")
+    print(f"gharchive ingest error: {e}")
+
+# If gharchive failed, try BigQuery (if credentials exist)
+if not used_real:
+    try:
+        from ingest_bigquery import ingest as bq_ingest
+        used_real = bq_ingest()
+    except Exception as e:
+        print(f"BigQuery module error: {e}")
 
 # If no real data, generate mock (for local dev / demo)
 if not used_real or not os.path.exists("data/raw.parquet"):
