@@ -1,19 +1,20 @@
 {
   "username": "Dione-b",
   "country": "Brazil",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.45293923874293,
+  "s_quality": 43.452939238742935,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 347,
   "avatar_url": "https://avatars.githubusercontent.com/u/85364327?u=048f679cbcd6d181d3a6dbd16814a76092cb9edb&v=4",
   "bio": "Blockchain infrastructure engineer with an Information Systems degree and two years of experience in the Stellar ecosystem. Experienced in Rust, TypeScript, Go,",
-  "company": ""
+  "company": "",
+  "location": "Brazil"
 }

@@ -1,19 +1,20 @@
 {
   "username": "ignatius22",
   "country": "Nigeria",
-  "primary_language": "Unknown",
+  "primary_language": "Ruby",
   "total_pushes": 2,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498,
+  "s_quality": 31.288985995498003,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 817,
   "avatar_url": "https://avatars.githubusercontent.com/u/51197882?u=6910e5e4d5d8ac0ea05975b40600573c9bf513f4&v=4",
   "bio": "Senior Software Engineer building scalable web and mobile applications with React, Next.js, TypeScript, React Native, and Node.js.",
-  "company": ""
+  "company": "",
+  "location": "Nigeria, Abuja"
 }

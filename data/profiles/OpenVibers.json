@@ -1,7 +1,7 @@
 {
   "username": "OpenVibers",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
@@ -15,5 +15,6 @@
   "rank": 35,
   "avatar_url": "https://avatars.githubusercontent.com/u/279216588?u=0401cfc7da2ec59c1686dac2a486b04241d6388c&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

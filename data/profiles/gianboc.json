@@ -1,19 +1,20 @@
 {
   "username": "gianboc",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C++",
   "total_pushes": 2,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498,
+  "s_quality": 31.288985995498003,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 814,
   "avatar_url": "https://avatars.githubusercontent.com/u/20276584?u=732de0c5c949839183189d94658cd25fa1dff0be&v=4",
   "bio": "",
-  "company": "Politecnico di Torino"
+  "company": "Politecnico di Torino",
+  "location": ""
 }

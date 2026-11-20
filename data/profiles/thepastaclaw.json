@@ -1,7 +1,7 @@
 {
   "username": "thepastaclaw",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C++",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
@@ -15,5 +15,6 @@
   "rank": 44,
   "avatar_url": "https://avatars.githubusercontent.com/u/261708734?u=8d161150d4d4e6970aed3ae493551da8751970df&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

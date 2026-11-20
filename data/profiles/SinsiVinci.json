@@ -1,19 +1,20 @@
 {
   "username": "SinsiVinci",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 3,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.45293923874293,
+  "s_quality": 43.452939238742935,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 183,
   "avatar_url": "https://avatars.githubusercontent.com/u/331287442?u=6ca0ef71af2a8e1a7ae7db128e68c72ba8ea59dc&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

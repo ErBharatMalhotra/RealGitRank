@@ -8,12 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498,
+  "s_quality": 31.288985995498003,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 885,
   "avatar_url": "https://avatars.githubusercontent.com/u/107651005?u=8b25a218827286d0e6cbf3199f621c059cb9fdc1&v=4",
   "bio": "At the time of writing this, the previous text was massively outdated, since I can actually code now.",
-  "company": ""
+  "company": "",
+  "location": "Remote Location somewhere in the depths of the jungle that somehow has internet access"
 }

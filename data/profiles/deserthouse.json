@@ -1,19 +1,20 @@
 {
   "username": "deserthouse",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Kotlin",
   "total_pushes": 2,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.45293923874293,
+  "s_quality": 43.452939238742935,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 222,
   "avatar_url": "https://avatars.githubusercontent.com/u/51261236?u=2ce459ef24291dfe563e462030eec24506b316aa&v=4",
   "bio": "Wolp | Gay | Taken\r\n-\r\nKinks: Sci-Fi, Aviation, Military, Firearms\r\n-\r\nEngaging with:\r\n\ud83d\udcf7 Birbing\r\n\ud83c\udfae Gaming\r\n-\r\nI ride a metal horse \ud83d\udeb2",
-  "company": "NexBotics"
+  "company": "NexBotics",
+  "location": "Hangzhou"
 }

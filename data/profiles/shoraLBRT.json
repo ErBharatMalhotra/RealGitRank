@@ -1,7 +1,7 @@
 {
   "username": "shoraLBRT",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C#",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
@@ -15,5 +15,6 @@
   "rank": 48,
   "avatar_url": "https://avatars.githubusercontent.com/u/94789103?u=12e265a328b84d305f6edb940ada1b3b70760f17&v=4",
   "bio": "just implementer",
-  "company": "kept"
+  "company": "kept",
+  "location": ""
 }

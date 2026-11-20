@@ -1,19 +1,20 @@
 {
   "username": "nguyenthanhvuh",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Typst",
   "total_pushes": 4,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498,
+  "s_quality": 31.288985995498003,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 481,
   "avatar_url": "https://avatars.githubusercontent.com/u/20884260?u=9c8518234bb4468f3070fb5afe618badbbf1a57b&v=4",
   "bio": "Associate Prof. in CS at George Mason University. Research in Formal Methods, Software Verification, Neural Network Verification.",
-  "company": "George Mason University"
+  "company": "George Mason University",
+  "location": ""
 }

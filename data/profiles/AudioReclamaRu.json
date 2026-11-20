@@ -1,19 +1,20 @@
 {
   "username": "AudioReclamaRu",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 5,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498,
+  "s_quality": 31.288985995498003,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 439,
   "avatar_url": "https://avatars.githubusercontent.com/u/277500385?u=961c87ea1a595edf90bcaa78499cf3e4e25c5afc&v=4",
   "bio": "Sonic infrastructure report \u2014 voice provenance, AI voice markets, business voice production. \u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a: audio-reclama.ru",
-  "company": "\u0410\u0443\u0434\u0438\u043e-\u0420\u0435\u043a\u043b\u0430\u043c\u0430\u2022ru"
+  "company": "\u0410\u0443\u0434\u0438\u043e-\u0420\u0435\u043a\u043b\u0430\u043c\u0430\u2022ru",
+  "location": "Russia"
 }

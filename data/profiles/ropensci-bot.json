@@ -8,12 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 58.77770795172265,
+  "s_quality": 58.777707951722654,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 21.4,
   "rank": 67,
   "avatar_url": "https://avatars.githubusercontent.com/u/50079005?u=c6e7d48cdf0123e0ba9c863dcca4b8c37d0cf378&v=4",
   "bio": "I build stuff for @ropensci",
-  "company": ""
+  "company": "",
+  "location": ""
 }

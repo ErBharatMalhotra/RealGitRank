@@ -1,19 +1,20 @@
 {
   "username": "bojieli",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 6,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498,
+  "s_quality": 31.288985995498003,
   "s_impact": 64.37751649736401,
   "s_consistency": 44.657359027997266,
   "rank_score": 30.6,
   "rank": 7,
   "avatar_url": "https://avatars.githubusercontent.com/u/1421793?u=4adb55dcfd49eec84e4c891cbebcd2cf625fabba&v=4",
   "bio": "Independent Researcher",
-  "company": "@19PINE-AI @ustclug"
+  "company": "@19PINE-AI @ustclug",
+  "location": ""
 }

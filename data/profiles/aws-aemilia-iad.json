@@ -1,7 +1,7 @@
 {
   "username": "aws-aemilia-iad",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "HTML",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
@@ -15,5 +15,6 @@
   "rank": 42,
   "avatar_url": "https://avatars.githubusercontent.com/u/104586662?v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

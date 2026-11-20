@@ -1,7 +1,7 @@
 {
   "username": "hzagaming",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Swift",
   "total_pushes": 49,
   "merged_prs": 0,
   "bot_penalty": 0.0,
@@ -15,5 +15,6 @@
   "rank": 4,
   "avatar_url": "https://avatars.githubusercontent.com/u/171329875?u=b14c06901a0fca7887ea398f972bc7d180ef5712&v=4",
   "bio": "Grade 11 student, 2022 Skylad S tier Top 1, 2023 NewEra 3rd, MRK Tech\r\n\r\n\r\n",
-  "company": "Hanazar Software/Shanghai Mirako Tech"
+  "company": "Hanazar Software/Shanghai Mirako Tech",
+  "location": "Everywhere"
 }

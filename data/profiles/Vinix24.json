@@ -1,19 +1,20 @@
 {
   "username": "Vinix24",
   "country": "Netherlands",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 2,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498,
+  "s_quality": 31.288985995498003,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 873,
   "avatar_url": "https://avatars.githubusercontent.com/u/194674514?u=a07b9b96633e89330cc6bbcd5e8016a30915b85c&v=4",
   "bio": "Architecture-first builder exploring AI orchestration, governance, and dev tools. I design transparent multi-agent systems with observability and quality gates.",
-  "company": ""
+  "company": "",
+  "location": "Amsterdam"
 }

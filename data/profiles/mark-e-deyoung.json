@@ -1,19 +1,20 @@
 {
   "username": "mark-e-deyoung",
   "country": "Germany",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 52.083401412296354,
+  "s_quality": 52.08340141229636,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
   "rank": 125,
   "avatar_url": "https://avatars.githubusercontent.com/u/1854350?u=d6df013d70e94d2183f359964d32b38ba1d573c9&v=4",
   "bio": "",
-  "company": "United States Space Force (USSF)"
+  "company": "United States Space Force (USSF)",
+  "location": "Stuttgart, Germany"
 }

@@ -1,7 +1,7 @@
 {
   "username": "olafkfreund",
   "country": "United Kingdom",
-  "primary_language": "Unknown",
+  "primary_language": "Nix",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
@@ -15,5 +15,6 @@
   "rank": 53,
   "avatar_url": "https://avatars.githubusercontent.com/u/12804862?u=82e850ce96410a9749910239dc1a745b37a81f37&v=4",
   "bio": "",
-  "company": "DevOps and Cloud Architect"
+  "company": "DevOps and Cloud Architect",
+  "location": "London"
 }

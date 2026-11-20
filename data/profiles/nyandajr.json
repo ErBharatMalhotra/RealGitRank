@@ -1,19 +1,20 @@
 {
   "username": "nyandajr",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 2,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 31.288985995498,
+  "s_quality": 31.288985995498003,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
   "rank": 713,
   "avatar_url": "https://avatars.githubusercontent.com/u/87903153?u=22a61e13eebe4ec7a9d7d5b118301ac0d42afd0c&v=4",
   "bio": "ML Engineer & Data Scientist | Building data pipelines across finance, climate, and geopolitical tracking | Python \u2022 TensorFlow \u2022 Azure\r\n",
-  "company": ""
+  "company": "",
+  "location": "Tanzania"
 }

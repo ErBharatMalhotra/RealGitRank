@@ -1,7 +1,7 @@
 {
   "username": "camilolunacom",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "PHP",
   "total_pushes": 3,
   "merged_prs": 0,
   "bot_penalty": 0.0,
@@ -15,5 +15,6 @@
   "rank": 26,
   "avatar_url": "https://avatars.githubusercontent.com/u/5571281?u=951ab85f42ab1452d36e8a6c0ef5ad104716420f&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Bogota, Colombia"
 }

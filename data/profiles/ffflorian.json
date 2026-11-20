@@ -1,19 +1,20 @@
 {
   "username": "ffflorian",
   "country": "Germany",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.45293923874293,
+  "s_quality": 43.452939238742935,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 416,
   "avatar_url": "https://avatars.githubusercontent.com/u/5497598?u=173170a6804c8cf11a87c7f264fb179f34f28024&v=4",
   "bio": "",
-  "company": "@dbsystel / Deutsche Bahn"
+  "company": "@dbsystel / Deutsche Bahn",
+  "location": "Berlin, Germany"
 }

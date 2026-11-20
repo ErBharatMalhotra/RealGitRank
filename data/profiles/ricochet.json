@@ -1,19 +1,20 @@
 {
   "username": "ricochet",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "WebAssembly",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.45293923874293,
+  "s_quality": 43.452939238742935,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 352,
   "avatar_url": "https://avatars.githubusercontent.com/u/974323?u=43b499d098a3eb05e607cc98002fa2e3d9b988c8&v=4",
   "bio": "",
-  "company": "Cosmonic"
+  "company": "Cosmonic",
+  "location": "Cary, NC"
 }

@@ -1,19 +1,20 @@
 {
   "username": "distronode-com",
   "country": "Canada",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 3,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.45293923874293,
+  "s_quality": 43.452939238742935,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 172,
   "avatar_url": "https://avatars.githubusercontent.com/u/254259913?u=37275c90b3047be8f080caed924d507e2aba24dd&v=4",
   "bio": "Engineering account for Distronode Corporation, builders of District AI. AI-assisted contributions, human-reviewed.",
-  "company": "@distronode-corporation"
+  "company": "@distronode-corporation",
+  "location": "Toronto, Ontario, Canada"
 }

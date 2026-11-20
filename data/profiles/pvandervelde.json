@@ -1,19 +1,20 @@
 {
   "username": "pvandervelde",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.45293923874293,
+  "s_quality": 43.452939238742935,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 324,
   "avatar_url": "https://avatars.githubusercontent.com/u/96201?u=6574207b20b6b28f236501e375e04b264cc4f8f4&v=4",
   "bio": "Worked as a developer / devops engineer for a number of years. Interested in robotics and projects that help people improve their lives.",
-  "company": ""
+  "company": "",
+  "location": "New Zealand"
 }

@@ -1,7 +1,7 @@
 {
   "username": "stephenlutar2-hash",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 3,
   "merged_prs": 0,
   "bot_penalty": 0.0,
@@ -15,5 +15,6 @@
   "rank": 25,
   "avatar_url": "https://avatars.githubusercontent.com/u/270976497?u=df3a01769e83f2586cc2bacb1d7c483d0211757a&v=4",
   "bio": "Founder & CEO, SZL Holdings. Governed AI decision infrastructure. ORCID 0009-0001-0110-4173",
-  "company": "SZL Holdings"
+  "company": "SZL Holdings",
+  "location": "New York, NY"
 }

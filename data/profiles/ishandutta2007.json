@@ -1,7 +1,7 @@
 {
   "username": "ishandutta2007",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
@@ -15,5 +15,6 @@
   "rank": 46,
   "avatar_url": "https://avatars.githubusercontent.com/u/2527354?u=53a6917dedfde6af669828eaba686d53db710e1e&v=4",
   "bio": "is an AI obsessed Entrepreneur, #ex-FAANG, #GenerativeAI, #RPA.\r\n",
-  "company": "@Microsoft, @amzn"
+  "company": "@Microsoft, @amzn",
+  "location": "Remote"
 }

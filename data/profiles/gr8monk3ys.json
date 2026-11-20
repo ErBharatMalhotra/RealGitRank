@@ -1,19 +1,20 @@
 {
   "username": "gr8monk3ys",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 0,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.45293923874293,
+  "s_quality": 43.452939238742935,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
   "rank": 390,
   "avatar_url": "https://avatars.githubusercontent.com/u/31302763?u=277d9d786572a61069d65dca7b48cf735bad03ee&v=4",
   "bio": "mov eax, [code]\r\nadd eax, [dreams]\r\nint 0x80 ; execute\r\n\r\n[Gur gehrfg eroryyvba vf qbvat tbbq.]",
-  "company": "@Vivancedata "
+  "company": "@Vivancedata ",
+  "location": ""
 }
