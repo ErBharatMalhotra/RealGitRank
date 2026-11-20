@@ -27,6 +27,7 @@ DEFAULT_GATES = {
     "bot_classification_jump_max_x": 2,
     "min_baseline_days": 5,
     "bot_rate_floor": 0.005,
+    "min_rows_absolute": 10,
 }
 HISTORY_LIMIT = 30
 
@@ -63,10 +64,15 @@ def evaluate(today, history, gates=None):
     gates = dict(DEFAULT_GATES) if gates is None else gates
     errors, notes = [], []
 
-    if today["rows"] < 10:
+    if today["rows"] < gates["min_rows_absolute"]:
         errors.append(f"row count too low: {today['rows']}")
-    if today["null_usernames"]:
-        errors.append(f"null usernames: {today['null_usernames']}")
+
+    null_pct = (today["null_usernames"] / today["rows"] * 100.0) if today["rows"] else 0.0
+    if null_pct > float(gates["username_null_max_pct"]):
+        errors.append(
+            f"null usernames: {today['null_usernames']} "
+            f"({null_pct:.2f}% > {gates['username_null_max_pct']}% allowed)"
+        )
     if today["score_max"] > 1000 or today["score_min"] < 0:
         errors.append("score out of range")
     if today["score_std"] == 0:

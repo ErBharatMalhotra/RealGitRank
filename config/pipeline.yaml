@@ -23,6 +23,7 @@ quality_gates:
   bot_classification_jump_max_x: 2
   min_baseline_days: 5      # runs needed before growth/shift gates engage
   bot_rate_floor: 0.005     # ignore bot-rate noise below this baseline
+  min_rows_absolute: 10     # absolute floor, independent of history
 
 hosting:
   provider: github_pages

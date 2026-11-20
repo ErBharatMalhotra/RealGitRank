@@ -145,6 +145,21 @@ def test_profile_metrics_pass_through(tmp_path):
     assert unknown["avg_files_changed"] is None
 
 
+def test_score_is_monotone_and_clamped(tmp_path):
+    """Range/normalisation behaviour: bounded 0-1000 and non-decreasing in merged PRs."""
+    rows = [
+        row(username="a", merged_prs_external_weighted=0.0),
+        row(username="b", merged_prs_external_weighted=10.0),
+        row(username="c", merged_prs_external_weighted=1e6),
+    ]
+    out = score(tmp_path, rows)
+    by_name = {r["username"]: r for r in out}
+    assert 0.0 <= by_name["a"]["rank_score"] <= 1000.0
+    assert by_name["a"]["rank_score"] <= by_name["b"]["rank_score"] <= by_name["c"]["rank_score"]
+    assert all(0.0 <= r["rank_score"] <= 1000.0 for r in out)
+    assert by_name["c"]["rank_score"] > by_name["b"]["rank_score"]
+
+
 def test_scores_bounded_and_ranked(tmp_path):
     rows = [
         row(username="a", merged_prs_external_weighted=40.0, stars_fraud_filtered=500),
