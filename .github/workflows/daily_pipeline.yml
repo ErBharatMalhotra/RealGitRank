@@ -28,11 +28,18 @@ jobs:
         run: pip install duckdb numpy pyarrow google-cloud-bigquery requests pytz
 
       - name: Run pipeline (gharchive.org -> DuckDB -> snapshots)
+        env:
+          GH_ENRICH_TOKEN: ${{ secrets.GH_ENRICH_TOKEN }}
         run: python src/pipeline/run.py
         # fallback chain handled inside run.py: BigQuery -> gharchive.org -> last snapshot
 
       - name: Data quality gates
         run: python src/pipeline/quality_gates.py
+
+      - name: Enrich (country, avatar, bio) — optional
+        env:
+          GH_ENRICH_TOKEN: ${{ secrets.GH_ENRICH_TOKEN }}
+        run: python src/pipeline/enrich.py || echo "enrichment skipped (no token)"
 
       - name: Generate badges
         run: python src/pipeline/badges.py
