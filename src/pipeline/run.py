@@ -4,6 +4,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from datetime import datetime, timezone
 import duckdb
 from scoring_engine import compute_rank_scores
+from profiles import PROFILE_LIMIT, prune_profiles_for_leaderboard
 
 # Network ingest is skipped when RGR_OFFLINE=1 (offline dev / local verification).
 offline = os.environ.get("RGR_OFFLINE") == "1"
@@ -173,7 +174,7 @@ with open("data/leaderboard.json", "w") as f:
 # always matches the leaderboard row, with today's metrics and enrichment merged in.
 scored_by_name = {r["username"]: r for r in scored}
 os.makedirs("data/profiles", exist_ok=True)
-for u in lb[:1000]:
+for u in lb[:PROFILE_LIMIT]:
     prof = dict(scored_by_name.get(u["username"], {}))
     prof.update({"username": u["username"], "rank": u["rank"], "rank_score": u["rank_score"]})
     for key in ("country", "primary_language", "avatar_url", "bio", "company"):
@@ -189,6 +190,10 @@ for u in lb[:1000]:
     with open(prof_path, "w") as f:
         json.dump(prof, f, indent=2)
 
+pruned_profiles = prune_profiles_for_leaderboard("data/profiles", lb)
+if pruned_profiles:
+    print(f"Pruned {pruned_profiles} profiles for users outside the top {PROFILE_LIMIT}")
+
 print(f"Accumulated: {len(lb)} total users ({len(scored)} new/updated today). Top: {lb[0]['username']} ({lb[0]['rank_score']})")
 
 with open("data/status.json", "w") as f:
@@ -197,4 +202,4 @@ with open("data/status.json", "w") as f:
                "source": "real" if used_real else "mock"}, f, indent=2)
 
 print(f"Scored {len(scored)} users. Top: {scored[0]['username']} ({scored[0]['rank_score']})")
-print(f"Profile JSONs: {min(1000, len(scored))} (top 1000 only)")
+print(f"Profile JSONs: {min(PROFILE_LIMIT, len(lb))} (top {PROFILE_LIMIT} only)")
