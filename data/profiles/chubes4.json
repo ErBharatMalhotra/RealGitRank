@@ -1,7 +1,7 @@
 {
   "username": "chubes4",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "PHP",
   "total_pushes": 2,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.4,
-  "rank_score": 73.0,
+  "rank_score": 76.4,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 310,
+  "rank": 207,
   "avatar_url": "https://avatars.githubusercontent.com/u/44784595?u=92b03c8db33f76acbc74a537086714c97af1859b&v=4",
   "bio": "Founder of @Extra-Chill, engineering @Automattic ",
-  "company": "Extra Chill"
+  "company": "Extra Chill",
+  "location": "Charleston, SC"
 }

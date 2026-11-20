@@ -1,7 +1,7 @@
 {
   "username": "hugoriviere",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Jupyter Notebook",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 212,
-  "avatar_url": "",
+  "rank": 225,
+  "avatar_url": "https://avatars.githubusercontent.com/u/116882191?u=b7b63364ae19a1d5061b0a708eda52703d13ae45&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

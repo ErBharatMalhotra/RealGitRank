@@ -1,7 +1,7 @@
 {
   "username": "TserenTserenov",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Shell",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 391,
-  "avatar_url": "",
+  "rank": 398,
+  "avatar_url": "https://avatars.githubusercontent.com/u/128625215?u=dcb21ca431469d5ba1195226d868726099a42cdc&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Pafos"
 }

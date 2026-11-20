@@ -1,7 +1,7 @@
 {
   "username": "pjdotson",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Starlark",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 511,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 525,
+  "avatar_url": "https://avatars.githubusercontent.com/u/123601024?u=1ed633503e0176dc5bfcc81404f89eaba8467413&v=4",
+  "bio": "Co-founder & CTO at Synnax.",
+  "company": "@synnaxlabs ",
+  "location": ""
 }

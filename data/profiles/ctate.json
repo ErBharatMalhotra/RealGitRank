@@ -1,7 +1,7 @@
 {
   "username": "ctate",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 1,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 42.7,
-  "rank_score": 86.2,
+  "rank_score": 91.2,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 92,
+  "rank": 58,
   "avatar_url": "https://avatars.githubusercontent.com/u/366502?u=46a854ffb1cc4a07075045f8096cf30d165ab459&v=4",
   "bio": "Dev @Vercel",
-  "company": "Vercel"
+  "company": "Vercel",
+  "location": "Austin, TX"
 }

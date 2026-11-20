@@ -1,7 +1,7 @@
 {
   "username": "elie222",
   "country": "Israel",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 1,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 43.94,
   "s_consistency": 40.52,
-  "rank_score": 84.1,
+  "rank_score": 88.2,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 6,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 111,
+  "rank": 80,
   "avatar_url": "https://avatars.githubusercontent.com/u/3090527?u=6cf70a882423f683b5fa93cf02b43a50b05c482e&v=4",
   "bio": "Building Inbox Zero: https://getinboxzero.com\r\n\r\nMy YouTube channel about open source and AI coding: https://youtube.com/elie2222",
-  "company": "@inbox-zero "
+  "company": "@inbox-zero ",
+  "location": "Tel Aviv, Israel"
 }

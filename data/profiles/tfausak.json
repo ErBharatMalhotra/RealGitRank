@@ -1,7 +1,7 @@
 {
   "username": "tfausak",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Ruby",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 510,
-  "avatar_url": "",
+  "rank": 524,
+  "avatar_url": "https://avatars.githubusercontent.com/u/408753?u=52888b11193457ae67ca847787c32156a395d297&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "dmoore-dwmmholdings",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 431,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 447,
+  "avatar_url": "https://avatars.githubusercontent.com/u/276854481?u=25ab297f60aff532309d0dc2809d6cc2bc1168c9&v=4",
+  "bio": "Founder and CEO of DWMM Holdings",
+  "company": "DWMM Holdings, LLC",
+  "location": "San Antonio"
 }

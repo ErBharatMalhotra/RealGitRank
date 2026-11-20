@@ -1,7 +1,7 @@
 {
   "username": "ogorzalka",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "PHP",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -23,7 +23,8 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 49,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "avatar_url": "https://avatars.githubusercontent.com/u/149651?u=f29b276b58a23e8c3c1e63cab8c2f24f242cd067&v=4",
+  "bio": "I co-founded and CTO @AmphiBee \ud83d\udc1d, a WordPress / WooCommerce agency. I also \u2764\ufe0f Laravel",
+  "company": "@AmphiBee",
+  "location": "Lille"
 }

@@ -1,7 +1,7 @@
 {
   "username": "UnownBot",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 346,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 355,
+  "avatar_url": "https://avatars.githubusercontent.com/u/120689390?u=8d88ff7746ad4f1719ae85101c07882097bb1c2b&v=4",
+  "bio": "Bot for automated stuff. Please mention @UnownPlain if I misbehave.",
+  "company": "",
+  "location": "GitHub Actions"
 }

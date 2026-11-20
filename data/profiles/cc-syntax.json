@@ -1,7 +1,7 @@
 {
   "username": "cc-syntax",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Jupyter Notebook",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 311,
-  "avatar_url": "",
+  "rank": 325,
+  "avatar_url": "https://avatars.githubusercontent.com/u/26186634?u=8e486121de0eeea6d55e95a15098996904ba592e&v=4",
   "bio": "",
-  "company": ""
+  "company": "FavCRM",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "vdo89",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 2,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 42.74,
-  "rank_score": 77.0,
+  "rank_score": 81.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 182,
+  "rank": 152,
   "avatar_url": "https://avatars.githubusercontent.com/u/222310762?v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

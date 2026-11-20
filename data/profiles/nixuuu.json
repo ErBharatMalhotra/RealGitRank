@@ -1,7 +1,7 @@
 {
   "username": "nixuuu",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Poland",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 434,
-  "avatar_url": "",
+  "rank": 451,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3064153?u=c0614bea18d9e204603f79c3428c1ce1e76e51b4&v=4",
   "bio": "",
-  "company": ""
+  "company": "IT SOL",
+  "location": "Poland, Warsaw"
 }

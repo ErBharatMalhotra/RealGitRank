@@ -1,7 +1,7 @@
 {
   "username": "MaticTonin",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C++",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 332,
-  "avatar_url": "",
+  "rank": 343,
+  "avatar_url": "https://avatars.githubusercontent.com/u/77620080?u=3fbcfeba05bcb1d50a8788444d2fdbbb188c02f8&v=4",
   "bio": "",
-  "company": ""
+  "company": "\u0160tudent FMF, smer Fizika",
+  "location": "Kamnik"
 }

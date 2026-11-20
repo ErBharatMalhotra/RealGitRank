@@ -1,7 +1,7 @@
 {
   "username": "Sau1707",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Switzerland",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 286,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 302,
+  "avatar_url": "https://avatars.githubusercontent.com/u/83017316?u=5d220c82b1d00b5a0df2672dcf3524d62bf82d1a&v=4",
+  "bio": "ETHZ - Mechanical engineering\r\n",
+  "company": "@xLongLink ",
+  "location": "Switzerland"
 }

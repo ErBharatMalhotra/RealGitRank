@@ -1,7 +1,7 @@
 {
   "username": "eiei114",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Japan",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 846,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 858,
+  "avatar_url": "https://avatars.githubusercontent.com/u/60887155?u=cd8af69ea1ee2750133272e176e7781e5d5edb8b&v=4",
+  "bio": "Roblox & UEFN Engineer",
+  "company": "",
+  "location": "Japan"
 }

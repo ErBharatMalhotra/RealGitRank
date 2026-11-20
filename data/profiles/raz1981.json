@@ -1,7 +1,7 @@
 {
   "username": "raz1981",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 885,
-  "avatar_url": "",
+  "rank": 903,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4375643?u=ea9a6ec8af50a1c763e72b47a26bf5fab4d8591a&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

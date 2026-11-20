@@ -1,7 +1,7 @@
 {
   "username": "tna-da-bot",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rich Text Format",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 864,
-  "avatar_url": "",
+  "rank": 877,
+  "avatar_url": "https://avatars.githubusercontent.com/u/181243999?u=24afeed8d1c3ba4afc734e9909e62db527907462&v=4",
   "bio": "",
-  "company": ""
+  "company": "@nationalarchives",
+  "location": ""
 }

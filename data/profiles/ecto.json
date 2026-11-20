@@ -1,7 +1,7 @@
 {
   "username": "ecto",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 102,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 110,
+  "avatar_url": "https://avatars.githubusercontent.com/u/387820?u=e2402bce7117ecfc52b6b1d8344dacec4fcda88b&v=4",
+  "bio": "Robots! That help people!",
+  "company": "Municipal Robotics",
+  "location": "USA"
 }

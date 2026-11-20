@@ -1,7 +1,7 @@
 {
   "username": "Pokled",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 826,
-  "avatar_url": "",
+  "rank": 835,
+  "avatar_url": "https://avatars.githubusercontent.com/u/132959706?u=b28305a08a68a198fbbc99a8d8b5c8a56820f14a&v=4",
   "bio": "",
-  "company": ""
+  "company": "NexusToolsCollab",
+  "location": "France"
 }

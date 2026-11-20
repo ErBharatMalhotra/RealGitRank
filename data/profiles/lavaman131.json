@@ -1,7 +1,7 @@
 {
   "username": "lavaman131",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Jupyter Notebook",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 132,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 137,
+  "avatar_url": "https://avatars.githubusercontent.com/u/57336517?u=c27409b6fd6debd444f2f0a886d9286cb52c174c&v=4",
+  "bio": "Applied AI @ Microsoft Research | Prev AI Research @ Harvard + BU | AI Startups",
+  "company": "@Microsoft",
+  "location": "Redmond, WA"
 }

@@ -1,7 +1,7 @@
 {
   "username": "ntsd",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Thailand",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 481,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 496,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8283616?u=92cc5e736b8ec5f5386eb5adceeceb7af6a45533&v=4",
+  "bio": "Part-time Open Sourcerer \ud83e\uddd9\u200d\u2642\ufe0f\r\n",
+  "company": "",
+  "location": "Thailand"
 }

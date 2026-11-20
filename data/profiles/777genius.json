@@ -1,7 +1,7 @@
 {
   "username": "777genius",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 27.73,
   "s_consistency": 41.21,
-  "rank_score": 67.4,
+  "rank_score": 70.1,
   "active_repos_touched": 4,
   "pr_reviews": 2,
   "issue_comments": 1,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 555,
+  "rank": 449,
   "avatar_url": "https://avatars.githubusercontent.com/u/13103045?u=7b8c77975cf33d0c2adc26c70af76bdad06dba73&v=4",
   "bio": "Get a lot done by doing very little \ud83d\ude80\r\nBuilding the future! \u2728",
-  "company": ""
+  "company": "",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "accuser",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United Kingdom",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 199,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 206,
+  "avatar_url": "https://avatars.githubusercontent.com/u/85733?v=4",
+  "bio": "Software Engineering Coach and Mentor",
+  "company": "@accuser-dev ",
+  "location": "Cornwall, UK"
 }

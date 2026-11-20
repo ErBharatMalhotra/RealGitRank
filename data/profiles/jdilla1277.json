@@ -1,7 +1,7 @@
 {
   "username": "jdilla1277",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 594,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 598,
+  "avatar_url": "https://avatars.githubusercontent.com/u/89669079?u=092e0db0101aba3b1ddd2b1c7fcbbb75b1824fc0&v=4",
+  "bio": "Be brave and have fun",
+  "company": "",
+  "location": "Georgia, USA"
 }

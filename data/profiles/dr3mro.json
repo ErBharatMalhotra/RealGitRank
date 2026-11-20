@@ -1,7 +1,7 @@
 {
   "username": "dr3mro",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "Shell",
   "total_pushes": 3,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 43.01,
-  "rank_score": 73.4,
+  "rank_score": 77.5,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 292,
+  "rank": 187,
   "avatar_url": "https://avatars.githubusercontent.com/u/1246089?u=3fa3e06d5f6f9478d5dc770adbe54ca2cdec6319&v=4",
   "bio": "CS @ SNHU \u00b7 Backend & Systems Engineering \u00b7 C++ \u00b7 Java \u00b7 Python",
-  "company": ""
+  "company": "",
+  "location": "Brooklyn, New York"
 }

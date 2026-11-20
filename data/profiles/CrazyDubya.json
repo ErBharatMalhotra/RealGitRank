@@ -1,7 +1,7 @@
 {
   "username": "CrazyDubya",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 775,
-  "avatar_url": "",
+  "rank": 780,
+  "avatar_url": "https://avatars.githubusercontent.com/u/97849040?u=7467fda0c651f146531291afffca3e4787aa11d7&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

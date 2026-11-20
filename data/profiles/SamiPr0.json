@@ -1,7 +1,7 @@
 {
   "username": "SamiPr0",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Java",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 407,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 424,
+  "avatar_url": "https://avatars.githubusercontent.com/u/140350697?u=05c461c54d3f96d77820ddab836f4ad65e726562&v=4",
+  "bio": "Computer Science Student @ EPFL",
+  "company": "",
+  "location": "Lausanne, Switzerland"
 }

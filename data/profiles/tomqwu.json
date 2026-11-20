@@ -1,7 +1,7 @@
 {
   "username": "tomqwu",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "Swift",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 926,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 943,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5025186?u=aac556fbeb66f96d2fd59ea8f0e3def6b91828a0&v=4",
+  "bio": "\\",
+  "company": "",
+  "location": "Canada"
 }

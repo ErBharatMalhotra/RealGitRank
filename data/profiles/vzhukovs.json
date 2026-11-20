@@ -1,7 +1,7 @@
 {
   "username": "vzhukovs",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United Kingdom",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 851,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 863,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1968177?u=97e752c3bd90c64b59d1f6458d423e8020bec1db&v=4",
+  "bio": "Senior Software Engineer at Red Hat",
+  "company": "@redhat-developer ",
+  "location": "Cherkasy, Ukraine"
 }

@@ -1,7 +1,7 @@
 {
   "username": "iorlas",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Turkey",
+  "primary_language": "C",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 839,
-  "avatar_url": "",
+  "rank": 851,
+  "avatar_url": "https://avatars.githubusercontent.com/u/460890?v=4",
   "bio": "",
-  "company": ""
+  "company": "@DataArt, @vaynoeEV",
+  "location": "Turkiye, Istanbul"
 }

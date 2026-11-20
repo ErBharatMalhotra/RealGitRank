@@ -1,7 +1,7 @@
 {
   "username": "NginxL",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 574,
-  "avatar_url": "",
+  "rank": 585,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8777777?u=0ece25f8ee710692e72bc7ccadb569fcefabdf1d&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

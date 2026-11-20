@@ -1,7 +1,7 @@
 {
   "username": "PaulFidika",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 2,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 40.01,
-  "rank_score": 81.8,
+  "rank_score": 86.1,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 149,
+  "rank": 103,
   "avatar_url": "https://avatars.githubusercontent.com/u/33161696?u=1e09b11fc6822e17d31709e705d535c6d3991c93&v=4",
   "bio": "Interested in generative-media. Message me if you'd like to work on anything together.",
-  "company": "Void Tech"
+  "company": "Void Tech",
+  "location": "Denver CO, USA"
 }

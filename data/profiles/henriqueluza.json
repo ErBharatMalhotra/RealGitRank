@@ -1,7 +1,7 @@
 {
   "username": "henriqueluza",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C#",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 615,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 616,
+  "avatar_url": "https://avatars.githubusercontent.com/u/60079862?u=7e01ea0815a1f39e4f220a2f161a07b3bafabe5d&v=4",
+  "bio": "Software Engineering @ UnB",
+  "company": "",
+  "location": ""
 }

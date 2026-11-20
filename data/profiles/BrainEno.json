@@ -1,7 +1,7 @@
 {
   "username": "BrainEno",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 319,
-  "avatar_url": "",
+  "rank": 333,
+  "avatar_url": "https://avatars.githubusercontent.com/u/51125272?u=5283b50d09b517e22bdaaba1f44c2b90c57d9490&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

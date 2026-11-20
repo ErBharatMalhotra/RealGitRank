@@ -1,7 +1,7 @@
 {
   "username": "mark1russell7",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 469,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 484,
+  "avatar_url": "https://avatars.githubusercontent.com/u/39885340?u=caa6a7a886c6875e1e2870b4f3d1aca02f30ba88&v=4",
+  "bio": "church, rosser, curry, howard, russell",
+  "company": "",
+  "location": ""
 }

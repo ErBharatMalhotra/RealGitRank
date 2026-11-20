@@ -1,7 +1,7 @@
 {
   "username": "botriz",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 619,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 620,
+  "avatar_url": "https://avatars.githubusercontent.com/u/313136093?u=697ce145f28fcd22c5a69c8a78f3a4abbcd276e7&v=4",
+  "bio": "\u062d\u06a9\u0648\u0645\u062a \u062c\u0647\u0627\u0646\u06cc ",
+  "company": "@Tabriz-botriz ",
+  "location": "Iran.tabriz"
 }

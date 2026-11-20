@@ -1,7 +1,7 @@
 {
   "username": "omridevk",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Israel",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 122,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 127,
+  "avatar_url": "https://avatars.githubusercontent.com/u/9701896?u=5696890d5b2a10b1fbbcb736303d02560f28bedf&v=4",
+  "bio": "If it's worth doing, it's worth doing well.",
+  "company": "PayZen",
+  "location": "\u05bfIsrael"
 }

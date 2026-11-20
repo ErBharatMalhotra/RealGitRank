@@ -1,7 +1,7 @@
 {
   "username": "ItsMattoid",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 303,
-  "avatar_url": "",
+  "rank": 318,
+  "avatar_url": "https://avatars.githubusercontent.com/u/338381361?u=787d071e23f8e603962f1d71cfa785065941a070&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

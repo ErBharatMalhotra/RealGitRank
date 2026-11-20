@@ -1,7 +1,7 @@
 {
   "username": "winfan1314",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 210,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 223,
+  "avatar_url": "https://avatars.githubusercontent.com/u/59993589?u=79ab632aa668bfe01b3162ddcd0d2b6442f39f9a&v=4",
+  "bio": "rm -rf /*",
+  "company": "",
+  "location": ""
 }

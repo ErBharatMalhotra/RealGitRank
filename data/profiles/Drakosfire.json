@@ -1,7 +1,7 @@
 {
   "username": "Drakosfire",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 1,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 40.84,
-  "rank_score": 64.5,
+  "rank_score": 68.0,
   "active_repos_touched": 1,
   "pr_reviews": 1,
   "issue_comments": 2,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 602,
+  "rank": 564,
   "avatar_url": "https://avatars.githubusercontent.com/u/70171732?u=630288bcc96753bd475e7c361200c43b3185e789&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

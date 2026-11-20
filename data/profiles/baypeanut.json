@@ -1,7 +1,7 @@
 {
   "username": "baypeanut",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 7,
   "bot_penalty": 0.0,
@@ -23,7 +23,8 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 26,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "avatar_url": "https://avatars.githubusercontent.com/u/180485396?u=a01da7e5fb1afb32ee70f20ef9f7f09721993f0d&v=4",
+  "bio": "I like puzzles",
+  "company": "",
+  "location": ""
 }

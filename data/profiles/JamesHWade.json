@@ -1,7 +1,7 @@
 {
   "username": "JamesHWade",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "R",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 592,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 596,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6314313?u=d3231093b173a4e13ea9306081f404edcfb50e05&v=4",
+  "bio": "Analytical chemist in industry working on materials characterization and data science. Interested in #rstats, modeling, & sustainability. Owner of many pets.",
+  "company": "Dow",
+  "location": "Midland, MI"
 }

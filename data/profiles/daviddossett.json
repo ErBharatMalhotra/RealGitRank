@@ -1,7 +1,7 @@
 {
   "username": "daviddossett",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 952,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 968,
+  "avatar_url": "https://avatars.githubusercontent.com/u/25163139?u=4346d865c99a31579d681cd0b9bedea64a603ae9&v=4",
+  "bio": "Design @github. Prev VS Code @microsoft",
+  "company": "GitHub",
+  "location": "Seattle, WA"
 }

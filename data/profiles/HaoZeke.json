@@ -1,7 +1,7 @@
 {
   "username": "HaoZeke",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 7,
   "bot_penalty": 0.0,
@@ -23,7 +23,8 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 6,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/4336207?u=564d623a8c9d710c3520841b83458b0bf1eae010&v=4",
   "bio": "",
-  "company": ""
+  "company": "@TheochemUI, @lab-cosmo, @metatensor",
+  "location": "University of Iceland"
 }

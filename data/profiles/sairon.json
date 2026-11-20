@@ -1,7 +1,7 @@
 {
   "username": "sairon",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C++",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 867,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 880,
+  "avatar_url": "https://avatars.githubusercontent.com/u/211416?u=b381da7a0878655f117f0fa278fe83f55007d23f&v=4",
+  "bio": "Open source enthusiast, hardware hacker, private smart home aficionado and beer geek/homebrewer.\r\n\r\nWorking on the @home-assistant Operating System.",
+  "company": "@OpenHomeFoundation @home-assistant",
+  "location": "Prague, Czech Republic"
 }

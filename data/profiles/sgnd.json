@@ -1,7 +1,7 @@
 {
   "username": "sgnd",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Indonesia",
+  "primary_language": "SCSS",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 539,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 554,
+  "avatar_url": "https://avatars.githubusercontent.com/u/15070585?u=6767fa4b0da65c9bc87f39102fe71851781f0aa7&v=4",
+  "bio": "Founder of @creatif-studio & @efolusi ",
+  "company": "",
+  "location": "Indonesia"
 }

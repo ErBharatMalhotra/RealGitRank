@@ -1,7 +1,7 @@
 {
   "username": "nhooey",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 765,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 770,
+  "avatar_url": "https://avatars.githubusercontent.com/u/65458?v=4",
+  "bio": "Full stack engineer with experience in Search and DevOps.",
+  "company": "",
+  "location": "Toronto, Ontario, Canada"
 }

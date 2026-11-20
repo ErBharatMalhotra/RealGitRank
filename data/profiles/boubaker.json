@@ -1,7 +1,7 @@
 {
   "username": "boubaker",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Java",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 835,
-  "avatar_url": "",
+  "rank": 847,
+  "avatar_url": "https://avatars.githubusercontent.com/u/594824?u=12e28f37e93165ec71365a2fdff596cc3563c6c8&v=4",
   "bio": "",
-  "company": ""
+  "company": "eXo Platform",
+  "location": "Tunisia"
 }

@@ -1,7 +1,7 @@
 {
   "username": "kajisho5",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Japan",
+  "primary_language": "Swift",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 488,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 503,
+  "avatar_url": "https://avatars.githubusercontent.com/u/20648875?u=84f861929de1c0a2393c783cda80041ca725f657&v=4",
+  "bio": "Video / Audio / Streaming Engineer\r\nBuilding tools for real-world event production.\r\nAI \u00d7 FFmpeg \u00d7 Automation",
+  "company": "SEVENTHWELL",
+  "location": "Japan"
 }

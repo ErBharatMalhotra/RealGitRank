@@ -1,7 +1,7 @@
 {
   "username": "Dev-next-gen",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 271,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 288,
+  "avatar_url": "https://avatars.githubusercontent.com/u/188639646?u=f05149adc9ea9fd65db7311facd055e2a528bd6a&v=4",
+  "bio": "I find code defects where there shouldn't be any.",
+  "company": "",
+  "location": "Paris"
 }

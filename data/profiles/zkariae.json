@@ -1,7 +1,7 @@
 {
   "username": "zkariae",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 700,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 704,
+  "avatar_url": "https://avatars.githubusercontent.com/u/115487765?u=ac61c9c27ccec998cde7c18ce9f1d01e99399743&v=4",
+  "bio": "Embedded Software Engineer",
+  "company": "",
+  "location": "Paris, France"
 }

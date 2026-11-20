@@ -1,7 +1,7 @@
 {
   "username": "silasfelinus",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 792,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 800,
+  "avatar_url": "https://avatars.githubusercontent.com/u/28974288?u=600236f6babe3c331890c1bae65745b928c39d17&v=4",
+  "bio": "Human Ambassador for Kind Robots (kindrobots.org). Creating tools for AI/Human Collaboration. Please donate to https://againstmalaria.org/amibot",
+  "company": "Kind Robots",
+  "location": "Eureka, CA"
 }

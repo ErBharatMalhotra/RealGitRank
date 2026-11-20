@@ -1,7 +1,7 @@
 {
   "username": "zgeoff",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Shell",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 112,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 117,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3013783?u=ec52bd56980099dc3b7fad5008e8951dce05bd94&v=4",
+  "bio": "dumb luck & sheer will.",
+  "company": "",
+  "location": "Melbourne, Australia"
 }

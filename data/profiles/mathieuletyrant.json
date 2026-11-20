@@ -1,7 +1,7 @@
 {
   "username": "mathieuletyrant",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 776,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 781,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2812991?u=467a8e7c64ee02119e1a307107d00a8293f1cd20&v=4",
+  "bio": "Senior Software Engineer @getprimo ex-@PayFit",
+  "company": "@getprimo",
+  "location": "France"
 }

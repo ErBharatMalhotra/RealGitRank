@@ -1,7 +1,7 @@
 {
   "username": "RogerMcKenzie",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Svelte",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 277,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 294,
+  "avatar_url": "https://avatars.githubusercontent.com/u/158111767?u=338afa86888839cce3aa271da0a7a886d98ca7aa&v=4",
+  "bio": "Sometimes I make stuff. ",
+  "company": "",
+  "location": "Gainesville, Florida"
 }

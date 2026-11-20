@@ -1,7 +1,7 @@
 {
   "username": "vincentkoc",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 558,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 569,
+  "avatar_url": "https://avatars.githubusercontent.com/u/25068?u=5d9c466c1faf3fcd96870c8c9b99c7a548415369&v=4",
+  "bio": "Chief Architect \ud83e\udd9e @openclaw Ex @qantasairways @airbytehq @microsoft | Lecturer @mit | Ethical Hacker | FIrst Responder",
+  "company": "@openclaw",
+  "location": "San Francisco, CA"
 }

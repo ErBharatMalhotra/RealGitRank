@@ -1,7 +1,7 @@
 {
   "username": "c-a-t-f-o-o-d",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 442,
-  "avatar_url": "",
+  "rank": 459,
+  "avatar_url": "https://avatars.githubusercontent.com/u/21222662?u=ee57cc0c80f281f52419f80c0f25028916322003&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

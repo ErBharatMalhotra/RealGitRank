@@ -1,7 +1,7 @@
 {
   "username": "ScottCooper92",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United Kingdom",
+  "primary_language": "Java",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 607,
-  "avatar_url": "",
+  "rank": 608,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4775537?u=5b869fb408ea5e0fb656ce9ca5a1ce6e2656da9d&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Leeds, United Kingdom"
 }

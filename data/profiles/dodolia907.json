@@ -1,7 +1,7 @@
 {
   "username": "dodolia907",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Japan",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 232,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 245,
+  "avatar_url": "https://avatars.githubusercontent.com/u/102458791?u=15a4f74777e548515347b3519cc98428ae91ae4d&v=4",
+  "bio": "Information Network Laboratory,\r\nDepartment of Computer Science and Engineering",
+  "company": "Toyohashi University of Technology",
+  "location": "Sapporo, Hokkaido, Japan."
 }

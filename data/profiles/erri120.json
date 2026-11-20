@@ -1,7 +1,7 @@
 {
   "username": "erri120",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Germany",
+  "primary_language": "C#",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 220,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 233,
+  "avatar_url": "https://avatars.githubusercontent.com/u/16577545?u=453f920e94f48b780eb6370826b40b6790cc5a4f&v=4",
+  "bio": "I'm a random dude who loves music, videogames, programming and playing the piano.",
+  "company": "@Nexus-Mods",
+  "location": "Germany"
 }

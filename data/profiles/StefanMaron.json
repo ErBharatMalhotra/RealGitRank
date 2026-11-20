@@ -1,7 +1,7 @@
 {
   "username": "StefanMaron",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Poland",
+  "primary_language": "PowerShell",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 342,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 351,
+  "avatar_url": "https://avatars.githubusercontent.com/u/24838311?u=11bbe0c9814c53159a1821206ad4aa758d8431c5&v=4",
+  "bio": "Microsoft Dynamics 365 Business Central Developer | Microsoft MVP",
+  "company": "Freelance BC Developer",
+  "location": "Olesno, Poland"
 }

@@ -1,7 +1,7 @@
 {
   "username": "jasonulbright",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 668,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 669,
+  "avatar_url": "https://avatars.githubusercontent.com/u/263023789?u=0760eb7f7d92f392f1e52d5bfb7e76803d9fba21&v=4",
+  "bio": "It's not a second job. It's a hobby with a production pipeline",
+  "company": "",
+  "location": ""
 }

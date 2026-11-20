@@ -1,7 +1,7 @@
 {
   "username": "koorikla",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 770,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 775,
+  "avatar_url": "https://avatars.githubusercontent.com/u/73392260?u=5acca903cccc2b2ec19b35bf19ca90287dbcbe85&v=4",
+  "bio": "CNCF Kubestronaut | AWS SAP | Google PCA\r\n\r\n\r\nFiddling around within Platform Engineering and DevOps practises",
+  "company": "",
+  "location": "Estonia"
 }

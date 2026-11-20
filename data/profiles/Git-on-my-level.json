@@ -1,7 +1,7 @@
 {
   "username": "Git-on-my-level",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 454,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 471,
+  "avatar_url": "https://avatars.githubusercontent.com/u/9387252?u=13c5f5b98e522cc10b0bc46fd76a7ddd1384899e&v=4",
+  "bio": "Objective function @ scalingforever.com",
+  "company": "www.omi.me",
+  "location": "Meatspace"
 }

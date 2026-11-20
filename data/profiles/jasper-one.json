@@ -1,7 +1,7 @@
 {
   "username": "jasper-one",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 128,
-  "avatar_url": "",
+  "rank": 133,
+  "avatar_url": "https://avatars.githubusercontent.com/u/106525617?u=dcbfa3526887cd648b3d76ee012027f6b032525f&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

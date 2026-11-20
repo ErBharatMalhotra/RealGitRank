@@ -1,7 +1,7 @@
 {
   "username": "gadkadosh",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Germany",
+  "primary_language": "Lua",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 572,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 583,
+  "avatar_url": "https://avatars.githubusercontent.com/u/32033534?u=e02ba034340a3a8c7e9488f18473084a77882a2f&v=4",
+  "bio": "Building stuff.\r\nMaking music.\r\nFlying Planes.",
+  "company": "",
+  "location": "Berlin"
 }

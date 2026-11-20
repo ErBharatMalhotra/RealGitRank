@@ -1,7 +1,7 @@
 {
   "username": "OpenVibers",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 1,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 39.45,
-  "rank_score": 72.7,
+  "rank_score": 76.1,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 335,
+  "rank": 218,
   "avatar_url": "https://avatars.githubusercontent.com/u/279216588?u=0401cfc7da2ec59c1686dac2a486b04241d6388c&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

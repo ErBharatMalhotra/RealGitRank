@@ -1,7 +1,7 @@
 {
   "username": "JoshuaCYin",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 501,
-  "avatar_url": "",
+  "rank": 515,
+  "avatar_url": "https://avatars.githubusercontent.com/u/179155119?u=e89acad25e899ef96713fb239c7b0f5d9ec46eb1&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

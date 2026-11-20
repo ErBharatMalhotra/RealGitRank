@@ -1,7 +1,7 @@
 {
   "username": "Upd4ting",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 350,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 359,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6763934?u=7f8e73c94b211462cbe2b2d316352d5d9d3687c9&v=4",
+  "bio": "CTO and co-founder of Antelope and Altab. I work on AntelopeJS, a TypeScript framework, and AntelopeJS DMS, an open-source back office for your database.",
+  "company": "",
+  "location": "Belgium"
 }

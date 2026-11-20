@@ -1,7 +1,7 @@
 {
   "username": "lucia-engine",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C++",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 141,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 145,
+  "avatar_url": "https://avatars.githubusercontent.com/u/352078336?u=c3ff4d4211d0b9458e00a0d9ba4435e53aa21d70&v=4",
+  "bio": "Open source game engine.",
+  "company": "@luciaengine",
+  "location": ""
 }

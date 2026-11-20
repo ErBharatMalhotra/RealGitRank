@@ -1,7 +1,7 @@
 {
   "username": "mow-coding",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "HTML",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 41.83,
-  "rank_score": 64.7,
+  "rank_score": 68.2,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 587,
+  "rank": 562,
   "avatar_url": "https://avatars.githubusercontent.com/u/270709884?u=6cc455420fcde0d1797e74ce41bcff56149b4739&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "zekihan",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Turkey",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 5,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 39,
-  "avatar_url": "",
+  "rank": 43,
+  "avatar_url": "https://avatars.githubusercontent.com/u/38537758?u=72626fffe61fecbd4e4d87e2341d47c7028285eb&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Turkey"
 }

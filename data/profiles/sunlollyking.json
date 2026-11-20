@@ -1,7 +1,7 @@
 {
   "username": "sunlollyking",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "CMake",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 225,
-  "avatar_url": "",
+  "rank": 238,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4989002?u=96031ca39a050467828a70df87b3672d9b461207&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Edinburgh"
 }

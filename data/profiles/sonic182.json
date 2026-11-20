@@ -1,7 +1,7 @@
 {
   "username": "sonic182",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Spain",
+  "primary_language": "Elixir",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 309,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 323,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4070466?v=4",
+  "bio": "Full-Stack dev, cats lover :)",
+  "company": "",
+  "location": "Madrid, Spain"
 }

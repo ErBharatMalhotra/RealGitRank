@@ -1,7 +1,7 @@
 {
   "username": "SimonHeybrock",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Sweden",
+  "primary_language": "C++",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 216,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 229,
+  "avatar_url": "https://avatars.githubusercontent.com/u/12912489?u=1f47efe18495f2f8210d942e9c1bce390554aa69&v=4",
+  "bio": "Vaccinated Vegan Scientist",
+  "company": "European Spallation Source",
+  "location": "Malm\u00f6, Sweden"
 }

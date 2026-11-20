@@ -1,7 +1,7 @@
 {
   "username": "SteRiccio",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Italy",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 192,
-  "avatar_url": "",
+  "rank": 198,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1219739?u=120912579f18c8a3338f321c3633e89ed4ec9b2d&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Rome (Italy)"
 }

@@ -1,7 +1,7 @@
 {
   "username": "olafkfreund",
   "country": "United Kingdom",
-  "primary_language": "Unknown",
+  "primary_language": "Nix",
   "total_pushes": 1,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 43.61,
-  "rank_score": 73.2,
+  "rank_score": 76.7,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 302,
+  "rank": 200,
   "avatar_url": "https://avatars.githubusercontent.com/u/12804862?u=82e850ce96410a9749910239dc1a745b37a81f37&v=4",
   "bio": "",
-  "company": "DevOps and Cloud Architect"
+  "company": "DevOps and Cloud Architect",
+  "location": "London"
 }

@@ -1,7 +1,7 @@
 {
   "username": "RyanTheTide",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "C",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 980,
-  "avatar_url": "",
+  "rank": 995,
+  "avatar_url": "https://avatars.githubusercontent.com/u/81541646?u=6c8cbc1e7aa1597ab6226222743d259f8fe71ff1&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Sydney, NSW, Australia"
 }

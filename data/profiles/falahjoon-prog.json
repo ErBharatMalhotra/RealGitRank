@@ -1,7 +1,7 @@
 {
   "username": "falahjoon-prog",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 2,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 44.8,
-  "rank_score": 76.8,
+  "rank_score": 80.9,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 191,
+  "rank": 158,
   "avatar_url": "https://avatars.githubusercontent.com/u/334242041?v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "AliCT27",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Vue",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 633,
-  "avatar_url": "",
+  "rank": 634,
+  "avatar_url": "https://avatars.githubusercontent.com/u/178917136?u=cde3799e13f14701233c1bc810249144db0fd0ca&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

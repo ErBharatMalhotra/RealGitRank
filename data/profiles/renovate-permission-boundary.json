@@ -1,7 +1,7 @@
 {
   "username": "renovate-permission-boundary",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 50.15,
-  "rank_score": 72.7,
+  "rank_score": 76.3,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 334,
+  "rank": 213,
   "avatar_url": "https://avatars.githubusercontent.com/u/162788243?v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

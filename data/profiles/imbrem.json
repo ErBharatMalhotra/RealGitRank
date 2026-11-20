@@ -1,7 +1,7 @@
 {
   "username": "imbrem",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United Kingdom",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 136,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 141,
+  "avatar_url": "https://avatars.githubusercontent.com/u/44735514?u=d636a49f2d66aa348f94acadbe31054626fc4caa&v=4",
+  "bio": "CSO @ Autoresearch Inc.\r\n\r\n\r\nbrb, formalizing the world",
+  "company": "University of Cambridge",
+  "location": "London, United Kingdom"
 }

@@ -1,7 +1,7 @@
 {
   "username": "CommaBot",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Elixir",
   "total_pushes": 0,
   "merged_prs": 5,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 28,
-  "avatar_url": "",
+  "rank": 29,
+  "avatar_url": "https://avatars.githubusercontent.com/u/237911457?u=fef25d43ae94b11055c13f2bbe5734d08533a69a&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

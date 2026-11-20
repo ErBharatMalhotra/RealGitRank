@@ -1,7 +1,7 @@
 {
   "username": "mateuszsikora",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 955,
-  "avatar_url": "",
+  "rank": 971,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8762997?u=b4b4c24a91e74e51c16f70a347f8255d858603eb&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Wroc\u0142aw, PL"
 }

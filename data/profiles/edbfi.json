@@ -1,7 +1,7 @@
 {
   "username": "edbfi",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 597,
-  "avatar_url": "",
+  "rank": 601,
+  "avatar_url": "https://avatars.githubusercontent.com/u/326875205?u=249831b8a7b3b701ab27b96bec0caf3257a67bb2&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

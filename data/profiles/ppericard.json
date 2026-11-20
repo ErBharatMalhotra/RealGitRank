@@ -1,7 +1,7 @@
 {
   "username": "ppericard",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 506,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 520,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7090732?u=d1f8777b69c87d2729c45de9543acc3336cd09c5&v=4",
+  "bio": "Bioinformatician, PhD",
+  "company": "Lille University",
+  "location": "Lille, France"
 }

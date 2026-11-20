@@ -1,7 +1,7 @@
 {
   "username": "yxblee",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 757,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 761,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11594636?v=4",
+  "bio": "Data Science | AI/ML & Software Engineering | Bioinformatics & Computational Biology",
+  "company": "",
+  "location": "Vancouver, BC"
 }

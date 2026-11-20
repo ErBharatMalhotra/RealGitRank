@@ -1,7 +1,7 @@
 {
   "username": "squid-protocol",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,9 +11,20 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 43.19,
-  "rank_score": 60.9,
-  "rank": 786,
+  "rank_score": 59.7,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 848,
   "avatar_url": "https://avatars.githubusercontent.com/u/254786755?u=a9c40bf2746340e01af040a953351fa082b653cb&v=4",
   "bio": "Educator, Scientist, and Systems Builder. Bridging a decade of research and another decade of teaching experience to open-source engineering. ",
-  "company": "Lansing Community College, Professor of Biology"
+  "company": "Lansing Community College, Professor of Biology",
+  "location": "Grand Rapids, Mi"
 }

@@ -1,7 +1,7 @@
 {
   "username": "drewstone",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 200,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 208,
+  "avatar_url": "https://avatars.githubusercontent.com/u/13153687?u=a4d49a662ede518d5b6577e751ad303d3c0824cf&v=4",
+  "bio": "@tangle-network ",
+  "company": "@tangle-network",
+  "location": "United States"
 }

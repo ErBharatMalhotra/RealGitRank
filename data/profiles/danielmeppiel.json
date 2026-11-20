@@ -1,7 +1,7 @@
 {
   "username": "danielmeppiel",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 480,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 495,
+  "avatar_url": "https://avatars.githubusercontent.com/u/51440732?u=2b8e4a07f298fd9260be091381cb7d9505edc83f&v=4",
+  "bio": "Building the Agentic SDLC @microsoft. Creator of APM (Agent Package Manager) & PROSE. Author of The Agentic SDLC Handbook \u2192 theainativemind.com",
+  "company": "Microsoft",
+  "location": "France"
 }

@@ -1,7 +1,7 @@
 {
   "username": "RomitChakraborty",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 486,
-  "avatar_url": "",
+  "rank": 501,
+  "avatar_url": "https://avatars.githubusercontent.com/u/17207465?u=a68ba6a1acc0bebba1330004759936bba674ab0a&v=4",
   "bio": "",
-  "company": ""
+  "company": "@point-reyes-sound",
+  "location": "SF Bay Area"
 }

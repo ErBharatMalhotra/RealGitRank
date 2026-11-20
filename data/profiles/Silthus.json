@@ -1,7 +1,7 @@
 {
   "username": "Silthus",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Germany",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 499,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 513,
+  "avatar_url": "https://avatars.githubusercontent.com/u/755327?u=f90025e6b0bd30834c6fa73e7f36aa10e190d968&v=4",
+  "bio": "Engineer",
+  "company": "PostHog",
+  "location": "Germany, Munich"
 }

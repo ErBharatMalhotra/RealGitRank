@@ -1,7 +1,7 @@
 {
   "username": "Boulea7",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "China",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 356,
-  "avatar_url": "",
+  "rank": 366,
+  "avatar_url": "https://avatars.githubusercontent.com/u/145515129?u=349cafe369da00fce2007d5408a60efbe03e0ee3&v=4",
   "bio": "",
-  "company": ""
+  "company": "ByteDance",
+  "location": "Beijing"
 }

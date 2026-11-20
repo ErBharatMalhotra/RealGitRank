@@ -1,7 +1,7 @@
 {
   "username": "ynishikawa-coder",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,9 +11,20 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 46.02,
-  "rank_score": 61.3,
-  "rank": 768,
+  "rank_score": 60.1,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 840,
   "avatar_url": "https://avatars.githubusercontent.com/u/284810416?v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

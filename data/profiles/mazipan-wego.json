@@ -1,7 +1,7 @@
 {
   "username": "mazipan-wego",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Indonesia",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 396,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 407,
+  "avatar_url": "https://avatars.githubusercontent.com/u/201220304?u=518f711bff1cadd385440488d8f935b366a4541c&v=4",
+  "bio": "Web Engineer at @wego. Side quest from @mazipan",
+  "company": "@wego",
+  "location": "Jakarta, Indonesia"
 }

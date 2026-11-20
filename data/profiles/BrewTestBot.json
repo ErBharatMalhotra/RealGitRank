@@ -1,7 +1,7 @@
 {
   "username": "BrewTestBot",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Ruby",
   "total_pushes": 0,
   "merged_prs": 5,
   "bot_penalty": 0.0,
@@ -23,7 +23,8 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 25,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "avatar_url": "https://avatars.githubusercontent.com/u/1589480?u=d55ba445072da72e816348cc5b87be1148ba60a9&v=4",
+  "bio": "I build things for @Homebrew.",
+  "company": "@Homebrew",
+  "location": ""
 }

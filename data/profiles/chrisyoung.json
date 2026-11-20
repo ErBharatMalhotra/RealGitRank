@@ -1,7 +1,7 @@
 {
   "username": "chrisyoung",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Ruby",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 383,
-  "avatar_url": "",
+  "rank": 392,
+  "avatar_url": "https://avatars.githubusercontent.com/u/56055?u=822d62fb93c51c7139d6e4188a9455ccf0b5bf8d&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Phoenix, AZ"
 }

@@ -1,7 +1,7 @@
 {
   "username": "samtrion",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Germany",
+  "primary_language": "C#",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 457,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 474,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3283596?u=d124b9b163760c7319f1b950ac3e39c8c5d93ca3&v=4",
+  "bio": "CTO @ Integrated Worlds, Husband and father, .NET and Azure enthusiast",
+  "company": "@Integrated-Worlds",
+  "location": "Greater Stuttgart Metro, Germany"
 }

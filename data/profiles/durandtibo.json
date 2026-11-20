@@ -1,7 +1,7 @@
 {
   "username": "durandtibo",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 80,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 88,
+  "avatar_url": "https://avatars.githubusercontent.com/u/9913164?u=25c3789daee37e3dd58f226d088b687d7c579db4&v=4",
+  "bio": "Researcher in Computer Vision and Machine Learning.\r\n\r\nThis profile is used for personal projects/contributions",
+  "company": "Borealis AI",
+  "location": "Vancouver, Canada"
 }

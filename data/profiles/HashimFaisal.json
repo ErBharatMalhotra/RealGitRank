@@ -1,7 +1,7 @@
 {
   "username": "HashimFaisal",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "CSS",
   "total_pushes": 1,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 42.76,
-  "rank_score": 64.8,
+  "rank_score": 68.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 582,
+  "rank": 558,
   "avatar_url": "https://avatars.githubusercontent.com/u/218308265?u=660783babf8ef1c340ce35b9767a03566750e988&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

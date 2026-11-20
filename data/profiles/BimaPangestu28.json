@@ -1,7 +1,7 @@
 {
   "username": "BimaPangestu28",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 317,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 331,
+  "avatar_url": "https://avatars.githubusercontent.com/u/18326904?u=d946872f48b02c9b6c6cbbe415479340377986c3&v=4",
+  "bio": "Senior Rust Engineer \u00b7 9+ YOE | Rust \u00b7 WebAssembly \u00b7 Agentic AI \u00b7 Web3 \u00b7 Data Engineering \u00b7 Full Stack | Open to remote roles",
+  "company": "Catalystlabs",
+  "location": "Bandar Lampung"
 }

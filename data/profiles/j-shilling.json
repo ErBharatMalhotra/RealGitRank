@@ -1,7 +1,7 @@
 {
   "username": "j-shilling",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Ruby",
   "total_pushes": 3,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 44.88,
-  "rank_score": 65.2,
+  "rank_score": 68.7,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 580,
+  "rank": 555,
   "avatar_url": "https://avatars.githubusercontent.com/u/17163542?v=4",
   "bio": "",
-  "company": "@PathableAI-org"
+  "company": "@PathableAI-org",
+  "location": "Baltimore, MD"
 }

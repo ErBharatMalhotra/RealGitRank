@@ -1,7 +1,7 @@
 {
   "username": "8tsmith11",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Java",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 631,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 632,
+  "avatar_url": "https://avatars.githubusercontent.com/u/91441655?u=d2f761c79744ebca7d688768cb20e3a0f189a764&v=4",
+  "bio": "programmer",
+  "company": "",
+  "location": ""
 }

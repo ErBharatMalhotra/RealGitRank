@@ -1,7 +1,7 @@
 {
   "username": "kyj0503",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Java",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 238,
-  "avatar_url": "",
+  "rank": 252,
+  "avatar_url": "https://avatars.githubusercontent.com/u/152960761?u=9d493b29dad6f91215c5158249dc56e61511cf1b&v=4",
   "bio": "",
-  "company": ""
+  "company": "COONTEC",
+  "location": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc"
 }

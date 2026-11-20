@@ -1,7 +1,7 @@
 {
   "username": "donbeave",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Java",
   "total_pushes": 1,
   "merged_prs": 9,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 42.16,
-  "rank_score": 122.3,
+  "rank_score": 129.2,
   "active_repos_touched": 6,
   "pr_reviews": 13,
   "issue_comments": 4,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 5,
+  "rank": 3,
   "avatar_url": "https://avatars.githubusercontent.com/u/139017?u=49a6fe00b782eebfb2cb5d5c9d9e6ab4a7f76399&v=4",
   "bio": "CTO at ChainArgos / Principal Architect at Scentbird",
-  "company": "@scentbird @chainargos"
+  "company": "@scentbird @chainargos",
+  "location": "Hong Kong"
 }

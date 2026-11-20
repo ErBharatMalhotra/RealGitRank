@@ -1,7 +1,7 @@
 {
   "username": "wphillipmoore",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 56,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 59,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3788880?u=5f9230bfc420edcebb3b14539a79fe51343a7051&v=4",
+  "bio": "Infrastructure engineer and software developer with several decades of Enterprise experience at global scale, passionate about solving hard problems.",
+  "company": "",
+  "location": " New Jersey, United States"
 }

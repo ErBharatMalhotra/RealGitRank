@@ -1,7 +1,7 @@
 {
   "username": "auerbachb",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Shell",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 507,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 521,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4504560?u=249272c795a04b238169ea6c8396f35892216bb0&v=4",
+  "bio": "we used to live between a rock and a hard place now we live between a cursor and a coderabbit",
+  "company": "LocalMovers.com",
+  "location": "New York City"
 }

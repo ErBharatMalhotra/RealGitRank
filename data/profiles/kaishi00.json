@@ -1,7 +1,7 @@
 {
   "username": "kaishi00",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Swift",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 109,
-  "avatar_url": "",
+  "rank": 115,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6590895?u=9508570babca587d987c7ac42c601fd9b16e212b&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

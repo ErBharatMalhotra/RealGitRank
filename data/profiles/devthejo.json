@@ -1,7 +1,7 @@
 {
   "username": "devthejo",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 494,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 508,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6781828?u=d340242602dec44bfcc20e903e2ccb9ca2de3670&v=4",
+  "bio": "open-source fanatic and coding addicted",
+  "company": "",
+  "location": "France"
 }

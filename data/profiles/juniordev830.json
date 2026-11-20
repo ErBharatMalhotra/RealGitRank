@@ -1,7 +1,7 @@
 {
   "username": "juniordev830",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 7,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 9,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 10,
+  "avatar_url": "https://avatars.githubusercontent.com/u/220557345?u=d4ab0e0ab80a1d6d63259a9f843ec6a6586a992f&v=4",
+  "bio": "\ud83c\udf93 Estudante de Engenharia de Software  \r\n\ud83d\udcbb Desenvolvedor de Software  \r\n\ud83d\ude80 Java \u2022 Spring Boot \u2022 React \u2022 TypeScript \u2022 SQL  \r\n\ud83d\udcda Criando projetos e evoluindo .",
+  "company": "",
+  "location": "Brasil rio grande do norte "
 }

@@ -1,7 +1,7 @@
 {
   "username": "hieult-dev",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Dart",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 340,
-  "avatar_url": "",
+  "rank": 349,
+  "avatar_url": "https://avatars.githubusercontent.com/u/172460000?u=dddd5f3e76f35560fda140cb18827b2168629af3&v=4",
   "bio": "",
-  "company": ""
+  "company": "FPT Organization",
+  "location": "H\u00e0 N\u1ed9i"
 }

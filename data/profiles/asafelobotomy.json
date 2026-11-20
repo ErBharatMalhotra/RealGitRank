@@ -1,7 +1,7 @@
 {
   "username": "asafelobotomy",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Shell",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 609,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 610,
+  "avatar_url": "https://avatars.githubusercontent.com/u/213836723?u=fbc6c978ecd1acefcc5ad9c80840f788fb1fb921&v=4",
+  "bio": "\ud83e\uddd8\ud83c\udffb\u200d\u2640\ufe0f n00b \ud83e\uddda\ud83c\udffb vibe \ud83d\udc69\ud83c\udffb\u200d\ud83c\udfa8 i make things from my brain come to life \ud83c\udccf",
+  "company": "",
+  "location": "Ireland"
 }

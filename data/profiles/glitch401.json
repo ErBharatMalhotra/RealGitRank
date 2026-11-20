@@ -1,7 +1,7 @@
 {
   "username": "glitch401",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 361,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 371,
+  "avatar_url": "https://avatars.githubusercontent.com/u/26926571?u=7b0f7a10eb8bfc7f98397e06c729201b1be1c23a&v=4",
+  "bio": "Senior AI @ At&t | MSCS@UT, Ex-Data Scientist@ G2| ISN | Byjus | Myntra",
+  "company": "",
+  "location": ""
 }

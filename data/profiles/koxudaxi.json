@@ -1,7 +1,7 @@
 {
   "username": "koxudaxi",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Japan",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 525,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 539,
+  "avatar_url": "https://avatars.githubusercontent.com/u/630670?u=507d8577b4b3670546b449c4c2ccbc5af40d72f7&v=4",
+  "bio": "Python developer tools \u00b7 Creator and maintainer of datamodel-code-generator \u00b7 PEP 750 co-author \u00b7 Open to work.",
+  "company": "",
+  "location": "Tokyo, Japan"
 }

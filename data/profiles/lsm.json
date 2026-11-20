@@ -1,7 +1,7 @@
 {
   "username": "lsm",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 344,
-  "avatar_url": "",
+  "rank": 353,
+  "avatar_url": "https://avatars.githubusercontent.com/u/172359?u=ee5540df5deae306f5f9bfdc70a70346a998d60b&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Princeton, NJ"
 }

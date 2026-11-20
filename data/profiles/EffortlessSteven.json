@@ -1,7 +1,7 @@
 {
   "username": "EffortlessSteven",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 254,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 271,
+  "avatar_url": "https://avatars.githubusercontent.com/u/15812269?u=f3553150e1b2ed3089482b343e013bb2b9114bde&v=4",
+  "bio": "PR Glass Cockpit \u2022 Agentic SDLC + PR telemetry \u2022 Finance exec (PE/regulated turnarounds)",
+  "company": "Effortless Metrics",
+  "location": ""
 }

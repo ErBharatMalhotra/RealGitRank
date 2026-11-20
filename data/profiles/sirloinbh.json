@@ -1,7 +1,7 @@
 {
   "username": "sirloinbh",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "South Korea",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 679,
-  "avatar_url": "",
+  "rank": 681,
+  "avatar_url": "https://avatars.githubusercontent.com/u/129952654?v=4",
   "bio": "",
-  "company": ""
+  "company": "Quantified ESG",
+  "location": "Seoul, Republic of Korea"
 }

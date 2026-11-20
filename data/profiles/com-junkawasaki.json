@@ -1,7 +1,7 @@
 {
   "username": "com-junkawasaki",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Japan",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 60,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 66,
+  "avatar_url": "https://avatars.githubusercontent.com/u/623495?u=08f24ffd086793609986eb6eb7eff415e1b31266&v=4",
+  "bio": "Niigata University Graduate School of Medical and Dental Sciences, Brain Research Institute.",
+  "company": "gftd.co.jp",
+  "location": "Tokyo"
 }

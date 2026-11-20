@@ -1,7 +1,7 @@
 {
   "username": "zeinhm",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Indonesia",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 329,
-  "avatar_url": "",
+  "rank": 340,
+  "avatar_url": "https://avatars.githubusercontent.com/u/42085776?u=97fc29daf6a6407c33aafb9f1e535fe1bc167608&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Jakarta"
 }

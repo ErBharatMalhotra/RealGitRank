@@ -1,7 +1,7 @@
 {
   "username": "VoyTechnology",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 925,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 942,
+  "avatar_url": "https://avatars.githubusercontent.com/u/9013382?v=4",
+  "bio": "@grafana SRE,\r\n@CPSSD graduate,\r\n@redbrick rootholder",
+  "company": "@grafana",
+  "location": "Ireland"
 }

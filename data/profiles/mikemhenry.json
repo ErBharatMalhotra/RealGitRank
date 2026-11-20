@@ -1,7 +1,7 @@
 {
   "username": "mikemhenry",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 556,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 567,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11765982?u=0e9de07368697b38b7d9ece010d88010cb604991&v=4",
+  "bio": "Software Scientist,  working at the intersection of teaching and scientific software development to create a more just world",
+  "company": "https://omsf.io/",
+  "location": "Phoenix, AZ"
 }

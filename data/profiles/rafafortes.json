@@ -1,7 +1,7 @@
 {
   "username": "rafafortes",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Ruby",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 849,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 861,
+  "avatar_url": "https://avatars.githubusercontent.com/u/20464782?u=10cbc666fb92c7177bb618629a0fe9344198e501&v=4",
+  "bio": "AI Engineer | Agentic Workflows, MCP & LLM Integrations | 20+ yrs Software Engineering | Adobe Certified Master (Commerce Architect)",
+  "company": "",
+  "location": "New York, United States"
 }

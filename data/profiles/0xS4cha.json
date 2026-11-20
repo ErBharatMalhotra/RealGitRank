@@ -1,7 +1,7 @@
 {
   "username": "0xS4cha",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 772,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 777,
+  "avatar_url": "https://avatars.githubusercontent.com/u/88593319?u=28641bffcbd53a966476f164c76cb389a7bacded&v=4",
+  "bio": "You are smart",
+  "company": "Solo",
+  "location": "France"
 }

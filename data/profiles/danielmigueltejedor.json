@@ -1,7 +1,7 @@
 {
   "username": "danielmigueltejedor",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Spain",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 242,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 257,
+  "avatar_url": "https://avatars.githubusercontent.com/u/241863489?u=5d642997d3f60a18163e977be4baa8e49b0fce8e&v=4",
+  "bio": "Aerospace engineering student building open-source smart home software, dashboards and Home Assistant custom cards.",
+  "company": "Nodalia",
+  "location": "Spain"
 }

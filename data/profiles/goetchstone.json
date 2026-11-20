@@ -1,7 +1,7 @@
 {
   "username": "goetchstone",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 338,
-  "avatar_url": "",
+  "rank": 347,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8402713?v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

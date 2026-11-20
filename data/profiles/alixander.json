@@ -1,7 +1,7 @@
 {
   "username": "alixander",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 274,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 291,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3120367?u=73de65f17b244ad6ffeaf8662f6e89934d17c913&v=4",
+  "bio": "Infra @openai. Co-creator of @d2lang. Previously \r\n @stripe and @google",
+  "company": "",
+  "location": "San Francisco"
 }

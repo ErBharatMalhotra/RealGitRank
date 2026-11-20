@@ -1,7 +1,7 @@
 {
   "username": "rippere",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 756,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 760,
+  "avatar_url": "https://avatars.githubusercontent.com/u/134734002?v=4",
+  "bio": "Psychology student applying behavioral science to AI system design. Neuro research @ WSU \u2192 decision intelligence, agentic infra, CRM.",
+  "company": "",
+  "location": "Pullman, WA"
 }

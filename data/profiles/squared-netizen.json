@@ -1,7 +1,7 @@
 {
   "username": "squared-netizen",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C++",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 695,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 699,
+  "avatar_url": "https://avatars.githubusercontent.com/u/302428333?u=63564cd8a025db16ead21236a95f4fc51869af39&v=4",
+  "bio": "Software is my artistic medium.",
+  "company": "",
+  "location": "Outer Space"
 }

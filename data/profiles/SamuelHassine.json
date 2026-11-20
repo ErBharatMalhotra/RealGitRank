@@ -1,7 +1,7 @@
 {
   "username": "SamuelHassine",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 36,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 41,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1334279?u=1e1c6eb4b413b7313440549b5594ec9316c3c322&v=4",
+  "bio": "CEO and Co-Founder @FiligranHQ",
+  "company": "Filigran",
+  "location": "Paris"
 }

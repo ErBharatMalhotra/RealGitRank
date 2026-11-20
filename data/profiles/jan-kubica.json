@@ -1,7 +1,7 @@
 {
   "username": "jan-kubica",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 330,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 341,
+  "avatar_url": "https://avatars.githubusercontent.com/u/104276362?u=cf60840c17a6ce09006a92a6a808ec8ab41a36ba&v=4",
+  "bio": "working on @stella ",
+  "company": "@stella",
+  "location": "Czechia"
 }

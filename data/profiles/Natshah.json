@@ -1,7 +1,7 @@
 {
   "username": "Natshah",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "CSS",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 173,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 182,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1641992?u=8f6faa7b592c81cecb4a718378c4f37b0132920d&v=4",
+  "bio": "LOVE Open Source.\r\nEmpowering the Open Source Communities.\r\nAutomating the Automated.",
+  "company": "@Vardot ",
+  "location": "Amman, Jordan"
 }

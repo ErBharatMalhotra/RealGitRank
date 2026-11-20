@@ -1,7 +1,7 @@
 {
   "username": "Havens-blog",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 606,
-  "avatar_url": "",
+  "rank": 607,
+  "avatar_url": "https://avatars.githubusercontent.com/u/39037866?u=88e6fcbc8b04efdd27cf3e0e32fe0aef3840a61d&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

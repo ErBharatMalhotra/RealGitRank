@@ -1,7 +1,7 @@
 {
   "username": "scode",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 5,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 63,
-  "avatar_url": "",
+  "rank": 69,
+  "avatar_url": "https://avatars.githubusercontent.com/u/59476?u=c49d5933756e7675ee69a6bdb77c70bc9ed340f9&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Los Angeles"
 }

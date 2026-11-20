@@ -1,7 +1,7 @@
 {
   "username": "netbja",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 626,
-  "avatar_url": "",
+  "rank": 627,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5060230?u=65a2af92211214e2ee93dc3486453f6f924dc04f&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "dmcaulay",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "CoffeeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 370,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 380,
+  "avatar_url": "https://avatars.githubusercontent.com/u/899731?u=e978f211ba4eb100dd98d65ab0a6d07d7d73ce64&v=4",
+  "bio": "AI Engineer",
+  "company": "",
+  "location": "Carnelian Bay, CA"
 }

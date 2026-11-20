@@ -1,7 +1,7 @@
 {
   "username": "curtismu7",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 81,
-  "avatar_url": "",
+  "rank": 89,
+  "avatar_url": "https://avatars.githubusercontent.com/u/49688644?u=95ba0e4776c1a8ee9445e14ef55e02f872dcbf8a&v=4",
   "bio": "",
-  "company": ""
+  "company": "Ping Identity",
+  "location": "Dallas Texas"
 }

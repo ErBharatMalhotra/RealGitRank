@@ -1,7 +1,7 @@
 {
   "username": "sh4tter815",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Kotlin",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 712,
-  "avatar_url": "",
+  "rank": 716,
+  "avatar_url": "https://avatars.githubusercontent.com/u/84258105?u=262dd6c8c6ade74e79c1b9bed0d4f9015321d0cd&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

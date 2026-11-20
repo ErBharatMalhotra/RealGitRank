@@ -1,7 +1,7 @@
 {
   "username": "neverworkalone-agent",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 5,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 31,
-  "avatar_url": "",
+  "rank": 33,
+  "avatar_url": "https://avatars.githubusercontent.com/u/336548537?u=25eab255e4d2aee74b65f2f04eecb1159f7905d3&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

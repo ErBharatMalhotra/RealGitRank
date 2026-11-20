@@ -1,7 +1,7 @@
 {
   "username": "chibenwa",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "Dart",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 979,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 994,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6928740?u=e8db9f985a4b2826790cb02ad0adc16048cb5519&v=4",
+  "bio": "Techie passionate about distributed computing and eventual consistency. \r\nCoordinating efforts @linagora around a distributed email server. \r\nApache James PMC.",
+  "company": "Linagora",
+  "location": "Lyon (FRANCE)"
 }

@@ -1,7 +1,7 @@
 {
   "username": "mortondev",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United Kingdom",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 484,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 499,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5763984?u=e81cdaca4d92ec4b98a43818677ed367eb7ec550&v=4",
+  "bio": "Working on quackback.io to improve product decisions through better customer feedback.",
+  "company": "Quackback",
+  "location": "Nottinghamshire, UK"
 }

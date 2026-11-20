@@ -1,7 +1,7 @@
 {
   "username": "juliopolycarpo",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 439,
-  "avatar_url": "",
+  "rank": 456,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6053134?u=2e713907be1fd1e61f9a78d11bd83533caf04eab&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Rio de Janeiro - RJ"
 }

@@ -1,7 +1,7 @@
 {
   "username": "AndreKurait",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "Java",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,9 +11,20 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 40.83,
-  "rank_score": 60.5,
-  "rank": 810,
+  "rank_score": 59.3,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 896,
   "avatar_url": "https://avatars.githubusercontent.com/u/33106608?u=0db973ec52a1d24b98fda0b7c040f18d1303b938&v=4",
   "bio": "SDE for AWS in OpenSearch - OpenSearch Migrations",
-  "company": "@aws @opensearch-project"
+  "company": "@aws @opensearch-project",
+  "location": "Austin, Texas"
 }

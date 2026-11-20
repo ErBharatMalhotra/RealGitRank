@@ -1,7 +1,7 @@
 {
   "username": "kreneskyp",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 2,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 45.2,
-  "rank_score": 94.8,
+  "rank_score": 99.8,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 45,
+  "rank": 35,
   "avatar_url": "https://avatars.githubusercontent.com/u/68635?u=0ebec81cc881b2428e2c45e549a1081e5fe3cddf&v=4",
   "bio": "Full stack engineer.\r\nFluent in python, javascript, and postgres.\r\nMaker of things.",
-  "company": "Myriad Genetics"
+  "company": "Myriad Genetics",
+  "location": "Oregon"
 }

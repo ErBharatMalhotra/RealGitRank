@@ -1,7 +1,7 @@
 {
   "username": "jpoirierlavoie",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 690,
-  "avatar_url": "",
+  "rank": 694,
+  "avatar_url": "https://avatars.githubusercontent.com/u/39509871?u=118cd4b4a156c33d2c4c022b76644452715adaf5&v=4",
   "bio": "",
-  "company": ""
+  "company": "Poirier Lavoie, avocat",
+  "location": "Montreal, Quebec, Canada"
 }

@@ -1,7 +1,7 @@
 {
   "username": "davidfarah-dev",
   "country": "Switzerland",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 41.78,
-  "rank_score": 86.1,
+  "rank_score": 91.1,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 94,
+  "rank": 61,
   "avatar_url": "https://avatars.githubusercontent.com/u/37240868?u=f503be369bd028ca211e57edd53c0828022835c9&v=4",
   "bio": "MSc CS at ETHZ ",
-  "company": ""
+  "company": "",
+  "location": "Zurich"
 }

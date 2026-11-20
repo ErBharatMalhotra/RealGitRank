@@ -1,7 +1,7 @@
 {
   "username": "mojtaba-arvin",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United Arab Emirates",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 672,
-  "avatar_url": "",
+  "rank": 673,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6056661?u=315977fa343264d11853b8a86e1af06115b640d8&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Dubai, United Arab Emirates"
 }

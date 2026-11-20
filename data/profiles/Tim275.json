@@ -1,7 +1,7 @@
 {
   "username": "Tim275",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 504,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 518,
+  "avatar_url": "https://avatars.githubusercontent.com/u/117520669?u=50be1f37057c66182d3c6b0df5d9a2435a7c2fea&v=4",
+  "bio": "DevOps, Cloud Engineer & Kubernetes Fanatic :). \r\n",
+  "company": "",
+  "location": ""
 }

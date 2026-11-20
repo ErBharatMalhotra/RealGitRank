@@ -1,7 +1,7 @@
 {
   "username": "sandramitjans",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Spain",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 642,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 643,
+  "avatar_url": "https://avatars.githubusercontent.com/u/17406063?u=de359a2526df220a5a4974d7bda2111175fbdcc9&v=4",
+  "bio": "Frontend developer \ud83d\udc69\ud83c\udffc\u200d\ud83d\udcbb | JavaScript & React | HTML5 & CSS3(SASS) | Git & GitHub | Agile & SCRUM",
+  "company": "",
+  "location": "Barcelona"
 }

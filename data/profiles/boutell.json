@@ -1,7 +1,7 @@
 {
   "username": "boutell",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "C",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 297,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 312,
+  "avatar_url": "https://avatars.githubusercontent.com/u/32125?u=50ed8a0cfd84d6b06d8cbc6d116250b9e373eb9e&v=4",
+  "bio": "CEO of ApostropheCMS. Most of the good stuff is in the apostrophecms github org.",
+  "company": "",
+  "location": "Philadelphia, PA USA"
 }

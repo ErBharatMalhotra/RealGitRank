@@ -1,7 +1,7 @@
 {
   "username": "bt-admin",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Spain",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 233,
-  "avatar_url": "",
+  "rank": 246,
+  "avatar_url": "https://avatars.githubusercontent.com/u/9976420?u=3dab594e78a53a010748de85cca76e08feddb3d9&v=4",
   "bio": "",
-  "company": ""
+  "company": "braintec",
+  "location": "Brig, Z\u00fcrich, Basel, Madrid, B\u00f6blingen, Castell\u00f3 de la Plana"
 }

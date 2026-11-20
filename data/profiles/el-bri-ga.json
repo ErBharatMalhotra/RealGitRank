@@ -1,7 +1,7 @@
 {
   "username": "el-bri-ga",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Puppet",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 253,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 270,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1381240?u=49a3f6eea20c0188eb3f8690d48a43fc50c8595b&v=4",
+  "bio": "Cloud and distributed systems guy from the Pacific Northwest.",
+  "company": "",
+  "location": "Seattle, WA"
 }

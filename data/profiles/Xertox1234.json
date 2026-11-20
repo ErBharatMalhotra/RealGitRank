@@ -1,7 +1,7 @@
 {
   "username": "Xertox1234",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "Swift",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 795,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 803,
+  "avatar_url": "https://avatars.githubusercontent.com/u/181138954?u=3900304b4bc2e70cf13cb59e3601d180899f1cff&v=4",
+  "bio": "I like to write code...",
+  "company": "N/A",
+  "location": "Alberta, Canada"
 }

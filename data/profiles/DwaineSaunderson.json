@@ -1,7 +1,7 @@
 {
   "username": "DwaineSaunderson",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Netherlands",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 447,
-  "avatar_url": "",
+  "rank": 464,
+  "avatar_url": "https://avatars.githubusercontent.com/u/30265010?u=c1b4237055b873bcee180cabb327d1ee69304f6d&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Amsterdam, Netherlands"
 }

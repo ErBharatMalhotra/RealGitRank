@@ -1,7 +1,7 @@
 {
   "username": "MookieFumi",
   "country": "Spain",
-  "primary_language": "Unknown",
+  "primary_language": "C#",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 65.14,
-  "rank_score": 67.9,
+  "rank_score": 71.6,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 544,
+  "rank": 385,
   "avatar_url": "https://avatars.githubusercontent.com/u/4056557?u=faaa6326e671b7839a1e12c664aafcda4ee0b27e&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Madrid"
 }

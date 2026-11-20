@@ -1,7 +1,7 @@
 {
   "username": "ECiurleo",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United Kingdom",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 418,
-  "avatar_url": "",
+  "rank": 435,
+  "avatar_url": "https://avatars.githubusercontent.com/u/10923417?u=2eb7ddb2058d5f675a00533ad3b71858a2170af0&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "UK"
 }

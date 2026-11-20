@@ -1,7 +1,7 @@
 {
   "username": "Leeeon233",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Swift",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 157,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 165,
+  "avatar_url": "https://avatars.githubusercontent.com/u/30241095?u=5022ea3b4a5387f34c05ea7e2b0edbcc69f0b921&v=4",
+  "bio": "@loro-dev co-founder | \r\nbuilding lody.ai",
+  "company": "",
+  "location": ""
 }

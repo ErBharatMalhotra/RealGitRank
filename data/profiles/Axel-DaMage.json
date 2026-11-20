@@ -1,7 +1,7 @@
 {
   "username": "Axel-DaMage",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "CSS",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 611,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 612,
+  "avatar_url": "https://avatars.githubusercontent.com/u/178504369?u=0f9eb5f04c30a09e392b9688e839dfb18639631a&v=4",
+  "bio": "ENG\ud83c\uddec\ud83c\udde7/ESP\ud83c\udde8\ud83c\uddf1/ZHO \ud83c\udde8\ud83c\uddf3  | 20yo Student | FOSS! | White Hat | AWS Student Builder | @os-santiago Staff",
+  "company": "@os-santiago",
+  "location": "Wired"
 }

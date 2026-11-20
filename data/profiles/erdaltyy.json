@@ -1,7 +1,7 @@
 {
   "username": "erdaltyy",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Turkey",
+  "primary_language": "PHP",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 448,
-  "avatar_url": "",
+  "rank": 465,
+  "avatar_url": "https://avatars.githubusercontent.com/u/192777041?u=9af710683d6fadfe6b5b78fd8280702b7d74a402&v=4",
   "bio": "",
-  "company": ""
+  "company": "@kodpen ",
+  "location": "Turkey"
 }

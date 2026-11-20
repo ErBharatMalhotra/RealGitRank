@@ -1,7 +1,7 @@
 {
   "username": "Spotnick2",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "Lua",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 178,
-  "avatar_url": "",
+  "rank": 188,
+  "avatar_url": "https://avatars.githubusercontent.com/u/42148291?u=6bdcc845dac58412a49dfe4b5a02f24b68aae80c&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Montr\u00e9al, Canada"
 }

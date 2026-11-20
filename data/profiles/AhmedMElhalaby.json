@@ -1,7 +1,7 @@
 {
   "username": "AhmedMElhalaby",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Swift",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 186,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 196,
+  "avatar_url": "https://avatars.githubusercontent.com/u/28507946?u=11c3e6ab407955db03cdd6cac06b3e0c2788c028&v=4",
+  "bio": "Full-stack & DevOps engineer, 11 years. Laravel \u00b7 Go \u00b7 Python \u00b7 React \u00b7 Swift. Building Ainkrad \u2014 a native macOS agentic workspace.",
+  "company": "",
+  "location": "Palestine, Gaza, Remal, khdeer Tower , 5th floor"
 }

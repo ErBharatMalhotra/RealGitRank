@@ -1,7 +1,7 @@
 {
   "username": "stoplion",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Ruby",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 844,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 856,
+  "avatar_url": "https://avatars.githubusercontent.com/u/231343?u=2b0d7f6804505d0779a1d7e64982dbeb2dd7b850&v=4",
+  "bio": "Staff Engineer at Assured (assured.claims). Previously at Salesforce, Blend, Upstart ",
+  "company": "Assured",
+  "location": "Elsewhere"
 }

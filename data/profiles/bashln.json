@@ -1,7 +1,7 @@
 {
   "username": "bashln",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Lua",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 785,
-  "avatar_url": "",
+  "rank": 790,
+  "avatar_url": "https://avatars.githubusercontent.com/u/92490775?u=d4cdf558464ac5cd967ea518b023182808b3d99e&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Brasil - Caxias do Sul - RS"
 }

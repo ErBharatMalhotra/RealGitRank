@@ -1,7 +1,7 @@
 {
   "username": "teosarca",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Java",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 227,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 240,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1244701?u=8bf6a3d33c5889c0fc5c556371720d80ed1ca570&v=4",
+  "bio": "Java developer. Co-Founder, fulltime innovator & contributor of Open Source #ERP @metasfresh. Free Software & Open Source enthusiast.",
+  "company": "metas.ro SRL",
+  "location": "Timisoara"
 }

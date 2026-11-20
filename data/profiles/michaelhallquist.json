@@ -1,7 +1,7 @@
 {
   "username": "michaelhallquist",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "R",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 871,
-  "avatar_url": "",
+  "rank": 884,
+  "avatar_url": "https://avatars.githubusercontent.com/u/284491?u=89c8c563d9287d186e4bcb8c6880da1197b296b5&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

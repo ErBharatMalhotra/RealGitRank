@@ -1,7 +1,7 @@
 {
   "username": "palmoni5",
   "country": "Israel",
-  "primary_language": "Unknown",
+  "primary_language": "Dart",
   "total_pushes": 1,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 42.68,
-  "rank_score": 82.2,
+  "rank_score": 86.5,
   "active_repos_touched": 3,
   "pr_reviews": 2,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 143,
+  "rank": 95,
   "avatar_url": "https://avatars.githubusercontent.com/u/216508796?u=8ad028e46796e0ba8386d02685999d997b1b91ca&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Israel"
 }

@@ -1,7 +1,7 @@
 {
   "username": "LiamDotPro",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United Kingdom",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 345,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 354,
+  "avatar_url": "https://avatars.githubusercontent.com/u/13067327?u=b91d336caa9a94ecd072030899dc0657785acd50&v=4",
+  "bio": "Busy trying to hack your fridge \ud83c\udf7a",
+  "company": "",
+  "location": "London"
 }

@@ -1,7 +1,7 @@
 {
   "username": "zadykian",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C#",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 661,
-  "avatar_url": "",
+  "rank": 662,
+  "avatar_url": "https://avatars.githubusercontent.com/u/42942521?u=8090e49ab3e946a220473d8d1696dbfb0fd5929e&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Tbilisi, Georgia"
 }

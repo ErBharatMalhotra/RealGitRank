@@ -1,7 +1,7 @@
 {
   "username": "polaz",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 873,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 886,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4152123?u=83c129e611083dd6f1a494d7607bda67f7e68772&v=4",
+  "bio": "Systems architect building open infrastructure - databases, storage, identity, authentication, security & trusted systems.",
+  "company": "Structured World",
+  "location": "Bucharest, Romania"
 }

@@ -1,7 +1,7 @@
 {
   "username": "Skytuhua",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 533,
-  "avatar_url": "",
+  "rank": 548,
+  "avatar_url": "https://avatars.githubusercontent.com/u/99881928?u=eb27b596735452dad25cb00a3c6b2f393097d57b&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "davide-nava",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C#",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 295,
-  "avatar_url": "",
+  "rank": 309,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6057946?u=ba6d07fb8ba14f943d5b73bb4988b8f515962b6b&v=4",
   "bio": "",
-  "company": ""
+  "company": "NavaSoft",
+  "location": "Svizzera"
 }

@@ -1,7 +1,7 @@
 {
   "username": "it-baron",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Kotlin",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 68,
-  "avatar_url": "",
+  "rank": 75,
+  "avatar_url": "https://avatars.githubusercontent.com/u/10120128?u=16f652041e8d6073697148a09fdab574dbd74a3e&v=4",
   "bio": "",
-  "company": ""
+  "company": "Aileron Technologies",
+  "location": "Aix-en-Provence"
 }

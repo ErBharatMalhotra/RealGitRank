@@ -1,7 +1,7 @@
 {
   "username": "christhomas",
   "country": "Germany",
-  "primary_language": "Unknown",
+  "primary_language": "Shell",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 41.44,
-  "rank_score": 71.5,
+  "rank_score": 75.0,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 381,
+  "rank": 260,
   "avatar_url": "https://avatars.githubusercontent.com/u/827996?u=19aab16929aa304edee5f51b97f40fa80297c509&v=4",
   "bio": "",
-  "company": "Antimatter Studios"
+  "company": "Antimatter Studios",
+  "location": "Berlin"
 }

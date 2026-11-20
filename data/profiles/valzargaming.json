@@ -1,7 +1,7 @@
 {
   "username": "valzargaming",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "PHP",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 42,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 46,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7202504?u=87c99587ef4c2865aab81ebc249c65356c6b24e6&v=4",
+  "bio": "I'm a gamer, live streamer, teacher, programmer, and patient care advocate. I make games, my own tools, and things that makes other things work.",
+  "company": "Valgorithms",
+  "location": "United States"
 }

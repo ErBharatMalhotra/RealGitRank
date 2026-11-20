@@ -1,7 +1,7 @@
 {
   "username": "egorribun",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 630,
-  "avatar_url": "",
+  "rank": 631,
+  "avatar_url": "https://avatars.githubusercontent.com/u/199665213?u=11aa2f9e9b46f5b0dfdb286eb9b4db23e3ba2555&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

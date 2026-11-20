@@ -1,7 +1,7 @@
 {
   "username": "webkit-commit-queue",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 478,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 493,
+  "avatar_url": "https://avatars.githubusercontent.com/u/77073439?u=a6eaa59b9822164b82ba439bc56cac5623b256ef&v=4",
+  "bio": "Automated account administered by WebKit for interactions with the WebKit repository.",
+  "company": "WebKit",
+  "location": "Cupertino"
 }

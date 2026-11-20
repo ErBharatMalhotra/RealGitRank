@@ -1,7 +1,7 @@
 {
   "username": "JustMaier",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 529,
-  "avatar_url": "",
+  "rank": 543,
+  "avatar_url": "https://avatars.githubusercontent.com/u/607609?u=4efde17759e2f7056efd4d6893fcdf11ca562359&v=4",
   "bio": "",
-  "company": ""
+  "company": "Civitai",
+  "location": "Boise, ID"
 }

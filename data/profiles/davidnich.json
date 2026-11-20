@@ -1,7 +1,7 @@
 {
   "username": "davidnich",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C++",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 977,
-  "avatar_url": "",
+  "rank": 992,
+  "avatar_url": "https://avatars.githubusercontent.com/u/13432105?u=27758a3263e79f36e6890e0c5b416fe772480d76&v=4",
   "bio": "",
-  "company": ""
+  "company": "Qore Technologies, s.r.o.",
+  "location": "Prague, Czech Republic"
 }

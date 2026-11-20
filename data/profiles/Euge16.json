@@ -1,7 +1,7 @@
 {
   "username": "Euge16",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C#",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 282,
-  "avatar_url": "",
+  "rank": 298,
+  "avatar_url": "https://avatars.githubusercontent.com/u/71157100?u=42100c31c357dd740180e169b23ce2a843164d3f&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "Swartdraak",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C#",
   "total_pushes": 0,
   "merged_prs": 9,
   "bot_penalty": 0.0,
@@ -23,7 +23,8 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 18,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "avatar_url": "https://avatars.githubusercontent.com/u/5070636?v=4",
+  "bio": "AI-powered developer building automated scripts, micro tools, and faceless digital products.  \r\nSpecializing in Python automation, API integrations, data tools,",
+  "company": "",
+  "location": ""
 }

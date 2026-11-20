@@ -1,7 +1,7 @@
 {
   "username": "rauell1",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Kenya",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 568,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 579,
+  "avatar_url": "https://avatars.githubusercontent.com/u/62388097?u=0d8fda94c90a4e54d36beb5658fe9e4178e4850b&v=4",
+  "bio": "Engineer focused on renewable energy systems and electric mobility infrastructure in Africa.",
+  "company": "SafariCharge",
+  "location": "Nairobi, Kenya"
 }

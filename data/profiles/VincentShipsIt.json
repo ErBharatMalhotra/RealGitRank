@@ -1,7 +1,7 @@
 {
   "username": "VincentShipsIt",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Swift",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 296,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 311,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1998775?u=01e47693e683e1a544557fba19575f7a7b179838&v=4",
+  "bio": "Agentic Founder",
+  "company": "shipshitdev",
+  "location": ""
 }

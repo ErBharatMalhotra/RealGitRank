@@ -1,7 +1,7 @@
 {
   "username": "mxym",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 621,
-  "avatar_url": "",
+  "rank": 622,
+  "avatar_url": "https://avatars.githubusercontent.com/u/77926411?u=dfa0aa62f0431d7f3f7ca2655fc63eab55184111&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

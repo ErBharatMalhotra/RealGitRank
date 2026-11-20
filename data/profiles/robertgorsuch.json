@@ -1,7 +1,7 @@
 {
   "username": "robertgorsuch",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 318,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 332,
+  "avatar_url": "https://avatars.githubusercontent.com/u/30151588?u=1b22a6164264242646812465fc6e52fed0060b4f&v=4",
+  "bio": "More than 40 years of experience in IT architecture and design, as well as implementing data management, data integration, and data analytics software solution.",
+  "company": "Actian",
+  "location": "Austin, TX."
 }

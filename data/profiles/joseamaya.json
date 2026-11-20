@@ -1,7 +1,7 @@
 {
   "username": "joseamaya",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 767,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 772,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8593144?u=931a784789dad8bf54815ab4806a88e680485df9&v=4",
+  "bio": "Python Developer",
+  "company": "Xprende",
+  "location": "PER\u00da"
 }

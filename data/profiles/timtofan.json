@@ -1,7 +1,7 @@
 {
   "username": "timtofan",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 121,
-  "avatar_url": "",
+  "rank": 126,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1295119?u=c1bea0f943cc34bcd53ad5b597e4d0a364ed5441&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

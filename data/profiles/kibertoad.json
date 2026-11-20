@@ -1,7 +1,7 @@
 {
   "username": "kibertoad",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 471,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 486,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1847934?u=c2b2f6633e0a92681474680c64cda1bf7d0500de&v=4",
+  "bio": "Principal engineer at @lokalise, open source plumber and a game preservation enthusiast.",
+  "company": "Lokalise",
+  "location": "Vilnius"
 }

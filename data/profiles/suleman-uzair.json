@@ -1,7 +1,7 @@
 {
   "username": "suleman-uzair",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Pakistan",
+  "primary_language": "Ruby",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 237,
-  "avatar_url": "",
+  "rank": 251,
+  "avatar_url": "https://avatars.githubusercontent.com/u/96812483?u=f772f7082859a3100df467eb3bcbc20d06de1d6b&v=4",
   "bio": "",
-  "company": ""
+  "company": "@techieminions",
+  "location": "Lahore"
 }

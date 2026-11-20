@@ -1,7 +1,7 @@
 {
   "username": "vilenarios",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 421,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 438,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6451820?u=ceb921446ab68f07a32308d731116ad5395a934b&v=4",
+  "bio": "Permanent storage, verifiable AI. Founder of ar.io and ArDrive. Building computers since I was twelve and still haven't stopped.",
+  "company": "",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "creova-gif",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,6 +11,20 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 69.55,
-  "rank_score": 61.8,
-  "rank": 699
+  "rank_score": 60.5,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 797,
+  "avatar_url": "https://avatars.githubusercontent.com/u/244837074?u=7749664f6be73bb3d7688aed11d9a6dadae6fefd&v=4",
+  "bio": " Data Analytics \u00b7 Security \u00b7 AI \u00b7 Research",
+  "company": "CREOVA ",
+  "location": "Ontario, Canada"
 }

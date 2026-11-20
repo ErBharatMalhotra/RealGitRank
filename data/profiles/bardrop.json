@@ -1,7 +1,7 @@
 {
   "username": "bardrop",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "India",
+  "primary_language": "Java",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 909,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 926,
+  "avatar_url": "https://avatars.githubusercontent.com/u/100354790?u=eba23956bb06a9b0086c90a83f28489fc4ddfe8d&v=4",
+  "bio": "Grinding open source daily: finding bugs, fixing them, shipping PRs. I write up what I learn on X. Like the work? Let's connect!",
+  "company": "",
+  "location": "Bengaluru, India"
 }

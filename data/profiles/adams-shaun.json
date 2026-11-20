@@ -1,7 +1,7 @@
 {
   "username": "adams-shaun",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 8,
   "bot_penalty": 0.0,
@@ -23,7 +23,8 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 23,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/9792227?v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

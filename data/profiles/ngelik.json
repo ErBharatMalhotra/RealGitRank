@@ -1,7 +1,7 @@
 {
   "username": "ngelik",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 913,
-  "avatar_url": "",
+  "rank": 930,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1657070?u=ffdbe0c33b1a695eba0717c827c70e6ca3e13fdb&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

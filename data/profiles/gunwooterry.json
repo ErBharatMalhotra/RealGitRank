@@ -1,7 +1,7 @@
 {
   "username": "gunwooterry",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 417,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 434,
+  "avatar_url": "https://avatars.githubusercontent.com/u/15215639?u=4dc58e28de4f230507a3545df82ceb5c0904d06c&v=4",
+  "bio": "Engineer @beeble-ai.",
+  "company": "",
+  "location": ""
 }

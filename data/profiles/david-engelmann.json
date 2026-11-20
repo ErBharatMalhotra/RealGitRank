@@ -1,7 +1,7 @@
 {
   "username": "david-engelmann",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "OCaml",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 169,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 177,
+  "avatar_url": "https://avatars.githubusercontent.com/u/81196676?u=d978094d5f19235d1f6172b13901c8d5cb85b074&v=4",
+  "bio": "Senior AI Software Developer",
+  "company": "BeatGig",
+  "location": "New York City"
 }

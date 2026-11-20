@@ -1,7 +1,7 @@
 {
   "username": "jirathip-k",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Swift",
   "total_pushes": 0,
   "merged_prs": 5,
   "bot_penalty": 0.0,
@@ -23,7 +23,8 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 19,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/115384744?u=827963682131d340a38a28e840252a2b4f30cc5b&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

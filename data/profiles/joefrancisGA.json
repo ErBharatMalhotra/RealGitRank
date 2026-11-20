@@ -1,7 +1,7 @@
 {
   "username": "joefrancisGA",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C#",
   "total_pushes": 0,
   "merged_prs": 6,
   "bot_penalty": 0.0,
@@ -23,7 +23,8 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 48,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "avatar_url": "https://avatars.githubusercontent.com/u/20299509?u=cae82e58eab4785cdf9fbb9b1fdbd9b7053d1791&v=4",
+  "bio": "Microsoft platform architect and manager for 30 years.  ",
+  "company": "",
+  "location": ""
 }

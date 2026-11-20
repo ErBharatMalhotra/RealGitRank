@@ -1,7 +1,7 @@
 {
   "username": "steelhead99x",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 797,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 805,
+  "avatar_url": "https://avatars.githubusercontent.com/u/224322244?u=27cfb2d1ce2c004d91dc999afe8b64cd74a750eb&v=4",
+  "bio": "streaming video for folks",
+  "company": "",
+  "location": "United States"
 }

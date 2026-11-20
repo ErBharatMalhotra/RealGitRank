@@ -1,7 +1,7 @@
 {
   "username": "joshualparris",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 44,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 47,
+  "avatar_url": "https://avatars.githubusercontent.com/u/130725599?u=b1ed73a304817e085bddaab57deb5c7d4e17cb28&v=4",
+  "bio": "Hi there! I'm a IT professional with a passion for creating innovative solutions to complex problems. ",
+  "company": "Parris Tech Services",
+  "location": "Epsom, Victoria, Australia"
 }

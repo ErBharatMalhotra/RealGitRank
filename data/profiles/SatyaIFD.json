@@ -1,7 +1,7 @@
 {
   "username": "SatyaIFD",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Astro",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 764,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 769,
+  "avatar_url": "https://avatars.githubusercontent.com/u/141507181?u=1e76b7cfafb9646cb7d8ff277730aa24b9ab4dad&v=4",
+  "bio": "Ex-TCS | 9.5+ yrs exp | Senior Data Operations Associate | Transitioning into GCP MLOps | Python \u2022 AI \u2022 Pipelines \u2022 GitHub Projects",
+  "company": "Tata Consultancy Services Ltd",
+  "location": "Kolkata"
 }

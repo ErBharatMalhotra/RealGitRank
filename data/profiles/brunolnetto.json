@@ -1,7 +1,7 @@
 {
   "username": "brunolnetto",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Brazil",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 671,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 672,
+  "avatar_url": "https://avatars.githubusercontent.com/u/13961685?u=0e7752420498f8d6842dc86700ef126a37238fdb&v=4",
+  "bio": "{software, data} {scientist, engineer}",
+  "company": "",
+  "location": "Brazil"
 }

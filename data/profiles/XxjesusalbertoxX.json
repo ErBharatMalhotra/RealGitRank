@@ -1,7 +1,7 @@
 {
   "username": "XxjesusalbertoxX",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 861,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 874,
+  "avatar_url": "https://avatars.githubusercontent.com/u/167471402?u=1505712a2874e33381e035d1e8575de1577b88ea&v=4",
+  "bio": "I am studying at the Technical University of Torreon (UTT) in Information Technology: Develop Multiplatform Software (TIDSM).",
+  "company": "",
+  "location": ""
 }

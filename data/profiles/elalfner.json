@@ -1,7 +1,7 @@
 {
   "username": "elalfner",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 289,
-  "avatar_url": "",
+  "rank": 305,
+  "avatar_url": "https://avatars.githubusercontent.com/u/26582028?u=297128ca7f5d94067663cae459a96b73b4ba81be&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "M\u00e9xico"
 }

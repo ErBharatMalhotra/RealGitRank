@@ -1,7 +1,7 @@
 {
   "username": "jejjohnson",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Spain",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 678,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 680,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3642622?u=4da32e83e1f70b26da7160da9f2fb6b2ee9c0141&v=4",
+  "bio": "A Data Engineer who works with Methane Emissions for the MARS, IMEO, UNEP. I also love scientific machine learning. I think it will save science!",
+  "company": "MARS | IMEO | UNEP",
+  "location": "Madrid, Spain"
 }

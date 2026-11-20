@@ -1,7 +1,7 @@
 {
   "username": "4444J99",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 608,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 609,
+  "avatar_url": "https://avatars.githubusercontent.com/u/24796448?u=b241fd40fadbfc19e09e9dcbac935b33aa596f49&v=4",
+  "bio": "Writer, educator, multimedia artist & toolmaker. Language, rhetoric, knowledge, visual art, sound, creative tools & agent runtimes.",
+  "company": "",
+  "location": "New York City"
 }

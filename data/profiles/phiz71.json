@@ -1,7 +1,7 @@
 {
   "username": "phiz71",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "Java",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 886,
-  "avatar_url": "",
+  "rank": 904,
+  "avatar_url": "https://avatars.githubusercontent.com/u/13161768?u=790c2745380af1e19f0ab17f55ca31574ef85f43&v=4",
   "bio": "",
-  "company": ""
+  "company": "GraviteeSource",
+  "location": "Lille, France"
 }

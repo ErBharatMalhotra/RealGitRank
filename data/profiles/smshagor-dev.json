@@ -1,7 +1,7 @@
 {
   "username": "smshagor-dev",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "C++",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 366,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 376,
+  "avatar_url": "https://avatars.githubusercontent.com/u/199091019?u=d1c4960998e79e6c3c96359e796bb902988a6b41&v=4",
+  "bio": "Full-Stack Web Developer & AI Engineer building scalable software, intelligent systems, and real-world engineering solutions.",
+  "company": "OpenMind AI Technologies Limited",
+  "location": "Voronezh, Russia"
 }

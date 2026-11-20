@@ -1,7 +1,7 @@
 {
   "username": "EsotericVerse",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 1,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 57.74,
-  "rank_score": 72.1,
+  "rank_score": 75.7,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 368,
+  "rank": 249,
   "avatar_url": "https://avatars.githubusercontent.com/u/213846782?v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Taipei"
 }

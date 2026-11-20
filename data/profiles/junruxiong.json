@@ -1,7 +1,7 @@
 {
   "username": "junruxiong",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United Kingdom",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 485,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 500,
+  "avatar_url": "https://avatars.githubusercontent.com/u/44308338?u=16d4f8ca7532700cbcd5d341b2ad065306b4d6cd&v=4",
+  "bio": "Bringing AI to life",
+  "company": "",
+  "location": "London"
 }

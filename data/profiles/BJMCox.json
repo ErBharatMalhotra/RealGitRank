@@ -1,7 +1,7 @@
 {
   "username": "BJMCox",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Germany",
+  "primary_language": "Julia",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 590,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 594,
+  "avatar_url": "https://avatars.githubusercontent.com/u/31897579?u=7abf288e187ba80041069cde1698053898184c11&v=4",
+  "bio": "Postdoc @ MPP, BAT group \ud83c\udff3\ufe0f\u200d\ud83c\udf08\ud83c\udff3\ufe0f\u200d\u26a7",
+  "company": "Max-Planck-Institut f\u00fcr Physik",
+  "location": "Munich, Germany"
 }

@@ -1,7 +1,7 @@
 {
   "username": "anandrajak1",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Shell",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 887,
-  "avatar_url": "",
+  "rank": 905,
+  "avatar_url": "https://avatars.githubusercontent.com/u/105747555?u=9623e79583ff5c74667be908dffcdaad49fad71b&v=4",
   "bio": "",
-  "company": ""
+  "company": "Dell",
+  "location": ""
 }

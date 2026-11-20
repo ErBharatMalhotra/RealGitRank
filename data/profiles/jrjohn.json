@@ -1,7 +1,7 @@
 {
   "username": "jrjohn",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C#",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 786,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 791,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6859844?u=1b43e80916f472746b5531f3f6470f32f13a0b1f&v=4",
+  "bio": "Nirvana",
+  "company": "",
+  "location": "Taiwan"
 }

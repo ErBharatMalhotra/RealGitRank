@@ -1,7 +1,7 @@
 {
   "username": "cwassointt",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 627,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 628,
+  "avatar_url": "https://avatars.githubusercontent.com/u/178747283?u=d9fdd0d3668795c94254cf1d6a5134d8b2187988&v=4",
+  "bio": "Software Engineer & Full Stack Developer \ud83c\uddf5\ud83c\uddea | React, Next.js, Spring Boot & Python. Passionate about scalable architectures & IoT. Founder @ QuickFix.pe.",
+  "company": "QuickFix.pe",
+  "location": "Lima, Per\u00fa"
 }

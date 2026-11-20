@@ -1,7 +1,7 @@
 {
   "username": "devsynxoffical",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "PHP",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 761,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 766,
+  "avatar_url": "https://avatars.githubusercontent.com/u/242815470?u=08119f7f45c1b4b4f0b7e42c271883272b895a21&v=4",
+  "bio": "Devsynx is a software development and digital solutions company based in Islamabad. We specialize in web and mobile application development, custom software",
+  "company": "",
+  "location": ""
 }

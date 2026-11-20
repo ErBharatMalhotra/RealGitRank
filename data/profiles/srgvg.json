@@ -1,7 +1,7 @@
 {
   "username": "srgvg",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Shell",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 201,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 209,
+  "avatar_url": "https://avatars.githubusercontent.com/u/382239?u=6398aaeb36148fabc7c8e6af3afe4febeba5c0e9&v=4",
+  "bio": "Operations\r\n",
+  "company": "@ginsys ",
+  "location": "Belgium"
 }

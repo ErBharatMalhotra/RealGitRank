@@ -1,7 +1,7 @@
 {
   "username": "manuelmenendezgonzalez",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 207,
-  "avatar_url": "",
+  "rank": 220,
+  "avatar_url": "https://avatars.githubusercontent.com/u/197371192?u=8d0ee0d88a89eecae23f0deae5963200860160ff&v=4",
   "bio": "",
-  "company": ""
+  "company": "Universidad de Oviedo, HUCA, ISPA, Fundaci\u00f3n de Neurociencias",
+  "location": "Oviedo"
 }

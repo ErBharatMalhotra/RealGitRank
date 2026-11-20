@@ -1,7 +1,7 @@
 {
   "username": "muncherelli",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 559,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 570,
+  "avatar_url": "https://avatars.githubusercontent.com/u/16467105?u=eb3a86a98b2b248d6b9507a27e42c8518c75c845&v=4",
+  "bio": "\ud835\udd92\ud835\udd9a\ud835\udd93\ud835\udd88\ud835\udd8d\ud835\udd8a\ud835\udd97\ud835\udd8a\ud835\udd91\ud835\udd91\ud835\udd8e",
+  "company": "",
+  "location": "World Wide Web, USA"
 }

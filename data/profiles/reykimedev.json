@@ -1,7 +1,7 @@
 {
   "username": "reykimedev",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Switzerland",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 259,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 276,
+  "avatar_url": "https://avatars.githubusercontent.com/u/36863848?u=1625a25ac3c66076ecf856e87cc9349810ec75af&v=4",
+  "bio": "CCIE | Network Engineer | Automation & DevOps enthusiast. Building tools for networks, infrastructure, and homelabs. Creator of labdex.",
+  "company": "",
+  "location": "Switzerland"
 }

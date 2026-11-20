@@ -1,7 +1,7 @@
 {
   "username": "sequent-dev-bot",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Standard ML",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 42.61,
-  "rank_score": 71.7,
+  "rank_score": 75.2,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 374,
+  "rank": 254,
   "avatar_url": "https://avatars.githubusercontent.com/u/350797530?u=01fd5aa5d37817f9ed3c2a128fa36d5850bf9220&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

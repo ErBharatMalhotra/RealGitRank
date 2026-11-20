@@ -1,7 +1,7 @@
 {
   "username": "Dasemu",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Spain",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 99,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 107,
+  "avatar_url": "https://avatars.githubusercontent.com/u/32643260?u=26c6c1383a9e407810f0694cc4b29a7ea12ba356&v=4",
+  "bio": "Dar\u00edo Sevilla",
+  "company": "",
+  "location": "Gij\u00f3n, Asturias, Spain"
 }

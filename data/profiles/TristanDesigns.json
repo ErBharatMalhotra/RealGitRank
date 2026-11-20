@@ -1,7 +1,7 @@
 {
   "username": "TristanDesigns",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 290,
-  "avatar_url": "",
+  "rank": 306,
+  "avatar_url": "https://avatars.githubusercontent.com/u/306355460?u=cc7d6f868ce670c61b049b86f4cdaf43c1f6b10a&v=4",
   "bio": "",
-  "company": ""
+  "company": "Tristan Design",
+  "location": ""
 }

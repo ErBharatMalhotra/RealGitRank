@@ -1,7 +1,7 @@
 {
   "username": "amrshadid",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 336,
-  "avatar_url": "",
+  "rank": 345,
+  "avatar_url": "https://avatars.githubusercontent.com/u/32217515?u=d5cdfa9424afaa0cab9fc21952e6d9f8706be5bc&v=4",
   "bio": "",
-  "company": ""
+  "company": "New York University Abu Dhabi ",
+  "location": ""
 }

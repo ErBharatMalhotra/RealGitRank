@@ -1,7 +1,7 @@
 {
   "username": "tscircuitbot",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 179,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 189,
+  "avatar_url": "https://avatars.githubusercontent.com/u/174540199?u=48d55f800bd19cfafb07f7ad0e6984e8fef64e54&v=4",
+  "bio": "I perform operations on tscircuit repositories",
+  "company": "@tscircuit ",
+  "location": "San Francisco"
 }

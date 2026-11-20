@@ -1,7 +1,7 @@
 {
   "username": "well-prado",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 528,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 542,
+  "avatar_url": "https://avatars.githubusercontent.com/u/53273641?u=c795e71bc4096aef46f035af7b9338f2db050524&v=4",
+  "bio": "Hello, I'm Wellington Prado a Christian Brazilian Head of A.I Tooling.\r\nMy whole goal is to connect to people while creating amazing stuff.",
+  "company": "Deskree Inc.",
+  "location": "Canada, Toronto"
 }

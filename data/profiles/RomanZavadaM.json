@@ -1,7 +1,7 @@
 {
   "username": "RomanZavadaM",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,9 +11,20 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 45.62,
-  "rank_score": 61.2,
-  "rank": 771,
+  "rank_score": 60.0,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 841,
   "avatar_url": "https://avatars.githubusercontent.com/u/326908794?v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

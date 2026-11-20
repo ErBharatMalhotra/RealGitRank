@@ -1,7 +1,7 @@
 {
   "username": "ThyFriendlyFox",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 854,
-  "avatar_url": "",
+  "rank": 866,
+  "avatar_url": "https://avatars.githubusercontent.com/u/116314616?u=022280ab91f247331932e0b0e243bc177fb47628&v=4",
   "bio": "",
-  "company": ""
+  "company": "@reagent-systems ",
+  "location": "Tampa"
 }

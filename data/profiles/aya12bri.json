@@ -1,7 +1,7 @@
 {
   "username": "aya12bri",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "France",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 722,
-  "avatar_url": "",
+  "rank": 726,
+  "avatar_url": "https://avatars.githubusercontent.com/u/60117271?v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "france"
 }

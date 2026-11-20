@@ -1,7 +1,7 @@
 {
   "username": "andreabuttarelli",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Italy",
+  "primary_language": "Dart",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 965,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 981,
+  "avatar_url": "https://avatars.githubusercontent.com/u/49411143?u=bfa8baced87484db634028655c3be726da62c61e&v=4",
+  "bio": "CEO @buildwiththeta.\r\nMain repo: https://github.com/buildwiththeta/buildwiththeta",
+  "company": "@buildwiththeta",
+  "location": "Rome, Italy"
 }

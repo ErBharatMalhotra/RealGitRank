@@ -1,7 +1,7 @@
 {
   "username": "paulgsc",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 793,
-  "avatar_url": "",
+  "rank": 801,
+  "avatar_url": "https://avatars.githubusercontent.com/u/19829461?u=c2f3f9ec84794bab8285a9dd483f695e6966edfd&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

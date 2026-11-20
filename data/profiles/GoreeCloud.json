@@ -1,7 +1,7 @@
 {
   "username": "GoreeCloud",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 167,
-  "avatar_url": "",
+  "rank": 175,
+  "avatar_url": "https://avatars.githubusercontent.com/u/295260680?u=cee3f2c2758e44320373460a01a921e607e8391a&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

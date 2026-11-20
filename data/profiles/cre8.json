@@ -1,7 +1,7 @@
 {
   "username": "cre8",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Germany",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 331,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 342,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4020915?u=91e3dc34193113705717b0e547bd767f24845903&v=4",
+  "bio": "Hello there \ud83d\udc4b Doing research in security for digital identities.",
+  "company": "Common Codes",
+  "location": "Germany"
 }

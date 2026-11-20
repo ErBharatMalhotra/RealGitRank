@@ -1,7 +1,7 @@
 {
   "username": "josegonzalez",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Ruby",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 771,
-  "avatar_url": "",
+  "rank": 776,
+  "avatar_url": "https://avatars.githubusercontent.com/u/65675?u=56b96cf02c32e38f17cb7712d8e8b022a44a1c55&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

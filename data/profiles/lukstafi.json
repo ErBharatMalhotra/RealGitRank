@@ -1,7 +1,7 @@
 {
   "username": "lukstafi",
   "country": "Switzerland",
-  "primary_language": "Unknown",
+  "primary_language": "OCaml",
   "total_pushes": 1,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 40.87,
-  "rank_score": 67.6,
+  "rank_score": 71.1,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 4,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 546,
+  "rank": 400,
   "avatar_url": "https://avatars.githubusercontent.com/u/3090721?u=2ecb532635ebe784a63bd5ccd99e839efd067ef4&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Zurich"
 }

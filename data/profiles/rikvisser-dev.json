@@ -1,7 +1,7 @@
 {
   "username": "rikvisser-dev",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 2,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 42.41,
-  "rank_score": 64.8,
+  "rank_score": 68.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 584,
+  "rank": 560,
   "avatar_url": "https://avatars.githubusercontent.com/u/102914580?u=03186d7ce7fcc75e44db46b15b368eeebd3eb6e7&v=4",
   "bio": "Software engineer building tools for radio stations \ud83d\udcfb",
-  "company": "@rivi-software "
+  "company": "@rivi-software ",
+  "location": "\ud83c\uddf3\ud83c\uddf1"
 }

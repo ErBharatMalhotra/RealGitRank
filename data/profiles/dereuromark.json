@@ -1,7 +1,7 @@
 {
   "username": "dereuromark",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Germany",
+  "primary_language": "PHP",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 30,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 32,
+  "avatar_url": "https://avatars.githubusercontent.com/u/39854?v=4",
+  "bio": "Senior Software Developer, Tooling Architect & Master of Automation - PHP Expert",
+  "company": "Available as (Cake)PHP expert",
+  "location": "Berlin"
 }

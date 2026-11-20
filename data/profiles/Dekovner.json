@@ -1,7 +1,7 @@
 {
   "username": "Dekovner",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 415,
-  "avatar_url": "",
+  "rank": 432,
+  "avatar_url": "https://avatars.githubusercontent.com/u/102241445?u=bb1628fdcfc84029f372cf96c73a0da42d8b0655&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

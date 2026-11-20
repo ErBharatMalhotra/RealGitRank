@@ -1,7 +1,7 @@
 {
   "username": "simontx1983",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "PHP",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 108,
-  "avatar_url": "",
+  "rank": 114,
+  "avatar_url": "https://avatars.githubusercontent.com/u/78011340?u=e5bccfb36271e57d4bd0dc39e5f8a625fe5a9ad6&v=4",
   "bio": "",
-  "company": ""
+  "company": "Blue collar crypto",
+  "location": "United States"
 }

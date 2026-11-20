@@ -1,7 +1,7 @@
 {
   "username": "aLiz-Nancy",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "SCSS",
   "total_pushes": 1,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 40.5,
-  "rank_score": 94.2,
+  "rank_score": 99.1,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 46,
+  "rank": 38,
   "avatar_url": "https://avatars.githubusercontent.com/u/52145579?u=5b1c862f9e749e3bdfa73f855d99b944091ffb8e&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

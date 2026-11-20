@@ -1,7 +1,7 @@
 {
   "username": "kchan1028",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Svelte",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 573,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 584,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4421610?u=2c79a3c751c390162ff63cdfb8c1d83aa8093ec3&v=4",
+  "bio": "Engineering leader, and builder. Turning ideas into useful products, keeping systems simple, and helping teams deliver. ",
+  "company": "Yippify",
+  "location": "Bay Area"
 }

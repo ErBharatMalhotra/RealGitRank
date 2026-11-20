@@ -1,7 +1,7 @@
 {
   "username": "ESultanik",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 497,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 511,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6444465?v=4",
+  "bio": "Computer scientist currently focusing on security, specifically automated program analysis. Editor of and frequent contributor to PoC||GTFO.",
+  "company": "@trailofbits",
+  "location": "Philadelphia, PA"
 }

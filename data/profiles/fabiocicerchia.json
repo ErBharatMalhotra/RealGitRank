@@ -1,7 +1,7 @@
 {
   "username": "fabiocicerchia",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Italy",
+  "primary_language": "Twig",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 563,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 574,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11521?u=1d01bf5f7195c705cb998d3ef614ba292db20cf2&v=4",
+  "bio": "I'm Fabio, a Passionate Engineer with nearly 2 decades of expertise. Helping teams in delivering value faster with higher standards.",
+  "company": "Treatwell",
+  "location": "Rome"
 }

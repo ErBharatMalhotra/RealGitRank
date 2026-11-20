@@ -1,7 +1,7 @@
 {
   "username": "joshuaofisrael",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 575,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 586,
+  "avatar_url": "https://avatars.githubusercontent.com/u/326499073?v=4",
+  "bio": "Software engineer (Microsoft, American Airlines) \u00b7 Python, TypeScript, LLM/agentic AI \u00b7 UMich CS, Miami MBA",
+  "company": "",
+  "location": "Sarasota, FL"
 }

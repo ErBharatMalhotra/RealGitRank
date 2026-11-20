@@ -1,7 +1,7 @@
 {
   "username": "victor-von-pooh",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Japan",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 566,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 577,
+  "avatar_url": "https://avatars.githubusercontent.com/u/88913727?u=0bee742db5a81f4675fc3262872069c14727a98a&v=4",
+  "bio": "NEC Solution Innovators, Ltd. -> aidiot inc. -> Akari Inc./Quantum Computing, Machine Learning, Deep Learning, Combinatorial Optimization",
+  "company": "Akari Inc.",
+  "location": "Yokohama, Kanagawa Pref, Japan"
 }

@@ -1,7 +1,7 @@
 {
   "username": "wilsonccccc",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 211,
-  "avatar_url": "",
+  "rank": 224,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6146503?u=13a5a6cd1430d2d00b799271c13b08a5671aa8e4&v=4",
   "bio": "",
-  "company": ""
+  "company": "Libra, Novi, Facebook",
+  "location": "USA"
 }

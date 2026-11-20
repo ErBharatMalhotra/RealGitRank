@@ -1,7 +1,7 @@
 {
   "username": "mateo-berri",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 463,
-  "avatar_url": "",
+  "rank": 478,
+  "avatar_url": "https://avatars.githubusercontent.com/u/277851410?u=e8fc3dd0e69b78a1bd184ec6a992333442febc86&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

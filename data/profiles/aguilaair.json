@@ -1,7 +1,7 @@
 {
   "username": "aguilaair",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Dart",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 473,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 488,
+  "avatar_url": "https://avatars.githubusercontent.com/u/29983481?u=abbce230e60abdc578950ad89d470ba90dae35a3&v=4",
+  "bio": "Stanford CS Class of 2026 (Human Computer Interaction)\r\n\r\nSWE @ Terradot, building the best carbon capture technology in the world",
+  "company": "Terradot",
+  "location": "San Francisco, CA"
 }

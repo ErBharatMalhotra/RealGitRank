@@ -1,7 +1,7 @@
 {
   "username": "kevinhsykes",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 120,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 125,
+  "avatar_url": "https://avatars.githubusercontent.com/u/215914594?v=4",
+  "bio": "Student in the Advanced Certificate in AI & Business program at Golisano Institute for Business & Entrepreneurship | Graduating February 2027",
+  "company": "Golisano Institute for Business & Entrepreneurship",
+  "location": ""
 }

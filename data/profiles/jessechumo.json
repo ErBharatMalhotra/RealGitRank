@@ -1,7 +1,7 @@
 {
   "username": "jessechumo",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 70,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 77,
+  "avatar_url": "https://avatars.githubusercontent.com/u/40341693?u=5937ad66247733dfadd5083b865d4893ba7a4856&v=4",
+  "bio": " Dev\r\n\r\n\r\n\r\n\r\n",
+  "company": "UT Arlington",
+  "location": "Dallas, Texas"
 }

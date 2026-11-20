@@ -1,7 +1,7 @@
 {
   "username": "AnatoliiBessmertnyi",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Russia",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 653,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 654,
+  "avatar_url": "https://avatars.githubusercontent.com/u/122365439?u=0e0b731102cb68a02d049fddbaa73ff311ec6ea3&v=4",
+  "bio": "Hi there! I'm a Python developer with experience in managmet. I have experience with Python and Django. Open for cooperation!",
+  "company": "",
+  "location": "Moscow"
 }

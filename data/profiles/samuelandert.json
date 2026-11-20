@@ -1,7 +1,7 @@
 {
   "username": "samuelandert",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Germany",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 433,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 450,
+  "avatar_url": "https://avatars.githubusercontent.com/u/747161?u=ab4b7e282711930bc3e285b4dd39cdde15942598&v=4",
+  "bio": "on the journey to ignite humanities full potential towards a thriving life experience for every human",
+  "company": "",
+  "location": "Munich"
 }

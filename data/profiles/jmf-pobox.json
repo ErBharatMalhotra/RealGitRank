@@ -1,7 +1,7 @@
 {
   "username": "jmf-pobox",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 79,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 87,
+  "avatar_url": "https://avatars.githubusercontent.com/u/155204947?u=87c77e7bcbb3cdc512092cb83bf5cb6367da5c49&v=4",
+  "bio": "Hands-on, scale technology leader and part-time graduate student who enjoys computer science, software engineering, and coding.",
+  "company": "@punt-labs ",
+  "location": ""
 }

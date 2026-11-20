@@ -1,7 +1,7 @@
 {
   "username": "dhongu",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 938,
-  "avatar_url": "",
+  "rank": 954,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8823556?u=5863065effff009b2de0a4a8b2c171b22c7d7f9c&v=4",
   "bio": "",
-  "company": ""
+  "company": "@terrabit-ro   / Deltatech",
+  "location": "Bacau, Rom\u00e2nia"
 }

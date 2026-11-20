@@ -1,7 +1,7 @@
 {
   "username": "philipposk",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 600,
-  "avatar_url": "",
+  "rank": 604,
+  "avatar_url": "https://avatars.githubusercontent.com/u/95683359?u=abe66acdb9ef14572d66c31409ddef489a506fe5&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Copenhagen, Denmark"
 }

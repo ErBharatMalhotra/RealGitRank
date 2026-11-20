@@ -1,7 +1,7 @@
 {
   "username": "scottyhutch",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Java",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 60.39,
-  "rank_score": 70.3,
+  "rank_score": 73.9,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 424,
+  "rank": 286,
   "avatar_url": "https://avatars.githubusercontent.com/u/228910354?u=13549b4959d6a1bb19a1704b94f57321915e2edc&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "England"
 }

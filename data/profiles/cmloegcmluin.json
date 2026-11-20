@@ -1,7 +1,7 @@
 {
   "username": "cmloegcmluin",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Perl",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 77,
-  "avatar_url": "",
+  "rank": 85,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4460669?u=5fbc52866f2ea00697083653d95b9001cf587eee&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "United States"
 }

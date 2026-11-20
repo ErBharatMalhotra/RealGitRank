@@ -1,7 +1,7 @@
 {
   "username": "tikazyq",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "China",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 307,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 321,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3393101?u=c234934845ce0254390be967bc375da36f75780a&v=4",
+  "bio": "Author of Crawlab",
+  "company": "",
+  "location": "Chongqing, China"
 }

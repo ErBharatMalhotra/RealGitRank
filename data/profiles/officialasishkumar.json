@@ -1,7 +1,7 @@
 {
   "username": "officialasishkumar",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "India",
+  "primary_language": "C++",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 929,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 946,
+  "avatar_url": "https://avatars.githubusercontent.com/u/87874775?u=0522504055315737b691f2fd450aded5616e9ba7&v=4",
+  "bio": "Software Engineer | GSoC \u201924 & \u201925 | LFX \u201924 | Open to SWE roles, freelance and part-time roles. DM/Email me!",
+  "company": "",
+  "location": "India"
 }

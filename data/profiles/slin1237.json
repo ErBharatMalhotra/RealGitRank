@@ -1,7 +1,7 @@
 {
   "username": "slin1237",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 40.78,
-  "rank_score": 64.5,
+  "rank_score": 68.0,
   "active_repos_touched": 1,
   "pr_reviews": 8,
   "issue_comments": 7,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 603,
+  "rank": 565,
   "avatar_url": "https://avatars.githubusercontent.com/u/25425177?u=996e8911f85c0ed660d6b4a3441c245567dcfedd&v=4",
   "bio": "As imagine the future",
-  "company": ""
+  "company": "",
+  "location": ""
 }

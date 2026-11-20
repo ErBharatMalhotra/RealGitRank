@@ -1,7 +1,7 @@
 {
   "username": "Amaroq7",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Poland",
+  "primary_language": "C++",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 226,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 239,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7026180?u=c9f47f04ef61e39cceeef836d88b9a60a3355bcd&v=4",
+  "bio": "C/C++",
+  "company": "",
+  "location": "Poland, \u0141\u00f3d\u017a"
 }

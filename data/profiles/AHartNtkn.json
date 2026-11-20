@@ -1,7 +1,7 @@
 {
   "username": "AHartNtkn",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 474,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 489,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6405468?u=fdeb5df8793e7e8da03a0ee707a41faeaedb2d89&v=4",
+  "bio": "Functional Programmer and Formal Verification Engineer with experience in Haskell and Coq",
+  "company": "Heliax",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "rjordonez",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 915,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 932,
+  "avatar_url": "https://avatars.githubusercontent.com/u/79874880?u=fa3dd9083ebe25cdc3b47a28dbfccf0835f926e2&v=4",
+  "bio": "Hi! I am Rex, student studying Computer Science and Business at USC. ",
+  "company": "",
+  "location": ""
 }

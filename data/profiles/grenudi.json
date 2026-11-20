@@ -1,7 +1,7 @@
 {
   "username": "grenudi",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 5,
   "bot_penalty": 0.0,
@@ -23,7 +23,8 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 16,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/17498075?u=ee491833ab8a512ff754f70fa79b969acdcc060a&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

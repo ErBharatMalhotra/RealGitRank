@@ -1,7 +1,7 @@
 {
   "username": "tennashi",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Vim Script",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 632,
-  "avatar_url": "",
+  "rank": 633,
+  "avatar_url": "https://avatars.githubusercontent.com/u/10219626?u=2b2f28ece3b4159fc63870d96e7ede2b027e3e3c&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

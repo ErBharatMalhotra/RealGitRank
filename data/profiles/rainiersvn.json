@@ -1,7 +1,7 @@
 {
   "username": "rainiersvn",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "South Africa",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 223,
-  "avatar_url": "",
+  "rank": 236,
+  "avatar_url": "https://avatars.githubusercontent.com/u/70575100?u=15fda7719cbf721344ed0be17d0152574eb18935&v=4",
   "bio": "",
-  "company": ""
+  "company": "@cloudkid-labs ",
+  "location": "Cape Town, South Africa, 7530"
 }

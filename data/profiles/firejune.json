@@ -1,7 +1,7 @@
 {
   "username": "firejune",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "South Korea",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 69,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 76,
+  "avatar_url": "https://avatars.githubusercontent.com/u/68166?u=03ab11e34a87eb192d71be7906c53e5991b363a1&v=4",
+  "bio": "Frontend developer. I enjoy collaborating with AI to build games and tools.",
+  "company": "Ignite Corp.",
+  "location": "Seoul, Korea"
 }

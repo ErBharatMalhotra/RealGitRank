@@ -1,7 +1,7 @@
 {
   "username": "bennelsonweiss",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Elixir",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 354,
-  "avatar_url": "",
+  "rank": 364,
+  "avatar_url": "https://avatars.githubusercontent.com/u/53575454?u=d3a693399e0d729b66582cac41e6863fb9c443b2&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "San Antonio, TX"
 }

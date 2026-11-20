@@ -1,7 +1,7 @@
 {
   "username": "pausevolve-wq",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "India",
+  "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 779,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 784,
+  "avatar_url": "https://avatars.githubusercontent.com/u/271499015?u=5e41b99c7034a2649c4cee9691b35edf3067e565&v=4",
+  "bio": "Building Products that mean something ",
+  "company": "",
+  "location": "India"
 }

@@ -1,7 +1,7 @@
 {
   "username": "prachizala",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "India",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 561,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 572,
+  "avatar_url": "https://avatars.githubusercontent.com/u/220309234?u=c2a7d3fb587db29f86229162c4851844f76dc173&v=4",
+  "bio": "Full Stack Developer @ udaanworks \ud83d\ude80 | Python, TypeScript, FastAPI & Next.js | Distributed Backend & Modern Frontend | Contributor @ Starlette (FastAPI Core)",
+  "company": "Udaanworks",
+  "location": "\ud83d\udccd Ahmedabad, Gujarat, India"
 }

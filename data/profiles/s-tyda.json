@@ -1,7 +1,7 @@
 {
   "username": "s-tyda",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Poland",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 859,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 872,
+  "avatar_url": "https://avatars.githubusercontent.com/u/61754229?u=05315f65ad173ef6897e5fac5bf0bc52cb1ab2cc&v=4",
+  "bio": "Full Stack Developer at Motorro and Techni Stars.",
+  "company": "Sebastian Tyda",
+  "location": "Poland"
 }

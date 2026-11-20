@@ -1,7 +1,7 @@
 {
   "username": "olety",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Japan",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 428,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 444,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2990542?u=991e479507c88d63c821f8f964a6f9edcfebcdd1&v=4",
+  "bio": "/Data Science/",
+  "company": "",
+  "location": "Tokyo, Japan"
 }

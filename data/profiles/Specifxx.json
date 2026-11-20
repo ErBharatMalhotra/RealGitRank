@@ -1,7 +1,7 @@
 {
   "username": "Specifxx",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Australia",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 577,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 588,
+  "avatar_url": "https://avatars.githubusercontent.com/u/99713756?u=e66c8d5caf8bcb85141c703a19de0223154a0d36&v=4",
+  "bio": "Data Science & Software",
+  "company": "UNSW",
+  "location": "Sydney"
 }

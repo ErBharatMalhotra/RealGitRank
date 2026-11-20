@@ -1,7 +1,7 @@
 {
   "username": "abvhiael",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C++",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 521,
-  "avatar_url": "",
+  "rank": 535,
+  "avatar_url": "https://avatars.githubusercontent.com/u/15491889?u=1aff46b20f2e21ccfd1d6b67046ebf8d7645bf0d&v=4",
   "bio": "",
-  "company": ""
+  "company": "SOILcoin",
+  "location": "pt michaud, nova scotia"
 }

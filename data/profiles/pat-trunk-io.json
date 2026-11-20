@@ -1,7 +1,7 @@
 {
   "username": "pat-trunk-io",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 41,
-  "avatar_url": "",
+  "rank": 45,
+  "avatar_url": "https://avatars.githubusercontent.com/u/131031962?u=3f390644dc61882c02ce00f68e00815291c59a99&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "LucaGiardi20",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "PHP",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 972,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 988,
+  "avatar_url": "https://avatars.githubusercontent.com/u/62483245?u=39e5b3cf1729f1ec9f699b54182c5e53dd783a11&v=4",
+  "bio": "Full stack web and iOS Developer\r\n\r\nDaily stack: React, NextJS. VueJS, NuxtJS, Laravel, Swift & SwiftUI",
+  "company": "",
+  "location": ""
 }

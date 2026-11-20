@@ -1,7 +1,7 @@
 {
   "username": "zdawan",
   "country": "India",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 3,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 70.74,
-  "rank_score": 68.6,
+  "rank_score": 72.4,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 540,
+  "rank": 362,
   "avatar_url": "https://avatars.githubusercontent.com/u/116941441?u=28be6539f81144e8319e19932d83a80b8bef1368&v=4",
   "bio": "I'm a passionate Web Developer and UI/UX Designer and Freelancer with a knack for creating visually stunning and highly functional digital experiences.\r\n",
-  "company": "Personal"
+  "company": "Personal",
+  "location": "India"
 }

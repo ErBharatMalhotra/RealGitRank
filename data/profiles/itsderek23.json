@@ -1,7 +1,7 @@
 {
   "username": "itsderek23",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Ruby",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 287,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 303,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7880?u=528bb88cd684105ca552ebe301348b51c778b5ca&v=4",
+  "bio": "Observability & AI",
+  "company": "",
+  "location": "San Francisco, CA"
 }

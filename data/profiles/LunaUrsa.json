@@ -1,7 +1,7 @@
 {
   "username": "LunaUrsa",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 41.24,
-  "rank_score": 67.6,
+  "rank_score": 71.1,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 548,
+  "rank": 402,
   "avatar_url": "https://avatars.githubusercontent.com/u/1836049?u=73194821e129f9188557221a619064545cf185d8&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

@@ -1,7 +1,7 @@
 {
   "username": "j6nca",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 137,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 142,
+  "avatar_url": "https://avatars.githubusercontent.com/u/72368152?u=7d90c76a9b4cdfd033685e124a5d59ea58af7fc1&v=4",
+  "bio": "beep boop",
+  "company": "StackAdapt",
+  "location": "Toronto"
 }

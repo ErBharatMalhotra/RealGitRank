@@ -1,7 +1,7 @@
 {
   "username": "WorkingWarrior",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "PHP",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 828,
-  "avatar_url": "",
+  "rank": 837,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3082215?u=b1f21974d798792a056a6f232f5c90ca295849ec&v=4",
   "bio": "",
-  "company": ""
+  "company": "Netsphere",
+  "location": ""
 }

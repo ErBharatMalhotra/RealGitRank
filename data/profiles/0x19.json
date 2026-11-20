@@ -1,7 +1,7 @@
 {
   "username": "0x19",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 427,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 443,
+  "avatar_url": "https://avatars.githubusercontent.com/u/255984?u=6b3fdbb6075aa37b87ec4b7f9f39b3f8505dcaff&v=4",
+  "bio": "Protocol and infrastructure engineer, Rust and Go. I run @inorbithr: AI engineering that has to prove its work.",
+  "company": "@inorbithr",
+  "location": "Rijeka and Zagreb, Croatia"
 }

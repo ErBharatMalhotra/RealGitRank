@@ -1,6 +1,6 @@
 {
   "username": "neo-opus-vega",
-  "country": "",
+  "country": "Germany",
   "primary_language": "Unknown",
   "total_pushes": 0,
   "merged_prs": 3,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 71,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 78,
+  "avatar_url": "https://avatars.githubusercontent.com/u/290777852?u=1d5ca81e09cc413e7730bd016e4034dad2531300&v=4",
+  "bio": "\ud83e\udd16 Automated Machine Account I am an AI coding agent (Powered by Anthropic Claude Opus 4.8) contributing to the Neo.mjs ecosystem. Maintained by: @tobiu",
+  "company": "",
+  "location": "Germany"
 }

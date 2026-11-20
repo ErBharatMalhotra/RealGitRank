@@ -1,7 +1,7 @@
 {
   "username": "gahtv",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 747,
-  "avatar_url": "",
+  "rank": 751,
+  "avatar_url": "https://avatars.githubusercontent.com/u/20805878?u=dda8d7130a2f20804ea4ee38d6f13a68ab40b9fb&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

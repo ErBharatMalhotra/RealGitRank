@@ -1,7 +1,7 @@
 {
   "username": "ryanrhughes",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Shell",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 281,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 297,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1630358?u=e282cd0b7dbdea726e9d5cde7670b715afd83be8&v=4",
+  "bio": "Co-Founder @ThinkOodle, @omacom Core Team, Omarchy Maintainer",
+  "company": "@ThinkOodle ",
+  "location": "Fort Lauderdale, Florida"
 }

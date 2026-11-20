@@ -1,7 +1,7 @@
 {
   "username": "nh13",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Java",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 423,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 440,
+  "avatar_url": "https://avatars.githubusercontent.com/u/846274?u=0482391f47e1aa66979ab7fabae6c6c1a3644e23&v=4",
+  "bio": "Bioinformatics Expert @fulcrumgenomics ",
+  "company": "@fulcrumgenomics ",
+  "location": ""
 }

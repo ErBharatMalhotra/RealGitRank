@@ -1,7 +1,7 @@
 {
   "username": "diegoami",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Germany",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 171,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 180,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2590711?v=4",
+  "bio": "Look up my projects in https://diegoami.github.io/home/",
+  "company": "Sopra Steria Consulting",
+  "location": "Berlin (Germany)"
 }

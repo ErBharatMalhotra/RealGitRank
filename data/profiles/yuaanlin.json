@@ -1,7 +1,7 @@
 {
   "username": "yuaanlin",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 500,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 514,
+  "avatar_url": "https://avatars.githubusercontent.com/u/21105863?u=b75858f47c5dece1214a0e9f07a972a7a084b2a9&v=4",
+  "bio": "24y. Graduate from Zhejiang University Computer Science. Founder & CEO at @zeabur .",
+  "company": "@zeabur ",
+  "location": "Taiwan"
 }

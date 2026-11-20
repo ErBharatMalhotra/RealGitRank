@@ -1,7 +1,7 @@
 {
   "username": "NeerajCodz",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "India",
+  "primary_language": "Go",
   "total_pushes": 0,
   "merged_prs": 8,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 4,
-  "avatar_url": "",
+  "rank": 5,
+  "avatar_url": "https://avatars.githubusercontent.com/u/84490110?u=d732414727d7322f985c35c006877d8b4c34a29c&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Bangalore, India"
 }

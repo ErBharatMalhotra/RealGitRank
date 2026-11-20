@@ -1,7 +1,7 @@
 {
   "username": "openlibrary-bot",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 89,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 98,
+  "avatar_url": "https://avatars.githubusercontent.com/u/50213894?u=1972137bb4f949627b21f41807068b087400e1f8&v=4",
+  "bio": "Hi! I'm @openlibrary's Digital Librarian Assistant",
+  "company": "@internetarchive @openlibrary",
+  "location": "The Internet"
 }

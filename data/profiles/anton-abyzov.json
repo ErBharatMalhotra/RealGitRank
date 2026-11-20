@@ -1,7 +1,7 @@
 {
   "username": "anton-abyzov",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 2,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,9 +11,20 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 40.59,
-  "rank_score": 60.5,
-  "rank": 806,
+  "rank_score": 59.3,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 892,
   "avatar_url": "https://avatars.githubusercontent.com/u/979819?u=b50f0586ea056682b5024c94a5be20d6f19673bd&v=4",
   "bio": "Founder of SpecWithCode \u00b7 Creator of SpecWeave \u00b7 AI coding agents, Cloud, DevOps \u00b7 20 yrs SWE \u00b7 YouTube: @AntonAbyzov",
-  "company": ""
+  "company": "",
+  "location": "Miami"
 }

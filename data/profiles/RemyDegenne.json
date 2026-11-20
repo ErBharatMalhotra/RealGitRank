@@ -1,7 +1,7 @@
 {
   "username": "RemyDegenne",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Lean",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 378,
-  "avatar_url": "",
+  "rank": 388,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4094732?u=075cdf5b8bc5329d7a2c6cea6c390c3771cf000e&v=4",
   "bio": "",
-  "company": ""
+  "company": "Inria",
+  "location": "Lille"
 }

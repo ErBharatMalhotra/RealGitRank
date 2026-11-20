@@ -1,7 +1,7 @@
 {
   "username": "zyansheep",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 541,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 556,
+  "avatar_url": "https://avatars.githubusercontent.com/u/20029431?u=d28d488c999ffd7ebec49afc518d48c5ccd70f53&v=4",
+  "bio": "A rainbow sheep from across the universe.",
+  "company": "",
+  "location": "Somewhere far far away"
 }

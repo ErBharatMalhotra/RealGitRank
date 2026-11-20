@@ -1,7 +1,7 @@
 {
   "username": "Soft-Nation-dev",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 725,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 729,
+  "avatar_url": "https://avatars.githubusercontent.com/u/183424110?v=4",
+  "bio": "Solving problems using code",
+  "company": "",
+  "location": ""
 }

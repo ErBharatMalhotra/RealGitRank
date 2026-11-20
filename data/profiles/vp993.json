@@ -1,7 +1,7 @@
 {
   "username": "vp993",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United Arab Emirates",
+  "primary_language": "Rust",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 536,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 551,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2530710?u=ea14c3b0424997f9f866682f6fe681da390b0144&v=4",
+  "bio": "Building @organic-framework",
+  "company": "Organic Framework",
+  "location": "Dubai, UAE"
 }

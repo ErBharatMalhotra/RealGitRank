@@ -1,7 +1,7 @@
 {
   "username": "Ygor-Santts",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Vue",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 596,
-  "avatar_url": "",
+  "rank": 600,
+  "avatar_url": "https://avatars.githubusercontent.com/u/197993816?u=d4ad4c4ff382e003a953c78a107fb2d2c7f49515&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

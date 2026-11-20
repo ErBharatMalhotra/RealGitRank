@@ -1,7 +1,7 @@
 {
   "username": "jet-pang",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Java",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 202,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 210,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3937758?u=43c263947ffb53eccf61a8a5e05b8c85de3b95b1&v=4",
+  "bio": "Jet (n\u00e9 Ryan), a little king who learned to fly. Making computers understand human language, one controlled sentence at a time.\r\n@aster-cloud @wontlost-ltd",
+  "company": "",
+  "location": "New Zealand"
 }

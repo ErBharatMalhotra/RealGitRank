@@ -1,7 +1,7 @@
 {
   "username": "0xCAF3D0OD",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Shell",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 819,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 828,
+  "avatar_url": "https://avatars.githubusercontent.com/u/92105776?u=695a964cf7bcee5b5a8d95ddd09ae6a98a4842ac&v=4",
+  "bio": "can be good, can be bad but in the end we move forward",
+  "company": "@42Lausanne",
+  "location": "Renens"
 }

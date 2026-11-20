@@ -1,7 +1,7 @@
 {
   "username": "tomrford",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Switzerland",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 855,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 867,
+  "avatar_url": "https://avatars.githubusercontent.com/u/109313432?u=88971e9e177be1d5a7482238b564ef181143a165&v=4",
+  "bio": "vibing",
+  "company": "",
+  "location": "Switzerland"
 }

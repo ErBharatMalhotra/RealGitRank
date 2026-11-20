@@ -1,7 +1,7 @@
 {
   "username": "amado2k5",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Canada",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 432,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 448,
+  "avatar_url": "https://avatars.githubusercontent.com/u/20147989?u=f2246df32f9f761bf55519b8f06aea103bde5357&v=4",
+  "bio": "Software engineering leader in Toronto \u00b7 builder of islam.museum, Fifi Recipes & Cookwala \u00b7 open data, knowledge graphs, AI",
+  "company": "",
+  "location": "Oakville, Ontario, Canada"
 }

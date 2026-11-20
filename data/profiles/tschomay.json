@@ -1,7 +1,7 @@
 {
   "username": "tschomay",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 560,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 571,
+  "avatar_url": "https://avatars.githubusercontent.com/u/32229277?u=a653e86d56e1fdf80d41d18de8fbd427e876ea1b&v=4",
+  "bio": "Bioengineering, data science, building cool things that people enjoy",
+  "company": "",
+  "location": ""
 }

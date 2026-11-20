@@ -1,7 +1,7 @@
 {
   "username": "kyle-sexton",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 39.99,
-  "rank_score": 67.5,
+  "rank_score": 71.0,
   "active_repos_touched": 2,
   "pr_reviews": 3,
   "issue_comments": 2,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 552,
+  "rank": 412,
   "avatar_url": "https://avatars.githubusercontent.com/u/153232337?u=244b14f315c3b9feb614babf4c4d2ff18bb6a326&v=4",
   "bio": "Software architect working with .NET, identity, observability, developer tooling, and AI-assisted engineering. Building @melodic-software.",
-  "company": "@melodic-software"
+  "company": "@melodic-software",
+  "location": "Northeastern Ohio"
 }

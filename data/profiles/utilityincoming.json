@@ -1,7 +1,7 @@
 {
   "username": "utilityincoming",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 257,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 274,
+  "avatar_url": "https://avatars.githubusercontent.com/u/27707578?u=dfb1c9878bbfd6c65a0bbe03ea93d5c178f14df1&v=4",
+  "bio": "utility, incoming",
+  "company": "",
+  "location": "United States of America"
 }

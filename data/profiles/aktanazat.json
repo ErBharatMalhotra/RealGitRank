@@ -1,7 +1,7 @@
 {
   "username": "aktanazat",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 762,
-  "avatar_url": "",
+  "rank": 767,
+  "avatar_url": "https://avatars.githubusercontent.com/u/68118715?u=15c063fde212f9b47e4e21b29e0f729ecb78c048&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "California"
 }

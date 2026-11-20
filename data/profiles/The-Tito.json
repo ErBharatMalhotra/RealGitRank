@@ -1,7 +1,7 @@
 {
   "username": "The-Tito",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Mexico",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 1,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 893,
-  "avatar_url": "",
+  "rank": 911,
+  "avatar_url": "https://avatars.githubusercontent.com/u/188228691?u=c614fec9d38b35b02e0cdb068c58240370891a26&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Mexico"
 }

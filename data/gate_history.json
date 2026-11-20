@@ -2,10 +2,10 @@
   {
     "rows": 15845,
     "null_usernames": 0,
-    "score_min": 11.4,
+    "score_min": 11.2,
     "score_max": 135.7,
-    "score_mean": 35.112,
-    "score_std": 18.458,
+    "score_mean": 35.141,
+    "score_std": 18.56,
     "bot_rate": 0.0,
     "date": "2026-11-20"
   }

@@ -1,7 +1,7 @@
 {
   "username": "eric-edouard",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 949,
-  "avatar_url": "",
+  "rank": 965,
+  "avatar_url": "https://avatars.githubusercontent.com/u/19872411?u=4bd57203039f9624dbd5f397b436391f82ba0bf6&v=4",
   "bio": "",
-  "company": ""
+  "company": "Shares",
+  "location": ""
 }

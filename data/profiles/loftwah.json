@@ -1,7 +1,7 @@
 {
   "username": "loftwah",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "Astro",
   "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 240,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 255,
+  "avatar_url": "https://avatars.githubusercontent.com/u/19922556?u=33abbb962da016192812b2d73ff087f274ceb327&v=4",
+  "bio": "DevOps Engineer, Music Producer, and big fan of Open Source.",
+  "company": "",
+  "location": "Melbourne, Australia"
 }

@@ -1,7 +1,7 @@
 {
   "username": "samutpra",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "Thailand",
+  "primary_language": "Pascal",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 283,
-  "avatar_url": "",
+  "rank": 299,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5328823?u=472f8fab68e593ccd70dd5b14c3bdb3ac9b3889c&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": "Thailand"
 }

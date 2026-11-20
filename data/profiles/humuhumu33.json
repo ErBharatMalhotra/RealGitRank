@@ -1,7 +1,7 @@
 {
   "username": "humuhumu33",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 322,
-  "avatar_url": "",
+  "rank": 336,
+  "avatar_url": "https://avatars.githubusercontent.com/u/68450279?u=28dc00a8ccc9cdba3e163bc47a55551d4054096e&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }

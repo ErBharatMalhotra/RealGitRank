@@ -1,7 +1,7 @@
 {
   "username": "zcanann",
-  "country": "",
-  "primary_language": "Unknown",
+  "country": "United States",
+  "primary_language": "C#",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 352,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 361,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5906208?u=96b6b6dd753b8a2b893a4d520bb2278f722f3c66&v=4",
+  "bio": "Game hacker, game developer.\r\n\r\nGame Engine team @Roblox",
+  "company": "Roblox",
+  "location": "San Francisco, California"
 }

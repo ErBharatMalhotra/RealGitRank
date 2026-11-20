@@ -1,7 +1,7 @@
 {
   "username": "mico-v",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 942,
-  "avatar_url": "",
-  "bio": "",
-  "company": ""
+  "rank": 958,
+  "avatar_url": "https://avatars.githubusercontent.com/u/232133607?u=67ea38fcbcf51f9596aaec670e8d9dbba7cc7d98&v=4",
+  "bio": "May be i can do",
+  "company": "",
+  "location": "Suzhou"
 }

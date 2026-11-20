@@ -1,7 +1,7 @@
 {
   "username": "ZenYoda3",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 1,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 42.49,
-  "rank_score": 77.0,
+  "rank_score": 81.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,8 +22,9 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 183,
+  "rank": 153,
   "avatar_url": "https://avatars.githubusercontent.com/u/227968380?u=501a47d1a71f93ac80af5cc210a5d26d72546c13&v=4",
   "bio": "",
-  "company": ""
+  "company": "",
+  "location": ""
 }
