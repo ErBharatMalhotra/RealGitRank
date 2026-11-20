@@ -74,7 +74,7 @@
         tr.dataset.u = (u.username||'').toLowerCase();
         tr.dataset.c = (u.country||'').toLowerCase();
         tr.dataset.l = (u.primary_language||'').toLowerCase();
-        const link = u.rank <= 1000 ? `/profile/${u.username}` : `/profile/?u=${u.username}`;
+        const link = u.rank <= 1000 ? `/profile/${u.username}` : `/profile/?u=${encodeURIComponent(u.username)}&r=${u.rank}`;
         tr.innerHTML = `<td>${u.rank}</td>
           <td><img src="${u.avatar_url||''}" alt="" width="24" height="24" style="border-radius:50%;vertical-align:middle;margin-right:6px" onerror="this.style.display='none'" /><a href="${link}">${u.username}</a> ${u.is_human_verified?'✓':''} ${u.is_bot_classified?'[bot]':''}</td>
           <td class="score">${u.rank_score}</td>
