@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 183,
+  "rank": 188,
   "avatar_url": "https://avatars.githubusercontent.com/u/36490558?u=9c4e53b56da8ff50ca47098ffae268e83aa0efed&v=4",
   "bio": "I'm the bot for auto updating conda-forge feedstocks with new versions.\r\nPlease put issues/errors here: https://github.com/regro/cf-scripts/issues\r\n",
   "company": "@regro",
