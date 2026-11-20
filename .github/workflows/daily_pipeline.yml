@@ -52,8 +52,8 @@ jobs:
       - name: Rebuild static site
         run: |
           python -m src.pipeline.sitemap
-          python -m src.pipeline.chunks
           cp -r data web/public/data
+          python -m src.pipeline.chunks
           cd web
           npm ci
           npm run build
