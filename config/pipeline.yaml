@@ -1,0 +1,28 @@
+bigquery:
+  project: ${GCP_PROJECT_ID}
+  dataset: githubarchive
+  free_tier_tb_per_month: 1
+  candidate_pool_limit: 200000
+  min_pushes: 5
+  min_merged_prs: 1
+
+fallback:
+  - bigquery
+  - gharchive_org  # hourly .json.gz direct download
+  - last_good_snapshot
+
+enrichment:
+  top_n: 10000
+  batch_size: 100
+  graphql_points_per_hour: 5000
+
+quality_gates:
+  row_count_min_pct_of_30d_median: 80
+  username_null_max_pct: 0
+  score_shift_sigma_max: 3
+  bot_classification_jump_max_x: 2
+
+hosting:
+  provider: github_pages
+  custom_domain: realgitrank.bharatdn.com
+  deploy_on_push: true

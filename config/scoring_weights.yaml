@@ -1,0 +1,19 @@
+# RealGitRank scoring weights — must match SPEC.md
+pillars:
+  pr: 0.35          # Delivery (merged PRs)
+  quality: 0.25     # Code Health
+  impact: 0.25      # Adoption (stars/forks/dependents)
+  consistency: 0.15 # Cadence
+
+bot_penalty:
+  entropy_threshold: 0.10   # unique_commit_messages / total_pushes
+  entropy_penalty: 0.50
+  circadian_hours: 23       # distinct_active_hours >= 23
+  circadian_penalty: 0.30
+  payload_delta: 1.05       # avg_files_changed < 1.05
+  payload_penalty: 0.40
+  verified_human_threshold: 0.05
+  bot_classified_threshold: 0.70
+
+normalization: percentile  # z-score, not hard cap
+score_cap: 1000

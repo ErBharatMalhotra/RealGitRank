@@ -1,0 +1,31 @@
+---
+// RealGitRank — static leaderboard (GitHub Pages)
+import leaderboard from '../../data/leaderboard.json';
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>RealGitRank — Engineering Impact Leaderboard</title>
+    <meta name="description" content="Commit count measures typing speed. RealGitRank measures engineering impact." />
+  </head>
+  <body>
+    <h1>RealGitRank</h1>
+    <p>Commit count measures typing speed. RealGitRank measures engineering impact.</p>
+    <table>
+      <thead><tr><th>Rank</th><th>User</th><th>Score</th><th>Country</th></tr></thead>
+      <tbody>
+        {leaderboard.slice(0, 100).map((u, i) => (
+          <tr>
+            <td>{i + 1}</td>
+            <td><a href={`/@${u.username}`}>{u.username}</a></td>
+            <td>{u.rank_score}</td>
+            <td>{u.country}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <script>
+      // Client-side search via Fuse.js (load search-index.json)
+    </script>
+  </body>
+</html>
