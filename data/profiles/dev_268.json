@@ -1,0 +1,16 @@
+{
+  "username": "dev_268",
+  "country": "Japan",
+  "primary_language": "Rust",
+  "total_pushes": 1372,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 118.22138688838972,
+  "s_quality": 55.70439064361893,
+  "s_impact": 264.04731071947407,
+  "s_consistency": 226.8933838787279,
+  "rank_score": 0.0,
+  "rank": 291
+}

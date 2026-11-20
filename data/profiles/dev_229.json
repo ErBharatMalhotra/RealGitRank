@@ -1,0 +1,16 @@
+{
+  "username": "dev_229",
+  "country": "Japan",
+  "primary_language": "Python",
+  "total_pushes": 338,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 515.4893498248707,
+  "s_quality": 53.59196874686922,
+  "s_impact": 453.2912687987549,
+  "s_consistency": 123.56481218739245,
+  "rank_score": 325.7,
+  "rank": 33
+}

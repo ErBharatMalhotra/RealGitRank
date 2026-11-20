@@ -1,0 +1,16 @@
+{
+  "username": "dev_178",
+  "country": "Canada",
+  "primary_language": "C++",
+  "total_pushes": 205,
+  "merged_prs": 15,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 331.76918868447996,
+  "s_quality": 83.45305712121903,
+  "s_impact": 444.9863386344508,
+  "s_consistency": 170.5226224635075,
+  "rank_score": 273.8,
+  "rank": 166
+}

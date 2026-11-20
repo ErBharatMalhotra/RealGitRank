@@ -1,0 +1,16 @@
+{
+  "username": "dev_267",
+  "country": "Canada",
+  "primary_language": "Go",
+  "total_pushes": 217,
+  "merged_prs": 30,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 481.1640149223387,
+  "s_quality": 72.11081504472128,
+  "s_impact": 394.82122815767553,
+  "s_consistency": 185.4664954223509,
+  "rank_score": 313.0,
+  "rank": 72
+}

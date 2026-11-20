@@ -1,0 +1,16 @@
+{
+  "username": "dev_243",
+  "country": "France",
+  "primary_language": "Kotlin",
+  "total_pushes": 260,
+  "merged_prs": 35,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 531.6981115611617,
+  "s_quality": 80.27228756092032,
+  "s_impact": 493.81874467039273,
+  "s_consistency": 162.2785140708793,
+  "rank_score": 354.0,
+  "rank": 2
+}

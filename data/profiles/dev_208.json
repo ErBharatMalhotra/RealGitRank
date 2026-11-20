@@ -1,0 +1,16 @@
+{
+  "username": "dev_208",
+  "country": "France",
+  "primary_language": "Go",
+  "total_pushes": 361,
+  "merged_prs": 22,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 440.5613270220739,
+  "s_quality": 96.47925711349764,
+  "s_impact": 453.689022753301,
+  "s_consistency": 160.37542541970927,
+  "rank_score": 315.8,
+  "rank": 67
+}

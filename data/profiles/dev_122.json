@@ -1,0 +1,16 @@
+{
+  "username": "dev_122",
+  "country": "Japan",
+  "primary_language": "Kotlin",
+  "total_pushes": 26,
+  "merged_prs": 28,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 421.69230321916314,
+  "s_quality": 85.06916672732103,
+  "s_impact": 471.3029068804584,
+  "s_consistency": 147.47587596302503,
+  "rank_score": 308.8,
+  "rank": 89
+}

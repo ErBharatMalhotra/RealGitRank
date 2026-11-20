@@ -1,0 +1,16 @@
+{
+  "username": "dev_67",
+  "country": "United States",
+  "primary_language": "TypeScript",
+  "total_pushes": 292,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 183.06100359272853,
+  "s_quality": 50.23474393980029,
+  "s_impact": 323.4310982309331,
+  "s_consistency": 227.92434823886464,
+  "rank_score": 0.0,
+  "rank": 275
+}

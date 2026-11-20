@@ -1,0 +1,16 @@
+{
+  "username": "dev_214",
+  "country": "United Kingdom",
+  "primary_language": "Kotlin",
+  "total_pushes": 169,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 229.9745697636152,
+  "s_quality": 52.176524500153626,
+  "s_impact": 382.72826350000486,
+  "s_consistency": 160.69099658133325,
+  "rank_score": 213.3,
+  "rank": 235
+}

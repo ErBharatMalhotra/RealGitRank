@@ -1,0 +1,16 @@
+{
+  "username": "dev_183",
+  "country": "Brazil",
+  "primary_language": "Python",
+  "total_pushes": 300,
+  "merged_prs": 32,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 478.1854854932526,
+  "s_quality": 71.92311300232197,
+  "s_impact": 453.0131974641001,
+  "s_consistency": 148.2335051630902,
+  "rank_score": 320.8,
+  "rank": 52
+}

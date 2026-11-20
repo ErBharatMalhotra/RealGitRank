@@ -1,0 +1,16 @@
+{
+  "username": "dev_221",
+  "country": "France",
+  "primary_language": "C++",
+  "total_pushes": 340,
+  "merged_prs": 26,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 479.4832861562693,
+  "s_quality": 71.46093165482935,
+  "s_impact": 493.5518367998968,
+  "s_consistency": 203.13724031133296,
+  "rank_score": 339.5,
+  "rank": 8
+}

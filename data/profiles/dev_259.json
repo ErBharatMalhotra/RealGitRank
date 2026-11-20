@@ -1,0 +1,16 @@
+{
+  "username": "dev_259",
+  "country": "Japan",
+  "primary_language": "TypeScript",
+  "total_pushes": 32,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 213.08934507068307,
+  "s_quality": 74.92066078692304,
+  "s_impact": 397.42991560112694,
+  "s_consistency": 97.29976955001942,
+  "rank_score": 207.3,
+  "rank": 238
+}

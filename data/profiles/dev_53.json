@@ -1,0 +1,16 @@
+{
+  "username": "dev_53",
+  "country": "United Kingdom",
+  "primary_language": "Rust",
+  "total_pushes": 229,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 478.9688650240241,
+  "s_quality": 51.648793146064776,
+  "s_impact": 433.87211032846074,
+  "s_consistency": 129.0725376523437,
+  "rank_score": 308.4,
+  "rank": 91
+}

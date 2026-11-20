@@ -1,0 +1,16 @@
+{
+  "username": "dev_173",
+  "country": "Japan",
+  "primary_language": "Rust",
+  "total_pushes": 1076,
+  "merged_prs": 5,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 302.43863346217523,
+  "s_quality": 43.540437400373996,
+  "s_impact": 241.62851733273027,
+  "s_consistency": 222.54281502924636,
+  "rank_score": 0.0,
+  "rank": 265
+}

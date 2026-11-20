@@ -1,31 +1,59 @@
 ---
-// RealGitRank — static leaderboard (GitHub Pages)
-import leaderboard from '../../data/leaderboard.json';
+import leaderboard from '../../../data/leaderboard.json';
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>RealGitRank — Engineering Impact Leaderboard</title>
-    <meta name="description" content="Commit count measures typing speed. RealGitRank measures engineering impact." />
+    <meta name="description" content="Commit count measures typing speed. RealGitRank measures engineering impact. Anti-bot GitHub developer ranking." />
+    <meta property="og:title" content="RealGitRank — Engineering Impact Leaderboard" />
+    <meta property="og:description" content="Commit count measures typing speed. RealGitRank measures engineering impact." />
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 1100px; margin: 0 auto; padding: 20px; background: #0f172a; color: #e2e8f0; }
+      h1 { font-size: 2.2rem; margin: 0; background: linear-gradient(90deg,#60a5fa,#34d399); -webkit-background-clip: text; background-clip: text; color: transparent; }
+      .sub { color: #94a3b8; margin-bottom: 20px; }
+      input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #334155; background: #1e293b; color: #e2e8f0; font-size: 16px; margin-bottom: 16px; }
+      table { width: 100%; border-collapse: collapse; }
+      th, td { padding: 10px; text-align: left; border-bottom: 1px solid #1e293b; }
+      th { color: #60a5fa; font-size: 12px; text-transform: uppercase; }
+      tr:hover { background: #1e293b; }
+      a { color: #60a5fa; text-decoration: none; }
+      .score { font-weight: 700; color: #34d399; }
+      .verified { color: #fbbf24; }
+      .bot { color: #f87171; font-size: 11px; }
+      .badge { height: 24px; vertical-align: middle; }
+    </style>
   </head>
   <body>
     <h1>RealGitRank</h1>
-    <p>Commit count measures typing speed. RealGitRank measures engineering impact.</p>
-    <table>
-      <thead><tr><th>Rank</th><th>User</th><th>Score</th><th>Country</th></tr></thead>
+    <p class="sub">Commit count measures typing speed. RealGitRank measures engineering impact. {leaderboard.length} developers ranked.</p>
+    <input id="q" type="text" placeholder="Search username, country, language..." />
+    <table id="tbl">
+      <thead><tr><th>#</th><th>User</th><th>Score</th><th>Country</th><th>Lang</th><th>PRs</th><th>Badge</th></tr></thead>
       <tbody>
-        {leaderboard.slice(0, 100).map((u, i) => (
-          <tr>
-            <td>{i + 1}</td>
-            <td><a href={`/@${u.username}`}>{u.username}</a></td>
-            <td>{u.rank_score}</td>
+        {leaderboard.map((u) => (
+          <tr data-u={u.username.toLowerCase()} data-c={u.country.toLowerCase()} data-l={u.primary_language.toLowerCase()}>
+            <td>{u.rank}</td>
+            <td><a href={`/profile/${u.username}`}>{u.username}</a> {u.is_human_verified && <span class="verified">✓</span>} {u.is_bot_classified && <span class="bot">[bot]</span>}</td>
+            <td class="score">{u.rank_score}</td>
             <td>{u.country}</td>
+            <td>{u.primary_language}</td>
+            <td>{u.merged_prs}</td>
+            <td><img class="badge" src={`/badges/${u.username}.svg`} alt="badge" loading="lazy" /></td>
           </tr>
         ))}
       </tbody>
     </table>
     <script>
-      // Client-side search via Fuse.js (load search-index.json)
+      const q = document.getElementById('q');
+      const rows = document.querySelectorAll('#tbl tbody tr');
+      q.addEventListener('input', () => {
+        const v = q.value.toLowerCase();
+        rows.forEach(r => {
+          const match = r.dataset.u.includes(v) || r.dataset.c.includes(v) || r.dataset.l.includes(v);
+          r.style.display = match ? '' : 'none';
+        });
+      });
     </script>
   </body>
 </html>

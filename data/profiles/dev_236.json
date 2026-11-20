@@ -1,0 +1,16 @@
+{
+  "username": "dev_236",
+  "country": "Canada",
+  "primary_language": "Python",
+  "total_pushes": 71,
+  "merged_prs": 26,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 384.3269060754505,
+  "s_quality": 96.89086675062626,
+  "s_impact": 467.1916008099809,
+  "s_consistency": 205.47408055062957,
+  "rank_score": 306.4,
+  "rank": 98
+}

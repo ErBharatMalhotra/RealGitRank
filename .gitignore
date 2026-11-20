@@ -1,0 +1,17 @@
+# Build artifacts
+web/dist/
+web/node_modules/
+web/.astro/
+
+# Data intermediates
+data/raw.parquet
+
+# Secrets
+.env
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+myenv/

@@ -1,0 +1,16 @@
+{
+  "username": "dev_129",
+  "country": "Canada",
+  "primary_language": "Rust",
+  "total_pushes": 156,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 313.0998844807698,
+  "s_quality": 87.84251543387097,
+  "s_impact": 474.1653551633869,
+  "s_consistency": 204.70020931904995,
+  "rank_score": 280.8,
+  "rank": 160
+}

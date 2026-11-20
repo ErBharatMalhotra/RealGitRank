@@ -1,5 +1,6 @@
 {
-  "last_run_utc": null,
-  "data_age_hours": null,
-  "status": "not-yet-run"
+  "last_run_utc": "2026-11-20T04:56:11.522103+00:00",
+  "data_age_hours": 0,
+  "status": "ok",
+  "users": 300
 }

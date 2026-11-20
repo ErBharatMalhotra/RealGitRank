@@ -1,0 +1,16 @@
+{
+  "username": "dev_45",
+  "country": "United Kingdom",
+  "primary_language": "C++",
+  "total_pushes": 708,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 237.9433896858614,
+  "s_quality": 55.70439064361893,
+  "s_impact": 310.69327057615624,
+  "s_consistency": 219.01193666854874,
+  "rank_score": 0.0,
+  "rank": 268
+}

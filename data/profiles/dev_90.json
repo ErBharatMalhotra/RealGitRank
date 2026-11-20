@@ -1,0 +1,16 @@
+{
+  "username": "dev_90",
+  "country": "Brazil",
+  "primary_language": "Rust",
+  "total_pushes": 1929,
+  "merged_prs": 5,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 277.22584596711613,
+  "s_quality": 34.90997522682057,
+  "s_impact": 314.0753259813836,
+  "s_consistency": 226.8933838787279,
+  "rank_score": 0.0,
+  "rank": 262
+}

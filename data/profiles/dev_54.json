@@ -1,0 +1,16 @@
+{
+  "username": "dev_54",
+  "country": "Canada",
+  "primary_language": "Kotlin",
+  "total_pushes": 371,
+  "merged_prs": 26,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 418.0177008010978,
+  "s_quality": 77.05314032153896,
+  "s_impact": 417.16509627557537,
+  "s_consistency": 206.0225460614063,
+  "rank_score": 300.8,
+  "rank": 118
+}

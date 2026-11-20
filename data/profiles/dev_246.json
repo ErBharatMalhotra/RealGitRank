@@ -1,0 +1,16 @@
+{
+  "username": "dev_246",
+  "country": "Japan",
+  "primary_language": "C++",
+  "total_pushes": 303,
+  "merged_prs": 34,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 517.9705313289911,
+  "s_quality": 58.46773422258918,
+  "s_impact": 472.63471168200135,
+  "s_consistency": 140.11012462063962,
+  "rank_score": 335.1,
+  "rank": 18
+}

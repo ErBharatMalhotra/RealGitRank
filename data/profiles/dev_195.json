@@ -1,0 +1,16 @@
+{
+  "username": "dev_195",
+  "country": "United Kingdom",
+  "primary_language": "Python",
+  "total_pushes": 984,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 149.71234353821296,
+  "s_quality": 55.70439064361893,
+  "s_impact": 334.51551345404096,
+  "s_consistency": 215.21264131965262,
+  "rank_score": 0.0,
+  "rank": 289
+}

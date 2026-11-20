@@ -1,0 +1,16 @@
+{
+  "username": "dev_117",
+  "country": "Canada",
+  "primary_language": "JavaScript",
+  "total_pushes": 158,
+  "merged_prs": 32,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 475.1469886198553,
+  "s_quality": 61.40366529731359,
+  "s_impact": 511.4229618806721,
+  "s_consistency": 196.90866907616868,
+  "rank_score": 339.0,
+  "rank": 10
+}

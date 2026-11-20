@@ -1,0 +1,71 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+export function getStaticPaths() {
+  const dataDir = path.resolve(process.cwd(), '..', 'data', 'profiles');
+  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
+  return files.map(f => {
+    const u = f.replace('.json', '');
+    const data = JSON.parse(fs.readFileSync(path.join(dataDir, f), 'utf-8'));
+    return { params: { username: u }, props: { data } };
+  });
+}
+const { username } = Astro.params;
+const { data } = Astro.props;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{username} — RealGitRank</title>
+    <meta name="description" content={`RealGitRank profile for ${username}: score ${data.rank_score}, rank #${data.rank}.`} />
+    <meta property="og:title" content={`${username} — RealGitRank`} />
+    <meta property="og:image" content={`https://realgitrank.bharatdn.com/badges/${username}.svg`} />
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: #0f172a; color: #e2e8f0; }
+      h1 { background: linear-gradient(90deg,#60a5fa,#34d399); -webkit-background-clip: text; background-clip: text; color: transparent; }
+      .card { background: #1e293b; border-radius: 12px; padding: 20px; margin: 16px 0; }
+      .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .stat { background: #0f172a; padding: 12px; border-radius: 8px; }
+      .label { color: #94a3b8; font-size: 12px; text-transform: uppercase; }
+      .val { font-size: 24px; font-weight: 700; color: #34d399; }
+      .bar { height: 8px; background: #334155; border-radius: 4px; overflow: hidden; margin-top: 4px; }
+      .bar > div { height: 100%; background: linear-gradient(90deg,#60a5fa,#34d399); }
+      a { color: #60a5fa; }
+      img.badge { margin: 12px 0; }
+    </style>
+  </head>
+  <body>
+    <a href="/">← Back to leaderboard</a>
+    <h1>{username}</h1>
+    <p>{data.is_human_verified ? '✓ Verified Human Engineer' : (data.is_bot_classified ? '🤖 Classified as bot' : 'Developer')}</p>
+    <img class="badge" src={`/badges/${username}.svg`} alt="badge" width="200" height="60" />
+    <div class="card">
+      <div class="grid">
+        <div class="stat"><div class="label">Rank Score</div><div class="val">{data.rank_score}</div></div>
+        <div class="stat"><div class="label">Global Rank</div><div class="val">#{data.rank}</div></div>
+        <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">{data.country}</div></div>
+        <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">{data.primary_language}</div></div>
+        <div class="stat"><div class="label">Merged PRs</div><div class="val">{data.merged_prs}</div></div>
+        <div class="stat"><div class="label">Bot Penalty</div><div class="val">{data.bot_penalty.toFixed(2)}</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Pillar Breakdown</h3>
+      {[
+        ['Delivery (PRs)', data.s_pr, 0.35],
+        ['Code Health', data.s_quality, 0.25],
+        ['Adoption (Impact)', data.s_impact, 0.25],
+        ['Consistency (Cadence)', data.s_consistency, 0.15],
+      ].map(([name, val, w]) => (
+        <div style="margin:8px 0">
+          <div style="display:flex;justify-content:space-between;font-size:13px"><span>{name} (×{w})</span><span>{val.toFixed(1)}</span></div>
+          <div class="bar"><div style={`width:${Math.min(100, val/3)}%`}></div></div>
+        </div>
+      ))}
+    </div>
+    <div class="card">
+      <h3>README Badge</h3>
+      <pre style="background:#0f172a;padding:10px;border-radius:6px;overflow:auto;font-size:12px">[![RealGitRank](https://realgitrank.bharatdn.com/badges/{username}.svg)](https://realgitrank.bharatdn.com/profile/{username})</pre>
+    </div>
+  </body>
+</html>

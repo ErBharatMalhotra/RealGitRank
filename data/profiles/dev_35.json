@@ -1,0 +1,16 @@
+{
+  "username": "dev_35",
+  "country": "India",
+  "primary_language": "Python",
+  "total_pushes": 916,
+  "merged_prs": 5,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 308.4539480683386,
+  "s_quality": 22.746021983575638,
+  "s_impact": 279.0159772047739,
+  "s_consistency": 148.46258798303563,
+  "rank_score": 0.0,
+  "rank": 259
+}

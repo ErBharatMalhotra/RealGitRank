@@ -1,0 +1,16 @@
+{
+  "username": "dev_223",
+  "country": "Brazil",
+  "primary_language": "Java",
+  "total_pushes": 927,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 186.44189858183867,
+  "s_quality": 22.746021983575638,
+  "s_impact": 269.5610655973334,
+  "s_consistency": 216.51141563981565,
+  "rank_score": 0.0,
+  "rank": 277
+}

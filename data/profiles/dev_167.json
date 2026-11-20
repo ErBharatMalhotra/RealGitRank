@@ -1,0 +1,16 @@
+{
+  "username": "dev_167",
+  "country": "India",
+  "primary_language": "Kotlin",
+  "total_pushes": 433,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 248.25422976508534,
+  "s_quality": 34.90997522682057,
+  "s_impact": 241.64258125855218,
+  "s_consistency": 177.85192122814158,
+  "rank_score": 0.0,
+  "rank": 270
+}

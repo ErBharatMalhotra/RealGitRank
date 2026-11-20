@@ -1,0 +1,16 @@
+{
+  "username": "dev_262",
+  "country": "France",
+  "primary_language": "Go",
+  "total_pushes": 354,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 280.587441358954,
+  "s_quality": 55.70439064361893,
+  "s_impact": 337.521672675271,
+  "s_consistency": 229.92461496954962,
+  "rank_score": 0.0,
+  "rank": 273
+}
