@@ -4,10 +4,19 @@ import leaderboard from '../../../data/leaderboard.json';
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>RealGitRank — Engineering Impact Leaderboard</title>
-    <meta name="description" content="Commit count measures typing speed. RealGitRank measures engineering impact. Anti-bot GitHub developer ranking." />
+    <meta name="description" content="Commit count measures typing speed. RealGitRank measures engineering impact. Anti-bot GitHub developer ranking with merged PR validation." />
+    <link rel="canonical" href="https://realgitrank.bharatdn.com/" />
     <meta property="og:title" content="RealGitRank — Engineering Impact Leaderboard" />
     <meta property="og:description" content="Commit count measures typing speed. RealGitRank measures engineering impact." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://realgitrank.bharatdn.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="sitemap" href="/sitemap.xml" />
+    <script type="application/ld+json">
+      {JSON.stringify({"@context":"https://schema.org","@type":"WebSite","name":"RealGitRank","url":"https://realgitrank.bharatdn.com/","description":"Anti-bot GitHub developer ranking engine"})}
+    </script>
     <style>
       body { font-family: system-ui, sans-serif; max-width: 1100px; margin: 0 auto; padding: 20px; background: #0f172a; color: #e2e8f0; }
       h1 { font-size: 2.2rem; margin: 0; background: linear-gradient(90deg,#60a5fa,#34d399); -webkit-background-clip: text; background-clip: text; color: transparent; }
@@ -22,6 +31,8 @@ import leaderboard from '../../../data/leaderboard.json';
       .verified { color: #fbbf24; }
       .bot { color: #f87171; font-size: 11px; }
       .badge { height: 24px; vertical-align: middle; }
+      :focus-visible { outline: 2px solid #60a5fa; outline-offset: 2px; }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
     </style>
   </head>
   <body>

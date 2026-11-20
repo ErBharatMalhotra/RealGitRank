@@ -16,10 +16,16 @@ const { data } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{username} — RealGitRank</title>
     <meta name="description" content={`RealGitRank profile for ${username}: score ${data.rank_score}, rank #${data.rank}.`} />
+    <link rel="canonical" href={`https://realgitrank.bharatdn.com/profile/${username}`} />
     <meta property="og:title" content={`${username} — RealGitRank`} />
+    <meta property="og:description" content={`RealGitRank score ${data.rank_score}, rank #${data.rank}`} />
     <meta property="og:image" content={`https://realgitrank.bharatdn.com/badges/${username}.svg`} />
+    <meta property="og:type" content="profile" />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"Person","name":username,"url":`https://realgitrank.bharatdn.com/profile/${username}`})} />
     <style>
       body { font-family: system-ui, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: #0f172a; color: #e2e8f0; }
       h1 { background: linear-gradient(90deg,#60a5fa,#34d399); -webkit-background-clip: text; background-clip: text; color: transparent; }
@@ -31,6 +37,8 @@ const { data } = Astro.props;
       .bar { height: 8px; background: #334155; border-radius: 4px; overflow: hidden; margin-top: 4px; }
       .bar > div { height: 100%; background: linear-gradient(90deg,#60a5fa,#34d399); }
       a { color: #60a5fa; }
+      :focus-visible { outline: 2px solid #60a5fa; outline-offset: 2px; }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
       img.badge { margin: 12px 0; }
     </style>
   </head>
