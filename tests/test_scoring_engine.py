@@ -128,6 +128,23 @@ def test_pr_only_user_is_not_penalized_for_entropy(tmp_path):
     assert out["rank_score"] > 0
 
 
+def test_profile_metrics_pass_through(tmp_path):
+    """The profile page reads these, so they must survive scoring (None when unknown)."""
+    r = row(active_repos_touched=6, pr_reviews=3, issue_comments=2, releases=1,
+            stars_fraud_filtered=11, forks_fraud_filtered=4)
+    out = score(tmp_path, [r])[0]
+    assert out["active_repos_touched"] == 6
+    assert out["pr_reviews"] == 3
+    assert out["issue_comments"] == 2
+    assert out["releases"] == 1
+    assert out["stars_fraud_filtered"] == 11
+    assert out["forks_fraud_filtered"] == 4
+    assert out["test_file_ratio"] == pytest.approx(0.2)
+
+    unknown = score(tmp_path, [row(avg_files_changed=float("nan"))])[0]
+    assert unknown["avg_files_changed"] is None
+
+
 def test_scores_bounded_and_ranked(tmp_path):
     rows = [
         row(username="a", merged_prs_external_weighted=40.0, stars_fraud_filtered=500),

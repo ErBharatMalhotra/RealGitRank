@@ -101,9 +101,24 @@ def compute_rank_scores(parquet_file_path):
     countries = data.get("country", [""] * n)
     languages = data.get("primary_language", ["Unknown"] * n)
 
+    def passthrough(col, default=0):
+        """Raw per-user metrics the profile page shows (never scored, just carried)."""
+        arr = _float_col(data, col, n)
+        if arr is None:
+            return [default] * n
+        return [default if np.isnan(v) else int(v) for v in arr]
+
+    extra = {col: passthrough(col) for col in (
+        "active_repos_touched", "pr_reviews", "issue_comments", "releases",
+        "stars_fraud_filtered", "forks_fraud_filtered", "active_shipping_weeks",
+    )}
+    known_files = _float_col(data, "avg_files_changed", n) if avg_files is not None else None
+    known_test_ratio = _float_col(data, "test_file_ratio", n)
+    known_multi_file = _float_col(data, "multi_file_commit_ratio", n)
+
     result = []
     for i in range(n):
-        result.append({
+        entry = {
             "username": str(usernames[i] or ""),
             "country": str(countries[i] or ""),
             "primary_language": str(languages[i] or "Unknown"),
@@ -117,7 +132,18 @@ def compute_rank_scores(parquet_file_path):
             "s_impact": round(float(s_impact[i]), 2),
             "s_consistency": round(float(s_consistency[i]), 2),
             "rank_score": round(float(rank_score[i]), 1),
-        })
+        }
+        for col, values in extra.items():
+            entry[col] = values[i]
+        # NaN-safe: unknown quality metrics are reported as null, never as invented numbers
+        for key, arr in (
+            ("avg_files_changed", known_files),
+            ("test_file_ratio", known_test_ratio),
+            ("multi_file_commit_ratio", known_multi_file),
+        ):
+            value = None if arr is None else arr[i]
+            entry[key] = None if value is None or np.isnan(value) else round(float(value), 3)
+        result.append(entry)
 
     result.sort(key=lambda x: (x["rank_score"], x["merged_prs"]), reverse=True)
     for idx, r in enumerate(result, 1):

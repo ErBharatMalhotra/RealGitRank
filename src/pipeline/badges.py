@@ -38,9 +38,11 @@ def badge_svg(username, score=None, rank=None, verified=False, unranked=False):
     if verified and not unranked:
         seal = f'<g transform="translate(188,12)"><circle r="8" fill="#fbbf24"/><text y="4" text-anchor="middle" font-size="11" font-weight="900" fill="#78350f">✓</text></g>'
 
-    rank_badge = ""
+    # Rank lives on the left caption line: the old overlay sat on top of the score box.
+    sub_label = "" if unranked else ("verified human" if verified else "impact index")
     if not unranked and rank:
-        rank_badge = f'<text x="188" y="42" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" opacity="0.9">{rank_text}</text><text x="188" y="52" text-anchor="middle" font-size="7" fill="#ffffff" opacity="0.7">rank</text>'
+        sub_label = f"{sub_label} · {rank_text}"
+    rank_badge = ""
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="220" height="64" viewBox="0 0 220 64">
   <defs>
@@ -54,7 +56,7 @@ def badge_svg(username, score=None, rank=None, verified=False, unranked=False):
   <!-- Left: brand + username -->
   <text x="14" y="18" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" fill="#ffffff" opacity="0.75" letter-spacing="1">REALGITRANK</text>
   <text x="14" y="40" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="800" fill="#ffffff">{esc(sub)}</text>
-  <text x="14" y="56" font-family="Segoe UI,Arial,sans-serif" font-size="9" fill="#ffffff" opacity="0.7">{esc("verified human" if (verified and not unranked) else ("impact index" if not unranked else ""))}</text>
+  <text x="14" y="56" font-family="Segoe UI,Arial,sans-serif" font-size="9" fill="#ffffff" opacity="0.7">{esc(sub_label)}</text>
   <!-- Right: score -->
   <rect x="150" y="8" width="58" height="48" rx="6" fill="#ffffff" opacity="0.12"/>
   <text x="179" y="34" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="900" fill="#ffffff">{esc(value)}</text>

@@ -169,21 +169,25 @@ with open("data/leaderboard.json", "w") as f:
     json.dump(lb, f, indent=2)
 
 # Save per-user profiles ONLY for top 1000 globally (hybrid scalability)
+# Profiles are written from the MERGED leaderboard so the rank/score on a profile page
+# always matches the leaderboard row, with today's metrics and enrichment merged in.
+scored_by_name = {r["username"]: r for r in scored}
 os.makedirs("data/profiles", exist_ok=True)
-for r in scored[:1000]:
-    # Merge with existing profile if present
-    prof_path = f"data/profiles/{r['username']}.json"
+for u in lb[:1000]:
+    prof = dict(scored_by_name.get(u["username"], {}))
+    prof.update({"username": u["username"], "rank": u["rank"], "rank_score": u["rank_score"]})
+    for key in ("country", "primary_language", "avatar_url", "bio", "company"):
+        prof[key] = prof.get(key) or u.get(key, "")
+    prof_path = f"data/profiles/{u['username']}.json"
     if os.path.exists(prof_path):
         try:
             old_prof = json.load(open(prof_path))
-            r["avatar_url"] = old_prof.get("avatar_url", r.get("avatar_url", ""))
-            r["bio"] = old_prof.get("bio", r.get("bio", ""))
-            r["company"] = old_prof.get("company", r.get("company", ""))
-            r["country"] = old_prof.get("country", r.get("country", ""))
+            for key in ("avatar_url", "bio", "company", "country"):
+                prof[key] = prof.get(key) or old_prof.get(key, "")
         except Exception:
             pass
     with open(prof_path, "w") as f:
-        json.dump(r, f, indent=2)
+        json.dump(prof, f, indent=2)
 
 print(f"Accumulated: {len(lb)} total users ({len(scored)} new/updated today). Top: {lb[0]['username']} ({lb[0]['rank_score']})")
 
