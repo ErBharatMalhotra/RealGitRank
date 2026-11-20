@@ -43,8 +43,6 @@ const { data } = Astro.props;
       pre { background: var(--bg); padding: 10px; border-radius: 6px; overflow: auto; font-size: 12px; border: 1px solid var(--line); }
       :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
-      :focus-visible { outline: 2px solid #60a5fa; outline-offset: 2px; }
-      @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
       img.badge { margin: 12px 0; }
     </style>
   </head>
@@ -60,12 +58,19 @@ const { data } = Astro.props;
       <div class="grid">
         <div class="stat"><div class="label">Rank Score</div><div class="val">{data.rank_score}</div></div>
         <div class="stat"><div class="label">Global Rank</div><div class="val">#{data.rank}</div></div>
-        <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">{data.country}</div></div>
-        <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">{data.primary_language}</div></div>
+        <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">{data.country || '—'}</div></div>
+        <div class="stat"><div class="label">Company</div><div class="val" style="font-size:14px">{data.company || '—'}</div></div>
         <div class="stat"><div class="label">Merged PRs</div><div class="val">{data.merged_prs}</div></div>
+        <div class="stat"><div class="label">PR Reviews</div><div class="val">{data.pr_reviews || 0}</div></div>
+        <div class="stat"><div class="label">Issue Comments</div><div class="val">{data.issue_comments || 0}</div></div>
+        <div class="stat"><div class="label">Releases</div><div class="val">{data.releases || 0}</div></div>
+        <div class="stat"><div class="label">Stars Received</div><div class="val">{data.stars_fraud_filtered || 0}</div></div>
+        <div class="stat"><div class="label">Forks Received</div><div class="val">{data.forks_fraud_filtered || 0}</div></div>
+        <div class="stat"><div class="label">Active Repos</div><div class="val">{data.active_repos_touched || 0}</div></div>
         <div class="stat"><div class="label">Bot Penalty</div><div class="val">{data.bot_penalty.toFixed(2)}</div></div>
       </div>
     </div>
+    {data.bio && <div class="card"><h3>Bio</h3><p style="color:var(--ink);margin:0">{data.bio}</p></div>}
     <div class="card">
       <h3>Pillar Breakdown</h3>
       {[
