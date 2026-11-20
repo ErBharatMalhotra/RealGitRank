@@ -8,9 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
-  "rank": 274
+  "rank": 274,
+  "avatar_url": "https://avatars.githubusercontent.com/u/39422752?u=0b1c00791ef1bbe9865a58a1a213449ef2409e5f&v=4",
+  "bio": "Structural Engineer",
+  "company": "UANDES",
+  "location": "Chile"
 }

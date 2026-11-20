@@ -1,6 +1,6 @@
 {
   "username": "wickidcow",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 941
+  "rank": 941,
+  "avatar_url": "https://avatars.githubusercontent.com/u/185013218?u=0d7cd6f357fcfb1b9ed80e05a929fb6aec811738&v=4",
+  "bio": "I started these repositories while working on and maintaining my own Minecraft Java server, **AlbionMC.com**",
+  "company": "Albion",
+  "location": "Maine, USA"
 }

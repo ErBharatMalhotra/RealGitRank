@@ -1,6 +1,6 @@
 {
   "username": "lmmx",
-  "country": "",
+  "country": "United Kingdom",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 892
+  "rank": 892,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2979452?u=050bb4b939d867ba93f351872dafc169df07bd0c&v=4",
+  "bio": "",
+  "company": "",
+  "location": "London"
 }

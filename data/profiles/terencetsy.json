@@ -1,6 +1,6 @@
 {
   "username": "terencetsy",
-  "country": "",
+  "country": "Singapore",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 990
+  "rank": 990,
+  "avatar_url": "https://avatars.githubusercontent.com/u/107403461?v=4",
+  "bio": "I'm a noob and I love vibe-coding.",
+  "company": "",
+  "location": "Singapore"
 }

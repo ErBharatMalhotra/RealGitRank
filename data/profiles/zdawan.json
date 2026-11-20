@@ -1,6 +1,6 @@
 {
   "username": "zdawan",
-  "country": "",
+  "country": "India",
   "primary_language": "Unknown",
   "total_pushes": 3,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 511
+  "rank": 511,
+  "avatar_url": "https://avatars.githubusercontent.com/u/116941441?u=28be6539f81144e8319e19932d83a80b8bef1368&v=4",
+  "bio": "I'm a passionate Web Developer and UI/UX Designer and Freelancer with a knack for creating visually stunning and highly functional digital experiences.\r\n",
+  "company": "Personal",
+  "location": "India"
 }

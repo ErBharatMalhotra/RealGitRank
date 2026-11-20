@@ -1,6 +1,6 @@
 {
   "username": "SuperTost100",
-  "country": "",
+  "country": "Italy",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
-  "rank": 111
+  "rank": 111,
+  "avatar_url": "https://avatars.githubusercontent.com/u/81415735?u=05e9e52f3ad403aba1160c38f6d6de1b737b716e&v=4",
+  "bio": "Building PoliTost: interactive textbooks and study tools for students.",
+  "company": "",
+  "location": "Italy"
 }

@@ -1,6 +1,6 @@
 {
   "username": "devswha",
-  "country": "",
+  "country": "South Korea",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 27.725887222397812,
   "s_consistency": 44.657359027997266,
   "rank_score": 21.5,
-  "rank": 63
+  "rank": 63,
+  "avatar_url": "https://avatars.githubusercontent.com/u/25837994?u=67316ed7691d5083d4a47f7b0eae6e36366693f6&v=4",
+  "bio": "AI engineer building open-source tools for agents and developer workflows. Medical AI, computer vision & edge deployment. ",
+  "company": "",
+  "location": "Korea"
 }

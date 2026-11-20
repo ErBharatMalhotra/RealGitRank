@@ -1,6 +1,6 @@
 {
   "username": "dinilmusick",
-  "country": "",
+  "country": "India",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
-  "rank": 128
+  "rank": 128,
+  "avatar_url": "https://avatars.githubusercontent.com/u/155351357?u=e136e6ddeb80cdfb98c766b7647cc1bb5f5e6b50&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Pune,India"
 }

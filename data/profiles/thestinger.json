@@ -1,6 +1,6 @@
 {
   "username": "thestinger",
-  "country": "",
+  "country": "Canada",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
-  "rank": 106
+  "rank": 106,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1505226?u=0edff17ad0c4acebbd8660dc1854229d526a6dc4&v=4",
+  "bio": "Security researcher/engineer working on mobile privacy/security. Founder of @GrapheneOS.",
+  "company": "@GrapheneOS",
+  "location": "Toronto, Ontario, Canada"
 }

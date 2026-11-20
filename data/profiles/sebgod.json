@@ -1,6 +1,6 @@
 {
   "username": "sebgod",
-  "country": "",
+  "country": "Australia",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
-  "rank": 114
+  "rank": 114,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2624915?u=af5f9e95bba4d3ebe217114e8a14da4429f346b9&v=4",
+  "bio": "",
+  "company": "@DrawboardLtd",
+  "location": "Melbourne, VIC"
 }

@@ -1,6 +1,6 @@
 {
   "username": "pateljay43",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 839
+  "rank": 839,
+  "avatar_url": "https://avatars.githubusercontent.com/u/9069896?u=5dce5a20555bce2ae3e27ea3fa41be019275eded&v=4",
+  "bio": "Software Engineer",
+  "company": "UiPath",
+  "location": "New York"
 }

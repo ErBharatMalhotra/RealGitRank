@@ -1,6 +1,6 @@
 {
   "username": "schillgc",
-  "country": "",
+  "country": "India",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
-  "rank": 99
+  "rank": 99,
+  "avatar_url": "https://avatars.githubusercontent.com/u/17742042?u=6a20f1d69e2b0314ab1335e0d83f3d7fdb081f24&v=4",
+  "bio": "CBRE @Meta | Founder @SchillingEnterprises | @GavinAtLilly Former Solutions Architect @EliLillyCo | Mentor @CodeLouisville | @Harvard, Eckerd & Bellarmine alum",
+  "company": "@SchillingEnterprises ",
+  "location": "Indian Hills, Kentucky"
 }

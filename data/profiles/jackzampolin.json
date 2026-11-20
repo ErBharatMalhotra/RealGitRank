@@ -1,6 +1,6 @@
 {
   "username": "jackzampolin",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 979
+  "rank": 979,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7452680?u=4590bfcda0937f265e84c8e3a620bf9ef9157a81&v=4",
+  "bio": "",
+  "company": "@sourcenetwork ",
+  "location": "SLO, CA, USA"
 }

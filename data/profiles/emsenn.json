@@ -1,6 +1,6 @@
 {
   "username": "emsenn",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 4,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 21.4,
-  "rank": 68
+  "rank": 68,
+  "avatar_url": "https://avatars.githubusercontent.com/u/111507?u=50ba29337304c3b86a07b1334d7004de895c2964&v=4",
+  "bio": "land back, water back, medicine back, ceremony back\r\n\r\nLakota theorist and researcher",
+  "company": "",
+  "location": "Gitchigumee, Minnesota, USA"
 }

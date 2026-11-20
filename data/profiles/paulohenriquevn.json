@@ -1,6 +1,6 @@
 {
   "username": "paulohenriquevn",
-  "country": "",
+  "country": "Brazil",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 864
+  "rank": 864,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6766298?u=56474f8eb1adf18c0aadb7ac04b918e1fe77b2e0&v=4",
+  "bio": "AI & Agent Engineer. Building theokit, a full-stack TypeScript framework for AI agents. Speech & NLP: real-time PT-BR ASR on CPU.",
+  "company": "",
+  "location": "Bom Sucesso, Brazil"
 }

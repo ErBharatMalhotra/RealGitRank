@@ -1,6 +1,6 @@
 {
   "username": "MaxHalford",
-  "country": "",
+  "country": "France",
   "primary_language": "Unknown",
   "total_pushes": 39,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 113.97207708399179,
   "rank_score": 24.9,
-  "rank": 13
+  "rank": 13,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8095957?v=4",
+  "bio": "Previously @carbonfact @alan-eu @hellofresh",
+  "company": "@turbopuffer",
+  "location": "Landes, France"
 }

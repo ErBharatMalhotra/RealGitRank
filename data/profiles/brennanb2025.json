@@ -1,6 +1,6 @@
 {
   "username": "brennanb2025",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 868
+  "rank": 868,
+  "avatar_url": "https://avatars.githubusercontent.com/u/79079362?u=808dae4bedcf35a7d077fb48abe125b0f7aac3e2&v=4",
+  "bio": "NU alum - CS, Data Science + Engineering",
+  "company": "@stablyai",
+  "location": "San Francisco, CA"
 }

@@ -1,6 +1,6 @@
 {
   "username": "danbri",
-  "country": "",
+  "country": "United Kingdom",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 602
+  "rank": 602,
+  "avatar_url": "https://avatars.githubusercontent.com/u/170265?u=013152c09824833dde7e5e80496818fc30bd037a&v=4",
+  "bio": "Data standards engineering",
+  "company": "",
+  "location": "London"
 }

@@ -1,6 +1,6 @@
 {
   "username": "eskandari-reza",
-  "country": "",
+  "country": "Turkey",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 993
+  "rank": 993,
+  "avatar_url": "https://avatars.githubusercontent.com/u/280233480?u=419a9034a4c1d4d432b47eef768a7aacd5f2c233&v=4",
+  "bio": "",
+  "company": "Freelancer",
+  "location": "Istanbul"
 }

@@ -1,6 +1,6 @@
 {
   "username": "rubentalstra",
-  "country": "",
+  "country": "Netherlands",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
-  "rank": 119
+  "rank": 119,
+  "avatar_url": "https://avatars.githubusercontent.com/u/14235001?u=ed70680705490da1c0590797603121dd6bf7ae10&v=4",
+  "bio": "I\u2019m a full stack web front/back-end and  mobile app developer. \u2764\ufe0f ",
+  "company": "@vernum-projecten",
+  "location": "The Netherlands"
 }

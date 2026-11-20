@@ -1,6 +1,6 @@
 {
   "username": "sunsided",
-  "country": "",
+  "country": "Germany",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 22.8,
-  "rank": 41
+  "rank": 41,
+  "avatar_url": "https://avatars.githubusercontent.com/u/495335?u=4b70d1d8eff5387edcd49e351de9d912d5760672&v=4",
+  "bio": "Try all the things! \u2014 Head of Engineering Digital Health at MEDIAN Group",
+  "company": "@median-kliniken ",
+  "location": "Berlin"
 }

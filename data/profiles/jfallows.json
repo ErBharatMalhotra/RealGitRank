@@ -1,6 +1,6 @@
 {
   "username": "jfallows",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 844
+  "rank": 844,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2099911?u=bb189f46a041d4af82c4b1f5194cd5c0d1972aa3&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Palo Alto, CA, USA"
 }

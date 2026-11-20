@@ -1,6 +1,6 @@
 {
   "username": "flick9000",
-  "country": "",
+  "country": "Italy",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 27.725887222397812,
   "s_consistency": 44.657359027997266,
   "rank_score": 21.5,
-  "rank": 65
+  "rank": 65,
+  "avatar_url": "https://avatars.githubusercontent.com/u/137506210?u=2804bd0a4c37f59aeab7497db13fb8a39b44584e&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Italy"
 }

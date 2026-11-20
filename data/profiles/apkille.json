@@ -1,6 +1,6 @@
 {
   "username": "apkille",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 651
+  "rank": 651,
+  "avatar_url": "https://avatars.githubusercontent.com/u/68079167?u=3249414f8a2e48f20dcfd2c0af358533bf68a032&v=4",
+  "bio": "",
+  "company": "NYU and Flatiron Institute",
+  "location": "New York, NY"
 }

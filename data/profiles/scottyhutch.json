@@ -8,9 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
-  "rank": 367
+  "rank": 367,
+  "avatar_url": "https://avatars.githubusercontent.com/u/228910354?u=13549b4959d6a1bb19a1704b94f57321915e2edc&v=4",
+  "bio": "",
+  "company": "",
+  "location": "England"
 }

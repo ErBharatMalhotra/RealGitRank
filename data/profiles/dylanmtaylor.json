@@ -1,6 +1,6 @@
 {
   "username": "dylanmtaylor",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 21.4,
-  "rank": 72
+  "rank": 72,
+  "avatar_url": "https://avatars.githubusercontent.com/u/277927?u=0b128586eff77f70bc30658e7f14a2ea63038b64&v=4",
+  "bio": "I consider myself a technology enthusiast, and I have been interested in coding from a very young age. I find that it's always exciting to work on new projects.",
+  "company": "",
+  "location": "Durham, North Carolina, USA"
 }

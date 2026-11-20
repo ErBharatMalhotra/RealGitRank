@@ -1,6 +1,6 @@
 {
   "username": "niclaslindstedt",
-  "country": "",
+  "country": "Sweden",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 859
+  "rank": 859,
+  "avatar_url": "https://avatars.githubusercontent.com/u/615926?u=a51134f5d471007cc0f0960ae7f429d765237b1f&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Stockholm"
 }

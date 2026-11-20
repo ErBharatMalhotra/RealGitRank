@@ -1,6 +1,6 @@
 {
   "username": "josephfarina",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 855
+  "rank": 855,
+  "avatar_url": "https://avatars.githubusercontent.com/u/17398284?u=e0ba85612a524c8705e5193b698c8501b0477edb&v=4",
+  "bio": "Working on Astryx at @facebook ",
+  "company": "Meta",
+  "location": "Los Angeles, CA"
 }

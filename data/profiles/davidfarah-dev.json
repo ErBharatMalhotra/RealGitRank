@@ -1,6 +1,6 @@
 {
   "username": "davidfarah-dev",
-  "country": "",
+  "country": "Switzerland",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 835
+  "rank": 835,
+  "avatar_url": "https://avatars.githubusercontent.com/u/37240868?u=f503be369bd028ca211e57edd53c0828022835c9&v=4",
+  "bio": "MSc CS at ETHZ ",
+  "company": "",
+  "location": "Zurich"
 }

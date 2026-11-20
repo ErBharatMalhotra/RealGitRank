@@ -8,9 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
-  "rank": 410
+  "rank": 410,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6755525?u=86e66d2c4a186f10dda9ce9c048f05825367e803&v=4",
+  "bio": "Entrepreneur | Software Developer | Open for New Projects (C++, Clojure, Perl, Javascript, React, Embedded Systems, AI, Machine Learning)",
+  "company": "T:mi Mikael Rekola / Optifluence Oy",
+  "location": "Vantaa"
 }

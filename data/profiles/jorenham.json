@@ -1,6 +1,6 @@
 {
   "username": "jorenham",
-  "country": "",
+  "country": "Netherlands",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 857
+  "rank": 857,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6208662?u=f5b6702cd80c1cd85d9a9cdc84fee65bedae24ca&v=4",
+  "bio": "Python typing council member, NumPy maintainer, and author of scipy-stubs, optype, Lmo, xsf-rust, and many other projects",
+  "company": "",
+  "location": "Delft, the Netherlands"
 }

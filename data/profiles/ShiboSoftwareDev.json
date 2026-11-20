@@ -8,9 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
-  "rank": 382
+  "rank": 382,
+  "avatar_url": "https://avatars.githubusercontent.com/u/144173452?u=ebfc5da8956900e1e93c1d2a98c4b81a648775f0&v=4",
+  "bio": "An MSVCP140.dll file is missing",
+  "company": "",
+  "location": ""
 }

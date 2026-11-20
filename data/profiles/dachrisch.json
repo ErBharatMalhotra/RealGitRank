@@ -1,6 +1,6 @@
 {
   "username": "dachrisch",
-  "country": "",
+  "country": "Germany",
   "primary_language": "Unknown",
   "total_pushes": 3,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 21.4,
-  "rank": 69
+  "rank": 69,
+  "avatar_url": "https://avatars.githubusercontent.com/u/763505?v=4",
+  "bio": "",
+  "company": "bumbleflies",
+  "location": "Munich"
 }

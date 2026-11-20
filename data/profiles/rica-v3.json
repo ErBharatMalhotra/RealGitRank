@@ -1,6 +1,6 @@
 {
   "username": "rica-v3",
-  "country": "",
+  "country": "South Korea",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 994
+  "rank": 994,
+  "avatar_url": "https://avatars.githubusercontent.com/u/17154202?u=90ec0aa5f468e3afa6d9ca1ce42a28533cea1152&v=4",
+  "bio": "\uac1c\ubc1c\uc790",
+  "company": "",
+  "location": "Korea"
 }

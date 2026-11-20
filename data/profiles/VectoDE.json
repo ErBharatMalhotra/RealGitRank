@@ -1,6 +1,6 @@
 {
   "username": "VectoDE",
-  "country": "",
+  "country": "Germany",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 21.4,
-  "rank": 85
+  "rank": 85,
+  "avatar_url": "https://avatars.githubusercontent.com/u/157636760?u=5e2b7186c5425492948fee81405d367e79b1634f&v=4",
+  "bio": "Founder of UplyTech \u00b7 Full-Stack Developer \u00b7 Softwareentwickler \u00b7 KI & Automatisierung \u00b7 Creator of different SaaS",
+  "company": "@UplyTech ",
+  "location": "Germany"
 }

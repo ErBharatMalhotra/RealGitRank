@@ -1,6 +1,6 @@
 {
   "username": "yeahjack",
-  "country": "",
+  "country": "China",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 674
+  "rank": 674,
+  "avatar_url": "https://avatars.githubusercontent.com/u/48432972?u=29206918ce03f92443611940d43ad23617409a56&v=4",
+  "bio": "Ph.D. student in Artificial Intelligence",
+  "company": "HKUST",
+  "location": "Guangzhou, China"
 }

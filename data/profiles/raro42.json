@@ -1,6 +1,6 @@
 {
   "username": "raro42",
-  "country": "",
+  "country": "Spain",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 918
+  "rank": 918,
+  "avatar_url": "https://avatars.githubusercontent.com/u/29251049?u=eb086da30c5777ed8c4b8ab9db0cc3a175b5972e&v=4",
+  "bio": "30+ years of experience in IT, Cyberpunk since before the declaration of independence, Cognos star 2006, IBM Champion 2021-2026, www.zeitfenster.de\r\n\r\nLoves OSS",
+  "company": "AMVARA CONSULTING",
+  "location": "El Masnou, Barcelona"
 }

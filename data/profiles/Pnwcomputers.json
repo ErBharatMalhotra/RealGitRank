@@ -1,6 +1,6 @@
 {
   "username": "Pnwcomputers",
-  "country": "",
+  "country": "Canada",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 901
+  "rank": 901,
+  "avatar_url": "https://avatars.githubusercontent.com/u/142192730?u=b18a54dd49835fa71a13e8552d78218a5e8145f3&v=4",
+  "bio": "I run Pacific Northwest Computers, an IT services business in Vancouver, WA serving the SW Washington and Portland metro area. Have 20+ years in the trenches.",
+  "company": "Pacific Northwest Computers",
+  "location": "Vancouver, WA"
 }

@@ -1,6 +1,6 @@
 {
   "username": "rubenvitt",
-  "country": "",
+  "country": "Germany",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -8,9 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
-  "rank": 330
+  "rank": 330,
+  "avatar_url": "https://avatars.githubusercontent.com/u/19268519?u=7ba40292cc8375779aa2f29005d67cdaa1b15c30&v=4",
+  "bio": "Software Products Engineer",
+  "company": "@innoq",
+  "location": "Germany"
 }

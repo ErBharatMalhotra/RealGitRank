@@ -1,6 +1,6 @@
 {
   "username": "elcoosp",
-  "country": "",
+  "country": "France",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 21.4,
-  "rank": 71
+  "rank": 71,
+  "avatar_url": "https://avatars.githubusercontent.com/u/37814441?u=ef2bfa1265c4cb996d8b92b85f723c480b82dade&v=4",
+  "bio": "TypeScript & Rust dev, with a taste for functional programming",
+  "company": "",
+  "location": "Nantes, France"
 }

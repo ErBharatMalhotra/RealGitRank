@@ -1,6 +1,6 @@
 {
   "username": "andre-kuzminykh",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 921
+  "rank": 921,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8148517?u=47e48ae0954292d6ab92a6416a4699a4f697f217&v=4",
+  "bio": "Dataist | AI for Human Good",
+  "company": "Andre AI Technologies",
+  "location": "Cyprus"
 }

@@ -1,6 +1,6 @@
 {
   "username": "darwin67",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 971
+  "rank": 971,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5746693?u=50499f0ee4686c69598609de8788861e8c1a625a&v=4",
+  "bio": "Just another tech guy in the bay area \u00af\\_(\u30c4)_/\u00af\r\n",
+  "company": "@chaba-dev ",
+  "location": "San Francisco Bay Area"
 }

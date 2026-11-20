@@ -1,6 +1,6 @@
 {
   "username": "davesnx",
-  "country": "",
+  "country": "Spain",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
-  "rank": 140
+  "rank": 140,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3763599?u=9642d3d5effd7b98774ed5b13438b411dc21a1dd&v=4",
+  "bio": "Building the tools behind user interfaces @ahrefs",
+  "company": "@ahrefs",
+  "location": "Barcelona"
 }

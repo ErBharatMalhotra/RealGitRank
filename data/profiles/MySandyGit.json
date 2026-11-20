@@ -1,6 +1,6 @@
 {
   "username": "MySandyGit",
-  "country": "",
+  "country": "India",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 937
+  "rank": 937,
+  "avatar_url": "https://avatars.githubusercontent.com/u/198962375?u=43e2d5dd4d488f95fa5adf6bf8274bf58f6882e2&v=4",
+  "bio": "Learn-Build-Show",
+  "company": "",
+  "location": "Chennai"
 }

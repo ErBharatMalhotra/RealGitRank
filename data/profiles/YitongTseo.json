@@ -1,6 +1,6 @@
 {
   "username": "YitongTseo",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 10,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 64.93061443340548,
   "rank_score": 17.6,
-  "rank": 159
+  "rank": 159,
+  "avatar_url": "https://avatars.githubusercontent.com/u/10591852?v=4",
+  "bio": "www.ternalbiota.com\r\n\r\nMIT Computational & Systems Biology PhD Candidate, bio artist ",
+  "company": "MIT",
+  "location": "Boston, MA"
 }

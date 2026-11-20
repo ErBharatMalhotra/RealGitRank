@@ -1,6 +1,6 @@
 {
   "username": "thanhsu263",
-  "country": "",
+  "country": "Vietnam",
   "primary_language": "Unknown",
   "total_pushes": 4,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 466
+  "rank": 466,
+  "avatar_url": "https://avatars.githubusercontent.com/u/208488618?u=b677097e75e80efd6003c8cfd7a686b752e38856&v=4",
+  "bio": "",
+  "company": "FPT University",
+  "location": "Vietnam"
 }

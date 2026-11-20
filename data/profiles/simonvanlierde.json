@@ -1,6 +1,6 @@
 {
   "username": "simonvanlierde",
-  "country": "",
+  "country": "Netherlands",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -8,9 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
-  "rank": 358
+  "rank": 358,
+  "avatar_url": "https://avatars.githubusercontent.com/u/90462640?u=a009339776f13c9d98478d5ac9a586d160a4509f&v=4",
+  "bio": "Research software engineer and PhD candidate at CML, Leiden University. I build open software and data infrastructure for industrial ecology.",
+  "company": "@CMLPlatform",
+  "location": "The Hague, The Netherlands"
 }

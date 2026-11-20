@@ -1,6 +1,6 @@
 {
   "username": "timothybrush",
-  "country": "",
+  "country": "Canada",
   "primary_language": "Unknown",
   "total_pushes": 5,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 22.8,
-  "rank": 22
+  "rank": 22,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8075964?v=4",
+  "bio": "InfoSec and IT Geek, Explorer, Life-long Learner, and Collector of Certifications.",
+  "company": "",
+  "location": "Vancouver Island, Canada"
 }

@@ -1,6 +1,6 @@
 {
   "username": "oss-compass-bot",
-  "country": "",
+  "country": "China",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 612
+  "rank": 612,
+  "avatar_url": "https://avatars.githubusercontent.com/u/115979064?u=b5c0847ed40c9f117cf6fa4437f6697ccb2522df&v=4",
+  "bio": "Bot for OSS Compass",
+  "company": "",
+  "location": "Shenzhen City, Guangdong Province, China"
 }

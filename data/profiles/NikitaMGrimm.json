@@ -1,6 +1,6 @@
 {
   "username": "NikitaMGrimm",
-  "country": "",
+  "country": "Germany",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 605
+  "rank": 605,
+  "avatar_url": "https://avatars.githubusercontent.com/u/65914808?u=d6b059a278f711ae0b9031208feb8da2894f37f5&v=4",
+  "bio": "Did you know that",
+  "company": "",
+  "location": "Germany"
 }

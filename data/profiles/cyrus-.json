@@ -8,9 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
-  "rank": 294
+  "rank": 294,
+  "avatar_url": "https://avatars.githubusercontent.com/u/280638?u=f914d19f3ca1b69d5ed7847ecf78e459e2fadaa1&v=4",
+  "bio": "designing Hazel, a live functional programming environment with typed holes \u2059 prof @ Michigan leading FP Lab \u2059 CMU PhD \u2059 former neurobiologist",
+  "company": "University of Michigan",
+  "location": "Ann Arbor, MI"
 }

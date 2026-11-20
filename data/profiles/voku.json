@@ -1,6 +1,6 @@
 {
   "username": "voku",
-  "country": "",
+  "country": "Germany",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
-  "rank": 103
+  "rank": 103,
+  "avatar_url": "https://avatars.githubusercontent.com/u/264695?u=30e272010528bbb0ada0b74837b0a5f419614922&v=4",
+  "bio": "Developer & Sysadmin | egrep '[#php|#js|#html|#css|#linux]'",
+  "company": "REMONDIS IT Services GmbH",
+  "location": "Voerde, Germany"
 }

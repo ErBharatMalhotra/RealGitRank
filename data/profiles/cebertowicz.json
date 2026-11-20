@@ -1,6 +1,6 @@
 {
   "username": "cebertowicz",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 976
+  "rank": 976,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7285414?u=07ad6abce72bb9dbc63cdc9c9626c8879f3d8c9c&v=4",
+  "bio": "AI Product Leader \u00b7 Developer Platforms, Agent Workflows & Evaluation\r\n\r\nPreviously: Founder@ Infuse.us, R&D @ Alethic Labs & Fuji Xerox Palo Alto Laboratory",
+  "company": "",
+  "location": "San Francisco, CA"
 }

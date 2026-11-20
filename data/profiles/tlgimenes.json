@@ -1,6 +1,6 @@
 {
   "username": "tlgimenes",
-  "country": "",
+  "country": "Brazil",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 956
+  "rank": 956,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1753396?u=5f0c4f7e3562e7d1a156afccdbe6b260ebc49d01&v=4",
+  "bio": "Computer Engineer living at Rio.  Interested in optimization, hobby as A.I. enthusiast.",
+  "company": "@deco-cx ",
+  "location": "Brazil"
 }

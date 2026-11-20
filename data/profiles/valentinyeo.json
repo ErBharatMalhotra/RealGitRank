@@ -1,6 +1,6 @@
 {
   "username": "valentinyeo",
-  "country": "",
+  "country": "United Kingdom",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
-  "rank": 144
+  "rank": 144,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3296316?v=4",
+  "bio": "A/B testing and CRO consultant. Ex-trivago (11 yrs), $30M raised. Founder of Hypertask, Endless Testing and ciao.com. I set up AI agent fleets for teams.",
+  "company": "",
+  "location": "London and Berlin"
 }

@@ -8,9 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
-  "rank": 246
+  "rank": 246,
+  "avatar_url": "https://avatars.githubusercontent.com/u/12723011?u=1482794b9b3024209a8a508ff53619b3f8eb5d28&v=4",
+  "bio": "Interests include distributed systems, AI coding assistance, workflow automation, custom agents, codebase observability, DAGs + LLMs, @awfl-us, @cornerstone-ai",
+  "company": "TopAIgents.com",
+  "location": ""
 }

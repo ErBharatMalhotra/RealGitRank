@@ -1,6 +1,6 @@
 {
   "username": "M-Colley",
-  "country": "",
+  "country": "United Kingdom",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -8,9 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
+  "s_quality": 43.45293923874293,
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 17.6,
-  "rank": 255
+  "rank": 255,
+  "avatar_url": "https://avatars.githubusercontent.com/u/39366189?u=0fd1c77e35b0988f8dbc4e61afbaa7c64e951410&v=4",
+  "bio": "Associate Professor in Human-Computer Interaction.",
+  "company": "UCL",
+  "location": "London, UK"
 }

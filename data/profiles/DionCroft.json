@@ -1,6 +1,6 @@
 {
   "username": "DionCroft",
-  "country": "",
+  "country": "United Kingdom",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 965
+  "rank": 965,
+  "avatar_url": "https://avatars.githubusercontent.com/u/166184864?u=b37de20f51fdcf701d3814b652b130fc8add9328&v=4",
+  "bio": "Dr Dion Miroy Mariyanayagam BEng (Hons) PGCert FHEA PhD MIET CEng\r\nAcademic | Researcher | Electronic Embedded and Bioinspired Systems Engineer",
+  "company": "",
+  "location": "London, UK"
 }

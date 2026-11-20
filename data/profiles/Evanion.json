@@ -1,6 +1,6 @@
 {
   "username": "Evanion",
-  "country": "",
+  "country": "Sweden",
   "primary_language": "Unknown",
   "total_pushes": 2,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 754
+  "rank": 754,
+  "avatar_url": "https://avatars.githubusercontent.com/u/319799?u=cb53d0c987c2febcbb72f6e3a2c3c2736b6fbe15&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Sweden"
 }

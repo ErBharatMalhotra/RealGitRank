@@ -1,6 +1,6 @@
 {
   "username": "anefzaoui",
-  "country": "",
+  "country": "United Arab Emirates",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -8,9 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 0.0,
-  "s_quality": 43.452939238742935,
-  "s_impact": 116.13603032723672,
+  "s_quality": 43.45293923874293,
+  "s_impact": 116.13603032723671,
   "s_consistency": 44.657359027997266,
   "rank_score": 46.6,
-  "rank": 2
+  "rank": 2,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1832078?u=80e4bd9873241148c9d8eb3d0ef0a2e042d2ec51&v=4",
+  "bio": "LLMs, NodeJS, JavaScript, and Wordpress. Previously at Mozilla, Apple.",
+  "company": "ITQAN",
+  "location": "Dubai, UAE"
 }

@@ -1,6 +1,6 @@
 {
   "username": "rostislavrotaru",
-  "country": "",
+  "country": "United States",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 22.8,
-  "rank": 39
+  "rank": 39,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1686283?u=1d19cfe8beef994db685b47d96d2a52af2cefa41&v=4",
+  "bio": "",
+  "company": "",
+  "location": "USA"
 }

@@ -1,6 +1,6 @@
 {
   "username": "aliasunder",
-  "country": "",
+  "country": "Canada",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 14.5,
-  "rank": 944
+  "rank": 944,
+  "avatar_url": "https://avatars.githubusercontent.com/u/32620895?u=8e7d031ad3773682c365e4487aa38644dc19eb03&v=4",
+  "bio": "Software engineer building AI memory systems with Obsidian and AWS. Currently: Vault Cortex, a standalone MCP server for Obsidian vaults. hello@aliasunder.dev",
+  "company": "",
+  "location": "Toronto, Ontario, Canada"
 }

@@ -1,6 +1,6 @@
 {
   "username": "uveshm003",
-  "country": "",
+  "country": "India",
   "primary_language": "Unknown",
   "total_pushes": 1,
   "merged_prs": 0,
@@ -12,5 +12,9 @@
   "s_impact": 0.0,
   "s_consistency": 44.657359027997266,
   "rank_score": 19.7,
-  "rank": 136
+  "rank": 136,
+  "avatar_url": "https://avatars.githubusercontent.com/u/100783342?v=4",
+  "bio": "Software Engineer | Flutter | Android Native",
+  "company": "Halma India PLC",
+  "location": "Ahmedabad, Gujarat, India"
 }
