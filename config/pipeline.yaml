@@ -21,6 +21,8 @@ quality_gates:
   username_null_max_pct: 0
   score_shift_sigma_max: 3
   bot_classification_jump_max_x: 2
+  min_baseline_days: 5      # runs needed before growth/shift gates engage
+  bot_rate_floor: 0.005     # ignore bot-rate noise below this baseline
 
 hosting:
   provider: github_pages
