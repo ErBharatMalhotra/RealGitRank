@@ -18,34 +18,46 @@ import leaderboard from '../../../data/leaderboard.json';
       {JSON.stringify({"@context":"https://schema.org","@type":"WebSite","name":"RealGitRank","url":"https://realgitrank.bharatdn.com/","description":"Anti-bot GitHub developer ranking engine"})}
     </script>
     <style>
-      body { font-family: system-ui, sans-serif; max-width: 1100px; margin: 0 auto; padding: 20px; background: #0f172a; color: #e2e8f0; }
-      h1 { font-size: 2.2rem; margin: 0; background: linear-gradient(90deg,#60a5fa,#34d399); -webkit-background-clip: text; background-clip: text; color: transparent; }
-      .sub { color: #94a3b8; margin-bottom: 20px; }
-      input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #334155; background: #1e293b; color: #e2e8f0; font-size: 16px; margin-bottom: 16px; }
-      table { width: 100%; border-collapse: collapse; }
-      th, td { padding: 10px; text-align: left; border-bottom: 1px solid #1e293b; }
-      th { color: #60a5fa; font-size: 12px; text-transform: uppercase; }
-      tr:hover { background: #1e293b; }
-      a { color: #60a5fa; text-decoration: none; }
-      .score { font-weight: 700; color: #34d399; }
-      .verified { color: #fbbf24; }
+      :root { --bg: #0b0f19; --panel: #131a2b; --ink: #e8ecf4; --muted: #8a93a6; --accent: #f59e0b; --accent-2: #14b8a6; --line: #1f2740; }
+      body { font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; max-width: 1180px; margin: 0 auto; padding: 28px 20px; background: var(--bg); color: var(--ink); line-height: 1.5; }
+      h1 { font-size: 2.6rem; margin: 0 0 4px; letter-spacing: -0.02em; color: var(--ink); }
+      h1 span { color: var(--accent); }
+      .sub { color: var(--muted); margin-bottom: 24px; font-size: 15px; }
+      input { width: 100%; padding: 12px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font-size: 15px; margin-bottom: 18px; font-family: inherit; }
+      input:focus { border-color: var(--accent); outline: none; }
+      table { width: 100%; border-collapse: collapse; font-size: 14px; }
+      th, td { padding: 11px 10px; text-align: left; border-bottom: 1px solid var(--line); }
+      th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
+      tr:hover { background: var(--panel); }
+      a { color: var(--accent); text-decoration: none; font-weight: 500; }
+      a:hover { text-decoration: underline; }
+      .score { font-weight: 700; color: var(--accent-2); font-variant-numeric: tabular-nums; }
+      .verified { color: var(--accent); }
       .bot { color: #f87171; font-size: 11px; }
-      .badge { height: 24px; vertical-align: middle; }
-      :focus-visible { outline: 2px solid #60a5fa; outline-offset: 2px; }
+      .badge { height: 22px; vertical-align: middle; border-radius: 4px; }
+      :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
     </style>
   </head>
   <body>
-    <h1>RealGitRank</h1>
-    <p class="sub">Commit count measures typing speed. RealGitRank measures engineering impact. {leaderboard.length} developers ranked.</p>
-    <input id="q" type="text" placeholder="Search username, country, language..." />
+    <h1>Real<span>Git</span>Rank</h1>
+    <p class="sub">Commit count measures typing speed. RealGitRank measures engineering impact. {leaderboard.length} developers ranked. <a href="/countries" style="margin-left:8px">🌍 Countries & Worldwide →</a></p>
+    <div style="display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap">
+      <input id="q" type="text" placeholder="Search username, country, language..." style="flex:1;min-width:200px" />
+      <select id="country" style="padding:12px 14px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-family:inherit">
+        <option value="">All countries</option>
+      </select>
+      <select id="lang" style="padding:12px 14px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-family:inherit">
+        <option value="">All languages</option>
+      </select>
+    </div>
     <table id="tbl">
       <thead><tr><th>#</th><th>User</th><th>Score</th><th>Country</th><th>Lang</th><th>PRs</th><th>Badge</th></tr></thead>
       <tbody>
         {leaderboard.map((u) => (
           <tr data-u={u.username.toLowerCase()} data-c={u.country.toLowerCase()} data-l={u.primary_language.toLowerCase()}>
             <td>{u.rank}</td>
-            <td><a href={`/profile/${u.username}`}>{u.username}</a> {u.is_human_verified && <span class="verified">✓</span>} {u.is_bot_classified && <span class="bot">[bot]</span>}</td>
+            <td><a href={u.rank <= 1000 ? `/profile/${u.username}` : `/profile/?u=${u.username}`}>{u.username}</a> {u.is_human_verified && <span class="verified">✓</span>} {u.is_bot_classified && <span class="bot">[bot]</span>}</td>
             <td class="score">{u.rank_score}</td>
             <td>{u.country}</td>
             <td>{u.primary_language}</td>
@@ -55,16 +67,26 @@ import leaderboard from '../../../data/leaderboard.json';
         ))}
       </tbody>
     </table>
-    <script>
+    <script define:vars={{ countries: [...new Set(leaderboard.map(u => u.country))], langs: [...new Set(leaderboard.map(u => u.primary_language))] }}>
       const q = document.getElementById('q');
+      const countrySel = document.getElementById('country');
+      const langSel = document.getElementById('lang');
       const rows = document.querySelectorAll('#tbl tbody tr');
-      q.addEventListener('input', () => {
+      countries.sort().forEach(c => { const o = document.createElement('option'); o.value = c.toLowerCase(); o.textContent = c; countrySel.appendChild(o); });
+      langs.sort().forEach(l => { const o = document.createElement('option'); o.value = l.toLowerCase(); o.textContent = l; langSel.appendChild(o); });
+      function apply() {
         const v = q.value.toLowerCase();
+        const c = countrySel.value;
+        const l = langSel.value;
         rows.forEach(r => {
-          const match = r.dataset.u.includes(v) || r.dataset.c.includes(v) || r.dataset.l.includes(v);
+          const match = (r.dataset.u.includes(v) || r.dataset.c.includes(v) || r.dataset.l.includes(v))
+            && (!c || r.dataset.c === c) && (!l || r.dataset.l === l);
           r.style.display = match ? '' : 'none';
         });
-      });
+      }
+      q.addEventListener('input', apply);
+      countrySel.addEventListener('change', apply);
+      langSel.addEventListener('change', apply);
     </script>
   </body>
 </html>

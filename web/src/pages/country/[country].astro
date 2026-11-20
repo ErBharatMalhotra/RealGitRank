@@ -1,0 +1,61 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import { allCountries } from '../../data/allCountries.js';
+export function getStaticPaths() {
+  const dataPath = path.resolve(process.cwd(), '..', 'data', 'leaderboard.json');
+  const lb = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+  return allCountries.map(c => ({
+    params: { country: c.toLowerCase().replace(/\s+/g, '-') },
+    props: { country: c, users: lb.filter(u => u.country === c).slice(0, 100) },
+  }));
+}
+const { country, users } = Astro.props;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{country} — RealGitRank Leaderboard</title>
+    <meta name="description" content={`Top developers in ${country} on RealGitRank. ${users.length} ranked.`} />
+    <link rel="canonical" href={`https://realgitrank.bharatdn.com/country/${country.toLowerCase().replace(/\s+/g, '-')}`} />
+    <style>
+      :root { --bg: #0b0f19; --panel: #131a2b; --ink: #e8ecf4; --muted: #8a93a6; --accent: #f59e0b; --accent-2: #14b8a6; --line: #1f2740; }
+      body { font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; max-width: 1100px; margin: 0 auto; padding: 28px 20px; background: var(--bg); color: var(--ink); }
+      h1 { font-size: 2.2rem; margin: 0 0 4px; color: var(--ink); }
+      h1 span { color: var(--accent); }
+      .sub { color: var(--muted); margin-bottom: 20px; }
+      a { color: var(--accent); text-decoration: none; }
+      table { width: 100%; border-collapse: collapse; font-size: 14px; }
+      th, td { padding: 10px; text-align: left; border-bottom: 1px solid var(--line); }
+      th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; }
+      tr:hover { background: var(--panel); }
+      .score { font-weight: 700; color: var(--accent-2); font-variant-numeric: tabular-nums; }
+      .badge { height: 22px; vertical-align: middle; border-radius: 4px; }
+      :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    </style>
+  </head>
+  <body>
+    <a href="/">← All countries</a>
+    <h1>{country} <span>Leaderboard</span></h1>
+    <p class="sub">Top {users.length} developers in {country} on RealGitRank.</p>
+    <table>
+      <thead><tr><th>#</th><th>User</th><th>Score</th><th>Lang</th><th>PRs</th><th>Badge</th></tr></thead>
+      <tbody>
+        {users.length === 0 && (
+          <tr><td colspan="6" style="text-align:center;color:var(--muted);padding:30px">No ranked developers yet in {country}. Be the first — contribute on GitHub!</td></tr>
+        )}
+        {users.map(u => (
+          <tr>
+            <td>{u.rank}</td>
+            <td><a href={u.rank <= 1000 ? `/profile/${u.username}` : `/profile/?u=${u.username}`}>{u.username}</a> {u.is_human_verified && '✓'}</td>
+            <td class="score">{u.rank_score}</td>
+            <td>{u.primary_language}</td>
+            <td>{u.merged_prs}</td>
+            <td><img class="badge" src={`/badges/${u.username}.svg`} alt="badge" loading="lazy" /></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </body>
+</html>

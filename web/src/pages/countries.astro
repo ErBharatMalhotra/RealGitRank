@@ -1,0 +1,54 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import { allCountries } from '../data/allCountries.js';
+const dataPath = path.resolve(process.cwd(), '..', 'data', 'leaderboard.json');
+const lb = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+const countryMap = {};
+lb.forEach(u => { countryMap[u.country] = (countryMap[u.country] || 0) + 1; });
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Countries & Worldwide — RealGitRank</title>
+    <style>
+      :root { --bg: #0b0f19; --panel: #131a2b; --ink: #e8ecf4; --muted: #8a93a6; --accent: #f59e0b; --line: #1f2740; }
+      body { font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; max-width: 1100px; margin: 0 auto; padding: 28px 20px; background: var(--bg); color: var(--ink); }
+      h1 { font-size: 2.2rem; margin: 0 0 8px; color: var(--ink); }
+      .sub { color: var(--muted); margin-bottom: 24px; }
+      a { color: var(--accent); text-decoration: none; }
+      .global { display: block; background: linear-gradient(135deg, #f59e0b22, #14b8a622); border: 2px solid var(--accent); border-radius: 10px; padding: 20px; margin-bottom: 24px; text-align: center; }
+      .global .name { font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+      .global .count { color: var(--muted); }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+      .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+      .card:hover { border-color: var(--accent); }
+      .card .name { font-weight: 600; font-size: 14px; }
+      .card .count { color: var(--muted); font-size: 12px; }
+      .card.empty { opacity: 0.45; }
+      :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    </style>
+  </head>
+  <body>
+    <a href="/">← Leaderboard</a>
+    <h1>Countries & Worldwide</h1>
+    <p class="sub">RealGitRank leaderboards for every country in the world.</p>
+    <a href="/" class="global">
+      <div class="name">🌍 Worldwide / Global</div>
+      <div class="count">{lb.length} ranked developers across all countries</div>
+    </a>
+    <div class="grid">
+      {allCountries.map(name => {
+        const count = countryMap[name] || 0;
+        const slug = name.toLowerCase().replace(/\s+/g, '-');
+        return (
+          <a href={`/country/${slug}`} class={`card ${count === 0 ? 'empty' : ''}`}>
+            <div class="name">{name}</div>
+            <div class="count">{count > 0 ? `${count} ranked` : 'No ranked devs yet'}</div>
+          </a>
+        );
+      })}
+    </div>
+  </body>
+</html>

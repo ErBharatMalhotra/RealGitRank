@@ -1,8 +1,9 @@
 """RealGitRank local pipeline runner: generates data + scores (mock ingest for local dev)."""
-import json, os, random
+import json, os, random, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from datetime import datetime, timezone
 import duckdb
-from .scoring_engine import compute_rank_scores
+from scoring_engine import compute_rank_scores
 
 random.seed(42)
 

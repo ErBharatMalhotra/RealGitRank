@@ -32,8 +32,13 @@ jobs:
       - name: Data quality gates
         run: python src/pipeline/quality_gates.py
 
+      - name: Generate badges
+        run: python src/pipeline/badges.py
+
       - name: Rebuild static site
         run: |
+          python -m src.pipeline.sitemap
+          cp -r data web/public/data
           cd web
           npm ci
           npm run build

@@ -1,5 +1,6 @@
 """RealGitRank badge SVG generator — beautiful badges for ranked AND unranked users."""
-import json, os
+import json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 os.makedirs("web/public/badges", exist_ok=True)
 
