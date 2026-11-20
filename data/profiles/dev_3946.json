@@ -1,0 +1,16 @@
+{
+  "username": "dev_3946",
+  "country": "China",
+  "primary_language": "Python",
+  "total_pushes": 46,
+  "merged_prs": 14,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 391.09393844820625,
+  "s_quality": 77.51009168375734,
+  "s_impact": 361.1384013180951,
+  "s_consistency": 162.30935936571166,
+  "rank_score": 270.9,
+  "rank": 3112
+}

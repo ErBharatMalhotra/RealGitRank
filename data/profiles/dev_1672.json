@@ -1,0 +1,16 @@
+{
+  "username": "dev_1672",
+  "country": "Turkey",
+  "primary_language": "TypeScript",
+  "total_pushes": 203,
+  "merged_prs": 12,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 408.34075047218533,
+  "s_quality": 90.29463179707038,
+  "s_impact": 442.74578533497015,
+  "s_consistency": 184.89441736818287,
+  "rank_score": 303.9,
+  "rank": 1696
+}

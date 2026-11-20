@@ -1,0 +1,16 @@
+{
+  "username": "dev_1220",
+  "country": "Pakistan",
+  "primary_language": "Ruby",
+  "total_pushes": 141,
+  "merged_prs": 24,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 463.9066612926185,
+  "s_quality": 75.72468548790773,
+  "s_impact": 506.595293147496,
+  "s_consistency": 163.20442433973867,
+  "rank_score": 332.4,
+  "rank": 469
+}

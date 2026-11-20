@@ -1,0 +1,16 @@
+{
+  "username": "dev_4000",
+  "country": "Canada",
+  "primary_language": "Java",
+  "total_pushes": 104,
+  "merged_prs": 16,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 442.4460543761402,
+  "s_quality": 57.64913493660864,
+  "s_impact": 496.879729337486,
+  "s_consistency": 158.9351771731352,
+  "rank_score": 317.3,
+  "rank": 1061
+}

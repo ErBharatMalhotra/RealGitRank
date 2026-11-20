@@ -1,0 +1,16 @@
+{
+  "username": "dev_3965",
+  "country": "South Africa",
+  "primary_language": "Rust",
+  "total_pushes": 48,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 301.2590107386369,
+  "s_quality": 88.11001798098016,
+  "s_impact": 404.03264970315115,
+  "s_consistency": 138.23295873443263,
+  "rank_score": 249.2,
+  "rank": 3680
+}

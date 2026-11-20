@@ -1,0 +1,16 @@
+{
+  "username": "dev_1178",
+  "country": "India",
+  "primary_language": "Python",
+  "total_pushes": 291,
+  "merged_prs": 17,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 341.18611858443904,
+  "s_quality": 76.86436089134168,
+  "s_impact": 462.1086849271416,
+  "s_consistency": 103.06124382573084,
+  "rank_score": 269.6,
+  "rank": 3164
+}

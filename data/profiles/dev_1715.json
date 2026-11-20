@@ -1,0 +1,16 @@
+{
+  "username": "dev_1715",
+  "country": "Sweden",
+  "primary_language": "Rust",
+  "total_pushes": 1312,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 98.75896283289823,
+  "s_quality": 34.90997522682057,
+  "s_impact": 167.3446977271235,
+  "s_consistency": 143.1945622001443,
+  "rank_score": 0.0,
+  "rank": 4858
+}

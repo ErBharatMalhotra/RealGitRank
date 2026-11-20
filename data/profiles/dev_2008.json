@@ -1,0 +1,16 @@
+{
+  "username": "dev_2008",
+  "country": "Canada",
+  "primary_language": "Swift",
+  "total_pushes": 331,
+  "merged_prs": 29,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 452.6624006357223,
+  "s_quality": 88.75287517235276,
+  "s_impact": 476.3469277774559,
+  "s_consistency": 196.72564192624293,
+  "rank_score": 329.2,
+  "rank": 563
+}

@@ -1,16 +1,16 @@
 {
   "username": "dev_83",
-  "country": "United States",
-  "primary_language": "Go",
-  "total_pushes": 118,
-  "merged_prs": 32,
+  "country": "Brazil",
+  "primary_language": "Ruby",
+  "total_pushes": 153,
+  "merged_prs": 20,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 519.5018511552419,
-  "s_quality": 79.79110947313885,
-  "s_impact": 352.93566165556297,
-  "s_consistency": 138.7424014295087,
-  "rank_score": 310.8,
-  "rank": 81
+  "s_pr": 418.2767357369493,
+  "s_quality": 68.32908088389917,
+  "s_impact": 412.8670244564207,
+  "s_consistency": 161.12249056125552,
+  "rank_score": 290.9,
+  "rank": 2324
 }

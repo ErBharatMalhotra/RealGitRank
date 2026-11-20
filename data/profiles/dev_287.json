@@ -1,16 +1,16 @@
 {
   "username": "dev_287",
-  "country": "Japan",
-  "primary_language": "JavaScript",
-  "total_pushes": 327,
-  "merged_prs": 31,
+  "country": "Pakistan",
+  "primary_language": "TypeScript",
+  "total_pushes": 305,
+  "merged_prs": 4,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 481.80303339013136,
-  "s_quality": 71.05775182130675,
-  "s_impact": 430.891923540359,
-  "s_consistency": 179.33559892745652,
-  "rank_score": 321.0,
-  "rank": 50
+  "s_pr": 248.5877224140373,
+  "s_quality": 67.17904340764038,
+  "s_impact": 448.98832809987834,
+  "s_consistency": 172.48699880228605,
+  "rank_score": 241.9,
+  "rank": 3814
 }

@@ -1,0 +1,16 @@
+{
+  "username": "dev_1010",
+  "country": "China",
+  "primary_language": "JavaScript",
+  "total_pushes": 100,
+  "merged_prs": 27,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 468.25182035042303,
+  "s_quality": 87.58843868853359,
+  "s_impact": 397.04956071179737,
+  "s_consistency": 192.80210725174288,
+  "rank_score": 314.0,
+  "rank": 1208
+}

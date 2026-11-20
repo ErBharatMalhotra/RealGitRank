@@ -1,0 +1,16 @@
+{
+  "username": "dev_2643",
+  "country": "France",
+  "primary_language": "Java",
+  "total_pushes": 221,
+  "merged_prs": 10,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 381.4741775432001,
+  "s_quality": 80.66554150537564,
+  "s_impact": 416.26085973100874,
+  "s_consistency": 167.35606932860205,
+  "rank_score": 282.9,
+  "rank": 2676
+}

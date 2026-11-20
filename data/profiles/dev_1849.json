@@ -1,0 +1,16 @@
+{
+  "username": "dev_1849",
+  "country": "Italy",
+  "primary_language": "JavaScript",
+  "total_pushes": 93,
+  "merged_prs": 36,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 465.0070373105158,
+  "s_quality": 94.58040049948298,
+  "s_impact": 199.32549081269786,
+  "s_consistency": 66.27689950708147,
+  "rank_score": 246.2,
+  "rank": 3737
+}

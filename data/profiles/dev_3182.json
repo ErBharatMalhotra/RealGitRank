@@ -1,0 +1,16 @@
+{
+  "username": "dev_3182",
+  "country": "China",
+  "primary_language": "Kotlin",
+  "total_pushes": 1700,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 91.6776388308666,
+  "s_quality": 22.746021983575638,
+  "s_impact": 206.82486041535762,
+  "s_consistency": 194.27712457674335,
+  "rank_score": 0.0,
+  "rank": 4874
+}

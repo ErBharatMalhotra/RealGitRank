@@ -1,0 +1,16 @@
+{
+  "username": "dev_4111",
+  "country": "Turkey",
+  "primary_language": "Ruby",
+  "total_pushes": 19,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 238.35627715167675,
+  "s_quality": 46.47544932588518,
+  "s_impact": 415.4172533939369,
+  "s_consistency": 179.3586318656569,
+  "rank_score": 225.8,
+  "rank": 4032
+}

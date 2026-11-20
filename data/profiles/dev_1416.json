@@ -1,0 +1,16 @@
+{
+  "username": "dev_1416",
+  "country": "Brazil",
+  "primary_language": "TypeScript",
+  "total_pushes": 1141,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 208.47236231530476,
+  "s_quality": 55.70439064361893,
+  "s_impact": 334.5277460857135,
+  "s_consistency": 130.62884078609898,
+  "rank_score": 0.0,
+  "rank": 4749
+}

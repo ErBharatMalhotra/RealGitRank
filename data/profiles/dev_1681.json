@@ -1,0 +1,16 @@
+{
+  "username": "dev_1681",
+  "country": "Brazil",
+  "primary_language": "C++",
+  "total_pushes": 1240,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 136.21147199437664,
+  "s_quality": 34.90997522682057,
+  "s_impact": 326.7800780811317,
+  "s_consistency": 185.55945521950446,
+  "rank_score": 0.0,
+  "rank": 4856
+}

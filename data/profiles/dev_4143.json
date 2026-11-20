@@ -1,0 +1,16 @@
+{
+  "username": "dev_4143",
+  "country": "Australia",
+  "primary_language": "JavaScript",
+  "total_pushes": 23,
+  "merged_prs": 35,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 497.6166336059679,
+  "s_quality": 80.255343521479,
+  "s_impact": 348.7327524355989,
+  "s_consistency": 179.4349776636146,
+  "rank_score": 308.3,
+  "rank": 1486
+}

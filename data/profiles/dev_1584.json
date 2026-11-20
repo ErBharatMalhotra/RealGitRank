@@ -1,0 +1,16 @@
+{
+  "username": "dev_1584",
+  "country": "Turkey",
+  "primary_language": "Ruby",
+  "total_pushes": 19,
+  "merged_prs": 15,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 359.11993386653205,
+  "s_quality": 56.70171543267044,
+  "s_impact": 455.0505802309246,
+  "s_consistency": 179.89311383070643,
+  "rank_score": 280.6,
+  "rank": 2790
+}

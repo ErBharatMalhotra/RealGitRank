@@ -1,0 +1,16 @@
+{
+  "username": "dev_316",
+  "country": "France",
+  "primary_language": "Swift",
+  "total_pushes": 374,
+  "merged_prs": 24,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 464.7328394580932,
+  "s_quality": 51.408695233342144,
+  "s_impact": 416.25211768646,
+  "s_consistency": 97.07498112137971,
+  "rank_score": 294.1,
+  "rank": 2181
+}

@@ -1,16 +1,16 @@
 {
   "username": "dev_222",
-  "country": "Germany",
-  "primary_language": "JavaScript",
-  "total_pushes": 348,
-  "merged_prs": 10,
+  "country": "South Africa",
+  "primary_language": "Swift",
+  "total_pushes": 33,
+  "merged_prs": 19,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 283.9713906452701,
-  "s_quality": 78.70173175481295,
-  "s_impact": 495.0408084559543,
-  "s_consistency": 199.04440307729632,
-  "rank_score": 272.7,
-  "rank": 168
+  "s_pr": 405.0207601437767,
+  "s_quality": 62.69901223116632,
+  "s_impact": 406.8774444573804,
+  "s_consistency": 77.11255593056713,
+  "rank_score": 270.7,
+  "rank": 3121
 }

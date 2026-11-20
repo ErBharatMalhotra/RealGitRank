@@ -1,16 +1,16 @@
 {
   "username": "dev_269",
-  "country": "Canada",
-  "primary_language": "Rust",
-  "total_pushes": 150,
-  "merged_prs": 30,
+  "country": "Netherlands",
+  "primary_language": "Swift",
+  "total_pushes": 250,
+  "merged_prs": 19,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 430.64583155010166,
-  "s_quality": 93.83270837552298,
-  "s_impact": 464.1741558370418,
-  "s_consistency": 137.21122009720926,
-  "rank_score": 310.8,
-  "rank": 82
+  "s_pr": 357.7673624937652,
+  "s_quality": 86.120388831533,
+  "s_impact": 426.69447988023535,
+  "s_consistency": 201.20257030314477,
+  "rank_score": 283.6,
+  "rank": 2639
 }

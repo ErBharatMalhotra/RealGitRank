@@ -1,0 +1,16 @@
+{
+  "username": "dev_3319",
+  "country": "Argentina",
+  "primary_language": "Go",
+  "total_pushes": 37,
+  "merged_prs": 15,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 372.5687296595812,
+  "s_quality": 61.359756565346274,
+  "s_impact": 354.085350970866,
+  "s_consistency": 169.75358141848795,
+  "rank_score": 259.7,
+  "rank": 3447
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_3300",
+  "country": "United Kingdom",
+  "primary_language": "C++",
+  "total_pushes": 311,
+  "merged_prs": 31,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 447.0668306153488,
+  "s_quality": 106.90053971037423,
+  "s_impact": 485.10350045013234,
+  "s_consistency": 158.3315114113353,
+  "rank_score": 328.2,
+  "rank": 609
+}

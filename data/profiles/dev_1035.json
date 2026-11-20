@@ -1,0 +1,16 @@
+{
+  "username": "dev_1035",
+  "country": "Pakistan",
+  "primary_language": "Go",
+  "total_pushes": 1946,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 92.14564447471471,
+  "s_quality": 55.70439064361893,
+  "s_impact": 292.99737626894455,
+  "s_consistency": 225.84071341883623,
+  "rank_score": 0.0,
+  "rank": 4848
+}

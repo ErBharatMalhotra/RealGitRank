@@ -1,0 +1,16 @@
+{
+  "username": "dev_2891",
+  "country": "Mexico",
+  "primary_language": "Python",
+  "total_pushes": 653,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 233.30051352951185,
+  "s_quality": 43.540437400373996,
+  "s_impact": 296.36049322288846,
+  "s_consistency": 174.99400053614414,
+  "rank_score": 0.0,
+  "rank": 4708
+}

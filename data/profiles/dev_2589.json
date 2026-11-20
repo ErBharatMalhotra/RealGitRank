@@ -1,0 +1,16 @@
+{
+  "username": "dev_2589",
+  "country": "Thailand",
+  "primary_language": "Java",
+  "total_pushes": 1223,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 282.4338043742326,
+  "s_quality": 22.746021983575638,
+  "s_impact": 331.03642786342635,
+  "s_consistency": 180.55528229165532,
+  "rank_score": 0.0,
+  "rank": 4614
+}

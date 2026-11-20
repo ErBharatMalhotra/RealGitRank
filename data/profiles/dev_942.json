@@ -1,0 +1,16 @@
+{
+  "username": "dev_942",
+  "country": "South Africa",
+  "primary_language": "Swift",
+  "total_pushes": 245,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 538.2112390148471,
+  "s_quality": 55.523217006715925,
+  "s_impact": 472.7044423883105,
+  "s_consistency": 186.35361271500574,
+  "rank_score": 348.4,
+  "rank": 74
+}

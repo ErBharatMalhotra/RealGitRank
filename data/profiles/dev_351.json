@@ -1,0 +1,16 @@
+{
+  "username": "dev_351",
+  "country": "Sweden",
+  "primary_language": "Ruby",
+  "total_pushes": 152,
+  "merged_prs": 16,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 445.23188136178567,
+  "s_quality": 83.6194834026842,
+  "s_impact": 447.5063912238207,
+  "s_consistency": 151.8629750622777,
+  "rank_score": 311.4,
+  "rank": 1339
+}

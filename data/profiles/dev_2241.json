@@ -1,0 +1,16 @@
+{
+  "username": "dev_2241",
+  "country": "Brazil",
+  "primary_language": "Go",
+  "total_pushes": 85,
+  "merged_prs": 16,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 401.58182554604394,
+  "s_quality": 71.27279348960668,
+  "s_impact": 456.58339391827974,
+  "s_consistency": 209.01061670388447,
+  "rank_score": 303.9,
+  "rank": 1695
+}

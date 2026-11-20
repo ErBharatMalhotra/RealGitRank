@@ -1,0 +1,16 @@
+{
+  "username": "dev_1912",
+  "country": "Argentina",
+  "primary_language": "Go",
+  "total_pushes": 105,
+  "merged_prs": 21,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 463.6172787202672,
+  "s_quality": 63.09335956031351,
+  "s_impact": 405.4550816015844,
+  "s_consistency": 150.17134252152792,
+  "rank_score": 301.9,
+  "rank": 1804
+}

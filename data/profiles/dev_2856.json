@@ -1,0 +1,16 @@
+{
+  "username": "dev_2856",
+  "country": "Japan",
+  "primary_language": "Swift",
+  "total_pushes": 1001,
+  "merged_prs": 5,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 280.2295481950319,
+  "s_quality": 55.70439064361893,
+  "s_impact": 324.60413172306266,
+  "s_consistency": 201.69812483265702,
+  "rank_score": 0.0,
+  "rank": 4541
+}

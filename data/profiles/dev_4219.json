@@ -1,0 +1,16 @@
+{
+  "username": "dev_4219",
+  "country": "Italy",
+  "primary_language": "Ruby",
+  "total_pushes": 1368,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 209.5533511712068,
+  "s_quality": 55.70439064361893,
+  "s_impact": 297.75605740961385,
+  "s_consistency": 171.9627694453224,
+  "rank_score": 0.0,
+  "rank": 4642
+}

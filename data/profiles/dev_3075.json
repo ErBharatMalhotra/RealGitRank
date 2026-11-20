@@ -1,0 +1,16 @@
+{
+  "username": "dev_3075",
+  "country": "Thailand",
+  "primary_language": "Go",
+  "total_pushes": 43,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 546.4878199197136,
+  "s_quality": 86.40640009790036,
+  "s_impact": 443.8984516029668,
+  "s_consistency": 193.62949591655254,
+  "rank_score": 352.9,
+  "rank": 38
+}

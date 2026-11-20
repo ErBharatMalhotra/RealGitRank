@@ -1,0 +1,16 @@
+{
+  "username": "dev_492",
+  "country": "Mexico",
+  "primary_language": "Kotlin",
+  "total_pushes": 207,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 525.622815799998,
+  "s_quality": 67.58395212889903,
+  "s_impact": 479.0186218936956,
+  "s_consistency": 120.78559685964004,
+  "rank_score": 338.7,
+  "rank": 257
+}

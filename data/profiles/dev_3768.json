@@ -1,0 +1,16 @@
+{
+  "username": "dev_3768",
+  "country": "Nigeria",
+  "primary_language": "Go",
+  "total_pushes": 43,
+  "merged_prs": 1,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 128.9892072971094,
+  "s_quality": 70.64269557799338,
+  "s_impact": 368.9760897187401,
+  "s_consistency": 150.00451292468392,
+  "rank_score": 177.6,
+  "rank": 4367
+}

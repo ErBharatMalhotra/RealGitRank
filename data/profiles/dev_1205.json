@@ -1,0 +1,16 @@
+{
+  "username": "dev_1205",
+  "country": "South Africa",
+  "primary_language": "Kotlin",
+  "total_pushes": 378,
+  "merged_prs": 29,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 417.58895330314175,
+  "s_quality": 51.61894760848825,
+  "s_impact": 472.4551398479179,
+  "s_consistency": 187.0672641445788,
+  "rank_score": 305.2,
+  "rank": 1623
+}

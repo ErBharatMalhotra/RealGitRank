@@ -1,0 +1,16 @@
+{
+  "username": "dev_1915",
+  "country": "Saudi Arabia",
+  "primary_language": "Java",
+  "total_pushes": 12,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 486.2603212444508,
+  "s_quality": 63.868362930412886,
+  "s_impact": 433.88560765861007,
+  "s_consistency": 199.62537195396277,
+  "rank_score": 324.6,
+  "rank": 758
+}

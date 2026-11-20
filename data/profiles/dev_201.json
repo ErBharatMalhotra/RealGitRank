@@ -1,16 +1,16 @@
 {
   "username": "dev_201",
-  "country": "France",
-  "primary_language": "Python",
-  "total_pushes": 380,
-  "merged_prs": 0,
+  "country": "Malaysia",
+  "primary_language": "Swift",
+  "total_pushes": 320,
+  "merged_prs": 26,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 0.0,
-  "s_quality": 59.52050475711414,
-  "s_impact": 461.58990486348733,
-  "s_consistency": 163.14183276781307,
-  "rank_score": 154.7,
-  "rank": 253
+  "s_pr": 451.2691080095846,
+  "s_quality": 87.2428535296356,
+  "s_impact": 453.36954245843856,
+  "s_consistency": 206.99954625522128,
+  "rank_score": 324.1,
+  "rank": 778
 }

@@ -1,0 +1,16 @@
+{
+  "username": "dev_1923",
+  "country": "Thailand",
+  "primary_language": "C++",
+  "total_pushes": 76,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 536.929371490377,
+  "s_quality": 76.92528779891472,
+  "s_impact": 490.0456437355092,
+  "s_consistency": 164.01607345648506,
+  "rank_score": 354.3,
+  "rank": 27
+}

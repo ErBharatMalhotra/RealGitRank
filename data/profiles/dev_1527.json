@@ -1,0 +1,16 @@
+{
+  "username": "dev_1527",
+  "country": "South Africa",
+  "primary_language": "Ruby",
+  "total_pushes": 1547,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 96.06015844309265,
+  "s_quality": 22.746021983575638,
+  "s_impact": 235.34520318200617,
+  "s_consistency": 211.100736407804,
+  "rank_score": 0.0,
+  "rank": 4853
+}

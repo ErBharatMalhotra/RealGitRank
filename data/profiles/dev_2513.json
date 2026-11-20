@@ -1,0 +1,16 @@
+{
+  "username": "dev_2513",
+  "country": "United Kingdom",
+  "primary_language": "Swift",
+  "total_pushes": 1080,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 194.36089857611418,
+  "s_quality": 22.746021983575638,
+  "s_impact": 287.6785470022935,
+  "s_consistency": 224.76540315778806,
+  "rank_score": 0.0,
+  "rank": 4702
+}

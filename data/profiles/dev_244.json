@@ -1,16 +1,16 @@
 {
   "username": "dev_244",
-  "country": "Japan",
-  "primary_language": "C++",
-  "total_pushes": 201,
-  "merged_prs": 15,
+  "country": "Vietnam",
+  "primary_language": "Swift",
+  "total_pushes": 182,
+  "merged_prs": 9,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 435.14992596185374,
-  "s_quality": 77.87243982944098,
-  "s_impact": 464.7723777769347,
-  "s_consistency": 160.9388130219524,
-  "rank_score": 312.1,
-  "rank": 76
+  "s_pr": 370.0961292977369,
+  "s_quality": 92.61888422151307,
+  "s_impact": 460.4597985815325,
+  "s_consistency": 105.8753123257792,
+  "rank_score": 283.7,
+  "rank": 2637
 }

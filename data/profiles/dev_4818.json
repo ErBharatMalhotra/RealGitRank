@@ -1,0 +1,16 @@
+{
+  "username": "dev_4818",
+  "country": "Germany",
+  "primary_language": "Go",
+  "total_pushes": 21,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 335.9533705839058,
+  "s_quality": 77.62515216161995,
+  "s_impact": 420.7565459291173,
+  "s_consistency": 176.3844336876005,
+  "rank_score": 268.6,
+  "rank": 3197
+}

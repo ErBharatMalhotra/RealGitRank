@@ -1,0 +1,16 @@
+{
+  "username": "dev_3162",
+  "country": "France",
+  "primary_language": "Kotlin",
+  "total_pushes": 47,
+  "merged_prs": 16,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 393.01161295297555,
+  "s_quality": 58.666508086011085,
+  "s_impact": 317.5620260305115,
+  "s_consistency": 162.00627591182112,
+  "rank_score": 255.9,
+  "rank": 3525
+}

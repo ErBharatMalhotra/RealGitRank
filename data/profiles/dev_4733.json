@@ -1,0 +1,16 @@
+{
+  "username": "dev_4733",
+  "country": "Germany",
+  "primary_language": "Go",
+  "total_pushes": 1378,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 225.15110855349903,
+  "s_quality": 50.23474393980029,
+  "s_impact": 227.0976938296698,
+  "s_consistency": 223.6664578218493,
+  "rank_score": 0.0,
+  "rank": 4655
+}

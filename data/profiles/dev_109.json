@@ -1,16 +1,16 @@
 {
   "username": "dev_109",
-  "country": "Japan",
-  "primary_language": "Rust",
-  "total_pushes": 270,
-  "merged_prs": 40,
+  "country": "Spain",
+  "primary_language": "Swift",
+  "total_pushes": 107,
+  "merged_prs": 1,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 518.8983355397769,
-  "s_quality": 92.43234691830567,
-  "s_impact": 401.1396065870356,
-  "s_consistency": 199.72129700587453,
-  "rank_score": 335.0,
-  "rank": 19
+  "s_pr": 122.38601508835322,
+  "s_quality": 49.22409498567113,
+  "s_impact": 456.36459438201024,
+  "s_consistency": 199.17924551572978,
+  "rank_score": 199.1,
+  "rank": 4257
 }

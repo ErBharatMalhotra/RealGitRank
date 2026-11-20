@@ -1,0 +1,16 @@
+{
+  "username": "dev_508",
+  "country": "Italy",
+  "primary_language": "Rust",
+  "total_pushes": 185,
+  "merged_prs": 22,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 469.4044809065651,
+  "s_quality": 76.22301521602677,
+  "s_impact": 408.2193680252285,
+  "s_consistency": 155.87822607560184,
+  "rank_score": 308.8,
+  "rank": 1462
+}

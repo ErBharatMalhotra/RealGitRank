@@ -1,0 +1,16 @@
+{
+  "username": "dev_3214",
+  "country": "France",
+  "primary_language": "Ruby",
+  "total_pushes": 290,
+  "merged_prs": 5,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 284.8379833128515,
+  "s_quality": 55.70439064361893,
+  "s_impact": 301.8046628685412,
+  "s_consistency": 219.01193666854874,
+  "rank_score": 0.0,
+  "rank": 4546
+}

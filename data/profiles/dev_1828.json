@@ -1,0 +1,16 @@
+{
+  "username": "dev_1828",
+  "country": "Mexico",
+  "primary_language": "Ruby",
+  "total_pushes": 210,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 327.70374875379207,
+  "s_quality": 90.74510176150284,
+  "s_impact": 289.90476553233833,
+  "s_consistency": 145.5288103879677,
+  "rank_score": 231.7,
+  "rank": 3953
+}

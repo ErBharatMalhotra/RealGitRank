@@ -1,0 +1,16 @@
+{
+  "username": "dev_3513",
+  "country": "India",
+  "primary_language": "Rust",
+  "total_pushes": 259,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 297.43211756506184,
+  "s_quality": 96.44077020025941,
+  "s_impact": 380.4213527480755,
+  "s_consistency": 139.75383828328611,
+  "rank_score": 244.3,
+  "rank": 3769
+}

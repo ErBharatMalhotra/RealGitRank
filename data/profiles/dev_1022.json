@@ -1,0 +1,16 @@
+{
+  "username": "dev_1022",
+  "country": "South Korea",
+  "primary_language": "TypeScript",
+  "total_pushes": 362,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 491.6941991030553,
+  "s_quality": 80.95140872885632,
+  "s_impact": 397.69344034045207,
+  "s_consistency": 83.67864887471347,
+  "rank_score": 304.3,
+  "rank": 1675
+}

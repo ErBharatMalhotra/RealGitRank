@@ -1,0 +1,16 @@
+{
+  "username": "dev_1862",
+  "country": "Italy",
+  "primary_language": "C++",
+  "total_pushes": 249,
+  "merged_prs": 10,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 364.23409055175597,
+  "s_quality": 75.76637248435408,
+  "s_impact": 483.26944761254214,
+  "s_consistency": 148.25258559911555,
+  "rank_score": 289.5,
+  "rank": 2390
+}

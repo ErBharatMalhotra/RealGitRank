@@ -1,16 +1,16 @@
 {
   "username": "dev_93",
-  "country": "United States",
-  "primary_language": "Go",
-  "total_pushes": 144,
-  "merged_prs": 27,
+  "country": "Canada",
+  "primary_language": "JavaScript",
+  "total_pushes": 390,
+  "merged_prs": 34,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 491.49458125255904,
-  "s_quality": 52.412060268040435,
-  "s_impact": 398.20796926992244,
-  "s_consistency": 154.45211504627372,
-  "rank_score": 307.8,
-  "rank": 95
+  "s_pr": 531.714422782127,
+  "s_quality": 85.13616310829684,
+  "s_impact": 465.5516868825381,
+  "s_consistency": 202.832948732612,
+  "rank_score": 354.2,
+  "rank": 30
 }

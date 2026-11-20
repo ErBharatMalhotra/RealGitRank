@@ -1,0 +1,16 @@
+{
+  "username": "dev_4344",
+  "country": "Japan",
+  "primary_language": "Go",
+  "total_pushes": 1821,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 185.79650853261586,
+  "s_quality": 50.23474393980029,
+  "s_impact": 304.83719631975544,
+  "s_consistency": 165.28619981409622,
+  "rank_score": 0.0,
+  "rank": 4810
+}

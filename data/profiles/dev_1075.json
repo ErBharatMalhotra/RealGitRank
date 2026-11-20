@@ -1,0 +1,16 @@
+{
+  "username": "dev_1075",
+  "country": "Nigeria",
+  "primary_language": "Python",
+  "total_pushes": 71,
+  "merged_prs": 31,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 505.38564924226097,
+  "s_quality": 53.02468874438786,
+  "s_impact": 403.041475183953,
+  "s_consistency": 154.27475546615963,
+  "rank_score": 314.0,
+  "rank": 1204
+}

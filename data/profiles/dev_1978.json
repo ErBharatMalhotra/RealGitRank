@@ -1,0 +1,16 @@
+{
+  "username": "dev_1978",
+  "country": "India",
+  "primary_language": "Swift",
+  "total_pushes": 1101,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 239.77422213393473,
+  "s_quality": 22.746021983575638,
+  "s_impact": 213.83330595080275,
+  "s_consistency": 206.62012847331965,
+  "rank_score": 0.0,
+  "rank": 4695
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_4948",
+  "country": "France",
+  "primary_language": "Swift",
+  "total_pushes": 1671,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 269.7943491527967,
+  "s_quality": 34.90997522682057,
+  "s_impact": 266.87338526715956,
+  "s_consistency": 161.58080120641017,
+  "rank_score": 0.0,
+  "rank": 4663
+}

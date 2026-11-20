@@ -1,0 +1,16 @@
+{
+  "username": "dev_2219",
+  "country": "Spain",
+  "primary_language": "Go",
+  "total_pushes": 1060,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 129.9391815681657,
+  "s_quality": 22.746021983575638,
+  "s_impact": 300.63431776103056,
+  "s_consistency": 213.87922896554454,
+  "rank_score": 0.0,
+  "rank": 4861
+}

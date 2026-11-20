@@ -9,7 +9,7 @@
   <rect width="200" height="60" rx="10" fill="url(#g)" filter="url(#s)"/>
   <text x="14" y="20" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="600" fill="#ffffff" opacity="0.85">RealGitRank</text>
   <circle cx="150" cy="22" r="9" fill="#fbbf24"/><text x="150" y="26" text-anchor="middle" font-size="11" fill="#78350f">✓</text>
-  <text x="14" y="42" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="800" fill="#ffffff">284</text>
-  <text x="14" y="56" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#ffffff" opacity="0.9">Rank #150 · dev_98</text>
+  <text x="14" y="42" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="800" fill="#ffffff">308</text>
+  <text x="14" y="56" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#ffffff" opacity="0.9">Rank #1509 · dev_98</text>
   <text x="186" y="56" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="9" fill="#ffffff" opacity="0.7">impact index</text>
 </svg>

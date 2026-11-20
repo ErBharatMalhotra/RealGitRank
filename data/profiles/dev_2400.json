@@ -1,0 +1,16 @@
+{
+  "username": "dev_2400",
+  "country": "Turkey",
+  "primary_language": "Java",
+  "total_pushes": 278,
+  "merged_prs": 22,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 386.0016700542527,
+  "s_quality": 79.9317050936084,
+  "s_impact": 490.9954268803326,
+  "s_consistency": 175.9476196646522,
+  "rank_score": 304.2,
+  "rank": 1682
+}

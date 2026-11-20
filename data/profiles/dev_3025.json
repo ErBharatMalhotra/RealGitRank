@@ -1,0 +1,16 @@
+{
+  "username": "dev_3025",
+  "country": "Brazil",
+  "primary_language": "Ruby",
+  "total_pushes": 158,
+  "merged_prs": 10,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 389.9747414233138,
+  "s_quality": 75.7901244406944,
+  "s_impact": 453.8711228560899,
+  "s_consistency": 148.21149355471087,
+  "rank_score": 291.1,
+  "rank": 2320
+}

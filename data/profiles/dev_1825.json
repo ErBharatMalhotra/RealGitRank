@@ -1,0 +1,16 @@
+{
+  "username": "dev_1825",
+  "country": "Argentina",
+  "primary_language": "Python",
+  "total_pushes": 275,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 230.57556323527743,
+  "s_quality": 55.70439064361893,
+  "s_impact": 247.78208897301937,
+  "s_consistency": 225.84071341883623,
+  "rank_score": 0.0,
+  "rank": 4599
+}

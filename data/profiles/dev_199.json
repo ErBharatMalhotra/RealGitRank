@@ -1,16 +1,16 @@
 {
   "username": "dev_199",
-  "country": "India",
-  "primary_language": "Python",
-  "total_pushes": 179,
-  "merged_prs": 20,
+  "country": "Spain",
+  "primary_language": "TypeScript",
+  "total_pushes": 36,
+  "merged_prs": 25,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 371.0461713671683,
-  "s_quality": 52.271914395493965,
-  "s_impact": 479.0907292898929,
-  "s_consistency": 178.43245951527933,
-  "rank_score": 289.5,
-  "rank": 142
+  "s_pr": 458.77976659565974,
+  "s_quality": 57.832466942483165,
+  "s_impact": 399.779151730064,
+  "s_consistency": 204.86260694845197,
+  "rank_score": 305.7,
+  "rank": 1599
 }

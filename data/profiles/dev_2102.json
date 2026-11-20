@@ -1,0 +1,16 @@
+{
+  "username": "dev_2102",
+  "country": "Vietnam",
+  "primary_language": "Rust",
+  "total_pushes": 1592,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 232.31677344338925,
+  "s_quality": 43.540437400373996,
+  "s_impact": 319.4024307932064,
+  "s_consistency": 213.87922896554454,
+  "rank_score": 0.0,
+  "rank": 4697
+}

@@ -1,16 +1,16 @@
 {
   "username": "dev_94",
-  "country": "India",
+  "country": "Japan",
   "primary_language": "JavaScript",
-  "total_pushes": 402,
-  "merged_prs": 1,
-  "bot_penalty": 1.0,
-  "is_human_verified": false,
-  "is_bot_classified": true,
-  "s_pr": 145.41768347235464,
-  "s_quality": 34.90997522682057,
-  "s_impact": 339.8693484912127,
-  "s_consistency": 219.01193666854874,
-  "rank_score": 0.0,
-  "rank": 286
+  "total_pushes": 275,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 425.85340726215685,
+  "s_quality": 101.6336766832564,
+  "s_impact": 435.41093619294634,
+  "s_consistency": 106.86072500445084,
+  "rank_score": 299.3,
+  "rank": 1940
 }

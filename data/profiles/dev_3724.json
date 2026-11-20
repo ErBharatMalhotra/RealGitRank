@@ -1,0 +1,16 @@
+{
+  "username": "dev_3724",
+  "country": "Germany",
+  "primary_language": "Swift",
+  "total_pushes": 27,
+  "merged_prs": 36,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 440.8115425384277,
+  "s_quality": 83.11330850120468,
+  "s_impact": 472.0363826220826,
+  "s_consistency": 189.0702299902777,
+  "rank_score": 321.4,
+  "rank": 900
+}

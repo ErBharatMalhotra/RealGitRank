@@ -1,0 +1,16 @@
+{
+  "username": "dev_1340",
+  "country": "Saudi Arabia",
+  "primary_language": "Rust",
+  "total_pushes": 140,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 277.0760481463267,
+  "s_quality": 69.7169732091682,
+  "s_impact": 325.38284749008767,
+  "s_consistency": 161.46714540513432,
+  "rank_score": 220.0,
+  "rank": 4088
+}

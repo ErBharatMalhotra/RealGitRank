@@ -1,16 +1,16 @@
 {
   "username": "dev_271",
-  "country": "United States",
-  "primary_language": "Kotlin",
-  "total_pushes": 312,
-  "merged_prs": 7,
+  "country": "Nigeria",
+  "primary_language": "JavaScript",
+  "total_pushes": 81,
+  "merged_prs": 37,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 320.4565204370037,
-  "s_quality": 96.32993717765129,
-  "s_impact": 459.44503094459924,
-  "s_consistency": 75.59207897567357,
-  "rank_score": 262.4,
-  "rank": 187
+  "s_pr": 439.6923990633568,
+  "s_quality": 52.34594874129495,
+  "s_impact": 508.4173812519042,
+  "s_consistency": 138.3563756642285,
+  "rank_score": 314.8,
+  "rank": 1162
 }

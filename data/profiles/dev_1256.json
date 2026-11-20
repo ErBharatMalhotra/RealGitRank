@@ -1,0 +1,16 @@
+{
+  "username": "dev_1256",
+  "country": "Spain",
+  "primary_language": "Go",
+  "total_pushes": 250,
+  "merged_prs": 33,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 452.7433652000569,
+  "s_quality": 66.74760251420643,
+  "s_impact": 244.1233327339056,
+  "s_consistency": 79.27474106104859,
+  "rank_score": 248.1,
+  "rank": 3706
+}

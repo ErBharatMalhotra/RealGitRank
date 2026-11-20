@@ -1,0 +1,16 @@
+{
+  "username": "dev_3702",
+  "country": "Germany",
+  "primary_language": "TypeScript",
+  "total_pushes": 233,
+  "merged_prs": 1,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 112.7330538458175,
+  "s_quality": 71.04101278303399,
+  "s_impact": 440.321368848523,
+  "s_consistency": 119.86590649935103,
+  "rank_score": 185.3,
+  "rank": 4337
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_2096",
+  "country": "Vietnam",
+  "primary_language": "Java",
+  "total_pushes": 670,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 283.45757761108206,
+  "s_quality": 50.23474393980029,
+  "s_impact": 256.26281220072485,
+  "s_consistency": 143.1945622001443,
+  "rank_score": 0.0,
+  "rank": 4604
+}

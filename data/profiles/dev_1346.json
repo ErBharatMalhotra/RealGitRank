@@ -1,0 +1,16 @@
+{
+  "username": "dev_1346",
+  "country": "Netherlands",
+  "primary_language": "Ruby",
+  "total_pushes": 283,
+  "merged_prs": 29,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 441.5513747468828,
+  "s_quality": 83.4881137046427,
+  "s_impact": 310.5655567531427,
+  "s_consistency": 206.89037053042077,
+  "rank_score": 284.1,
+  "rank": 2623
+}

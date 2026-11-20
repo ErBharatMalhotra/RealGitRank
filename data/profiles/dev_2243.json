@@ -1,0 +1,16 @@
+{
+  "username": "dev_2243",
+  "country": "India",
+  "primary_language": "Go",
+  "total_pushes": 178,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 244.10279905355512,
+  "s_quality": 86.31206382761201,
+  "s_impact": 450.50849871963374,
+  "s_consistency": 156.23967055072268,
+  "rank_score": 243.1,
+  "rank": 3790
+}

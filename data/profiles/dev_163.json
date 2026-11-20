@@ -1,16 +1,16 @@
 {
   "username": "dev_163",
-  "country": "France",
-  "primary_language": "TypeScript",
-  "total_pushes": 255,
-  "merged_prs": 24,
+  "country": "Egypt",
+  "primary_language": "Go",
+  "total_pushes": 279,
+  "merged_prs": 6,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 424.55047920139447,
-  "s_quality": 96.74116362122857,
-  "s_impact": 434.8062748386721,
-  "s_consistency": 127.52032144194699,
-  "rank_score": 300.6,
-  "rank": 119
+  "s_pr": 303.15976855076127,
+  "s_quality": 75.28885457802215,
+  "s_impact": 498.87501633689317,
+  "s_consistency": 204.82751673795036,
+  "rank_score": 280.4,
+  "rank": 2796
 }

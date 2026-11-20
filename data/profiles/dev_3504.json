@@ -1,0 +1,16 @@
+{
+  "username": "dev_3504",
+  "country": "Vietnam",
+  "primary_language": "Swift",
+  "total_pushes": 1080,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 126.65036111023332,
+  "s_quality": 50.23474393980029,
+  "s_impact": 328.81581831293704,
+  "s_consistency": 225.84071341883623,
+  "rank_score": 0.0,
+  "rank": 4794
+}

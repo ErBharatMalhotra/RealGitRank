@@ -1,0 +1,16 @@
+{
+  "username": "dev_1580",
+  "country": "Italy",
+  "primary_language": "Go",
+  "total_pushes": 111,
+  "merged_prs": 18,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 421.45667806458863,
+  "s_quality": 68.60821659255375,
+  "s_impact": 467.0149760540678,
+  "s_consistency": 189.72295733197436,
+  "rank_score": 309.9,
+  "rank": 1405
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_557",
+  "country": "South Africa",
+  "primary_language": "Java",
+  "total_pushes": 135,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 526.3804437467572,
+  "s_quality": 55.313367703007216,
+  "s_impact": 493.6643062191491,
+  "s_consistency": 198.34910722463331,
+  "rank_score": 351.2,
+  "rank": 53
+}

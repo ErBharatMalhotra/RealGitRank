@@ -1,0 +1,16 @@
+{
+  "username": "dev_3404",
+  "country": "Vietnam",
+  "primary_language": "Rust",
+  "total_pushes": 1977,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 250.19963563567723,
+  "s_quality": 55.70439064361893,
+  "s_impact": 306.2211264068776,
+  "s_consistency": 230.89551926240472,
+  "rank_score": 0.0,
+  "rank": 4715
+}

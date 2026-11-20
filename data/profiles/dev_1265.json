@@ -1,0 +1,16 @@
+{
+  "username": "dev_1265",
+  "country": "Spain",
+  "primary_language": "Python",
+  "total_pushes": 1617,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 207.40407576167635,
+  "s_quality": 50.23474393980029,
+  "s_impact": 331.49197284905165,
+  "s_consistency": 228.93448360474065,
+  "rank_score": 0.0,
+  "rank": 4681
+}

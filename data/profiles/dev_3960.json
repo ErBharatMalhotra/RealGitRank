@@ -1,0 +1,16 @@
+{
+  "username": "dev_3960",
+  "country": "South Africa",
+  "primary_language": "Python",
+  "total_pushes": 57,
+  "merged_prs": 32,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 525.1865882541115,
+  "s_quality": 64.7378556210096,
+  "s_impact": 438.2982320772423,
+  "s_consistency": 119.34723341312518,
+  "rank_score": 327.5,
+  "rank": 636
+}

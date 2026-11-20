@@ -1,0 +1,16 @@
+{
+  "username": "dev_1661",
+  "country": "Thailand",
+  "primary_language": "Python",
+  "total_pushes": 200,
+  "merged_prs": 12,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 302.35509793985176,
+  "s_quality": 89.92174693789315,
+  "s_impact": 400.0264339932171,
+  "s_consistency": 187.36318681594375,
+  "rank_score": 256.4,
+  "rank": 3511
+}

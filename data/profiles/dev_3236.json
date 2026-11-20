@@ -1,0 +1,16 @@
+{
+  "username": "dev_3236",
+  "country": "Sweden",
+  "primary_language": "JavaScript",
+  "total_pushes": 813,
+  "merged_prs": 5,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 297.3455861813217,
+  "s_quality": 55.70439064361893,
+  "s_impact": 319.0502756883328,
+  "s_consistency": 180.55528229165532,
+  "rank_score": 0.0,
+  "rank": 4549
+}

@@ -1,16 +1,16 @@
 {
   "username": "dev_161",
-  "country": "Brazil",
-  "primary_language": "C++",
-  "total_pushes": 384,
-  "merged_prs": 10,
+  "country": "Nigeria",
+  "primary_language": "Kotlin",
+  "total_pushes": 107,
+  "merged_prs": 1,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 387.66742310262885,
-  "s_quality": 74.57163380674476,
-  "s_impact": 391.0475157393033,
-  "s_consistency": 194.88622384136627,
-  "rank_score": 281.3,
-  "rank": 157
+  "s_pr": 146.96090999743456,
+  "s_quality": 81.43665101591958,
+  "s_impact": 445.21942191892947,
+  "s_consistency": 193.3051702975176,
+  "rank_score": 212.1,
+  "rank": 4167
 }

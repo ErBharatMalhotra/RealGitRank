@@ -1,0 +1,16 @@
+{
+  "username": "dev_4285",
+  "country": "United Kingdom",
+  "primary_language": "JavaScript",
+  "total_pushes": 85,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 521.1276247152274,
+  "s_quality": 74.6161505690302,
+  "s_impact": 471.21508237859973,
+  "s_consistency": 183.41884820109163,
+  "rank_score": 346.4,
+  "rank": 106
+}

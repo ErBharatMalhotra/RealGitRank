@@ -1,0 +1,16 @@
+{
+  "username": "dev_3616",
+  "country": "Malaysia",
+  "primary_language": "Java",
+  "total_pushes": 123,
+  "merged_prs": 14,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 395.7353340312895,
+  "s_quality": 60.78399978941333,
+  "s_impact": 444.6141689124064,
+  "s_consistency": 166.75730214285738,
+  "rank_score": 289.9,
+  "rank": 2380
+}

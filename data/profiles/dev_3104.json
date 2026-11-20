@@ -1,0 +1,16 @@
+{
+  "username": "dev_3104",
+  "country": "China",
+  "primary_language": "Go",
+  "total_pushes": 1898,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 227.81708796919852,
+  "s_quality": 22.746021983575638,
+  "s_impact": 335.99615208443475,
+  "s_consistency": 206.62012847331965,
+  "rank_score": 0.0,
+  "rank": 4711
+}

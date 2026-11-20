@@ -1,0 +1,16 @@
+{
+  "username": "dev_2485",
+  "country": "Egypt",
+  "primary_language": "Swift",
+  "total_pushes": 95,
+  "merged_prs": 13,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 381.59825631893904,
+  "s_quality": 53.07059013932269,
+  "s_impact": 439.4875276733201,
+  "s_consistency": 41.364074015418836,
+  "rank_score": 262.9,
+  "rank": 3372
+}

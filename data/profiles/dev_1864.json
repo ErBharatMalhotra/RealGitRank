@@ -1,0 +1,16 @@
+{
+  "username": "dev_1864",
+  "country": "Netherlands",
+  "primary_language": "Java",
+  "total_pushes": 98,
+  "merged_prs": 16,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 387.47830650322976,
+  "s_quality": 69.13569623668091,
+  "s_impact": 441.5336164465624,
+  "s_consistency": 173.0658510660446,
+  "rank_score": 289.2,
+  "rank": 2409
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_470",
+  "country": "Sweden",
+  "primary_language": "TypeScript",
+  "total_pushes": 296,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 176.04023241912986,
+  "s_quality": 85.95701172772692,
+  "s_impact": 399.0797358277753,
+  "s_consistency": 205.22993529394262,
+  "rank_score": 213.7,
+  "rank": 4150
+}

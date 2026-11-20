@@ -1,16 +1,16 @@
 {
   "username": "dev_263",
-  "country": "Germany",
-  "primary_language": "Kotlin",
-  "total_pushes": 205,
-  "merged_prs": 18,
+  "country": "Argentina",
+  "primary_language": "TypeScript",
+  "total_pushes": 235,
+  "merged_prs": 24,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 411.04578494934515,
-  "s_quality": 66.643956894995,
-  "s_impact": 464.02206135276026,
-  "s_consistency": 185.9645890037365,
-  "rank_score": 304.4,
-  "rank": 108
+  "s_pr": 448.5810311324365,
+  "s_quality": 62.28355273023146,
+  "s_impact": 412.76910690686896,
+  "s_consistency": 157.2380717278485,
+  "rank_score": 299.4,
+  "rank": 1932
 }

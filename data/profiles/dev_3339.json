@@ -1,0 +1,16 @@
+{
+  "username": "dev_3339",
+  "country": "Russia",
+  "primary_language": "Ruby",
+  "total_pushes": 101,
+  "merged_prs": 30,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 459.97502742890407,
+  "s_quality": 75.89174194168191,
+  "s_impact": 462.8694805125035,
+  "s_consistency": 161.0821547319889,
+  "rank_score": 319.8,
+  "rank": 956
+}

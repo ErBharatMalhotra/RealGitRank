@@ -1,0 +1,16 @@
+{
+  "username": "dev_2209",
+  "country": "Russia",
+  "primary_language": "Java",
+  "total_pushes": 375,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 539.0487207796872,
+  "s_quality": 89.72438448346303,
+  "s_impact": 476.0879670743791,
+  "s_consistency": 46.51752918344559,
+  "rank_score": 337.1,
+  "rank": 297
+}

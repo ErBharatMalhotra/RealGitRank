@@ -1,0 +1,16 @@
+{
+  "username": "dev_1081",
+  "country": "Vietnam",
+  "primary_language": "Ruby",
+  "total_pushes": 326,
+  "merged_prs": 32,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 410.7289349639912,
+  "s_quality": 77.42913036678937,
+  "s_impact": 490.95754506786926,
+  "s_consistency": 191.67093394986168,
+  "rank_score": 314.6,
+  "rank": 1175
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_1977",
+  "country": "Argentina",
+  "primary_language": "JavaScript",
+  "total_pushes": 73,
+  "merged_prs": 23,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 374.43692054885366,
+  "s_quality": 80.82653469578185,
+  "s_impact": 466.0395467501379,
+  "s_consistency": 196.63323309112707,
+  "rank_score": 297.3,
+  "rank": 2036
+}

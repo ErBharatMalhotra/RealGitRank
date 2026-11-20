@@ -1,0 +1,16 @@
+{
+  "username": "dev_627",
+  "country": "Italy",
+  "primary_language": "Rust",
+  "total_pushes": 69,
+  "merged_prs": 14,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 415.04391261755364,
+  "s_quality": 82.46870029116859,
+  "s_impact": 483.4864816306645,
+  "s_consistency": 169.11579258346748,
+  "rank_score": 312.1,
+  "rank": 1302
+}

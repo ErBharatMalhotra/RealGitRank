@@ -1,16 +1,16 @@
 {
   "username": "dev_299",
-  "country": "United States",
-  "primary_language": "Kotlin",
-  "total_pushes": 389,
-  "merged_prs": 25,
+  "country": "Philippines",
+  "primary_language": "Rust",
+  "total_pushes": 200,
+  "merged_prs": 9,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 402.9035563982592,
-  "s_quality": 58.70887100150157,
-  "s_impact": 471.1975670482116,
-  "s_consistency": 151.1134200215148,
-  "rank_score": 296.2,
-  "rank": 129
+  "s_pr": 346.85050404609166,
+  "s_quality": 61.87104108115244,
+  "s_impact": 353.40424481742286,
+  "s_consistency": 145.99576618922987,
+  "rank_score": 247.1,
+  "rank": 3727
 }

@@ -1,0 +1,16 @@
+{
+  "username": "dev_4321",
+  "country": "Turkey",
+  "primary_language": "Python",
+  "total_pushes": 1549,
+  "merged_prs": 0,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 0.0,
+  "s_quality": 22.746021983575638,
+  "s_impact": 277.3943825577617,
+  "s_consistency": 203.3932024164411,
+  "rank_score": 0.0,
+  "rank": 4990
+}

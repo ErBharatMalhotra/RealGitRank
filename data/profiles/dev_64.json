@@ -1,16 +1,16 @@
 {
   "username": "dev_64",
-  "country": "Germany",
-  "primary_language": "JavaScript",
-  "total_pushes": 281,
-  "merged_prs": 17,
+  "country": "Saudi Arabia",
+  "primary_language": "Python",
+  "total_pushes": 133,
+  "merged_prs": 40,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 445.6755113128837,
-  "s_quality": 96.17387310919271,
-  "s_impact": 407.050941683958,
-  "s_consistency": 206.0814658706078,
-  "rank_score": 312.7,
-  "rank": 73
+  "s_pr": 478.6946091362216,
+  "s_quality": 72.78562406683848,
+  "s_impact": 461.55852631709365,
+  "s_consistency": 135.96656340123258,
+  "rank_score": 321.5,
+  "rank": 894
 }

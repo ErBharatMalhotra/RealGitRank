@@ -1,0 +1,16 @@
+{
+  "username": "dev_2896",
+  "country": "Poland",
+  "primary_language": "TypeScript",
+  "total_pushes": 321,
+  "merged_prs": 35,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 530.739553383195,
+  "s_quality": 62.177528826013784,
+  "s_impact": 460.10814693191116,
+  "s_consistency": 166.3417735071434,
+  "rank_score": 341.3,
+  "rank": 200
+}

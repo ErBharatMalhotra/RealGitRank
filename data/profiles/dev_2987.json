@@ -1,0 +1,16 @@
+{
+  "username": "dev_2987",
+  "country": "Japan",
+  "primary_language": "Java",
+  "total_pushes": 169,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 480.87303935712845,
+  "s_quality": 90.52629853752855,
+  "s_impact": 447.73743325705186,
+  "s_consistency": 200.89371286581715,
+  "rank_score": 333.0,
+  "rank": 443
+}

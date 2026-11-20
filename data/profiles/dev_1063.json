@@ -1,0 +1,16 @@
+{
+  "username": "dev_1063",
+  "country": "China",
+  "primary_language": "Ruby",
+  "total_pushes": 1567,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 122.14145832885131,
+  "s_quality": 55.70439064361893,
+  "s_impact": 211.65286571555663,
+  "s_consistency": 198.12517663354976,
+  "rank_score": 0.0,
+  "rank": 4744
+}

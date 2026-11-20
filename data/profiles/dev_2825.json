@@ -1,0 +1,16 @@
+{
+  "username": "dev_2825",
+  "country": "Netherlands",
+  "primary_language": "C++",
+  "total_pushes": 7,
+  "merged_prs": 21,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 440.52290324173845,
+  "s_quality": 88.57579196373362,
+  "s_impact": 479.07663881412384,
+  "s_consistency": 166.62966681690537,
+  "rank_score": 321.1,
+  "rank": 907
+}

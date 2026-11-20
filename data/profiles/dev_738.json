@@ -1,0 +1,16 @@
+{
+  "username": "dev_738",
+  "country": "Germany",
+  "primary_language": "Java",
+  "total_pushes": 281,
+  "merged_prs": 24,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 486.04487524574773,
+  "s_quality": 64.17255719762883,
+  "s_impact": 421.3384728822582,
+  "s_consistency": 199.72281471113973,
+  "rank_score": 321.5,
+  "rank": 898
+}

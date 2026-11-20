@@ -1,0 +1,16 @@
+{
+  "username": "dev_1885",
+  "country": "France",
+  "primary_language": "JavaScript",
+  "total_pushes": 1569,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 184.92915332713955,
+  "s_quality": 22.746021983575638,
+  "s_impact": 340.8974306994692,
+  "s_consistency": 168.7358433884438,
+  "rank_score": 0.0,
+  "rank": 4693
+}

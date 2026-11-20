@@ -1,0 +1,16 @@
+{
+  "username": "dev_4077",
+  "country": "India",
+  "primary_language": "Go",
+  "total_pushes": 345,
+  "merged_prs": 20,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 471.06114173593403,
+  "s_quality": 72.07051682294022,
+  "s_impact": 489.6309743879924,
+  "s_consistency": 188.32884212937321,
+  "rank_score": 333.5,
+  "rank": 427
+}

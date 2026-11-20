@@ -1,0 +1,16 @@
+{
+  "username": "dev_4545",
+  "country": "Brazil",
+  "primary_language": "Ruby",
+  "total_pushes": 245,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 238.3032048464283,
+  "s_quality": 61.61573884267906,
+  "s_impact": 458.5181925314655,
+  "s_consistency": 126.67232799961407,
+  "rank_score": 232.4,
+  "rank": 3939
+}

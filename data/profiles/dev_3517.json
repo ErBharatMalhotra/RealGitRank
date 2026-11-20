@@ -1,0 +1,16 @@
+{
+  "username": "dev_3517",
+  "country": "Germany",
+  "primary_language": "Ruby",
+  "total_pushes": 229,
+  "merged_prs": 23,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 392.8849948861088,
+  "s_quality": 60.03681536603591,
+  "s_impact": 507.30708436953205,
+  "s_consistency": 197.01353876612743,
+  "rank_score": 308.9,
+  "rank": 1456
+}

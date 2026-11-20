@@ -1,0 +1,16 @@
+{
+  "username": "dev_439",
+  "country": "Russia",
+  "primary_language": "Ruby",
+  "total_pushes": 700,
+  "merged_prs": 5,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 209.31830721897012,
+  "s_quality": 43.540437400373996,
+  "s_impact": 227.0513780350957,
+  "s_consistency": 88.26394776673882,
+  "rank_score": 0.0,
+  "rank": 4503
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_313",
+  "country": "Netherlands",
+  "primary_language": "Go",
+  "total_pushes": 1520,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 101.93897006671298,
+  "s_quality": 43.540437400373996,
+  "s_impact": 213.86355308791673,
+  "s_consistency": 224.76540315778806,
+  "rank_score": 0.0,
+  "rank": 4830
+}

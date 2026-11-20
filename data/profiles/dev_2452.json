@@ -1,0 +1,16 @@
+{
+  "username": "dev_2452",
+  "country": "Sweden",
+  "primary_language": "Swift",
+  "total_pushes": 387,
+  "merged_prs": 22,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 425.38528528467793,
+  "s_quality": 69.20655228386765,
+  "s_impact": 473.32863166708484,
+  "s_consistency": 174.53838605727603,
+  "rank_score": 310.7,
+  "rank": 1366
+}

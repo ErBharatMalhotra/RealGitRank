@@ -1,0 +1,16 @@
+{
+  "username": "dev_2326",
+  "country": "South Africa",
+  "primary_language": "Go",
+  "total_pushes": 136,
+  "merged_prs": 34,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 534.5075293175988,
+  "s_quality": 56.37490541837831,
+  "s_impact": 471.9960485975704,
+  "s_consistency": 195.5188017541763,
+  "rank_score": 348.5,
+  "rank": 73
+}

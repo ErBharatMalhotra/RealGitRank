@@ -1,0 +1,16 @@
+{
+  "username": "dev_1301",
+  "country": "Poland",
+  "primary_language": "Go",
+  "total_pushes": 118,
+  "merged_prs": 36,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 530.760020327269,
+  "s_quality": 71.4105675957278,
+  "s_impact": 497.405238924101,
+  "s_consistency": 181.7688389829884,
+  "rank_score": 355.2,
+  "rank": 19
+}

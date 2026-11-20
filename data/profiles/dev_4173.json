@@ -1,0 +1,16 @@
+{
+  "username": "dev_4173",
+  "country": "United Kingdom",
+  "primary_language": "Java",
+  "total_pushes": 15,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 236.90829101091103,
+  "s_quality": 38.89559146163967,
+  "s_impact": 383.40798135886234,
+  "s_consistency": 210.34003107353035,
+  "rank_score": 220.0,
+  "rank": 4090
+}

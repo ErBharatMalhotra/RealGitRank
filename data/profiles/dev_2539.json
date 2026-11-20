@@ -1,0 +1,16 @@
+{
+  "username": "dev_2539",
+  "country": "Spain",
+  "primary_language": "Ruby",
+  "total_pushes": 201,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 343.8510057829631,
+  "s_quality": 71.89274418022887,
+  "s_impact": 359.1100949182591,
+  "s_consistency": 182.19382037615918,
+  "rank_score": 255.4,
+  "rank": 3543
+}

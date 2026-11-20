@@ -1,0 +1,16 @@
+{
+  "username": "dev_2238",
+  "country": "Thailand",
+  "primary_language": "Ruby",
+  "total_pushes": 1310,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 83.88723356607997,
+  "s_quality": 43.540437400373996,
+  "s_impact": 287.00640265891246,
+  "s_consistency": 185.55945521950446,
+  "rank_score": 0.0,
+  "rank": 4862
+}

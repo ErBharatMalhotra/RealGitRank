@@ -1,0 +1,16 @@
+{
+  "username": "dev_4056",
+  "country": "United Kingdom",
+  "primary_language": "Python",
+  "total_pushes": 27,
+  "merged_prs": 9,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 370.370015577709,
+  "s_quality": 70.68222987268892,
+  "s_impact": 431.8196077704087,
+  "s_consistency": 203.81799170199486,
+  "rank_score": 285.8,
+  "rank": 2550
+}

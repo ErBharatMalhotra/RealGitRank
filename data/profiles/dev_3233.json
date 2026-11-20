@@ -1,0 +1,16 @@
+{
+  "username": "dev_3233",
+  "country": "Egypt",
+  "primary_language": "TypeScript",
+  "total_pushes": 1566,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 83.67167788868825,
+  "s_quality": 55.70439064361893,
+  "s_impact": 274.843146545861,
+  "s_consistency": 201.69812483265702,
+  "rank_score": 0.0,
+  "rank": 4875
+}

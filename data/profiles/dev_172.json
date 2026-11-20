@@ -1,16 +1,16 @@
 {
   "username": "dev_172",
-  "country": "Canada",
-  "primary_language": "Java",
-  "total_pushes": 150,
-  "merged_prs": 36,
+  "country": "Turkey",
+  "primary_language": "TypeScript",
+  "total_pushes": 400,
+  "merged_prs": 7,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 532.441798995728,
-  "s_quality": 60.71710012731227,
-  "s_impact": 459.0427510699803,
-  "s_consistency": 185.59810003224268,
-  "rank_score": 344.1,
-  "rank": 5
+  "s_pr": 273.7373620182673,
+  "s_quality": 87.09720339785918,
+  "s_impact": 446.11827015408056,
+  "s_consistency": 109.56156597945129,
+  "rank_score": 245.5,
+  "rank": 3746
 }

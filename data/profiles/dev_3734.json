@@ -1,0 +1,16 @@
+{
+  "username": "dev_3734",
+  "country": "United States",
+  "primary_language": "Rust",
+  "total_pushes": 69,
+  "merged_prs": 25,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 394.2954967397035,
+  "s_quality": 83.41391881476244,
+  "s_impact": 474.4659579497841,
+  "s_consistency": 192.5310955390084,
+  "rank_score": 306.4,
+  "rank": 1564
+}

@@ -1,16 +1,16 @@
 {
   "username": "dev_91",
-  "country": "Japan",
+  "country": "Australia",
   "primary_language": "Kotlin",
-  "total_pushes": 215,
-  "merged_prs": 28,
+  "total_pushes": 14,
+  "merged_prs": 13,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 425.0490967615964,
-  "s_quality": 80.33290300174309,
-  "s_impact": 472.7690769581483,
-  "s_consistency": 175.74583555017605,
-  "rank_score": 313.4,
-  "rank": 71
+  "s_pr": 330.0052453949338,
+  "s_quality": 87.93220156321263,
+  "s_impact": 505.5664657265713,
+  "s_consistency": 83.75310589338001,
+  "rank_score": 276.4,
+  "rank": 2935
 }

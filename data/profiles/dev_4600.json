@@ -1,0 +1,16 @@
+{
+  "username": "dev_4600",
+  "country": "Netherlands",
+  "primary_language": "Ruby",
+  "total_pushes": 226,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 168.26090561962013,
+  "s_quality": 50.23474393980029,
+  "s_impact": 264.16895303569413,
+  "s_consistency": 224.76540315778806,
+  "rank_score": 0.0,
+  "rank": 4816
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_2471",
+  "country": "Argentina",
+  "primary_language": "Rust",
+  "total_pushes": 1510,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 171.5671862008975,
+  "s_quality": 55.70439064361893,
+  "s_impact": 349.1572113230061,
+  "s_consistency": 157.57866582273334,
+  "rank_score": 0.0,
+  "rank": 4768
+}

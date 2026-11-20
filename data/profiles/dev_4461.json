@@ -1,0 +1,16 @@
+{
+  "username": "dev_4461",
+  "country": "Sweden",
+  "primary_language": "Python",
+  "total_pushes": 1149,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 178.51178980240434,
+  "s_quality": 55.70439064361893,
+  "s_impact": 260.21583203494447,
+  "s_consistency": 199.94355884209352,
+  "rank_score": 0.0,
+  "rank": 4813
+}

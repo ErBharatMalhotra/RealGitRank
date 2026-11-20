@@ -1,0 +1,16 @@
+{
+  "username": "dev_2389",
+  "country": "Malaysia",
+  "primary_language": "Ruby",
+  "total_pushes": 415,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 150.36311788702292,
+  "s_quality": 50.23474393980029,
+  "s_impact": 290.52119570510723,
+  "s_consistency": 228.93448360474065,
+  "rank_score": 0.0,
+  "rank": 4766
+}

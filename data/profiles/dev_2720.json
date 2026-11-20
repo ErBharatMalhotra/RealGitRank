@@ -1,0 +1,16 @@
+{
+  "username": "dev_2720",
+  "country": "Turkey",
+  "primary_language": "Go",
+  "total_pushes": 371,
+  "merged_prs": 17,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 341.85400838138247,
+  "s_quality": 51.47401620342576,
+  "s_impact": 229.96510924369176,
+  "s_consistency": 201.6163128846431,
+  "rank_score": 220.3,
+  "rank": 4087
+}

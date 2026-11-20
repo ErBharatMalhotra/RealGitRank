@@ -1,0 +1,16 @@
+{
+  "username": "dev_573",
+  "country": "Vietnam",
+  "primary_language": "Go",
+  "total_pushes": 68,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 503.9557332992076,
+  "s_quality": 66.94572875299454,
+  "s_impact": 481.3486061615121,
+  "s_consistency": 197.05835606812647,
+  "rank_score": 343.0,
+  "rank": 166
+}

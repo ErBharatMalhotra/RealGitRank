@@ -1,0 +1,16 @@
+{
+  "username": "dev_1588",
+  "country": "Germany",
+  "primary_language": "C++",
+  "total_pushes": 138,
+  "merged_prs": 12,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 296.70183864912804,
+  "s_quality": 80.32077318624451,
+  "s_impact": 383.81894799450316,
+  "s_consistency": 168.51888138509761,
+  "rank_score": 245.2,
+  "rank": 3756
+}

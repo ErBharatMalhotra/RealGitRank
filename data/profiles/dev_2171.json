@@ -1,0 +1,16 @@
+{
+  "username": "dev_2171",
+  "country": "Russia",
+  "primary_language": "Swift",
+  "total_pushes": 783,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 274.5997055436298,
+  "s_quality": 50.23474393980029,
+  "s_impact": 317.4690606378746,
+  "s_consistency": 137.3054104173251,
+  "rank_score": 0.0,
+  "rank": 4607
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_2848",
+  "country": "South Africa",
+  "primary_language": "Java",
+  "total_pushes": 29,
+  "merged_prs": 13,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 336.0686432762415,
+  "s_quality": 96.61448475549048,
+  "s_impact": 349.9879495453667,
+  "s_consistency": 85.12082432595315,
+  "rank_score": 242.0,
+  "rank": 3810
+}

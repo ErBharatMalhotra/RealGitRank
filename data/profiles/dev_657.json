@@ -1,0 +1,16 @@
+{
+  "username": "dev_657",
+  "country": "Russia",
+  "primary_language": "Rust",
+  "total_pushes": 372,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 526.66367510905,
+  "s_quality": 76.94237895281763,
+  "s_impact": 440.48062880053925,
+  "s_consistency": 168.93099686933618,
+  "rank_score": 339.0,
+  "rank": 254
+}

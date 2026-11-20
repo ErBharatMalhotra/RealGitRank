@@ -1,16 +1,16 @@
 {
   "username": "dev_61",
-  "country": "Japan",
-  "primary_language": "C++",
-  "total_pushes": 85,
-  "merged_prs": 37,
+  "country": "Netherlands",
+  "primary_language": "Ruby",
+  "total_pushes": 45,
+  "merged_prs": 15,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 516.521406373963,
-  "s_quality": 72.43273324686803,
-  "s_impact": 438.0374035287741,
-  "s_consistency": 169.29180533817305,
-  "rank_score": 333.8,
-  "rank": 21
+  "s_pr": 337.48563574288744,
+  "s_quality": 64.34690860784329,
+  "s_impact": 488.0702374569425,
+  "s_consistency": 190.22844531727338,
+  "rank_score": 284.8,
+  "rank": 2594
 }

@@ -1,0 +1,16 @@
+{
+  "username": "dev_4018",
+  "country": "Mexico",
+  "primary_language": "Swift",
+  "total_pushes": 236,
+  "merged_prs": 24,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 462.427586731171,
+  "s_quality": 57.572247566754534,
+  "s_impact": 370.9021132487041,
+  "s_consistency": 147.30845679322988,
+  "rank_score": 291.1,
+  "rank": 2316
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_3813",
+  "country": "Australia",
+  "primary_language": "Swift",
+  "total_pushes": 27,
+  "merged_prs": 32,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 520.5359690177565,
+  "s_quality": 66.35487254002643,
+  "s_impact": 434.56110209589883,
+  "s_consistency": 191.31081979955144,
+  "rank_score": 336.1,
+  "rank": 335
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_2600",
+  "country": "United States",
+  "primary_language": "Kotlin",
+  "total_pushes": 63,
+  "merged_prs": 23,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 464.90374876745943,
+  "s_quality": 41.4900339217095,
+  "s_impact": 487.766902733782,
+  "s_consistency": 121.05148984890539,
+  "rank_score": 313.2,
+  "rank": 1247
+}

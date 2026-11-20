@@ -1,0 +1,16 @@
+{
+  "username": "dev_2412",
+  "country": "South Korea",
+  "primary_language": "Rust",
+  "total_pushes": 1426,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 118.57419033219209,
+  "s_quality": 43.540437400373996,
+  "s_impact": 317.7557737876521,
+  "s_consistency": 168.7358433884438,
+  "rank_score": 0.0,
+  "rank": 4866
+}

@@ -1,16 +1,16 @@
 {
   "username": "dev_170",
-  "country": "France",
-  "primary_language": "Kotlin",
-  "total_pushes": 72,
-  "merged_prs": 15,
+  "country": "Russia",
+  "primary_language": "Rust",
+  "total_pushes": 280,
+  "merged_prs": 31,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 337.31162898344553,
-  "s_quality": 41.9931321055145,
-  "s_impact": 475.9288397354426,
-  "s_consistency": 154.6108819264519,
-  "rank_score": 270.7,
-  "rank": 174
+  "s_pr": 428.88387372963615,
+  "s_quality": 52.17977651024292,
+  "s_impact": 429.56597109724464,
+  "s_consistency": 191.37070650637216,
+  "rank_score": 299.3,
+  "rank": 1943
 }

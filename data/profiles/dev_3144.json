@@ -1,0 +1,16 @@
+{
+  "username": "dev_3144",
+  "country": "Mexico",
+  "primary_language": "Kotlin",
+  "total_pushes": 117,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 542.3050253592661,
+  "s_quality": 60.094169153229146,
+  "s_impact": 496.06197805594695,
+  "s_consistency": 110.91501007407442,
+  "rank_score": 345.5,
+  "rank": 125
+}

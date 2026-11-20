@@ -1,0 +1,16 @@
+{
+  "username": "dev_1809",
+  "country": "Vietnam",
+  "primary_language": "C++",
+  "total_pushes": 23,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 436.22557753170224,
+  "s_quality": 61.57338848970063,
+  "s_impact": 438.4371546244619,
+  "s_consistency": 204.4188167807811,
+  "rank_score": 308.3,
+  "rank": 1484
+}

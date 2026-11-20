@@ -1,0 +1,16 @@
+{
+  "username": "dev_4804",
+  "country": "Turkey",
+  "primary_language": "TypeScript",
+  "total_pushes": 161,
+  "merged_prs": 32,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 509.7878491041599,
+  "s_quality": 75.21844888617336,
+  "s_impact": 514.9802488346152,
+  "s_consistency": 121.10505154238788,
+  "rank_score": 344.1,
+  "rank": 148
+}

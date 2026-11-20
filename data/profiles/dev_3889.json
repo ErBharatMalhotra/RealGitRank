@@ -1,0 +1,16 @@
+{
+  "username": "dev_3889",
+  "country": "Spain",
+  "primary_language": "Swift",
+  "total_pushes": 158,
+  "merged_prs": 32,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 487.2867335624552,
+  "s_quality": 63.607509186544206,
+  "s_impact": 473.8878020801126,
+  "s_consistency": 209.0181462537072,
+  "rank_score": 336.3,
+  "rank": 328
+}

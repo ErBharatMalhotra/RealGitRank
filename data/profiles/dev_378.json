@@ -1,0 +1,16 @@
+{
+  "username": "dev_378",
+  "country": "Brazil",
+  "primary_language": "Go",
+  "total_pushes": 399,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 513.6781514331655,
+  "s_quality": 65.29994296721239,
+  "s_impact": 460.95231272830245,
+  "s_consistency": 159.52159343196942,
+  "rank_score": 335.3,
+  "rank": 356
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_4496",
+  "country": "Netherlands",
+  "primary_language": "JavaScript",
+  "total_pushes": 101,
+  "merged_prs": 30,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 500.1041214365638,
+  "s_quality": 83.17753320017525,
+  "s_impact": 435.5765334227176,
+  "s_consistency": 168.0478607015401,
+  "rank_score": 329.9,
+  "rank": 542
+}

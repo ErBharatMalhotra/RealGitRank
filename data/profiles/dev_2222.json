@@ -1,0 +1,16 @@
+{
+  "username": "dev_2222",
+  "country": "Sweden",
+  "primary_language": "C++",
+  "total_pushes": 75,
+  "merged_prs": 29,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 444.8870508485927,
+  "s_quality": 88.81869042910823,
+  "s_impact": 480.6198901865247,
+  "s_consistency": 199.25628204645685,
+  "rank_score": 328.0,
+  "rank": 619
+}

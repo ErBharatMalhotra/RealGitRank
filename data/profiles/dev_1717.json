@@ -1,0 +1,16 @@
+{
+  "username": "dev_1717",
+  "country": "United Kingdom",
+  "primary_language": "TypeScript",
+  "total_pushes": 530,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 188.8252676269547,
+  "s_quality": 43.540437400373996,
+  "s_impact": 312.171489872298,
+  "s_consistency": 227.92434823886464,
+  "rank_score": 0.0,
+  "rank": 4692
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_3912",
+  "country": "Egypt",
+  "primary_language": "C++",
+  "total_pushes": 268,
+  "merged_prs": 19,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 438.8551670298413,
+  "s_quality": 51.517805003861724,
+  "s_impact": 403.5461383280648,
+  "s_consistency": 180.28211379583047,
+  "rank_score": 294.4,
+  "rank": 2169
+}

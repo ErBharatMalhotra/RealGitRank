@@ -1,0 +1,16 @@
+{
+  "username": "dev_3641",
+  "country": "France",
+  "primary_language": "Python",
+  "total_pushes": 37,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 459.3239937885989,
+  "s_quality": 94.70892604297156,
+  "s_impact": 270.7469054973792,
+  "s_consistency": 117.95251749292788,
+  "rank_score": 269.8,
+  "rank": 3157
+}

@@ -1,16 +1,16 @@
 {
   "username": "dev_112",
-  "country": "United States",
-  "primary_language": "Java",
-  "total_pushes": 181,
+  "country": "Saudi Arabia",
+  "primary_language": "Rust",
+  "total_pushes": 325,
   "merged_prs": 32,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 441.91481000760587,
-  "s_quality": 61.60831069166295,
-  "s_impact": 494.4957477727443,
-  "s_consistency": 150.43632888216015,
-  "rank_score": 316.3,
-  "rank": 66
+  "s_pr": 488.88555147952206,
+  "s_quality": 84.88565906225318,
+  "s_impact": 424.9974044624249,
+  "s_consistency": 67.34617700453951,
+  "rank_score": 308.7,
+  "rank": 1464
 }

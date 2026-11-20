@@ -1,0 +1,16 @@
+{
+  "username": "dev_1476",
+  "country": "Mexico",
+  "primary_language": "Rust",
+  "total_pushes": 143,
+  "merged_prs": 34,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 514.7962443216844,
+  "s_quality": 94.68851550867166,
+  "s_impact": 395.1118065938015,
+  "s_consistency": 202.44743352843554,
+  "rank_score": 333.0,
+  "rank": 445
+}

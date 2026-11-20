@@ -1,0 +1,16 @@
+{
+  "username": "dev_4938",
+  "country": "United States",
+  "primary_language": "Go",
+  "total_pushes": 587,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 173.80655924927535,
+  "s_quality": 43.540437400373996,
+  "s_impact": 275.3796222407274,
+  "s_consistency": 230.89551926240472,
+  "rank_score": 0.0,
+  "rank": 4662
+}

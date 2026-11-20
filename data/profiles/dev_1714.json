@@ -1,0 +1,16 @@
+{
+  "username": "dev_1714",
+  "country": "Netherlands",
+  "primary_language": "Python",
+  "total_pushes": 366,
+  "merged_prs": 10,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 329.0256166642763,
+  "s_quality": 62.86212610847801,
+  "s_impact": 461.9040476460339,
+  "s_consistency": 193.85965808206737,
+  "rank_score": 275.4,
+  "rank": 2974
+}

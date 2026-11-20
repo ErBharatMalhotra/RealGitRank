@@ -1,16 +1,16 @@
 {
   "username": "dev_284",
-  "country": "India",
-  "primary_language": "Java",
-  "total_pushes": 32,
-  "merged_prs": 34,
+  "country": "Brazil",
+  "primary_language": "C++",
+  "total_pushes": 286,
+  "merged_prs": 3,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 471.717475612519,
-  "s_quality": 58.59161628375007,
-  "s_impact": 311.60687368560366,
-  "s_consistency": 168.54877727274533,
-  "rank_score": 282.9,
-  "rank": 154
+  "s_pr": 254.2294934634454,
+  "s_quality": 77.86570398170004,
+  "s_impact": 323.1384565029368,
+  "s_consistency": 152.72771774953125,
+  "rank_score": 212.1,
+  "rank": 4166
 }

@@ -1,16 +1,16 @@
 {
   "username": "dev_292",
-  "country": "Japan",
+  "country": "United States",
   "primary_language": "Kotlin",
-  "total_pushes": 998,
-  "merged_prs": 1,
-  "bot_penalty": 1.0,
-  "is_human_verified": false,
-  "is_bot_classified": true,
-  "s_pr": 126.30892092317124,
-  "s_quality": 34.90997522682057,
-  "s_impact": 161.35630611000306,
-  "s_consistency": 192.23602485073064,
-  "rank_score": 0.0,
-  "rank": 292
+  "total_pushes": 344,
+  "merged_prs": 34,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 468.6122768942,
+  "s_quality": 85.90386533489851,
+  "s_impact": 453.4362004950775,
+  "s_consistency": 182.27840601118174,
+  "rank_score": 326.2,
+  "rank": 690
 }

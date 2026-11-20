@@ -1,0 +1,16 @@
+{
+  "username": "dev_2602",
+  "country": "Russia",
+  "primary_language": "Python",
+  "total_pushes": 1985,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 283.90041061773167,
+  "s_quality": 34.90997522682057,
+  "s_impact": 282.24427235970586,
+  "s_consistency": 88.26394776673882,
+  "rank_score": 0.0,
+  "rank": 4615
+}

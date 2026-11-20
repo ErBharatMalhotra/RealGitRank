@@ -1,0 +1,16 @@
+{
+  "username": "dev_4004",
+  "country": "Indonesia",
+  "primary_language": "Python",
+  "total_pushes": 367,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 143.26849933176072,
+  "s_quality": 22.746021983575638,
+  "s_impact": 228.43938477172037,
+  "s_consistency": 201.69812483265702,
+  "rank_score": 0.0,
+  "rank": 4895
+}

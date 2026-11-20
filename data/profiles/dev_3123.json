@@ -1,0 +1,16 @@
+{
+  "username": "dev_3123",
+  "country": "United Kingdom",
+  "primary_language": "TypeScript",
+  "total_pushes": 306,
+  "merged_prs": 27,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 395.5773518939607,
+  "s_quality": 48.02519336139151,
+  "s_impact": 484.54166720496585,
+  "s_consistency": 162.4454892874084,
+  "rank_score": 296.0,
+  "rank": 2101
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_4689",
+  "country": "Netherlands",
+  "primary_language": "Kotlin",
+  "total_pushes": 42,
+  "merged_prs": 26,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 488.04075400597736,
+  "s_quality": 56.08963711453968,
+  "s_impact": 445.65758541608875,
+  "s_consistency": 197.44759158492084,
+  "rank_score": 325.9,
+  "rank": 701
+}

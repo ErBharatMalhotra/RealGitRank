@@ -1,0 +1,16 @@
+{
+  "username": "dev_3252",
+  "country": "Australia",
+  "primary_language": "Python",
+  "total_pushes": 315,
+  "merged_prs": 37,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 505.81876081944705,
+  "s_quality": 87.91556508149154,
+  "s_impact": 482.4134755826084,
+  "s_consistency": 165.11302252460283,
+  "rank_score": 344.4,
+  "rank": 140
+}

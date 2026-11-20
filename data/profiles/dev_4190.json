@@ -1,0 +1,16 @@
+{
+  "username": "dev_4190",
+  "country": "Argentina",
+  "primary_language": "Swift",
+  "total_pushes": 480,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 256.911252357264,
+  "s_quality": 50.23474393980029,
+  "s_impact": 128.29998357048166,
+  "s_consistency": 153.22809697325187,
+  "rank_score": 0.0,
+  "rank": 4641
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_1196",
+  "country": "Netherlands",
+  "primary_language": "Swift",
+  "total_pushes": 139,
+  "merged_prs": 15,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 358.3419688716517,
+  "s_quality": 60.53608438686846,
+  "s_impact": 466.82206519255203,
+  "s_consistency": 166.94001554135636,
+  "rank_score": 282.3,
+  "rank": 2701
+}

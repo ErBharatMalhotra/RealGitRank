@@ -1,0 +1,16 @@
+{
+  "username": "dev_1678",
+  "country": "Spain",
+  "primary_language": "JavaScript",
+  "total_pushes": 979,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 96.25947730057277,
+  "s_quality": 43.540437400373996,
+  "s_impact": 243.3112195312609,
+  "s_consistency": 196.23816023440742,
+  "rank_score": 0.0,
+  "rank": 4855
+}

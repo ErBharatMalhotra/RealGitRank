@@ -1,0 +1,16 @@
+{
+  "username": "dev_2988",
+  "country": "Egypt",
+  "primary_language": "Go",
+  "total_pushes": 412,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 107.34951383204799,
+  "s_quality": 34.90997522682057,
+  "s_impact": 319.7796159217784,
+  "s_consistency": 223.6664578218493,
+  "rank_score": 0.0,
+  "rank": 4870
+}

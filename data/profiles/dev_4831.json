@@ -1,0 +1,16 @@
+{
+  "username": "dev_4831",
+  "country": "Australia",
+  "primary_language": "Rust",
+  "total_pushes": 271,
+  "merged_prs": 1,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 104.74064025402899,
+  "s_quality": 91.43057138674203,
+  "s_impact": 426.2400974801591,
+  "s_consistency": 188.53715318905483,
+  "rank_score": 194.4,
+  "rank": 4292
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_1944",
+  "country": "Poland",
+  "primary_language": "Ruby",
+  "total_pushes": 25,
+  "merged_prs": 17,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 326.0798884859996,
+  "s_quality": 103.78364533958725,
+  "s_impact": 391.0133691494357,
+  "s_consistency": 203.5488987907863,
+  "rank_score": 268.4,
+  "rank": 3204
+}

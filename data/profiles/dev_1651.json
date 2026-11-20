@@ -1,0 +1,16 @@
+{
+  "username": "dev_1651",
+  "country": "Spain",
+  "primary_language": "Kotlin",
+  "total_pushes": 153,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 245.3930060082486,
+  "s_quality": 91.83176780347384,
+  "s_impact": 463.4133290485388,
+  "s_consistency": 197.20878260131937,
+  "rank_score": 254.3,
+  "rank": 3581
+}

@@ -1,16 +1,16 @@
 {
   "username": "dev_133",
-  "country": "Canada",
-  "primary_language": "C++",
-  "total_pushes": 378,
-  "merged_prs": 24,
+  "country": "Nigeria",
+  "primary_language": "Ruby",
+  "total_pushes": 118,
+  "merged_prs": 29,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 428.4329196808501,
-  "s_quality": 76.37805009077195,
-  "s_impact": 425.6270917882164,
-  "s_consistency": 200.78422653183213,
-  "rank_score": 305.6,
-  "rank": 101
+  "s_pr": 450.27800378496994,
+  "s_quality": 70.12007139509545,
+  "s_impact": 477.0404839177526,
+  "s_consistency": 204.1848877340902,
+  "rank_score": 325.0,
+  "rank": 744
 }

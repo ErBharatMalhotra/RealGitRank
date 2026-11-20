@@ -1,0 +1,16 @@
+{
+  "username": "dev_4528",
+  "country": "Mexico",
+  "primary_language": "Rust",
+  "total_pushes": 226,
+  "merged_prs": 30,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 401.75879371502646,
+  "s_quality": 54.35424806492068,
+  "s_impact": 343.121285186751,
+  "s_consistency": 110.72141563516432,
+  "rank_score": 256.6,
+  "rank": 3508
+}

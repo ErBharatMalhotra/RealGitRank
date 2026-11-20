@@ -1,0 +1,16 @@
+{
+  "username": "dev_3264",
+  "country": "Argentina",
+  "primary_language": "Kotlin",
+  "total_pushes": 105,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 231.995596472254,
+  "s_quality": 75.75721714029106,
+  "s_impact": 490.90643017759976,
+  "s_consistency": 207.15035937387506,
+  "rank_score": 253.9,
+  "rank": 3588
+}

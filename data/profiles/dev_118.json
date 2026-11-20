@@ -1,16 +1,16 @@
 {
   "username": "dev_118",
-  "country": "India",
+  "country": "Sweden",
   "primary_language": "Kotlin",
-  "total_pushes": 1171,
-  "merged_prs": 5,
-  "bot_penalty": 1.0,
-  "is_human_verified": false,
-  "is_bot_classified": true,
-  "s_pr": 223.67756904290198,
-  "s_quality": 55.70439064361893,
-  "s_impact": 302.5069537307933,
-  "s_consistency": 223.6664578218493,
-  "rank_score": 0.0,
-  "rank": 263
+  "total_pushes": 104,
+  "merged_prs": 24,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 472.7278330032538,
+  "s_quality": 51.30809440342581,
+  "s_impact": 467.2159226218131,
+  "s_consistency": 162.37096717617945,
+  "rank_score": 319.4,
+  "rank": 979
 }

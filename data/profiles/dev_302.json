@@ -1,0 +1,16 @@
+{
+  "username": "dev_302",
+  "country": "Nigeria",
+  "primary_language": "JavaScript",
+  "total_pushes": 998,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 112.48981472876333,
+  "s_quality": 55.70439064361893,
+  "s_impact": 128.87417957197812,
+  "s_consistency": 222.54281502924636,
+  "rank_score": 0.0,
+  "rank": 4829
+}

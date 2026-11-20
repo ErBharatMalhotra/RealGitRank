@@ -1,0 +1,16 @@
+{
+  "username": "dev_1400",
+  "country": "Indonesia",
+  "primary_language": "Kotlin",
+  "total_pushes": 300,
+  "merged_prs": 20,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 414.33398397445444,
+  "s_quality": 68.38351256522304,
+  "s_impact": 398.2708619058303,
+  "s_consistency": 210.96830901591744,
+  "rank_score": 293.3,
+  "rank": 2214
+}

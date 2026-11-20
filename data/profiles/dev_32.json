@@ -1,16 +1,16 @@
 {
   "username": "dev_32",
-  "country": "India",
-  "primary_language": "Java",
-  "total_pushes": 361,
-  "merged_prs": 30,
+  "country": "Netherlands",
+  "primary_language": "Go",
+  "total_pushes": 389,
+  "merged_prs": 33,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 443.3513070519047,
-  "s_quality": 96.35289335590316,
-  "s_impact": 473.1905459285778,
-  "s_consistency": 180.8135101332118,
-  "rank_score": 324.7,
-  "rank": 37
+  "s_pr": 450.79835686103877,
+  "s_quality": 76.94753729421942,
+  "s_impact": 326.0899056748394,
+  "s_consistency": 149.23530956094064,
+  "rank_score": 280.9,
+  "rank": 2776
 }

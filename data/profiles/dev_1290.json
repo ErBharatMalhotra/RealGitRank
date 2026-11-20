@@ -1,0 +1,16 @@
+{
+  "username": "dev_1290",
+  "country": "Mexico",
+  "primary_language": "TypeScript",
+  "total_pushes": 349,
+  "merged_prs": 30,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 471.320553093466,
+  "s_quality": 100.02769292443995,
+  "s_impact": 421.2194861090668,
+  "s_consistency": 109.99643698553241,
+  "rank_score": 311.8,
+  "rank": 1313
+}

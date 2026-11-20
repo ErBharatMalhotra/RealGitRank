@@ -1,0 +1,16 @@
+{
+  "username": "dev_2274",
+  "country": "South Korea",
+  "primary_language": "Ruby",
+  "total_pushes": 1834,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 223.3819819243962,
+  "s_quality": 55.70439064361893,
+  "s_impact": 277.7162542004785,
+  "s_consistency": 198.12517663354976,
+  "rank_score": 0.0,
+  "rank": 4699
+}

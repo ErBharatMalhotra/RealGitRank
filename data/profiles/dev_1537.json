@@ -1,0 +1,16 @@
+{
+  "username": "dev_1537",
+  "country": "India",
+  "primary_language": "Rust",
+  "total_pushes": 286,
+  "merged_prs": 33,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 527.6698701418567,
+  "s_quality": 44.46241464616669,
+  "s_impact": 394.7470631771241,
+  "s_consistency": 211.94802002331014,
+  "rank_score": 326.3,
+  "rank": 685
+}

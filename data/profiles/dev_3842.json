@@ -1,0 +1,16 @@
+{
+  "username": "dev_3842",
+  "country": "Malaysia",
+  "primary_language": "Rust",
+  "total_pushes": 283,
+  "merged_prs": 36,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 485.8683932101183,
+  "s_quality": 70.13837407919078,
+  "s_impact": 393.73588049999387,
+  "s_consistency": 190.87428052604727,
+  "rank_score": 314.7,
+  "rank": 1166
+}

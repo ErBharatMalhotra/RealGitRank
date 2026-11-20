@@ -1,0 +1,16 @@
+{
+  "username": "dev_2072",
+  "country": "India",
+  "primary_language": "C++",
+  "total_pushes": 1602,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 168.79339991197548,
+  "s_quality": 50.23474393980029,
+  "s_impact": 267.0801942256152,
+  "s_consistency": 221.39333911801145,
+  "rank_score": 0.0,
+  "rank": 4760
+}

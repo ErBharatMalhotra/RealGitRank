@@ -1,0 +1,16 @@
+{
+  "username": "dev_2023",
+  "country": "Mexico",
+  "primary_language": "JavaScript",
+  "total_pushes": 1316,
+  "merged_prs": 5,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 296.9963001010383,
+  "s_quality": 22.746021983575638,
+  "s_impact": 299.55123635691353,
+  "s_consistency": 215.21264131965262,
+  "rank_score": 0.0,
+  "rank": 4528
+}

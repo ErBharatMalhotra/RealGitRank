@@ -1,0 +1,16 @@
+{
+  "username": "dev_1942",
+  "country": "Russia",
+  "primary_language": "Go",
+  "total_pushes": 103,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 484.72158075630966,
+  "s_quality": 90.51400442388918,
+  "s_impact": 420.43267148191177,
+  "s_consistency": 209.54497554535715,
+  "rank_score": 328.8,
+  "rank": 581
+}

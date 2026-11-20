@@ -1,0 +1,16 @@
+{
+  "username": "dev_1489",
+  "country": "Pakistan",
+  "primary_language": "Kotlin",
+  "total_pushes": 13,
+  "merged_prs": 35,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 405.5285593609363,
+  "s_quality": 81.95421975711135,
+  "s_impact": 361.84059611392587,
+  "s_consistency": 174.03790360766322,
+  "rank_score": 279.0,
+  "rank": 2844
+}

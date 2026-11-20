@@ -1,0 +1,16 @@
+{
+  "username": "dev_1707",
+  "country": "Pakistan",
+  "primary_language": "Java",
+  "total_pushes": 742,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 167.22437353079835,
+  "s_quality": 55.70439064361893,
+  "s_impact": 297.60233461524876,
+  "s_consistency": 196.23816023440742,
+  "rank_score": 0.0,
+  "rank": 4757
+}

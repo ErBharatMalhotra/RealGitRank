@@ -1,0 +1,16 @@
+{
+  "username": "dev_4292",
+  "country": "Mexico",
+  "primary_language": "Rust",
+  "total_pushes": 1759,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 171.30457862930737,
+  "s_quality": 50.23474393980029,
+  "s_impact": 177.21351996817089,
+  "s_consistency": 194.27712457674335,
+  "rank_score": 0.0,
+  "rank": 4807
+}

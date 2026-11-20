@@ -1,0 +1,16 @@
+{
+  "username": "dev_1173",
+  "country": "Spain",
+  "primary_language": "Rust",
+  "total_pushes": 45,
+  "merged_prs": 36,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 536.4231878089968,
+  "s_quality": 83.69079237080082,
+  "s_impact": 452.0568241334157,
+  "s_consistency": 202.48008198500654,
+  "rank_score": 352.1,
+  "rank": 45
+}

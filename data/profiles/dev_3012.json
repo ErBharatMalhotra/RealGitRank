@@ -1,0 +1,16 @@
+{
+  "username": "dev_3012",
+  "country": "Turkey",
+  "primary_language": "Swift",
+  "total_pushes": 112,
+  "merged_prs": 24,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 370.5295247038501,
+  "s_quality": 66.17110600917135,
+  "s_impact": 392.83973957664716,
+  "s_consistency": 181.39410050788646,
+  "rank_score": 271.6,
+  "rank": 3089
+}

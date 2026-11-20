@@ -1,0 +1,16 @@
+{
+  "username": "dev_3034",
+  "country": "Germany",
+  "primary_language": "JavaScript",
+  "total_pushes": 380,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 552.8853792785343,
+  "s_quality": 77.21489368296864,
+  "s_impact": 402.4483242746568,
+  "s_consistency": 134.81147810212502,
+  "rank_score": 333.6,
+  "rank": 422
+}

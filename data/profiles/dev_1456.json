@@ -1,0 +1,16 @@
+{
+  "username": "dev_1456",
+  "country": "China",
+  "primary_language": "TypeScript",
+  "total_pushes": 294,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 436.8818073861995,
+  "s_quality": 81.8303308013048,
+  "s_impact": 444.87252677375415,
+  "s_consistency": 133.27403530006737,
+  "rank_score": 304.6,
+  "rank": 1652
+}

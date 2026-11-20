@@ -1,0 +1,16 @@
+{
+  "username": "dev_2075",
+  "country": "Russia",
+  "primary_language": "Python",
+  "total_pushes": 314,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 455.1580419664381,
+  "s_quality": 86.39018324994805,
+  "s_impact": 505.7624983356035,
+  "s_consistency": 171.10162253598125,
+  "rank_score": 333.0,
+  "rank": 444
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_4028",
+  "country": "Egypt",
+  "primary_language": "Rust",
+  "total_pushes": 1704,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 126.28644516919813,
+  "s_quality": 22.746021983575638,
+  "s_impact": 322.5451735521183,
+  "s_consistency": 213.87922896554454,
+  "rank_score": 0.0,
+  "rank": 4801
+}

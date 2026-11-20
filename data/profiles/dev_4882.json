@@ -1,0 +1,16 @@
+{
+  "username": "dev_4882",
+  "country": "China",
+  "primary_language": "Java",
+  "total_pushes": 162,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 353.1266886707413,
+  "s_quality": 55.38955959483834,
+  "s_impact": 385.8741771562029,
+  "s_consistency": 206.30218310467262,
+  "rank_score": 264.9,
+  "rank": 3315
+}

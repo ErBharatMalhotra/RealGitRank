@@ -1,0 +1,16 @@
+{
+  "username": "dev_1633",
+  "country": "Germany",
+  "primary_language": "JavaScript",
+  "total_pushes": 109,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 312.8359416065136,
+  "s_quality": 68.65088308897707,
+  "s_impact": 424.5662726464742,
+  "s_consistency": 202.64762803445606,
+  "rank_score": 263.2,
+  "rank": 3363
+}

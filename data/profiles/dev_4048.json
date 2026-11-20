@@ -1,0 +1,16 @@
+{
+  "username": "dev_4048",
+  "country": "Germany",
+  "primary_language": "Rust",
+  "total_pushes": 1065,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 138.53930018154065,
+  "s_quality": 22.746021983575638,
+  "s_impact": 267.57032798039995,
+  "s_consistency": 228.93448360474065,
+  "rank_score": 0.0,
+  "rank": 4803
+}

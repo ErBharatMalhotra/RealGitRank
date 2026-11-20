@@ -1,0 +1,16 @@
+{
+  "username": "dev_403",
+  "country": "South Korea",
+  "primary_language": "Kotlin",
+  "total_pushes": 206,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 253.2723708997594,
+  "s_quality": 79.72771642814179,
+  "s_impact": 421.6970921801428,
+  "s_consistency": 204.32261201366975,
+  "rank_score": 244.6,
+  "rank": 3765
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_2169",
+  "country": "South Korea",
+  "primary_language": "Java",
+  "total_pushes": 326,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 191.44379178192057,
+  "s_quality": 50.23474393980029,
+  "s_impact": 299.887788342514,
+  "s_consistency": 215.21264131965262,
+  "rank_score": 0.0,
+  "rank": 4698
+}

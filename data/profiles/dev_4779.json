@@ -1,0 +1,16 @@
+{
+  "username": "dev_4779",
+  "country": "Argentina",
+  "primary_language": "C++",
+  "total_pushes": 935,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 87.16974248354082,
+  "s_quality": 55.70439064361893,
+  "s_impact": 275.85516173503913,
+  "s_consistency": 228.93448360474065,
+  "rank_score": 0.0,
+  "rank": 4908
+}

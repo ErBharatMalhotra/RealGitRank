@@ -1,0 +1,16 @@
+{
+  "username": "dev_3053",
+  "country": "Turkey",
+  "primary_language": "C++",
+  "total_pushes": 210,
+  "merged_prs": 26,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 483.2436982477602,
+  "s_quality": 57.526802366069106,
+  "s_impact": 405.24617463064703,
+  "s_consistency": 187.57043858517778,
+  "rank_score": 313.0,
+  "rank": 1253
+}

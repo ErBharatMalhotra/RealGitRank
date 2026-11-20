@@ -1,0 +1,16 @@
+{
+  "username": "dev_4015",
+  "country": "Mexico",
+  "primary_language": "C++",
+  "total_pushes": 215,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 339.3146699493988,
+  "s_quality": 79.58416831482263,
+  "s_impact": 341.98650256854035,
+  "s_consistency": 166.89732054334695,
+  "rank_score": 249.2,
+  "rank": 3681
+}

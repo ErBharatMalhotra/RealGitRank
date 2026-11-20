@@ -1,0 +1,16 @@
+{
+  "username": "dev_465",
+  "country": "South Korea",
+  "primary_language": "JavaScript",
+  "total_pushes": 83,
+  "merged_prs": 30,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 481.5423339430813,
+  "s_quality": 86.45060441890317,
+  "s_impact": 520.04603189222,
+  "s_consistency": 204.1844150508216,
+  "rank_score": 350.8,
+  "rank": 56
+}

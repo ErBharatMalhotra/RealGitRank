@@ -1,0 +1,16 @@
+{
+  "username": "dev_3508",
+  "country": "Italy",
+  "primary_language": "Swift",
+  "total_pushes": 826,
+  "merged_prs": 2,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 152.48114234991624,
+  "s_quality": 34.90997522682057,
+  "s_impact": 195.07878129805175,
+  "s_consistency": 187.8854560012491,
+  "rank_score": 0.0,
+  "rank": 4795
+}

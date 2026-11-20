@@ -1,0 +1,16 @@
+{
+  "username": "dev_522",
+  "country": "Russia",
+  "primary_language": "Kotlin",
+  "total_pushes": 42,
+  "merged_prs": 9,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 289.6347605667191,
+  "s_quality": 42.49807919856343,
+  "s_impact": 394.78564559450933,
+  "s_consistency": 151.1034300762041,
+  "rank_score": 233.4,
+  "rank": 3924
+}

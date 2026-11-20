@@ -1,0 +1,16 @@
+{
+  "username": "dev_4229",
+  "country": "Egypt",
+  "primary_language": "Python",
+  "total_pushes": 41,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 503.47512583591606,
+  "s_quality": 85.28351993945455,
+  "s_impact": 392.95204801201623,
+  "s_consistency": 164.1362935838709,
+  "rank_score": 320.4,
+  "rank": 928
+}

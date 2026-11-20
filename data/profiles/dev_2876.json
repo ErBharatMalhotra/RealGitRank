@@ -1,0 +1,16 @@
+{
+  "username": "dev_2876",
+  "country": "Germany",
+  "primary_language": "Go",
+  "total_pushes": 133,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 212.95278544368966,
+  "s_quality": 65.54343708096282,
+  "s_impact": 439.2002253619933,
+  "s_consistency": 206.6198755313987,
+  "rank_score": 231.7,
+  "rank": 3954
+}

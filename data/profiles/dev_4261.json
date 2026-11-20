@@ -1,0 +1,16 @@
+{
+  "username": "dev_4261",
+  "country": "India",
+  "primary_language": "Rust",
+  "total_pushes": 253,
+  "merged_prs": 26,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 410.21384142910824,
+  "s_quality": 72.75358030574921,
+  "s_impact": 509.4915190580772,
+  "s_consistency": 144.2633131066068,
+  "rank_score": 310.8,
+  "rank": 1362
+}

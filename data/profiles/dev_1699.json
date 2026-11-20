@@ -1,0 +1,16 @@
+{
+  "username": "dev_1699",
+  "country": "Australia",
+  "primary_language": "Python",
+  "total_pushes": 46,
+  "merged_prs": 17,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 324.1567490634103,
+  "s_quality": 95.098110912037,
+  "s_impact": 446.1990255633639,
+  "s_consistency": 193.75386629176066,
+  "rank_score": 277.8,
+  "rank": 2878
+}

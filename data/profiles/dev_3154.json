@@ -1,0 +1,16 @@
+{
+  "username": "dev_3154",
+  "country": "Australia",
+  "primary_language": "TypeScript",
+  "total_pushes": 54,
+  "merged_prs": 29,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 478.4405508389431,
+  "s_quality": 83.1029505046044,
+  "s_impact": 458.99021173767875,
+  "s_consistency": 145.0759706494564,
+  "rank_score": 324.7,
+  "rank": 755
+}

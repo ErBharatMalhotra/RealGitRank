@@ -1,0 +1,16 @@
+{
+  "username": "dev_526",
+  "country": "Germany",
+  "primary_language": "Rust",
+  "total_pushes": 46,
+  "merged_prs": 39,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 502.6150201214424,
+  "s_quality": 74.17100410324812,
+  "s_impact": 478.7171556258196,
+  "s_consistency": 199.68977482427883,
+  "rank_score": 344.1,
+  "rank": 147
+}

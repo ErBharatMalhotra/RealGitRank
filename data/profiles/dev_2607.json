@@ -1,0 +1,16 @@
+{
+  "username": "dev_2607",
+  "country": "France",
+  "primary_language": "TypeScript",
+  "total_pushes": 31,
+  "merged_prs": 28,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 462.2627228056462,
+  "s_quality": 67.95416184148587,
+  "s_impact": 503.0441445882193,
+  "s_consistency": 112.29637726570428,
+  "rank_score": 321.4,
+  "rank": 902
+}

@@ -1,0 +1,16 @@
+{
+  "username": "dev_485",
+  "country": "Italy",
+  "primary_language": "Python",
+  "total_pushes": 210,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 229.44514256574874,
+  "s_quality": 75.63831063070458,
+  "s_impact": 477.30135001878057,
+  "s_consistency": 170.73356678870076,
+  "rank_score": 244.2,
+  "rank": 3771
+}

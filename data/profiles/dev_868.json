@@ -1,0 +1,16 @@
+{
+  "username": "dev_868",
+  "country": "Poland",
+  "primary_language": "Java",
+  "total_pushes": 64,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 307.1437766957994,
+  "s_quality": 75.94257243081573,
+  "s_impact": 433.84886384127003,
+  "s_consistency": 110.83065569338982,
+  "rank_score": 251.6,
+  "rank": 3635
+}

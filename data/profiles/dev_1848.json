@@ -1,0 +1,16 @@
+{
+  "username": "dev_1848",
+  "country": "Egypt",
+  "primary_language": "Kotlin",
+  "total_pushes": 72,
+  "merged_prs": 33,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 431.1727519842684,
+  "s_quality": 65.45648586379215,
+  "s_impact": 480.7262401379845,
+  "s_consistency": 172.79804230940942,
+  "rank_score": 313.4,
+  "rank": 1235
+}

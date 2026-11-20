@@ -1,0 +1,16 @@
+{
+  "username": "dev_2813",
+  "country": "Turkey",
+  "primary_language": "Java",
+  "total_pushes": 38,
+  "merged_prs": 21,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 349.2836928503824,
+  "s_quality": 75.20886846793047,
+  "s_impact": 444.5128823102865,
+  "s_consistency": 96.1959788032426,
+  "rank_score": 266.6,
+  "rank": 3269
+}

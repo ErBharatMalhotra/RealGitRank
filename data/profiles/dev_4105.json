@@ -1,0 +1,16 @@
+{
+  "username": "dev_4105",
+  "country": "Italy",
+  "primary_language": "Kotlin",
+  "total_pushes": 100,
+  "merged_prs": 36,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 455.1479532858288,
+  "s_quality": 85.71357804088329,
+  "s_impact": 427.75950307910165,
+  "s_consistency": 142.48772582544885,
+  "rank_score": 309.0,
+  "rank": 1450
+}

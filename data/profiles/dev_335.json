@@ -1,0 +1,16 @@
+{
+  "username": "dev_335",
+  "country": "China",
+  "primary_language": "Go",
+  "total_pushes": 727,
+  "merged_prs": 4,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 198.56641753132615,
+  "s_quality": 34.90997522682057,
+  "s_impact": 254.40967523145315,
+  "s_consistency": 223.6664578218493,
+  "rank_score": 0.0,
+  "rank": 4582
+}

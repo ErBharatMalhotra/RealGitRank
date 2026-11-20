@@ -1,0 +1,16 @@
+{
+  "username": "dev_2022",
+  "country": "Malaysia",
+  "primary_language": "Go",
+  "total_pushes": 82,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 267.2302732017207,
+  "s_quality": 52.8820350548412,
+  "s_impact": 435.09061375882436,
+  "s_consistency": 198.51420497911565,
+  "rank_score": 245.3,
+  "rank": 3754
+}

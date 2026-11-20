@@ -1,0 +1,16 @@
+{
+  "username": "dev_497",
+  "country": "Philippines",
+  "primary_language": "Rust",
+  "total_pushes": 28,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 287.8703514582873,
+  "s_quality": 60.63911890515348,
+  "s_impact": 434.81088924254266,
+  "s_consistency": 138.38211994313625,
+  "rank_score": 245.4,
+  "rank": 3751
+}

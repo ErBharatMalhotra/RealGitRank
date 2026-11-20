@@ -1,0 +1,16 @@
+{
+  "username": "dev_700",
+  "country": "Canada",
+  "primary_language": "Swift",
+  "total_pushes": 39,
+  "merged_prs": 36,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 535.6697205156674,
+  "s_quality": 43.74785558969808,
+  "s_impact": 456.88785962521615,
+  "s_consistency": 197.32730020925015,
+  "rank_score": 342.2,
+  "rank": 185
+}

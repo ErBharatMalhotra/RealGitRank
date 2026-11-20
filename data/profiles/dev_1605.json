@@ -1,0 +1,16 @@
+{
+  "username": "dev_1605",
+  "country": "United Kingdom",
+  "primary_language": "Go",
+  "total_pushes": 242,
+  "merged_prs": 9,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 364.22771807096296,
+  "s_quality": 71.79367895848165,
+  "s_impact": 496.05888424028944,
+  "s_consistency": 190.37558900301173,
+  "rank_score": 298.0,
+  "rank": 2009
+}

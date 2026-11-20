@@ -1,0 +1,16 @@
+{
+  "username": "dev_428",
+  "country": "Egypt",
+  "primary_language": "Ruby",
+  "total_pushes": 301,
+  "merged_prs": 32,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 441.92871262438865,
+  "s_quality": 58.443665441094666,
+  "s_impact": 441.9083334600204,
+  "s_consistency": 138.15495402608377,
+  "rank_score": 300.5,
+  "rank": 1880
+}

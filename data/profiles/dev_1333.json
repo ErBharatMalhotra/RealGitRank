@@ -1,0 +1,16 @@
+{
+  "username": "dev_1333",
+  "country": "Poland",
+  "primary_language": "JavaScript",
+  "total_pushes": 241,
+  "merged_prs": 21,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 417.46243480847005,
+  "s_quality": 89.28012759713835,
+  "s_impact": 291.30832144685655,
+  "s_consistency": 180.4738973398507,
+  "rank_score": 268.3,
+  "rank": 3207
+}

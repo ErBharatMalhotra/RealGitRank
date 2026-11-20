@@ -1,0 +1,16 @@
+{
+  "username": "dev_2258",
+  "country": "France",
+  "primary_language": "Rust",
+  "total_pushes": 286,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 532.616213145665,
+  "s_quality": 60.3286952734043,
+  "s_impact": 407.4518931001352,
+  "s_consistency": 62.461308641009715,
+  "rank_score": 312.7,
+  "rank": 1262
+}

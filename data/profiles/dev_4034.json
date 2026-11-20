@@ -1,0 +1,16 @@
+{
+  "username": "dev_4034",
+  "country": "Canada",
+  "primary_language": "Rust",
+  "total_pushes": 21,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 318.68513052428744,
+  "s_quality": 67.19619551849992,
+  "s_impact": 427.6151010744853,
+  "s_consistency": 159.1000276913823,
+  "rank_score": 259.1,
+  "rank": 3456
+}

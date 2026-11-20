@@ -1,0 +1,16 @@
+{
+  "username": "dev_4446",
+  "country": "United Kingdom",
+  "primary_language": "Rust",
+  "total_pushes": 183,
+  "merged_prs": 26,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 479.4486270120158,
+  "s_quality": 57.5280660612748,
+  "s_impact": 462.3920521172798,
+  "s_consistency": 184.85451314605643,
+  "rank_score": 325.5,
+  "rank": 721
+}

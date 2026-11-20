@@ -1,0 +1,16 @@
+{
+  "username": "dev_3509",
+  "country": "South Korea",
+  "primary_language": "Go",
+  "total_pushes": 312,
+  "merged_prs": 31,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 403.3135695701392,
+  "s_quality": 80.50782052101927,
+  "s_impact": 494.43365383975276,
+  "s_consistency": 193.87953951766423,
+  "rank_score": 314.0,
+  "rank": 1205
+}

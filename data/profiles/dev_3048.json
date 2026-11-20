@@ -1,0 +1,16 @@
+{
+  "username": "dev_3048",
+  "country": "Indonesia",
+  "primary_language": "Rust",
+  "total_pushes": 176,
+  "merged_prs": 16,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 428.5944707973317,
+  "s_quality": 77.13504821440846,
+  "s_impact": 439.5123344835117,
+  "s_consistency": 200.10730224725668,
+  "rank_score": 309.2,
+  "rank": 1440
+}

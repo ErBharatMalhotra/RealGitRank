@@ -1,0 +1,16 @@
+{
+  "username": "dev_696",
+  "country": "Saudi Arabia",
+  "primary_language": "Python",
+  "total_pushes": 24,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 541.3840602425483,
+  "s_quality": 91.51625380311648,
+  "s_impact": 421.58535949203497,
+  "s_consistency": 151.47041444865187,
+  "rank_score": 340.5,
+  "rank": 217
+}

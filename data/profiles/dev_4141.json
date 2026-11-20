@@ -1,0 +1,16 @@
+{
+  "username": "dev_4141",
+  "country": "United States",
+  "primary_language": "Kotlin",
+  "total_pushes": 1859,
+  "merged_prs": 1,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 103.0474892514482,
+  "s_quality": 55.70439064361893,
+  "s_impact": 335.5439270737437,
+  "s_consistency": 153.22809697325187,
+  "rank_score": 0.0,
+  "rank": 4898
+}

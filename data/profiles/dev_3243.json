@@ -1,0 +1,16 @@
+{
+  "username": "dev_3243",
+  "country": "Thailand",
+  "primary_language": "TypeScript",
+  "total_pushes": 6,
+  "merged_prs": 40,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 446.0932706261022,
+  "s_quality": 75.49987614511242,
+  "s_impact": 363.82776940757844,
+  "s_consistency": 153.6501453500439,
+  "rank_score": 289.0,
+  "rank": 2415
+}

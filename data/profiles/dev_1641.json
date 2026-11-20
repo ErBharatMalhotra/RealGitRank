@@ -1,0 +1,16 @@
+{
+  "username": "dev_1641",
+  "country": "Sweden",
+  "primary_language": "Java",
+  "total_pushes": 1509,
+  "merged_prs": 3,
+  "bot_penalty": 1.0,
+  "is_human_verified": false,
+  "is_bot_classified": true,
+  "s_pr": 201.14632691040464,
+  "s_quality": 50.23474393980029,
+  "s_impact": 306.3993862580304,
+  "s_consistency": 102.64805138932786,
+  "rank_score": 0.0,
+  "rank": 4689
+}

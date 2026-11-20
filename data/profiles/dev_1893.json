@@ -1,0 +1,16 @@
+{
+  "username": "dev_1893",
+  "country": "Philippines",
+  "primary_language": "Rust",
+  "total_pushes": 293,
+  "merged_prs": 33,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 511.04838975178075,
+  "s_quality": 75.2502164389938,
+  "s_impact": 388.20041109415223,
+  "s_consistency": 204.4322492772613,
+  "rank_score": 325.4,
+  "rank": 724
+}

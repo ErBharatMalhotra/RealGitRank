@@ -1,0 +1,16 @@
+{
+  "username": "dev_1462",
+  "country": "Poland",
+  "primary_language": "Rust",
+  "total_pushes": 209,
+  "merged_prs": 32,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 419.81990682578765,
+  "s_quality": 71.7296041603929,
+  "s_impact": 400.92965544677816,
+  "s_consistency": 120.69193940673237,
+  "rank_score": 283.2,
+  "rank": 2654
+}

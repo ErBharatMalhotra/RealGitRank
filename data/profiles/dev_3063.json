@@ -1,0 +1,16 @@
+{
+  "username": "dev_3063",
+  "country": "Argentina",
+  "primary_language": "Ruby",
+  "total_pushes": 136,
+  "merged_prs": 38,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 419.5385789518209,
+  "s_quality": 80.60704096879587,
+  "s_impact": 399.8862635437623,
+  "s_consistency": 105.72096909364208,
+  "rank_score": 282.8,
+  "rank": 2678
+}
