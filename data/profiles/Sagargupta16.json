@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 681,
+  "rank": 634,
   "avatar_url": "https://avatars.githubusercontent.com/u/92421383?u=9cc5eb8f30e254b270cc5eb8601b63dec488b20e&v=4",
   "bio": "DevOps/MLOps Consultant at @aws | MCA '24 NIT Warangal | Exploring AI Agents, Workflows & ML | 5x AWS Certified",
   "company": "Amazon Web Services",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 681,
+      "r": 634,
       "s": 64.6
     }
   ],

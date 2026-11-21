@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 949,
+  "rank": 863,
   "avatar_url": "https://avatars.githubusercontent.com/u/113952006?u=900121b17666b0d0d229a9e2c73032d670f2da7d&v=4",
   "bio": "Full-Stack Developer (TypeScript, React, Next.js, Node.js, NestJS, PostgreSQL, MongoDB)",
   "company": "DamReboot IT ",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 949,
+      "r": 863,
       "s": 60.9
     }
   ],

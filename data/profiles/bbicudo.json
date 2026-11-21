@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 917,
+  "rank": 830,
   "avatar_url": "https://avatars.githubusercontent.com/u/22198380?u=5fa7dcc4d7a49356cf4bf1c13b66aa595aa94026&v=4",
   "bio": "\"Bicudo\", 34 anos.\r\n\r\nApaixonado por RPG e anime.",
   "company": "CI&T",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 917,
+      "r": 830,
       "s": 61.5
     }
   ],

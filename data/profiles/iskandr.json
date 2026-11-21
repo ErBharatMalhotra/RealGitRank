@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 307,
+  "rank": 294,
   "avatar_url": "https://avatars.githubusercontent.com/u/48441?u=dc7d0c662c3e4e54a0e6b67935ee8a7079235505&v=4",
   "bio": "Genes and vectors",
   "company": "University of North Carolina",
   "tier": "Elite",
-  "percentile": 99.3,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 307,
+      "r": 294,
       "s": 73.8
     }
   ],

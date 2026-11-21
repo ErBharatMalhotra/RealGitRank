@@ -1,19 +1,19 @@
 {
   "username": "PeteSampras",
-  "rank": 434,
-  "rank_score": 71.0,
+  "rank": 594,
+  "rank_score": 67.5,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/17215495?u=7c5162b97fd68cd479092146b79ec9a9c7bfe1c2&v=4",
   "bio": "",
   "company": "",
-  "tier": "Elite",
-  "percentile": 99.0,
+  "tier": "Diamond",
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 434,
-      "s": 71.0
+      "r": 594,
+      "s": 67.5
     }
   ],
   "location": ""

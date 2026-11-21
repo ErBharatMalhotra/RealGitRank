@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 524,
+  "rank": 518,
   "avatar_url": "https://avatars.githubusercontent.com/u/2293255?u=5fa1d8d7f57c60aabb9481088521a1c3093c0681&v=4",
   "bio": "Build interesting things..",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.8,
+  "percentile": 98.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 524,
+      "r": 518,
       "s": 69.6
     }
   ],

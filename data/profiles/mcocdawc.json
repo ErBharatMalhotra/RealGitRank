@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 68.64,
-  "rank_score": 90.3,
+  "rank_score": 91.7,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 78,
+  "rank": 68,
   "avatar_url": "https://avatars.githubusercontent.com/u/15892408?u=d703c529e3c50ed1dcff06ce1c76f490f0abe264&v=4",
   "bio": "Quantum Chemist by training | Working as Research Software Engineer in Weather Modeling",
   "company": "ECMWF",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 78,
-      "s": 90.3
+      "r": 68,
+      "s": 91.7
     }
   ],
   "location": "Bonn, Germany"

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 973,
+  "rank": 886,
   "avatar_url": "https://avatars.githubusercontent.com/u/103388355?u=21458a2085f4bc7a01b69773fb69fb4de0fbae99&v=4",
   "bio": "",
   "company": "LOT",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 973,
+      "r": 886,
       "s": 60.6
     }
   ],

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 946,
+  "rank": 860,
   "avatar_url": "https://avatars.githubusercontent.com/u/45495222?u=2d94dc7c59323fc578ab2de1ba7d5e55cb416513&v=4",
   "bio": "CS @ Sheridan",
   "company": "Sheridan College",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 946,
+      "r": 860,
       "s": 60.9
     }
   ],

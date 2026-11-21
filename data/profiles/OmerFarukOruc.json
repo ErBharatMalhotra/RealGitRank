@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 347,
+  "rank": 331,
   "avatar_url": "https://avatars.githubusercontent.com/u/7347742?u=b9143889c028b1aa170b950d231ef5e883fd65d1&v=4",
   "bio": "Embedded Software Engineer | Co-Founder @KyaniteHQ  | C/C++, STM32, ESP32, FreeRTOS, TypeScript | Safety-critical systems & AI tooling",
   "company": "KyaniteLabs",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 347,
+      "r": 331,
       "s": 72.8
     }
   ],

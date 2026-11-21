@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 726,
+  "rank": 673,
   "avatar_url": "https://avatars.githubusercontent.com/u/20758115?u=7fd0a3e891f22f38d4f0332123c67593d2e77583&v=4",
   "bio": "\"The knowledge comes with two responsibilities; apply it and share it\"",
   "company": "Tapadoo",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 726,
+      "r": 673,
       "s": 64.0
     }
   ],

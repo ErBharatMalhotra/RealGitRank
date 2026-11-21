@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 41.8,
-  "rank_score": 60.8,
+  "rank_score": 60.7,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 960,
+  "rank": 882,
   "avatar_url": "https://avatars.githubusercontent.com/u/200274787?u=62dd118fbf3e243a2f76091adc2acb0fed6d4061&v=4",
   "bio": "D\u00e9partement de G\u00e9ographie, UQAM",
   "company": "UQAM \u00b7 Illinois State Geological Survey",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 960,
-      "s": 60.8
+      "r": 882,
+      "s": 60.7
     }
   ],
   "location": "Montr\u00e9al, Qu\u00e9bec"

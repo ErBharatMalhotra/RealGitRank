@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 624,
+  "rank": 611,
   "avatar_url": "https://avatars.githubusercontent.com/u/88913727?u=0bee742db5a81f4675fc3262872069c14727a98a&v=4",
   "bio": "NEC Solution Innovators, Ltd. -> aidiot inc. -> Akari Inc./Quantum Computing, Machine Learning, Deep Learning, Combinatorial Optimization",
   "company": "Akari Inc.",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 624,
+      "r": 611,
       "s": 66.4
     }
   ],

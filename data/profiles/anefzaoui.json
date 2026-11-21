@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 123.39,
   "s_consistency": 41.67,
-  "rank_score": 75.7,
+  "rank_score": 76.3,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 255,
+  "rank": 230,
   "avatar_url": "https://avatars.githubusercontent.com/u/1832078?u=80e4bd9873241148c9d8eb3d0ef0a2e042d2ec51&v=4",
   "bio": "LLMs, NodeJS, JavaScript, and Wordpress. Previously at Mozilla, Apple.",
   "company": "ITQAN",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 255,
-      "s": 75.7
+      "r": 230,
+      "s": 76.3
     }
   ],
   "location": "Dubai, UAE"

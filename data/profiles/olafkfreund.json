@@ -1,19 +1,19 @@
 {
   "username": "olafkfreund",
-  "rank": 619,
-  "rank_score": 66.7,
+  "rank": 699,
+  "rank_score": 63.4,
   "country": "United Kingdom",
   "primary_language": "Nix",
   "avatar_url": "https://avatars.githubusercontent.com/u/12804862?u=82e850ce96410a9749910239dc1a745b37a81f37&v=4",
   "bio": "",
   "company": "DevOps and Cloud Architect",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 619,
-      "s": 66.7
+      "r": 699,
+      "s": 63.4
     }
   ],
   "location": "London"

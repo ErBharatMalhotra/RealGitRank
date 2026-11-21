@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 42.28,
-  "rank_score": 68.9,
+  "rank_score": 69.2,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 582,
+  "rank": 564,
   "avatar_url": "https://avatars.githubusercontent.com/u/57046?u=e58e61d4af13f36925fadad920ec51fef9dbd2e4&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 582,
-      "s": 68.9
+      "r": 564,
+      "s": 69.2
     }
   ],
   "location": "St Augustine, FL"

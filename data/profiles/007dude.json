@@ -1,19 +1,19 @@
 {
   "username": "007dude",
-  "rank": 260,
-  "rank_score": 75.5,
+  "rank": 385,
+  "rank_score": 71.7,
   "country": "",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/47858146?u=bdaa41ff9b74ebde06c7adca8619379a7c6ad3e5&v=4",
   "bio": "Driven by curiosity\u2026\r\n\r\nEternally curious,  \r\nEffortlessly trying,  \r\nEndlessly learning.  \r\n\r\nLet\u2019s connect and create something amazing.",
   "company": "@VectorDBCloud @SanctionMonitor",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 260,
-      "s": 75.5
+      "r": 385,
+      "s": 71.7
     }
   ],
   "location": ""

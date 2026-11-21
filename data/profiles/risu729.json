@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 748,
+  "rank": 694,
   "avatar_url": "https://avatars.githubusercontent.com/u/79110363?u=87ca1357630b71c20db6143bbb80860f6f816012&v=4",
   "bio": "UNSW B. CS",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 748,
+      "r": 694,
       "s": 63.5
     }
   ],

@@ -1,19 +1,19 @@
 {
   "username": "leftspin",
-  "rank": 53,
-  "rank_score": 95.3,
+  "rank": 76,
+  "rank_score": 90.5,
   "country": "",
   "primary_language": "Shell",
   "avatar_url": "https://avatars.githubusercontent.com/u/377231?v=4",
   "bio": "Doing stuff with things.",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.9,
+  "percentile": 99.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 53,
-      "s": 95.3
+      "r": 76,
+      "s": 90.5
     }
   ],
   "location": "Las Vegas, NV"

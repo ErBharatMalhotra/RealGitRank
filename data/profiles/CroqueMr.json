@@ -1,19 +1,19 @@
 {
   "username": "CroqueMr",
-  "rank": 97,
-  "rank_score": 87.5,
+  "rank": 135,
+  "rank_score": 83.1,
   "country": "France",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/82093548?u=e53b38becf15aa0996e5a4749e8f8d61151aa032&v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 97,
-      "s": 87.5
+      "r": 135,
+      "s": 83.1
     }
   ],
   "location": "Paris - France"

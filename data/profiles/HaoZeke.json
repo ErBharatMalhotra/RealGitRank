@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.42,
-  "rank_score": 102.0,
+  "rank_score": 101.6,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -32,7 +32,7 @@
     {
       "d": "2026-11-21",
       "r": 32,
-      "s": 102.0
+      "s": 101.6
     }
   ],
   "location": "University of Iceland"

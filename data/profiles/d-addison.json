@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 928,
+  "rank": 841,
   "avatar_url": "https://avatars.githubusercontent.com/u/73078380?u=8d9fd769c7238a12ac2473cea83a1dd576582718&v=4",
   "bio": "2024 New Grad.\r\nHonours Bachelors of Computer Science @ Carleton University",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 928,
+      "r": 841,
       "s": 61.2
     }
   ],

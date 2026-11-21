@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 718,
+  "rank": 665,
   "avatar_url": "https://avatars.githubusercontent.com/u/22190282?u=043274932e554a132387f100519d4cf224d8a61a&v=4",
   "bio": "Senior Consultant at TNO",
   "company": "@TNO",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 718,
+      "r": 665,
       "s": 64.0
     }
   ],

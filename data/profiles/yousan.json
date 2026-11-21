@@ -1,19 +1,19 @@
 {
   "username": "yousan",
-  "rank": 295,
-  "rank_score": 74.4,
+  "rank": 423,
+  "rank_score": 70.7,
   "country": "Japan",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/561613?v=4",
   "bio": "We love Technologies!",
   "company": "FloatingWeed",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 295,
-      "s": 74.4
+      "r": 423,
+      "s": 70.7
     }
   ],
   "location": "Japan Aizuwakamatsu"

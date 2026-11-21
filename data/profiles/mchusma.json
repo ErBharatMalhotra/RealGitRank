@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 42.56,
-  "rank_score": 70.2,
+  "rank_score": 69.9,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 477,
+  "rank": 485,
   "avatar_url": "https://avatars.githubusercontent.com/u/8185194?u=1867dbd1418e49a05837a96b402897fa96f0d625&v=4",
   "bio": "I've taken several businesses from $0 to $10M+ as both CEO and CTO roles.",
   "company": "",
-  "tier": "Elite",
-  "percentile": 99.0,
+  "tier": "Diamond",
+  "percentile": 98.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 477,
-      "s": 70.2
+      "r": 485,
+      "s": 69.9
     }
   ],
   "location": ""

@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 171,
+  "rank": 165,
   "avatar_url": "https://avatars.githubusercontent.com/u/79878353?u=a7cece82d722d9bfb83d7b4d0d6e5647392d213e&v=4",
   "bio": "Senior Staff Engineer in Berlin. Building Agenturm: local observability for coding agents. Open-source tools for tracing and evaluation.",
   "company": "HelloFresh",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 171,
+      "r": 165,
       "s": 79.0
     }
   ],

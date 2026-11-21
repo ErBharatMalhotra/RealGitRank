@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 40.35,
-  "rank_score": 62.1,
+  "rank_score": 62.5,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 836,
+  "rank": 732,
   "avatar_url": "https://avatars.githubusercontent.com/u/157447210?u=95b3c996dc880133cfc90bd4746ad47ce673ed0a&v=4",
   "bio": "Don't hesitate to reach out!",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 836,
-      "s": 62.1
+      "r": 732,
+      "s": 62.5
     }
   ],
   "location": "ohio, United States"

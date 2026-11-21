@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.24,
-  "rank_score": 100.3,
+  "rank_score": 101.1,
   "active_repos_touched": 13,
   "pr_reviews": 1,
   "issue_comments": 1,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 37,
+  "rank": 35,
   "avatar_url": "https://avatars.githubusercontent.com/u/100354790?u=eba23956bb06a9b0086c90a83f28489fc4ddfe8d&v=4",
   "bio": "Grinding open source daily: finding bugs, fixing them, shipping PRs. I write up what I learn on X. Like the work? Let's connect!",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 37,
-      "s": 100.3
+      "r": 35,
+      "s": 101.1
     }
   ],
   "location": "Bengaluru, India"

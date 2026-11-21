@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 389,
+  "rank": 379,
   "avatar_url": "https://avatars.githubusercontent.com/u/474554?u=a02b1be665c890745d65404f43e4e86ea929ec34&v=4",
   "bio": "",
   "company": "Solutions & Territoire",
   "tier": "Elite",
-  "percentile": 99.1,
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 389,
+      "r": 379,
       "s": 72.0
     }
   ],

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 70,
+  "rank": 67,
   "avatar_url": "https://avatars.githubusercontent.com/u/24323276?u=b44e893a5ca8aeea5cf8e88c8228ee3c1c32266f&v=4",
   "bio": "CTO \u00b7 Symfony Architect \u00b7 Building scalable products, reusable bundles, and automation-driven systems",
   "company": "NowoTech",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 70,
+      "r": 67,
       "s": 91.9
     }
   ],

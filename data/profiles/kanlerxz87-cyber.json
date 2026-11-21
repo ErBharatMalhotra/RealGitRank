@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.93,
-  "rank_score": 78.1,
+  "rank_score": 78.0,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 186,
+  "rank": 179,
   "avatar_url": "https://avatars.githubusercontent.com/u/312694378?v=4",
   "bio": "",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 186,
-      "s": 78.1
+      "r": 179,
+      "s": 78.0
     }
   ],
   "location": ""

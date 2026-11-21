@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 40.6,
-  "rank_score": 87.1,
+  "rank_score": 87.8,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 101,
+  "rank": 93,
   "avatar_url": "https://avatars.githubusercontent.com/u/24288930?u=fdeea506f72c8bf6c8a34c760fa60bd74deca0f3&v=4",
   "bio": "Ultimate Library Builder for your Favorite WordPress Page Builders.",
   "company": "WPEssential",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 101,
-      "s": 87.1
+      "r": 93,
+      "s": 87.8
     }
   ],
   "location": "Pakistan"

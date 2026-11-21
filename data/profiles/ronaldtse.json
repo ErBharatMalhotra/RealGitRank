@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 48.07,
-  "rank_score": 91.4,
+  "rank_score": 91.1,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 72,
+  "rank": 74,
   "avatar_url": "https://avatars.githubusercontent.com/u/11865?u=92a21a79202498324675e5e8a2d9b9bafc445ae6&v=4",
   "bio": "",
   "company": "riboseinc",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 72,
-      "s": 91.4
+      "r": 74,
+      "s": 91.1
     }
   ],
   "location": ""

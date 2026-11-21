@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 41.27,
-  "rank_score": 62.1,
+  "rank_score": 62.5,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 834,
+  "rank": 729,
   "avatar_url": "https://avatars.githubusercontent.com/u/45431570?u=b5af94a06f435c45129fc7e175c2412d2e3a34f6&v=4",
   "bio": "I like sharing knowledge - usually through the weird things I build here.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 834,
-      "s": 62.1
+      "r": 729,
+      "s": 62.5
     }
   ],
   "location": "Austin, TX"

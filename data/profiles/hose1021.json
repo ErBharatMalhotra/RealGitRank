@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 488,
+  "rank": 464,
   "avatar_url": "https://avatars.githubusercontent.com/u/30587167?u=ef769a3bb03d580b715396c2aeb4ba19ee1e2aa4&v=4",
   "bio": "I'm a web developer from Baku,Azerbaijan.",
   "company": "DukasCopy Swiss Bank",
-  "tier": "Diamond",
-  "percentile": 98.9,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 488,
+      "r": 464,
       "s": 70.0
     }
   ],

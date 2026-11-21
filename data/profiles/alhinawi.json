@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 964,
+  "rank": 884,
   "avatar_url": "https://avatars.githubusercontent.com/u/68702059?u=ac3d19cf62bd3cb8bdd6ca57ac480e38d3030b7a&v=4",
   "bio": "Software engineer from Egypt, working across learning platforms, online stores, interactive experiences and developer tools.",
   "company": "Upwork",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 964,
+      "r": 884,
       "s": 60.7
     }
   ],

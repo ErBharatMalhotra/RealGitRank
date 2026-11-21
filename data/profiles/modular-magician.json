@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 61.48,
-  "rank_score": 93.8,
+  "rank_score": 94.1,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -32,7 +32,7 @@
     {
       "d": "2026-11-21",
       "r": 59,
-      "s": 93.8
+      "s": 94.1
     }
   ],
   "location": "A Boundless Void"

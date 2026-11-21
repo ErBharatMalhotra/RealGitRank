@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 436,
+  "rank": 410,
   "avatar_url": "https://avatars.githubusercontent.com/u/97750754?u=a003c43d2e3c785796691a3b83fabb1ff0d4840f&v=4",
   "bio": "Mechanical engineer exploring the intersection of engineering and computation. \ud83e\udd80\ud83d\udc0d",
   "company": "KOSMO Engineering GmbH",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 436,
+      "r": 410,
       "s": 70.9
     }
   ],

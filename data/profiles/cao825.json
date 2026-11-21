@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 44.45,
-  "rank_score": 70.4,
+  "rank_score": 70.2,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 459,
+  "rank": 451,
   "avatar_url": "https://avatars.githubusercontent.com/u/4397075?u=b5f24a93f840074a474b1bd576463a79a7ad0e20&v=4",
   "bio": "Engineering Leader. Passionate about modern, composable, digital systems.",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 459,
-      "s": 70.4
+      "r": 451,
+      "s": 70.2
     }
   ],
   "location": "Pittsburgh, PA"

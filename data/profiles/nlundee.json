@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 485,
+  "rank": 460,
   "avatar_url": "https://avatars.githubusercontent.com/u/23278708?u=2cc35ab8040b56e6e7ffc1c9d3cdce549a0f6f40&v=4",
   "bio": "",
   "company": "The Norwegian Digitalisation Agency (Digdir)",
-  "tier": "Diamond",
-  "percentile": 98.9,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 485,
+      "r": 460,
       "s": 70.1
     }
   ],

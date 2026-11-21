@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 394,
+  "rank": 382,
   "avatar_url": "https://avatars.githubusercontent.com/u/244839088?u=a820640a435baf7139d6e4caff3d0c6944ced5fb&v=4",
   "bio": "Software Engineering Student - UnB",
   "company": "Universidade de Bras\u00edlia",
   "tier": "Elite",
-  "percentile": 99.1,
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 394,
+      "r": 382,
       "s": 71.9
     }
   ],

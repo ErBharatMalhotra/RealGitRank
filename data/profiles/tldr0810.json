@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 453,
+  "rank": 431,
   "avatar_url": "https://avatars.githubusercontent.com/u/270076357?u=730f413e8fa94cac7c19e58d831955ef43fcbb6b&v=4",
   "bio": "AI Agents",
   "company": "Netmind.AI",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 453,
+      "r": 431,
       "s": 70.5
     }
   ],

@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.98,
-  "rank_score": 90.9,
+  "rank_score": 91.2,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 75,
+  "rank": 72,
   "avatar_url": "https://avatars.githubusercontent.com/u/270976497?u=df3a01769e83f2586cc2bacb1d7c483d0211757a&v=4",
   "bio": "Founder & CEO, SZL Holdings. Governed AI decision infrastructure. ORCID 0009-0001-0110-4173",
   "company": "SZL Holdings",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 75,
-      "s": 90.9
+      "r": 72,
+      "s": 91.2
     }
   ],
   "location": "New York, NY"

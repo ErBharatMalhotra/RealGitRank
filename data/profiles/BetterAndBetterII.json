@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 68.64,
-  "rank_score": 86.6,
+  "rank_score": 86.9,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 106,
+  "rank": 104,
   "avatar_url": "https://avatars.githubusercontent.com/u/141388234?u=9c5db6ce6620c02cf08056f2697aad0e7016514b&v=4",
   "bio": "",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 106,
-      "s": 86.6
+      "r": 104,
+      "s": 86.9
     }
   ],
   "location": "Shenzhen"

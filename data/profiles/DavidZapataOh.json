@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 68.22,
-  "rank_score": 61.9,
+  "rank_score": 61.7,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 859,
+  "rank": 786,
   "avatar_url": "https://avatars.githubusercontent.com/u/37819456?u=6b9ab45dcf96e8f1059126113feba07a690c5ae9&v=4",
   "bio": "\"Siempre codifica como si la persona que finalmente mantendr\u00e1 tu c\u00f3digo fuera un psic\u00f3pata violento que sabe d\u00f3nde vives.\"",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.1,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 859,
-      "s": 61.9
+      "r": 786,
+      "s": 61.7
     }
   ],
   "location": "Medell\u00edn"

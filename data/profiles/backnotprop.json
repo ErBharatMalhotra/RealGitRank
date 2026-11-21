@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 83.18,
   "s_consistency": 41.77,
-  "rank_score": 63.6,
+  "rank_score": 64.2,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 745,
+  "rank": 646,
   "avatar_url": "https://avatars.githubusercontent.com/u/7244317?u=ca99a5717dd0ce83ad6e9f39a00489f84e501fbe&v=4",
   "bio": "github is the fun stuff. day to day is complex critical systems, mostly involving AI.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 745,
-      "s": 63.6
+      "r": 646,
+      "s": 64.2
     }
   ],
   "location": "nyc"

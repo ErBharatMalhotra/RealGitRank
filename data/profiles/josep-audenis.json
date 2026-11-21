@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 59.66,
-  "rank_score": 62.0,
+  "rank_score": 62.9,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 853,
+  "rank": 714,
   "avatar_url": "https://avatars.githubusercontent.com/u/57344635?u=db6c8ef625fc44598cbfe9fd615a2eba3c1c84bf&v=4",
   "bio": "",
   "company": "Accenture",
   "tier": "Diamond",
-  "percentile": 98.1,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 853,
-      "s": 62.0
+      "r": 714,
+      "s": 62.9
     }
   ],
   "location": "Barcelona"

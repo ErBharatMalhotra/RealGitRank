@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 42.39,
-  "rank_score": 65.4,
+  "rank_score": 65.8,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 648,
+  "rank": 623,
   "avatar_url": "https://avatars.githubusercontent.com/u/158724?u=a3f26e4d2528a68effa5ccbfa79262d110fb5926&v=4",
   "bio": "",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 648,
-      "s": 65.4
+      "r": 623,
+      "s": 65.8
     }
   ],
   "location": "Canada"

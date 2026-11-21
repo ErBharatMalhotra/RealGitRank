@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 800,
+  "rank": 725,
   "avatar_url": "https://avatars.githubusercontent.com/u/162757881?u=88931e4257f3bac742042a5f45fa718536eb8bcb&v=4",
   "bio": "MSci Chemistry student at Imperial College London, specialising in inorganic/material chemistry, computational modelling and data-driven characterisation",
   "company": "Imperial College London",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 800,
+      "r": 725,
       "s": 62.6
     }
   ],

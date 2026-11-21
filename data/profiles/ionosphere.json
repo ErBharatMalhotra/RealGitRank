@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 59.66,
-  "rank_score": 74.7,
+  "rank_score": 75.2,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 287,
+  "rank": 259,
   "avatar_url": "https://avatars.githubusercontent.com/u/1838491?v=4",
   "bio": "Farmer son, AgroTIC Data engineer, and Ekylibre CEO / bziiit CTO. Co-founder of OSFarm & La ferme digitale. #osfarm #lfd #ekylibre #bziiit",
   "company": "Ekylibre / bziiit / Piloterra",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 287,
-      "s": 74.7
+      "r": 259,
+      "s": 75.2
     }
   ],
   "location": "Bordeaux"

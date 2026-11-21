@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 699,
+  "rank": 650,
   "avatar_url": "https://avatars.githubusercontent.com/u/140998506?v=4",
   "bio": "Building backend systems, cloud platforms, and developer tools.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 699,
+      "r": 650,
       "s": 64.1
     }
   ],

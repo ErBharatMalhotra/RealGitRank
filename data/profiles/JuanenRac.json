@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 40.65,
-  "rank_score": 65.2,
+  "rank_score": 65.5,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 672,
+  "rank": 626,
   "avatar_url": "https://avatars.githubusercontent.com/u/302076862?u=4281a0a1f51b966f1ab61b58d60689d355920ce8&v=4",
   "bio": "I build real-world solutions at the intersection of electronics, telecom, robotics, and 3D technology.",
   "company": "Electro Hobby 3D",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 672,
-      "s": 65.2
+      "r": 626,
+      "s": 65.5
     }
   ],
   "location": "Yecla, Murcia, Spain"

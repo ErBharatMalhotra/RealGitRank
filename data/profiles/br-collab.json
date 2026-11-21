@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 614,
+  "rank": 602,
   "avatar_url": "https://avatars.githubusercontent.com/u/268041219?v=4",
   "bio": "",
   "company": "Columbia University",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 614,
+      "r": 602,
       "s": 67.1
     }
   ],

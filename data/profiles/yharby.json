@@ -1,19 +1,19 @@
 {
   "username": "yharby",
-  "rank": 697,
-  "rank_score": 64.2,
+  "rank": 853,
+  "rank_score": 61.0,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/13020265?u=e15f8fbbfa34f01f9dcdd17de8f32749d5b16aa5&v=4",
   "bio": "Using data to support lives",
   "company": "@CartoDB",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 697,
-      "s": 64.2
+      "r": 853,
+      "s": 61.0
     }
   ],
   "location": ""

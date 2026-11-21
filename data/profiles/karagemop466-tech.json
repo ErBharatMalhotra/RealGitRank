@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.28,
-  "rank_score": 125.7,
+  "rank_score": 126.9,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -32,7 +32,7 @@
     {
       "d": "2026-11-21",
       "r": 5,
-      "s": 125.7
+      "s": 126.9
     }
   ],
   "location": ""

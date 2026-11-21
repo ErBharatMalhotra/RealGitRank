@@ -1,19 +1,19 @@
 {
   "username": "Delemangi",
-  "rank": 700,
-  "rank_score": 64.1,
+  "rank": 865,
+  "rank_score": 60.9,
   "country": "",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/64418237?u=c7fda71aafbc63e052164739bce7900f1ea38b6b&v=4",
   "bio": "",
   "company": "@codechem",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 700,
-      "s": 64.1
+      "r": 865,
+      "s": 60.9
     }
   ],
   "location": "Skopje, North Macedonia"

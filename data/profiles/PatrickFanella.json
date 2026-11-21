@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 605,
+  "rank": 595,
   "avatar_url": "https://avatars.githubusercontent.com/u/61631520?u=bd58a0478627e10d8cf80b0b3bf4a19d0653963f&v=4",
   "bio": "Senior full-stack & backend engineer. Building SUBCULT: software for independent culture. Go, TypeScript, React, Python. Chicago. Open to work.",
   "company": "@subculture-collective",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 605,
+      "r": 595,
       "s": 67.4
     }
   ],

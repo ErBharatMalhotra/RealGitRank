@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 916,
+  "rank": 829,
   "avatar_url": "https://avatars.githubusercontent.com/u/16467404?u=436b5b939877b85ee19a10ac87135f75e1c59b7b&v=4",
   "bio": "",
   "company": "Red Hat",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 916,
+      "r": 829,
       "s": 61.5
     }
   ],

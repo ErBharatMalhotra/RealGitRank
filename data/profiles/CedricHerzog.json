@@ -1,19 +1,19 @@
 {
   "username": "CedricHerzog",
-  "rank": 182,
-  "rank_score": 78.3,
+  "rank": 287,
+  "rank_score": 74.4,
   "country": "",
   "primary_language": "Go",
   "avatar_url": "https://avatars.githubusercontent.com/u/6296846?u=178751b45a5538ea26567f4b2526aa44c9806a98&v=4",
   "bio": "",
   "company": "@CodeClarityCE",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 182,
-      "s": 78.3
+      "r": 287,
+      "s": 74.4
     }
   ],
   "location": "Luxembourg"

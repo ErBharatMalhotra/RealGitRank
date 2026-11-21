@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 56.63,
-  "rank_score": 61.0,
+  "rank_score": 60.2,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 938,
+  "rank": 931,
   "avatar_url": "https://avatars.githubusercontent.com/u/75473925?u=93ebf528ab395fb2cd3fbae1aece35e9c2981d9e&v=4",
   "bio": "Senior Software Engineer",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 938,
-      "s": 61.0
+      "r": 931,
+      "s": 60.2
     }
   ],
   "location": ""

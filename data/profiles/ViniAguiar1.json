@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 937,
+  "rank": 850,
   "avatar_url": "https://avatars.githubusercontent.com/u/120150632?u=d6d41668ccc16a16c16ba14c385a812828f1fc64&v=4",
   "bio": "Product Engineer \u00b7 TypeScript \u00b7 Node.js \u00b7 React \u00b7 Next.js \u00b7 PostgreSQL \u00b7 multi-tenant SaaS \u00b7 AI in production",
   "company": "Chattie",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 937,
+      "r": 850,
       "s": 61.0
     }
   ],

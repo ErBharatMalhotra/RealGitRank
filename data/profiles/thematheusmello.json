@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 687,
+  "rank": 640,
   "avatar_url": "https://avatars.githubusercontent.com/u/15657692?u=c538d09ff894e8ad4e9954bbb95b04ab8bf3f977&v=4",
   "bio": "Principal AI Engineer \u2014 production AI systems: agentic architectures, RAG, evals in CI. Founder of Quantivo AI. I ship my own apps at doozle.io",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 687,
+      "r": 640,
       "s": 64.4
     }
   ],

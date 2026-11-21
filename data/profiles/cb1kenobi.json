@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 67.99,
-  "rank_score": 60.9,
+  "rank_score": 61.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 942,
+  "rank": 838,
   "avatar_url": "https://avatars.githubusercontent.com/u/97262?u=7d1eb6fd5c3ff35adf1e38e5bbd70bc0d7aa089b&v=4",
   "bio": "Staff Software Engineer at Harper / JavaScript guru / Titanium SDK stepdad / Ex-\u25b2",
   "company": "Harper",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 942,
-      "s": 60.9
+      "r": 838,
+      "s": 61.3
     }
   ],
   "location": "Minneapolis, MN"

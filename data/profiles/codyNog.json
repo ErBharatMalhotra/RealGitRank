@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 351,
+  "rank": 336,
   "avatar_url": "https://avatars.githubusercontent.com/u/38449219?u=b4008a688c12726af049da022ce9c5fabdc051e7&v=4",
   "bio": "JavaScript/TypeScript/React/React Native/Node.js",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 351,
+      "r": 336,
       "s": 72.7
     }
   ],

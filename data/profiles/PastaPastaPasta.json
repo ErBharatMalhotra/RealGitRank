@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 40.26,
-  "rank_score": 76.9,
+  "rank_score": 77.5,
   "active_repos_touched": 6,
   "pr_reviews": 9,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 211,
+  "rank": 200,
   "avatar_url": "https://avatars.githubusercontent.com/u/6443210?u=ca58f5c566ff1ad12d396a5b2a5b9e2c5d40e4c0&v=4",
   "bio": "Dash Core Group Developer",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.5,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 211,
-      "s": 76.9
+      "r": 200,
+      "s": 77.5
     }
   ],
   "location": ""

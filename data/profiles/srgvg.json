@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 40.69,
-  "rank_score": 72.7,
+  "rank_score": 72.6,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 354,
+  "rank": 345,
   "avatar_url": "https://avatars.githubusercontent.com/u/382239?u=6398aaeb36148fabc7c8e6af3afe4febeba5c0e9&v=4",
   "bio": "Operations\r\n",
   "company": "@ginsys ",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 354,
-      "s": 72.7
+      "r": 345,
+      "s": 72.6
     }
   ],
   "location": "Belgium"

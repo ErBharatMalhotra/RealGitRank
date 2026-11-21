@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 42.94,
-  "rank_score": 73.0,
+  "rank_score": 72.9,
   "active_repos_touched": 2,
   "pr_reviews": 1,
   "issue_comments": 4,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 343,
+  "rank": 326,
   "avatar_url": "https://avatars.githubusercontent.com/u/5027251?v=4",
   "bio": "Co-founder @DOS |\r\nFounder at Vietnam Game Dev",
   "company": "@DOS",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 343,
-      "s": 73.0
+      "r": 326,
+      "s": 72.9
     }
   ],
   "location": "Vietnam"

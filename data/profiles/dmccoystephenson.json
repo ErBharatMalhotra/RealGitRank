@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 50.32,
-  "rank_score": 99.0,
+  "rank_score": 99.4,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 44,
+  "rank": 41,
   "avatar_url": "https://avatars.githubusercontent.com/u/21204351?u=6a3cbee53ad89503c1f3f56f9f8de98718e8de71&v=4",
   "bio": "Software engineer \u2022 Creator of simulation tools & source-available games \u2022 Leading Preponderous Software & Dan\u2019s Plugins Community",
   "company": "@Preponderous-Software @Dans-Plugins",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 44,
-      "s": 99.0
+      "r": 41,
+      "s": 99.4
     }
   ],
   "location": "Colorado"

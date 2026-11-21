@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 893,
+  "rank": 806,
   "avatar_url": "https://avatars.githubusercontent.com/u/22531977?u=5d2d8a515f8935c3c4a1c22a4d141986663a6f97&v=4",
   "bio": "AiM for Modern DevCloudInfraSec Ai",
   "company": "Stealth Mode",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 893,
+      "r": 806,
       "s": 61.5
     }
   ],

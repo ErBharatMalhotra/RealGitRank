@@ -1,19 +1,19 @@
 {
   "username": "Swartdraak",
-  "rank": 61,
-  "rank_score": 93.6,
+  "rank": 86,
+  "rank_score": 88.9,
   "country": "",
   "primary_language": "C#",
   "avatar_url": "https://avatars.githubusercontent.com/u/5070636?v=4",
   "bio": "AI-powered developer building automated scripts, micro tools, and faceless digital products.  \r\nSpecializing in Python automation, API integrations, data tools,",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.9,
+  "percentile": 99.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 61,
-      "s": 93.6
+      "r": 86,
+      "s": 88.9
     }
   ],
   "location": ""

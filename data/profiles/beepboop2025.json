@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 792,
+  "rank": 720,
   "avatar_url": "https://avatars.githubusercontent.com/u/215868371?v=4",
   "bio": "Open-source public evidence workbench for sealed censorship measurements and reproducible AI evaluations.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 792,
+      "r": 720,
       "s": 62.7
     }
   ],

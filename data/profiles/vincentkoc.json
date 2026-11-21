@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 44.46,
-  "rank_score": 91.0,
+  "rank_score": 91.5,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 74,
+  "rank": 69,
   "avatar_url": "https://avatars.githubusercontent.com/u/25068?u=5d9c466c1faf3fcd96870c8c9b99c7a548415369&v=4",
   "bio": "Chief Architect \ud83e\udd9e @openclaw Ex @qantasairways @airbytehq @microsoft | Lecturer @mit | Ethical Hacker | FIrst Responder",
   "company": "@openclaw",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 74,
-      "s": 91.0
+      "r": 69,
+      "s": 91.5
     }
   ],
   "location": "San Francisco, CA"

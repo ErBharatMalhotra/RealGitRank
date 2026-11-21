@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 40.91,
-  "rank_score": 71.8,
+  "rank_score": 72.4,
   "active_repos_touched": 2,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 397,
+  "rank": 354,
   "avatar_url": "https://avatars.githubusercontent.com/u/2058167?u=49d8a5df94e131b1b699162ab7a97119102742ed&v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.1,
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 397,
-      "s": 71.8
+      "r": 354,
+      "s": 72.4
     }
   ],
   "location": "San Francisco"

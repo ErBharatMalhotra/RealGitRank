@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 965,
+  "rank": 885,
   "avatar_url": "https://avatars.githubusercontent.com/u/2787548?u=e3e62c97584ab345e572e7dae5171f062b3ff5fd&v=4",
   "bio": "",
   "company": "Giant Swarm",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 965,
+      "r": 885,
       "s": 60.7
     }
   ],

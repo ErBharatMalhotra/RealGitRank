@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 40.72,
-  "rank_score": 74.2,
+  "rank_score": 74.5,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 301,
+  "rank": 283,
   "avatar_url": "https://avatars.githubusercontent.com/u/14235001?u=ed70680705490da1c0590797603121dd6bf7ae10&v=4",
   "bio": "I\u2019m a full stack web front/back-end and  mobile app developer. \u2764\ufe0f ",
   "company": "@vernum-projecten",
   "tier": "Elite",
-  "percentile": 99.3,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 301,
-      "s": 74.2
+      "r": 283,
+      "s": 74.5
     }
   ],
   "location": "The Netherlands"

@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 40.51,
-  "rank_score": 89.3,
+  "rank_score": 89.6,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 86,
+  "rank": 81,
   "avatar_url": "https://avatars.githubusercontent.com/u/755489?u=191fe71e48f9dda3073eccc41efffcd2a722d427&v=4",
   "bio": "Building FootPrint \u2014 the flowchart pattern for AI-readable code. Senior Engineer @ AWS. PhD CS.",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 86,
-      "s": 89.3
+      "r": 81,
+      "s": 89.6
     }
   ],
   "location": "Dallas"

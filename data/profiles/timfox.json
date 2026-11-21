@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 350,
+  "rank": 335,
   "avatar_url": "https://avatars.githubusercontent.com/u/459247?u=bd22abf97893f4298f393e089be454a6e48986ed&v=4",
   "bio": "Creator of Gopex LLC",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 350,
+      "r": 335,
       "s": 72.7
     }
   ],

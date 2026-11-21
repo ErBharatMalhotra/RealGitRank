@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 67.99,
-  "rank_score": 60.9,
+  "rank_score": 61.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 941,
+  "rank": 837,
   "avatar_url": "https://avatars.githubusercontent.com/u/7821567?v=4",
   "bio": "Retired biotech manufacturing, operations leader",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 941,
-      "s": 60.9
+      "r": 837,
+      "s": 61.3
     }
   ],
   "location": ""

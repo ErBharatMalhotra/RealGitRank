@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 481,
+  "rank": 456,
   "avatar_url": "https://avatars.githubusercontent.com/u/226232558?u=19a4294f2beb9bcd47d99e06f161f2abb1d290e1&v=4",
   "bio": "Arumi",
   "company": "Arumi Studios",
-  "tier": "Diamond",
-  "percentile": 98.9,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 481,
+      "r": 456,
       "s": 70.1
     }
   ],

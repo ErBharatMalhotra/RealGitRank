@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 39.48,
-  "rank_score": 68.5,
+  "rank_score": 69.1,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 590,
+  "rank": 566,
   "avatar_url": "https://avatars.githubusercontent.com/u/26800291?u=da4313ad904f07d7a12c8bf0ce5071b2a0881f99&v=4",
   "bio": "devops pivoting -> indie gamedev",
   "company": "@LandOfEnchantment Games",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 590,
-      "s": 68.5
+      "r": 566,
+      "s": 69.1
     }
   ],
   "location": "New Mexico, USA"

@@ -1,19 +1,19 @@
 {
   "username": "ecto",
-  "rank": 324,
-  "rank_score": 73.6,
+  "rank": 487,
+  "rank_score": 69.9,
   "country": "United States",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/387820?u=e2402bce7117ecfc52b6b1d8344dacec4fcda88b&v=4",
   "bio": "Robots! That help people!",
   "company": "Municipal Robotics",
-  "tier": "Elite",
-  "percentile": 99.3,
+  "tier": "Diamond",
+  "percentile": 98.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 324,
-      "s": 73.6
+      "r": 487,
+      "s": 69.9
     }
   ],
   "location": "USA"

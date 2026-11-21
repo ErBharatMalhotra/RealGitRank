@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 46.88,
-  "rank_score": 71.9,
+  "rank_score": 73.0,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 392,
+  "rank": 321,
   "avatar_url": "https://avatars.githubusercontent.com/u/5644488?v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.1,
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 392,
-      "s": 71.9
+      "r": 321,
+      "s": 73.0
     }
   ],
   "location": "Nantes"

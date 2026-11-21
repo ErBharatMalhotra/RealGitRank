@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 40.43,
-  "rank_score": 126.5,
+  "rank_score": 127.0,
   "active_repos_touched": 24,
   "pr_reviews": 0,
   "issue_comments": 10,
@@ -32,7 +32,7 @@
     {
       "d": "2026-11-21",
       "r": 4,
-      "s": 126.5
+      "s": 127.0
     }
   ],
   "location": "Berlin"

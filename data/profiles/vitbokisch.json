@@ -1,19 +1,19 @@
 {
   "username": "vitbokisch",
-  "rank": 395,
-  "rank_score": 71.9,
+  "rank": 576,
+  "rank_score": 68.3,
   "country": "",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/6165632?u=65c8955a64ca2c5db300e490f9e88c6e1d18ec04&v=4",
   "bio": "",
   "company": "@pyreon @vitus-labs ",
-  "tier": "Elite",
-  "percentile": 99.1,
+  "tier": "Diamond",
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 395,
-      "s": 71.9
+      "r": 576,
+      "s": 68.3
     }
   ],
   "location": "Prague"

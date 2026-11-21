@@ -1,19 +1,19 @@
 {
   "username": "AlbinoGeek",
-  "rank": 642,
-  "rank_score": 65.8,
+  "rank": 739,
+  "rank_score": 62.5,
   "country": "Canada",
   "primary_language": "Go",
   "avatar_url": "https://avatars.githubusercontent.com/u/1910461?u=8039045177404d2ea940afbfcac664e751171601&v=4",
   "bio": "CTO, Rethunk.Tech \u2014 agent ops & governed AI (Bastion / IRONLAW). Go & TypeScript. 90% blind.",
   "company": "@Rethunk-Tech ",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 642,
-      "s": 65.8
+      "r": 739,
+      "s": 62.5
     }
   ],
   "location": "Canada"

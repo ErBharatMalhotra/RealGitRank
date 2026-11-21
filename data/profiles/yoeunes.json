@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 438,
+  "rank": 412,
   "avatar_url": "https://avatars.githubusercontent.com/u/10859693?u=dbeebd41666e217a0226f1a8b4b6efb93640ffa2&v=4",
   "bio": "Building PHPRegex & PHPFlasher \u00b7 Powered by coffee",
   "company": "Tousfacteurs",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 438,
+      "r": 412,
       "s": 70.9
     }
   ],

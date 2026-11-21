@@ -1,0 +1,39 @@
+{
+  "username": "dajiaohuang",
+  "country": "Singapore",
+  "primary_language": "JavaScript",
+  "total_pushes": 0,
+  "merged_prs": 1,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 109.95,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 50.15,
+  "rank_score": 59.4,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 3,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 978,
+  "avatar_url": "https://avatars.githubusercontent.com/u/108231307?u=8bdf7a69d9cb3a2a9669bec05afd2718d0a5754e&v=4",
+  "bio": "Software Engineer Intern in Tiktok. Graduate student in NUS.\r\nGraduated from SJTU.\r\n",
+  "company": "",
+  "tier": "Diamond",
+  "percentile": 97.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 978,
+      "s": 59.4
+    }
+  ],
+  "location": "Singapore"
+}

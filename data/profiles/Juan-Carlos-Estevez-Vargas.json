@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 44.87,
-  "rank_score": 69.4,
+  "rank_score": 70.0,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 549,
+  "rank": 463,
   "avatar_url": "https://avatars.githubusercontent.com/u/85718854?u=0f92df0a995f16e83f1660b49fe08e186ba18d0e&v=4",
   "bio": "Desarrollador de Software enfocado en BackEnd, con gran conocimiento en el \u00e1rea del desarrollo web y con alto enfoque en habilidades blandas                    ",
   "company": "",
-  "tier": "Diamond",
-  "percentile": 98.8,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 549,
-      "s": 69.4
+      "r": 463,
+      "s": 70.0
     }
   ],
   "location": "Chiquinquir\u00e1 / Boyac\u00e1 / Colombia"

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 874,
+  "rank": 787,
   "avatar_url": "https://avatars.githubusercontent.com/u/2916380?u=97c6faf071f5be41b551a25ec15bb078fff5bb0e&v=4",
   "bio": "",
   "company": "Medatech UK",
   "tier": "Diamond",
-  "percentile": 98.1,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 874,
+      "r": 787,
       "s": 61.6
     }
   ],

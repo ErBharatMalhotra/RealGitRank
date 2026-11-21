@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 717,
+  "rank": 664,
   "avatar_url": "https://avatars.githubusercontent.com/u/64373011?u=bc059f6903fdf54056dfb59ef93b1b384a4e5fc0&v=4",
   "bio": "I am a young self-taught electronics enthusiast / hobbyist!",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 717,
+      "r": 664,
       "s": 64.0
     }
   ],

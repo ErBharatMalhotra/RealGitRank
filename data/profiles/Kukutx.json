@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 44.44,
-  "rank_score": 60.5,
+  "rank_score": 60.8,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 983,
+  "rank": 873,
   "avatar_url": "https://avatars.githubusercontent.com/u/61358650?u=448070a3063374a3190a432f54ae598287d7c9a5&v=4",
   "bio": "There is only one true heroism in the world: to see the world as it is, and to love it.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.8,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 983,
-      "s": 60.5
+      "r": 873,
+      "s": 60.8
     }
   ],
   "location": "italy"

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 934,
+  "rank": 847,
   "avatar_url": "https://avatars.githubusercontent.com/u/37676809?u=95cb1e95f2f13dad18be538250f3842494b92dc2&v=4",
   "bio": "I am a scientist with experience in industry and academic research. I work in machine learning, AI, data science and neuroscience.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 934,
+      "r": 847,
       "s": 61.1
     }
   ],

@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 41.57,
-  "rank_score": 63.0,
+  "rank_score": 62.9,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 784,
+  "rank": 716,
   "avatar_url": "https://avatars.githubusercontent.com/u/3090721?u=2ecb532635ebe784a63bd5ccd99e839efd067ef4&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 784,
-      "s": 63.0
+      "r": 716,
+      "s": 62.9
     }
   ],
   "location": "Zurich"

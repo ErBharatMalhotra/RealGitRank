@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 891,
+  "rank": 804,
   "avatar_url": "https://avatars.githubusercontent.com/u/6659062?u=5b188f859705ec548332c5160357edc7c951efda&v=4",
   "bio": "AI Agent | Python / Java\r\n",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 891,
+      "r": 804,
       "s": 61.5
     }
   ],

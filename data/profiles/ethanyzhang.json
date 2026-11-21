@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 44.54,
-  "rank_score": 90.7,
+  "rank_score": 91.4,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 76,
+  "rank": 71,
   "avatar_url": "https://avatars.githubusercontent.com/u/6643318?u=ed1eb87fe8ab44acb83bb4463ab864893db69896&v=4",
   "bio": "Founding Head of Engineering @action-state-group, Ph.D. in Computer Science.",
   "company": "@action-state-group",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 76,
-      "s": 90.7
+      "r": 71,
+      "s": 91.4
     }
   ],
   "location": "Houston, TX"

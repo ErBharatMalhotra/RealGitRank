@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 889,
+  "rank": 802,
   "avatar_url": "https://avatars.githubusercontent.com/u/339755416?u=ca8fee5b0a8cdb41a339dcdb1785beabd81930e5&v=4",
   "bio": "Aviation Manager",
   "company": "Helicopteros Personales ",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 889,
+      "r": 802,
       "s": 61.5
     }
   ],

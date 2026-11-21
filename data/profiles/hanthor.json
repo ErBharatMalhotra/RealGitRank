@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.38,
-  "rank_score": 78.2,
+  "rank_score": 78.0,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 184,
+  "rank": 181,
   "avatar_url": "https://avatars.githubusercontent.com/u/5840441?u=131613f2b18ba7d4826a5b9e96b756ee0e7ef001&v=4",
   "bio": "@projectbluefin  - Bluefin LTS \r\n@hivecommons - Maintainer \r\n@fossunited - Lucknow chapter\r\n@AlmaLinux -  Atomic SIG\r\n",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 184,
-      "s": 78.2
+      "r": 181,
+      "s": 78.0
     }
   ],
   "location": "India"

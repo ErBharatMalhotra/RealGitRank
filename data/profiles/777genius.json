@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 42.5,
-  "rank_score": 76.5,
+  "rank_score": 76.6,
   "active_repos_touched": 4,
   "pr_reviews": 2,
   "issue_comments": 2,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 230,
+  "rank": 223,
   "avatar_url": "https://avatars.githubusercontent.com/u/13103045?u=7b8c77975cf33d0c2adc26c70af76bdad06dba73&v=4",
   "bio": "Get a lot done by doing very little \ud83d\ude80\r\nBuilding the future! \u2728",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 230,
-      "s": 76.5
+      "r": 223,
+      "s": 76.6
     }
   ],
   "location": ""

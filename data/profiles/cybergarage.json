@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 841,
+  "rank": 751,
   "avatar_url": "https://avatars.githubusercontent.com/u/586639?u=08b52ccf20d6eba0346b79e55ec2963dab8caa7f&v=4",
   "bio": "Software engineer and OSS maintainer. I build databases, IoT libraries, and AI agents, and write about software.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.1,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 841,
+      "r": 751,
       "s": 62.1
     }
   ],

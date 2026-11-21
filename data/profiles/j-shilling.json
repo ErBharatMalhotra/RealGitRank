@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 493,
+  "rank": 470,
   "avatar_url": "https://avatars.githubusercontent.com/u/17163542?v=4",
   "bio": "",
   "company": "@PathableAI-org",
-  "tier": "Diamond",
-  "percentile": 98.9,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 493,
+      "r": 470,
       "s": 70.0
     }
   ],

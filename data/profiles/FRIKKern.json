@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 41.18,
-  "rank_score": 63.1,
+  "rank_score": 64.0,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 770,
+  "rank": 651,
   "avatar_url": "https://avatars.githubusercontent.com/u/32601161?u=26430f938f4caca73af6b03c4211bf7f986b9b43&v=4",
   "bio": "We\u2019ll build the sky we used to rent",
   "company": "Guerrilla",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 770,
-      "s": 63.1
+      "r": 651,
+      "s": 64.0
     }
   ],
   "location": "Oslo, Norway"

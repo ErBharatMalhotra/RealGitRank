@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 256,
+  "rank": 246,
   "avatar_url": "https://avatars.githubusercontent.com/u/351276057?u=5d80c404eed9a111da0e0d7fa8cadc438b06164e&v=4",
   "bio": "Doxie The Coder",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 256,
+      "r": 246,
       "s": 75.6
     }
   ],

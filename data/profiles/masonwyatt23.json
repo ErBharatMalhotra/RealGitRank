@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 42.37,
-  "rank_score": 99.9,
+  "rank_score": 100.1,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -32,7 +32,7 @@
     {
       "d": "2026-11-21",
       "r": 40,
-      "s": 99.9
+      "s": 100.1
     }
   ],
   "location": "Virginia"
