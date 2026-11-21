@@ -12,6 +12,24 @@ export function getStaticPaths() {
 }
 const { username } = Astro.params;
 const { data } = Astro.props;
+
+// Daily score series kept by the pipeline (top 1,000 profiles only).
+const history = (Array.isArray(data.history) ? data.history : []).filter((p) => p && typeof p.s === 'number');
+let spark = null;
+if (history.length > 1) {
+  const w = 320, h = 64, pad = 8;
+  const min = Math.min(...history.map((p) => p.s));
+  const max = Math.max(...history.map((p) => p.s));
+  const x = (i) => pad + (i * (w - 2 * pad)) / (history.length - 1);
+  const y = (v) => h - pad - (max === min ? 0.5 : ((v - min) / (max - min))) * (h - 2 * pad);
+  const line = history.map((p, i) => `${x(i).toFixed(1)},${y(p.s).toFixed(1)}`).join(' ');
+  spark = {
+    w, h, line,
+    area: `${x(0).toFixed(1)},${(h - pad).toFixed(1)} ${line} ${x(history.length - 1).toFixed(1)},${(h - pad).toFixed(1)}`,
+    min, max, first: history[0].d, last: history[history.length - 1].d, points: history.length,
+  };
+}
+const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
 ---
 <html lang="en">
   <head>
@@ -42,6 +60,13 @@ const { data } = Astro.props;
       img.badge { margin: 12px 0; border-radius: 6px; }
       pre { background: var(--bg); padding: 10px; border-radius: 6px; overflow: auto; font-size: 12px; border: 1px solid var(--line); }
       :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+      .tier { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.05em; padding: 2px 10px; border-radius: 999px; border: 1px solid currentColor; vertical-align: middle; margin-right: 6px; }
+      .t-elite { color: #f0abfc; } .t-diamond { color: #60a5fa; } .t-platinum { color: #a78bfa; }
+      .t-gold { color: #fbbf24; } .t-silver { color: #cbd5e1; } .t-bronze { color: #d97706; }
+      .spark { display: block; width: 100%; height: 64px; margin: 8px 0 4px; }
+      .sparkmeta { display: flex; justify-content: space-between; gap: 8px; color: var(--muted); font-size: 11px; }
+      .delta-up { color: #34d399; } .delta-down { color: #f87171; }
+      .movement { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
       img.badge { margin: 12px 0; }
     </style>
@@ -52,12 +77,27 @@ const { data } = Astro.props;
       {data.avatar_url && <img src={data.avatar_url} alt={username} width="64" height="64" style="border-radius:50%;border:2px solid var(--accent)" />}
       <h1 style="margin:0">{username}</h1>
     </div>
-    <p>{data.is_human_verified ? '✓ Verified Human Engineer' : (data.is_bot_classified ? '🤖 Classified as bot' : 'Developer')}</p>
+    <p>
+      {data.tier && <span class={`tier t-${tierClass}`} title={typeof data.percentile === 'number' ? `Ahead of ${data.percentile}% of ranked developers` : ''}>{data.tier}</span>}
+      {data.is_human_verified ? '✓ Verified Human Engineer' : (data.is_bot_classified ? '🤖 Classified as bot' : 'Developer')}
+    </p>
+    {(typeof data.score_delta === 'number' || typeof data.rank_delta === 'number') && (
+      <p class="movement">
+        {typeof data.score_delta === 'number' && data.score_delta !== 0 && (
+          <span class={data.score_delta > 0 ? 'delta-up' : 'delta-down'}>{data.score_delta > 0 ? '+' : ''}{data.score_delta.toFixed(1)} pts</span>
+        )}
+        {typeof data.rank_delta === 'number' && data.rank_delta !== 0 && (
+          <span class={data.rank_delta > 0 ? 'delta-up' : 'delta-down'}>{typeof data.score_delta === 'number' && data.score_delta !== 0 ? ' · ' : ''}{data.rank_delta > 0 ? '▲' : '▼'} {Math.abs(data.rank_delta)} ranks</span>
+        )}
+        {' since yesterday'}
+      </p>
+    )}
     <img class="badge" src={`/badges/${username}.svg`} alt="badge" width="200" height="60" />
     <div class="card">
       <div class="grid">
         <div class="stat"><div class="label">Rank Score</div><div class="val">{data.rank_score}</div></div>
         <div class="stat"><div class="label">Global Rank</div><div class="val">#{data.rank}</div></div>
+        <div class="stat"><div class="label">Percentile</div><div class="val">{typeof data.percentile === 'number' ? `${data.percentile}` : '—'}</div></div>
         <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">{data.country || '—'}</div></div>
         <div class="stat"><div class="label">Company</div><div class="val" style="font-size:14px">{data.company || '—'}</div></div>
         <div class="stat"><div class="label">Merged PRs</div><div class="val">{data.merged_prs}</div></div>
@@ -71,6 +111,16 @@ const { data } = Astro.props;
       </div>
     </div>
     {data.bio && <div class="card"><h3>Bio</h3><p style="color:var(--ink);margin:0">{data.bio}</p></div>}
+    {spark && (
+      <div class="card">
+        <h3>Score trend · {spark.points} days</h3>
+        <svg class="spark" viewBox={`0 0 ${spark.w} ${spark.h}`} preserveAspectRatio="none" role="img" aria-label={`Score trend over ${spark.points} days`}>
+          <polygon points={spark.area} fill="rgba(20,184,166,0.15)" />
+          <polyline points={spark.line} fill="none" stroke="#14b8a6" stroke-width="2" stroke-linejoin="round" />
+        </svg>
+        <div class="sparkmeta"><span>{spark.first}</span><span>min {spark.min} · max {spark.max}</span><span>{spark.last}</span></div>
+      </div>
+    )}
     <div class="card">
       <h3>Pillar Breakdown</h3>
       {[

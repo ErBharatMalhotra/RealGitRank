@@ -5,6 +5,16 @@ from datetime import datetime, timezone
 import duckdb
 from scoring_engine import compute_rank_scores
 from profiles import PROFILE_LIMIT, prune_profiles_for_leaderboard
+from history import (
+    MOVEMENT_KEYS,
+    append_user_history,
+    apply_deltas,
+    assign_tiers,
+    clear_movement,
+    load_previous_snapshot,
+    prune_snapshots,
+    write_snapshot,
+)
 
 # Network ingest is skipped when RGR_OFFLINE=1 (offline dev / local verification).
 offline = os.environ.get("RGR_OFFLINE") == "1"
@@ -164,6 +174,19 @@ lb = lb[:220000]
 for i, u in enumerate(lb, 1):
     u["rank"] = i
 
+# Tiers/percentiles + day-over-day movement, then persist today's snapshot.
+run_date = datetime.now(timezone.utc).date().isoformat()
+assign_tiers(lb)
+clear_movement(lb)
+prev_date, previous = load_previous_snapshot("data/history", run_date)
+if previous:
+    matched = apply_deltas(lb, previous)
+    print(f"Movement vs {prev_date}: {matched} returning users matched")
+write_snapshot("data/history", run_date, lb)
+pruned_snapshots = prune_snapshots("data/history")
+if pruned_snapshots:
+    print(f"Pruned {pruned_snapshots} old history snapshots")
+
 print(f"Total: {len(lb)} users (top 200k + per-country minimums)")
 
 with open("data/leaderboard.json", "w") as f:
@@ -180,13 +203,21 @@ for u in lb[:PROFILE_LIMIT]:
     for key in ("country", "primary_language", "avatar_url", "bio", "company"):
         prof[key] = prof.get(key) or u.get(key, "")
     prof_path = f"data/profiles/{u['username']}.json"
+    old_prof = {}
     if os.path.exists(prof_path):
         try:
             old_prof = json.load(open(prof_path))
             for key in ("avatar_url", "bio", "company", "country"):
                 prof[key] = prof.get(key) or old_prof.get(key, "")
         except Exception:
-            pass
+            old_prof = {}
+    for key in ("tier", "percentile", *MOVEMENT_KEYS):
+        if key in u:
+            prof[key] = u[key]
+        else:
+            prof.pop(key, None)
+    prof["history"] = old_prof.get("history") or []
+    append_user_history(prof, run_date, u["rank"], u["rank_score"])
     with open(prof_path, "w") as f:
         json.dump(prof, f, indent=2)
 
