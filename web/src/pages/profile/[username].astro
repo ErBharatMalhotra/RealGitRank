@@ -107,7 +107,7 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
         <div class="stat"><div class="label">Stars Received</div><div class="val">{data.stars_fraud_filtered || 0}</div></div>
         <div class="stat"><div class="label">Forks Received</div><div class="val">{data.forks_fraud_filtered || 0}</div></div>
         <div class="stat"><div class="label">Active Repos</div><div class="val">{data.active_repos_touched || 0}</div></div>
-        <div class="stat"><div class="label">Bot Penalty</div><div class="val">{data.bot_penalty.toFixed(2)}</div></div>
+        <div class="stat"><div class="label">Bot Penalty</div><div class="val">{typeof data.bot_penalty === 'number' ? data.bot_penalty.toFixed(2) : '—'}</div></div>
       </div>
     </div>
     {data.bio && <div class="card"><h3>Bio</h3><p style="color:var(--ink);margin:0">{data.bio}</p></div>}
@@ -128,12 +128,16 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
         ['Code Health', data.s_quality, 0.25],
         ['Adoption (Impact)', data.s_impact, 0.25],
         ['Consistency (Cadence)', data.s_consistency, 0.15],
-      ].map(([name, val, w]) => (
-        <div style="margin:8px 0">
-          <div style="display:flex;justify-content:space-between;font-size:13px"><span>{name} (×{w})</span><span>{val.toFixed(1)}</span></div>
-          <div class="bar"><div style={`width:${Math.min(100, val/3)}%`}></div></div>
-        </div>
-      ))}
+      ].map(([name, val, w]) => {
+        // Carried-over users can enter the top 1,000 without fresh pillar metrics.
+        const v = typeof val === 'number' && Number.isFinite(val) ? val : 0;
+        return (
+          <div style="margin:8px 0">
+            <div style="display:flex;justify-content:space-between;font-size:13px"><span>{name} (×{w})</span><span>{v.toFixed(1)}</span></div>
+            <div class="bar"><div style={`width:${Math.min(100, v/3)}%`}></div></div>
+          </div>
+        );
+      })}
     </div>
     <div class="card">
       <h3>README Badge</h3>
