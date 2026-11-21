@@ -7,6 +7,8 @@ web/.astro/
 data/raw.parquet
 web/public/data/
 web/public/data/chunks/
+web/public/api/
+web/public/llms.txt
 
 # Secrets
 .env

@@ -6,7 +6,12 @@ with open("data/leaderboard.json") as f:
 
 countries = sorted(set(u["country"] for u in lb))
 
-urls = ["https://realgitrank.bharatdn.com/"]
+urls = [
+    "https://realgitrank.bharatdn.com/",
+    "https://realgitrank.bharatdn.com/methodology/",
+    "https://realgitrank.bharatdn.com/badges/",
+    "https://realgitrank.bharatdn.com/countries",
+]
 for u in lb[:1000]:
     urls.append(f"https://realgitrank.bharatdn.com/profile/{u['username']}")
 for c in countries:

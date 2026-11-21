@@ -1,0 +1,163 @@
+---
+const SITE = 'https://realgitrank.bharatdn.com';
+const tiers = [
+  ['Elite', '99th percentile and above', '#f0abfc'],
+  ['Diamond', '95th percentile', '#60a5fa'],
+  ['Platinum', '90th percentile', '#a78bfa'],
+  ['Gold', '75th percentile', '#fbbf24'],
+  ['Silver', '50th percentile', '#cbd5e1'],
+  ['Bronze', 'everyone else', '#d97706'],
+];
+const pillars = [
+  ['Delivery', '35%', 'Merged pull requests in owned and external repositories. External PRs merged by other maintainers count more; self-merged PRs are discounted.', 'Opening PRs is free, merging is not. Only reviewed, merged code counts.'],
+  ['Code health', '25%', 'Test-file ratio, multi-file commit ratio, language diversity.', 'One-line churn and empty markdown edits score close to zero.'],
+  ['Adoption', '25%', 'Stars, forks and downstream dependents after fraud filtering.', 'Star-cartel rings are filtered out before scoring.'],
+  ['Consistency', '15%', 'Active shipping weeks and the variance of push hours.', 'Bots that push around the clock are penalised instead of rewarded.'],
+];
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Methodology &amp; API — RealGitRank</title>
+    <meta name="description" content="How the RealGitRank engineering impact score is computed: delivery, code health, adoption and consistency pillars, bot penalty, tiers, daily snapshots and the static JSON API." />
+    <link rel="canonical" href={`${SITE}/methodology/`} />
+    <meta property="og:title" content="Methodology &amp; API — RealGitRank" />
+    <meta property="og:description" content="The four pillars behind the RealGitRank score, the anti-bot penalty, tier bands, and the static JSON endpoints." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={`${SITE}/methodology/`} />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'TechArticle',
+      headline: 'RealGitRank methodology and API',
+      url: `${SITE}/methodology/`,
+      about: 'Engineering impact scoring for GitHub developers',
+    })} />
+    <style>
+      :root { --bg: #0b0f19; --panel: #131a2b; --ink: #e8ecf4; --muted: #8a93a6; --accent: #f59e0b; --accent-2: #14b8a6; --line: #1f2740; }
+      body { font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 28px 20px 64px; background: var(--bg); color: var(--ink); line-height: 1.6; }
+      h1 { font-size: 2.3rem; margin: 0 0 4px; letter-spacing: -0.02em; }
+      h1 span { color: var(--accent); }
+      h2 { font-size: 1.15rem; margin: 32px 0 10px; }
+      h3 { font-size: 1rem; margin: 20px 0 6px; }
+      p, li { color: var(--ink); }
+      .sub { color: var(--muted); margin: 0 0 24px; }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; margin: 16px 0; }
+      .formula { font-size: 1.02rem; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; overflow-x: auto; font-variant-numeric: tabular-nums; }
+      .formula strong { color: var(--accent-2); }
+      table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 10px 0 4px; }
+      th, td { text-align: left; padding: 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+      th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; }
+      code, pre { font-family: ui-monospace, "Cascadia Code", Consolas, monospace; font-size: 12.5px; }
+      code { background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; }
+      pre { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; overflow-x: auto; }
+      ul { padding-left: 20px; }
+      li { margin: 5px 0; }
+      .tier { font-size: 11px; font-weight: 700; letter-spacing: 0.04em; padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; }
+      .note { color: var(--muted); font-size: 13px; }
+      .endpoint { font-family: ui-monospace, Consolas, monospace; font-size: 13px; color: var(--accent-2); }
+      :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    </style>
+  </head>
+  <body>
+    <a href="/">← Leaderboard</a>
+    <h1>Methodology &amp; <span>API</span></h1>
+    <p class="sub">How RealGitRank turns public GitHub events into an engineering impact index — and where to read the data yourself.</p>
+
+    <h2>The score</h2>
+    <div class="formula">
+      Rank Score = (Delivery × 0.35 + Code Health × 0.25 + Adoption × 0.25 + Consistency × 0.15) × (1 − BotPenalty)
+    </div>
+    <p>Every pillar is computed from GitHub public events (pushes, merged pull requests, issues, stars, forks) over the ingest window, then combined into a 0–1000 index. Commit count is never a pillar: it measures typing speed, not impact. Percentile is reported against the whole ranked population, and the final score is rounded to one decimal.</p>
+
+    <h2>The four pillars</h2>
+    <table>
+      <thead><tr><th>Pillar</th><th>Weight</th><th>What it measures</th><th>Why it is hard to game</th></tr></thead>
+      <tbody>
+        {pillars.map(([name, weight, what, why]) => (
+          <tr>
+            <td><strong>{name}</strong></td>
+            <td style="color:var(--accent)">{weight}</td>
+            <td>{what}</td>
+            <td>{why}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note">Pillar sub-scores (<code>s_pr</code>, <code>s_quality</code>, <code>s_impact</code>, <code>s_consistency</code>) appear in the API only when the pipeline produced them for that day; carried-over users keep their blended score without fresh pillar values.</p>
+
+    <h2>The bot penalty</h2>
+    <p>Each account gets a penalty between 0 and 1, built from behavioural signals in its push stream:</p>
+    <ul>
+      <li><strong>+0.50</strong> — fewer than 10% unique commit messages (<code>update</code>, <code>auto commit #123</code>).</li>
+      <li><strong>+0.30</strong> — pushes spread across 23–24 distinct hours of the day, with no human sleep window.</li>
+      <li><strong>+0.40</strong> — single-line churn: average changed files below 1.05 per commit.</li>
+    </ul>
+    <p>The penalty multiplies the final score. Accounts at <strong>0.70 or higher</strong> are classified as bots; accounts below <strong>0.05</strong> are marked <em>Verified Human Engineer</em>. Human engineers dominate the main board because automated commit farms lose most of their score.</p>
+
+    <h2>Tiers</h2>
+    <table>
+      <thead><tr><th>Tier</th><th>Percentile</th></tr></thead>
+      <tbody>
+        {tiers.map(([name, band, color]) => (
+          <tr>
+            <td><span class="tier" style={`color:${color}`}>{name}</span></td>
+            <td>{band}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note">A tier is a relative band of the current ranked population, so it moves as the population grows. Tier and percentile are recomputed on every daily run.</p>
+
+    <h2>Daily snapshots, movement and decay</h2>
+    <ul>
+      <li>Each run stores the top 1,000 in <code>data/history/&lt;YYYY-MM-DD&gt;.json</code>; snapshots older than 30 days are pruned.</li>
+      <li><code>rank_delta</code> and <code>score_delta</code> compare today with the previous day's snapshot. They are omitted for users who were not ranked yesterday — a missing delta means "new or returning", not "no change".</li>
+      <li>Profiles in the top 1,000 keep up to 30 daily points, which power the trend sparkline.</li>
+      <li>Scores blend 70% of the latest day with 30% of the prior score. A user who does not appear in a day's ingest keeps their score with a 5% daily decay.</li>
+    </ul>
+
+    <h2>Data sources and freshness</h2>
+    <p>A scheduled GitHub Actions workflow (daily, ~02:00 UTC) ingests the previous day of public GH Archive events into DuckDB, scores every account, runs data-quality gates, then rebuilds and deploys this static site on GitHub Pages. Enrichment (avatar, country, company, language) comes from the GitHub API when a token is configured. Everything is free, static and versioned in git — there is no database and no runtime server.</p>
+    <p class="note">Known limitation: code-health and adoption signals depend on the depth of the ingest window, so they can be missing for low-activity accounts. Missing metrics lower a score; they never invent one.</p>
+
+    <h2>Static JSON API</h2>
+    <p>All endpoints are pre-built files on GitHub Pages, so they are cacheable, CORS-free for normal fetches, and cost nothing to serve.</p>
+    <ul>
+      <li><a class="endpoint" href="/api/leaderboard.json">/api/leaderboard.json</a> — every ranked developer in one document: <code>generated_at</code>, <code>snapshot_date</code>, <code>count</code>, <code>weights</code>, <code>tier_bands</code>, <code>url_templates</code> and a <code>users</code> array.</li>
+      <li><a class="endpoint" href="/api/user/sirine2907.json">/api/user/&lt;username&gt;.json</a> — one developer's record, including <code>history</code>, <code>company</code>, <code>location</code> and <code>bio</code> when available. Username casing must match the leaderboard.</li>
+      <li><a class="endpoint" href="/data/chunks/index.json">/data/chunks/index.json</a> — pagination metadata for <code>/data/chunks/page_N.json</code> (1,000 rows per page).</li>
+      <li><a class="endpoint" href="/badges/default.svg">/badges/&lt;username&gt;.svg</a> — README badge; dedicated badges exist for the global top 1,000.</li>
+      <li><a class="endpoint" href="/llms.txt">/llms.txt</a> — a short plain-text guide for LLM and agent consumers.</li>
+    </ul>
+
+    <h3>Example record</h3>
+<pre>&#123;
+  "username": "sirine2907",
+  "rank": 1,
+  "rank_score": 128.9,
+  "tier": "Elite",
+  "percentile": 100.0,
+  "country": "United States",
+  "primary_language": "Dart",
+  "merged_prs": 17,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "bot_penalty": 0.0,
+  "profile_url": "{SITE}/profile/sirine2907",
+  "badge_url": "{SITE}/badges/sirine2907.svg",
+  "api_url": "{SITE}/api/user/sirine2907.json"
+&#125;</pre>
+    <p class="note">Field names follow the pipeline schema; optional fields are omitted rather than set to null. Please link back to {SITE.replace('https://', '')} when you publish a rank or score.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="/">Global leaderboard</a></li>
+      <li><a href="/badges/">README badges</a></li>
+      <li><a href="/countries">Country leaderboards</a></li>
+    </ul>
+  </body>
+</html>
