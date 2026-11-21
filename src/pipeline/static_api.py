@@ -33,7 +33,7 @@ TIER_BANDS = [
     {"tier": "Bronze", "min_percentile": 0},
 ]
 
-# Documented contract of the leaderboard records.
+# Documented contract of the compact leaderboard records.
 CORE_FIELDS = (
     "username",
     "rank",
@@ -48,14 +48,12 @@ CORE_FIELDS = (
     "bot_penalty",
     "rank_delta",
     "score_delta",
-    "avatar_url",
 )
 
 # Only present when the pipeline produced them (top-1,000 profiles + fresh metrics).
 EXTRA_FIELDS = (
     "company",
     "location",
-    "bio",
     "pr_reviews",
     "issue_comments",
     "releases",
@@ -67,6 +65,9 @@ EXTRA_FIELDS = (
     "s_impact",
     "s_consistency",
 )
+
+# Large free-text fields: only served by /api/user/<name>.json, never in the leaderboard.
+HEAVY_FIELDS = ("avatar_url", "bio")
 
 
 def _load(path, default):
@@ -91,11 +92,16 @@ def badge_url(username, rank):
     return f"{SITE}/badges/default.svg"
 
 
-def compact_user(entry, profile=None):
-    """Project a leaderboard row (plus optional profile extras) into the public schema."""
+def compact_user(entry, profile=None, include_heavy=False):
+    """Project a leaderboard row (plus optional profile extras) into the public schema.
+
+    Heavy free-text fields stay out of the leaderboard payload unless
+    ``include_heavy`` is set (the per-user endpoint does that).
+    """
     profile = profile or {}
     record = {}
-    for key in CORE_FIELDS:
+    fields = CORE_FIELDS + (HEAVY_FIELDS if include_heavy else ())
+    for key in fields:
         if key in entry and entry[key] not in (None, ""):
             record[key] = entry[key]
     username = record.get("username") or entry.get("username") or ""
@@ -106,6 +112,11 @@ def compact_user(entry, profile=None):
             value = profile.get(key)
         if value not in (None, "", []):
             record[key] = value
+    if include_heavy:
+        for key in HEAVY_FIELDS:
+            value = entry.get(key) or profile.get(key)
+            if value not in (None, ""):
+                record[key] = value
 
     record["profile_url"] = f"{SITE}/profile/{username}"
     record["badge_url"] = badge_url(username, record.get("rank"))
@@ -136,7 +147,9 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None):
         },
         "notes": (
             "Scores are an impact index, not a commit count. Daily snapshots keep the "
-            "top 1,000; records outside it decay 5% per inactive day."
+            "top 1,000; records outside it decay 5% per inactive day. Records here are "
+            "compact: profile fields such as avatar_url and bio are only in "
+            "/api/user/{username}.json."
         ),
         "users": users,
     }
@@ -144,7 +157,7 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None):
 
 def build_user(entry, profile=None, status=None, snapshot_date=None):
     status = status or {}
-    record = compact_user(entry, profile)
+    record = compact_user(entry, profile, include_heavy=True)
     history = (profile or {}).get("history")
     if history:
         record["history"] = history
@@ -181,8 +194,9 @@ Ranked developers: {payload.get('count', 0)}
 
 - {payload['site']}/api/leaderboard.json — all {payload.get('count', 0)} ranked developers,
   one compact record each (rank, score, tier, percentile, country, language, PRs, deltas).
-- {payload['site']}/api/user/{{username}}.json — one developer; includes daily history
-  when available. Example: {payload['site']}/api/user/{(top[0].get('username') if top else 'sirine2907')}.json
+  Avatar and bio are intentionally omitted here; read them from the per-user endpoint.
+- {payload['site']}/api/user/{{username}}.json — one developer; includes daily history,
+  avatar_url, bio, company and location when available. Example: {payload['site']}/api/user/{(top[0].get('username') if top else 'sirine2907')}.json
 - {payload['site']}/data/chunks/page_1.json — raw leaderboard chunks (1,000 rows per page),
   index at {payload['site']}/data/chunks/index.json
 - {payload['site']}/badges/{{username}}.svg — SVG badge (dedicated badges for the global

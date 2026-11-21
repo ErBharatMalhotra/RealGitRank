@@ -37,6 +37,13 @@ def test_compact_user_projects_documented_fields_and_urls():
     assert record["badge_url"] == f"{SITE}/badges/dev3.svg"
     assert record["api_url"] == f"{SITE}/api/user/dev3.json"
     assert "bio" not in record
+    assert "avatar_url" not in record
+
+
+def test_compact_user_include_heavy_keeps_profile_fields():
+    record = compact_user(entry(3), {"bio": "Builder"}, include_heavy=True)
+    assert record["bio"] == "Builder"
+    assert record["avatar_url"].startswith("https://avatars.githubusercontent.com/")
 
 
 def test_compact_user_uses_default_badge_outside_top_1000():
@@ -51,8 +58,9 @@ def test_compact_user_merges_profile_extras():
     }
     record = compact_user(entry(3), profile)
     assert record["company"] == "Acme"
-    assert record["bio"] == "Builder"
+    assert "bio" not in record  # heavy fields stay in the per-user payload
     assert "history" not in record  # leaderboard stays compact
+    assert compact_user(entry(3), profile, include_heavy=True)["bio"] == "Builder"
 
 
 def test_build_user_includes_history():
@@ -60,6 +68,7 @@ def test_build_user_includes_history():
     payload = build_user(entry(3), profile, {"last_run_utc": "2026-11-21T06:00:00Z"}, "2026-11-21")
     assert payload["snapshot_date"] == "2026-11-21"
     assert payload["user"]["history"] == profile["history"]
+    assert payload["user"]["avatar_url"].startswith("https://avatars.githubusercontent.com/")
 
 
 def test_build_leaderboard_metadata_and_count():
@@ -101,7 +110,9 @@ def test_generate_writes_leaderboard_user_files_and_llms(tmp_path):
 
     board = json.loads((tmp_path / "api" / "leaderboard.json").read_text(encoding="utf-8"))
     assert board["count"] == 2
+    assert "avatar_url" not in board["users"][0]
     user = json.loads((tmp_path / "api" / "user" / "dev1.json").read_text(encoding="utf-8"))
     assert user["user"]["company"] == "Acme"
+    assert user["user"]["avatar_url"].startswith("https://avatars.githubusercontent.com/")
     assert (tmp_path / "api" / "user" / "dev2.json").exists()
     assert (tmp_path / "llms.txt").read_text(encoding="utf-8").startswith("# RealGitRank")
