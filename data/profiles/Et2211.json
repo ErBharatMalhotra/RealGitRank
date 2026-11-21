@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 981,
+  "rank": 890,
   "avatar_url": "https://avatars.githubusercontent.com/u/32326286?u=bd325c711198f66d43504c85ac61b4d65fbe7067&v=4",
   "bio": "",
   "company": "RAC",
   "tier": "Diamond",
-  "percentile": 97.8,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 981,
+      "r": 890,
       "s": 61.5
     }
   ],

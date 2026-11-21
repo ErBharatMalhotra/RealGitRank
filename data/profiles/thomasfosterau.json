@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 701,
+  "rank": 632,
   "avatar_url": "https://avatars.githubusercontent.com/u/734427?u=6d9f2b4ebb4cc35552e8d47844a4bed1adc85ab6&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 701,
+      "r": 632,
       "s": 65.9
     }
   ],

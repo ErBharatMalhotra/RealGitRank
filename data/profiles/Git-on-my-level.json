@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 40.66,
-  "rank_score": 81.7,
+  "rank_score": 82.5,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 147,
+  "rank": 143,
   "avatar_url": "https://avatars.githubusercontent.com/u/9387252?u=13c5f5b98e522cc10b0bc46fd76a7ddd1384899e&v=4",
   "bio": "Objective function @ scalingforever.com",
   "company": "www.omi.me",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 147,
-      "s": 81.7
+      "r": 143,
+      "s": 82.5
     }
   ],
   "location": "Meatspace"

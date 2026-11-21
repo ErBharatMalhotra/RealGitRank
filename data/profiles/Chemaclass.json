@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 41.34,
-  "rank_score": 68.5,
+  "rank_score": 69.3,
   "active_repos_touched": 1,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 596,
+  "rank": 561,
   "avatar_url": "https://avatars.githubusercontent.com/u/5256287?u=908974b7ca35dcb2c7d2720b29026b50a27c5396&v=4",
   "bio": "Software is the art of simplifying.",
   "company": "@kombohq",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 596,
-      "s": 68.5
+      "r": 561,
+      "s": 69.3
     }
   ],
   "location": "E51B 5BF4 5F85 D160"

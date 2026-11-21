@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 895,
+  "rank": 785,
   "avatar_url": "https://avatars.githubusercontent.com/u/224844954?u=55970b11072c18f9c039e6b6d6762ce7bc9cc6d0&v=4",
   "bio": "AI-Augmented R&D Engineer | Systems Architect | Creator of Dense-Evolution | Quantum & AI Software | Rapid Domain Acquisition | Automation",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 895,
+      "r": 785,
       "s": 62.9
     }
   ],

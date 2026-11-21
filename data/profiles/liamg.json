@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 972,
+  "rank": 880,
   "avatar_url": "https://avatars.githubusercontent.com/u/1187060?u=b59b4e45f97325ec6634d29ac40d600680c3f241&v=4",
   "bio": "\u2620\ufe0f Security \u22c6 \ud83d\udd27 Engineering \u22c6 \ud83d\udc27 Open Source",
   "company": "@infracost",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 972,
+      "r": 880,
       "s": 61.6
     }
   ],

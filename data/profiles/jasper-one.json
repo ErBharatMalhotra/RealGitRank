@@ -1,19 +1,19 @@
 {
   "username": "jasper-one",
-  "rank": 288,
-  "rank_score": 75.0,
+  "rank": 420,
+  "rank_score": 71.2,
   "country": "",
   "primary_language": "C",
   "avatar_url": "https://avatars.githubusercontent.com/u/106525617?u=dcbfa3526887cd648b3d76ee012027f6b032525f&v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 288,
-      "s": 75.0
+      "r": 420,
+      "s": 71.2
     }
   ],
   "location": ""

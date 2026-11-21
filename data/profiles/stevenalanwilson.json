@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 1000,
+  "rank": 909,
   "avatar_url": "https://avatars.githubusercontent.com/u/25793145?u=18b0bdd1bd251b0f3392917d603309cd846a69df&v=4",
   "bio": "Technical Leader, Creative Technologist, Foodie, Gamer & Father.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.8,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 1000,
+      "r": 909,
       "s": 61.5
     }
   ],

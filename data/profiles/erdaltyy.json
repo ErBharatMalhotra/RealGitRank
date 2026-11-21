@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 40.55,
-  "rank_score": 118.8,
+  "rank_score": 122.2,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 9,
+  "rank": 7,
   "avatar_url": "https://avatars.githubusercontent.com/u/192777041?u=9af710683d6fadfe6b5b78fd8280702b7d74a402&v=4",
   "bio": "",
   "company": "@kodpen ",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 9,
-      "s": 118.8
+      "r": 7,
+      "s": 122.2
     }
   ],
   "location": "Turkey"

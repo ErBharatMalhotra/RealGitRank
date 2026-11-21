@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 392,
+  "rank": 375,
   "avatar_url": "https://avatars.githubusercontent.com/u/6254931?u=98aaab12f3dc10fa8b0c806cdd78fce657af88b2&v=4",
   "bio": "Founding Engineer at OpenWork \u00b7 agents, MCP & developer tools",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.1,
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 392,
+      "r": 375,
       "s": 72.3
     }
   ],

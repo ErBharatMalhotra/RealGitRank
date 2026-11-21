@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 817,
+  "rank": 730,
   "avatar_url": "https://avatars.githubusercontent.com/u/36518222?u=329c20162468811efaa87a741d20135aa70ea4dd&v=4",
   "bio": "@WickedAgile",
   "company": "Accenture",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 817,
+      "r": 730,
       "s": 64.0
     }
   ],

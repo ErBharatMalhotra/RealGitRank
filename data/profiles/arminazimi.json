@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 46.65,
-  "rank_score": 80.9,
+  "rank_score": 82.9,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 151,
+  "rank": 135,
   "avatar_url": "https://avatars.githubusercontent.com/u/33401832?u=67f8d4be45a3e4e115aafad735d1a825452c1367&v=4",
   "bio": "I make codebases confess what they\u2019ve been hiding.",
   "company": "Velella",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 151,
-      "s": 80.9
+      "r": 135,
+      "s": 82.9
     }
   ],
   "location": "Iran"

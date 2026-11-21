@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 937,
+  "rank": 812,
   "avatar_url": "https://avatars.githubusercontent.com/u/46615230?v=4",
   "bio": "Chris Izworski, Bay City, Michigan. Sales Engineer at Prepared 911. Former 911 Director. Builds Michigan Trout Report, Birding Report, Great Lakes Levels.",
   "company": "Prepared911",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 937,
+      "r": 812,
       "s": 62.4
     }
   ],

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 670,
+  "rank": 618,
   "avatar_url": "https://avatars.githubusercontent.com/u/12144785?u=706115b8ba4a7e2abcf580dac6847ea3e68f73f3&v=4",
   "bio": "Engineering Manager @glossier ",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 670,
+      "r": 618,
       "s": 66.9
     }
   ],

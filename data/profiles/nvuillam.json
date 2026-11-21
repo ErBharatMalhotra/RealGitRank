@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 974,
+  "rank": 882,
   "avatar_url": "https://avatars.githubusercontent.com/u/17500430?u=24ff06a935acf56fe06678874e2b297debb66fac&v=4",
   "bio": "CTO / Archi / Speaker - Back, Front, Integration, DevOps, Salesforce, AI, and whatever will be necessary.\r\n\r\nCreator of MegaLinter, sfdx-hardis & more",
   "company": "Cloudity & OX Security",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 974,
+      "r": 882,
       "s": 61.6
     }
   ],

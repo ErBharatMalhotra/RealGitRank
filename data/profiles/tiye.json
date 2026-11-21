@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 69,
+  "rank": 71,
   "avatar_url": "https://avatars.githubusercontent.com/u/449224?u=93e78566d01da3b9573e04d65096560cb4418efb&v=4",
   "bio": "AI agents driver. Calcit maintainer.",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.9,
+  "percentile": 99.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 69,
+      "r": 71,
       "s": 91.5
     }
   ],

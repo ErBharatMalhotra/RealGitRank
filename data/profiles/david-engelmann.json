@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.78,
-  "rank_score": 86.5,
+  "rank_score": 87.1,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 6,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 106,
+  "rank": 102,
   "avatar_url": "https://avatars.githubusercontent.com/u/81196676?u=d978094d5f19235d1f6172b13901c8d5cb85b074&v=4",
   "bio": "Senior AI Software Developer",
   "company": "BeatGig",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 106,
-      "s": 86.5
+      "r": 102,
+      "s": 87.1
     }
   ],
   "location": "New York City"

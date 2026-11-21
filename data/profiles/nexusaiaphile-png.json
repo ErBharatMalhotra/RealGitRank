@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 796,
+  "rank": 709,
   "avatar_url": "https://avatars.githubusercontent.com/u/302183594?u=bfdd0b56cdf889246d8ce0c2d6f1d6911597692c&v=4",
   "bio": "Founder of NexusAI \u2014 Edge AI threat detection for security cameras. Hikvision Technology Partner. Level One B-BBEE\r\n",
   "company": "NexusAI",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 796,
+      "r": 709,
       "s": 64.0
     }
   ],

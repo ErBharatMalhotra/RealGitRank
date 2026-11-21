@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 182,
+  "rank": 170,
   "avatar_url": "https://avatars.githubusercontent.com/u/36796532?u=87cae256bce214c215b46b9f0f784fc351888fae&v=4",
   "bio": "CEO @Airsequel\r\n| Haskell, Elm, Rust\r\n",
   "company": "@Airsequel ",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 182,
+      "r": 170,
       "s": 79.0
     }
   ],

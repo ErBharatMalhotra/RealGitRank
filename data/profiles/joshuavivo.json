@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 818,
+  "rank": 731,
   "avatar_url": "https://avatars.githubusercontent.com/u/356364239?u=5035f13074e30c45e5273bd8c75681b075a0095d&v=4",
   "bio": "Software engineer. I run Shadow Vivo LLC: I take over live web apps and harden payments, auth and data. TypeScript, React, Node, Postgres.",
   "company": "Shadow Vivo LLC",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 818,
+      "r": 731,
       "s": 64.0
     }
   ],

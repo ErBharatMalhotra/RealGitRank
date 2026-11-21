@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 46.57,
-  "rank_score": 74.9,
+  "rank_score": 76.6,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 289,
+  "rank": 226,
   "avatar_url": "https://avatars.githubusercontent.com/u/321592?u=2229fa2da913d79f4e8dd4556d085a2df8f0bab3&v=4",
   "bio": "Computer Extraordinaire. Golang Enthusiast. Reverse Engineer. Full Stack Developer. Embedded Firmware Tinkerer. Legacy Coder. ",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 289,
-      "s": 74.9
+      "r": 226,
+      "s": 76.6
     }
   ],
   "location": "San Diego, CA"

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 389,
+  "rank": 372,
   "avatar_url": "https://avatars.githubusercontent.com/u/8865968?u=efbba3f797acd12e2cc62de3749d3aac49291d6e&v=4",
   "bio": "Founder & Developer at @PerryTS and @HoneIDE and @MangoQuery ",
   "company": "@perryts ",
   "tier": "Elite",
-  "percentile": 99.1,
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 389,
+      "r": 372,
       "s": 72.4
     }
   ],

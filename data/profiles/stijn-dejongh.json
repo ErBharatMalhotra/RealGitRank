@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 55.1,
-  "rank_score": 72.7,
+  "rank_score": 76.8,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 365,
+  "rank": 217,
   "avatar_url": "https://avatars.githubusercontent.com/u/25401297?u=b0c608e7d8ef49224713f400a65a1f13b8d49f84&v=4",
   "bio": "Stijn Dejongh is a software developer, architect, and coach. He has been working in the software industry for over a decade.",
   "company": "@sddevelopment-be ",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 365,
-      "s": 72.7
+      "r": 217,
+      "s": 76.8
     }
   ],
   "location": "Belgium"

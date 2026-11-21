@@ -1,19 +1,19 @@
 {
   "username": "automagik-genie",
-  "rank": 705,
-  "rank_score": 65.8,
+  "rank": 805,
+  "rank_score": 62.5,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/218262304?u=3ba5558dc584c2234c03549de7489e32e1a671cc&v=4",
   "bio": "Because Magik shouln't be complicated!",
   "company": "@namastexlabs",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 705,
-      "s": 65.8
+      "r": 805,
+      "s": 62.5
     }
   ],
   "location": ""

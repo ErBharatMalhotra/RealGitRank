@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 45.66,
-  "rank_score": 80.0,
+  "rank_score": 84.7,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 160,
+  "rank": 120,
   "avatar_url": "https://avatars.githubusercontent.com/u/39247043?u=c11d94a8e7e084169a83ac50e2bcd99264e5f6ac&v=4",
   "bio": "Systems programmer.",
   "company": "Buster",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 160,
-      "s": 80.0
+      "r": 120,
+      "s": 84.7
     }
   ],
   "location": "Remote"

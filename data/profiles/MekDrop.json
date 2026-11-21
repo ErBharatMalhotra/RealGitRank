@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 40.95,
-  "rank_score": 79.9,
+  "rank_score": 82.0,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 163,
+  "rank": 149,
   "avatar_url": "https://avatars.githubusercontent.com/u/342641?v=4",
   "bio": "@ImpressCMS & other opensource projects contributor, PHP & a bit mobileapps & games developer, interested in world changing startups",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 163,
-      "s": 79.9
+      "r": 149,
+      "s": 82.0
     }
   ],
   "location": "Vilnius, Lithuania"

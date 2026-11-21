@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 43.88,
-  "rank_score": 61.7,
+  "rank_score": 62.7,
   "active_repos_touched": 3,
   "pr_reviews": 1,
   "issue_comments": 3,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 961,
+  "rank": 791,
   "avatar_url": "https://avatars.githubusercontent.com/u/81415735?u=05e9e52f3ad403aba1160c38f6d6de1b737b716e&v=4",
   "bio": "Building PoliTost: interactive textbooks and study tools for students.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 961,
-      "s": 61.7
+      "r": 791,
+      "s": 62.7
     }
   ],
   "location": "Italy"

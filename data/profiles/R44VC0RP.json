@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 112,
+  "rank": 117,
   "avatar_url": "https://avatars.githubusercontent.com/u/89211796?u=1857347b9787d8d8a7ea5bfc333f96be92d5a683&v=4",
   "bio": "work @ opencode | building inbound.new",
   "company": "@anomalyco",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 112,
+      "r": 117,
       "s": 85.9
     }
   ],

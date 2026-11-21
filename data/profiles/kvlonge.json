@@ -1,19 +1,19 @@
 {
   "username": "kvlonge",
-  "rank": 677,
-  "rank_score": 66.6,
+  "rank": 765,
+  "rank_score": 63.3,
   "country": "",
   "primary_language": "Rust",
   "avatar_url": "https://avatars.githubusercontent.com/u/273747162?u=17d66ea383ee554277e5db835fa3c2bbc39b5087&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 677,
-      "s": 66.6
+      "r": 765,
+      "s": 63.3
     }
   ],
   "location": ""

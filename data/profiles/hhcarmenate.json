@@ -1,19 +1,19 @@
 {
   "username": "hhcarmenate",
-  "rank": 732,
-  "rank_score": 65.4,
+  "rank": 844,
+  "rank_score": 62.1,
   "country": "",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/16532763?u=0bcb2cff65012a6e860c2b59e29a5065c99035d8&v=4",
   "bio": "Senior Full-Stack Engineer | Laravel Backend Specialist | Vue.js | APIs | Cloud & AI Solutions\r\n",
   "company": "Hyphen",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 732,
-      "s": 65.4
+      "r": 844,
+      "s": 62.1
     }
   ],
   "location": "Miami"

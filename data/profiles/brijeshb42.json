@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 251,
+  "rank": 247,
   "avatar_url": "https://avatars.githubusercontent.com/u/717550?u=2ebf6550650a0ae4826737a67791aaf618018bbd&v=4",
   "bio": "Frontend/Infra @mui ",
   "company": "MUI",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 251,
+      "r": 247,
       "s": 76.1
     }
   ],

@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 40.72,
-  "rank_score": 80.2,
+  "rank_score": 82.1,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 159,
+  "rank": 148,
   "avatar_url": "https://avatars.githubusercontent.com/u/5617868?u=0261dd98e4b9257178634070a52556ed18740520&v=4",
   "bio": "",
   "company": "GIPHY & PwrDrvr LLC",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 159,
-      "s": 80.2
+      "r": 148,
+      "s": 82.1
     }
   ],
   "location": "Garden State (New Jersey)"

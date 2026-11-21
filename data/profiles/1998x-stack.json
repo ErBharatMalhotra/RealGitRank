@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 43.77,
-  "rank_score": 74.8,
+  "rank_score": 77.2,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 296,
+  "rank": 206,
   "avatar_url": "https://avatars.githubusercontent.com/u/32125213?u=05e50800eb7c43be00da5a6390bd65d89d6a4030&v=4",
   "bio": "\u4e00\u52a8\u4e0d\u5982\u4e00\u9759",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.3,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 296,
-      "s": 74.8
+      "r": 206,
+      "s": 77.2
     }
   ],
   "location": "shanghai"

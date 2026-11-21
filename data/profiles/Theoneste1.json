@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 991,
+  "rank": 900,
   "avatar_url": "https://avatars.githubusercontent.com/u/43376343?u=215fac58ea2d6efad2c7e536d2fb610cdca03f06&v=4",
   "bio": "It's always seems impossible until it's done",
   "company": "African Leadership University (ALU_Rwanda)",
   "tier": "Diamond",
-  "percentile": 97.8,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 991,
+      "r": 900,
       "s": 61.5
     }
   ],

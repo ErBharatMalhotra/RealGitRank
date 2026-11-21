@@ -1,19 +1,19 @@
 {
   "username": "NeerajCodz",
-  "rank": 18,
-  "rank_score": 112.0,
+  "rank": 24,
+  "rank_score": 106.4,
   "country": "India",
   "primary_language": "Go",
   "avatar_url": "https://avatars.githubusercontent.com/u/84490110?u=d732414727d7322f985c35c006877d8b4c34a29c&v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 100.0,
+  "percentile": 99.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 18,
-      "s": 112.0
+      "r": 24,
+      "s": 106.4
     }
   ],
   "location": "Bangalore, India"

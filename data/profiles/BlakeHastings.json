@@ -1,19 +1,19 @@
 {
   "username": "BlakeHastings",
-  "rank": 552,
-  "rank_score": 69.4,
+  "rank": 634,
+  "rank_score": 65.9,
   "country": "",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/20547657?u=687cfe961719fa49f754ee7be6170dc300a1f97e&v=4",
   "bio": "Full-Stack Engineer, 8+ yrs shipping production systems. Expanding into multi-agent orchestration, knowledge-graph context layers, and LLM observability.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.8,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 552,
-      "s": 69.4
+      "r": 634,
+      "s": 65.9
     }
   ],
   "location": "Memphis, TN"

@@ -1,0 +1,39 @@
+{
+  "username": "Kukutx",
+  "country": "Italy",
+  "primary_language": "C++",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 131.83,
+  "s_quality": 32.96,
+  "s_impact": 0.0,
+  "s_consistency": 44.44,
+  "rank_score": 60.5,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 983,
+  "avatar_url": "https://avatars.githubusercontent.com/u/61358650?u=448070a3063374a3190a432f54ae598287d7c9a5&v=4",
+  "bio": "There is only one true heroism in the world: to see the world as it is, and to love it.",
+  "company": "",
+  "tier": "Diamond",
+  "percentile": 97.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 983,
+      "s": 60.5
+    }
+  ],
+  "location": "italy"
+}

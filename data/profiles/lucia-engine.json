@@ -1,19 +1,19 @@
 {
   "username": "lucia-engine",
-  "rank": 302,
-  "rank_score": 74.8,
+  "rank": 429,
+  "rank_score": 71.1,
   "country": "",
   "primary_language": "C++",
   "avatar_url": "https://avatars.githubusercontent.com/u/352078336?u=c3ff4d4211d0b9458e00a0d9ba4435e53aa21d70&v=4",
   "bio": "Open source game engine.",
   "company": "@luciaengine",
   "tier": "Elite",
-  "percentile": 99.3,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 302,
-      "s": 74.8
+      "r": 429,
+      "s": 71.1
     }
   ],
   "location": ""

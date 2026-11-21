@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 61.99,
-  "rank_score": 62.1,
+  "rank_score": 63.2,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 946,
+  "rank": 766,
   "avatar_url": "https://avatars.githubusercontent.com/u/311823991?v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 946,
-      "s": 62.1
+      "r": 766,
+      "s": 63.2
     }
   ],
   "location": ""

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 914,
+  "rank": 794,
   "avatar_url": "https://avatars.githubusercontent.com/u/631808?v=4",
   "bio": "",
   "company": "Pay With a Tweet",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 914,
+      "r": 794,
       "s": 62.7
     }
   ],

@@ -1,19 +1,19 @@
 {
   "username": "jessechumo",
-  "rank": 162,
-  "rank_score": 80.0,
+  "rank": 251,
+  "rank_score": 76.0,
   "country": "",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/40341693?u=5937ad66247733dfadd5083b865d4893ba7a4856&v=4",
   "bio": " Dev\r\n\r\n\r\n\r\n\r\n",
   "company": "UT Arlington",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 162,
-      "s": 80.0
+      "r": 251,
+      "s": 76.0
     }
   ],
   "location": "Dallas, Texas"

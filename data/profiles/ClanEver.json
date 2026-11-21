@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 299,
+  "rank": 283,
   "avatar_url": "https://avatars.githubusercontent.com/u/73160783?u=95c325971b71f23e0926c3554d2e8657ef315c9b&v=4",
   "bio": "just a day dreamer",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.3,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 299,
+      "r": 283,
       "s": 74.8
     }
   ],

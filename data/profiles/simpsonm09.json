@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 256,
+  "rank": 250,
   "avatar_url": "https://avatars.githubusercontent.com/u/146683705?u=42f982ee63f573fa9f154e5af2b232eeebdeba12&v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 256,
+      "r": 250,
       "s": 76.0
     }
   ],

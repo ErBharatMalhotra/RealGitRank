@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 811,
+  "rank": 724,
   "avatar_url": "https://avatars.githubusercontent.com/u/5332082?u=1cba09d96708b59b770268b3c8f40615a3e6555f&v=4",
   "bio": "Engine & reverse-engineering programmer. Porting Dark Souls Remastered to PS2 in C and VU1 asm.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 811,
+      "r": 724,
       "s": 64.0
     }
   ],

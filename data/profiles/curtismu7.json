@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 45.71,
-  "rank_score": 68.3,
+  "rank_score": 67.0,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 607,
+  "rank": 617,
   "avatar_url": "https://avatars.githubusercontent.com/u/49688644?u=95ba0e4776c1a8ee9445e14ef55e02f872dcbf8a&v=4",
   "bio": "",
   "company": "Ping Identity",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 607,
-      "s": 68.3
+      "r": 617,
+      "s": 67.0
     }
   ],
   "location": "Dallas Texas"

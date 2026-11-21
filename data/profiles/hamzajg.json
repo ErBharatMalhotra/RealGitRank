@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 884,
+  "rank": 783,
   "avatar_url": "https://avatars.githubusercontent.com/u/7120380?u=21643ebf056f3a2ed0cd8c5ebc2b423a5b7c8b99&v=4",
   "bio": "",
   "company": "Tanoshii Computing",
   "tier": "Diamond",
-  "percentile": 98.1,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 884,
+      "r": 783,
       "s": 63.0
     }
   ],

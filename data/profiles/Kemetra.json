@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 41.68,
-  "rank_score": 68.0,
+  "rank_score": 69.2,
   "active_repos_touched": 1,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 615,
+  "rank": 569,
   "avatar_url": "https://avatars.githubusercontent.com/u/206601658?u=04692b480c5b56c1e41e84c0dfb74106ae1e8c9c&v=4",
   "bio": "",
   "company": "Ain shams university",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 615,
-      "s": 68.0
+      "r": 569,
+      "s": 69.2
     }
   ],
   "location": "cairo"

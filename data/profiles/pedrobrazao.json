@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 175,
+  "rank": 166,
   "avatar_url": "https://avatars.githubusercontent.com/u/772193?u=9953d90e878a4c7060667b415a0f30e732306609&v=4",
   "bio": "Software engineer based in London, UK. Specialized in backend PHP apps, OAuth2 and REST APIs. Linux and DevOps proficiency. ",
   "company": "Thingston Ltd",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 175,
+      "r": 166,
       "s": 79.2
     }
   ],

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 662,
+  "rank": 612,
   "avatar_url": "https://avatars.githubusercontent.com/u/163733802?u=6ecbf93346c9d576a6686865e9411d8330069263&v=4",
   "bio": "Building projects that solve problems I just made up.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 662,
+      "r": 612,
       "s": 67.1
     }
   ],

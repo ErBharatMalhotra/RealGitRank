@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 47.08,
-  "rank_score": 80.6,
+  "rank_score": 79.3,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 4,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 154,
+  "rank": 165,
   "avatar_url": "https://avatars.githubusercontent.com/u/2474437?u=65b54da5646c44976a6acc6d3bd886240e2bcf8f&v=4",
   "bio": "",
   "company": "Western Washington University",
   "tier": "Elite",
-  "percentile": 99.7,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 154,
-      "s": 80.6
+      "r": 165,
+      "s": 79.3
     }
   ],
   "location": "Bellingham, WA"

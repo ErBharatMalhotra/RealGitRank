@@ -1,19 +1,19 @@
 {
   "username": "stipsan",
-  "rank": 600,
-  "rank_score": 68.4,
+  "rank": 677,
+  "rank_score": 65.0,
   "country": "",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/81981?u=98bd7d5cc85399c0969eda707733d70a15dff0fa&v=4",
   "bio": "I have a background in graphic design, iconography, motion design, and UX. I started learning JS when I was 18 and haven't stopped since \ud83d\udc96",
   "company": "@sanity-io",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 600,
-      "s": 68.4
+      "r": 677,
+      "s": 65.0
     }
   ],
   "location": "Oslo, Norway"

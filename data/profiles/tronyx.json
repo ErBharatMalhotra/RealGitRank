@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 663,
+  "rank": 613,
   "avatar_url": "https://avatars.githubusercontent.com/u/22502007?u=fcd271bfaef19587d33805097bbb668b25a95df8&v=4",
   "bio": "Senior Systems Engineer, Freemason, Eagle Scout, Geek, Nerd, Lover of all things tech.",
   "company": "CardConnect",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 663,
+      "r": 613,
       "s": 67.1
     }
   ],

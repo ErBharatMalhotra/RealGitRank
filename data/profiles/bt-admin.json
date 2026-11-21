@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 56.15,
-  "rank_score": 61.7,
+  "rank_score": 60.7,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 964,
+  "rank": 966,
   "avatar_url": "https://avatars.githubusercontent.com/u/9976420?u=3dab594e78a53a010748de85cca76e08feddb3d9&v=4",
   "bio": "",
   "company": "braintec",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 964,
-      "s": 61.7
+      "r": 966,
+      "s": 60.7
     }
   ],
   "location": "Brig, Z\u00fcrich, Basel, Madrid, B\u00f6blingen, Castell\u00f3 de la Plana"

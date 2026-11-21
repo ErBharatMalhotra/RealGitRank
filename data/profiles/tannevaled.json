@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 44.36,
-  "rank_score": 128.7,
+  "rank_score": 131.3,
   "active_repos_touched": 14,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -32,7 +32,7 @@
     {
       "d": "2026-11-21",
       "r": 2,
-      "s": 128.7
+      "s": 131.3
     }
   ],
   "location": "Ecole polytechnique, France"

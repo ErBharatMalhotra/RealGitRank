@@ -1,19 +1,19 @@
 {
   "username": "Boulea7",
-  "rank": 734,
-  "rank_score": 65.4,
+  "rank": 846,
+  "rank_score": 62.1,
   "country": "China",
   "primary_language": "Go",
   "avatar_url": "https://avatars.githubusercontent.com/u/145515129?u=349cafe369da00fce2007d5408a60efbe03e0ee3&v=4",
   "bio": "",
   "company": "ByteDance",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 734,
-      "s": 65.4
+      "r": 846,
+      "s": 62.1
     }
   ],
   "location": "Beijing"

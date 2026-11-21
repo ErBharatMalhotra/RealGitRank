@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 42.39,
-  "rank_score": 64.2,
+  "rank_score": 65.4,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 780,
+  "rank": 648,
   "avatar_url": "https://avatars.githubusercontent.com/u/158724?u=a3f26e4d2528a68effa5ccbfa79262d110fb5926&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 780,
-      "s": 64.2
+      "r": 648,
+      "s": 65.4
     }
   ],
   "location": "Canada"

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 704,
+  "rank": 637,
   "avatar_url": "https://avatars.githubusercontent.com/u/45307611?u=c1424a4a59e9b7b2e0afa17c83adf377d082e314&v=4",
   "bio": "",
   "company": "Minist\u00e8re de l'interieur",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 704,
+      "r": 637,
       "s": 65.8
     }
   ],

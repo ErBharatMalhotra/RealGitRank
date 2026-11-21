@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 48.45,
-  "rank_score": 71.6,
+  "rank_score": 73.1,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 405,
+  "rank": 336,
   "avatar_url": "https://avatars.githubusercontent.com/u/22694346?u=c1df4ae900748aa0f1f4e176fbe8a81678c5f00c&v=4",
   "bio": "Head of Design at PadSplit. Ex @USPS @capitalone @springleaf. Talk to me about design culture, orgs, ethics, and computational design. He/him.",
   "company": "PadSplit",
   "tier": "Elite",
-  "percentile": 99.1,
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 405,
-      "s": 71.6
+      "r": 336,
+      "s": 73.1
     }
   ],
   "location": "Washington, D.C."

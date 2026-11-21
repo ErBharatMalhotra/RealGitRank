@@ -1,19 +1,19 @@
 {
   "username": "ctate",
-  "rank": 128,
-  "rank_score": 83.7,
+  "rank": 162,
+  "rank_score": 79.5,
   "country": "United States",
   "primary_language": "Rust",
   "avatar_url": "https://avatars.githubusercontent.com/u/366502?u=46a854ffb1cc4a07075045f8096cf30d165ab459&v=4",
   "bio": "Dev @Vercel",
   "company": "Vercel",
   "tier": "Elite",
-  "percentile": 99.7,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 128,
-      "s": 83.7
+      "r": 162,
+      "s": 79.5
     }
   ],
   "location": "Austin, TX"

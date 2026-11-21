@@ -1,19 +1,19 @@
 {
   "username": "joshualparris",
-  "rank": 114,
-  "rank_score": 85.7,
+  "rank": 151,
+  "rank_score": 81.4,
   "country": "United States",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/130725599?u=b1ed73a304817e085bddaab57deb5c7d4e17cb28&v=4",
   "bio": "Hi there! I'm a IT professional with a passion for creating innovative solutions to complex problems. ",
   "company": "Parris Tech Services",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 114,
-      "s": 85.7
+      "r": 151,
+      "s": 81.4
     }
   ],
   "location": "Epsom, Victoria, Australia"

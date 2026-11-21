@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 40.69,
-  "rank_score": 91.0,
+  "rank_score": 92.4,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 71,
+  "rank": 64,
   "avatar_url": "https://avatars.githubusercontent.com/u/2990542?u=991e479507c88d63c821f8f964a6f9edcfebcdd1&v=4",
   "bio": "/Data Science/",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 71,
-      "s": 91.0
+      "r": 64,
+      "s": 92.4
     }
   ],
   "location": "Tokyo, Japan"

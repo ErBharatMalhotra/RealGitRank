@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 62.18,
-  "rank_score": 65.7,
+  "rank_score": 65.8,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 713,
+  "rank": 636,
   "avatar_url": "https://avatars.githubusercontent.com/u/263023789?u=0760eb7f7d92f392f1e52d5bfb7e76803d9fba21&v=4",
   "bio": "It's not a second job. It's a hobby with a production pipeline",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 713,
-      "s": 65.7
+      "r": 636,
+      "s": 65.8
     }
   ],
   "location": ""

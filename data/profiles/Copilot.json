@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.28,
-  "rank_score": 65.0,
+  "rank_score": 64.2,
   "active_repos_touched": 664,
   "pr_reviews": 799,
   "issue_comments": 9,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 748,
+  "rank": 694,
   "avatar_url": "",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 748,
-      "s": 65.0
+      "r": 694,
+      "s": 64.2
     }
   ]
 }

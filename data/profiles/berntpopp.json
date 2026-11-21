@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 40.96,
-  "rank_score": 62.6,
+  "rank_score": 63.9,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 920,
+  "rank": 741,
   "avatar_url": "https://avatars.githubusercontent.com/u/5041157?u=c767e354facc98e7a6f49213d5e9a8d38effb368&v=4",
   "bio": "",
   "company": "Berlin Institute of Health @Charit\u00e9",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 920,
-      "s": 62.6
+      "r": 741,
+      "s": 63.9
     }
   ],
   "location": "Berlin"

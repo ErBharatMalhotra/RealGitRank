@@ -1,19 +1,19 @@
 {
   "username": "com-junkawasaki",
-  "rank": 148,
-  "rank_score": 81.6,
+  "rank": 200,
+  "rank_score": 77.5,
   "country": "Japan",
   "primary_language": "Go",
   "avatar_url": "https://avatars.githubusercontent.com/u/623495?u=08f24ffd086793609986eb6eb7eff415e1b31266&v=4",
   "bio": "Niigata University Graduate School of Medical and Dental Sciences, Brain Research Institute.",
   "company": "gftd.co.jp",
   "tier": "Elite",
-  "percentile": 99.7,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 148,
-      "s": 81.6
+      "r": 200,
+      "s": 77.5
     }
   ],
   "location": "Tokyo"

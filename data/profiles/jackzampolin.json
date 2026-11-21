@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 49.97,
-  "rank_score": 65.5,
+  "rank_score": 69.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 726,
+  "rank": 555,
   "avatar_url": "https://avatars.githubusercontent.com/u/7452680?u=4590bfcda0937f265e84c8e3a620bf9ef9157a81&v=4",
   "bio": "",
   "company": "@sourcenetwork ",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 726,
-      "s": 65.5
+      "r": 555,
+      "s": 69.3
     }
   ],
   "location": "SLO, CA, USA"

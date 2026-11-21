@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 40.83,
-  "rank_score": 97.3,
+  "rank_score": 100.1,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 24,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 47,
+  "rank": 38,
   "avatar_url": "https://avatars.githubusercontent.com/u/85816763?u=6d2a0f4c63dc5673a214e123a8cd6b25846f91f1&v=4",
   "bio": "Open Access",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 47,
-      "s": 97.3
+      "r": 38,
+      "s": 100.1
     }
   ],
   "location": "California"

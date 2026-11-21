@@ -1,19 +1,19 @@
 {
   "username": "Dev-next-gen",
-  "rank": 676,
-  "rank_score": 66.6,
+  "rank": 764,
+  "rank_score": 63.3,
   "country": "France",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/188639646?u=f05149adc9ea9fd65db7311facd055e2a528bd6a&v=4",
   "bio": "I find code defects where there shouldn't be any.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 676,
-      "s": 66.6
+      "r": 764,
+      "s": 63.3
     }
   ],
   "location": "Paris"

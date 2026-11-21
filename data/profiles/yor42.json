@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 44.42,
-  "rank_score": 67.9,
+  "rank_score": 69.4,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 619,
+  "rank": 551,
   "avatar_url": "https://avatars.githubusercontent.com/u/49832212?u=53c158a8f2fa7f72eaeda2b6271dcc4c0d85c189&v=4",
   "bio": "How did I ended up being here?",
   "company": "????",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 619,
-      "s": 67.9
+      "r": 551,
+      "s": 69.4
     }
   ],
   "location": "Busan"

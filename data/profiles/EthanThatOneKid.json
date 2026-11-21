@@ -1,19 +1,19 @@
 {
   "username": "EthanThatOneKid",
-  "rank": 641,
-  "rank_score": 67.6,
+  "rank": 696,
+  "rank_score": 64.2,
   "country": "",
   "primary_language": "Svelte",
   "avatar_url": "https://avatars.githubusercontent.com/u/31261035?u=8971d688b07a888941866000ec3deeb158dfdd0b&v=4",
   "bio": "Founding Engineer @wazootech \ud83e\uddea Open Source Enthusiast @FartLabs \ud83c\udf10 Alum @acmcsufoss \u2728 Ex-@Google  #\ud83d\udfe6",
   "company": "@wazootech",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 641,
-      "s": 67.6
+      "r": 696,
+      "s": 64.2
     }
   ],
   "location": "California State University, Fullerton"

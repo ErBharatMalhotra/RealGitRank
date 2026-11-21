@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 976,
+  "rank": 884,
   "avatar_url": "https://avatars.githubusercontent.com/u/240779358?u=9453a5a20e65424d367702ae1302624b7fbd65f3&v=4",
   "bio": "Full Stack AI engineer - Python/FastAPI, React, Azure, PostgreSQL. Healthcare prior-auth systems and LLM agents, tested before they're trusted.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 976,
+      "r": 884,
       "s": 61.6
     }
   ],

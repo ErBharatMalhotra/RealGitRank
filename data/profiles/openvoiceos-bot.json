@@ -1,19 +1,19 @@
 {
   "username": "openvoiceos-bot",
-  "rank": 643,
-  "rank_score": 67.6,
+  "rank": 698,
+  "rank_score": 64.2,
   "country": "",
   "primary_language": "Unknown",
   "avatar_url": "https://avatars.githubusercontent.com/u/327046765?u=663fa6299c10accb7815a14d46c142c92ef056e8&v=4",
   "bio": "blip blop, I am a bot",
   "company": "@OpenVoiceOS",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 643,
-      "s": 67.6
+      "r": 698,
+      "s": 64.2
     }
   ],
   "location": "the interwebz"

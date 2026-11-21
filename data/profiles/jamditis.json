@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 41.94,
-  "rank_score": 67.7,
+  "rank_score": 71.3,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 629,
+  "rank": 413,
   "avatar_url": "https://avatars.githubusercontent.com/u/6799804?u=c2e5eaeb6dff610cec22e6d84ee87b112c4cb395&v=4",
   "bio": "Associate director of operations, Center for Cooperative Media",
   "company": "Center for Cooperative Media",
-  "tier": "Diamond",
-  "percentile": 98.6,
+  "tier": "Elite",
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 629,
-      "s": 67.7
+      "r": 413,
+      "s": 71.3
     }
   ],
   "location": "United States"

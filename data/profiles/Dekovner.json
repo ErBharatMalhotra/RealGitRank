@@ -1,19 +1,19 @@
 {
   "username": "Dekovner",
-  "rank": 843,
-  "rank_score": 63.6,
+  "rank": 1000,
+  "rank_score": 60.4,
   "country": "",
   "primary_language": "Rust",
   "avatar_url": "https://avatars.githubusercontent.com/u/102241445?u=bb1628fdcfc84029f372cf96c73a0da42d8b0655&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.1,
+  "percentile": 97.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 843,
-      "s": 63.6
+      "r": 1000,
+      "s": 60.4
     }
   ],
   "location": ""

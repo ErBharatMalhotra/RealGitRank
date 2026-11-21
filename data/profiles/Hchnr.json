@@ -1,19 +1,19 @@
 {
   "username": "Hchnr",
-  "rank": 404,
-  "rank_score": 71.7,
+  "rank": 595,
+  "rank_score": 68.1,
   "country": "China",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/39158740?u=cb3f9c91711040929888761106fd7c0b165903e2&v=4",
   "bio": "",
   "company": "",
-  "tier": "Elite",
-  "percentile": 99.1,
+  "tier": "Diamond",
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 404,
-      "s": 71.7
+      "r": 595,
+      "s": 68.1
     }
   ],
   "location": "Beijing, PRC"

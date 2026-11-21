@@ -1,19 +1,19 @@
 {
   "username": "j6nca",
-  "rank": 295,
-  "rank_score": 74.9,
+  "rank": 423,
+  "rank_score": 71.2,
   "country": "Canada",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/72368152?u=7d90c76a9b4cdfd033685e124a5d59ea58af7fc1&v=4",
   "bio": "beep boop",
   "company": "StackAdapt",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 295,
-      "s": 74.9
+      "r": 423,
+      "s": 71.2
     }
   ],
   "location": "Toronto"

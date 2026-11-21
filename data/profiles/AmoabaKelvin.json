@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 40.13,
-  "rank_score": 79.0,
+  "rank_score": 81.0,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 181,
+  "rank": 155,
   "avatar_url": "https://avatars.githubusercontent.com/u/97001695?u=2c43790353b3f36b2e3c15007d9b8a2467d4864d&v=4",
   "bio": "Backend & infrastructure engineer building observability and developer tools in Go.\r\n\r\nBuilding https://ishortn.ink, https://logdeck.dev",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 181,
-      "s": 79.0
+      "r": 155,
+      "s": 81.0
     }
   ],
   "location": "Remote"

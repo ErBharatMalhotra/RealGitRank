@@ -1,19 +1,19 @@
 {
   "username": "baypeanut",
-  "rank": 64,
-  "rank_score": 92.2,
+  "rank": 94,
+  "rank_score": 87.6,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/180485396?u=a01da7e5fb1afb32ee70f20ef9f7f09721993f0d&v=4",
   "bio": "I like puzzles",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.9,
+  "percentile": 99.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 64,
-      "s": 92.2
+      "r": 94,
+      "s": 87.6
     }
   ],
   "location": ""

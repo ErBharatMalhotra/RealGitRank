@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 393,
+  "rank": 376,
   "avatar_url": "https://avatars.githubusercontent.com/u/173451?u=177c156ed657bb91dbf98abeb0bed8da0ca1ccf2&v=4",
   "bio": "",
   "company": "Replicated.com",
   "tier": "Elite",
-  "percentile": 99.1,
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 393,
+      "r": 376,
       "s": 72.3
     }
   ],

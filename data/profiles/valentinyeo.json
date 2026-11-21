@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 45.58,
-  "rank_score": 64.6,
+  "rank_score": 65.9,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 763,
+  "rank": 630,
   "avatar_url": "https://avatars.githubusercontent.com/u/3296316?v=4",
   "bio": "A/B testing and CRO consultant. Ex-trivago (11 yrs), $30M raised. Founder of Hypertask, Endless Testing and ciao.com. I set up AI agent fleets for teams.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 763,
-      "s": 64.6
+      "r": 630,
+      "s": 65.9
     }
   ],
   "location": "London and Berlin"

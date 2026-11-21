@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 42.09,
-  "rank_score": 72.4,
+  "rank_score": 76.3,
   "active_repos_touched": 10,
   "pr_reviews": 4,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 380,
+  "rank": 235,
   "avatar_url": "https://avatars.githubusercontent.com/u/39613?u=5cdf922c04ac8c540e0522894014d83b54bc29a0&v=4",
   "bio": "",
   "company": "@adobe",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 380,
-      "s": 72.4
+      "r": 235,
+      "s": 76.3
     }
   ],
   "location": "Potsdam, Germany"

@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 42.83,
-  "rank_score": 72.6,
+  "rank_score": 76.4,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 370,
+  "rank": 232,
   "avatar_url": "https://avatars.githubusercontent.com/u/6705942?v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 370,
-      "s": 72.6
+      "r": 232,
+      "s": 76.4
     }
   ],
   "location": "Gda\u0144sk, Poland"

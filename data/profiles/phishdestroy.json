@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 169,
+  "rank": 160,
   "avatar_url": "https://avatars.githubusercontent.com/u/208413058?u=83b42e6fd8644c4a2091c112eeee4252d0777494&v=4",
   "bio": "Hunting phishing, drainers and scam infrastructure. Public evidence, free feeds and API. We don't just block. We burn it all down.",
   "company": "PhishDestroy Threat Intelligence",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 169,
+      "r": 160,
       "s": 79.6
     }
   ],

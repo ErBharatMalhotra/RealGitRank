@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 45.91,
-  "rank_score": 70.8,
+  "rank_score": 72.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 443,
+  "rank": 359,
   "avatar_url": "https://avatars.githubusercontent.com/u/620907?u=8964f8eb2cb4ff7e142131e4defa9680bc20cb6b&v=4",
   "bio": "Open Source Lover\r\nMySQL/MariaDB/PostgreSQL addict\r\nGoLang/C/Python/PHP/Perl/Zig/ official fan\r\nFaked Nano banana generated picture\r\nGemini/Jules daily user",
   "company": "LightPath",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 443,
-      "s": 70.8
+      "r": 359,
+      "s": 72.5
     }
   ],
   "location": "France"

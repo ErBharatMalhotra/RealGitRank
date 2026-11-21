@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 48.94,
-  "rank_score": 65.7,
+  "rank_score": 67.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 712,
+  "rank": 604,
   "avatar_url": "https://avatars.githubusercontent.com/u/55137770?u=51bf6937fe798d7b80b1b2d504208982dbad153b&v=4",
   "bio": "Engineer and author. Founder and CEO of Suede. Author of The Claude Code Bible and Codex in Production. AI agents, full-stack GEO/SEO and open source.",
   "company": "@Suede-AI",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 712,
-      "s": 65.7
+      "r": 604,
+      "s": 67.5
     }
   ],
   "location": "West Palm Beach, Florida"

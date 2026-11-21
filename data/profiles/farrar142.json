@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 44.27,
-  "rank_score": 78.1,
+  "rank_score": 79.6,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 194,
+  "rank": 158,
   "avatar_url": "https://avatars.githubusercontent.com/u/85389134?v=4",
   "bio": "\uae30\ud68d\ubd80\ud130 \uc6b4\uc601\uae4c\uc9c0 \ub05d\uae4c\uc9c0 \ucc45\uc784\uc9c0\ub294 \ubc31\uc5d4\ub4dc\u00b7\ud480\uc2a4\ud0dd \uac1c\ubc1c\uc790 \u00b7 1\uc778 \uac1c\ubc1c\uc0ac \uc0cc\ub4dc\ucf54\ud504 \ub300\ud45c",
   "company": "@sandcorporation",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 194,
-      "s": 78.1
+      "r": 158,
+      "s": 79.6
     }
   ],
   "location": ""

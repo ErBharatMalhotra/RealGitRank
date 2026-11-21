@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 659,
+  "rank": 609,
   "avatar_url": "https://avatars.githubusercontent.com/u/231810222?v=4",
   "bio": "Principal AI Strategist. MAO Framework. AI governance, orchestration, architecture.",
   "company": "AndMaverick LLC",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 659,
+      "r": 609,
       "s": 67.1
     }
   ],

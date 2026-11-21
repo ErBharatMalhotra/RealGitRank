@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 990,
+  "rank": 899,
   "avatar_url": "https://avatars.githubusercontent.com/u/224581810?u=0c0ea1598be2bc2f8b01aca28700695d6281188f&v=4",
   "bio": "architecture",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.8,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 990,
+      "r": 899,
       "s": 61.5
     }
   ],

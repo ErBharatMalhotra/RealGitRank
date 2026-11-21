@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 41,
+  "rank": 46,
   "avatar_url": "https://avatars.githubusercontent.com/u/5518?v=4",
   "bio": "Ruby / Go / Rust",
   "company": "@longbridge",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 41,
+      "r": 46,
       "s": 98.9
     }
   ],

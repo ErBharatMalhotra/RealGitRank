@@ -1,19 +1,19 @@
 {
   "username": "sallaumen",
-  "rank": 672,
-  "rank_score": 66.8,
+  "rank": 750,
+  "rank_score": 63.5,
   "country": "",
   "primary_language": "Elixir",
   "avatar_url": "https://avatars.githubusercontent.com/u/28612071?u=8d915f5a261310c71c3a2f0b00156a4b08a6c592&v=4",
   "bio": "Brazilian Elixir developer",
   "company": "XSeed (UY)",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 672,
-      "s": 66.8
+      "r": 750,
+      "s": 63.5
     }
   ],
   "location": "Curitiba, PR"

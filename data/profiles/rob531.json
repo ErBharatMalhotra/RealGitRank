@@ -1,19 +1,19 @@
 {
   "username": "rob531",
-  "rank": 88,
-  "rank_score": 89.1,
+  "rank": 123,
+  "rank_score": 84.6,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/90212244?v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 88,
-      "s": 89.1
+      "r": 123,
+      "s": 84.6
     }
   ],
   "location": ""

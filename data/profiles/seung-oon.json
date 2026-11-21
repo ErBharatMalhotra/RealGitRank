@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 394,
+  "rank": 380,
   "avatar_url": "https://avatars.githubusercontent.com/u/117635177?u=441720dfd90bb063fbf4a2b54d9254aca342816d&v=4",
   "bio": "",
   "company": "HSU",
   "tier": "Elite",
-  "percentile": 99.1,
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 394,
+      "r": 380,
       "s": 72.2
     }
   ],

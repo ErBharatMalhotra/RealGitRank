@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 538,
+  "rank": 534,
   "avatar_url": "https://avatars.githubusercontent.com/u/6590455?u=99e3b7e10a6c429c09346bbf4752bca9cbb3c21a&v=4",
   "bio": "Software Architect | Microservices, Kubernetes & Cloud-Native | Building Kravn, an open-source MCP gateway for enterprise AI",
   "company": "AddLayer LLC",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 538,
+      "r": 534,
       "s": 69.6
     }
   ],
