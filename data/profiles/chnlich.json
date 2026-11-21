@@ -1,0 +1,39 @@
+{
+  "username": "chnlich",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 39.81,
+  "rank_score": 69.4,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 592,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6450961?u=b890e311d255ae2c2a875a0928012ba546d2af57&v=4",
+  "bio": "",
+  "company": "Meshy",
+  "tier": "Diamond",
+  "percentile": 98.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 592,
+      "s": 69.4
+    }
+  ],
+  "location": ""
+}

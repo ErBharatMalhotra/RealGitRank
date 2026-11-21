@@ -1,30 +1,20 @@
 {
   "username": "Juansit-0",
+  "rank": 579,
+  "rank_score": 69.6,
   "country": "",
   "primary_language": "Java",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 32.96,
-  "s_impact": 0.0,
-  "s_consistency": 45.77,
-  "rank_score": 73.3,
-  "active_repos_touched": 2,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 317,
   "avatar_url": "https://avatars.githubusercontent.com/u/201685200?u=a9736f31634d272b8a6cb26c2d4dba098a447a92&v=4",
   "bio": "Co-founder and CEO of Juni Studios",
   "company": "Juni Studios",
+  "tier": "Diamond",
+  "percentile": 98.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 579,
+      "s": 69.6
+    }
+  ],
   "location": "Colombia"
 }

@@ -1,30 +1,20 @@
 {
   "username": "Aandreba",
+  "rank": 413,
+  "rank_score": 72.3,
   "country": "Spain",
   "primary_language": "Zig",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 84.66,
-  "rank_score": 76.1,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 245,
   "avatar_url": "https://avatars.githubusercontent.com/u/4247991?u=e3d45982d328cc8cca2d88d3ca6910d17707a2dc&v=4",
   "bio": "",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.1,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 413,
+      "s": 72.3
+    }
+  ],
   "location": "Terrassa, Spain"
 }

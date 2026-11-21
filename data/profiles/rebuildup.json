@@ -1,0 +1,39 @@
+{
+  "username": "rebuildup",
+  "country": "",
+  "primary_language": "C++",
+  "total_pushes": 1,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 249.53,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 42.01,
+  "rank_score": 89.2,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 75,
+  "avatar_url": "https://avatars.githubusercontent.com/u/176191237?u=c87fc8f1774074b2585dfa31f0d61c8d5804411b&v=4",
+  "bio": "jp 2007\r\nweb\u5236\u4f5c\u304b\u6620\u50cf\u5236\u4f5c\u3001\u305d\u308c\u306b\u307e\u3064\u308f\u308b\u30c4\u30fc\u30eb\u306e\u5236\u4f5c\u3092\u3057\u3066\u3044\u308b\u9ad8\u5c02\u751f",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 75,
+      "s": 89.2
+    }
+  ],
+  "location": ""
+}

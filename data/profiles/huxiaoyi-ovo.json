@@ -1,0 +1,39 @@
+{
+  "username": "huxiaoyi-ovo",
+  "country": "",
+  "primary_language": "C++",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 84.66,
+  "rank_score": 84.4,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 120,
+  "avatar_url": "https://avatars.githubusercontent.com/u/259822446?u=bda7c532b0820f0a49e4592aac9ac6e9ec60053d&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 120,
+      "s": 84.4
+    }
+  ],
+  "location": ""
+}

@@ -1,30 +1,20 @@
 {
   "username": "AhmedMElhalaby",
+  "rank": 348,
+  "rank_score": 73.1,
   "country": "",
   "primary_language": "Swift",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 32.96,
-  "s_impact": 0.0,
-  "s_consistency": 69.55,
-  "rank_score": 76.9,
-  "active_repos_touched": 2,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 203,
   "avatar_url": "https://avatars.githubusercontent.com/u/28507946?u=11c3e6ab407955db03cdd6cac06b3e0c2788c028&v=4",
   "bio": "Full-stack & DevOps engineer, 11 years. Laravel \u00b7 Go \u00b7 Python \u00b7 React \u00b7 Swift. Building Ainkrad \u2014 a native macOS agentic workspace.",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 348,
+      "s": 73.1
+    }
+  ],
   "location": "Palestine, Gaza, Remal, khdeer Tower , 5th floor"
 }

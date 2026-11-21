@@ -1,30 +1,20 @@
 {
   "username": "automagik-genie",
+  "rank": 602,
+  "rank_score": 69.3,
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 32.96,
-  "s_impact": 0.0,
-  "s_consistency": 43.3,
-  "rank_score": 73.0,
-  "active_repos_touched": 2,
-  "pr_reviews": 0,
-  "issue_comments": 3,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 328,
   "avatar_url": "https://avatars.githubusercontent.com/u/218262304?u=3ba5558dc584c2234c03549de7489e32e1a671cc&v=4",
   "bio": "Because Magik shouln't be complicated!",
   "company": "@namastexlabs",
+  "tier": "Diamond",
+  "percentile": 98.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 602,
+      "s": 69.3
+    }
+  ],
   "location": ""
 }

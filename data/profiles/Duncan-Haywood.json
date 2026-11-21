@@ -2,16 +2,16 @@
   "username": "Duncan-Haywood",
   "country": "",
   "primary_language": "JavaScript",
-  "total_pushes": 0,
-  "merged_prs": 5,
+  "total_pushes": 1,
+  "merged_prs": 4,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 215.01,
+  "s_pr": 193.13,
   "s_quality": 20.79,
   "s_impact": 0.0,
-  "s_consistency": 43.27,
-  "rank_score": 86.9,
+  "s_consistency": 42.26,
+  "rank_score": 81.4,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 96,
+  "rank": 154,
   "avatar_url": "https://avatars.githubusercontent.com/u/49566815?v=4",
   "bio": "",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 154,
+      "s": 81.4
+    }
+  ],
   "location": ""
 }

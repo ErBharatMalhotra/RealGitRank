@@ -1,30 +1,20 @@
 {
   "username": "joshuafolkken",
+  "rank": 746,
+  "rank_score": 66.3,
   "country": "Japan",
   "primary_language": "TypeScript",
-  "total_pushes": 0,
-  "merged_prs": 3,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 42.81,
-  "rank_score": 69.8,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 5,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 477,
   "avatar_url": "https://avatars.githubusercontent.com/u/168330964?u=280ee622f4f6379fb8e8455a0bd02f0da84a63d7&v=4",
   "bio": "IndieGame devs",
   "company": "Joshua Studio",
+  "tier": "Diamond",
+  "percentile": 98.4,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 746,
+      "s": 66.3
+    }
+  ],
   "location": "Japan"
 }

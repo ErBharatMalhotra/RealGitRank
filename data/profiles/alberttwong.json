@@ -1,30 +1,20 @@
 {
   "username": "alberttwong",
+  "rank": 669,
+  "rank_score": 68.0,
   "country": "United States",
   "primary_language": "JavaScript",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 54.66,
-  "rank_score": 71.6,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 396,
   "avatar_url": "https://avatars.githubusercontent.com/u/749093?u=93d3ed2fc356d9bc5065410d46dd0a930f43e634&v=4",
   "bio": "#eCommerce #Java #Database #k8s #Automation. Hobbies: #BoardGames #Comics #Skeet #VideoGames #Pinball #Magic #YelpElite #Travel #Candy #RoadBiking #autocross",
   "company": "Redis",
+  "tier": "Diamond",
+  "percentile": 98.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 669,
+      "s": 68.0
+    }
+  ],
   "location": "Los Angeles, CA, USA"
 }

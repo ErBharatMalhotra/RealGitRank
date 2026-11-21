@@ -2,17 +2,17 @@
   "username": "adm01-debug",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 0,
-  "merged_prs": 2,
+  "total_pushes": 2,
+  "merged_prs": 3,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 131.83,
+  "s_pr": 166.36,
   "s_quality": 53.75,
   "s_impact": 0.0,
-  "s_consistency": 41.51,
-  "rank_score": 65.8,
-  "active_repos_touched": 6,
+  "s_consistency": 40.55,
+  "rank_score": 74.1,
+  "active_repos_touched": 12,
   "pr_reviews": 1,
   "issue_comments": 1,
   "releases": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 589,
+  "rank": 309,
   "avatar_url": "https://avatars.githubusercontent.com/u/231131902?v=4",
   "bio": "",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 309,
+      "s": 74.1
+    }
+  ],
   "location": ""
 }

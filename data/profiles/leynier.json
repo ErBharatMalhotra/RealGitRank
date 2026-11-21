@@ -1,0 +1,39 @@
+{
+  "username": "leynier",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 67.99,
+  "rank_score": 73.6,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 331,
+  "avatar_url": "https://avatars.githubusercontent.com/u/36774373?u=0f3b9a834b7b6338633f1016f01fdb5e96750825&v=4",
+  "bio": "Co-Founder of bagplanner.com and mesirve.app, CTO at @educup and Computer Science graduate at @matcom",
+  "company": "@educup @lynot",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 331,
+      "s": 73.6
+    }
+  ],
+  "location": ""
+}

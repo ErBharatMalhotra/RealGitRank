@@ -1,30 +1,20 @@
 {
   "username": "Swartdraak",
+  "rank": 26,
+  "rank_score": 103.7,
   "country": "",
   "primary_language": "C#",
-  "total_pushes": 0,
-  "merged_prs": 9,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 276.31,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 48.46,
-  "rank_score": 109.2,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 18,
   "avatar_url": "https://avatars.githubusercontent.com/u/5070636?v=4",
   "bio": "AI-powered developer building automated scripts, micro tools, and faceless digital products.  \r\nSpecializing in Python automation, API integrations, data tools,",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 26,
+      "s": 103.7
+    }
+  ],
   "location": ""
 }

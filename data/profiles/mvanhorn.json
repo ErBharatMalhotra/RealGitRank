@@ -1,0 +1,39 @@
+{
+  "username": "mvanhorn",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 150.33,
+  "s_quality": 53.75,
+  "s_impact": 108.68,
+  "s_consistency": 41.09,
+  "rank_score": 99.4,
+  "active_repos_touched": 5,
+  "pr_reviews": 1,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 8,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 37,
+  "avatar_url": "https://avatars.githubusercontent.com/u/455140?u=ca70dc656c8256c47d6739e4347937bf139c28e7&v=4",
+  "bio": "Co-founded June (\"self-driving oven\" acquired by @webergrills) & the co that became @Lyft. Building again, more soon. OS: @slashlast30days 67k\u2605 @ppressdev 4.9k\u2605",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 37,
+      "s": 99.4
+    }
+  ],
+  "location": ""
+}

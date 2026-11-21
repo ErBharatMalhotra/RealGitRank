@@ -3,16 +3,16 @@
   "country": "Spain",
   "primary_language": "Python",
   "total_pushes": 0,
-  "merged_prs": 2,
+  "merged_prs": 1,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 32.96,
+  "s_pr": 109.95,
+  "s_quality": 53.75,
   "s_impact": 0.0,
-  "s_consistency": 62.44,
-  "rank_score": 75.8,
-  "active_repos_touched": 2,
+  "s_consistency": 56.15,
+  "rank_score": 64.9,
+  "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 251,
+  "rank": 817,
   "avatar_url": "https://avatars.githubusercontent.com/u/9976420?u=3dab594e78a53a010748de85cca76e08feddb3d9&v=4",
   "bio": "",
   "company": "braintec",
+  "tier": "Diamond",
+  "percentile": 98.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 817,
+      "s": 64.9
+    }
+  ],
   "location": "Brig, Z\u00fcrich, Basel, Madrid, B\u00f6blingen, Castell\u00f3 de la Plana"
 }

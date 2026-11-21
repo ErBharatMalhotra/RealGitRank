@@ -1,30 +1,20 @@
 {
   "username": "nounweb",
+  "rank": 741,
+  "rank_score": 66.5,
   "country": "South Korea",
   "primary_language": "HTML",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 43.75,
-  "rank_score": 70.0,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 467,
   "avatar_url": "https://avatars.githubusercontent.com/u/300592?u=674ec9c913a05786a99783f324b70eee5513b54f&v=4",
   "bio": "",
   "company": "Linkr",
+  "tier": "Diamond",
+  "percentile": 98.4,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 741,
+      "s": 66.5
+    }
+  ],
   "location": "Jejudo island, Korea"
 }

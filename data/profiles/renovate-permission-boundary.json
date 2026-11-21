@@ -2,16 +2,16 @@
   "username": "renovate-permission-boundary",
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 1,
-  "merged_prs": 2,
+  "total_pushes": 3,
+  "merged_prs": 1,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 166.36,
+  "s_pr": 109.95,
   "s_quality": 48.28,
   "s_impact": 0.0,
-  "s_consistency": 50.15,
-  "rank_score": 77.3,
+  "s_consistency": 44.05,
+  "rank_score": 63.2,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 197,
+  "rank": 922,
   "avatar_url": "https://avatars.githubusercontent.com/u/162788243?v=4",
   "bio": "",
   "company": "",
+  "tier": "Diamond",
+  "percentile": 98.0,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 922,
+      "s": 63.2
+    }
+  ],
   "location": ""
 }

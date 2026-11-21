@@ -1,30 +1,20 @@
 {
   "username": "v0dol4zik",
+  "rank": 633,
+  "rank_score": 68.8,
   "country": "United States",
   "primary_language": "Go",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 59.66,
-  "rank_score": 72.4,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 372,
   "avatar_url": "https://avatars.githubusercontent.com/u/317267888?u=3fa7444791d42135b15c4f7ab8224e2287f0f6c3&v=4",
   "bio": "If you're Github: this is my 3rd account after 2 unexplained suspensions.\r\nPlease don't. Support closed my ticket with zero response last time",
   "company": "",
+  "tier": "Diamond",
+  "percentile": 98.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 633,
+      "s": 68.8
+    }
+  ],
   "location": "Volgograd, Russia"
 }

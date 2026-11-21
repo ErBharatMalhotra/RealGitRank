@@ -1,30 +1,20 @@
 {
   "username": "wphillipmoore",
+  "rank": 98,
+  "rank_score": 86.6,
   "country": "United States",
   "primary_language": "Python",
-  "total_pushes": 0,
-  "merged_prs": 3,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 204.57,
-  "s_quality": 53.75,
-  "s_impact": 0.0,
-  "s_consistency": 41.21,
-  "rank_score": 91.2,
-  "active_repos_touched": 5,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 62,
   "avatar_url": "https://avatars.githubusercontent.com/u/3788880?u=5f9230bfc420edcebb3b14539a79fe51343a7051&v=4",
   "bio": "Infrastructure engineer and software developer with several decades of Enterprise experience at global scale, passionate about solving hard problems.",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 98,
+      "s": 86.6
+    }
+  ],
   "location": " New Jersey, United States"
 }

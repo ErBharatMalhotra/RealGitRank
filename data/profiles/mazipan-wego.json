@@ -1,30 +1,20 @@
 {
   "username": "mazipan-wego",
+  "rank": 689,
+  "rank_score": 67.5,
   "country": "Indonesia",
   "primary_language": "TypeScript",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 51.32,
-  "rank_score": 71.1,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 413,
   "avatar_url": "https://avatars.githubusercontent.com/u/201220304?u=518f711bff1cadd385440488d8f935b366a4541c&v=4",
   "bio": "Web Engineer at @wego. Side quest from @mazipan",
   "company": "@wego",
+  "tier": "Diamond",
+  "percentile": 98.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 689,
+      "s": 67.5
+    }
+  ],
   "location": "Jakarta, Indonesia"
 }

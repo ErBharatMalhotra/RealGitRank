@@ -1,0 +1,39 @@
+{
+  "username": "thesaurabhpareek",
+  "country": "United States",
+  "primary_language": "TypeScript",
+  "total_pushes": 9,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 43.1,
+  "rank_score": 69.9,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 12,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 530,
+  "avatar_url": "https://avatars.githubusercontent.com/u/16122461?u=083415d7c4bb9762eb15f69e7f03b8e64aafecfc&v=4",
+  "bio": "Product @GoFundMe\r\n\r\nPast: Product @PayPal, Product @Paytm, Product/business @Careers360",
+  "company": "",
+  "tier": "Diamond",
+  "percentile": 98.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 530,
+      "s": 69.9
+    }
+  ],
+  "location": "San Francisco"
+}

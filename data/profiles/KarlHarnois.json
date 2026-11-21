@@ -1,0 +1,39 @@
+{
+  "username": "KarlHarnois",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 2,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 150.33,
+  "s_quality": 32.96,
+  "s_impact": 0.0,
+  "s_consistency": 40.29,
+  "rank_score": 66.9,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 720,
+  "avatar_url": "https://avatars.githubusercontent.com/u/12144785?u=706115b8ba4a7e2abcf580dac6847ea3e68f73f3&v=4",
+  "bio": "Engineering Manager @glossier ",
+  "company": "",
+  "tier": "Diamond",
+  "percentile": 98.4,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 720,
+      "s": 66.9
+    }
+  ],
+  "location": ""
+}

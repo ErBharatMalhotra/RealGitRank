@@ -2,7 +2,7 @@
   "username": "scala-steward",
   "country": "",
   "primary_language": "Scala",
-  "total_pushes": 1,
+  "total_pushes": 0,
   "merged_prs": 3,
   "bot_penalty": 0.0,
   "is_human_verified": true,
@@ -10,11 +10,11 @@
   "s_pr": 204.57,
   "s_quality": 53.75,
   "s_impact": 0.0,
-  "s_consistency": 49.35,
-  "rank_score": 91.8,
-  "active_repos_touched": 13,
+  "s_consistency": 46.1,
+  "rank_score": 91.9,
+  "active_repos_touched": 12,
   "pr_reviews": 0,
-  "issue_comments": 1,
+  "issue_comments": 2,
   "releases": 0,
   "stars_fraud_filtered": 0,
   "forks_fraud_filtered": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 56,
+  "rank": 59,
   "avatar_url": "https://avatars.githubusercontent.com/u/43047562?u=7abba7cc925dd59a1490350762cbf7d67089fb66&v=4",
   "bio": "I'm a bot trying to keep your Scala projects up-to-date.",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 59,
+      "s": 91.9
+    }
+  ],
   "location": ""
 }

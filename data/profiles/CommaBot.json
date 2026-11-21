@@ -2,16 +2,16 @@
   "username": "CommaBot",
   "country": "",
   "primary_language": "Elixir",
-  "total_pushes": 0,
-  "merged_prs": 5,
+  "total_pushes": 1,
+  "merged_prs": 2,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 256.81,
+  "s_pr": 166.36,
   "s_quality": 20.79,
   "s_impact": 0.0,
-  "s_consistency": 41.93,
-  "rank_score": 101.4,
+  "s_consistency": 42.21,
+  "rank_score": 79.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 30,
+  "rank": 176,
   "avatar_url": "https://avatars.githubusercontent.com/u/237911457?u=fef25d43ae94b11055c13f2bbe5734d08533a69a&v=4",
   "bio": "",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 176,
+      "s": 79.3
+    }
+  ],
   "location": ""
 }

@@ -3,15 +3,15 @@
   "country": "",
   "primary_language": "Python",
   "total_pushes": 0,
-  "merged_prs": 2,
+  "merged_prs": 3,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 131.83,
+  "s_pr": 166.36,
   "s_quality": 32.96,
   "s_impact": 0.0,
-  "s_consistency": 59.66,
-  "rank_score": 63.3,
+  "s_consistency": 54.66,
+  "rank_score": 71.3,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 669,
+  "rank": 442,
   "avatar_url": "https://avatars.githubusercontent.com/u/246365505?u=24fc19ed666de5b309728533facb9e38f71b5429&v=4",
   "bio": "Entrepreneur, author & sustainability advocate. Founder of Ascent Partners. Building open-source AI/MCP tooling for ESG, valuation & accessibility.",
   "company": "Ascent Partners Group Limited",
+  "tier": "Elite",
+  "percentile": 99.0,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 442,
+      "s": 71.3
+    }
+  ],
   "location": "Hong Kong"
 }

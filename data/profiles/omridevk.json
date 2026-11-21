@@ -1,30 +1,20 @@
 {
   "username": "omridevk",
+  "rank": 179,
+  "rank_score": 79.2,
   "country": "Israel",
   "primary_language": "TypeScript",
-  "total_pushes": 0,
-  "merged_prs": 3,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 204.57,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 43.87,
-  "rank_score": 83.4,
-  "active_repos_touched": 1,
-  "pr_reviews": 1,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 128,
   "avatar_url": "https://avatars.githubusercontent.com/u/9701896?u=5696890d5b2a10b1fbbcb736303d02560f28bedf&v=4",
   "bio": "If it's worth doing, it's worth doing well.",
   "company": "PayZen",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 179,
+      "s": 79.2
+    }
+  ],
   "location": "\u05bfIsrael"
 }

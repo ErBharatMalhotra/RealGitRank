@@ -1,0 +1,39 @@
+{
+  "username": "CameronBrooks11",
+  "country": "Canada",
+  "primary_language": "OpenSCAD",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 193.13,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 40.56,
+  "rank_score": 87.1,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 94,
+  "avatar_url": "https://avatars.githubusercontent.com/u/95648474?u=4b9c6c283071f5a3749e033f305753ba87824333&v=4",
+  "bio": "Graduate Student in Electrical and Computer Engineering @ Western University.\r\n\r\nI try to make things that are generally useful.",
+  "company": "@integrumsys @uwo-fast @FEASTorg @anolishq @heibench @fiberpath @baselinerhq @konnexio-inc @werocketry",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 94,
+      "s": 87.1
+    }
+  ],
+  "location": "Canada"
+}

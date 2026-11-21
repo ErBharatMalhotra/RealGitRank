@@ -1,0 +1,39 @@
+{
+  "username": "angzeli",
+  "country": "United Kingdom",
+  "primary_language": "Jupyter Notebook",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 131.83,
+  "s_quality": 32.96,
+  "s_impact": 0.0,
+  "s_consistency": 54.66,
+  "rank_score": 62.6,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 944,
+  "avatar_url": "https://avatars.githubusercontent.com/u/162757881?u=88931e4257f3bac742042a5f45fa718536eb8bcb&v=4",
+  "bio": "MSci Chemistry student at Imperial College London, specialising in inorganic/material chemistry, computational modelling and data-driven characterisation",
+  "company": "Imperial College London",
+  "tier": "Diamond",
+  "percentile": 97.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 944,
+      "s": 62.6
+    }
+  ],
+  "location": "London"
+}

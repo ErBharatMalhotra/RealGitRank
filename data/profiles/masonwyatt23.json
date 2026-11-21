@@ -3,15 +3,15 @@
   "country": "",
   "primary_language": "Rust",
   "total_pushes": 0,
-  "merged_prs": 3,
+  "merged_prs": 4,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 204.57,
+  "s_pr": 233.51,
   "s_quality": 48.28,
   "s_impact": 0.0,
-  "s_consistency": 44.56,
-  "rank_score": 90.4,
+  "s_consistency": 42.37,
+  "rank_score": 97.3,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 66,
+  "rank": 43,
   "avatar_url": "https://avatars.githubusercontent.com/u/192697134?u=cb69e561ea577bdfa31266664bc844352f896888&v=4",
   "bio": "Co-Founder & CEO @ashlrai. Forward-deployed engineering: AI systems and custom software.",
   "company": "AshlrAI, Inc.",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 43,
+      "s": 97.3
+    }
+  ],
   "location": "Virginia"
 }

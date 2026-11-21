@@ -1,30 +1,20 @@
 {
   "username": "Pui89",
+  "rank": 216,
+  "rank_score": 77.8,
   "country": "Thailand",
   "primary_language": "Python",
-  "total_pushes": 0,
-  "merged_prs": 3,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 41.59,
-  "s_impact": 27.73,
-  "s_consistency": 42.19,
-  "rank_score": 81.9,
-  "active_repos_touched": 3,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 1,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 157,
   "avatar_url": "https://avatars.githubusercontent.com/u/337697385?u=3454538ec9174699c24f14de4905f1cfba3e5764&v=4",
   "bio": "PUI89 is an independent AI and robotics research initiative based in Thailand  ",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 216,
+      "s": 77.8
+    }
+  ],
   "location": "Thailand"
 }

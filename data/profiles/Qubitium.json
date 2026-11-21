@@ -8,13 +8,13 @@
   "is_human_verified": true,
   "is_bot_classified": false,
   "s_pr": 166.36,
-  "s_quality": 32.96,
+  "s_quality": 20.79,
   "s_impact": 0.0,
-  "s_consistency": 46.53,
-  "rank_score": 73.4,
-  "active_repos_touched": 2,
+  "s_consistency": 42.84,
+  "rank_score": 70.9,
+  "active_repos_touched": 1,
   "pr_reviews": 0,
-  "issue_comments": 1,
+  "issue_comments": 5,
   "releases": 0,
   "stars_fraud_filtered": 0,
   "forks_fraud_filtered": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 312,
+  "rank": 471,
   "avatar_url": "https://avatars.githubusercontent.com/u/417764?u=e6d24a750c8ddd40ceddbccf8a68bbf1b9b99af8&v=4",
   "bio": "GPT-QModel maintainer and OSS contributor to SGLang, vLLM, Transformers, and stuff. \r\n\r\n@ModelCloudAi founder",
   "company": "ModelCloud.ai",
+  "tier": "Elite",
+  "percentile": 99.0,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 471,
+      "s": 70.9
+    }
+  ],
   "location": "Earth/Epoch 2.12"
 }

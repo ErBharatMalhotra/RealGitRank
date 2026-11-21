@@ -1,30 +1,20 @@
 {
   "username": "valzargaming",
+  "rank": 65,
+  "rank_score": 91.3,
   "country": "United States",
   "primary_language": "PHP",
-  "total_pushes": 0,
-  "merged_prs": 4,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 233.51,
-  "s_quality": 32.96,
-  "s_impact": 0.0,
-  "s_consistency": 40.79,
-  "rank_score": 96.1,
-  "active_repos_touched": 2,
-  "pr_reviews": 0,
-  "issue_comments": 2,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 46,
   "avatar_url": "https://avatars.githubusercontent.com/u/7202504?u=87c99587ef4c2865aab81ebc249c65356c6b24e6&v=4",
   "bio": "I'm a gamer, live streamer, teacher, programmer, and patient care advocate. I make games, my own tools, and things that makes other things work.",
   "company": "Valgorithms",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 65,
+      "s": 91.3
+    }
+  ],
   "location": "United States"
 }

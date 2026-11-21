@@ -1,0 +1,39 @@
+{
+  "username": "chrispian",
+  "country": "",
+  "primary_language": "PHP",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 204.57,
+  "s_quality": 48.28,
+  "s_impact": 0.0,
+  "s_consistency": 39.96,
+  "rank_score": 89.7,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 71,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2103510?u=b72daaedc23b09100eda6e2eb09677e390a9480d&v=4",
+  "bio": "Senior Software Development Engineer\r\nFocus: Backend, Devops\r\nSkills: PHP, JavaScript, Bash, Perl, AWS, Laravel, WordPress, APIs, eCommerce, etc.",
+  "company": "Adtran, Inc. / @hollis-labs ",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 71,
+      "s": 89.7
+    }
+  ],
+  "location": "Huntsvile, AL"
+}

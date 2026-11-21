@@ -1,30 +1,20 @@
 {
   "username": "futrime",
+  "rank": 161,
+  "rank_score": 80.2,
   "country": "China",
   "primary_language": "HTML",
-  "total_pushes": 0,
-  "merged_prs": 3,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 204.57,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 50.6,
-  "rank_score": 84.4,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 116,
   "avatar_url": "https://avatars.githubusercontent.com/u/35801754?u=3b1ebdc0f73014a69f5c0f37179baad9b49e29f1&v=4",
   "bio": "CS Ph.D. Student@THU | Research Intern@NVIDIA | ...and Hyacine is the cutest girl in the world",
   "company": "College of AI, Tsinghua University | NVIDIA Research",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 161,
+      "s": 80.2
+    }
+  ],
   "location": "Beijing | Singapore"
 }

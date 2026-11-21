@@ -1,0 +1,39 @@
+{
+  "username": "jeong-sik",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 3,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 233.51,
+  "s_quality": 32.96,
+  "s_impact": 0.0,
+  "s_consistency": 40.37,
+  "rank_score": 84.5,
+  "active_repos_touched": 2,
+  "pr_reviews": 4,
+  "issue_comments": 5,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 117,
+  "avatar_url": "https://avatars.githubusercontent.com/u/45959991?u=08b0956755a65174b79d2249f8b0957e2477c3a2&v=4",
+  "bio": "anyang sleepers",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 117,
+      "s": 84.5
+    }
+  ],
+  "location": ""
+}

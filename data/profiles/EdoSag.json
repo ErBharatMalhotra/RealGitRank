@@ -1,30 +1,20 @@
 {
   "username": "EdoSag",
+  "rank": 814,
+  "rank_score": 65.0,
   "country": "",
   "primary_language": "Dart",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 131.83,
-  "s_quality": 48.28,
-  "s_impact": 0.0,
-  "s_consistency": 67.99,
-  "rank_score": 68.4,
-  "active_repos_touched": 4,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 566,
   "avatar_url": "https://avatars.githubusercontent.com/u/95069657?u=b7aa33376c87e93fab232bfe30a6f66d2d439094&v=4",
   "bio": "Flutter, Dart, C#, Rust",
   "company": "Sagron Group",
+  "tier": "Diamond",
+  "percentile": 98.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 814,
+      "s": 65.0
+    }
+  ],
   "location": ""
 }

@@ -1,30 +1,20 @@
 {
   "username": "bhaveshchow20",
+  "rank": 29,
+  "rank_score": 102.4,
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 0,
-  "merged_prs": 5,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 256.81,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 84.66,
-  "rank_score": 107.8,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 21,
   "avatar_url": "https://avatars.githubusercontent.com/u/230791573?u=6344e46e02fbb2935aac7c2a105638e7d4d7592e&v=4",
   "bio": "full-stack engineer | building kind-ui and generative-a11y along with other side quests \u2694\ufe0f",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 29,
+      "s": 102.4
+    }
+  ],
   "location": ""
 }

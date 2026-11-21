@@ -3,16 +3,16 @@
   "country": "",
   "primary_language": "TypeScript",
   "total_pushes": 0,
-  "merged_prs": 3,
+  "merged_prs": 2,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 32.96,
+  "s_pr": 131.83,
+  "s_quality": 20.79,
   "s_impact": 0.0,
-  "s_consistency": 41.34,
-  "rank_score": 72.7,
-  "active_repos_touched": 2,
+  "s_consistency": 68.22,
+  "rank_score": 64.9,
+  "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 349,
+  "rank": 816,
   "avatar_url": "https://avatars.githubusercontent.com/u/37819456?u=6b9ab45dcf96e8f1059126113feba07a690c5ae9&v=4",
   "bio": "\"Siempre codifica como si la persona que finalmente mantendr\u00e1 tu c\u00f3digo fuera un psic\u00f3pata violento que sabe d\u00f3nde vives.\"",
   "company": "",
+  "tier": "Diamond",
+  "percentile": 98.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 816,
+      "s": 64.9
+    }
+  ],
   "location": "Medell\u00edn"
 }

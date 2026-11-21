@@ -1,30 +1,20 @@
 {
   "username": "sfmskywalker",
+  "rank": 174,
+  "rank_score": 79.4,
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 0,
-  "merged_prs": 3,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 204.57,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 45.58,
-  "rank_score": 83.6,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 2,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 125,
   "avatar_url": "https://avatars.githubusercontent.com/u/938393?u=4ddcde3885afccacf4a61a74bc46713ea7bf0d21&v=4",
   "bio": "I\u2019m an independent software engineer, open-source maintainer, and the creator of Elsa Workflows, a .NET workflow framework used by developers and organizations ",
   "company": "Valence Works",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 174,
+      "s": 79.4
+    }
+  ],
   "location": "Gelderland"
 }

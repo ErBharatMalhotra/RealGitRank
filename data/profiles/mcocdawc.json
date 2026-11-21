@@ -1,0 +1,39 @@
+{
+  "username": "mcocdawc",
+  "country": "Germany",
+  "primary_language": "C++",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 204.57,
+  "s_quality": 41.59,
+  "s_impact": 0.0,
+  "s_consistency": 68.64,
+  "rank_score": 69.9,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 527,
+  "avatar_url": "https://avatars.githubusercontent.com/u/15892408?u=d703c529e3c50ed1dcff06ce1c76f490f0abe264&v=4",
+  "bio": "Quantum Chemist by training | Working as Research Software Engineer in Weather Modeling",
+  "company": "ECMWF",
+  "tier": "Diamond",
+  "percentile": 98.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 527,
+      "s": 69.9
+    }
+  ],
+  "location": "Bonn, Germany"
+}

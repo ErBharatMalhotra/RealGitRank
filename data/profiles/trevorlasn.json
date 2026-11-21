@@ -1,30 +1,20 @@
 {
   "username": "trevorlasn",
+  "rank": 143,
+  "rank_score": 82.3,
   "country": "",
   "primary_language": "JavaScript",
-  "total_pushes": 0,
-  "merged_prs": 3,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 204.57,
-  "s_quality": 32.96,
-  "s_impact": 0.0,
-  "s_consistency": 45.15,
-  "rank_score": 86.6,
-  "active_repos_touched": 2,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 98,
   "avatar_url": "https://avatars.githubusercontent.com/u/11220736?u=c86dd8b65a66641a37dc2b31a9737038522c7faa&v=4",
   "bio": "",
   "company": "@0xinsider ",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 143,
+      "s": 82.3
+    }
+  ],
   "location": "Tartu, Estonia"
 }

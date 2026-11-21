@@ -1,30 +1,20 @@
 {
   "username": "0x19",
+  "rank": 724,
+  "rank_score": 66.8,
   "country": "",
   "primary_language": "Go",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 45.6,
-  "rank_score": 70.3,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 445,
   "avatar_url": "https://avatars.githubusercontent.com/u/255984?u=6b3fdbb6075aa37b87ec4b7f9f39b3f8505dcaff&v=4",
   "bio": "Protocol and infrastructure engineer, Rust and Go. I run @inorbithr: AI engineering that has to prove its work.",
   "company": "@inorbithr",
+  "tier": "Diamond",
+  "percentile": 98.4,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 724,
+      "s": 66.8
+    }
+  ],
   "location": "Rijeka and Zagreb, Croatia"
 }

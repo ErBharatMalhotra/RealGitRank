@@ -1,0 +1,39 @@
+{
+  "username": "mitchmitchell",
+  "country": "",
+  "primary_language": "PHP",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 32.96,
+  "s_impact": 0.0,
+  "s_consistency": 47.16,
+  "rank_score": 73.5,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 336,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1643589?u=b53f905a6787daf88369ad68c2dc496059d3cb22&v=4",
+  "bio": "I am a retired Solution Architect and Software Developer specializing in home automation, security systems, and telephony integration.",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 336,
+      "s": 73.5
+    }
+  ],
+  "location": ""
+}

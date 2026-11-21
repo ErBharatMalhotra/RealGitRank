@@ -1,30 +1,20 @@
 {
   "username": "kibertoad",
+  "rank": 755,
+  "rank_score": 66.3,
   "country": "United States",
   "primary_language": "JavaScript",
-  "total_pushes": 0,
-  "merged_prs": 2,
-  "bot_penalty": 0.0,
-  "is_human_verified": true,
-  "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 20.79,
-  "s_impact": 0.0,
-  "s_consistency": 42.76,
-  "rank_score": 69.8,
-  "active_repos_touched": 1,
-  "pr_reviews": 0,
-  "issue_comments": 0,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 488,
   "avatar_url": "https://avatars.githubusercontent.com/u/1847934?u=c2b2f6633e0a92681474680c64cda1bf7d0500de&v=4",
   "bio": "Principal engineer at @lokalise, open source plumber and a game preservation enthusiast.",
   "company": "Lokalise",
+  "tier": "Diamond",
+  "percentile": 98.3,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 755,
+      "s": 66.3
+    }
+  ],
   "location": "Vilnius"
 }

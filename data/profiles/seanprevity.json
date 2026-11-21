@@ -1,0 +1,39 @@
+{
+  "username": "seanprevity",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 131.83,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 68.64,
+  "rank_score": 61.6,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 991,
+  "avatar_url": "https://avatars.githubusercontent.com/u/108949658?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Diamond",
+  "percentile": 97.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 991,
+      "s": 61.6
+    }
+  ],
+  "location": ""
+}

@@ -8,5 +8,15 @@
     "score_std": 18.617,
     "bot_rate": 0.0,
     "date": "2026-11-20"
+  },
+  {
+    "rows": 45384,
+    "null_usernames": 0,
+    "score_min": 10.5,
+    "score_max": 128.9,
+    "score_mean": 26.169,
+    "score_std": 17.445,
+    "bot_rate": 0.0,
+    "date": "2026-11-21"
   }
 ]

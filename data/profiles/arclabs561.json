@@ -1,0 +1,39 @@
+{
+  "username": "arclabs561",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 41.18,
+  "rank_score": 77.8,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 210,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2768233?u=40c9752c6c44a2435e095d7f11fa943bc40bf850&v=4",
+  "bio": "beep boop",
+  "company": "@salesforce",
+  "tier": "Elite",
+  "percentile": 99.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 210,
+      "s": 77.8
+    }
+  ],
+  "location": "localhost"
+}

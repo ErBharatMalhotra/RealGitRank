@@ -1,0 +1,39 @@
+{
+  "username": "QuinntyneBrown",
+  "country": "Canada",
+  "primary_language": "C#",
+  "total_pushes": 0,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 298.19,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 41.25,
+  "rank_score": 115.8,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 10,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1749159?u=b36e138431ef4f0a383e51eef90248ad07066b28&v=4",
+  "bio": "Microsoft Certified Solutions Developer specializing in C#, ASP.NET Core, TypeScript, Azure, Angular, Web Components, RxJS, SignalR Core & Entity Framework Core",
+  "company": "Quinntyne",
+  "tier": "Elite",
+  "percentile": 100.0,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 10,
+      "s": 115.8
+    }
+  ],
+  "location": "Toronto"
+}

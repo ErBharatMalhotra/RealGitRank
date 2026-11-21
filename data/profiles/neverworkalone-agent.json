@@ -10,11 +10,11 @@
   "s_pr": 256.81,
   "s_quality": 20.79,
   "s_impact": 0.0,
-  "s_consistency": 40.92,
-  "rank_score": 101.2,
+  "s_consistency": 40.41,
+  "rank_score": 101.1,
   "active_repos_touched": 1,
   "pr_reviews": 0,
-  "issue_comments": 2,
+  "issue_comments": 7,
   "releases": 0,
   "stars_fraud_filtered": 0,
   "forks_fraud_filtered": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 34,
+  "rank": 33,
   "avatar_url": "https://avatars.githubusercontent.com/u/336548537?u=25eab255e4d2aee74b65f2f04eecb1159f7905d3&v=4",
   "bio": "",
   "company": "",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 33,
+      "s": 101.1
+    }
+  ],
   "location": ""
 }

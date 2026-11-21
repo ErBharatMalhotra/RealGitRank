@@ -1,0 +1,39 @@
+{
+  "username": "ccch1mneyyy",
+  "country": "",
+  "primary_language": "Dart",
+  "total_pushes": 0,
+  "merged_prs": 1,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 83.18,
+  "s_quality": 20.79,
+  "s_impact": 103.97,
+  "s_consistency": 54.66,
+  "rank_score": 68.5,
+  "active_repos_touched": 1,
+  "pr_reviews": 1,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 7,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 648,
+  "avatar_url": "https://avatars.githubusercontent.com/u/268149062?u=6b8c7bba58214354b91e45e6cbbfae95ab85eabc&v=4",
+  "bio": "\u8bd5\u56fe\u7528ai\u505a\u70b9\u4e1c\u897f~",
+  "company": "",
+  "tier": "Diamond",
+  "percentile": 98.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 648,
+      "s": 68.5
+    }
+  ],
+  "location": ""
+}

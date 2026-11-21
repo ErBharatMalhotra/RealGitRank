@@ -3,15 +3,15 @@
   "country": "",
   "primary_language": "Python",
   "total_pushes": 0,
-  "merged_prs": 2,
+  "merged_prs": 3,
   "bot_penalty": 0.0,
   "is_human_verified": true,
   "is_bot_classified": false,
-  "s_pr": 166.36,
+  "s_pr": 204.57,
   "s_quality": 20.79,
   "s_impact": 0.0,
-  "s_consistency": 43.11,
-  "rank_score": 69.9,
+  "s_consistency": 40.66,
+  "rank_score": 79.0,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 472,
+  "rank": 184,
   "avatar_url": "https://avatars.githubusercontent.com/u/9387252?u=13c5f5b98e522cc10b0bc46fd76a7ddd1384899e&v=4",
   "bio": "Objective function @ scalingforever.com",
   "company": "www.omi.me",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 184,
+      "s": 79.0
+    }
+  ],
   "location": "Meatspace"
 }

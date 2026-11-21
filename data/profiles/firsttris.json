@@ -1,0 +1,39 @@
+{
+  "username": "firsttris",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 2,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 204.57,
+  "s_quality": 48.28,
+  "s_impact": 0.0,
+  "s_consistency": 40.64,
+  "rank_score": 89.8,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 3,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 69,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1709260?u=8f3ec6e27611e361be75876b9043251886a2288b&v=4",
+  "bio": "I build things for people who build things.",
+  "company": "Teufel IT",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 69,
+      "s": 89.8
+    }
+  ],
+  "location": "B\u00fchl"
+}

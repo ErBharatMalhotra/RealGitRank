@@ -10,8 +10,8 @@
   "s_pr": 166.36,
   "s_quality": 20.79,
   "s_impact": 0.0,
-  "s_consistency": 67.99,
-  "rank_score": 73.6,
+  "s_consistency": 40.64,
+  "rank_score": 70.7,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,9 +22,18 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 300,
+  "rank": 482,
   "avatar_url": "https://avatars.githubusercontent.com/u/1630358?u=e282cd0b7dbdea726e9d5cde7670b715afd83be8&v=4",
   "bio": "Co-Founder @ThinkOodle, @omacom Core Team, Omarchy Maintainer",
   "company": "@ThinkOodle ",
+  "tier": "Diamond",
+  "percentile": 98.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 482,
+      "s": 70.7
+    }
+  ],
   "location": "Fort Lauderdale, Florida"
 }
