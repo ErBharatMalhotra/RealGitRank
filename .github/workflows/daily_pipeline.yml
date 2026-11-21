@@ -49,6 +49,9 @@ jobs:
       - name: Generate badges
         run: python src/pipeline/badges.py
 
+      - name: Generate static API + llms.txt
+        run: python -m src.pipeline.static_api
+
       - name: Rebuild static site
         run: |
           python -m src.pipeline.sitemap
