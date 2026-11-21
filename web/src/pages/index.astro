@@ -42,6 +42,11 @@
       .loadmore { display: block; margin: 20px auto; padding: 12px 24px; border-radius: 6px; border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; font-family: inherit; font-size: 14px; font-weight: 600; }
       .loadmore:hover { background: var(--accent); color: var(--bg); }
       .stats { color: var(--muted); font-size: 13px; margin-bottom: 12px; }
+      .tier { font-size: 11px; font-weight: 700; letter-spacing: 0.04em; padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; }
+      .t-elite { color: #f0abfc; } .t-diamond { color: #60a5fa; } .t-platinum { color: #a78bfa; }
+      .t-gold { color: #fbbf24; } .t-silver { color: #cbd5e1; } .t-bronze { color: #d97706; }
+      .move { font-size: 11px; margin-left: 6px; font-variant-numeric: tabular-nums; }
+      .move.up { color: #34d399; } .move.down { color: #f87171; }
     </style>
   </head>
   <body>
@@ -54,7 +59,7 @@
     </div>
     <div class="stats" id="stats">Loading...</div>
     <table id="tbl">
-      <thead><tr><th>#</th><th>User</th><th>Score</th><th>Country</th><th>Lang</th><th>PRs</th><th>Badge</th></tr></thead>
+      <thead><tr><th>#</th><th>User</th><th>Score</th><th>Tier</th><th>Country</th><th>Lang</th><th>PRs</th><th>Badge</th></tr></thead>
       <tbody id="tbody"></tbody>
     </table>
     <button class="loadmore" id="loadmore">Load more</button>
@@ -75,9 +80,13 @@
         tr.dataset.c = (u.country||'').toLowerCase();
         tr.dataset.l = (u.primary_language||'').toLowerCase();
         const link = u.rank <= 1000 ? `/profile/${u.username}` : `/profile/?u=${encodeURIComponent(u.username)}&r=${u.rank}`;
-        tr.innerHTML = `<td>${u.rank}</td>
+        const delta = typeof u.rank_delta === 'number' ? u.rank_delta : 0;
+        const move = delta === 0 ? '' : `<span class="move ${delta > 0 ? 'up' : 'down'}" title="vs yesterday">${delta > 0 ? '▲' : '▼'}${Math.abs(delta)}</span>`;
+        const tier = u.tier ? `<span class="tier t-${String(u.tier).toLowerCase()}" title="Top ${(100 - (u.percentile || 0)).toFixed(1)}%">${u.tier}</span>` : '—';
+        tr.innerHTML = `<td>${u.rank}${move}</td>
           <td><img src="${u.avatar_url||''}" alt="" width="24" height="24" style="border-radius:50%;vertical-align:middle;margin-right:6px" onerror="this.style.display='none'" /><a href="${link}">${u.username}</a> ${u.is_human_verified?'✓':''} ${u.is_bot_classified?'[bot]':''}</td>
           <td class="score">${u.rank_score}</td>
+          <td>${tier}</td>
           <td>${u.country||'—'}</td>
           <td>${u.primary_language||'—'}</td>
           <td>${u.merged_prs}</td>
