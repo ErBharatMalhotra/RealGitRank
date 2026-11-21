@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 457,
+  "rank": 428,
   "avatar_url": "https://avatars.githubusercontent.com/u/156554141?u=8067cd91a353747dcde608926ebda039a27ea826&v=4",
   "bio": "DevOps Engineer | Full-Stack Developer",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 457,
+      "r": 428,
       "s": 71.1
     }
   ],

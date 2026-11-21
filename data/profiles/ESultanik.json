@@ -1,19 +1,19 @@
 {
   "username": "ESultanik",
-  "rank": 773,
-  "rank_score": 66.1,
+  "rank": 909,
+  "rank_score": 62.8,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/6444465?v=4",
   "bio": "Computer scientist currently focusing on security, specifically automated program analysis. Editor of and frequent contributor to PoC||GTFO.",
   "company": "@trailofbits",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 773,
-      "s": 66.1
+      "r": 909,
+      "s": 62.8
     }
   ],
   "location": "Philadelphia, PA"

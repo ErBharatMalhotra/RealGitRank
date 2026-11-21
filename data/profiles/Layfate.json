@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 46.81,
-  "rank_score": 73.5,
+  "rank_score": 83.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 334,
+  "rank": 131,
   "avatar_url": "https://avatars.githubusercontent.com/u/343918192?u=d93180aff0ae88a92c34ff4ba23976b23cbc7091&v=4",
   "bio": "spring after winter",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.3,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 334,
-      "s": 73.5
+      "r": 131,
+      "s": 83.3
     }
   ],
   "location": "Manila, Philippines"

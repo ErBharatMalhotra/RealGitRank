@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 850,
+  "rank": 799,
   "avatar_url": "https://avatars.githubusercontent.com/u/202571371?u=67c2ada27667b36b6a657dd29e6a9584b34ab176&v=4",
   "bio": "Highly adaptive Senior Software Engineer bridging advanced backend architecture with cutting-edge, AI-assisted frontend interfaces.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.1,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 850,
+      "r": 799,
       "s": 64.0
     }
   ],

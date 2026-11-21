@@ -1,19 +1,19 @@
 {
   "username": "ivanDsky",
-  "rank": 779,
-  "rank_score": 66.0,
+  "rank": 916,
+  "rank_score": 62.7,
   "country": "",
   "primary_language": "Kotlin",
   "avatar_url": "https://avatars.githubusercontent.com/u/27441396?u=89a3160aa6f820951f773b8bb2fdeefcd4784a37&v=4",
   "bio": "Expert Android developer with a track record of delivering top-quality mobile projects. Proficient in Kotlin, Android ecosystem, and various development tools.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 779,
-      "s": 66.0
+      "r": 916,
+      "s": 62.7
     }
   ],
   "location": ""

@@ -1,19 +1,19 @@
 {
   "username": "yegor256",
-  "rank": 315,
-  "rank_score": 73.8,
+  "rank": 489,
+  "rank_score": 70.1,
   "country": "China",
   "primary_language": "SCSS",
   "avatar_url": "https://avatars.githubusercontent.com/u/526301?u=0e496f56d7e1c7798e77a1f59a6f54b94cc38d69&v=4",
   "bio": "Author of \"Angry Tests\" and \"Elegant Objects\" books (buy them on Amazon); architect of @objectionary and founder of @zerocracy",
   "company": "@zerocracy",
-  "tier": "Elite",
-  "percentile": 99.3,
+  "tier": "Diamond",
+  "percentile": 98.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 315,
-      "s": 73.8
+      "r": 489,
+      "s": 70.1
     }
   ],
   "location": "China"

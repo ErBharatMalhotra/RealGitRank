@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 71,
+  "rank": 80,
   "avatar_url": "https://avatars.githubusercontent.com/u/2103510?u=b72daaedc23b09100eda6e2eb09677e390a9480d&v=4",
   "bio": "Senior Software Development Engineer\r\nFocus: Backend, Devops\r\nSkills: PHP, JavaScript, Bash, Perl, AWS, Laravel, WordPress, APIs, eCommerce, etc.",
   "company": "Adtran, Inc. / @hollis-labs ",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 71,
+      "r": 80,
       "s": 89.7
     }
   ],

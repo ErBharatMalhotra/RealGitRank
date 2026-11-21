@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 846,
+  "rank": 795,
   "avatar_url": "https://avatars.githubusercontent.com/u/168067651?u=e9b2c37eb68d9a775efa07c5f872e5c92822c40a&v=4",
   "bio": "AI Software Engineer at Crowe Netherlands | NL \ud83c\uddf3\ud83c\uddf1 ",
   "company": "Crowe Netherlands",
   "tier": "Diamond",
-  "percentile": 98.1,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 846,
+      "r": 795,
       "s": 64.0
     }
   ],

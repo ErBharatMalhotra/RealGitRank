@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 42.02,
-  "rank_score": 65.1,
+  "rank_score": 70.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 808,
+  "rank": 457,
   "avatar_url": "https://avatars.githubusercontent.com/u/6588880?u=bbfeecd27106ee510a08c82d009c97c9f088e20d&v=4",
   "bio": "certified blip blop maker.",
   "company": "Intrect",
-  "tier": "Diamond",
-  "percentile": 98.2,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 808,
-      "s": 65.1
+      "r": 457,
+      "s": 70.5
     }
   ],
   "location": "South Korea"

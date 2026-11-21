@@ -1,19 +1,19 @@
 {
   "username": "miguel-heygen",
-  "rank": 790,
-  "rank_score": 65.9,
+  "rank": 930,
+  "rank_score": 62.6,
   "country": "",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/229591595?u=264c99f369ee0fd77758830d43f2c2e5baf13818&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 790,
-      "s": 65.9
+      "r": 930,
+      "s": 62.6
     }
   ],
   "location": ""

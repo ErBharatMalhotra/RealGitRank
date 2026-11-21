@@ -1,19 +1,19 @@
 {
   "username": "wu-changxing",
-  "rank": 169,
-  "rank_score": 79.6,
+  "rank": 265,
+  "rank_score": 75.6,
   "country": "Australia",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/74539201?u=723871b69e4077d2b99c804b45766f5c4894b9ad&v=4",
   "bio": "cypherpunk write code.",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 169,
-      "s": 79.6
+      "r": 265,
+      "s": 75.6
     }
   ],
   "location": "Sydney"

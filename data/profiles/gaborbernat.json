@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 41.97,
-  "rank_score": 71.1,
+  "rank_score": 74.9,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 453,
+  "rank": 290,
   "avatar_url": "https://avatars.githubusercontent.com/u/690238?u=b5bd01d67709d513f517ac7e201e18c23a5f083a&v=4",
   "bio": "Working at @bloomberg; author/maintainer of virtualenv, tox, platformdirs, filelock, build, etc.",
   "company": "Bloomberg LP",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 453,
-      "s": 71.1
+      "r": 290,
+      "s": 74.9
     }
   ],
   "location": "Los Angeles"

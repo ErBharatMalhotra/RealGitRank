@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 67.99,
-  "rank_score": 79.4,
+  "rank_score": 77.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 172,
+  "rank": 211,
   "avatar_url": "https://avatars.githubusercontent.com/u/461446?u=a99fb713c9a258b77d1c01212a843f4011121b50&v=4",
   "bio": "Just a wanderer full of wonder",
   "company": "Renaissance Analytics",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 172,
-      "s": 79.4
+      "r": 211,
+      "s": 77.5
     }
   ],
   "location": "Milwaukee, WI"

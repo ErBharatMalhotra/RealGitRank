@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 39.99,
-  "rank_score": 75.2,
+  "rank_score": 76.0,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 274,
+  "rank": 255,
   "avatar_url": "https://avatars.githubusercontent.com/u/6763934?u=7f8e73c94b211462cbe2b2d316352d5d9d3687c9&v=4",
   "bio": "CTO and co-founder of Antelope and Altab. I work on AntelopeJS, a TypeScript framework, and AntelopeJS DMS, an open-source back office for your database.",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 274,
-      "s": 75.2
+      "r": 255,
+      "s": 76.0
     }
   ],
   "location": "Belgium"

@@ -1,19 +1,19 @@
 {
   "username": "brunosrz",
-  "rank": 61,
-  "rank_score": 91.6,
+  "rank": 103,
+  "rank_score": 87.0,
   "country": "",
   "primary_language": "C++",
   "avatar_url": "https://avatars.githubusercontent.com/u/244238563?u=8f5516dad2aa03cec96e755a43702931c6838367&v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.9,
+  "percentile": 99.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 61,
-      "s": 91.6
+      "r": 103,
+      "s": 87.0
     }
   ],
   "location": ""

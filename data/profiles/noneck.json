@@ -1,19 +1,19 @@
 {
   "username": "noneck",
-  "rank": 108,
-  "rank_score": 85.9,
+  "rank": 149,
+  "rank_score": 81.6,
   "country": "United States",
   "primary_language": "Jupyter Notebook",
   "avatar_url": "https://avatars.githubusercontent.com/u/94735?u=c4dd8ce957017de43de19707ec3768135706dc99&v=4",
   "bio": "Executive Director of @BetaNYC, NYC's civic tech & open government org. Working at the intersection of public data, community, and city government.",
   "company": "BetaNYC",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 108,
-      "s": 85.9
+      "r": 149,
+      "s": 81.6
     }
   ],
   "location": "New York, NY"

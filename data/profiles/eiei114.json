@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 42.79,
-  "rank_score": 72.5,
+  "rank_score": 76.4,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 375,
+  "rank": 236,
   "avatar_url": "https://avatars.githubusercontent.com/u/60887155?u=cd8af69ea1ee2750133272e176e7781e5d5edb8b&v=4",
   "bio": "Roblox & UEFN Engineer",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 375,
-      "s": 72.5
+      "r": 236,
+      "s": 76.4
     }
   ],
   "location": "Japan"

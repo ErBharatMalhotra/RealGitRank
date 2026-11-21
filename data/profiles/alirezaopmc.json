@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 230,
+  "rank": 219,
   "avatar_url": "https://avatars.githubusercontent.com/u/35873101?u=738c8b3ed8a8f6574babed49f7cb058bf4cba87f&v=4",
   "bio": "Prompting transformers to fix their terrible attention spans. :))",
   "company": "Manova Space",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 230,
+      "r": 219,
       "s": 77.0
     }
   ],

@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 40.82,
-  "rank_score": 89.2,
+  "rank_score": 99.7,
   "active_repos_touched": 2,
   "pr_reviews": 9,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 76,
+  "rank": 36,
   "avatar_url": "https://avatars.githubusercontent.com/u/122634467?u=38c2d7c31426a315e29e319a997ad18d681fd37e&v=4",
   "bio": "25 y/o software engineer based in Singapore.",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 76,
-      "s": 89.2
+      "r": 36,
+      "s": 99.7
     }
   ],
   "location": ""

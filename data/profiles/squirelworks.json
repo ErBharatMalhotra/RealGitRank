@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 45.81,
-  "rank_score": 68.7,
+  "rank_score": 74.7,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 636,
+  "rank": 303,
   "avatar_url": "https://avatars.githubusercontent.com/u/338981822?v=4",
   "bio": "\ud83d\udc3f\ufe0f A squirrel who buries old game clients and digs them back up. Open Graal client/server tools (Seihai), ToolBook and retro reverse engineering.",
   "company": "",
-  "tier": "Diamond",
-  "percentile": 98.6,
+  "tier": "Elite",
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 636,
-      "s": 68.7
+      "r": 303,
+      "s": 74.7
     }
   ],
   "location": ""

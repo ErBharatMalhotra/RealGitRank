@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.29,
-  "rank_score": 71.1,
+  "rank_score": 75.9,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 452,
+  "rank": 259,
   "avatar_url": "https://avatars.githubusercontent.com/u/4073304?u=b19d19f495ff91f8ff2383b92643627ad032bf8e&v=4",
   "bio": "Software architect and software developer. I'm working with APIs, microservices, and cloud-centric apps",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 452,
-      "s": 71.1
+      "r": 259,
+      "s": 75.9
     }
   ],
   "location": "Santa B\u00e1rbara d' Oeste - Brazil"

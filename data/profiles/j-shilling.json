@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 43.99,
-  "rank_score": 69.9,
+  "rank_score": 70.0,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 529,
+  "rank": 494,
   "avatar_url": "https://avatars.githubusercontent.com/u/17163542?v=4",
   "bio": "",
   "company": "@PathableAI-org",
   "tier": "Diamond",
-  "percentile": 98.8,
+  "percentile": 98.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 529,
-      "s": 69.9
+      "r": 494,
+      "s": 70.0
     }
   ],
   "location": "Baltimore, MD"

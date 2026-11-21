@@ -1,19 +1,19 @@
 {
   "username": "dbanksdesign",
-  "rank": 621,
-  "rank_score": 69.1,
+  "rank": 724,
+  "rank_score": 65.6,
   "country": "",
   "primary_language": "Swift",
   "avatar_url": "https://avatars.githubusercontent.com/u/321279?u=edb087871a80c47451c8c5155d0f959376ef0af5&v=4",
   "bio": "Current Principal Design Engineer at Snowflake, formerly AWS Amplify.\r\n@dbanksdesign on social media. Lover of \ud83d\udc08s and design tokens",
   "company": "@snowflakedb",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 621,
-      "s": 69.1
+      "r": 724,
+      "s": 65.6
     }
   ],
   "location": "San Jose, CA"

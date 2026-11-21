@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 85.17,
   "s_consistency": 40.27,
-  "rank_score": 69.8,
+  "rank_score": 69.9,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 548,
+  "rank": 503,
   "avatar_url": "https://avatars.githubusercontent.com/u/20648875?u=84f861929de1c0a2393c783cda80041ca725f657&v=4",
   "bio": "Video / Audio / Streaming Engineer\r\nBuilding tools for real-world event production.\r\nAI \u00d7 FFmpeg \u00d7 Automation",
   "company": "SEVENTHWELL",
   "tier": "Diamond",
-  "percentile": 98.8,
+  "percentile": 98.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 548,
-      "s": 69.8
+      "r": 503,
+      "s": 69.9
     }
   ],
   "location": "Japan"

@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 42.14,
-  "rank_score": 77.8,
+  "rank_score": 74.3,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 215,
+  "rank": 314,
   "avatar_url": "https://avatars.githubusercontent.com/u/294516496?v=4",
   "bio": "",
   "company": "@Vivaliz-site ",
   "tier": "Elite",
-  "percentile": 99.5,
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 215,
-      "s": 77.8
+      "r": 314,
+      "s": 74.3
     }
   ],
   "location": "Brasil"

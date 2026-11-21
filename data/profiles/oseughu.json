@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 478,
+  "rank": 448,
   "avatar_url": "https://avatars.githubusercontent.com/u/76438025?u=3d85abaec4fe6e6401d86f9d6454ea956b8eccdb&v=4",
   "bio": "Soft(ware) Engineer.",
   "company": "",
-  "tier": "Diamond",
-  "percentile": 98.9,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 478,
+      "r": 448,
       "s": 70.8
     }
   ],

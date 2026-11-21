@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 43.44,
-  "rank_score": 75.0,
+  "rank_score": 83.4,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 280,
+  "rank": 130,
   "avatar_url": "https://avatars.githubusercontent.com/u/744705?u=c48242fff6c561a64025a9d45435fa4e5910ddc5&v=4",
   "bio": "Always learning. ",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 280,
-      "s": 75.0
+      "r": 130,
+      "s": 83.4
     }
   ],
   "location": "NYC"

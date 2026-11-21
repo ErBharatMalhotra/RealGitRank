@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 41.73,
-  "rank_score": 70.5,
+  "rank_score": 74.8,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 484,
+  "rank": 297,
   "avatar_url": "https://avatars.githubusercontent.com/u/8020099?u=9d633e0ff00aded3c8ad4cdb3839f75d430195a2&v=4",
   "bio": "",
   "company": "@SylphxAI @Cubeage @EpiowAI ",
-  "tier": "Diamond",
-  "percentile": 98.9,
+  "tier": "Elite",
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 484,
-      "s": 70.5
+      "r": 297,
+      "s": 74.8
     }
   ],
   "location": "London"

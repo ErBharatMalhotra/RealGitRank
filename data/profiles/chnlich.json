@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 592,
+  "rank": 548,
   "avatar_url": "https://avatars.githubusercontent.com/u/6450961?u=b890e311d255ae2c2a875a0928012ba546d2af57&v=4",
   "bio": "",
   "company": "Meshy",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 592,
+      "r": 548,
       "s": 69.4
     }
   ],

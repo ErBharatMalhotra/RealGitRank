@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 668,
+  "rank": 616,
   "avatar_url": "https://avatars.githubusercontent.com/u/32264020?u=15c572b09d39eeca256184fcf90196b5d6988d8a&v=4",
   "bio": "",
   "company": "Fathom.io",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 668,
+      "r": 616,
       "s": 68.0
     }
   ],

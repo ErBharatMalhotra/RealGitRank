@@ -1,19 +1,19 @@
 {
   "username": "nh13",
-  "rank": 721,
-  "rank_score": 66.9,
+  "rank": 850,
+  "rank_score": 63.6,
   "country": "",
   "primary_language": "Java",
   "avatar_url": "https://avatars.githubusercontent.com/u/846274?u=0482391f47e1aa66979ab7fabae6c6c1a3644e23&v=4",
   "bio": "Bioinformatics Expert @fulcrumgenomics ",
   "company": "@fulcrumgenomics ",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 721,
-      "s": 66.9
+      "r": 850,
+      "s": 63.6
     }
   ],
   "location": ""

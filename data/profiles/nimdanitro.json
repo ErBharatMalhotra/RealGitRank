@@ -1,19 +1,19 @@
 {
   "username": "nimdanitro",
-  "rank": 399,
-  "rank_score": 72.3,
+  "rank": 577,
+  "rank_score": 68.7,
   "country": "Switzerland",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/894002?v=4",
   "bio": "",
   "company": "@elastic ",
-  "tier": "Elite",
-  "percentile": 99.1,
+  "tier": "Diamond",
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 399,
-      "s": 72.3
+      "r": 577,
+      "s": 68.7
     }
   ],
   "location": "Zuerich, Switzerland"

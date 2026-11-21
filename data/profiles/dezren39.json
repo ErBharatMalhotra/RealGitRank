@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 40.03,
-  "rank_score": 69.2,
+  "rank_score": 73.0,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 6,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 610,
+  "rank": 353,
   "avatar_url": "https://avatars.githubusercontent.com/u/11225574?u=797488820e2baf8f59c59e9b04226ff97119e64e&v=4",
   "bio": "Software Developer. Pretty big fan of computer networking, information security, machine intelligence, automation, and sensors.",
   "company": "@VertexInc",
-  "tier": "Diamond",
-  "percentile": 98.7,
+  "tier": "Elite",
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 610,
-      "s": 69.2
+      "r": 353,
+      "s": 73.0
     }
   ],
   "location": "Eau Claire, WI, United States"

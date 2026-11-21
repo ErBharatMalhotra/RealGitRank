@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 59.66,
-  "rank_score": 69.9,
+  "rank_score": 73.8,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 528,
+  "rank": 323,
   "avatar_url": "https://avatars.githubusercontent.com/u/189969103?u=3d9e5a2923a956beabce48c04c86b363206bc020&v=4",
   "bio": "im not a robot",
   "company": "",
-  "tier": "Diamond",
-  "percentile": 98.8,
+  "tier": "Elite",
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 528,
-      "s": 69.9
+      "r": 323,
+      "s": 73.8
     }
   ],
   "location": "Slovenia"

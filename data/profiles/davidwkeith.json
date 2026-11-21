@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 455,
+  "rank": 426,
   "avatar_url": "https://avatars.githubusercontent.com/u/97965?u=ce101d3bbe680a892df24814a1c0c00052dadfa1&v=4",
   "bio": "Former @NestLabs, @Google & @Apple\r\n",
   "company": "Independent Software Engineer",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 455,
+      "r": 426,
       "s": 71.1
     }
   ],

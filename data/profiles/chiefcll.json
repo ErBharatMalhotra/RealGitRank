@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 446,
+  "rank": 420,
   "avatar_url": "https://avatars.githubusercontent.com/u/2090941?u=791a805a492dfb742d032a92a3c73931b434c6d5&v=4",
   "bio": "I enjoy building and motivating teams and ramping up new projects using the latest patterns and web primitives. Author of Solid & LightningJS integration",
   "company": "GCS",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 446,
+      "r": 420,
       "s": 71.2
     }
   ],

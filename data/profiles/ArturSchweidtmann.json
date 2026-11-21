@@ -1,19 +1,19 @@
 {
   "username": "ArturSchweidtmann",
-  "rank": 423,
-  "rank_score": 72.0,
+  "rank": 601,
+  "rank_score": 68.4,
   "country": "Netherlands",
   "primary_language": "MATLAB",
   "avatar_url": "https://avatars.githubusercontent.com/u/34472452?u=f081de425b87ad8791da77ff246c170bb05790e7&v=4",
   "bio": "Artur Schweidtmann is a tenured Assistant Professor at TU Delft, where he leads the Process Intelligence Research Group. ",
   "company": "@process-intelligence-research ",
-  "tier": "Elite",
-  "percentile": 99.1,
+  "tier": "Diamond",
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 423,
-      "s": 72.0
+      "r": 601,
+      "s": 68.4
     }
   ],
   "location": "Netherlands, Delft"

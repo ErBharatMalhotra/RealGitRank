@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 43.11,
-  "rank_score": 74.6,
+  "rank_score": 76.1,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 294,
+  "rank": 243,
   "avatar_url": "https://avatars.githubusercontent.com/u/42743566?u=5ce61f49bbc254bfa5f13b80b14bcd5f5cff7e02&v=4",
   "bio": "SWE at Trunk.io \u2022 Duke '22",
   "company": "Trunk.io",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 294,
-      "s": 74.6
+      "r": 243,
+      "s": 76.1
     }
   ],
   "location": "San Francisco"

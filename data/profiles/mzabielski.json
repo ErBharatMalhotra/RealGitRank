@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 42.19,
-  "rank_score": 63.9,
+  "rank_score": 68.0,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 880,
+  "rank": 614,
   "avatar_url": "https://avatars.githubusercontent.com/u/13795208?u=ee579cf17465c80a4ce05a5d9c3322b04670a8ac&v=4",
   "bio": "Creator of @endora-commerce. Founder of Endora.\r\n\r\nConsidering a B2B platform, or stuck with one? Send me a message.",
   "company": "ENDORA",
   "tier": "Diamond",
-  "percentile": 98.1,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 880,
-      "s": 63.9
+      "r": 614,
+      "s": 68.0
     }
   ],
   "location": "Poland"

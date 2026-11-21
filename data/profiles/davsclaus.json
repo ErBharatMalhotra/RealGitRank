@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 42.18,
-  "rank_score": 68.5,
+  "rank_score": 73.0,
   "active_repos_touched": 3,
   "pr_reviews": 2,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 647,
+  "rank": 352,
   "avatar_url": "https://avatars.githubusercontent.com/u/477100?u=89466668a2dfe344d24a6b03a2feb2d4be62e15b&v=4",
   "bio": "#ApacheCamel \ud83d\udc2b | Java Champion | Apache Member | Conference Speaker | Author Camel in Action",
   "company": "IBM",
-  "tier": "Diamond",
-  "percentile": 98.6,
+  "tier": "Elite",
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 647,
-      "s": 68.5
+      "r": 352,
+      "s": 73.0
     }
   ],
   "location": "Denmark"

@@ -1,19 +1,19 @@
 {
   "username": "dodolia907",
-  "rank": 421,
-  "rank_score": 72.0,
+  "rank": 599,
+  "rank_score": 68.4,
   "country": "Japan",
   "primary_language": "Rust",
   "avatar_url": "https://avatars.githubusercontent.com/u/102458791?u=15a4f74777e548515347b3519cc98428ae91ae4d&v=4",
   "bio": "Information Network Laboratory,\r\nDepartment of Computer Science and Engineering",
   "company": "Toyohashi University of Technology",
-  "tier": "Elite",
-  "percentile": 99.1,
+  "tier": "Diamond",
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 421,
-      "s": 72.0
+      "r": 599,
+      "s": 68.4
     }
   ],
   "location": "Sapporo, Hokkaido, Japan."

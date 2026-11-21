@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 214,
+  "rank": 203,
   "avatar_url": "https://avatars.githubusercontent.com/u/23359046?u=70c9078175efd09ae14889d76d2ec8136e774137&v=4",
   "bio": "Software Engineer / Cloud Architect",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.5,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 214,
+      "r": 203,
       "s": 77.8
     }
   ],

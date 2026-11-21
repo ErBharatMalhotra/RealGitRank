@@ -1,19 +1,19 @@
 {
   "username": "EdoSag",
-  "rank": 814,
-  "rank_score": 65.0,
+  "rank": 960,
+  "rank_score": 61.8,
   "country": "",
   "primary_language": "Dart",
   "avatar_url": "https://avatars.githubusercontent.com/u/95069657?u=b7aa33376c87e93fab232bfe30a6f66d2d439094&v=4",
   "bio": "Flutter, Dart, C#, Rust",
   "company": "Sagron Group",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 97.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 814,
-      "s": 65.0
+      "r": 960,
+      "s": 61.8
     }
   ],
   "location": ""

@@ -1,19 +1,19 @@
 {
   "username": "gecube",
-  "rank": 580,
-  "rank_score": 69.6,
+  "rank": 696,
+  "rank_score": 66.1,
   "country": "",
   "primary_language": "Go",
   "avatar_url": "https://avatars.githubusercontent.com/u/2912732?u=61d766da4911a27507605420ef976a76eec1feed&v=4",
   "bio": "Serial DevOops",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 580,
-      "s": 69.6
+      "r": 696,
+      "s": 66.1
     }
   ],
   "location": ""

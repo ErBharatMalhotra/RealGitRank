@@ -1,19 +1,19 @@
 {
   "username": "dmcaulay",
-  "rank": 655,
-  "rank_score": 68.4,
+  "rank": 752,
+  "rank_score": 65.0,
   "country": "",
   "primary_language": "CoffeeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/899731?u=e978f211ba4eb100dd98d65ab0a6d07d7d73ce64&v=4",
   "bio": "AI Engineer",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 655,
-      "s": 68.4
+      "r": 752,
+      "s": 65.0
     }
   ],
   "location": "Carnelian Bay, CA"

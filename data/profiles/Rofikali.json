@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 906,
+  "rank": 858,
   "avatar_url": "https://avatars.githubusercontent.com/u/72003761?u=8b413c0d871092a21889abb4a04ee7a2c805b181&v=4",
   "bio": "Software Engineering Student | Systems & Backend Development | C \u2022 Rust \u2022 Python \u2022 TypeScript | Linux \u2022 Docker \u2022 Databases",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 906,
+      "r": 858,
       "s": 63.4
     }
   ],

@@ -1,19 +1,19 @@
 {
   "username": "koxudaxi",
-  "rank": 789,
-  "rank_score": 65.9,
+  "rank": 929,
+  "rank_score": 62.6,
   "country": "Japan",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/630670?u=507d8577b4b3670546b449c4c2ccbc5af40d72f7&v=4",
   "bio": "Python developer tools \u00b7 Creator and maintainer of datamodel-code-generator \u00b7 PEP 750 co-author \u00b7 Open to work.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 789,
-      "s": 65.9
+      "r": 929,
+      "s": 62.6
     }
   ],
   "location": "Tokyo, Japan"

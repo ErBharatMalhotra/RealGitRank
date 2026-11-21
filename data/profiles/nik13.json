@@ -1,19 +1,19 @@
 {
   "username": "nik13",
-  "rank": 180,
-  "rank_score": 79.2,
+  "rank": 277,
+  "rank_score": 75.2,
   "country": "United States",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/8347993?v=4",
   "bio": "",
   "company": "futureagi.com",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 180,
-      "s": 79.2
+      "r": 277,
+      "s": 75.2
     }
   ],
   "location": "San Francisco"

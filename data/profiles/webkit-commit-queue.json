@@ -1,19 +1,19 @@
 {
   "username": "webkit-commit-queue",
-  "rank": 760,
-  "rank_score": 66.2,
+  "rank": 898,
+  "rank_score": 62.9,
   "country": "",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/77073439?u=a6eaa59b9822164b82ba439bc56cac5623b256ef&v=4",
   "bio": "Automated account administered by WebKit for interactions with the WebKit repository.",
   "company": "WebKit",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 760,
-      "s": 66.2
+      "r": 898,
+      "s": 62.9
     }
   ],
   "location": "Cupertino"

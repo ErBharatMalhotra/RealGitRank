@@ -1,19 +1,19 @@
 {
   "username": "lsm",
-  "rank": 623,
-  "rank_score": 69.0,
+  "rank": 728,
+  "rank_score": 65.5,
   "country": "",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/172359?u=ee5540df5deae306f5f9bfdc70a70346a998d60b&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 623,
-      "s": 69.0
+      "r": 728,
+      "s": 65.5
     }
   ],
   "location": "Princeton, NJ"

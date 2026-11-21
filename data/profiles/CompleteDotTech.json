@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 41.33,
-  "rank_score": 66.1,
+  "rank_score": 68.5,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 768,
+  "rank": 597,
   "avatar_url": "https://avatars.githubusercontent.com/u/5861166?u=cb77df4bb17a1d7c40109d45deb937abce9729f1&v=4",
   "bio": "",
   "company": "CompleteTech LLC",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 768,
-      "s": 66.1
+      "r": 597,
+      "s": 68.5
     }
   ],
   "location": "Cincinnati, OH"

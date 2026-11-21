@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 69,
+  "rank": 78,
   "avatar_url": "https://avatars.githubusercontent.com/u/1709260?u=8f3ec6e27611e361be75876b9043251886a2288b&v=4",
   "bio": "I build things for people who build things.",
   "company": "Teufel IT",
   "tier": "Elite",
-  "percentile": 99.9,
+  "percentile": 99.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 69,
+      "r": 78,
       "s": 89.8
     }
   ],

@@ -1,19 +1,19 @@
 {
   "username": "UhhErix",
-  "rank": 625,
-  "rank_score": 68.9,
+  "rank": 730,
+  "rank_score": 65.5,
   "country": "",
   "primary_language": "C#",
   "avatar_url": "https://avatars.githubusercontent.com/u/273005040?u=7c9d36b96d5c6a78507cdfe1287535dad3e2f7ce&v=4",
   "bio": "Building Exo: Windows 11 apps. Exo Launcher puts every game in one library; Exo Cinema plays your Jellyfin library.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 625,
-      "s": 68.9
+      "r": 730,
+      "s": 65.5
     }
   ],
   "location": ""

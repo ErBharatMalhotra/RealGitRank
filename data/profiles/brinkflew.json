@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 533,
+  "rank": 500,
   "avatar_url": "https://avatars.githubusercontent.com/u/27769422?u=cd5e7acbeb6bfce63269fc994f77eba906af3758&v=4",
   "bio": "Typing random chars on keyboards until it somehow does something that other people find interesting.",
   "company": " Freelance @avanserv",
   "tier": "Diamond",
-  "percentile": 98.8,
+  "percentile": 98.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 533,
+      "r": 500,
       "s": 69.9
     }
   ],

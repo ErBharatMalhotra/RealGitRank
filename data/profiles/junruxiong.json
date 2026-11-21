@@ -1,19 +1,19 @@
 {
   "username": "junruxiong",
-  "rank": 764,
-  "rank_score": 66.2,
+  "rank": 902,
+  "rank_score": 62.9,
   "country": "United Kingdom",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/44308338?u=16d4f8ca7532700cbcd5d341b2ad065306b4d6cd&v=4",
   "bio": "Bringing AI to life",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 764,
-      "s": 66.2
+      "r": 902,
+      "s": 62.9
     }
   ],
   "location": "London"

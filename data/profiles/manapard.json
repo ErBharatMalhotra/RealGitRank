@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 386,
+  "rank": 387,
   "avatar_url": "https://avatars.githubusercontent.com/u/58340039?u=c65fab1cfb5d92169c8e976d4507a297f7d792df&v=4",
   "bio": "Senior React Native Developer",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 386,
+      "r": 387,
       "s": 72.4
     }
   ],

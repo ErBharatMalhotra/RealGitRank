@@ -1,19 +1,19 @@
 {
   "username": "valzargaming",
-  "rank": 65,
-  "rank_score": 91.3,
+  "rank": 104,
+  "rank_score": 86.7,
   "country": "United States",
   "primary_language": "PHP",
   "avatar_url": "https://avatars.githubusercontent.com/u/7202504?u=87c99587ef4c2865aab81ebc249c65356c6b24e6&v=4",
   "bio": "I'm a gamer, live streamer, teacher, programmer, and patient care advocate. I make games, my own tools, and things that makes other things work.",
   "company": "Valgorithms",
   "tier": "Elite",
-  "percentile": 99.9,
+  "percentile": 99.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 65,
-      "s": 91.3
+      "r": 104,
+      "s": 86.7
     }
   ],
   "location": "United States"

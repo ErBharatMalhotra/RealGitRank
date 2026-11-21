@@ -1,19 +1,19 @@
 {
   "username": "mernst",
-  "rank": 324,
-  "rank_score": 73.7,
+  "rank": 495,
+  "rank_score": 70.0,
   "country": "",
   "primary_language": "Perl",
   "avatar_url": "https://avatars.githubusercontent.com/u/121025?u=e90c4bc7294a20b0d4f52b6270dc290671689344&v=4",
   "bio": "",
   "company": "",
-  "tier": "Elite",
-  "percentile": 99.3,
+  "tier": "Diamond",
+  "percentile": 98.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 324,
-      "s": 73.7
+      "r": 495,
+      "s": 70.0
     }
   ],
   "location": ""

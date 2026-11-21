@@ -1,19 +1,19 @@
 {
   "username": "mazipan-wego",
-  "rank": 689,
-  "rank_score": 67.5,
+  "rank": 790,
+  "rank_score": 64.1,
   "country": "Indonesia",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/201220304?u=518f711bff1cadd385440488d8f935b366a4541c&v=4",
   "bio": "Web Engineer at @wego. Side quest from @mazipan",
   "company": "@wego",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 689,
-      "s": 67.5
+      "r": 790,
+      "s": 64.1
     }
   ],
   "location": "Jakarta, Indonesia"

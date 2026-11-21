@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 923,
+  "rank": 878,
   "avatar_url": "https://avatars.githubusercontent.com/u/85908436?u=499f47b63d40fea5bbd0a261cdf8ea8eecdebd94&v=4",
   "bio": "Data & Software Engineer @ AVS. MSc. in Medicine (UEM, Brazil). MSc. Degree in Computer Science (UEPG, Brazil). BSc. Degree in Geoscience (UFV, Brazil",
   "company": "AVS",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 923,
+      "r": 878,
       "s": 63.1
     }
   ],

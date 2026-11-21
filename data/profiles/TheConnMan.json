@@ -1,19 +1,19 @@
 {
   "username": "TheConnMan",
-  "rank": 788,
-  "rank_score": 65.9,
+  "rank": 928,
+  "rank_score": 62.6,
   "country": "",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/1328448?u=c984390328a4209d30671c1fdca68aa836ef68aa&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 788,
-      "s": 65.9
+      "r": 928,
+      "s": 62.6
     }
   ],
   "location": ""

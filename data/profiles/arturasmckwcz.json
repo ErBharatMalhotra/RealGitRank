@@ -1,19 +1,19 @@
 {
   "username": "arturasmckwcz",
-  "rank": 465,
-  "rank_score": 71.0,
+  "rank": 649,
+  "rank_score": 67.5,
   "country": "Germany",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/57557793?u=4ce5c8f7fcbcd6b18e4a9027994a0a89c4021a06&v=4",
   "bio": "",
   "company": "",
-  "tier": "Elite",
-  "percentile": 99.0,
+  "tier": "Diamond",
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 465,
-      "s": 71.0
+      "r": 649,
+      "s": 67.5
     }
   ],
   "location": "Berlin, Germany"

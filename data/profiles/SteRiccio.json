@@ -1,19 +1,19 @@
 {
   "username": "SteRiccio",
-  "rank": 355,
-  "rank_score": 73.0,
+  "rank": 559,
+  "rank_score": 69.3,
   "country": "Italy",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/1219739?u=120912579f18c8a3338f321c3633e89ed4ec9b2d&v=4",
   "bio": "",
   "company": "",
-  "tier": "Elite",
-  "percentile": 99.2,
+  "tier": "Diamond",
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 355,
-      "s": 73.0
+      "r": 559,
+      "s": 69.3
     }
   ],
   "location": "Rome (Italy)"

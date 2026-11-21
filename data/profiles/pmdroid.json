@@ -1,19 +1,19 @@
 {
   "username": "pmdroid",
-  "rank": 770,
-  "rank_score": 66.1,
+  "rank": 906,
+  "rank_score": 62.8,
   "country": "United States",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/434505?u=5549078285a7a7894e7b930f083b1b2ac71e8ebe&v=4",
   "bio": "Nerd at @ArcadeAI ",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 770,
-      "s": 66.1
+      "r": 906,
+      "s": 62.8
     }
   ],
   "location": "San Francisco"

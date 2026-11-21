@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 40.43,
-  "rank_score": 119.4,
+  "rank_score": 124.9,
   "active_repos_touched": 24,
   "pr_reviews": 0,
   "issue_comments": 10,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 7,
+  "rank": 4,
   "avatar_url": "https://avatars.githubusercontent.com/u/39854?v=4",
   "bio": "Senior Software Developer, Tooling Architect & Master of Automation - PHP Expert",
   "company": "Available as (Cake)PHP expert",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 7,
-      "s": 119.4
+      "r": 4,
+      "s": 124.9
     }
   ],
   "location": "Berlin"

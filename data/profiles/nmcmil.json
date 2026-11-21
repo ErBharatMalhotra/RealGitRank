@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 447,
+  "rank": 421,
   "avatar_url": "https://avatars.githubusercontent.com/u/153555205?u=3bb87566ea9185e7501f2f66763d1ac0489ae3cc&v=4",
   "bio": "You should use Luma",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 447,
+      "r": 421,
       "s": 71.2
     }
   ],

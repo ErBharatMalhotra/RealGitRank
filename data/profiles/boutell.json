@@ -1,19 +1,19 @@
 {
   "username": "boutell",
-  "rank": 578,
-  "rank_score": 69.6,
+  "rank": 694,
+  "rank_score": 66.1,
   "country": "United States",
   "primary_language": "C",
   "avatar_url": "https://avatars.githubusercontent.com/u/32125?u=50ed8a0cfd84d6b06d8cbc6d116250b9e373eb9e&v=4",
   "bio": "CEO of ApostropheCMS. Most of the good stuff is in the apostrophecms github org.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 578,
-      "s": 69.6
+      "r": 694,
+      "s": 66.1
     }
   ],
   "location": "Philadelphia, PA USA"

@@ -1,19 +1,19 @@
 {
   "username": "FlareZ123",
-  "rank": 173,
-  "rank_score": 79.4,
+  "rank": 273,
+  "rank_score": 75.4,
   "country": "",
   "primary_language": "Rust",
   "avatar_url": "https://avatars.githubusercontent.com/u/40903650?u=bd4be615452a488c7ed9aa50416f6a9b824b2a0c&v=4",
   "bio": "/shrug",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 173,
-      "s": 79.4
+      "r": 273,
+      "s": 75.4
     }
   ],
   "location": ""

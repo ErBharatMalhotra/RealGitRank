@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.42,
-  "rank_score": 107.6,
+  "rank_score": 103.3,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 18,
+  "rank": 28,
   "avatar_url": "https://avatars.githubusercontent.com/u/4336207?u=564d623a8c9d710c3520841b83458b0bf1eae010&v=4",
   "bio": "",
   "company": "@TheochemUI, @lab-cosmo, @metatensor",
   "tier": "Elite",
-  "percentile": 100.0,
+  "percentile": 99.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 18,
-      "s": 107.6
+      "r": 28,
+      "s": 103.3
     }
   ],
   "location": "University of Iceland"

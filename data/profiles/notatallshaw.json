@@ -1,19 +1,19 @@
 {
   "username": "notatallshaw",
-  "rank": 288,
-  "rank_score": 74.9,
+  "rank": 423,
+  "rank_score": 71.2,
   "country": "",
   "primary_language": "Rust",
   "avatar_url": "https://avatars.githubusercontent.com/u/8070352?v=4",
   "bio": "Nab author. Pip, packaging, & resolvelib maintainer. Truststore collaborator. PSRT Member.",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 288,
-      "s": 74.9
+      "r": 423,
+      "s": 71.2
     }
   ],
   "location": "NYC"

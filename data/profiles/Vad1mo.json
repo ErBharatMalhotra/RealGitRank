@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 219,
+  "rank": 206,
   "avatar_url": "https://avatars.githubusercontent.com/u/1492007?u=26d1efac60204c19d54acdc1328718e5ef78003c&v=4",
   "bio": "Working @container-registry. Maintaining CNCF @goharbor. ",
   "company": "@container-registry ",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 219,
+      "r": 206,
       "s": 77.7
     }
   ],

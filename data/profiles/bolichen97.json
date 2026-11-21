@@ -1,19 +1,19 @@
 {
   "username": "bolichen97",
-  "rank": 199,
-  "rank_score": 78.8,
+  "rank": 294,
+  "rank_score": 74.9,
   "country": "United States",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/17506219?u=27cbef2f72bdb5257e82220c87d4d4bdc13149e8&v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 199,
-      "s": 78.8
+      "r": 294,
+      "s": 74.9
     }
   ],
   "location": "Seattle"

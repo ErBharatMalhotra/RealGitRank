@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 40.61,
-  "rank_score": 73.4,
+  "rank_score": 70.7,
   "active_repos_touched": 1,
   "pr_reviews": 3,
   "issue_comments": 3,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 338,
+  "rank": 453,
   "avatar_url": "https://avatars.githubusercontent.com/u/79079362?u=808dae4bedcf35a7d077fb48abe125b0f7aac3e2&v=4",
   "bio": "NU alum - CS, Data Science + Engineering",
   "company": "@stablyai",
   "tier": "Elite",
-  "percentile": 99.3,
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 338,
-      "s": 73.4
+      "r": 453,
+      "s": 70.7
     }
   ],
   "location": "San Francisco, CA"

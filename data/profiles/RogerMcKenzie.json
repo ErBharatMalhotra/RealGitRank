@@ -1,19 +1,19 @@
 {
   "username": "RogerMcKenzie",
-  "rank": 525,
-  "rank_score": 70.0,
+  "rank": 680,
+  "rank_score": 66.5,
   "country": "",
   "primary_language": "Svelte",
   "avatar_url": "https://avatars.githubusercontent.com/u/158111767?u=338afa86888839cce3aa271da0a7a886d98ca7aa&v=4",
   "bio": "Sometimes I make stuff. ",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.8,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 525,
-      "s": 70.0
+      "r": 680,
+      "s": 66.5
     }
   ],
   "location": "Gainesville, Florida"

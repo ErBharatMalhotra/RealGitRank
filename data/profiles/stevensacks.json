@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 834,
+  "rank": 778,
   "avatar_url": "https://avatars.githubusercontent.com/u/162252?u=f4c738c887795e134c613cfdd6c55f81a941507f&v=4",
   "bio": "AI Engineering Lead (Claude, Cursor, Codex, Gemini, Copilot) \u00b7 Creator of GAIA \u00b7 32+ years shipping with discipline \u00b7 React \u00b7 TypeScript \u00b7 Node",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 834,
+      "r": 778,
       "s": 64.3
     }
   ],

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 757,
+  "rank": 692,
   "avatar_url": "https://avatars.githubusercontent.com/u/12677236?u=a5061daf7556f4fbd725658a01dde4a83cd07fa1&v=4",
   "bio": "\"shadow ops is configuring infrastructure without the servers noticing you were there.\"",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 757,
+      "r": 692,
       "s": 66.2
     }
   ],

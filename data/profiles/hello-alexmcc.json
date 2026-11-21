@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 42.62,
-  "rank_score": 80.4,
+  "rank_score": 89.4,
   "active_repos_touched": 1,
   "pr_reviews": 13,
   "issue_comments": 11,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 157,
+  "rank": 84,
   "avatar_url": "https://avatars.githubusercontent.com/u/319643551?u=57451ad64eeab7f98ce78381d3916d5e56daec45&v=4",
   "bio": "current incoming PhD. student in NYU",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.7,
+  "percentile": 99.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 157,
-      "s": 80.4
+      "r": 84,
+      "s": 89.4
     }
   ],
   "location": ""

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 827,
+  "rank": 766,
   "avatar_url": "https://avatars.githubusercontent.com/u/919195?u=2b76719aa22f595711dda39eaebae0a05d7aaed2&v=4",
   "bio": "Polyglot software developer",
   "company": "https://egao-co-uk",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 827,
+      "r": 766,
       "s": 64.6
     }
   ],

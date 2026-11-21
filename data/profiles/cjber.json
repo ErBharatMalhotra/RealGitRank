@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.81,
-  "rank_score": 85.6,
+  "rank_score": 96.7,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 110,
+  "rank": 52,
   "avatar_url": "https://avatars.githubusercontent.com/u/44099524?u=91e594c1988245d9582e45a96713e00d9f6ebf9d&v=4",
   "bio": "Founding Engineer at Nebula. Previously thirdweb. PhD in NLP and geography. My WoW: Forever addons have 3M+ downloads.",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 110,
-      "s": 85.6
+      "r": 52,
+      "s": 96.7
     }
   ],
   "location": "Glasgow"

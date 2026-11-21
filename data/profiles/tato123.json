@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 39.94,
-  "rank_score": 65.9,
+  "rank_score": 70.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 783,
+  "rank": 458,
   "avatar_url": "https://avatars.githubusercontent.com/u/505852?u=cc161d9fe4e2281fcf0ceda205fe529a8505d4bf&v=4",
   "bio": "AI Engineering lead, founder of Tatolab",
   "company": "",
-  "tier": "Diamond",
-  "percentile": 98.3,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 783,
-      "s": 65.9
+      "r": 458,
+      "s": 70.5
     }
   ],
   "location": "North Carolina"

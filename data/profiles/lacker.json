@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 39.56,
-  "rank_score": 78.4,
+  "rank_score": 74.2,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 206,
+  "rank": 316,
   "avatar_url": "https://avatars.githubusercontent.com/u/106475?u=ef45ba274614de1b55767e30460565942b9f7157&v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.5,
+  "percentile": 99.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 206,
-      "s": 78.4
+      "r": 316,
+      "s": 74.2
     }
   ],
   "location": "Piedmont, CA"

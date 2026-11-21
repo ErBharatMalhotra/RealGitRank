@@ -1,19 +1,19 @@
 {
   "username": "robertgorsuch",
-  "rank": 606,
-  "rank_score": 69.3,
+  "rank": 709,
+  "rank_score": 65.8,
   "country": "United States",
   "primary_language": "HTML",
   "avatar_url": "https://avatars.githubusercontent.com/u/30151588?u=1b22a6164264242646812465fc6e52fed0060b4f&v=4",
   "bio": "More than 40 years of experience in IT architecture and design, as well as implementing data management, data integration, and data analytics software solution.",
   "company": "Actian",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 606,
-      "s": 69.3
+      "r": 709,
+      "s": 65.8
     }
   ],
   "location": "Austin, TX."

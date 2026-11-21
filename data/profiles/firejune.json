@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 40.56,
-  "rank_score": 78.9,
+  "rank_score": 76.0,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 4,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 193,
+  "rank": 258,
   "avatar_url": "https://avatars.githubusercontent.com/u/68166?u=03ab11e34a87eb192d71be7906c53e5991b363a1&v=4",
   "bio": "Frontend developer. I enjoy collaborating with AI to build games and tools.",
   "company": "Ignite Corp.",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 193,
-      "s": 78.9
+      "r": 258,
+      "s": 76.0
     }
   ],
   "location": "Seoul, Korea"

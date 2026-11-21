@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 46.78,
-  "rank_score": 68.2,
+  "rank_score": 73.4,
   "active_repos_touched": 3,
   "pr_reviews": 2,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 660,
+  "rank": 344,
   "avatar_url": "https://avatars.githubusercontent.com/u/1736570?u=c4e4e280e9b6702d4ce7dda795c9492c01ed664e&v=4",
   "bio": "",
   "company": "",
-  "tier": "Diamond",
-  "percentile": 98.5,
+  "tier": "Elite",
+  "percentile": 99.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 660,
-      "s": 68.2
+      "r": 344,
+      "s": 73.4
     }
   ],
   "location": "Vienna"

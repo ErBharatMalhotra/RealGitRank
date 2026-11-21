@@ -1,19 +1,19 @@
 {
   "username": "fooexec",
-  "rank": 690,
-  "rank_score": 67.5,
+  "rank": 791,
+  "rank_score": 64.1,
   "country": "",
   "primary_language": "Go",
   "avatar_url": "https://avatars.githubusercontent.com/u/11532557?v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 690,
-      "s": 67.5
+      "r": 791,
+      "s": 64.1
     }
   ],
   "location": ""

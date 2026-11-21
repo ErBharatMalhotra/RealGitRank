@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 43.55,
-  "rank_score": 69.8,
+  "rank_score": 69.9,
   "active_repos_touched": 1,
   "pr_reviews": 1,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 547,
+  "rank": 496,
   "avatar_url": "https://avatars.githubusercontent.com/u/102914580?u=03186d7ce7fcc75e44db46b15b368eeebd3eb6e7&v=4",
   "bio": "Software engineer building tools for radio stations \ud83d\udcfb",
   "company": "@rivi-software ",
   "tier": "Diamond",
-  "percentile": 98.8,
+  "percentile": 98.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 547,
-      "s": 69.8
+      "r": 496,
+      "s": 69.9
     }
   ],
   "location": "\ud83c\uddf3\ud83c\uddf1"

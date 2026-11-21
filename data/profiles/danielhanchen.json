@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 41.3,
-  "rank_score": 67.5,
+  "rank_score": 71.1,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 684,
+  "rank": 424,
   "avatar_url": "https://avatars.githubusercontent.com/u/23090290?u=3200d12723a822d44abe1b28c35cdf7e5d030b75&v=4",
   "bio": "Unsloth - Making Fine-tuning and Reinforcement Learning LLMs more accessible!",
   "company": "@unslothai",
-  "tier": "Diamond",
-  "percentile": 98.5,
+  "tier": "Elite",
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 684,
-      "s": 67.5
+      "r": 424,
+      "s": 71.1
     }
   ],
   "location": "San Francisco"

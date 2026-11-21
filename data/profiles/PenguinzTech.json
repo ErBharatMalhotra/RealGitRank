@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 40.08,
-  "rank_score": 67.3,
+  "rank_score": 70.9,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 693,
+  "rank": 438,
   "avatar_url": "https://avatars.githubusercontent.com/u/18054435?u=e495c88fec0ba7f2961d271bdb1c978d6fc9400d&v=4",
   "bio": "Owner / Founder of Penguin Technologies Inc. and PenguinCloud, an open source project designed to provide a portable hybrid cloud solution  without the worry.",
   "company": "@PenguinCloud ",
-  "tier": "Diamond",
-  "percentile": 98.5,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 693,
-      "s": 67.3
+      "r": 438,
+      "s": 70.9
     }
   ],
   "location": "Dallas, TX"

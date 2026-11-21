@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 40.4,
-  "rank_score": 77.2,
+  "rank_score": 77.5,
   "active_repos_touched": 9,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 224,
+  "rank": 210,
   "avatar_url": "https://avatars.githubusercontent.com/u/827996?u=19aab16929aa304edee5f51b97f40fa80297c509&v=4",
   "bio": "",
   "company": "Antimatter Studios",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 224,
-      "s": 77.2
+      "r": 210,
+      "s": 77.5
     }
   ],
   "location": "Berlin"

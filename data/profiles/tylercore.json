@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 572,
+  "rank": 534,
   "avatar_url": "https://avatars.githubusercontent.com/u/102842762?v=4",
   "bio": "Fullstack Engineer building AI-driven systems",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 572,
+      "r": 534,
       "s": 69.6
     }
   ],

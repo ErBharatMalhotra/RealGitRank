@@ -1,19 +1,19 @@
 {
   "username": "samehkhamis",
-  "rank": 670,
-  "rank_score": 68.0,
+  "rank": 770,
+  "rank_score": 64.6,
   "country": "",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/845989?u=a7b12c28fbd4cd2cf34a3038748da331dfaabd58&v=4",
   "bio": "Founder & CTO at Stealth Startup. Ex-NVIDIA, Google, Microsoft Research.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 670,
-      "s": 68.0
+      "r": 770,
+      "s": 64.6
     }
   ],
   "location": "Bay Area, CA"

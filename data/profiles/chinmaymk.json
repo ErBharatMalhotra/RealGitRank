@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 45.57,
-  "rank_score": 86.2,
+  "rank_score": 97.2,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 102,
+  "rank": 50,
   "avatar_url": "https://avatars.githubusercontent.com/u/3009521?v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 102,
-      "s": 86.2
+      "r": 50,
+      "s": 97.2
     }
   ],
   "location": "Mountain View, California"

@@ -1,19 +1,19 @@
 {
   "username": "clarkngo",
-  "rank": 802,
-  "rank_score": 65.6,
+  "rank": 942,
+  "rank_score": 62.3,
   "country": "United States",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/30854108?u=289217791a8bdbdae3d987cd6a03fdf09ca2d098&v=4",
   "bio": "Software Engineer | Volleyball | Pixel Art",
   "company": "City University of Seattle",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 97.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 802,
-      "s": 65.6
+      "r": 942,
+      "s": 62.3
     }
   ],
   "location": "Seattle"

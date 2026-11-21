@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 42.03,
-  "rank_score": 61.9,
+  "rank_score": 64.7,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 970,
+  "rank": 761,
   "avatar_url": "https://avatars.githubusercontent.com/u/102828838?u=9852013dfa2299f13a27542a911ac2b37a2a379f&v=4",
   "bio": "AI Staff-level Engineer \u00b7 CEO at NDDev \u00b7 CTO at My Attention AI. Building AI systems, agent tooling and reliable production software.",
   "company": "NDDev",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 970,
-      "s": 61.9
+      "r": 761,
+      "s": 64.7
     }
   ],
   "location": "Kazakhstan/World"

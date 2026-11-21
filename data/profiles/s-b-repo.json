@@ -1,19 +1,19 @@
 {
   "username": "s-b-repo",
-  "rank": 803,
-  "rank_score": 65.6,
+  "rank": 943,
+  "rank_score": 62.3,
   "country": "",
   "primary_language": "Rust",
   "avatar_url": "https://avatars.githubusercontent.com/u/30941141?u=2dfc3d7166a775270f23cdcdeb9ed3f35b939386&v=4",
   "bio": "nulled out",
   "company": "CyberSec",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 97.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 803,
-      "s": 65.6
+      "r": 943,
+      "s": 62.3
     }
   ],
   "location": ""

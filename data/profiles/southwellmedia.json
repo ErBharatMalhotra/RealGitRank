@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 437,
+  "rank": 412,
   "avatar_url": "https://avatars.githubusercontent.com/u/129204804?u=cce1676224c67776946277b32486f1b592643969&v=4",
   "bio": "Creations by Southwell Media",
   "company": "@southwellmedia",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 437,
+      "r": 412,
       "s": 71.5
     }
   ],

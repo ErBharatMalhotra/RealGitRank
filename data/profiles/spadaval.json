@@ -1,19 +1,19 @@
 {
   "username": "spadaval",
-  "rank": 737,
-  "rank_score": 66.5,
+  "rank": 873,
+  "rank_score": 63.2,
   "country": "",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/14237216?u=cc6a73e8d3ee67a8159e3b4745c8fb77ff4f94d3&v=4",
   "bio": "",
   "company": "Cisco Systems, Inc",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 737,
-      "s": 66.5
+      "r": 873,
+      "s": 63.2
     }
   ],
   "location": "Cary, NC"

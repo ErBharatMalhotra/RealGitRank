@@ -1,19 +1,19 @@
 {
   "username": "omridevk",
-  "rank": 179,
-  "rank_score": 79.2,
+  "rank": 276,
+  "rank_score": 75.2,
   "country": "Israel",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/9701896?u=5696890d5b2a10b1fbbcb736303d02560f28bedf&v=4",
   "bio": "If it's worth doing, it's worth doing well.",
   "company": "PayZen",
   "tier": "Elite",
-  "percentile": 99.6,
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 179,
-      "s": 79.2
+      "r": 276,
+      "s": 75.2
     }
   ],
   "location": "\u05bfIsrael"

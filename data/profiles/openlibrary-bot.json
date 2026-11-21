@@ -1,19 +1,19 @@
 {
   "username": "openlibrary-bot",
-  "rank": 147,
-  "rank_score": 82.0,
+  "rank": 198,
+  "rank_score": 77.9,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/50213894?u=1972137bb4f949627b21f41807068b087400e1f8&v=4",
   "bio": "Hi! I'm @openlibrary's Digital Librarian Assistant",
   "company": "@internetarchive @openlibrary",
   "tier": "Elite",
-  "percentile": 99.7,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 147,
-      "s": 82.0
+      "r": 198,
+      "s": 77.9
     }
   ],
   "location": "The Internet"

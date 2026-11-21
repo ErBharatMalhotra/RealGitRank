@@ -1,19 +1,19 @@
 {
   "username": "jmf-pobox",
-  "rank": 130,
-  "rank_score": 83.6,
+  "rank": 173,
+  "rank_score": 79.4,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/155204947?u=87c77e7bcbb3cdc512092cb83bf5cb6367da5c49&v=4",
   "bio": "Hands-on, scale technology leader and part-time graduate student who enjoys computer science, software engineering, and coding.",
   "company": "@punt-labs ",
   "tier": "Elite",
-  "percentile": 99.7,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 130,
-      "s": 83.6
+      "r": 173,
+      "s": 79.4
     }
   ],
   "location": ""

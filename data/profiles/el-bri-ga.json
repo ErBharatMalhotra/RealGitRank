@@ -1,19 +1,19 @@
 {
   "username": "el-bri-ga",
-  "rank": 459,
-  "rank_score": 71.1,
+  "rank": 645,
+  "rank_score": 67.5,
   "country": "United States",
   "primary_language": "Puppet",
   "avatar_url": "https://avatars.githubusercontent.com/u/1381240?u=49a3f6eea20c0188eb3f8690d48a43fc50c8595b&v=4",
   "bio": "Cloud and distributed systems guy from the Pacific Northwest.",
   "company": "",
-  "tier": "Elite",
-  "percentile": 99.0,
+  "tier": "Diamond",
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 459,
-      "s": 71.1
+      "r": 645,
+      "s": 67.5
     }
   ],
   "location": "Seattle, WA"

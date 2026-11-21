@@ -1,19 +1,19 @@
 {
   "username": "Kryptos-FR",
-  "rank": 403,
-  "rank_score": 72.3,
+  "rank": 581,
+  "rank_score": 68.7,
   "country": "France",
   "primary_language": "C#",
   "avatar_url": "https://avatars.githubusercontent.com/u/3006525?u=6da323cb806f1591cf2f00bc41eb33e75dd3221f&v=4",
   "bio": " ",
   "company": "@color-rise",
-  "tier": "Elite",
-  "percentile": 99.1,
+  "tier": "Diamond",
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 403,
-      "s": 72.3
+      "r": 581,
+      "s": 68.7
     }
   ],
   "location": "Lyon, France"

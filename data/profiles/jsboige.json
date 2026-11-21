@@ -1,0 +1,39 @@
+{
+  "username": "jsboige",
+  "country": "",
+  "primary_language": "Jupyter Notebook",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 131.83,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 41.13,
+  "rank_score": 63.9,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 13,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 827,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3159389?u=2f07b0c2ae7e83de03e84a1cc0e2e0323a6e46f5&v=4",
+  "bio": ".Net developper, MyIA founder",
+  "company": "@MyIntelligenceAgency ",
+  "tier": "Diamond",
+  "percentile": 98.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 827,
+      "s": 63.9
+    }
+  ],
+  "location": ""
+}

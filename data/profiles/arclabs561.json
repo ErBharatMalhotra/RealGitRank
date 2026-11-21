@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 210,
+  "rank": 199,
   "avatar_url": "https://avatars.githubusercontent.com/u/2768233?u=40c9752c6c44a2435e095d7f11fa943bc40bf850&v=4",
   "bio": "beep boop",
   "company": "@salesforce",
   "tier": "Elite",
-  "percentile": 99.5,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 210,
+      "r": 199,
       "s": 77.8
     }
   ],

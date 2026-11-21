@@ -1,19 +1,19 @@
 {
   "username": "kyle-sexton",
-  "rank": 652,
-  "rank_score": 68.4,
+  "rank": 749,
+  "rank_score": 65.0,
   "country": "",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/153232337?u=244b14f315c3b9feb614babf4c4d2ff18bb6a326&v=4",
   "bio": "Software architect working with .NET, identity, observability, developer tooling, and AI-assisted engineering. Building @melodic-software.",
   "company": "@melodic-software",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 652,
-      "s": 68.4
+      "r": 749,
+      "s": 65.0
     }
   ],
   "location": "Northeastern Ohio"

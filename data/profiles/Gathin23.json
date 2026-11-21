@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 924,
+  "rank": 879,
   "avatar_url": "https://avatars.githubusercontent.com/u/94786511?u=a36aa7656053e4cd6f14772ff0fe7752c4365ddb&v=4",
   "bio": "Sr. DevRel Lead @0gfoundation \u00b7 built CleanYourTV",
   "company": "0G",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 924,
+      "r": 879,
       "s": 63.1
     }
   ],

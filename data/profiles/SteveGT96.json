@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 586,
+  "rank": 544,
   "avatar_url": "https://avatars.githubusercontent.com/u/45661418?u=db81a572b5fb2566a60f00430d6547a80cb6ae17&v=4",
   "bio": "I design and build modern, scalable applications across web, mobile, and desktop with a deep focus on backend engineering, API design.",
   "company": "Hubelia",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 586,
+      "r": 544,
       "s": 69.5
     }
   ],

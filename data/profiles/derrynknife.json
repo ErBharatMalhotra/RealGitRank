@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 41.64,
-  "rank_score": 63.2,
+  "rank_score": 69.8,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 919,
+  "rank": 505,
   "avatar_url": "https://avatars.githubusercontent.com/u/18457108?u=9f9c978cd47c785b91840bc90effd816775015ee&v=4",
   "bio": "",
   "company": "Reliafy",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 919,
-      "s": 63.2
+      "r": 505,
+      "s": 69.8
     }
   ],
   "location": "Brisbane"

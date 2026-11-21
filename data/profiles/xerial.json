@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 593,
+  "rank": 549,
   "avatar_url": "https://avatars.githubusercontent.com/u/57538?u=271ddd5831a2d8a2c07f7d04b55031370ef70560&v=4",
   "bio": "\r\n    Ph.D., Software Engineer at @treasure-data\r\n",
   "company": "Treasure Data",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 593,
+      "r": 549,
       "s": 69.4
     }
   ],

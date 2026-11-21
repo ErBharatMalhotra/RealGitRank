@@ -1,19 +1,19 @@
 {
   "username": "durandtibo",
-  "rank": 133,
-  "rank_score": 83.3,
+  "rank": 180,
+  "rank_score": 79.1,
   "country": "Canada",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/9913164?u=25c3789daee37e3dd58f226d088b687d7c579db4&v=4",
   "bio": "Researcher in Computer Vision and Machine Learning.\r\n\r\nThis profile is used for personal projects/contributions",
   "company": "Borealis AI",
   "tier": "Elite",
-  "percentile": 99.7,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 133,
-      "s": 83.3
+      "r": 180,
+      "s": 79.1
     }
   ],
   "location": "Vancouver, Canada"

@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 42.57,
-  "rank_score": 61.7,
+  "rank_score": 76.8,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 979,
+  "rank": 223,
   "avatar_url": "https://avatars.githubusercontent.com/u/9072675?u=f123fa89d8fc6eb0a3058ee9ace8395295691660&v=4",
   "bio": "Head Frontend Developer @sngular \u00b7 Building agent infrastructure in the open: GDD, Kimen, Jezero, Orbit",
   "company": "@Sngular",
-  "tier": "Diamond",
-  "percentile": 97.8,
+  "tier": "Elite",
+  "percentile": 99.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 979,
-      "s": 61.7
+      "r": 223,
+      "s": 76.8
     }
   ],
   "location": "Madrid, Spain"

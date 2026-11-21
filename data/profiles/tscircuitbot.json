@@ -11,7 +11,7 @@
   "s_quality": 48.28,
   "s_impact": 0.0,
   "s_consistency": 42.54,
-  "rank_score": 76.9,
+  "rank_score": 76.8,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 234,
+  "rank": 225,
   "avatar_url": "https://avatars.githubusercontent.com/u/174540199?u=48d55f800bd19cfafb07f7ad0e6984e8fef64e54&v=4",
   "bio": "I perform operations on tscircuit repositories",
   "company": "@tscircuit ",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 234,
-      "s": 76.9
+      "r": 225,
+      "s": 76.8
     }
   ],
   "location": "San Francisco"

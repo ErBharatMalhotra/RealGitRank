@@ -11,7 +11,7 @@
   "s_quality": 41.59,
   "s_impact": 0.0,
   "s_consistency": 39.77,
-  "rank_score": 66.2,
+  "rank_score": 68.2,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 756,
+  "rank": 610,
   "avatar_url": "https://avatars.githubusercontent.com/u/460890?v=4",
   "bio": "",
   "company": "@DataArt, @vaynoeEV",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 756,
-      "s": 66.2
+      "r": 610,
+      "s": 68.2
     }
   ],
   "location": "Turkiye, Istanbul"

@@ -1,19 +1,19 @@
 {
   "username": "loftwah",
-  "rank": 439,
-  "rank_score": 71.4,
+  "rank": 627,
+  "rank_score": 67.8,
   "country": "United States",
   "primary_language": "Astro",
   "avatar_url": "https://avatars.githubusercontent.com/u/19922556?u=33abbb962da016192812b2d73ff087f274ceb327&v=4",
   "bio": "DevOps Engineer, Music Producer, and big fan of Open Source.",
   "company": "",
-  "tier": "Elite",
-  "percentile": 99.0,
+  "tier": "Diamond",
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 439,
-      "s": 71.4
+      "r": 627,
+      "s": 67.8
     }
   ],
   "location": "Melbourne, Australia"

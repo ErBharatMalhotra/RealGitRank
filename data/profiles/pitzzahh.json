@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 494,
+  "rank": 466,
   "avatar_url": "https://avatars.githubusercontent.com/u/97332554?u=5ab21e93a06f443483469d00ac71bfd8eb73543c&v=4",
   "bio": "kuder",
   "company": "@bicolit",
-  "tier": "Diamond",
-  "percentile": 98.9,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 494,
+      "r": 466,
       "s": 70.3
     }
   ],

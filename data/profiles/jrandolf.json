@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 239,
+  "rank": 229,
   "avatar_url": "https://avatars.githubusercontent.com/u/101637635?u=8529f66ed791747fd137b52fbcfc6092be5e39ec&v=4",
   "bio": "Ex-maintainer @ Puppeteer. Contributor @ Chromium, gRPC, Bazel, Emscripten, Wasmtime, SWC, and others.",
   "company": "",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 239,
+      "r": 229,
       "s": 76.7
     }
   ],

@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 41.5,
-  "rank_score": 73.0,
+  "rank_score": 80.0,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 349,
+  "rank": 161,
   "avatar_url": "https://avatars.githubusercontent.com/u/6687211?u=0ddfc1bb7108c38af21e7ee9eafda9725fa022dc&v=4",
   "bio": "Love to hack on compilers and learning machines.",
   "company": "simspace",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 349,
-      "s": 73.0
+      "r": 161,
+      "s": 80.0
     }
   ],
   "location": "Vancouver Washington"

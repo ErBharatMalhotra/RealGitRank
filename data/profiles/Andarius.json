@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 866,
+  "rank": 815,
   "avatar_url": "https://avatars.githubusercontent.com/u/5070712?u=a01df018b92369466ebdc5bc5cdfa9ac01a0eefa&v=4",
   "bio": "",
   "company": "Obitrain, Tracktor, Polarsen",
   "tier": "Diamond",
-  "percentile": 98.1,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 866,
+      "r": 815,
       "s": 64.0
     }
   ],

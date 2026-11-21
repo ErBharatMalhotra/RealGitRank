@@ -1,19 +1,19 @@
 {
   "username": "kiliantyler",
-  "rank": 619,
-  "rank_score": 69.1,
+  "rank": 722,
+  "rank_score": 65.6,
   "country": "United States",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/22827191?u=da452c12e25e76280cd394b1be4fe6fd263c1238&v=4",
   "bio": "YAML Janitor \ud83e\uddf9",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.6,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 619,
-      "s": 69.1
+      "r": 722,
+      "s": 65.6
     }
   ],
   "location": "Cleveland, Ohio, USA"

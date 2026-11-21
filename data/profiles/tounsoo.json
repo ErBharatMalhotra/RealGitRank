@@ -1,19 +1,19 @@
 {
   "username": "tounsoo",
-  "rank": 759,
-  "rank_score": 66.2,
+  "rank": 897,
+  "rank_score": 62.9,
   "country": "",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/8681348?u=24cc93b7c7cefcf95f1aacd8c1e923722108279a&v=4",
   "bio": "Staff, Design Technology, Design System @ ServiceTitan",
   "company": "@servicetitan ",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 759,
-      "s": 66.2
+      "r": 897,
+      "s": 62.9
     }
   ],
   "location": ""

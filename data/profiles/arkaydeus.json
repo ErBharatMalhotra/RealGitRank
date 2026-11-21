@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 54.66,
-  "rank_score": 65.1,
+  "rank_score": 69.6,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 810,
+  "rank": 525,
   "avatar_url": "https://avatars.githubusercontent.com/u/39967247?u=3756e269f2c68a6b96fdedaf1143747244277472&v=4",
   "bio": "UK based AI first engineer.\r\n\r\nBuilding Orkestrator - the safe, opensource coding agent orchestration platform.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 810,
-      "s": 65.1
+      "r": 525,
+      "s": 69.6
     }
   ],
   "location": ""

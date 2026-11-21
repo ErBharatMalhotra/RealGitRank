@@ -1,19 +1,19 @@
 {
   "username": "Starefossen",
-  "rank": 595,
-  "rank_score": 69.4,
+  "rank": 702,
+  "rank_score": 65.9,
   "country": "",
   "primary_language": "Shell",
   "avatar_url": "https://avatars.githubusercontent.com/u/968267?u=c1be94ca3b2506cf2ff86971452ff88a30ed96e3&v=4",
   "bio": "Platform maker, dream awaker. DadOps. DevEx & Open Source at the Norwegian Governement @nais @navikt. CNCF Ambassador, GDE Cloud, Grafana Champion",
   "company": "@nais @navikt",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 595,
-      "s": 69.4
+      "r": 702,
+      "s": 65.9
     }
   ],
   "location": "Norway"

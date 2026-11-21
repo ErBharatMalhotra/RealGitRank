@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 42.44,
-  "rank_score": 67.5,
+  "rank_score": 75.7,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 683,
+  "rank": 262,
   "avatar_url": "https://avatars.githubusercontent.com/u/52475973?u=d39674991528f5dd1f82b913f917d46b81b7d1f5&v=4",
   "bio": "Software Engineer \u00b7 Sistemas distribuidos & IA aplicada \u00b7 Inditex",
   "company": "Inditex",
-  "tier": "Diamond",
-  "percentile": 98.5,
+  "tier": "Elite",
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 683,
-      "s": 67.5
+      "r": 262,
+      "s": 75.7
     }
   ],
   "location": "Coru\u00f1a"

@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 42.83,
-  "rank_score": 101.2,
+  "rank_score": 105.4,
   "active_repos_touched": 20,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 32,
+  "rank": 24,
   "avatar_url": "https://avatars.githubusercontent.com/u/6952134?u=0267fca206131f8c34029e29530c36eea0f15dc0&v=4",
   "bio": "Tech Lead @luizalabs",
   "company": "",
@@ -31,8 +31,8 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 32,
-      "s": 101.2
+      "r": 24,
+      "s": 105.4
     }
   ],
   "location": "Franca - SP"

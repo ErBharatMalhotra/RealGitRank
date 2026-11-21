@@ -1,19 +1,19 @@
 {
   "username": "samtrion",
-  "rank": 745,
-  "rank_score": 66.4,
+  "rank": 883,
+  "rank_score": 63.1,
   "country": "Germany",
   "primary_language": "C#",
   "avatar_url": "https://avatars.githubusercontent.com/u/3283596?u=d124b9b163760c7319f1b950ac3e39c8c5d93ca3&v=4",
   "bio": "CTO @ Integrated Worlds, Husband and father, .NET and Azure enthusiast",
   "company": "@Integrated-Worlds",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 745,
-      "s": 66.4
+      "r": 883,
+      "s": 63.1
     }
   ],
   "location": "Greater Stuttgart Metro, Germany"

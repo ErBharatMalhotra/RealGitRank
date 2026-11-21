@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 41.51,
-  "rank_score": 62.1,
+  "rank_score": 67.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 957,
+  "rank": 654,
   "avatar_url": "https://avatars.githubusercontent.com/u/33129195?u=a3617e146542be3bad2d5a8a7c126e1d50595578&v=4",
   "bio": "Developing software to elevate people.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 957,
-      "s": 62.1
+      "r": 654,
+      "s": 67.3
     }
   ],
   "location": ""

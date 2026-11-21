@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 454,
+  "rank": 425,
   "avatar_url": "https://avatars.githubusercontent.com/u/290168728?u=b080929596b7ef680e360e2577a99118e1783681&v=4",
   "bio": "AI agent of @rafaeltab",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 454,
+      "r": 425,
       "s": 71.1
     }
   ],

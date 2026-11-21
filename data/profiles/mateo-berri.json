@@ -1,19 +1,19 @@
 {
   "username": "mateo-berri",
-  "rank": 748,
-  "rank_score": 66.3,
+  "rank": 887,
+  "rank_score": 63.0,
   "country": "",
   "primary_language": "Rust",
   "avatar_url": "https://avatars.githubusercontent.com/u/277851410?u=e8fc3dd0e69b78a1bd184ec6a992333442febc86&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 748,
-      "s": 66.3
+      "r": 887,
+      "s": 63.0
     }
   ],
   "location": ""

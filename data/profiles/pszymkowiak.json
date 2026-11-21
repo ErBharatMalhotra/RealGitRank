@@ -1,19 +1,19 @@
 {
   "username": "pszymkowiak",
-  "rank": 734,
-  "rank_score": 66.6,
+  "rank": 870,
+  "rank_score": 63.3,
   "country": "",
   "primary_language": "Rust",
   "avatar_url": "https://avatars.githubusercontent.com/u/52030887?u=fb24a7f3e8ccb4c6e0e171ada0bacab019927711&v=4",
   "bio": "Founder & CEO @rtk-ai \u2014 building RTK, the open-source CLI that cuts LLM token costs 60-90%. Also: kexa.io \u00b7 wshm.dev \u00b7 kscratch.app",
   "company": "rtk-ai labs",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.1,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 734,
-      "s": 66.6
+      "r": 870,
+      "s": 63.3
     }
   ],
   "location": "lille"

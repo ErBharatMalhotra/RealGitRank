@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 587,
+  "rank": 545,
   "avatar_url": "https://avatars.githubusercontent.com/u/144740362?v=4",
   "bio": "Creator of @hackerai-tech",
   "company": "HackerAI",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 587,
+      "r": 545,
       "s": 69.5
     }
   ],

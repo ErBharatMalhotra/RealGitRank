@@ -1,19 +1,19 @@
 {
   "username": "Dwarfex",
-  "rank": 356,
-  "rank_score": 73.0,
+  "rank": 560,
+  "rank_score": 69.3,
   "country": "",
   "primary_language": "PHP",
   "avatar_url": "https://avatars.githubusercontent.com/u/721721?u=af9461ff1ef337d2c15a372124abdc99f814c254&v=4",
   "bio": "",
   "company": "@Hansefit @fitbase ",
-  "tier": "Elite",
-  "percentile": 99.2,
+  "tier": "Diamond",
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 356,
-      "s": 73.0
+      "r": 560,
+      "s": 69.3
     }
   ],
   "location": "Hamburg"

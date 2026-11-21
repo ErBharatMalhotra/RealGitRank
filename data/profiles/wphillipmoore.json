@@ -1,19 +1,19 @@
 {
   "username": "wphillipmoore",
-  "rank": 98,
-  "rank_score": 86.6,
+  "rank": 143,
+  "rank_score": 82.3,
   "country": "United States",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/3788880?u=5f9230bfc420edcebb3b14539a79fe51343a7051&v=4",
   "bio": "Infrastructure engineer and software developer with several decades of Enterprise experience at global scale, passionate about solving hard problems.",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.8,
+  "percentile": 99.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 98,
-      "s": 86.6
+      "r": 143,
+      "s": 82.3
     }
   ],
   "location": " New Jersey, United States"

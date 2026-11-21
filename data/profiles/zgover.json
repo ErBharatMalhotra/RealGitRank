@@ -1,19 +1,19 @@
 {
   "username": "zgover",
-  "rank": 678,
-  "rank_score": 67.7,
+  "rank": 779,
+  "rank_score": 64.3,
   "country": "United States",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/9044773?u=ebff92f66e11cc441d782fbf04761fb6091e60bd&v=4",
   "bio": "Founder & CEO at Aglyn \u2014 open-source website platform for B2B SaaS. I write the product, price it, and sell it.",
   "company": "@aglyn",
   "tier": "Diamond",
-  "percentile": 98.5,
+  "percentile": 98.3,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 678,
-      "s": 67.7
+      "r": 779,
+      "s": 64.3
     }
   ],
   "location": "Austin, TX"

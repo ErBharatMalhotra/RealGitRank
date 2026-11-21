@@ -1,19 +1,19 @@
 {
   "username": "ntsd",
-  "rank": 762,
-  "rank_score": 66.2,
+  "rank": 900,
+  "rank_score": 62.9,
   "country": "Thailand",
   "primary_language": "JavaScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/8283616?u=92cc5e736b8ec5f5386eb5adceeceb7af6a45533&v=4",
   "bio": "Part-time Open Sourcerer \ud83e\uddd9\u200d\u2642\ufe0f\r\n",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 762,
-      "s": 66.2
+      "r": 900,
+      "s": 62.9
     }
   ],
   "location": "Thailand"

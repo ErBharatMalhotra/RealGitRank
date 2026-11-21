@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 209,
+  "rank": 196,
   "avatar_url": "https://avatars.githubusercontent.com/u/329735?u=09787057d5c0f5c1c8afbecc1ce334364b224712&v=4",
   "bio": "@haxtheweb Project lead. Penn State educator, technologist, change agent.",
   "company": "Penn State",
   "tier": "Elite",
-  "percentile": 99.5,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 209,
+      "r": 196,
       "s": 78.0
     }
   ],

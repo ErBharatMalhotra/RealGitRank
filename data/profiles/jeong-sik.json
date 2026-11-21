@@ -11,7 +11,7 @@
   "s_quality": 32.96,
   "s_impact": 0.0,
   "s_consistency": 40.37,
-  "rank_score": 84.5,
+  "rank_score": 92.5,
   "active_repos_touched": 2,
   "pr_reviews": 4,
   "issue_comments": 5,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 117,
+  "rank": 63,
   "avatar_url": "https://avatars.githubusercontent.com/u/45959991?u=08b0956755a65174b79d2249f8b0957e2477c3a2&v=4",
   "bio": "anyang sleepers",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.7,
+  "percentile": 99.9,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 117,
-      "s": 84.5
+      "r": 63,
+      "s": 92.5
     }
   ],
   "location": ""

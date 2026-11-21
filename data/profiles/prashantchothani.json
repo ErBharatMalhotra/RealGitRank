@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 490,
+  "rank": 463,
   "avatar_url": "https://avatars.githubusercontent.com/u/44523087?u=10a769a8c8658f254d6115a6fcc034ad02bea463&v=4",
   "bio": "co-founder & CEO of Travelxp, world's leading travel channel. Dev fanatic.",
   "company": "@travelxp ",
-  "tier": "Diamond",
-  "percentile": 98.9,
+  "tier": "Elite",
+  "percentile": 99.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 490,
+      "r": 463,
       "s": 70.4
     }
   ],

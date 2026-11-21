@@ -11,7 +11,7 @@
   "s_quality": 20.79,
   "s_impact": 0.0,
   "s_consistency": 84.66,
-  "rank_score": 63.2,
+  "rank_score": 63.8,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 921,
+  "rank": 833,
   "avatar_url": "https://avatars.githubusercontent.com/u/4967868?u=194401258b28543c8f2badde3a16d3981a063eab&v=4",
   "bio": "",
   "company": "Ashu Dev",
   "tier": "Diamond",
-  "percentile": 98.0,
+  "percentile": 98.2,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 921,
-      "s": 63.2
+      "r": 833,
+      "s": 63.8
     }
   ],
   "location": "France"

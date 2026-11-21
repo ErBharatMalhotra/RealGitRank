@@ -1,19 +1,19 @@
 {
   "username": "itsderek23",
-  "rank": 542,
-  "rank_score": 69.9,
+  "rank": 687,
+  "rank_score": 66.4,
   "country": "United States",
   "primary_language": "Ruby",
   "avatar_url": "https://avatars.githubusercontent.com/u/7880?u=528bb88cd684105ca552ebe301348b51c778b5ca&v=4",
   "bio": "Observability & AI",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.8,
+  "percentile": 98.5,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 542,
-      "s": 69.9
+      "r": 687,
+      "s": 66.4
     }
   ],
   "location": "San Francisco, CA"

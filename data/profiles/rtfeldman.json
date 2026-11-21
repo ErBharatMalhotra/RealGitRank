@@ -22,7 +22,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 369,
+  "rank": 368,
   "avatar_url": "https://avatars.githubusercontent.com/u/1094080?u=4bc169bcb7755f1df0b216af3f1f26911b1e4bfc&v=4",
   "bio": "Creator of the Roc programming language. Author of Elm in Action.",
   "company": "@zed-industries",
@@ -31,7 +31,7 @@
   "history": [
     {
       "d": "2026-11-21",
-      "r": 369,
+      "r": 368,
       "s": 72.7
     }
   ],

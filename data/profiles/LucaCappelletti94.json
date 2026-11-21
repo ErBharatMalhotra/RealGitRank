@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 44.71,
-  "rank_score": 70.3,
+  "rank_score": 76.0,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 492,
+  "rank": 254,
   "avatar_url": "https://avatars.githubusercontent.com/u/7738570?v=4",
   "bio": "I am but an egg \ud83e\udd5a\r\n\r\n- \"Stranger in a Strange Land\"",
   "company": "University of Fribourg",
-  "tier": "Diamond",
-  "percentile": 98.9,
+  "tier": "Elite",
+  "percentile": 99.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 492,
-      "s": 70.3
+      "r": 254,
+      "s": 76.0
     }
   ],
   "location": "Milano, Italy"

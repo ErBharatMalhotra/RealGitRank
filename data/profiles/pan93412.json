@@ -11,7 +11,7 @@
   "s_quality": 53.75,
   "s_impact": 0.0,
   "s_consistency": 41.5,
-  "rank_score": 82.0,
+  "rank_score": 79.1,
   "active_repos_touched": 5,
   "pr_reviews": 2,
   "issue_comments": 2,
@@ -22,17 +22,17 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 145,
+  "rank": 179,
   "avatar_url": "https://avatars.githubusercontent.com/u/28441561?v=4",
   "bio": "Platform Engineer at @zeabur",
   "company": "@zeabur",
   "tier": "Elite",
-  "percentile": 99.7,
+  "percentile": 99.6,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 145,
-      "s": 82.0
+      "r": 179,
+      "s": 79.1
     }
   ],
   "location": "Taiwan"

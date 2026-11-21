@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 600,
+  "rank": 557,
   "avatar_url": "https://avatars.githubusercontent.com/u/1596273?u=79f5eec0f4f77a987ae7230c0a1d67da79b74fad&v=4",
   "bio": "Software engineer, droid builder, photographer, and maker in the Bay Area. Come for the code, stay for the puns.",
   "company": "Google",
   "tier": "Diamond",
-  "percentile": 98.7,
+  "percentile": 98.8,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 600,
+      "r": 557,
       "s": 69.3
     }
   ],

@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 936,
+  "rank": 913,
   "avatar_url": "https://avatars.githubusercontent.com/u/104122869?u=05f79371e39cf403a9999452463ea629761450e9&v=4",
   "bio": "Consultant in Finance, Risk & Capital Markets | University Professor | Building practical Excel/VBA tools for real-world use in my spare time",
   "company": "",
   "tier": "Diamond",
-  "percentile": 97.9,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 936,
+      "r": 913,
       "s": 62.7
     }
   ],

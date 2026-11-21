@@ -1,19 +1,19 @@
 {
   "username": "sasan1200",
-  "rank": 379,
-  "rank_score": 72.5,
+  "rank": 570,
+  "rank_score": 68.9,
   "country": "",
   "primary_language": "Rust",
   "avatar_url": "https://avatars.githubusercontent.com/u/28139727?u=1404e76a7b121976a0742ff2e995e6c29c617301&v=4",
   "bio": "Dogfather.\r\n Button Pusher. Philanthropist.\r\n",
   "company": "",
-  "tier": "Elite",
-  "percentile": 99.2,
+  "tier": "Diamond",
+  "percentile": 98.7,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 379,
-      "s": 72.5
+      "r": 570,
+      "s": 68.9
     }
   ],
   "location": "Miami, FL"

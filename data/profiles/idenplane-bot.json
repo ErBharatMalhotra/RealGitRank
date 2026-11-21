@@ -1,19 +1,19 @@
 {
   "username": "idenplane-bot",
-  "rank": 749,
-  "rank_score": 66.3,
+  "rank": 888,
+  "rank_score": 63.0,
   "country": "",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/357740716?u=a1ef0582b95e06ace2b8b93acd4c22160b2add1b&v=4",
   "bio": "",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.4,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 749,
-      "s": 66.3
+      "r": 888,
+      "s": 63.0
     }
   ],
   "location": ""

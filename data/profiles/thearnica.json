@@ -1,19 +1,19 @@
 {
   "username": "thearnica",
-  "rank": 750,
-  "rank_score": 66.3,
+  "rank": 889,
+  "rank_score": 63.0,
   "country": "Australia",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/28553978?u=10b627e7513cda8b8f9ca1f1a95cfdfdd95d2666&v=4",
   "bio": "Mother of 3 and React developer.\r\n@thekashey's wife.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.3,
+  "percentile": 98.0,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 750,
-      "s": 66.3
+      "r": 889,
+      "s": 63.0
     }
   ],
   "location": "Sydney"

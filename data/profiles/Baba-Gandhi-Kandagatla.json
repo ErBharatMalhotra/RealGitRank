@@ -22,16 +22,16 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 807,
+  "rank": 744,
   "avatar_url": "https://avatars.githubusercontent.com/u/170008093?u=0b2e806a958a1ea727893777cd2bd121ffd1aec4&v=4",
   "bio": "Software engineer at Nasuni. I build backend services, cloud infrastructure and AI applications. Previously worked on identity systems at Eventbrite.",
   "company": "",
   "tier": "Diamond",
-  "percentile": 98.2,
+  "percentile": 98.4,
   "history": [
     {
       "d": "2026-11-21",
-      "r": 807,
+      "r": 744,
       "s": 65.2
     }
   ],
