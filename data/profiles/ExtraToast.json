@@ -1,0 +1,39 @@
+{
+  "username": "ExtraToast",
+  "country": "Netherlands",
+  "primary_language": "Go",
+  "total_pushes": 5,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 204.57,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 41.9,
+  "rank_score": 81.5,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 122,
+  "avatar_url": "https://avatars.githubusercontent.com/u/74975850?u=a146722be655837f6f4133a4578b0427255f51e9&v=4",
+  "bio": "",
+  "company": "Nedap N.V.",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 122,
+      "s": 81.5
+    }
+  ],
+  "location": "Enschede Netherlands"
+}

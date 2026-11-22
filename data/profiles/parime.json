@@ -1,0 +1,39 @@
+{
+  "username": "parime",
+  "country": "France",
+  "primary_language": "PHP",
+  "total_pushes": 10,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 193.13,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 42.2,
+  "rank_score": 74.2,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 240,
+  "avatar_url": "https://avatars.githubusercontent.com/u/80900142?v=4",
+  "bio": "Administrateur syst\u00e8mes, r\u00e9seaux et s\u00e9curit\u00e9, avec 7 ans d'exp\u00e9rience dans la construction et l'\u00e9volution du SI d'une structure de 400+ collaborateurs r\u00e9partis ",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 240,
+      "s": 74.2
+    }
+  ],
+  "location": "France"
+}

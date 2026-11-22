@@ -1,19 +1,28 @@
 {
   "username": "xuangong",
-  "rank": 574,
-  "rank_score": 68.4,
+  "rank": 678,
+  "rank_score": 65.0,
   "country": "",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/3456821?u=b0815e4ac7d944d2c6df018d00b27b235f5786c4&v=4",
   "bio": "",
   "company": "Microsoft",
-  "tier": "Diamond",
-  "percentile": 98.7,
+  "tier": "Elite",
+  "percentile": 99.2,
+  "prev_rank": 574,
+  "prev_score": 68.4,
+  "rank_delta": -104,
+  "score_delta": -3.4,
   "history": [
     {
       "d": "2026-11-21",
       "r": 574,
       "s": 68.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 678,
+      "s": 65.0
     }
   ],
   "location": ""

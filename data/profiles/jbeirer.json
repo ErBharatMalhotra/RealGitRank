@@ -1,0 +1,39 @@
+{
+  "username": "jbeirer",
+  "country": "Switzerland",
+  "primary_language": "C++",
+  "total_pushes": 2,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 43.69,
+  "rank_score": 70.0,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 398,
+  "avatar_url": "https://avatars.githubusercontent.com/u/39070576?u=be43cb25ec341715b09d31cf653c00dd677ab6fe&v=4",
+  "bio": "Staff Physicist @ CERN",
+  "company": "CERN",
+  "tier": "Elite",
+  "percentile": 99.5,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 398,
+      "s": 70.0
+    }
+  ],
+  "location": "Geneva, Switzerland"
+}

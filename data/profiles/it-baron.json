@@ -1,19 +1,28 @@
 {
   "username": "it-baron",
-  "rank": 340,
-  "rank_score": 72.7,
+  "rank": 475,
+  "rank_score": 69.1,
   "country": "",
   "primary_language": "Kotlin",
   "avatar_url": "https://avatars.githubusercontent.com/u/10120128?u=16f652041e8d6073697148a09fdab574dbd74a3e&v=4",
   "bio": "",
   "company": "Aileron Technologies",
   "tier": "Elite",
-  "percentile": 99.3,
+  "percentile": 99.5,
+  "prev_rank": 340,
+  "prev_score": 72.7,
+  "rank_delta": -135,
+  "score_delta": -3.6,
   "history": [
     {
       "d": "2026-11-21",
       "r": 340,
       "s": 72.7
+    },
+    {
+      "d": "2026-11-22",
+      "r": 475,
+      "s": 69.1
     }
   ],
   "location": "Aix-en-Provence"

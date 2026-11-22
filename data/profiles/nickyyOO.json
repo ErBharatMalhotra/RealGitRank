@@ -1,0 +1,39 @@
+{
+  "username": "nickyyOO",
+  "country": "",
+  "primary_language": "C++",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 150.33,
+  "s_quality": 32.96,
+  "s_impact": 0.0,
+  "s_consistency": 43.75,
+  "rank_score": 67.4,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 541,
+  "avatar_url": "https://avatars.githubusercontent.com/u/61278775?u=a7c1f6a739eccf5b007d72d6fcc42803ae1b5b79&v=4",
+  "bio": "DevOps Engineer",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 541,
+      "s": 67.4
+    }
+  ],
+  "location": ""
+}

@@ -1,0 +1,39 @@
+{
+  "username": "mccorvie",
+  "country": "",
+  "primary_language": "Lean",
+  "total_pushes": 13,
+  "merged_prs": 12,
+  "bot_penalty": 0.3,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 307.79,
+  "s_quality": 20.79,
+  "s_impact": 27.73,
+  "s_consistency": 41.07,
+  "rank_score": 74.7,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 21,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 229,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8967928?u=630add09f7c3d33ea05b9518fe0a729aef05e71c&v=4",
+  "bio": "probability and formalization",
+  "company": "Martingale Group LLC ",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 229,
+      "s": 74.7
+    }
+  ],
+  "location": "Oakland / Berkeley"
+}

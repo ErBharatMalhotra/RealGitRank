@@ -10,8 +10,8 @@
   "s_pr": 166.36,
   "s_quality": 32.96,
   "s_impact": 0.0,
-  "s_consistency": 67.99,
-  "rank_score": 76.7,
+  "s_consistency": 84.66,
+  "rank_score": 78.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -22,17 +22,26 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 220,
+  "rank": 160,
   "avatar_url": "https://avatars.githubusercontent.com/u/117605?v=4",
   "bio": "At Red Hat, Scott McCarty is technical product manager for the container subsystem team, which enables key product capabilities in OpenShift Container Platform ",
   "company": "Red Hat",
   "tier": "Elite",
-  "percentile": 99.5,
+  "percentile": 99.8,
+  "prev_rank": 220,
+  "prev_score": 76.7,
+  "rank_delta": 60,
+  "score_delta": 1.8,
   "history": [
     {
       "d": "2026-11-21",
       "r": 220,
       "s": 76.7
+    },
+    {
+      "d": "2026-11-22",
+      "r": 160,
+      "s": 78.5
     }
   ],
   "location": "Akron, OH"

@@ -1,19 +1,28 @@
 {
   "username": "futrime",
-  "rank": 570,
-  "rank_score": 68.8,
+  "rank": 669,
+  "rank_score": 65.4,
   "country": "China",
   "primary_language": "HTML",
   "avatar_url": "https://avatars.githubusercontent.com/u/35801754?u=3b1ebdc0f73014a69f5c0f37179baad9b49e29f1&v=4",
   "bio": "CS Ph.D. Student@THU | Research Intern@NVIDIA | ...and Hyacine is the cutest girl in the world",
   "company": "College of AI, Tsinghua University | NVIDIA Research",
-  "tier": "Diamond",
-  "percentile": 98.7,
+  "tier": "Elite",
+  "percentile": 99.2,
+  "prev_rank": 570,
+  "prev_score": 68.8,
+  "rank_delta": -99,
+  "score_delta": -3.4,
   "history": [
     {
       "d": "2026-11-21",
       "r": 570,
       "s": 68.8
+    },
+    {
+      "d": "2026-11-22",
+      "r": 669,
+      "s": 65.4
     }
   ],
   "location": "Beijing | Singapore"

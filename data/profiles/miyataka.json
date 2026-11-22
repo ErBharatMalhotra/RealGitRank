@@ -1,0 +1,39 @@
+{
+  "username": "miyataka",
+  "country": "Japan",
+  "primary_language": "Ruby",
+  "total_pushes": 1,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 131.83,
+  "s_quality": 32.96,
+  "s_impact": 0.0,
+  "s_consistency": 68.64,
+  "rank_score": 64.7,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 681,
+  "avatar_url": "https://avatars.githubusercontent.com/u/15692588?u=8c2669aa95255743663c619907c140aa0ce26236&v=4",
+  "bio": "Software engineer working with Go, Ruby/Rails, Java, JS/TS (React, Next.js, React Native), Flutter, CloudFormation, and Terraform. RISS #034430.",
+  "company": "CEO @robustengine / EM @kanmu",
+  "tier": "Elite",
+  "percentile": 99.2,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 681,
+      "s": 64.7
+    }
+  ],
+  "location": "Tokyo"
+}

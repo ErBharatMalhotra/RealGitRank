@@ -1,19 +1,28 @@
 {
   "username": "schryer",
-  "rank": 261,
-  "rank_score": 75.1,
+  "rank": 349,
+  "rank_score": 71.3,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/286830?v=4",
   "bio": "",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.4,
+  "percentile": 99.6,
+  "prev_rank": 261,
+  "prev_score": 75.1,
+  "rank_delta": -88,
+  "score_delta": -3.8,
   "history": [
     {
       "d": "2026-11-21",
       "r": 261,
       "s": 75.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 349,
+      "s": 71.3
     }
   ],
   "location": ""

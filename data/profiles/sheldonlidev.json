@@ -1,19 +1,28 @@
 {
   "username": "sheldonlidev",
-  "rank": 320,
-  "rank_score": 73.1,
+  "rank": 459,
+  "rank_score": 69.4,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/252885626?u=e448f871608ecc24be17f39954209b21fb9a39f5&v=4",
   "bio": "30\u5c81\u91cd\u65b0\u5f00\u59cb\u751f\u6d3b\u3002\u4e89\u53d6\u4ec0\u4e48\u90fd\u4f1a\u4e00\u70b9\u3002",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.3,
+  "percentile": 99.5,
+  "prev_rank": 320,
+  "prev_score": 73.1,
+  "rank_delta": -139,
+  "score_delta": -3.7,
   "history": [
     {
       "d": "2026-11-21",
       "r": 320,
       "s": 73.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 459,
+      "s": 69.4
     }
   ],
   "location": ""

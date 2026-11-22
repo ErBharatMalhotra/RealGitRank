@@ -1,19 +1,28 @@
 {
   "username": "Jubstaaa",
-  "rank": 383,
-  "rank_score": 71.8,
+  "rank": 509,
+  "rank_score": 68.2,
   "country": "Turkey",
   "primary_language": "TypeScript",
   "avatar_url": "https://avatars.githubusercontent.com/u/9998250?u=3c20174498928e0b5ba4dd3648689ad541a4c790&v=4",
   "bio": "Software engineer. I build web, mobile and desktop apps, plus open-source tools.",
   "company": "@macellan",
   "tier": "Elite",
-  "percentile": 99.2,
+  "percentile": 99.4,
+  "prev_rank": 383,
+  "prev_score": 71.8,
+  "rank_delta": -126,
+  "score_delta": -3.6,
   "history": [
     {
       "d": "2026-11-21",
       "r": 383,
       "s": 71.8
+    },
+    {
+      "d": "2026-11-22",
+      "r": 509,
+      "s": 68.2
     }
   ],
   "location": "Istanbul"

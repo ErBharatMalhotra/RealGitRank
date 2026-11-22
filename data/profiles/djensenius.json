@@ -1,0 +1,39 @@
+{
+  "username": "djensenius",
+  "country": "Canada",
+  "primary_language": "JavaScript",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 32.96,
+  "s_impact": 0.0,
+  "s_consistency": 40.0,
+  "rank_score": 72.5,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 12,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 306,
+  "avatar_url": "https://avatars.githubusercontent.com/u/782512?u=8ccb12f540d8dc536356b5e27eded9dc343e0ed8&v=4",
+  "bio": "ARTIST & PROBLEM MAKER",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 306,
+      "s": 72.5
+    }
+  ],
+  "location": "Kitchener, Ontario - Canada"
+}

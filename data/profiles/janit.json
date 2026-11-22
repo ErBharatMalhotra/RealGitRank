@@ -1,0 +1,39 @@
+{
+  "username": "janit",
+  "country": "",
+  "primary_language": "PHP",
+  "total_pushes": 9,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 48.28,
+  "s_impact": 0.0,
+  "s_consistency": 44.97,
+  "rank_score": 77.0,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 180,
+  "avatar_url": "https://avatars.githubusercontent.com/u/198965?u=eaa66e1ee0791fbc502c03769149cab3289b32aa&v=4",
+  "bio": "The dumbest guy in the room.",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 180,
+      "s": 77.0
+    }
+  ],
+  "location": ""
+}

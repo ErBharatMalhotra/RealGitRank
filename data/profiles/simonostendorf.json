@@ -1,0 +1,39 @@
+{
+  "username": "simonostendorf",
+  "country": "Germany",
+  "primary_language": "Go",
+  "total_pushes": 2,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 48.28,
+  "s_impact": 0.0,
+  "s_consistency": 46.27,
+  "rank_score": 59.6,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 942,
+  "avatar_url": "https://avatars.githubusercontent.com/u/70595012?u=615216412a8a3ed97fb8259cfd0722f764b7e1db&v=4",
+  "bio": "DevOps- and Cloud-Engineer at @StackmeisterGmbH ",
+  "company": "DevOps- and Cloud-Engineer @StackmeisterGmbH",
+  "tier": "Diamond",
+  "percentile": 98.9,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 942,
+      "s": 59.6
+    }
+  ],
+  "location": "Germany"
+}

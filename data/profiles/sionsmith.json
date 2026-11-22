@@ -1,19 +1,28 @@
 {
   "username": "sionsmith",
-  "rank": 615,
-  "rank_score": 66.1,
+  "rank": 771,
+  "rank_score": 62.8,
   "country": "United Kingdom",
   "primary_language": "PHP",
   "avatar_url": "https://avatars.githubusercontent.com/u/307475?u=2ecd53ec0298ce67c84a75289dddb33ebdab8b72&v=4",
   "bio": "Co-founder of @osodevops - The Kafka Experts\r\n",
   "company": "OSO",
-  "tier": "Diamond",
-  "percentile": 98.6,
+  "tier": "Elite",
+  "percentile": 99.1,
+  "prev_rank": 615,
+  "prev_score": 66.1,
+  "rank_delta": -156,
+  "score_delta": -3.3,
   "history": [
     {
       "d": "2026-11-21",
       "r": 615,
       "s": 66.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 771,
+      "s": 62.8
     }
   ],
   "location": "London"

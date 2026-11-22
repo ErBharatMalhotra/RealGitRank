@@ -1,0 +1,39 @@
+{
+  "username": "Ridzz05",
+  "country": "Indonesia",
+  "primary_language": "Dart",
+  "total_pushes": 2,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 84.66,
+  "rank_score": 76.1,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 195,
+  "avatar_url": "https://avatars.githubusercontent.com/u/181168359?u=52887efffd515a3c99c6cd7d271ce5d3c75ccdfd&v=4",
+  "bio": "I'm just a newbie :')",
+  "company": "@mify-id ",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 195,
+      "s": 76.1
+    }
+  ],
+  "location": "South Sumatra, Indonesia"
+}

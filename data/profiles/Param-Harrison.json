@@ -1,19 +1,28 @@
 {
   "username": "Param-Harrison",
-  "rank": 691,
-  "rank_score": 63.7,
+  "rank": 898,
+  "rank_score": 60.5,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/2607519?u=65c386ce112372022ff517505e5581f6ab6971d6&v=4",
   "bio": "Founder at @KaaS-team ",
   "company": "@learnwithparam",
-  "tier": "Diamond",
-  "percentile": 98.5,
+  "tier": "Elite",
+  "percentile": 99.0,
+  "prev_rank": 691,
+  "prev_score": 63.7,
+  "rank_delta": -207,
+  "score_delta": -3.2,
   "history": [
     {
       "d": "2026-11-21",
       "r": 691,
       "s": 63.7
+    },
+    {
+      "d": "2026-11-22",
+      "r": 898,
+      "s": 60.5
     }
   ],
   "location": "Tallinn"

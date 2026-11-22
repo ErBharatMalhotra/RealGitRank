@@ -1,19 +1,28 @@
 {
   "username": "mminjun",
-  "rank": 568,
-  "rank_score": 69.0,
+  "rank": 667,
+  "rank_score": 65.5,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/159843512?v=4",
   "bio": "",
   "company": "",
-  "tier": "Diamond",
-  "percentile": 98.8,
+  "tier": "Elite",
+  "percentile": 99.2,
+  "prev_rank": 568,
+  "prev_score": 69.0,
+  "rank_delta": -99,
+  "score_delta": -3.5,
   "history": [
     {
       "d": "2026-11-21",
       "r": 568,
       "s": 69.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 667,
+      "s": 65.5
     }
   ],
   "location": ""

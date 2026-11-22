@@ -1,19 +1,28 @@
 {
   "username": "trick77",
-  "rank": 443,
-  "rank_score": 70.3,
+  "rank": 584,
+  "rank_score": 66.8,
   "country": "",
   "primary_language": "Python",
   "avatar_url": "https://avatars.githubusercontent.com/u/1525566?v=4",
   "bio": "Live is short. Smile while you still have teeth!",
   "company": "",
   "tier": "Elite",
-  "percentile": 99.0,
+  "percentile": 99.3,
+  "prev_rank": 443,
+  "prev_score": 70.3,
+  "rank_delta": -141,
+  "score_delta": -3.5,
   "history": [
     {
       "d": "2026-11-21",
       "r": 443,
       "s": 70.3
+    },
+    {
+      "d": "2026-11-22",
+      "r": 584,
+      "s": 66.8
     }
   ],
   "location": "Schwiiz"

@@ -1,0 +1,39 @@
+{
+  "username": "dr3mro",
+  "country": "United States",
+  "primary_language": "Shell",
+  "total_pushes": 14,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 193.13,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 42.7,
+  "rank_score": 67.7,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 526,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1246089?u=3fa3e06d5f6f9478d5dc770adbe54ca2cdec6319&v=4",
+  "bio": "CS @ SNHU \u00b7 Backend & Systems Engineering \u00b7 C++ \u00b7 Java \u00b7 Python",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 526,
+      "s": 67.7
+    }
+  ],
+  "location": "Brooklyn, New York"
+}
