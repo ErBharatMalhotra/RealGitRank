@@ -50,6 +50,24 @@
       .t-gold { color: #fbbf24; } .t-silver { color: #cbd5e1; } .t-bronze { color: #d97706; }
       .move { font-size: 11px; margin-left: 6px; font-variant-numeric: tabular-nums; }
       .move.up { color: #34d399; } .move.down { color: #f87171; }
+      .details { background: none; border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 1px 8px; font: inherit; font-size: 11px; cursor: pointer; margin-left: 4px; }
+      .details:hover { border-color: var(--accent); color: var(--accent); }
+      .modal { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 16px; }
+      .modal[hidden] { display: none; }
+      .modal-backdrop { position: absolute; inset: 0; background: rgba(3, 6, 14, 0.78); }
+      .modal-card { position: relative; width: min(640px, 100%); max-height: 85vh; overflow: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 22px; box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55); }
+      .modal-x { position: absolute; top: 10px; right: 10px; background: none; border: 0; color: var(--muted); font-size: 26px; line-height: 1; cursor: pointer; padding: 4px 8px; }
+      .modal-x:hover { color: var(--ink); }
+      .modal h2 { margin: 0 0 2px; font-size: 1.4rem; }
+      .modal .muted { color: var(--muted); font-size: 13px; }
+      .modal .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin: 14px 0; }
+      .modal .metric { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+      .modal .metric b { display: block; font-size: 18px; color: var(--accent-2); }
+      .modal .metric span { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; }
+      .modal .bar { height: 6px; border-radius: 999px; background: var(--bg); overflow: hidden; margin-top: 4px; }
+      .modal .bar div { height: 100%; background: var(--accent-2); }
+      .modal .links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
+      @media (max-width: 640px) { table { font-size: 12px; } th, td { padding: 7px 5px; } .modal-card { padding: 16px; } }
     </style>
   </head>
   <body>
@@ -62,10 +80,17 @@
     </div>
     <div class="stats" id="stats">Loading...</div>
     <table id="tbl">
-      <thead><tr><th>#</th><th>User</th><th>Score</th><th>Tier</th><th>Country</th><th>Lang</th><th>PRs</th><th>Badge</th></tr></thead>
+      <thead><tr><th>#</th><th>User</th><th>Score</th><th>Tier</th><th>Country</th><th>Lang</th><th>Merges (30d)</th><th>Badge</th></tr></thead>
       <tbody id="tbody"></tbody>
     </table>
     <button class="loadmore" id="loadmore">Load more</button>
+    <div class="modal" id="modal" hidden>
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-name">
+        <button type="button" class="modal-x" id="modal-close" aria-label="Close details">×</button>
+        <div id="modal-body"></div>
+      </div>
+    </div>
     <script>
       let allData = [];
       let currentPage = 1;
@@ -82,12 +107,11 @@
         tr.dataset.u = (u.username||'').toLowerCase();
         tr.dataset.c = (u.country||'').toLowerCase();
         tr.dataset.l = (u.primary_language||'').toLowerCase();
-        const link = u.rank <= 1000 ? `/profile/${u.username}` : `/profile/?u=${encodeURIComponent(u.username)}&r=${u.rank}`;
         const delta = typeof u.rank_delta === 'number' ? u.rank_delta : 0;
         const move = delta === 0 ? '' : `<span class="move ${delta > 0 ? 'up' : 'down'}" title="vs yesterday">${delta > 0 ? '▲' : '▼'}${Math.abs(delta)}</span>`;
         const tier = u.tier ? `<span class="tier t-${String(u.tier).toLowerCase()}" title="Top ${(100 - (u.percentile || 0)).toFixed(1)}%">${u.tier}</span>` : '—';
         tr.innerHTML = `<td>${u.rank}${move}</td>
-          <td><img src="${u.avatar_url||''}" alt="" width="24" height="24" style="border-radius:50%;vertical-align:middle;margin-right:6px" onerror="this.style.display='none'" /><a href="${link}">${u.username}</a> ${u.is_human_verified?'<span title="bot signals observed and clean">✓</span>':''} ${u.is_bot_classified?'[bot]':''}</td>
+          <td><img src="${u.avatar_url||''}" alt="" width="24" height="24" style="border-radius:50%;vertical-align:middle;margin-right:6px" onerror="this.style.display='none'" /><a href="https://github.com/${u.username}" target="_blank" rel="noopener noreferrer">${u.username}</a> <button type="button" class="details" data-u="${u.username}" aria-label="Show details for ${u.username}">details</button></td>
           <td class="score">${u.rank_score}</td>
           <td>${tier}</td>
           <td>${u.country||'—'}</td>
@@ -127,6 +151,84 @@
         applyFilter();
         if (currentPage >= totalPages) loadmore.style.display = 'none';
       }
+
+      const modal = document.getElementById('modal');
+      const modalBody = document.getElementById('modal-body');
+      const modalClose = document.getElementById('modal-close');
+      let lastFocus = null;
+      let detailsSeq = 0;
+
+      const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (ch) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+      const num = (v) => (typeof v === 'number' && Number.isFinite(v) ? v.toLocaleString() : '—');
+
+      function closeDetails() {
+        if (modal.hidden) return;
+        modal.hidden = true;
+        document.body.style.overflow = '';
+        if (lastFocus && lastFocus.focus) lastFocus.focus();
+      }
+
+      function renderDetails(payload) {
+        // /api/user/<name>.json wraps the record: { generated_at, window, user: {...} }
+        const d = payload && typeof payload.user === 'object' && payload.user ? payload.user : payload;
+        const name = String(d.username || '');
+        const measured = d.measured && typeof d.measured === 'object' ? d.measured : {};
+        const pillars = [
+          ['Delivery', 'delivery', d.s_pr, 0.35],
+          ['Code health', 'code_health', d.s_quality, 0.25],
+          ['Adoption', 'adoption', d.s_impact, 0.25],
+          ['Consistency', 'consistency', d.s_consistency, 0.15],
+        ].map(([label, key, val, weight]) => {
+          const seen = typeof val === 'number' && Number.isFinite(val) && measured[key] !== false;
+          const v = seen ? Math.max(0, Math.min(100, val)) : 0;
+          return `<div style="margin:8px 0"><div style="display:flex;justify-content:space-between;font-size:13px"><span>${label} (×${weight})</span><span class="muted">${seen ? v.toFixed(1) + ' / 100' : 'not observed'}</span></div><div class="bar"><div style="width:${v}%"></div></div></div>`;
+        }).join('');
+        const merges = Array.isArray(d.counted_merges) ? d.counted_merges.slice(0, 8).map((m) =>
+          `<li><a href="https://github.com/${String(m.repo).split('/').map(encodeURIComponent).join('/')}/pulls?q=is%3Apr+is%3Amerged" target="_blank" rel="noopener noreferrer nofollow">${esc(m.repo)}</a> — ${num(m.prs)} merged PR</li>`
+        ).join('') : '';
+        const profileLink = (typeof d.rank === 'number' && d.rank <= 1000)
+          ? `<a href="/profile/${encodeURIComponent(name)}">Full profile →</a>` : '';
+        modalBody.innerHTML = `
+          <h2 id="modal-name">${esc(name)}</h2>
+          <p class="muted">${d.rank ? 'Rank #' + num(d.rank) : 'Unranked'}${d.tier ? ' · ' + esc(d.tier) : ''}${d.country ? ' · ' + esc(d.country) : ''}${d.primary_language ? ' · ' + esc(d.primary_language) : ''}</p>
+          <div class="metrics">
+            <div class="metric"><b>${num(d.rank_score)}</b><span>Score (0–1000)</span></div>
+            <div class="metric"><b>${num(d.merged_prs)}</b><span>Merged PRs (30d)</span></div>
+            <div class="metric"><b>${num(d.active_days)}</b><span>Active days</span></div>
+            <div class="metric"><b>${num(d.pr_reviews)}</b><span>Reviews</span></div>
+          </div>
+          <h3 style="margin:14px 0 4px;font-size:14px">Why this score</h3>
+          ${pillars}
+          <p class="muted" style="margin:8px 0 0">Pillars are 0–100 percentiles where observed. Missing pillars are excluded from the score, not counted as zero.</p>
+          ${merges ? `<h3 style="margin:16px 0 4px;font-size:14px">Counted merges</h3><ul style="margin:0;padding-left:18px;font-size:13px">${merges}</ul>` : ''}
+          <p class="muted" style="margin:14px 0 0">Scores are estimates from public GitHub events over a 30-day window, not a statement of fact about a person.</p>
+          <div class="links"><a href="https://github.com/${encodeURIComponent(name)}" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>${profileLink}</div>`;
+      }
+
+      async function openDetails(name) {
+        lastFocus = document.activeElement;
+        modal.hidden = false;
+        document.body.style.overflow = 'hidden';
+        modalBody.innerHTML = '<p class="muted">Loading details…</p>';
+        modalClose.focus();
+        const seq = ++detailsSeq;
+        try {
+          const res = await fetch(`/api/user/${encodeURIComponent(name)}.json`, { headers: { accept: 'application/json' } });
+          if (!res.ok) throw new Error(res.status === 404 ? 'No details found for this user.' : 'Could not load details.');
+          const data = await res.json();
+          if (seq === detailsSeq) renderDetails(data);
+        } catch (err) {
+          if (seq === detailsSeq) modalBody.innerHTML = `<p class="muted">${esc(err.message || 'Could not load details.')} <a href="https://github.com/${encodeURIComponent(name)}" target="_blank" rel="noopener noreferrer">Open GitHub →</a></p>`;
+        }
+      }
+
+      tbody.addEventListener('click', (e) => {
+        const btn = e.target.closest('button.details');
+        if (btn) { e.preventDefault(); openDetails(btn.dataset.u); }
+      });
+      modal.addEventListener('click', (e) => { if (e.target.closest('[data-close]')) closeDetails(); });
+      modalClose.addEventListener('click', closeDetails);
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDetails(); });
 
       loadmore.addEventListener('click', () => { if (currentPage < totalPages) loadPage(currentPage + 1); });
       q.addEventListener('input', applyFilter);

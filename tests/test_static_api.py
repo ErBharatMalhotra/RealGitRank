@@ -50,6 +50,18 @@ def test_compact_user_uses_default_badge_outside_top_1000():
     assert compact_user(entry(1001))["badge_url"] == f"{SITE}/badges/default.svg"
 
 
+def test_compact_user_links_outside_top_1000_to_github():
+    # Only the top 1,000 have pre-rendered profile pages; everyone else goes to GitHub.
+    record = compact_user(entry(1001))
+    assert record["profile_url"] == "https://github.com/dev1001"
+    assert compact_user(entry(1000))["profile_url"] == f"{SITE}/profile/dev1000"
+
+
+def test_compact_user_without_profile_page_links_to_github():
+    record = compact_user(entry(5), has_profile=False)
+    assert record["profile_url"] == "https://github.com/dev5"
+
+
 def test_compact_user_merges_profile_extras():
     profile = {
         "company": "Acme",
@@ -69,6 +81,14 @@ def test_build_user_includes_history():
     assert payload["snapshot_date"] == "2026-11-21"
     assert payload["user"]["history"] == profile["history"]
     assert payload["user"]["avatar_url"].startswith("https://avatars.githubusercontent.com/")
+
+
+def test_build_user_reads_counted_merges_from_profile():
+    # Evidence lives in data/profiles/<name>.json, not in the leaderboard row.
+    profile = {"counted_merges": [{"repo": "acme/app", "prs": 4}], "measured": {"delivery": True}}
+    payload = build_user(entry(3), profile, {"last_run_utc": "x"}, "2026-11-21")
+    assert payload["user"]["counted_merges"] == profile["counted_merges"]
+    assert payload["user"]["measured"] == profile["measured"]
 
 
 def test_build_leaderboard_metadata_and_count():

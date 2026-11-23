@@ -6,7 +6,8 @@ web/.astro/
 # Data intermediates
 data/raw.parquet
 data/gharchive_raw/
-data/backfill.log
+data/*.log
+web/build.log
 data/enrichment_cache.json
 data/language_cache.json
 web/public/data/

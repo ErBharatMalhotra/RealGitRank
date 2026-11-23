@@ -100,7 +100,7 @@ def badge_url(username, rank):
     return f"{SITE}/badges/default.svg"
 
 
-def compact_user(entry, profile=None, include_heavy=False):
+def compact_user(entry, profile=None, include_heavy=False, has_profile=None):
     """Project a leaderboard row (plus optional profile extras) into the public schema.
 
     Heavy free-text fields stay out of the leaderboard payload unless
@@ -127,10 +127,19 @@ def compact_user(entry, profile=None, include_heavy=False):
                 record[key] = value
         for key in USER_ONLY_FIELDS:
             value = entry.get(key)
+            if value in (None, "", [], {}):
+                value = profile.get(key)
             if value not in (None, "", [], {}):
                 record[key] = value
 
-    record["profile_url"] = f"{SITE}/profile/{username}"
+    # Pre-rendered profile pages exist only for the top 1,000; everyone else links to GitHub.
+    # ``has_profile`` lets the generator use the pages that actually exist.
+    rank = record.get("rank")
+    has_page = (isinstance(rank, int) and 1 <= rank <= COMMUNITY_PROFILE_LIMIT) if has_profile is None else bool(has_profile)
+    if has_page:
+        record["profile_url"] = f"{SITE}/profile/{username}"
+    else:
+        record["profile_url"] = f"https://github.com/{username}"
     record["badge_url"] = badge_url(username, record.get("rank"))
     record["api_url"] = f"{SITE}/api/user/{username}.json"
     return record
@@ -139,7 +148,10 @@ def compact_user(entry, profile=None, include_heavy=False):
 def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None, coverage=None):
     status = status or {}
     profiles = profiles or {}
-    users = [compact_user(u, profiles.get(u.get("username"))) for u in entries]
+    users = [
+        compact_user(u, profiles.get(u.get("username")), has_profile=u.get("username") in profiles)
+        for u in entries
+    ]
     return {
         "generated_at": status.get("last_run_utc"),
         "snapshot_date": snapshot_date,
@@ -179,7 +191,7 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None, c
 
 def build_user(entry, profile=None, status=None, snapshot_date=None):
     status = status or {}
-    record = compact_user(entry, profile, include_heavy=True)
+    record = compact_user(entry, profile, include_heavy=True, has_profile=profile is not None)
     history = (profile or {}).get("history")
     if history:
         record["history"] = history
