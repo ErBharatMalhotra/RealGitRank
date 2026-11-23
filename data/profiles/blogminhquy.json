@@ -1,0 +1,61 @@
+{
+  "username": "blogminhquy",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 17,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.69,
+  "s_quality": 50.0,
+  "s_impact": 99.94,
+  "s_consistency": 99.21,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 16,
+  "window_days": 30,
+  "rank_score": 872.6,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 6,
+  "forks_fraud_filtered": 3,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 25,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "blogminhquy/javis-os",
+      "prs": 10
+    },
+    {
+      "repo": "blogminhquy/javis-zalo",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 25,
+      "s": 872.6
+    }
+  ]
+}

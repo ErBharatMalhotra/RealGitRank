@@ -1,0 +1,61 @@
+{
+  "username": "SHORiN-KiWATA",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 29,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.55,
+  "s_quality": 50.0,
+  "s_impact": 99.86,
+  "s_consistency": 98.85,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 871.4,
+  "active_repos_touched": 12,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 7,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 109,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.8,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "miyu-agent/miyu-im",
+      "prs": 3
+    },
+    {
+      "repo": "miyu-agent/miyu-tui",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 109,
+      "s": 871.4
+    }
+  ]
+}

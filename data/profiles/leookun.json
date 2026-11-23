@@ -1,0 +1,57 @@
+{
+  "username": "leookun",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 5,
+  "merged_prs": 16,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.93,
+  "s_quality": 50.0,
+  "s_impact": 99.5,
+  "s_consistency": 97.32,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 869.5,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 2,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 263,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.5,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "baocode-dev/baocode",
+      "prs": 16
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 263,
+      "s": 869.5
+    }
+  ]
+}

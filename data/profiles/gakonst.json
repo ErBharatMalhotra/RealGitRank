@@ -1,0 +1,73 @@
+{
+  "username": "gakonst",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 41,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.69,
+  "s_quality": 50.0,
+  "s_impact": 99.69,
+  "s_consistency": 98.53,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 870.9,
+  "active_repos_touched": 17,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 8,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 5,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 146,
+  "avatar_url": "https://avatars.githubusercontent.com/u/17802178?u=415799bf0993e702ceb029e13fadb14eb79cfa0a&v=4",
+  "bio": "cto @paradigmxyz / @tempoxyz. rustacean/devtools/security/high performance. crypto 10yrs.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "nanocodexyz/nanocode",
+      "prs": 4
+    },
+    {
+      "repo": "gakonst/nanocode",
+      "prs": 1
+    },
+    {
+      "repo": "gakonst/nanocode-machines-web",
+      "prs": 1
+    },
+    {
+      "repo": "nanocodexyz/nanoeval",
+      "prs": 1
+    },
+    {
+      "repo": "tempoxyz/tempo-apps",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 146,
+      "s": 870.9
+    }
+  ]
+}

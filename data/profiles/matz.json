@@ -1,0 +1,57 @@
+{
+  "username": "matz",
+  "country": "Japan",
+  "primary_language": "Unknown",
+  "total_pushes": 6,
+  "merged_prs": 27,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.94,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.42,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 19,
+  "window_days": 30,
+  "rank_score": 870.3,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 189,
+  "avatar_url": "https://avatars.githubusercontent.com/u/30733?u=77a590bb5dddfc7e7ee0d1d058b05e0fb709653f&v=4",
+  "bio": "\r\n    \r\n",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.6,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "matz/spinel",
+      "prs": 27
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 189,
+      "s": 870.3
+    }
+  ]
+}

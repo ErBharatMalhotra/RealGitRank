@@ -1,0 +1,65 @@
+{
+  "username": "privatenumber",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 5,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 97.36,
+  "s_quality": 50.0,
+  "s_impact": 99.83,
+  "s_consistency": 96.49,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 860.1,
+  "active_repos_touched": 8,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 875,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.3,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "privatenumber/comment-mark",
+      "prs": 1
+    },
+    {
+      "repo": "privatenumber/mdeval",
+      "prs": 1
+    },
+    {
+      "repo": "privatenumber/rollup-plugin-import-trace",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 875,
+      "s": 860.1
+    }
+  ]
+}

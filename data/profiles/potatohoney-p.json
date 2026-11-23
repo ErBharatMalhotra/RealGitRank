@@ -1,0 +1,73 @@
+{
+  "username": "potatohoney-p",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 13,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.47,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 96.23,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 4,
+  "window_days": 30,
+  "rank_score": 866.4,
+  "active_repos_touched": 9,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 500,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "potatohoney-p/golden-snapshot-deltas",
+      "prs": 2
+    },
+    {
+      "repo": "potatohoney-p/pair-dataset",
+      "prs": 2
+    },
+    {
+      "repo": "potatohoney-p/spec-matrix-lab",
+      "prs": 2
+    },
+    {
+      "repo": "potatohoney-p/weasley-deepmind",
+      "prs": 1
+    },
+    {
+      "repo": "potatohoney-p/weasley-frame",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 500,
+      "s": 866.4
+    }
+  ]
+}

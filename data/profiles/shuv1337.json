@@ -1,0 +1,65 @@
+{
+  "username": "shuv1337",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 3,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.86,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 95.66,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 862.3,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 1,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 751,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.5,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "shuv1337/s2code",
+      "prs": 3
+    },
+    {
+      "repo": "shuv1337/rex-rune",
+      "prs": 1
+    },
+    {
+      "repo": "shuv1337/shuvcode",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 751,
+      "s": 862.3
+    }
+  ]
+}

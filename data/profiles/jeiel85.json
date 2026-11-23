@@ -1,0 +1,73 @@
+{
+  "username": "jeiel85",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 14,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.12,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 97.37,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 865.8,
+  "active_repos_touched": 13,
+  "pr_reviews": 2,
+  "issue_comments": 5,
+  "releases": 1,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 531,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5762382?u=96b52fca17dc7ba6921a5d90d13973078b486b95&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.9,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "jeiel85/claude-usage-tray-windows",
+      "prs": 2
+    },
+    {
+      "repo": "jeiel85/badasugi",
+      "prs": 1
+    },
+    {
+      "repo": "jeiel85/dusk-kart",
+      "prs": 1
+    },
+    {
+      "repo": "jeiel85/eiketsuden-reloaded",
+      "prs": 1
+    },
+    {
+      "repo": "jeiel85/mist-map",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 531,
+      "s": 865.8
+    }
+  ]
+}

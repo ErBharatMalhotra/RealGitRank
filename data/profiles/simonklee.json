@@ -1,0 +1,57 @@
+{
+  "username": "simonklee",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 3,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.12,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 91.66,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 858.4,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 981,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.0,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "anomalyco/opentui",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 981,
+      "s": 858.4
+    }
+  ]
+}

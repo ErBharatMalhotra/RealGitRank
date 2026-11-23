@@ -1,0 +1,65 @@
+{
+  "username": "PimpinPumpkin",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 6,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.12,
+  "s_quality": 50.0,
+  "s_impact": 99.91,
+  "s_consistency": 95.97,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 14,
+  "window_days": 30,
+  "rank_score": 865.6,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 6,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 550,
+  "avatar_url": "https://avatars.githubusercontent.com/u/16398290?u=8eb69440a9404f343a3559ac265f79546fa543c5&v=4",
+  "bio": "Pumpkinposting on GitHub",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.9,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "PimpinPumpkin/passbundle-apps",
+      "prs": 2
+    },
+    {
+      "repo": "PimpinPumpkin/passbundle-clients",
+      "prs": 2
+    },
+    {
+      "repo": "PimpinPumpkin/passbundle-server",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 550,
+      "s": 865.6
+    }
+  ]
+}

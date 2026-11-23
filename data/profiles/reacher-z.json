@@ -1,0 +1,61 @@
+{
+  "username": "reacher-z",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 4,
+  "merged_prs": 16,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.84,
+  "s_quality": 50.0,
+  "s_impact": 99.99,
+  "s_consistency": 96.35,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 23,
+  "window_days": 30,
+  "rank_score": 869.0,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 10,
+  "releases": 0,
+  "stars_fraud_filtered": 63,
+  "forks_fraud_filtered": 6,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 302,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.4,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "reacher-z/Awesome-CUA",
+      "prs": 8
+    },
+    {
+      "repo": "reacher-z/Awesome-REA",
+      "prs": 8
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 302,
+      "s": 869.0
+    }
+  ]
+}

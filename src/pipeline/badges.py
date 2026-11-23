@@ -39,7 +39,7 @@ def badge_svg(username, score=None, rank=None, verified=False, unranked=False):
         seal = f'<g transform="translate(188,12)"><circle r="8" fill="#fbbf24"/><text y="4" text-anchor="middle" font-size="11" font-weight="900" fill="#78350f">✓</text></g>'
 
     # Rank lives on the left caption line: the old overlay sat on top of the score box.
-    sub_label = "" if unranked else ("verified human" if verified else "impact index")
+    sub_label = "" if unranked else ("bot-checked" if verified else "impact index")
     if not unranked and rank:
         sub_label = f"{sub_label} · {rank_text}"
     rank_badge = ""
@@ -67,7 +67,12 @@ def badge_svg(username, score=None, rank=None, verified=False, unranked=False):
 
 
 # Generate badges ONLY for top 1000 globally (hybrid scalability)
-# Rest use default.svg (unranked) — keeps repo size manageable
+# Rest use default.svg (unranked) — keeps repo size manageable.
+# Remove badges for users who dropped out so no stale rank stays public.
+for name in os.listdir("web/public/badges"):
+    if name.endswith(".svg") and name not in ("default.svg", "_unranked.svg"):
+        os.remove(os.path.join("web/public/badges", name))
+
 top_users = sorted(lb, key=lambda x: x["rank"])[:1000]
 for u in top_users:
     svg = badge_svg(u["username"], u["rank_score"], u["rank"], u["is_human_verified"])
@@ -81,4 +86,4 @@ with open("web/public/badges/_unranked.svg", "w", encoding="utf-8") as f:
 with open("web/public/badges/default.svg", "w", encoding="utf-8") as f:
     f.write(unranked_svg)
 
-print(f"Generated {len(lb)} ranked badges + unranked template")
+print(f"Generated {len(top_users)} ranked badges + unranked template")

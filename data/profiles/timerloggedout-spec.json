@@ -1,0 +1,57 @@
+{
+  "username": "timerloggedout-spec",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 294,
+  "merged_prs": 19,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.89,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.62,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 23,
+  "window_days": 30,
+  "rank_score": 870.4,
+  "active_repos_touched": 12,
+  "pr_reviews": 1,
+  "issue_comments": 93,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 179,
+  "avatar_url": "https://avatars.githubusercontent.com/u/233432881?v=4",
+  "bio": "GitHub is from a ~ 2007 'Secret Society' Hypnotic Session (plus more like GitLab etc).\r\n1,000's && thousands MOAR projects.\r\n@Research-Astute",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.6,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "timerloggedout-spec/termux-monorepo",
+      "prs": 19
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 179,
+      "s": 870.4
+    }
+  ]
+}

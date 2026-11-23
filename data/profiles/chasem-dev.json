@@ -1,0 +1,73 @@
+{
+  "username": "chasem-dev",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 13,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.47,
+  "s_quality": 50.0,
+  "s_impact": 99.94,
+  "s_consistency": 98.54,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 18,
+  "window_days": 30,
+  "rank_score": 870.8,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 10,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 155,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "chasem-dev/colosseum-launcher",
+      "prs": 2
+    },
+    {
+      "repo": "chasem-dev/orre-launcher",
+      "prs": 2
+    },
+    {
+      "repo": "chasem-dev/sms-launcher",
+      "prs": 2
+    },
+    {
+      "repo": "chasem-dev/pkmn-colosseum",
+      "prs": 1
+    },
+    {
+      "repo": "chasem-dev/sms-pc-port",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 155,
+      "s": 870.8
+    }
+  ]
+}

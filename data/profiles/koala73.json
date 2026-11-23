@@ -1,0 +1,57 @@
+{
+  "username": "koala73",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 22,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.69,
+  "s_quality": 50.0,
+  "s_impact": 99.99,
+  "s_consistency": 99.14,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 25,
+  "window_days": 30,
+  "rank_score": 872.6,
+  "active_repos_touched": 1,
+  "pr_reviews": 32,
+  "issue_comments": 5,
+  "releases": 0,
+  "stars_fraud_filtered": 31,
+  "forks_fraud_filtered": 11,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 24,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "koala73/worldmonitor",
+      "prs": 11
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 24,
+      "s": 872.6
+    }
+  ]
+}

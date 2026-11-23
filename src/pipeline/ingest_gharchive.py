@@ -31,6 +31,7 @@ from datetime import datetime, timedelta, timezone
 from statistics import pstdev
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from rolling import write_day_shard
 
 BASE = "https://data.gharchive.org"
 
@@ -105,6 +106,8 @@ def new_user(login):
         "releases": 0,
         "stars_received": 0,
         "forks_received": 0,
+        "merged_repos": {},
+        "merged_pr_refs": [],
     }
 
 
@@ -175,6 +178,11 @@ def aggregate_events(events, agg=None):
             if action != "merged" and pr.get("merged") is not True:
                 continue
             u["merged_prs"] += 1
+            if repo_name:
+                u["merged_repos"][repo_name] = u["merged_repos"].get(repo_name, 0) + 1
+                number = payload.get("number") or pr.get("number")
+                if number and len(u["merged_pr_refs"]) < 50:
+                    u["merged_pr_refs"].append(f"{repo_name}#{int(number)}")
             owner = repo_name.split("/")[0] if repo_name and "/" in repo_name else None
             # External merges (someone else merged your PR) weigh more than self-merges.
             u["merged_pr_weighted"] += 1.0 if owner == login else 1.5
@@ -277,9 +285,9 @@ def read_events(path):
                 continue
 
 
-def ingest():
-    target = datetime.now(timezone.utc).date() - timedelta(days=1)
-    date_str = target.strftime("%Y-%m-%d")
+def ingest_day(target_date, rolling_dir="data/rolling", write_raw=True):
+    """Ingest one UTC day into a rolling shard. Returns the shard user count."""
+    date_str = target_date.strftime("%Y-%m-%d")
     print(f"Ingesting gharchive.org for {date_str} (24 hourly files)...")
 
     raw_dir = "data/gharchive_raw"
@@ -292,7 +300,7 @@ def ingest():
             files.append(p)
     print(f"Downloaded {len(files)}/24 hours")
     if not files:
-        return False
+        return 0
 
     agg = {}
     for f in files:
@@ -302,18 +310,36 @@ def ingest():
             print(f"  error processing {f}: {e}")
 
     print(f"Aggregated {len(agg)} users")
+    path, users = write_day_shard(date_str, agg, rolling_dir)
+    print(f"Rolling shard: {path} ({users} users)")
 
-    rows = build_rows(agg)
+    if write_raw:
+        rows = build_rows(agg)
+        import pyarrow as pa, pyarrow.parquet as pq
+        os.makedirs("data", exist_ok=True)
+        table = pa.Table.from_pylist(rows)
+        pq.write_table(table, "data/raw.parquet")
+        print(f"Saved {len(rows)} users to data/raw.parquet")
+    return users
 
-    import pyarrow as pa, pyarrow.parquet as pq
-    os.makedirs("data", exist_ok=True)
-    table = pa.Table.from_pylist(rows)
-    pq.write_table(table, "data/raw.parquet")
-    print(f"Saved {len(rows)} users to data/raw.parquet")
-    return True
+
+def ingest(target_date=None):
+    target = target_date or (datetime.now(timezone.utc).date() - timedelta(days=1))
+    return ingest_day(target) > 0
 
 
 if __name__ == "__main__":
-    ok = ingest()
-    if not ok:
-        sys.exit(1)
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Ingest gharchive.org into rolling shards")
+    parser.add_argument("--date", help="UTC date to ingest (YYYY-MM-DD); defaults to yesterday")
+    parser.add_argument("--days", type=int, default=1, help="Also backfill N-1 earlier days")
+    args = parser.parse_args()
+
+    end = (datetime.strptime(args.date, "%Y-%m-%d").date() if args.date
+           else datetime.now(timezone.utc).date() - timedelta(days=1))
+    for offset in range(args.days - 1, -1, -1):
+        day = end - timedelta(days=offset)
+        if ingest_day(day) == 0:
+            print(f"No data for {day}")
+    sys.exit(0)

@@ -2,38 +2,84 @@
   "username": "jayhemnani9910",
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 0,
-  "merged_prs": 2,
+  "total_pushes": 4,
+  "merged_prs": 7,
   "bot_penalty": 0.0,
-  "is_human_verified": true,
+  "bot_evidence": false,
+  "is_human_verified": false,
   "is_bot_classified": false,
-  "s_pr": 166.36,
-  "s_quality": 41.59,
-  "s_impact": 0.0,
-  "s_consistency": 44.44,
-  "rank_score": 75.3,
-  "active_repos_touched": 3,
+  "s_pr": 99.6,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 99.17,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 870.2,
+  "active_repos_touched": 25,
   "pr_reviews": 0,
-  "issue_comments": 1,
+  "issue_comments": 2,
   "releases": 0,
-  "stars_fraud_filtered": 0,
+  "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 1,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 267,
+  "rank": 201,
   "avatar_url": "https://avatars.githubusercontent.com/u/193022578?u=afa7704aac4b28f07d418753724f42c1ac92d750&v=4",
   "bio": "",
   "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.6,
   "tier": "Elite",
-  "percentile": 99.4,
-  "history": [
+  "prev_rank": 267,
+  "prev_score": 75.3,
+  "rank_delta": 66,
+  "score_delta": 794.9,
+  "counted_merges": [
     {
-      "d": "2026-11-21",
-      "r": 267,
-      "s": 75.3
+      "repo": "MHSanaei/3x-ui",
+      "prs": 1
+    },
+    {
+      "repo": "jayhemnani9910/diabetes-prediction-stacking",
+      "prs": 1
+    },
+    {
+      "repo": "jayhemnani9910/soccer-vision-research",
+      "prs": 1
+    },
+    {
+      "repo": "kiwifs/kiwifs",
+      "prs": 1
+    },
+    {
+      "repo": "lightpanda-io/browser",
+      "prs": 1
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "prs": 1
+    },
+    {
+      "repo": "umputun/spot",
+      "prs": 1
     }
   ],
-  "location": ""
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 201,
+      "s": 870.2
+    }
+  ]
 }

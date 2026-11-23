@@ -1,0 +1,81 @@
+{
+  "username": "joshuaswarren",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 62,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.76,
+  "s_quality": 50.0,
+  "s_impact": 99.72,
+  "s_consistency": 98.38,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 18,
+  "window_days": 30,
+  "rank_score": 871.0,
+  "active_repos_touched": 38,
+  "pr_reviews": 9,
+  "issue_comments": 48,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 134,
+  "avatar_url": "https://avatars.githubusercontent.com/u/816217?u=61f476946e9c0ca017a9b896af5f8621517fa97e&v=4",
+  "bio": "ML systems engineer. Omarchy M team. MLX on Linux, Apple Neural Engine, inference, compilers & developer tools. Creator of Remnic.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "joshuaswarren/omarchy-mlx",
+      "prs": 3
+    },
+    {
+      "repo": "aurora-silicon/linux",
+      "prs": 2
+    },
+    {
+      "repo": "joshuaswarren/remnic",
+      "prs": 2
+    },
+    {
+      "repo": "Immortal-Protocols/lastbook",
+      "prs": 1
+    },
+    {
+      "repo": "joshuaswarren/mil-hwx-compiler",
+      "prs": 1
+    },
+    {
+      "repo": "joshuaswarren/omarchy-ane",
+      "prs": 1
+    },
+    {
+      "repo": "joshuaswarren/omarchy-apple-dev",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 134,
+      "s": 871.0
+    }
+  ]
+}

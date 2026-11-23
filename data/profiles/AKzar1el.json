@@ -1,0 +1,85 @@
+{
+  "username": "AKzar1el",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 36,
+  "merged_prs": 25,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.93,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 98.53,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 20,
+  "window_days": 30,
+  "rank_score": 871.5,
+  "active_repos_touched": 12,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 91,
+  "avatar_url": "https://avatars.githubusercontent.com/u/104433268?u=dcb7da5bf2e3480d8dd3135b846576533c64a74a&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.8,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "AKzar1el/searcharis",
+      "prs": 6
+    },
+    {
+      "repo": "AKzar1el/mcp-geo",
+      "prs": 4
+    },
+    {
+      "repo": "AKzar1el/mcp-web-validator",
+      "prs": 4
+    },
+    {
+      "repo": "AKzar1el/mcp-gsc",
+      "prs": 3
+    },
+    {
+      "repo": "AKzar1el/nofax",
+      "prs": 3
+    },
+    {
+      "repo": "AKzar1el/a2ui-compat-lab",
+      "prs": 2
+    },
+    {
+      "repo": "AKzar1el/god-prompt",
+      "prs": 2
+    },
+    {
+      "repo": "AKzar1el/mcp-trendpulse",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 91,
+      "s": 871.5
+    }
+  ]
+}

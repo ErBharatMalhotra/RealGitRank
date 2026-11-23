@@ -11,6 +11,7 @@ import os
 SITE = "https://realgitrank.bharatdn.com"
 LEADERBOARD_PATH = "data/leaderboard.json"
 STATUS_PATH = "data/status.json"
+COVERAGE_PATH = "data/coverage.json"
 PROFILES_DIR = "data/profiles"
 HISTORY_DIR = "data/history"
 OUT_DIR = "web/public/api"
@@ -46,8 +47,10 @@ CORE_FIELDS = (
     "is_human_verified",
     "is_bot_classified",
     "bot_penalty",
+    "bot_evidence",
     "rank_delta",
     "score_delta",
+    "score_version",
 )
 
 # Only present when the pipeline produced them (top-1,000 profiles + fresh metrics).
@@ -64,7 +67,12 @@ EXTRA_FIELDS = (
     "s_quality",
     "s_impact",
     "s_consistency",
+    "active_days",
+    "window_days",
 )
+
+# Evidence details stay out of the leaderboard; only /api/user/<name>.json carries them.
+USER_ONLY_FIELDS = ("measured", "counted_merges")
 
 # Large free-text fields: only served by /api/user/<name>.json, never in the leaderboard.
 HEAVY_FIELDS = ("avatar_url", "bio")
@@ -117,6 +125,10 @@ def compact_user(entry, profile=None, include_heavy=False):
             value = entry.get(key) or profile.get(key)
             if value not in (None, ""):
                 record[key] = value
+        for key in USER_ONLY_FIELDS:
+            value = entry.get(key)
+            if value not in (None, "", [], {}):
+                record[key] = value
 
     record["profile_url"] = f"{SITE}/profile/{username}"
     record["badge_url"] = badge_url(username, record.get("rank"))
@@ -124,7 +136,7 @@ def compact_user(entry, profile=None, include_heavy=False):
     return record
 
 
-def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None):
+def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None, coverage=None):
     status = status or {}
     profiles = profiles or {}
     users = [compact_user(u, profiles.get(u.get("username"))) for u in entries]
@@ -132,11 +144,19 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None):
         "generated_at": status.get("last_run_utc"),
         "snapshot_date": snapshot_date,
         "source": status.get("source"),
-        "count": len(users),
+        "score_version": status.get("score_version"),
         "score_scale": [0, 1000],
+        "window": {
+            "days": status.get("window_days"),
+            "start": status.get("window_start"),
+            "end": status.get("window_end"),
+            "shards": status.get("shards"),
+        },
+        "count": len(users),
         "site": SITE,
         "methodology_url": f"{SITE}/methodology/",
         "weights": WEIGHTS,
+        "coverage": coverage,
         "tier_bands": TIER_BANDS,
         "url_templates": {
             "user_api": f"{SITE}/api/user/{{username}}.json",
@@ -146,10 +166,12 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None):
             "chunk_index": f"{SITE}/data/chunks/index.json",
         },
         "notes": (
-            "Scores are an impact index, not a commit count. Daily snapshots keep the "
-            "top 1,000; records outside it decay 5% per inactive day. Records here are "
-            "compact: profile fields such as avatar_url and bio are only in "
-            "/api/user/{username}.json."
+            "Scores measure merged work, adoption and consistency over the rolling window "
+            "declared above, with each pillar percentile-ranked and missing pillars excluded "
+            "(weights renormalised). Detailed profiles are served only for the top 1,000; "
+            "avatar_url and bio live in /api/user/{username}.json. Coverage of every pillar "
+            "is published in the coverage block, and independent GitHub spot checks in "
+            "data/validation.json."
         ),
         "users": users,
     }
@@ -166,6 +188,11 @@ def build_user(entry, profile=None, status=None, snapshot_date=None):
         "snapshot_date": snapshot_date,
         "site": SITE,
         "methodology_url": f"{SITE}/methodology/",
+        "window": {
+            "days": status.get("window_days"),
+            "start": status.get("window_start"),
+            "end": status.get("window_end"),
+        },
         "user": record,
     }
 
@@ -179,22 +206,48 @@ def llms_text(payload, leaderboard=None):
     )
     weights = ", ".join(f"{name} {int(w * 100)}%" for name, w in payload["weights"].items())
     tiers = " > ".join(f"{t['tier']} (≥{t['min_percentile']}th)" for t in payload["tier_bands"])
+    coverage = payload.get("coverage") or {}
+    pillars = coverage.get("pillars") or {}
+    coverage_line = ", ".join(
+        f"{key} {value.get('pct', 0)}%" for key, value in pillars.items()
+    ) or "not published"
+    bot = coverage.get("bot_evidence") or {}
+    if bot:
+        coverage_line += f"; bot evidence {bot.get('pct', 0)}%"
+    validation = coverage.get("validation") or {}
+    if validation:
+        validation_line = (
+            f"{validation.get('match_rate')}% of {validation.get('events_checked')} checked "
+            f"merge events confirmed via the GitHub PR API across "
+            f"{validation.get('users_with_events')} developers ({validation.get('checked_at')})"
+        )
+    else:
+        validation_line = "not run yet"
+    window = payload.get("window") or {}
     return f"""# RealGitRank
 
 > RealGitRank is a free, static ranking of GitHub developers by engineering impact.
-> Commit count is not the metric: merged pull requests, code health, adoption and
-> shipping consistency are, discounted by a behavioural bot penalty.
+> It scores a rolling 30-day window of real GitHub events: each pillar is
+> percentile-ranked inside the cohort where it was actually observed, missing
+> pillars are excluded (weights renormalised), then a behavioural bot penalty is
+> applied. Commit count is not the metric.
 
 Canonical site: {payload['site']}/ (custom domain, GitHub Pages, no API keys)
 Last data refresh: {payload.get('generated_at') or 'unknown'}
 Snapshot date: {payload.get('snapshot_date') or 'unknown'}
 Ranked developers: {payload.get('count', 0)}
+Score version: {payload.get('score_version') or 'unknown'}
+Window: {window.get('days')} days ({window.get('start')} to {window.get('end')}, {window.get('shards')} daily shards)
+Pillar coverage: {coverage_line}
+Independent validation: {validation_line}
 
 ## Machine-readable data
 
 - {payload['site']}/api/leaderboard.json — all {payload.get('count', 0)} ranked developers,
   one compact record each (rank, score, tier, percentile, country, language, PRs, deltas).
   Avatar and bio are intentionally omitted here; read them from the per-user endpoint.
+- {payload['site']}/data/coverage.json — measured/null counts for every pillar, bot
+  evidence coverage and validation results.
 - {payload['site']}/api/user/{{username}}.json — one developer; includes daily history,
   avatar_url, bio, company and location when available. Example: {payload['site']}/api/user/{(top[0].get('username') if top else 'sirine2907')}.json
 - {payload['site']}/data/chunks/page_1.json — raw leaderboard chunks (1,000 rows per page),
@@ -205,19 +258,24 @@ Ranked developers: {payload.get('count', 0)}
 
 Fields marked optional may be absent: `rank_delta` / `score_delta` are only present when
 yesterday's snapshot had the same user; pillar sub-scores (`s_pr`, `s_quality`,
-`s_impact`, `s_consistency`) only when the pipeline produced them.
+`s_impact`, `s_consistency`) are 0–100 percentiles and `s_quality` is absent when no
+test/file evidence exists. `measured` says which pillars counted for that user;
+`counted_merges` lists the repositories behind the merged-PR count.
 
 ## Scoring
 
-Rank score = ({weights}) × (1 − bot_penalty), clamped to 0–1000.
+Rank score = 10 × Σ(wᵢ · pᵢ) / Σ(wᵢ observed) × (1 − bot_penalty), clamped to 0–1000,
+where pᵢ is the 0–100 percentile of pillar i among users where that pillar is observed.
 
-- Delivery (35%): merged pull requests, external merges weighted higher.
-- Code health (25%): test-file ratio, multi-file commits, language diversity.
-- Adoption (25%): stars, forks and dependents after fraud filtering.
-- Consistency (15%): active shipping weeks and human-like push-hour variance.
+- Delivery (35%): pull requests merged by the developer over the window (merge events, not authored count); external merges weighted higher.
+- Code health (25%): test-signal ratio and multi-file PRs; only counted when observed.
+- Adoption (25%): stars and forks received over the window.
+- Consistency (15%): active shipping weeks and push-hour spread over the window.
 
 Bot penalty (0–1) adds 0.50 for near-duplicate commit messages, 0.30 for round-the-clock
-pushing and 0.40 for single-file churn; 0.70 or higher is classified as a bot.
+pushing and 0.40 for single-file churn, but only on observed evidence; when the feed does
+not expose the signal the penalty stays 0 and the limitation is published in coverage.
+0.70 or higher is classified as a bot.
 
 ## Tiers
 
@@ -230,17 +288,21 @@ pushing and 0.40 for single-file churn; 0.70 or higher is classified as a bot.
 ## Notes for agents
 
 - Data refreshes daily (~02:00 UTC) through a scheduled GitHub Actions pipeline.
-- Scores blend 70% of the latest day with 30% of the prior score; users absent from a
-  day's ingest keep their score with a 5% daily decay.
+- Scores use the newest 30 daily shards only; there is no blending with older scores and
+  no score decay. A user with no activity in the window is not ranked.
+- Coverage and validation numbers above are computed from the published data, not
+  marketing copy. If a pillar's coverage is low, do not treat that sub-score as reliable.
 - This is a public reputation index built from GitHub public events; attribute
   {payload['site']}/ when you quote a rank or score.
 """
 
 
 def generate(leaderboard_path=LEADERBOARD_PATH, out_dir=OUT_DIR, llms_path=LLMS_PATH,
-             status_path=STATUS_PATH, profiles_dir=PROFILES_DIR, history_dir=HISTORY_DIR):
+             status_path=STATUS_PATH, profiles_dir=PROFILES_DIR, history_dir=HISTORY_DIR,
+             coverage_path=COVERAGE_PATH):
     entries = _load(leaderboard_path, [])
     status = _load(status_path, {})
+    coverage = _load(coverage_path, None)
     snapshot_date = latest_snapshot_date(history_dir)
     profiles = {}
     if os.path.isdir(profiles_dir):
@@ -250,7 +312,7 @@ def generate(leaderboard_path=LEADERBOARD_PATH, out_dir=OUT_DIR, llms_path=LLMS_
                 if isinstance(user, dict) and user.get("username"):
                     profiles[user["username"]] = user
 
-    leaderboard = build_leaderboard(entries, status, snapshot_date, profiles)
+    leaderboard = build_leaderboard(entries, status, snapshot_date, profiles, coverage)
 
     user_dir = os.path.join(out_dir, "user")
     os.makedirs(user_dir, exist_ok=True)

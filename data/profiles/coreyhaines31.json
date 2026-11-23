@@ -1,0 +1,73 @@
+{
+  "username": "coreyhaines31",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 1,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.86,
+  "s_quality": 50.0,
+  "s_impact": 99.99,
+  "s_consistency": 98.24,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 30,
+  "window_days": 30,
+  "rank_score": 868.4,
+  "active_repos_touched": 18,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 2,
+  "stars_fraud_filtered": 93,
+  "forks_fraud_filtered": 12,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 344,
+  "avatar_url": "https://avatars.githubusercontent.com/u/34802794?u=4790cda6669a021af0bac3505162459065758a3e&v=4",
+  "bio": "Marketer \u2192 Developer \u2192 Founder. Marketing for top SaaS companies, bootstrapping my own SaaS products, and open-sourcing my skills along the way.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.3,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "coreyhaines31/endpointforms",
+      "prs": 1
+    },
+    {
+      "repo": "coreyhaines31/exhibita",
+      "prs": 1
+    },
+    {
+      "repo": "coreyhaines31/fuelgauge",
+      "prs": 1
+    },
+    {
+      "repo": "coreyhaines31/greenroom",
+      "prs": 1
+    },
+    {
+      "repo": "coreyhaines31/invoicecommand",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 344,
+      "s": 868.4
+    }
+  ]
+}

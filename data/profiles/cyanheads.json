@@ -1,0 +1,77 @@
+{
+  "username": "cyanheads",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 17,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.12,
+  "s_quality": 50.0,
+  "s_impact": 99.88,
+  "s_consistency": 99.09,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 870.3,
+  "active_repos_touched": 83,
+  "pr_reviews": 0,
+  "issue_comments": 15,
+  "releases": 1,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 2,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 191,
+  "avatar_url": "https://avatars.githubusercontent.com/u/10339515?u=4c01abceabee90f9b5a4a4861cc791a239241fa3&v=4",
+  "bio": "Building mcp-ts-core",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.6,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "cyanheads/datacite-mcp-server",
+      "prs": 1
+    },
+    {
+      "repo": "cyanheads/docgen-mcp-server",
+      "prs": 1
+    },
+    {
+      "repo": "cyanheads/eurostat-mcp-server",
+      "prs": 1
+    },
+    {
+      "repo": "cyanheads/musicbrainz-mcp-server",
+      "prs": 1
+    },
+    {
+      "repo": "cyanheads/nasa-power-mcp-server",
+      "prs": 1
+    },
+    {
+      "repo": "cyanheads/seerr-mcp-server",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 191,
+      "s": 870.3
+    }
+  ]
+}

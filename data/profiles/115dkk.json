@@ -1,0 +1,73 @@
+{
+  "username": "115dkk",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 14,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.12,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 98.94,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 869.3,
+  "active_repos_touched": 12,
+  "pr_reviews": 2,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 281,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.4,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "115dkk/Impulcifer-pip313",
+      "prs": 2
+    },
+    {
+      "repo": "115dkk/NvStrapsReBar-Tauri",
+      "prs": 1
+    },
+    {
+      "repo": "115dkk/Sound-Equalization-and-Correction-System-2R",
+      "prs": 1
+    },
+    {
+      "repo": "115dkk/make-interfaces-feel-better",
+      "prs": 1
+    },
+    {
+      "repo": "115dkk/vst-audio",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 281,
+      "s": 869.3
+    }
+  ]
+}

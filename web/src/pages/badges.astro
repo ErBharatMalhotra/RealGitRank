@@ -44,7 +44,7 @@
   <body>
     <a href="/">← Leaderboard</a>
     <h1>Real<span>Git</span>Rank badges</h1>
-    <p class="sub">Find your badge, copy the markdown, and show your verified engineering impact in your README.</p>
+    <p class="sub">Find your badge, copy the markdown, and show your 30-day engineering impact in your README. Coverage of every signal is published on the <a href="/methodology/">methodology page</a>.</p>
 
     <div class="panel">
       <label for="q">Find your GitHub username</label>
@@ -61,7 +61,7 @@
     <div class="card" id="how">
       <h2>Get your badge</h2>
       <ol>
-        <li>Get ranked: push real work to GitHub. RealGitRank scores merged PRs, code health, adoption and consistency every day — commit count alone doesn't move you.</li>
+        <li>Get ranked: push real work to GitHub. RealGitRank scores merged PRs, test/file evidence (when observed), stars/forks and consistency over a rolling 30-day window — commit count alone doesn't move you.</li>
         <li>Find your username above (or open <code>/badges/?u=your-username</code> directly) and copy the markdown snippet.</li>
         <li>Paste it in your README. The badge image refreshes with every daily snapshot.</li>
       </ol>
@@ -121,7 +121,7 @@
           <div class="card">
             <div class="card-head">
               <div class="who">${esc(user.username)}</div>
-              <div class="meta">Global rank #${esc(user.rank)} · Score ${esc(user.rank_score)}${user.is_human_verified ? ' · ✓ verified human' : ''}</div>
+              <div class="meta">Global rank #${esc(user.rank)} · Score ${esc(user.rank_score)}${user.is_human_verified ? ' · ✓ bot-checked' : ''}</div>
             </div>
             <div class="badge-preview"><img src="/badges/${encodeURIComponent(user.username)}.svg" alt="RealGitRank badge for ${esc(user.username)}" width="220" height="64" onerror="this.src='/badges/default.svg'" /></div>
             <label for="snippet">README markdown</label>

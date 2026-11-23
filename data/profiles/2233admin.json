@@ -1,0 +1,69 @@
+{
+  "username": "2233admin",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 10,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.86,
+  "s_quality": 50.0,
+  "s_impact": 99.67,
+  "s_consistency": 98.71,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 868.3,
+  "active_repos_touched": 13,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 354,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.3,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "2233admin/design-pipeline",
+      "prs": 1
+    },
+    {
+      "repo": "2233admin/qmtcli",
+      "prs": 1
+    },
+    {
+      "repo": "XartLab/KatanaUI",
+      "prs": 1
+    },
+    {
+      "repo": "XartLab/design-pipeline",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 354,
+      "s": 868.3
+    }
+  ]
+}

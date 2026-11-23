@@ -1,0 +1,93 @@
+{
+  "username": "soulteary",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 45,
+  "merged_prs": 17,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.86,
+  "s_quality": 50.0,
+  "s_impact": 99.72,
+  "s_consistency": 98.95,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 21,
+  "window_days": 30,
+  "rank_score": 872.2,
+  "active_repos_touched": 27,
+  "pr_reviews": 2,
+  "issue_comments": 6,
+  "releases": 1,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 48,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "soulteary/porter",
+      "prs": 3
+    },
+    {
+      "repo": "soulteary/herald",
+      "prs": 2
+    },
+    {
+      "repo": "soulteary/owlcron",
+      "prs": 2
+    },
+    {
+      "repo": "soulteary/GeminiDepthPort",
+      "prs": 1
+    },
+    {
+      "repo": "soulteary/canharbor",
+      "prs": 1
+    },
+    {
+      "repo": "soulteary/chameleon-desk",
+      "prs": 1
+    },
+    {
+      "repo": "soulteary/forwardauth-kit",
+      "prs": 1
+    },
+    {
+      "repo": "soulteary/gorge",
+      "prs": 1
+    },
+    {
+      "repo": "soulteary/i18n-kit",
+      "prs": 1
+    },
+    {
+      "repo": "soulteary/phorge",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 48,
+      "s": 872.2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "username": "Wolfe-Jam",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 9,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 97.36,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.58,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 861.5,
+  "active_repos_touched": 12,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 802,
+  "avatar_url": "https://avatars.githubusercontent.com/u/189686721?u=a08c74189face1ffb6ca186a77941a5fa4348d62&v=4",
+  "bio": ".FAF creator, 3x IANA. AAIF Ambassador. Community notes for github.com/mcp listings. Anthropic MCP #2759 \u00b7 Rust #1207. For hire: MCP setups & maintenance",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.4,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "Wolfe-Jam/agents-md-facts",
+      "prs": 1
+    },
+    {
+      "repo": "Wolfe-Jam/faf",
+      "prs": 1
+    },
+    {
+      "repo": "Wolfe-Jam/faf-mcp",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 802,
+      "s": 861.5
+    }
+  ]
+}

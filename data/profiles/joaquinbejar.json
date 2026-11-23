@@ -1,0 +1,77 @@
+{
+  "username": "joaquinbejar",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 11,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.26,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 96.24,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 864.6,
+  "active_repos_touched": 11,
+  "pr_reviews": 5,
+  "issue_comments": 2,
+  "releases": 1,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 605,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.8,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "joaquinbejar/arbitrage-rs",
+      "prs": 1
+    },
+    {
+      "repo": "joaquinbejar/margin-rs",
+      "prs": 1
+    },
+    {
+      "repo": "joaquinbejar/optfix",
+      "prs": 1
+    },
+    {
+      "repo": "joaquinbejar/simple_color",
+      "prs": 1
+    },
+    {
+      "repo": "joaquinbejar/tessera-rl",
+      "prs": 1
+    },
+    {
+      "repo": "quantstratum/karyos",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 605,
+      "s": 864.6
+    }
+  ]
+}

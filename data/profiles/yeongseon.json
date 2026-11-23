@@ -1,0 +1,93 @@
+{
+  "username": "yeongseon",
+  "country": "South Korea",
+  "primary_language": "Python",
+  "total_pushes": 77,
+  "merged_prs": 33,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.98,
+  "s_quality": 50.0,
+  "s_impact": 99.5,
+  "s_consistency": 98.78,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 25,
+  "window_days": 30,
+  "rank_score": 871.9,
+  "active_repos_touched": 35,
+  "pr_reviews": 8,
+  "issue_comments": 25,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 2,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 63,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8798819?u=60ae1b6e02f2a2fbdf2afa33ff135818876422fc&v=4",
+  "bio": "Cloud & Platform Engineer | Distributed Systems | Azure | Builder",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "cubrid-lab/cubrid-client",
+      "prs": 5
+    },
+    {
+      "repo": "yeongseon/azure-functions-practical-guide",
+      "prs": 5
+    },
+    {
+      "repo": "cubrid-lab/cubrid-kubernetes-operator",
+      "prs": 2
+    },
+    {
+      "repo": "cubrid-lab/pycubrid",
+      "prs": 2
+    },
+    {
+      "repo": "cubrid-lab/sqlalchemy-cubrid",
+      "prs": 2
+    },
+    {
+      "repo": "yeongseon/azure-container-apps-practical-guide",
+      "prs": 2
+    },
+    {
+      "repo": "Human-Renaissance-Academy/hra-website",
+      "prs": 1
+    },
+    {
+      "repo": "cubrid-lab/brand",
+      "prs": 1
+    },
+    {
+      "repo": "cubrid-lab/cubrid-benchmark",
+      "prs": 1
+    },
+    {
+      "repo": "cubrid-lab/cubrid-cookbook-python",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 63,
+      "s": 871.9
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "username": "langri-sha",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 10,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.31,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.31,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 867.9,
+  "active_repos_touched": 18,
+  "pr_reviews": 8,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 381,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.2,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "langri-sha/skills",
+      "prs": 3
+    },
+    {
+      "repo": "langri-sha/github",
+      "prs": 1
+    },
+    {
+      "repo": "langri-sha/langri-sha.com",
+      "prs": 1
+    },
+    {
+      "repo": "langri-sha/projen",
+      "prs": 1
+    },
+    {
+      "repo": "langri-sha/vitest",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 381,
+      "s": 867.9
+    }
+  ]
+}

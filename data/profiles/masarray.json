@@ -1,0 +1,77 @@
+{
+  "username": "masarray",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 154,
+  "merged_prs": 16,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.84,
+  "s_quality": 50.0,
+  "s_impact": 99.67,
+  "s_consistency": 98.34,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 23,
+  "window_days": 30,
+  "rank_score": 871.1,
+  "active_repos_touched": 9,
+  "pr_reviews": 2,
+  "issue_comments": 25,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 126,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "masarray/arsonmix",
+      "prs": 8
+    },
+    {
+      "repo": "masarray/ARIEC60870",
+      "prs": 3
+    },
+    {
+      "repo": "masarray/arstack61850",
+      "prs": 2
+    },
+    {
+      "repo": "masarray/arfast-sntp",
+      "prs": 1
+    },
+    {
+      "repo": "masarray/arsas",
+      "prs": 1
+    },
+    {
+      "repo": "masarray/arsee",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 126,
+      "s": 871.1
+    }
+  ]
+}

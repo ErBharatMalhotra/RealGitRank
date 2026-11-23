@@ -1,0 +1,57 @@
+{
+  "username": "zuiho-kai",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 55,
+  "merged_prs": 12,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.73,
+  "s_quality": 50.0,
+  "s_impact": 99.67,
+  "s_consistency": 99.02,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 14,
+  "window_days": 30,
+  "rank_score": 871.8,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 5,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 74,
+  "avatar_url": "https://avatars.githubusercontent.com/u/31877877?u=3e7105b52f51b17f93c06353dc446badee36bbce&v=4",
+  "bio": "focusing on backend, Reasoning acceleration system\r\n",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "zuiho-kai/bothouse",
+      "prs": 12
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 74,
+      "s": 871.8
+    }
+  ]
+}

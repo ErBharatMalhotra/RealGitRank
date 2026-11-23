@@ -1,0 +1,81 @@
+{
+  "username": "alexeygrigorev",
+  "country": "Germany",
+  "primary_language": "Unknown",
+  "total_pushes": 31,
+  "merged_prs": 16,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.89,
+  "s_quality": 50.0,
+  "s_impact": 99.91,
+  "s_consistency": 99.08,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 19,
+  "window_days": 30,
+  "rank_score": 873.0,
+  "active_repos_touched": 21,
+  "pr_reviews": 0,
+  "issue_comments": 11,
+  "releases": 0,
+  "stars_fraud_filtered": 6,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 7,
+  "avatar_url": "https://avatars.githubusercontent.com/u/875246?u=031e07800caf3dd93e6c1de3e5e4f6c14d1140e5&v=4",
+  "bio": "Running @DataTalksClub and hacking some personal projects",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "alexeygrigorev/agent-hub",
+      "prs": 8
+    },
+    {
+      "repo": "DataTalksClub/relay",
+      "prs": 3
+    },
+    {
+      "repo": "DataTalksClub/au-tomator-lambda",
+      "prs": 1
+    },
+    {
+      "repo": "DataTalksClub/dapier",
+      "prs": 1
+    },
+    {
+      "repo": "DataTalksClub/dataops",
+      "prs": 1
+    },
+    {
+      "repo": "PocketShell-io/pocketshell-core",
+      "prs": 1
+    },
+    {
+      "repo": "alexeygrigorev/agent-browser",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 7,
+      "s": 873.0
+    }
+  ]
+}

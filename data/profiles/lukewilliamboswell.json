@@ -1,0 +1,69 @@
+{
+  "username": "lukewilliamboswell",
+  "country": "United States",
+  "primary_language": "Zig",
+  "total_pushes": 13,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.86,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 95.86,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 861.5,
+  "active_repos_touched": 11,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 1,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 798,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2679227?u=934eb4f59ab80131659ed740d1c78684e08a7951&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.4,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "lukewilliamboswell/roc-automation",
+      "prs": 2
+    },
+    {
+      "repo": "lukewilliamboswell/roc-font",
+      "prs": 1
+    },
+    {
+      "repo": "lukewilliamboswell/roc-parser",
+      "prs": 1
+    },
+    {
+      "repo": "lukewilliamboswell/roc-ray",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 798,
+      "s": 861.5
+    }
+  ]
+}

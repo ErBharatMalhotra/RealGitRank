@@ -1,0 +1,81 @@
+{
+  "username": "takahirox",
+  "country": "Japan",
+  "primary_language": "Unknown",
+  "total_pushes": 4,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.69,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 99.2,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 870.5,
+  "active_repos_touched": 12,
+  "pr_reviews": 1,
+  "issue_comments": 3,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 174,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7637832?u=9c360fd403cec327be79578630935fc373e6cc88&v=4",
+  "bio": "Average level computer engineer",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "takahirox/cognix",
+      "prs": 2
+    },
+    {
+      "repo": "takahirox/my-audio-to-text",
+      "prs": 2
+    },
+    {
+      "repo": "takahirox/pcvan",
+      "prs": 2
+    },
+    {
+      "repo": "takahirox/saturn-rust",
+      "prs": 2
+    },
+    {
+      "repo": "takahirox/mmd-gltf",
+      "prs": 1
+    },
+    {
+      "repo": "takahirox/three-motionbricks",
+      "prs": 1
+    },
+    {
+      "repo": "takahirox/three-nn",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 174,
+      "s": 870.5
+    }
+  ]
+}

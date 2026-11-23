@@ -1,0 +1,81 @@
+{
+  "username": "anatolykoptev",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 10,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.47,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 98.72,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 867.9,
+  "active_repos_touched": 14,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 380,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.2,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "anatolykoptev/ox-say",
+      "prs": 2
+    },
+    {
+      "repo": "anatolykoptev/go-media",
+      "prs": 1
+    },
+    {
+      "repo": "anatolykoptev/go-scanner-core",
+      "prs": 1
+    },
+    {
+      "repo": "anatolykoptev/go-session",
+      "prs": 1
+    },
+    {
+      "repo": "anatolykoptev/ox-browser",
+      "prs": 1
+    },
+    {
+      "repo": "anatolykoptev/ox-codes",
+      "prs": 1
+    },
+    {
+      "repo": "anatolykoptev/piter-writer-pack",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 380,
+      "s": 867.9
+    }
+  ]
+}

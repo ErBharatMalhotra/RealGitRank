@@ -1,0 +1,73 @@
+{
+  "username": "henrikrexed",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 2,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.47,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 93.32,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 859.8,
+  "active_repos_touched": 6,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 896,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.2,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "henrikrexed/dynatrace-AI-Agent-Workshop",
+      "prs": 3
+    },
+    {
+      "repo": "ContentRemixer/Contentremixer",
+      "prs": 1
+    },
+    {
+      "repo": "K8squad/K8squad",
+      "prs": 1
+    },
+    {
+      "repo": "henrikrexed/Otel-Training",
+      "prs": 1
+    },
+    {
+      "repo": "henrikrexed/opentelemetry-demo-light",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 896,
+      "s": 859.8
+    }
+  ]
+}

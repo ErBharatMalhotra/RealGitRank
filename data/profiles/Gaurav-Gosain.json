@@ -1,0 +1,61 @@
+{
+  "username": "Gaurav-Gosain",
+  "country": "",
+  "primary_language": "Go",
+  "total_pushes": 36,
+  "merged_prs": 12,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.73,
+  "s_quality": 50.0,
+  "s_impact": 99.88,
+  "s_consistency": 99.05,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 19,
+  "window_days": 30,
+  "rank_score": 872.3,
+  "active_repos_touched": 6,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 8,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 40,
+  "avatar_url": "https://avatars.githubusercontent.com/u/55647468?u=1de0394982b1e0a20f42ce66108b926d049b564d&v=4",
+  "bio": "Arch BTW",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Gaurav-Gosain/tuios",
+      "prs": 9
+    },
+    {
+      "repo": "Gaurav-Gosain/tuios-docs",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 40,
+      "s": 872.3
+    }
+  ]
+}

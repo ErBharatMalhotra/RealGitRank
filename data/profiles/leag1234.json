@@ -1,0 +1,57 @@
+{
+  "username": "leag1234",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 8,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 97.36,
+  "s_quality": 50.0,
+  "s_impact": 99.79,
+  "s_consistency": 99.28,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 864.2,
+  "active_repos_touched": 6,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 643,
+  "avatar_url": "https://avatars.githubusercontent.com/u/57147261?u=d280e9c5b48683311b6f02091f9d027b873943c2&v=4",
+  "bio": "https://www.indidea.org/gael/blog/about-gael-duval/",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.7,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "leag1234/Atlas-ai-platform",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 643,
+      "s": 864.2
+    }
+  ]
+}

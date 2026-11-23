@@ -46,6 +46,9 @@ jobs:
           GH_ENRICH_TOKEN: ${{ secrets.GH_ENRICH_TOKEN }}
         run: python -c "import sys; sys.path.insert(0,'src/pipeline'); from enrich import enrich_language; enrich_language()" || echo "language enrichment skipped"
 
+      - name: Publish coverage report
+        run: python -m src.pipeline.coverage
+
       - name: Generate badges
         run: python src/pipeline/badges.py
 
@@ -53,12 +56,18 @@ jobs:
         run: python -m src.pipeline.static_api
 
       - name: Rebuild static site
+        env:
+          PUBLIC_GOATCOUNTER_CODE: ${{ vars.GOATCOUNTER_CODE }}
         run: |
           python -m src.pipeline.sitemap
           # Replace (not merge) the copied data dir so profiles for users who
           # dropped out of the top 1000 don't linger as stale public files.
           rm -rf web/public/data
-          cp -r data web/public/data
+          mkdir -p web/public/data
+          # Only public data: raw hourly downloads, rolling shards and parquet stay private.
+          rsync -a --exclude 'gharchive_raw/' --exclude 'rolling/' --exclude 'raw.parquet' \
+            --exclude 'backfill.log' --exclude 'enrichment_cache.json' --exclude 'language_cache.json' \
+            data/ web/public/data/
           python -m src.pipeline.chunks
           cd web
           npm ci

@@ -1,0 +1,69 @@
+{
+  "username": "idy",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 13,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.4,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.58,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 14,
+  "window_days": 30,
+  "rank_score": 868.6,
+  "active_repos_touched": 14,
+  "pr_reviews": 3,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 337,
+  "avatar_url": "https://avatars.githubusercontent.com/u/687349?u=587b5aa9baa3bbfc3b6ae7156a857a3fa33b6165&v=4",
+  "bio": "\u5dee\u70b9\u6ca1\u6bd5\u4e1a\u7684 HUSTer\r\n\u9ed8\u9ed8\u65e0\u95fb\u7684 ACMer/Topcoder\r\n\r\n\u5982\u4eca\u7a81\u7136\u662f\u5929\u624d\u7a0b\u5e8f\u5458\u4e86 \u54c8\u54c8",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.3,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "GizClaw/gizmoth",
+      "prs": 2
+    },
+    {
+      "repo": "idy/yesman",
+      "prs": 2
+    },
+    {
+      "repo": "GizClaw/gizos",
+      "prs": 1
+    },
+    {
+      "repo": "idy/tailrelay",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 337,
+      "s": 868.6
+    }
+  ]
+}

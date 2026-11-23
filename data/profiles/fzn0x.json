@@ -1,0 +1,73 @@
+{
+  "username": "fzn0x",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 3,
+  "merged_prs": 12,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.73,
+  "s_quality": 50.0,
+  "s_impact": 99.93,
+  "s_consistency": 98.69,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 14,
+  "window_days": 30,
+  "rank_score": 871.9,
+  "active_repos_touched": 8,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 13,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 66,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "fzn0x/mixmusic",
+      "prs": 5
+    },
+    {
+      "repo": "fzn0x/Nether",
+      "prs": 2
+    },
+    {
+      "repo": "fzn0x/getman",
+      "prs": 2
+    },
+    {
+      "repo": "fzn0x/nether",
+      "prs": 2
+    },
+    {
+      "repo": "fzn0x/jumpman",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 66,
+      "s": 871.9
+    }
+  ]
+}

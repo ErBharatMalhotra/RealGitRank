@@ -1,0 +1,77 @@
+{
+  "username": "hoanghainh1188",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 19,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.31,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 98.97,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 867.7,
+  "active_repos_touched": 14,
+  "pr_reviews": 0,
+  "issue_comments": 4,
+  "releases": 2,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 394,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.2,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "hoanghainh1188/aegis-code",
+      "prs": 2
+    },
+    {
+      "repo": "hoanghainh1188/agentic-sdlc-framework",
+      "prs": 1
+    },
+    {
+      "repo": "hoanghainh1188/governed-adlc-fw",
+      "prs": 1
+    },
+    {
+      "repo": "hoanghainh1188/komainu",
+      "prs": 1
+    },
+    {
+      "repo": "hoanghainh1188/nightowl-evals",
+      "prs": 1
+    },
+    {
+      "repo": "hoanghainh1188/scaffolding-erp",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 394,
+      "s": 867.7
+    }
+  ]
+}

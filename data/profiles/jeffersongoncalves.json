@@ -1,0 +1,93 @@
+{
+  "username": "jeffersongoncalves",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 17,
+  "merged_prs": 15,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.83,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 98.21,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 870.6,
+  "active_repos_touched": 62,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 4,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 169,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "jeffersongoncalves/filament-user",
+      "prs": 2
+    },
+    {
+      "repo": "jeffersongoncalves/cakephp-fractal-transformer-view",
+      "prs": 1
+    },
+    {
+      "repo": "jeffersongoncalves/cakephp-ldap",
+      "prs": 1
+    },
+    {
+      "repo": "jeffersongoncalves/filament-hidden-action",
+      "prs": 1
+    },
+    {
+      "repo": "jeffersongoncalves/filament-hotjar",
+      "prs": 1
+    },
+    {
+      "repo": "jeffersongoncalves/filament-metrics-fathom",
+      "prs": 1
+    },
+    {
+      "repo": "jeffersongoncalves/filament-oidc",
+      "prs": 1
+    },
+    {
+      "repo": "jeffersongoncalves/filament-skeleton",
+      "prs": 1
+    },
+    {
+      "repo": "jeffersongoncalves/filament-topbar",
+      "prs": 1
+    },
+    {
+      "repo": "jeffersongoncalves/filament-widget-configuration",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 169,
+      "s": 870.6
+    }
+  ]
+}

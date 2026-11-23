@@ -118,7 +118,7 @@
 
       function renderFromChunk(d) {
         el.innerHTML = `<h1>${esc(d.username)}</h1>
-          <p>${tierBadge(d)} ${d.is_human_verified ? '✓ Verified Human Engineer' : (d.is_bot_classified ? '🤖 Classified as bot' : 'Developer')}</p>
+          <p>${tierBadge(d)} ${d.is_human_verified ? '✓ Verified (bot signals checked)' : (d.is_bot_classified ? '🤖 Classified as bot' : (d.bot_evidence ? 'No bot signal detected' : 'Bot signals not observed'))}</p>
           ${moveText(d)}
           <img class="badge" src="/badges/${encodeURIComponent(d.username)}.svg" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
           <div class="card">
@@ -141,7 +141,7 @@
       }
 
       function renderFromProfile(d, username) {
-        el.innerHTML = `<h1>${esc(username)}</h1><p>${tierBadge(d)} ${d.is_human_verified ? '✓ Verified Human Engineer' : (d.is_bot_classified ? '🤖 Classified as bot' : 'Developer')}</p>
+        el.innerHTML = `<h1>${esc(username)}</h1><p>${tierBadge(d)} ${d.is_human_verified ? '✓ Verified (bot signals checked)' : (d.is_bot_classified ? '🤖 Classified as bot' : (d.bot_evidence ? 'No bot signal detected' : 'Bot signals not observed'))}</p>
           ${moveText(d)}
           <img class="badge" src="/badges/${encodeURIComponent(username)}.svg" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
           <div class="card"><div class="grid">

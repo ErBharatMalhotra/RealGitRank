@@ -1,0 +1,57 @@
+{
+  "username": "timemir",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 1,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.86,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 96.02,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 861.8,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 781,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.4,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "timemir/pagle-addon",
+      "prs": 5
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 781,
+      "s": 861.8
+    }
+  ]
+}

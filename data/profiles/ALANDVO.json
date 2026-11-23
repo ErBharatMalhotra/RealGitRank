@@ -1,0 +1,81 @@
+{
+  "username": "ALANDVO",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 18,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.31,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.8,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 868.6,
+  "active_repos_touched": 30,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 335,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.3,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "ALANDVO/ai-data-pipeline-alan-vo",
+      "prs": 1
+    },
+    {
+      "repo": "ALANDVO/atlas-forge-145-alan-vo",
+      "prs": 1
+    },
+    {
+      "repo": "ALANDVO/cobalt-hub-145",
+      "prs": 1
+    },
+    {
+      "repo": "ALANDVO/lumen-observatory-alan-vo",
+      "prs": 1
+    },
+    {
+      "repo": "ALANDVO/lumen-station-144-alan-vo",
+      "prs": 1
+    },
+    {
+      "repo": "ALANDVO/prism-workbench-alan-vo",
+      "prs": 1
+    },
+    {
+      "repo": "ALANDVO/signal-console-144-alan-vo",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 335,
+      "s": 868.6
+    }
+  ]
+}

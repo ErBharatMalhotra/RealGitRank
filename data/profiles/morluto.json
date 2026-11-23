@@ -1,0 +1,57 @@
+{
+  "username": "morluto",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 88,
+  "merged_prs": 32,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.96,
+  "s_quality": 50.0,
+  "s_impact": 100.0,
+  "s_consistency": 98.73,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 30,
+  "window_days": 30,
+  "rank_score": 873.0,
+  "active_repos_touched": 14,
+  "pr_reviews": 19,
+  "issue_comments": 25,
+  "releases": 0,
+  "stars_fraud_filtered": 1325,
+  "forks_fraud_filtered": 276,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 6,
+  "avatar_url": "https://avatars.githubusercontent.com/u/76467478?u=8a96c1f808f07cd860147ae4b87750aec1437ee4&v=4",
+  "bio": "member of technically staff",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "morluto/rea",
+      "prs": 32
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 6,
+      "s": 873.0
+    }
+  ]
+}

@@ -42,10 +42,17 @@ $$\text{Rank Score} = \Big[ (S_{\text{PR}} \times 0.35) + (S_{\text{Quality}} \t
 |---|---|---|---|
 | **$S_{\text{PR}}$ (Delivery)** | `PullRequestEvent` (merged = true) in internal and external repositories. | **35%** | Opening fake PRs doesn't work; only **merged code** counts. External PRs merged by *others* have higher multipliers. Self-merged PRs in owned repos are discounted. |
 | **$S_{\text{Quality}}$ (Code Health)** | Test presence (`tests/`, `spec/`), multi-file commits, languages used, CI config presence. | **25%** | Empty markdown updates and 1-line churn get zero weight. Proxied by `active_repos_touched` is NOT allowed — must measure test ratio, diff size, language diversity. |
-| **$S_{\text{Impact}}$ (Adoption)** | Organic `WatchEvent` (stars), `ForkEvent`, and downstream package dependents. | **25%** | Stargazers filtered against known star-cartel rings (graph-based). |
+| **$S_{\text{Impact}}$ (Adoption)** | Organic `WatchEvent` (stars), `ForkEvent`, and downstream package dependents. | **25%** | Stars/forks only count events inside the window; dependents are not measured yet and are excluded. |
 | **$S_{\text{Consistency}}$ (Cadence)** | Active shipping weeks per year, std-dev of push hours (human circadian cycle). | **15%** | 24/7 round-the-clock bots get flagged; healthy human workflows score highest. |
 
-All four pillars are computed in DuckDB (vectorized SQL), not pandas row-wise. Scores are percentile-normalized (z-score) rather than hard-capped at 1000.
+All four pillars are computed in DuckDB (vectorized SQL), not pandas row-wise.
+
+**Implementation status (v2):** scoring runs over a rolling 30-day window. Each
+pillar is percentile-ranked inside the cohort where it is observed and mapped to
+0–100; the composite renormalises weights over observed pillars and scales to
+0–1000. Language diversity and downstream dependents are not present in the
+events feed, so they are excluded rather than proxied. Live coverage and weekly
+GitHub validation are published on `/methodology/`.
 
 ---
 

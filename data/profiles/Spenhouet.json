@@ -1,0 +1,61 @@
+{
+  "username": "Spenhouet",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 1,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.55,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 92.71,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 859.2,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 933,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.1,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "bcked/bcked-adapters",
+      "prs": 4
+    },
+    {
+      "repo": "bcked/bcked.com",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 933,
+      "s": 859.2
+    }
+  ]
+}

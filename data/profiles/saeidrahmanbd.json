@@ -1,0 +1,57 @@
+{
+  "username": "saeidrahmanbd",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 23,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.86,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 99.4,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 868.0,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 373,
+  "avatar_url": "https://avatars.githubusercontent.com/u/298127238?u=b2aa6a0e9d2f1623ba23b6e978240e1dcc47920c&v=4",
+  "bio": "Marketing & Brand Professional | Digital Projects | Technology Enthusiast",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.3,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "saeidrahmanbd/BDIX-IPTV",
+      "prs": 5
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 373,
+      "s": 868.0
+    }
+  ]
+}

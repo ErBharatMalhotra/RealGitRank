@@ -1,0 +1,93 @@
+{
+  "username": "tamnd",
+  "country": "Vietnam",
+  "primary_language": "Unknown",
+  "total_pushes": 121,
+  "merged_prs": 71,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.99,
+  "s_quality": 50.0,
+  "s_impact": 99.87,
+  "s_consistency": 98.83,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 29,
+  "window_days": 30,
+  "rank_score": 872.9,
+  "active_repos_touched": 30,
+  "pr_reviews": 0,
+  "issue_comments": 50,
+  "releases": 11,
+  "stars_fraud_filtered": 4,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 8,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1218621?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "tamnd/rupg",
+      "prs": 11
+    },
+    {
+      "repo": "tamnd/programming",
+      "prs": 8
+    },
+    {
+      "repo": "tamnd/rukernel",
+      "prs": 8
+    },
+    {
+      "repo": "tamnd/algorithm",
+      "prs": 7
+    },
+    {
+      "repo": "tamnd/math2",
+      "prs": 7
+    },
+    {
+      "repo": "tamnd/olymmath",
+      "prs": 6
+    },
+    {
+      "repo": "tamnd/math2-agent",
+      "prs": 5
+    },
+    {
+      "repo": "tamnd/ai",
+      "prs": 3
+    },
+    {
+      "repo": "tamnd/ai-agent",
+      "prs": 3
+    },
+    {
+      "repo": "tamnd/rucc-bsd",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 8,
+      "s": 872.9
+    }
+  ]
+}

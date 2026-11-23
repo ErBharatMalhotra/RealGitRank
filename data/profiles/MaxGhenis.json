@@ -1,0 +1,85 @@
+{
+  "username": "MaxGhenis",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 84,
+  "merged_prs": 15,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.91,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 98.44,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 17,
+  "window_days": 30,
+  "rank_score": 869.1,
+  "active_repos_touched": 38,
+  "pr_reviews": 5,
+  "issue_comments": 32,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 292,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.4,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "PolicyEngine/policyengine-us",
+      "prs": 8
+    },
+    {
+      "repo": "MaxGhenis/subfleet-v2",
+      "prs": 1
+    },
+    {
+      "repo": "PolicyEngine/ai-inequality",
+      "prs": 1
+    },
+    {
+      "repo": "PolicyEngine/crossroads",
+      "prs": 1
+    },
+    {
+      "repo": "PolicyEngine/microcosm",
+      "prs": 1
+    },
+    {
+      "repo": "PolicyEngine/policybench",
+      "prs": 1
+    },
+    {
+      "repo": "PolicyEngine/policyengine-uk",
+      "prs": 1
+    },
+    {
+      "repo": "TheAxiomFoundation/.github",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 292,
+      "s": 869.1
+    }
+  ]
+}

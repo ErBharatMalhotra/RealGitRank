@@ -1,0 +1,69 @@
+{
+  "username": "RobCZart82",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 2,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.31,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 92.47,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 859.1,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 935,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.1,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "RobCZart82/yaman1x",
+      "prs": 4
+    },
+    {
+      "repo": "RobCZart82/Fluid-Juicy-SF2",
+      "prs": 1
+    },
+    {
+      "repo": "RobCZart82/SAWSTAR",
+      "prs": 1
+    },
+    {
+      "repo": "RobCZart82/Silver-K-Blue",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 935,
+      "s": 859.1
+    }
+  ]
+}

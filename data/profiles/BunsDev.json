@@ -1,0 +1,93 @@
+{
+  "username": "BunsDev",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 44,
+  "merged_prs": 18,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.94,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 98.89,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 17,
+  "window_days": 30,
+  "rank_score": 869.8,
+  "active_repos_touched": 20,
+  "pr_reviews": 3,
+  "issue_comments": 39,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 233,
+  "avatar_url": "https://avatars.githubusercontent.com/u/68980965?u=e58dc2791ab098a62f4f574a95bf0c7578e94e3b&v=4",
+  "bio": "Founder @OpenCoven and VC Moderator @TypeSafeAI \ud83c\udf38",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.5,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "OpenCoven/coven",
+      "prs": 4
+    },
+    {
+      "repo": "BunsDev/river-oaks",
+      "prs": 3
+    },
+    {
+      "repo": "OpenCoven/psyche-build",
+      "prs": 3
+    },
+    {
+      "repo": "OpenCoven/chat",
+      "prs": 2
+    },
+    {
+      "repo": "OpenCoven/coven-castles",
+      "prs": 1
+    },
+    {
+      "repo": "OpenCoven/coven-cave",
+      "prs": 1
+    },
+    {
+      "repo": "OpenCoven/coven-code",
+      "prs": 1
+    },
+    {
+      "repo": "OpenCoven/open-sesame",
+      "prs": 1
+    },
+    {
+      "repo": "OpenCoven/psyche-research",
+      "prs": 1
+    },
+    {
+      "repo": "TypeSafeAI/modex",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 233,
+      "s": 869.8
+    }
+  ]
+}

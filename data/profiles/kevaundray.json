@@ -1,0 +1,61 @@
+{
+  "username": "kevaundray",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 12,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.4,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 98.93,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 868.0,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 8,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 375,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.3,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "eth-act/fv-compiler-go",
+      "prs": 4
+    },
+    {
+      "repo": "leanEthereum/leanVM",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 375,
+      "s": 868.0
+    }
+  ]
+}

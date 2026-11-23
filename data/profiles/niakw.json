@@ -1,0 +1,69 @@
+{
+  "username": "niakw",
+  "country": "France",
+  "primary_language": "Unknown",
+  "total_pushes": 169,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.86,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 98.41,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 22,
+  "window_days": 30,
+  "rank_score": 867.6,
+  "active_repos_touched": 9,
+  "pr_reviews": 0,
+  "issue_comments": 10,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 410,
+  "avatar_url": "https://avatars.githubusercontent.com/u/240183845?u=0e2aca4d4dc02129b0e8ecfd7bbe3179f18ccc38&v=4",
+  "bio": "Software engineer & open-source builder | Emulation, AI, automation, developer tools & digital products.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.2,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "niakw/Prospero.Eden-Encore-vendor",
+      "prs": 2
+    },
+    {
+      "repo": "niakw/NiakVIO",
+      "prs": 1
+    },
+    {
+      "repo": "niakw/NiakVIO-Brain-LLM",
+      "prs": 1
+    },
+    {
+      "repo": "niakw/refrozen_ps5",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 410,
+      "s": 867.6
+    }
+  ]
+}

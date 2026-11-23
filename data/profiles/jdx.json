@@ -1,0 +1,73 @@
+{
+  "username": "jdx",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 68,
+  "merged_prs": 20,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.9,
+  "s_quality": 50.0,
+  "s_impact": 99.98,
+  "s_consistency": 98.31,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 27,
+  "window_days": 30,
+  "rank_score": 872.1,
+  "active_repos_touched": 15,
+  "pr_reviews": 49,
+  "issue_comments": 0,
+  "releases": 1,
+  "stars_fraud_filtered": 29,
+  "forks_fraud_filtered": 4,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 55,
+  "avatar_url": "https://avatars.githubusercontent.com/u/216188?u=6659f502cebaf7b75fd5e20ceba4bdb3f68ef67a&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "jdx/jouet",
+      "prs": 10
+    },
+    {
+      "repo": "jdx/mise",
+      "prs": 7
+    },
+    {
+      "repo": "aubepkg/aube",
+      "prs": 1
+    },
+    {
+      "repo": "jdx/communique",
+      "prs": 1
+    },
+    {
+      "repo": "jdx/mr-boxington",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 55,
+      "s": 872.1
+    }
+  ]
+}

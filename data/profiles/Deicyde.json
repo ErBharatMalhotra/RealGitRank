@@ -1,0 +1,69 @@
+{
+  "username": "Deicyde",
+  "country": "United States",
+  "primary_language": "Lean",
+  "total_pushes": 51,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.66,
+  "s_quality": 50.0,
+  "s_impact": 99.79,
+  "s_consistency": 98.88,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 18,
+  "window_days": 30,
+  "rank_score": 871.6,
+  "active_repos_touched": 12,
+  "pr_reviews": 0,
+  "issue_comments": 19,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 89,
+  "avatar_url": "https://avatars.githubusercontent.com/u/37917934?u=e2b6f8c120e8b7883eb481c962f6904443c55125&v=4",
+  "bio": "Graduate student of mathematics at Stony Brook University. BS in Mathematics and Computer Science.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.8,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "facebookresearch/autoform-bot",
+      "prs": 5
+    },
+    {
+      "repo": "Deicyde/WikiLean",
+      "prs": 1
+    },
+    {
+      "repo": "Deicyde/diophantine-z-q",
+      "prs": 1
+    },
+    {
+      "repo": "Deicyde/trough",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 89,
+      "s": 871.6
+    }
+  ]
+}

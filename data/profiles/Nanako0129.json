@@ -1,0 +1,65 @@
+{
+  "username": "Nanako0129",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 22,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.86,
+  "s_quality": 50.0,
+  "s_impact": 99.81,
+  "s_consistency": 98.35,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 868.1,
+  "active_repos_touched": 10,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 1,
+  "stars_fraud_filtered": 5,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 370,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.3,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Nanako0129/shanjie",
+      "prs": 3
+    },
+    {
+      "repo": "Nanako0129/Syrtis-Windows",
+      "prs": 1
+    },
+    {
+      "repo": "Nanako0129/sepia",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 370,
+      "s": 868.1
+    }
+  ]
+}

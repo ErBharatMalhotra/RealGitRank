@@ -1,0 +1,89 @@
+{
+  "username": "dirkwa",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 24,
+  "merged_prs": 12,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.8,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.2,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 869.4,
+  "active_repos_touched": 31,
+  "pr_reviews": 8,
+  "issue_comments": 11,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 266,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.5,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "dirkwa/signalk-charts-provider-simple",
+      "prs": 2
+    },
+    {
+      "repo": "dirkwa/signalk-history-widgets",
+      "prs": 2
+    },
+    {
+      "repo": "dirkwa/signalk-multihelm",
+      "prs": 2
+    },
+    {
+      "repo": "SignalK/tracks",
+      "prs": 1
+    },
+    {
+      "repo": "dirkwa/espos-ble-gateway",
+      "prs": 1
+    },
+    {
+      "repo": "dirkwa/espos-zigbee-coordinator",
+      "prs": 1
+    },
+    {
+      "repo": "hoeken/signalk-container-helper",
+      "prs": 1
+    },
+    {
+      "repo": "motamman/signalk-weather-router-plus",
+      "prs": 1
+    },
+    {
+      "repo": "sailingnaturali/claude-skills",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 266,
+      "s": 869.4
+    }
+  ]
+}

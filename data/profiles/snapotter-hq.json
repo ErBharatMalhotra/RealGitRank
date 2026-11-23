@@ -1,0 +1,57 @@
+{
+  "username": "snapotter-hq",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 17,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.31,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 98.58,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 869.4,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 270,
+  "avatar_url": "https://avatars.githubusercontent.com/u/278713115?u=c1c61a4437a6b5d2c17aeba09385495381f62c28&v=4",
+  "bio": " Self-hosted file toolkit. 200+ tools for Images, PDF, Video, Audio, and Files. AI tools when needed, open source. Your files stay yours.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.5,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "snapotter-hq/SnapOtter",
+      "prs": 7
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 270,
+      "s": 869.4
+    }
+  ]
+}

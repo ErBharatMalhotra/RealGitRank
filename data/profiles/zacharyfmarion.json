@@ -1,0 +1,57 @@
+{
+  "username": "zacharyfmarion",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 13,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.3,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 95.28,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 860.9,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 835,
+  "avatar_url": "https://avatars.githubusercontent.com/u/9957046?u=762c6e0ed732c59fa4c3a797bfde35b667a5ed94&v=4",
+  "bio": "Staff Software Engineer at Coinbase. React native performance enthusiast",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.3,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "zacharyfmarion/ori-studio",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 835,
+      "s": 860.9
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "username": "tmcleroy",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 7,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.3,
+  "s_quality": 50.0,
+  "s_impact": 99.93,
+  "s_consistency": 98.41,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 14,
+  "window_days": 30,
+  "rank_score": 866.5,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 6,
+  "forks_fraud_filtered": 2,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 494,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "tmcleroy/cps2recomp",
+      "prs": 2
+    },
+    {
+      "repo": "tmcleroy/fighters-megamix-recomp",
+      "prs": 1
+    },
+    {
+      "repo": "tmcleroy/sf3comp",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 494,
+      "s": 866.5
+    }
+  ]
+}

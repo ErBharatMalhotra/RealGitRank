@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>RealGitRank — Engineering Impact Leaderboard</title>
-    <meta name="description" content="Commit count measures typing speed. RealGitRank measures engineering impact. Anti-bot GitHub developer ranking with merged PR validation." />
+    <meta name="description" content="Commit count measures typing speed. RealGitRank ranks merged work, adoption and consistency over a rolling 30-day window, with published pillar coverage and independent validation." />
     <link rel="canonical" href="https://realgitrank.bharatdn.com/" />
     <meta property="og:title" content="RealGitRank — Engineering Impact Leaderboard" />
     <meta property="og:description" content="Commit count measures typing speed. RealGitRank measures engineering impact." />
@@ -13,6 +13,9 @@
     <meta property="og:url" content="https://realgitrank.bharatdn.com/" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="sitemap" href="/sitemap.xml" />
+    {import.meta.env.PUBLIC_GOATCOUNTER_CODE && (
+      <script is:inline async src="https://gc.zgo.at/count.js" data-goatcounter={`https://${import.meta.env.PUBLIC_GOATCOUNTER_CODE}.goatcounter.com/count`}></script>
+    )}
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"WebSite","name":"RealGitRank","url":"https://realgitrank.bharatdn.com/","description":"Anti-bot GitHub developer ranking engine"}
     </script>
@@ -51,7 +54,7 @@
   </head>
   <body>
     <h1>Real<span>Git</span>Rank</h1>
-    <p class="sub">Commit count measures typing speed. RealGitRank measures engineering impact. <span id="total">Loading...</span> developers ranked worldwide. <a href="/countries">🌍 Countries & Worldwide →</a> · <a href="/badges/">🏅 README badges →</a> · <a href="/methodology/">📐 Methodology & API →</a></p>
+    <p class="sub">Commit count measures typing speed. RealGitRank scores a rolling 30-day window of merged work, adoption and consistency. <span id="total">Loading...</span> developers ranked worldwide. <a href="/countries">🌍 Countries & Worldwide →</a> · <a href="/badges/">🏅 README badges →</a> · <a href="/methodology/">📐 Methodology, coverage & API →</a></p>
     <div class="controls">
       <input id="q" type="text" placeholder="Search username, country, language..." />
       <select id="country"><option value="">All countries</option></select>
@@ -84,7 +87,7 @@
         const move = delta === 0 ? '' : `<span class="move ${delta > 0 ? 'up' : 'down'}" title="vs yesterday">${delta > 0 ? '▲' : '▼'}${Math.abs(delta)}</span>`;
         const tier = u.tier ? `<span class="tier t-${String(u.tier).toLowerCase()}" title="Top ${(100 - (u.percentile || 0)).toFixed(1)}%">${u.tier}</span>` : '—';
         tr.innerHTML = `<td>${u.rank}${move}</td>
-          <td><img src="${u.avatar_url||''}" alt="" width="24" height="24" style="border-radius:50%;vertical-align:middle;margin-right:6px" onerror="this.style.display='none'" /><a href="${link}">${u.username}</a> ${u.is_human_verified?'✓':''} ${u.is_bot_classified?'[bot]':''}</td>
+          <td><img src="${u.avatar_url||''}" alt="" width="24" height="24" style="border-radius:50%;vertical-align:middle;margin-right:6px" onerror="this.style.display='none'" /><a href="${link}">${u.username}</a> ${u.is_human_verified?'<span title="bot signals observed and clean">✓</span>':''} ${u.is_bot_classified?'[bot]':''}</td>
           <td class="score">${u.rank_score}</td>
           <td>${tier}</td>
           <td>${u.country||'—'}</td>

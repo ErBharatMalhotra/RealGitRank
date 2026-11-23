@@ -1,0 +1,93 @@
+{
+  "username": "lalalune",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 118,
+  "merged_prs": 122,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 100.0,
+  "s_quality": 50.0,
+  "s_impact": 99.89,
+  "s_consistency": 98.37,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 26,
+  "window_days": 30,
+  "rank_score": 872.3,
+  "active_repos_touched": 17,
+  "pr_reviews": 8,
+  "issue_comments": 43,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 4,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 35,
+  "avatar_url": "https://avatars.githubusercontent.com/u/18633264?u=e2e906c3712c2506ebfa98df01c2cfdc50050b30&v=4",
+  "bio": "Creator of elizaOS",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "lalalune/hyperliquid-source",
+      "prs": 48
+    },
+    {
+      "repo": "lalalune/pumpfun-source",
+      "prs": 25
+    },
+    {
+      "repo": "elizaOS/eliza",
+      "prs": 14
+    },
+    {
+      "repo": "SlopDotCash/slopdotcash",
+      "prs": 12
+    },
+    {
+      "repo": "SlopDotCash/proximityprize",
+      "prs": 7
+    },
+    {
+      "repo": "eliza-research/alpha",
+      "prs": 7
+    },
+    {
+      "repo": "SlopDotCash/asi",
+      "prs": 4
+    },
+    {
+      "repo": "eliza-research/thenetwork",
+      "prs": 2
+    },
+    {
+      "repo": "eliza-research/alphaphone",
+      "prs": 1
+    },
+    {
+      "repo": "lalalune/vibespec-starter",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 35,
+      "s": 872.3
+    }
+  ]
+}

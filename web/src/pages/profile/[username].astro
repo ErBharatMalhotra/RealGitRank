@@ -38,6 +38,9 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
     <title>{username} — RealGitRank</title>
     <meta name="description" content={`RealGitRank profile for ${username}: score ${data.rank_score}, rank #${data.rank}.`} />
     <link rel="canonical" href={`https://realgitrank.bharatdn.com/profile/${username}`} />
+    {import.meta.env.PUBLIC_GOATCOUNTER_CODE && (
+      <script is:inline async src="https://gc.zgo.at/count.js" data-goatcounter={`https://${import.meta.env.PUBLIC_GOATCOUNTER_CODE}.goatcounter.com/count`}></script>
+    )}
     <meta property="og:title" content={`${username} — RealGitRank`} />
     <meta property="og:description" content={`RealGitRank score ${data.rank_score}, rank #${data.rank}`} />
     <meta property="og:image" content={`https://realgitrank.bharatdn.com/badges/${username}.svg`} />
@@ -79,7 +82,7 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
     </div>
     <p>
       {data.tier && <span class={`tier t-${tierClass}`} title={typeof data.percentile === 'number' ? `Ahead of ${data.percentile}% of ranked developers` : ''}>{data.tier}</span>}
-      {data.is_human_verified ? '✓ Verified Human Engineer' : (data.is_bot_classified ? '🤖 Classified as bot' : 'Developer')}
+      {data.is_human_verified ? '✓ Verified (bot signals checked)' : (data.is_bot_classified ? '🤖 Classified as bot' : (data.bot_evidence ? 'No bot signal detected' : 'Bot signals not observed'))}
     </p>
     {(typeof data.score_delta === 'number' || typeof data.rank_delta === 'number') && (
       <p class="movement">
@@ -100,7 +103,8 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
         <div class="stat"><div class="label">Percentile</div><div class="val">{typeof data.percentile === 'number' ? `${data.percentile}` : '—'}</div></div>
         <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">{data.country || '—'}</div></div>
         <div class="stat"><div class="label">Company</div><div class="val" style="font-size:14px">{data.company || '—'}</div></div>
-        <div class="stat"><div class="label">Merged PRs</div><div class="val">{data.merged_prs}</div></div>
+        <div class="stat"><div class="label">Merged PRs ({data.window_days || 30}-day window)</div><div class="val">{data.merged_prs}</div></div>
+        <div class="stat"><div class="label">Active days</div><div class="val">{data.active_days || '—'}</div></div>
         <div class="stat"><div class="label">PR Reviews</div><div class="val">{data.pr_reviews || 0}</div></div>
         <div class="stat"><div class="label">Issue Comments</div><div class="val">{data.issue_comments || 0}</div></div>
         <div class="stat"><div class="label">Releases</div><div class="val">{data.releases || 0}</div></div>
@@ -124,21 +128,36 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
     <div class="card">
       <h3>Pillar Breakdown</h3>
       {[
-        ['Delivery (PRs)', data.s_pr, 0.35],
-        ['Code Health', data.s_quality, 0.25],
-        ['Adoption (Impact)', data.s_impact, 0.25],
-        ['Consistency (Cadence)', data.s_consistency, 0.15],
-      ].map(([name, val, w]) => {
-        // Carried-over users can enter the top 1,000 without fresh pillar metrics.
+        ['Delivery (PRs)', 'delivery', data.s_pr, 0.35],
+        ['Code Health', 'code_health', data.s_quality, 0.25],
+        ['Adoption (Impact)', 'adoption', data.s_impact, 0.25],
+        ['Consistency (Cadence)', 'consistency', data.s_consistency, 0.15],
+      ].map(([name, key, val, w]) => {
+        const measured = data.measured ? data.measured[key] !== false : typeof val === 'number';
         const v = typeof val === 'number' && Number.isFinite(val) ? val : 0;
         return (
           <div style="margin:8px 0">
-            <div style="display:flex;justify-content:space-between;font-size:13px"><span>{name} (×{w})</span><span>{v.toFixed(1)}</span></div>
-            <div class="bar"><div style={`width:${Math.min(100, v/3)}%`}></div></div>
+            <div style="display:flex;justify-content:space-between;font-size:13px">
+              <span>{name} (×{w})</span>
+              <span>{measured ? `${v.toFixed(1)} / 100` : 'not observed'}</span>
+            </div>
+            <div class="bar"><div style={`width:${measured ? Math.min(100, v) : 0}%`}></div></div>
           </div>
         );
       })}
+      <p class="note" style="color:var(--muted);font-size:12px;margin:10px 0 0">Pillars are 0–100 percentiles inside the cohort where they were observed. Missing pillars are excluded from the score, not counted as zero.</p>
     </div>
+    {Array.isArray(data.counted_merges) && data.counted_merges.length > 0 && (
+      <div class="card">
+        <h3>Why this rank · counted merges</h3>
+        <ul style="margin:0;padding-left:18px;font-size:14px">
+          {data.counted_merges.map((m) => (
+            <li><a href={`https://github.com/${m.repo}/pulls?q=is%3Apr+is%3Amerged`} rel="nofollow">{m.repo}</a> — {m.prs} merged PR{m.prs === 1 ? '' : 's'}</li>
+          ))}
+        </ul>
+        <p class="note" style="color:var(--muted);font-size:12px;margin:10px 0 0">Merged PRs counted from the public GitHub events feed in the {data.window_days || 30}-day window.</p>
+      </div>
+    )}
     <div class="card">
       <h3>README Badge</h3>
       <pre style="background:#0f172a;padding:10px;border-radius:6px;overflow:auto;font-size:12px">[![RealGitRank](https://realgitrank.bharatdn.com/badges/{username}.svg)](https://realgitrank.bharatdn.com/profile/{username})</pre>

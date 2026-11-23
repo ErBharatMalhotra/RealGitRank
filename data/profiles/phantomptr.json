@@ -1,0 +1,61 @@
+{
+  "username": "phantomptr",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 8,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.3,
+  "s_quality": 50.0,
+  "s_impact": 99.86,
+  "s_consistency": 98.94,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 867.1,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 7,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 447,
+  "avatar_url": "https://avatars.githubusercontent.com/u/254021847?u=158867f98db00734ec293aab07a33fddbcbc0ae4&v=4",
+  "bio": "Works until it doesn\u2019t.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.1,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "phantomptr/ps5upload",
+      "prs": 3
+    },
+    {
+      "repo": "phantomptr/ava1",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 447,
+      "s": 867.1
+    }
+  ]
+}

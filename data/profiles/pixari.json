@@ -1,0 +1,61 @@
+{
+  "username": "pixari",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 28,
+  "merged_prs": 15,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.92,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 98.81,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 14,
+  "window_days": 30,
+  "rank_score": 871.9,
+  "active_repos_touched": 6,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 65,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "OpenTodoApp/OpenTodo",
+      "prs": 14
+    },
+    {
+      "repo": "OpenTodoApp/OpenTodoWebsite",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 65,
+      "s": 871.9
+    }
+  ]
+}

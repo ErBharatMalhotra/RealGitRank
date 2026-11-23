@@ -1,0 +1,85 @@
+{
+  "username": "ersinkoc",
+  "country": "",
+  "primary_language": "C#",
+  "total_pushes": 63,
+  "merged_prs": 19,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.93,
+  "s_quality": 50.0,
+  "s_impact": 99.99,
+  "s_consistency": 99.1,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 25,
+  "window_days": 30,
+  "rank_score": 873.4,
+  "active_repos_touched": 19,
+  "pr_reviews": 9,
+  "issue_comments": 13,
+  "releases": 0,
+  "stars_fraud_filtered": 65,
+  "forks_fraud_filtered": 5,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 1,
+  "avatar_url": "https://avatars.githubusercontent.com/u/408479?v=4",
+  "bio": " Totally \ud83d\udc68 not a \ud83e\udd16 // \ud83d\udcc6 for all time - Father \ud83d\udc4d // \ud83d\udcc6 other times (if I have) \ud83c\udf83 Back-end Developer \ud83d\udde1\ufe0f System Administrator \ud83c\udf35 DevOps ",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "ersinkoc/Agora",
+      "prs": 7
+    },
+    {
+      "repo": "orkunisitmak/nashi-app",
+      "prs": 4
+    },
+    {
+      "repo": "orkunisitmak/banana-studio",
+      "prs": 2
+    },
+    {
+      "repo": "pursae/pursae",
+      "prs": 2
+    },
+    {
+      "repo": "WrongStack/wrongindex",
+      "prs": 1
+    },
+    {
+      "repo": "heymrun/heym",
+      "prs": 1
+    },
+    {
+      "repo": "labyrinthdns/labyrinth",
+      "prs": 1
+    },
+    {
+      "repo": "onurozcan/omux",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 1,
+      "s": 873.4
+    }
+  ]
+}

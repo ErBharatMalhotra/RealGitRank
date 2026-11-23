@@ -1,0 +1,77 @@
+{
+  "username": "drkostas",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 8,
+  "merged_prs": 9,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.55,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 95.98,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 864.1,
+  "active_repos_touched": 9,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 647,
+  "avatar_url": "https://avatars.githubusercontent.com/u/22260005?u=61add69a51604dfb468e81b99016200981f18a2a&v=4",
+  "bio": "PhD ML Engineer",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.7,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "drkostas/claude-ops",
+      "prs": 4
+    },
+    {
+      "repo": "drkostas/claude-human",
+      "prs": 1
+    },
+    {
+      "repo": "drkostas/gkos.dev",
+      "prs": 1
+    },
+    {
+      "repo": "drkostas/hevy2garmin",
+      "prs": 1
+    },
+    {
+      "repo": "drkostas/macro-engine",
+      "prs": 1
+    },
+    {
+      "repo": "drkostas/plaincard",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 647,
+      "s": 864.1
+    }
+  ]
+}

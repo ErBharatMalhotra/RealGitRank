@@ -1,0 +1,65 @@
+{
+  "username": "joakimeriksson",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 16,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.3,
+  "s_quality": 50.0,
+  "s_impact": 99.95,
+  "s_consistency": 99.21,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 15,
+  "window_days": 30,
+  "rank_score": 867.7,
+  "active_repos_touched": 9,
+  "pr_reviews": 1,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 5,
+  "forks_fraud_filtered": 5,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 401,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.2,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "joakimeriksson/sbc-emu",
+      "prs": 2
+    },
+    {
+      "repo": "joakimeriksson/devicedock",
+      "prs": 1
+    },
+    {
+      "repo": "joakimeriksson/fm1-emu",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 401,
+      "s": 867.7
+    }
+  ]
+}

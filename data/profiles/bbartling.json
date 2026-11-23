@@ -1,0 +1,57 @@
+{
+  "username": "bbartling",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 3,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.3,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 99.16,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 865.6,
+  "active_repos_touched": 1,
+  "pr_reviews": 1,
+  "issue_comments": 4,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 552,
+  "avatar_url": "https://avatars.githubusercontent.com/u/29737117?u=ceeb8bcef30c6402b7485b9e5e3ce795ada68e07&v=4",
+  "bio": "BEN == HVAC == PYTHON + Rust = True",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.9,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "bbartling/open-fdd",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 552,
+      "s": 865.6
+    }
+  ]
+}

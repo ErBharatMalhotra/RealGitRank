@@ -1,0 +1,65 @@
+{
+  "username": "kody-w",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 5,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.5,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.51,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 868.9,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 313,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1735900?u=d3eca4830b897fd7f37a9651d6e43436751eff97&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.4,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "kody-w/aibast-agents-library",
+      "prs": 6
+    },
+    {
+      "repo": "Wildhaven-Homes-LLC/hearth",
+      "prs": 1
+    },
+    {
+      "repo": "kody-w/localFirstTools",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 313,
+      "s": 868.9
+    }
+  ]
+}

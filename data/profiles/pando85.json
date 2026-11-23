@@ -1,0 +1,69 @@
+{
+  "username": "pando85",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 36,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.31,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 96.31,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 864.9,
+  "active_repos_touched": 14,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 588,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4646670?u=a3fc7adfccd8ebbe837bf8b7249da2f71b3c1515&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.8,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "pando85/dungeon-floorbreak",
+      "prs": 4
+    },
+    {
+      "repo": "pando85/home-energy-optimizer",
+      "prs": 1
+    },
+    {
+      "repo": "pando85/homelab",
+      "prs": 1
+    },
+    {
+      "repo": "pando85/runner",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 588,
+      "s": 864.9
+    }
+  ]
+}

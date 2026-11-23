@@ -1,0 +1,65 @@
+{
+  "username": "WenyuChiou",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 26,
+  "merged_prs": 9,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.55,
+  "s_quality": 50.0,
+  "s_impact": 99.96,
+  "s_consistency": 98.36,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 21,
+  "window_days": 30,
+  "rank_score": 870.9,
+  "active_repos_touched": 10,
+  "pr_reviews": 0,
+  "issue_comments": 39,
+  "releases": 1,
+  "stars_fraud_filtered": 25,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 144,
+  "avatar_url": "https://avatars.githubusercontent.com/u/162016108?u=1e982aeb5ad0391e165bc3d58accad4b0e3bbdd1&v=4",
+  "bio": "PhD Researcher @ Lehigh University | Human-Grounded LLM Evaluation | Governed Agents | Behavioral & Human-Environment Simulation",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "WenyuChiou/agent-board",
+      "prs": 6
+    },
+    {
+      "repo": "WenyuChiou/AutoResearchAgent",
+      "prs": 2
+    },
+    {
+      "repo": "WenyuChiou/ai-research-skills",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 144,
+      "s": 870.9
+    }
+  ]
+}

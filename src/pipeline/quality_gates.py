@@ -44,11 +44,11 @@ def load_gate_config(config_path=CONFIG_PATH):
     return gates
 
 
-def summarize(leaderboard):
+def summarize(leaderboard, score_version=None):
     scores = [float(u.get("rank_score") or 0) for u in leaderboard]
     rows = len(leaderboard)
     bots = sum(1 for u in leaderboard if u.get("is_bot_classified"))
-    return {
+    summary = {
         "rows": rows,
         "null_usernames": sum(1 for u in leaderboard if not u.get("username")),
         "score_min": min(scores) if scores else 0.0,
@@ -57,6 +57,9 @@ def summarize(leaderboard):
         "score_std": round(statistics.pstdev(scores), 3) if len(scores) > 1 else 0.0,
         "bot_rate": round(bots / rows, 5) if rows else 0.0,
     }
+    if score_version:
+        summary["score_version"] = score_version
+    return summary
 
 
 def evaluate(today, history, gates=None):
@@ -132,6 +135,30 @@ def _run_date(status_path):
     return datetime.now(timezone.utc).date().isoformat()
 
 
+SIZE_LIMITS_MB = {"leaderboard": 80, "rolling": 250}
+
+
+def size_errors():
+    """Keep the git-backed data and static site inside free hosting limits."""
+    errors = []
+    lb_path = os.path.join("data", "leaderboard.json")
+    if os.path.exists(lb_path):
+        size_mb = os.path.getsize(lb_path) / (1024 * 1024)
+        if size_mb > SIZE_LIMITS_MB["leaderboard"]:
+            errors.append(f"leaderboard.json {size_mb:.1f} MB > {SIZE_LIMITS_MB['leaderboard']} MB")
+    rolling_dir = os.path.join("data", "rolling")
+    if os.path.isdir(rolling_dir):
+        total = sum(
+            os.path.getsize(os.path.join(rolling_dir, name))
+            for name in os.listdir(rolling_dir)
+            if name.endswith(".json.gz")
+        )
+        size_mb = total / (1024 * 1024)
+        if size_mb > SIZE_LIMITS_MB["rolling"]:
+            errors.append(f"rolling shards {size_mb:.1f} MB > {SIZE_LIMITS_MB['rolling']} MB")
+    return errors
+
+
 def main():
     lb_path = os.path.join("data", "leaderboard.json")
     hist_path = os.path.join("data", "gate_history.json")
@@ -152,9 +179,20 @@ def main():
             print(f"note: ignoring unreadable gate history ({e})")
             history = []
 
-    today = summarize(leaderboard)
+    score_version = None
+    if os.path.exists(status_path):
+        try:
+            with open(status_path, encoding="utf-8") as f:
+                score_version = json.load(f).get("score_version")
+        except Exception:
+            score_version = None
+    today = summarize(leaderboard, score_version)
+    if score_version:
+        # A new score scale must not be compared with the old scale's baseline.
+        history = [h for h in history if not isinstance(h, dict) or h.get("score_version") == score_version]
     gates = load_gate_config()
     errors, notes = evaluate(today, history, gates)
+    errors.extend(size_errors())
 
     for note in notes:
         print("note:", note)

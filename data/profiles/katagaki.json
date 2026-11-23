@@ -1,0 +1,81 @@
+{
+  "username": "katagaki",
+  "country": "Japan",
+  "primary_language": "Unknown",
+  "total_pushes": 9,
+  "merged_prs": 12,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.86,
+  "s_quality": 50.0,
+  "s_impact": 99.67,
+  "s_consistency": 98.66,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 16,
+  "window_days": 30,
+  "rank_score": 871.7,
+  "active_repos_touched": 12,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 78,
+  "avatar_url": "https://avatars.githubusercontent.com/u/68231035?u=87ce79d3bf8f9a6b7a23b5d0d3990ec05c5f1229&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.8,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "AtelierSuite/Folio",
+      "prs": 4
+    },
+    {
+      "repo": "AtelierSuite/Melodee",
+      "prs": 2
+    },
+    {
+      "repo": "katagaki/CirclesApp",
+      "prs": 2
+    },
+    {
+      "repo": "AtelierSuite/Dazzle",
+      "prs": 1
+    },
+    {
+      "repo": "AtelierSuite/Montage",
+      "prs": 1
+    },
+    {
+      "repo": "AtelierSuite/Reader",
+      "prs": 1
+    },
+    {
+      "repo": "AtelierSuite/Tables",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 78,
+      "s": 871.7
+    }
+  ]
+}

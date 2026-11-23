@@ -1,0 +1,57 @@
+{
+  "username": "AmethystLiang",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 16,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.66,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.33,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 869.1,
+  "active_repos_touched": 2,
+  "pr_reviews": 5,
+  "issue_comments": 11,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 298,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6427696?u=86a210ddf931a6a557a4664cc17a97dc02c9de36&v=4",
+  "bio": "Maintainer of Orca. Ex-Google ",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.4,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "stablyai/orca",
+      "prs": 7
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 298,
+      "s": 869.1
+    }
+  ]
+}

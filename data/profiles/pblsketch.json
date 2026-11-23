@@ -1,0 +1,61 @@
+{
+  "username": "pblsketch",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 12,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.12,
+  "s_quality": 50.0,
+  "s_impact": 99.79,
+  "s_consistency": 99.05,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 870.0,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 1,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 223,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.6,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "pblsketch/openoffice",
+      "prs": 5
+    },
+    {
+      "repo": "pblsketch/ieumoffice",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 223,
+      "s": 870.0
+    }
+  ]
+}

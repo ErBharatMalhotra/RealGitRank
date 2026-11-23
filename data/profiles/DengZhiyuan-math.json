@@ -1,0 +1,61 @@
+{
+  "username": "DengZhiyuan-math",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 4,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.62,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 97.58,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 864.4,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 632,
+  "avatar_url": "https://avatars.githubusercontent.com/u/125728853?u=b44ab2259709ed3408b3fe3f41709f0990604018&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.7,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "stoasystem/stoa-frontend",
+      "prs": 2
+    },
+    {
+      "repo": "stoasystem/stoa-backend",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 632,
+      "s": 864.4
+    }
+  ]
+}

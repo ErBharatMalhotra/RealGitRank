@@ -1,0 +1,73 @@
+{
+  "username": "reinauer",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 2,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.26,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 99.31,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 870.3,
+  "active_repos_touched": 8,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 192,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.6,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "AmigaPCI/AmigaPCI-MainBoard",
+      "prs": 1
+    },
+    {
+      "repo": "AmigaPorts/newlib-cygwin",
+      "prs": 1
+    },
+    {
+      "repo": "reinauer/AmiFUSE",
+      "prs": 1
+    },
+    {
+      "repo": "reinauer/LinCUPL",
+      "prs": 1
+    },
+    {
+      "repo": "tonioni/WinUAE",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 192,
+      "s": 870.3
+    }
+  ]
+}

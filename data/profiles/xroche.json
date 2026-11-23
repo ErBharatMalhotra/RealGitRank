@@ -1,0 +1,61 @@
+{
+  "username": "xroche",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 12,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 97.36,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 98.75,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 862.8,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 721,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.6,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "xroche/httrack",
+      "prs": 2
+    },
+    {
+      "repo": "xroche/httrack-windows",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 721,
+      "s": 862.8
+    }
+  ]
+}

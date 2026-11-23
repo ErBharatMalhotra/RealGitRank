@@ -1,0 +1,69 @@
+{
+  "username": "hahwul",
+  "country": "South Korea",
+  "primary_language": "Unknown",
+  "total_pushes": 36,
+  "merged_prs": 10,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.7,
+  "s_quality": 50.0,
+  "s_impact": 99.92,
+  "s_consistency": 99.32,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 872.7,
+  "active_repos_touched": 13,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 7,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 21,
+  "avatar_url": "https://avatars.githubusercontent.com/u/13212227?u=e4ca40c1aa41990f72475bebee84c860b631a30c&v=4",
+  "bio": "Security Engineer, Developer and H4cker.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "hahwul/gori",
+      "prs": 5
+    },
+    {
+      "repo": "owasp-noir/noir",
+      "prs": 3
+    },
+    {
+      "repo": "hahwul/acp.cr",
+      "prs": 1
+    },
+    {
+      "repo": "hahwul/hwaro",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 21,
+      "s": 872.7
+    }
+  ]
+}

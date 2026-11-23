@@ -1,20 +1,97 @@
 {
   "username": "palmoni5",
-  "rank": 269,
-  "rank_score": 75.2,
   "country": "Israel",
   "primary_language": "Dart",
+  "total_pushes": 59,
+  "merged_prs": 18,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.94,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 98.95,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 24,
+  "window_days": 30,
+  "rank_score": 872.2,
+  "active_repos_touched": 25,
+  "pr_reviews": 7,
+  "issue_comments": 15,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 47,
   "avatar_url": "https://avatars.githubusercontent.com/u/216508796?u=8ad028e46796e0ba8386d02685999d997b1b91ca&v=4",
   "bio": "",
   "company": "",
+  "location": "Israel",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
   "tier": "Elite",
-  "percentile": 99.4,
-  "history": [
+  "prev_rank": 269,
+  "prev_score": 75.2,
+  "rank_delta": 222,
+  "score_delta": 797.0,
+  "counted_merges": [
     {
-      "d": "2026-11-21",
-      "r": 269,
-      "s": 75.2
+      "repo": "Otzaria/otzaria",
+      "prs": 6
+    },
+    {
+      "repo": "gesher-runtime/gesher",
+      "prs": 3
+    },
+    {
+      "repo": "Otzaria/SeforimAcronymizer",
+      "prs": 1
+    },
+    {
+      "repo": "Otzaria/SeforimLibrary",
+      "prs": 1
+    },
+    {
+      "repo": "Otzaria/archive",
+      "prs": 1
+    },
+    {
+      "repo": "Otzaria/flutter_file_picker",
+      "prs": 1
+    },
+    {
+      "repo": "Otzaria/flutter_inappwebview",
+      "prs": 1
+    },
+    {
+      "repo": "Otzaria/labs",
+      "prs": 1
+    },
+    {
+      "repo": "Otzaria/packages",
+      "prs": 1
+    },
+    {
+      "repo": "dart-lang/tools",
+      "prs": 1
     }
   ],
-  "location": "Israel"
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 47,
+      "s": 872.2
+    }
+  ]
 }

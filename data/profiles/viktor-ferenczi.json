@@ -1,0 +1,89 @@
+{
+  "username": "viktor-ferenczi",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 6,
+  "merged_prs": 14,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.88,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 98.31,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 868.8,
+  "active_repos_touched": 13,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 316,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.4,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "CometWorks/linux-compat",
+      "prs": 2
+    },
+    {
+      "repo": "CometWorks/quasar",
+      "prs": 2
+    },
+    {
+      "repo": "CometWorks/worlds",
+      "prs": 2
+    },
+    {
+      "repo": "viktor-ferenczi/se-better-store",
+      "prs": 2
+    },
+    {
+      "repo": "viktor-ferenczi/se-performance-improvements",
+      "prs": 2
+    },
+    {
+      "repo": "CometWorks/bugfixes",
+      "prs": 1
+    },
+    {
+      "repo": "CometWorks/linux-compat2",
+      "prs": 1
+    },
+    {
+      "repo": "CometWorks/magnetar-hub",
+      "prs": 1
+    },
+    {
+      "repo": "viktor-ferenczi/se-toolbar-manager",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 316,
+      "s": 868.8
+    }
+  ]
+}

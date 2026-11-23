@@ -1,0 +1,65 @@
+{
+  "username": "rufuspollock",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 67,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.62,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.77,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 866.2,
+  "active_repos_touched": 23,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 514,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "flowershow/flowershow",
+      "prs": 1
+    },
+    {
+      "repo": "reportsthatmatter/reportsthatmatter",
+      "prs": 1
+    },
+    {
+      "repo": "reportsthatmatter/uk-hillsborough-panel",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 514,
+      "s": 866.2
+    }
+  ]
+}

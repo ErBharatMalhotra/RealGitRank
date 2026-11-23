@@ -1,0 +1,61 @@
+{
+  "username": "akitaonrails",
+  "country": "Brazil",
+  "primary_language": "Unknown",
+  "total_pushes": 25,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.12,
+  "s_quality": 50.0,
+  "s_impact": 99.99,
+  "s_consistency": 98.34,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 26,
+  "window_days": 30,
+  "rank_score": 869.4,
+  "active_repos_touched": 13,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 41,
+  "forks_fraud_filtered": 10,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 272,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2840?u=6923ae49ba086f2c94d29287bc998bacf5b32010&v=4",
+  "bio": "Agile Senior Vibe Coder /\r\nSign up for my newsletter: https://themakitachronicles.com",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.5,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "akitaonrails/ai-memory",
+      "prs": 5
+    },
+    {
+      "repo": "akitaonrails/ai-usagebar",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 272,
+      "s": 869.4
+    }
+  ]
+}

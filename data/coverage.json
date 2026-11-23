@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-11-23T06:27:42.109390+00:00",
+  "score_version": "v2-percentile",
+  "window_days": 30,
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "users": 50000,
+  "pillars": {
+    "delivery": {
+      "label": "Merged pull requests (external merges weighted)",
+      "measured": 50000,
+      "pct": 100.0
+    },
+    "code_health": {
+      "label": "Test-signal ratio and multi-file PRs",
+      "measured": 46398,
+      "pct": 92.8
+    },
+    "adoption": {
+      "label": "Stars and forks received",
+      "measured": 50000,
+      "pct": 100.0
+    },
+    "consistency": {
+      "label": "Active shipping weeks and push-hour spread",
+      "measured": 50000,
+      "pct": 100.0
+    }
+  },
+  "bot_evidence": {
+    "measured": 0,
+    "pct": 0.0
+  },
+  "country": {
+    "known": 1169,
+    "pct": 2.3
+  },
+  "language": {
+    "known": 840,
+    "pct": 1.7
+  },
+  "validation": null,
+  "notes": "Commit-message entropy and PR changed-file counts are only known when the GitHub events feed carries them; unknown signals are disclosed here and never turned into a fake penalty. Missing pillars are excluded from the weighted score and the remaining weights are renormalised."
+}

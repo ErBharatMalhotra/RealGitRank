@@ -5,6 +5,10 @@ web/.astro/
 
 # Data intermediates
 data/raw.parquet
+data/gharchive_raw/
+data/backfill.log
+data/enrichment_cache.json
+data/language_cache.json
 web/public/data/
 web/public/data/chunks/
 web/public/api/
@@ -18,4 +22,4 @@ secrets/
 __pycache__/
 *.pyc
 .venv/
-myenv/
+myenv/data/validation.log

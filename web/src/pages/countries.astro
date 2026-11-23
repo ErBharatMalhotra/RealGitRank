@@ -4,6 +4,10 @@ import path from 'node:path';
 import { allCountries } from '../data/allCountries.js';
 const dataPath = path.resolve(process.cwd(), '..', 'data', 'leaderboard.json');
 const lb = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+let coverage = null;
+try {
+  coverage = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), '..', 'data', 'coverage.json'), 'utf-8'));
+} catch (e) { coverage = null; }
 const countryMap = {};
 lb.forEach(u => { countryMap[u.country] = (countryMap[u.country] || 0) + 1; });
 ---
@@ -33,7 +37,7 @@ lb.forEach(u => { countryMap[u.country] = (countryMap[u.country] || 0) + 1; });
   <body>
     <a href="/">← Leaderboard</a>
     <h1>Countries & Worldwide</h1>
-    <p class="sub">RealGitRank leaderboards for every country in the world.</p>
+    <p class="sub">RealGitRank leaderboards for every country in the world. Country comes from optional GitHub profile enrichment{coverage ? `, so it is known for ${coverage.country.pct}% of ranked developers` : ''}; the rest have no country attached and are not counted below.</p>
     <a href="/" class="global">
       <div class="name">🌍 Worldwide / Global</div>
       <div class="count">{lb.length} ranked developers across all countries</div>

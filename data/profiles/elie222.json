@@ -1,0 +1,61 @@
+{
+  "username": "elie222",
+  "country": "Israel",
+  "primary_language": "TypeScript",
+  "total_pushes": 87,
+  "merged_prs": 23,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.92,
+  "s_quality": 50.0,
+  "s_impact": 99.99,
+  "s_consistency": 98.32,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 30,
+  "window_days": 30,
+  "rank_score": 872.2,
+  "active_repos_touched": 11,
+  "pr_reviews": 17,
+  "issue_comments": 41,
+  "releases": 0,
+  "stars_fraud_filtered": 42,
+  "forks_fraud_filtered": 11,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 44,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3090527?u=6cf70a882423f683b5fa93cf02b43a50b05c482e&v=4",
+  "bio": "Building Inbox Zero: https://getinboxzero.com\r\n\r\nMy YouTube channel about open source and AI coding: https://youtube.com/elie2222",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "elie222/rakazo",
+      "prs": 18
+    },
+    {
+      "repo": "elie222/inbox-zero",
+      "prs": 5
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 44,
+      "s": 872.2
+    }
+  ]
+}

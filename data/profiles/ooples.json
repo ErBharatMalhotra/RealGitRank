@@ -1,0 +1,61 @@
+{
+  "username": "ooples",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 28,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.3,
+  "s_quality": 50.0,
+  "s_impact": 99.67,
+  "s_consistency": 98.36,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 15,
+  "window_days": 30,
+  "rank_score": 865.7,
+  "active_repos_touched": 5,
+  "pr_reviews": 26,
+  "issue_comments": 7,
+  "releases": 1,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 543,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3075685?u=e8f3f618c8cbe86d8222204eb03777c8f6147f65&v=4",
+  "bio": "I'm a .Net developer that has been working on an AI based trading system for the stock market for the past few years. I also publish new technical indicators!",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.9,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "ooples/AiDotNet.Tensors",
+      "prs": 3
+    },
+    {
+      "repo": "ooples/token-optimizer-mcp",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 543,
+      "s": 865.7
+    }
+  ]
+}

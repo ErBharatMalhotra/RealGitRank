@@ -1,0 +1,65 @@
+{
+  "username": "godofecht",
+  "country": "United Kingdom",
+  "primary_language": "Unknown",
+  "total_pushes": 74,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.76,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.4,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 16,
+  "window_days": 30,
+  "rank_score": 869.6,
+  "active_repos_touched": 9,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 256,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11516291?u=235a8011559c052a9750741756f153e98dbc7ac3&v=4",
+  "bio": "One will not easily come to terms with the necessity of a good onion brunoise",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.5,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "godofecht/FlowStudio",
+      "prs": 7
+    },
+    {
+      "repo": "flooooooooooow/flow",
+      "prs": 3
+    },
+    {
+      "repo": "godofecht/weightless",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 256,
+      "s": 869.6
+    }
+  ]
+}

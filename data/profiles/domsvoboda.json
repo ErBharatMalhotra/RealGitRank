@@ -1,0 +1,65 @@
+{
+  "username": "domsvoboda",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 6,
+  "merged_prs": 5,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.86,
+  "s_quality": 50.0,
+  "s_impact": 99.92,
+  "s_consistency": 98.41,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 868.4,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 1,
+  "stars_fraud_filtered": 7,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 343,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.3,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "domsvoboda/nexus-runtime",
+      "prs": 2
+    },
+    {
+      "repo": "domsvoboda/nexus-wine-cachyos",
+      "prs": 2
+    },
+    {
+      "repo": "domsvoboda/nexus-wine",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 343,
+      "s": 868.4
+    }
+  ]
+}

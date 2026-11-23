@@ -1,0 +1,61 @@
+{
+  "username": "CodyBontecou",
+  "country": "",
+  "primary_language": "Swift",
+  "total_pushes": 24,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.3,
+  "s_quality": 50.0,
+  "s_impact": 99.72,
+  "s_consistency": 96.09,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 862.5,
+  "active_repos_touched": 9,
+  "pr_reviews": 0,
+  "issue_comments": 6,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 743,
+  "avatar_url": "https://avatars.githubusercontent.com/u/20440899?u=2641ade19c9aac267787456a6453ac96c5761e79&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.5,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "CodyBontecou/GitSync.md",
+      "prs": 2
+    },
+    {
+      "repo": "CodyBontecou/health-md",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 743,
+      "s": 862.5
+    }
+  ]
+}

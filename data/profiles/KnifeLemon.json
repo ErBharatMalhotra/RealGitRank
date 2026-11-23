@@ -1,0 +1,57 @@
+{
+  "username": "KnifeLemon",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 11,
+  "merged_prs": 4,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 98.3,
+  "s_quality": 50.0,
+  "s_impact": 100.0,
+  "s_consistency": 98.7,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 30,
+  "window_days": 30,
+  "rank_score": 867.1,
+  "active_repos_touched": 4,
+  "pr_reviews": 3,
+  "issue_comments": 9,
+  "releases": 0,
+  "stars_fraud_filtered": 224,
+  "forks_fraud_filtered": 13,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 449,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.1,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "KnifeLemon/Filee",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 449,
+      "s": 867.1
+    }
+  ]
+}

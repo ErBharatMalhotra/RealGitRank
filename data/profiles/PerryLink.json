@@ -1,0 +1,73 @@
+{
+  "username": "PerryLink",
+  "country": "China",
+  "primary_language": "Unknown",
+  "total_pushes": 64,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.73,
+  "s_quality": 50.0,
+  "s_impact": 99.89,
+  "s_consistency": 97.73,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 870.4,
+  "active_repos_touched": 72,
+  "pr_reviews": 0,
+  "issue_comments": 4,
+  "releases": 2,
+  "stars_fraud_filtered": 9,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 183,
+  "avatar_url": "https://avatars.githubusercontent.com/u/255665900?u=c45dcefbeb0005ad85d4a3d472d67eec6d962dae&v=4",
+  "bio": "Cordis contributor \u00b7 DSH community ecosystem builder (not affiliated) \u00b7 110k weekly npm downloads \u00b7 host-compat & plugin-quality tooling",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.6,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "hikariming/dsh-ee",
+      "prs": 4
+    },
+    {
+      "repo": "agentclientprotocol/agent-client-protocol",
+      "prs": 1
+    },
+    {
+      "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "prs": 1
+    },
+    {
+      "repo": "imsai-sh/awesome-deepseek-harness-plugins",
+      "prs": 1
+    },
+    {
+      "repo": "uber/kraken",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 183,
+      "s": 870.4
+    }
+  ]
+}

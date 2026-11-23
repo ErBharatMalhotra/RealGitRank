@@ -1,0 +1,61 @@
+{
+  "username": "louislam",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 7,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 95.65,
+  "s_quality": 50.0,
+  "s_impact": 99.99,
+  "s_consistency": 99.33,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 21,
+  "window_days": 30,
+  "rank_score": 858.7,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 30,
+  "forks_fraud_filtered": 8,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 964,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.1,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "louislam/its-mytabs",
+      "prs": 1
+    },
+    {
+      "repo": "louislam/uptime-kuma",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 964,
+      "s": 858.7
+    }
+  ]
+}

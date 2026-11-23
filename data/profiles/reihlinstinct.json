@@ -1,0 +1,93 @@
+{
+  "username": "reihlinstinct",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 68,
+  "merged_prs": 22,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.91,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 99.07,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 21,
+  "window_days": 30,
+  "rank_score": 871.1,
+  "active_repos_touched": 32,
+  "pr_reviews": 5,
+  "issue_comments": 19,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 125,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.8,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "reihlinstinct/ginot-hair-plans",
+      "prs": 6
+    },
+    {
+      "repo": "reihlinstinct/geni-uploader",
+      "prs": 4
+    },
+    {
+      "repo": "reihlinstinct/parking-stats",
+      "prs": 2
+    },
+    {
+      "repo": "reihlinstinct/repo-checks",
+      "prs": 2
+    },
+    {
+      "repo": "reihlinstinct/shabbat-fridge",
+      "prs": 2
+    },
+    {
+      "repo": "reihlinstinct/dependency-inventory",
+      "prs": 1
+    },
+    {
+      "repo": "reihlinstinct/municipal-photo-model",
+      "prs": 1
+    },
+    {
+      "repo": "reihlinstinct/parcel-coverage-audit",
+      "prs": 1
+    },
+    {
+      "repo": "reihlinstinct/parking-category-model",
+      "prs": 1
+    },
+    {
+      "repo": "reihlinstinct/parking-report-helper",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 125,
+      "s": 871.1
+    }
+  ]
+}

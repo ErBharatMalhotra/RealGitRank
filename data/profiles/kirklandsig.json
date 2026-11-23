@@ -1,0 +1,57 @@
+{
+  "username": "kirklandsig",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 4,
+  "merged_prs": 9,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.55,
+  "s_quality": 50.0,
+  "s_impact": 99.9,
+  "s_consistency": 95.73,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 866.8,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 11,
+  "releases": 0,
+  "stars_fraud_filtered": 5,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 470,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7864917?u=6a5f79fa1667840b5958a5566d808301fb39a81c&v=4",
+  "bio": "Buy me a coffee :)\r\n\r\nBTC: bc1q573f3x6zlsh06lcfetpmrquw5jr5e26ahu4syn\r\n\r\nETH: 0x5d48560C58b65dc7FeECa2F452c2Df817d1d61CC",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.1,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "kirklandsig/halo2-decompiled",
+      "prs": 9
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 470,
+      "s": 866.8
+    }
+  ]
+}

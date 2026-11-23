@@ -1,0 +1,93 @@
+{
+  "username": "yungSNAT",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 42,
+  "merged_prs": 21,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.91,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 90.94,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 14,
+  "window_days": 30,
+  "rank_score": 860.0,
+  "active_repos_touched": 12,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 881,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.2,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "yungSNAT/Alcuin",
+      "prs": 4
+    },
+    {
+      "repo": "yungSNAT/reformed-agent",
+      "prs": 4
+    },
+    {
+      "repo": "yungSNAT/PlutarchPages",
+      "prs": 3
+    },
+    {
+      "repo": "yungSNAT/DiogenesLamp",
+      "prs": 2
+    },
+    {
+      "repo": "yungSNAT/ShaphansAudit",
+      "prs": 2
+    },
+    {
+      "repo": "yungSNAT/ApollinaireASCII",
+      "prs": 1
+    },
+    {
+      "repo": "yungSNAT/GhostSoap",
+      "prs": 1
+    },
+    {
+      "repo": "yungSNAT/GrievousGreps",
+      "prs": 1
+    },
+    {
+      "repo": "yungSNAT/Laconic",
+      "prs": 1
+    },
+    {
+      "repo": "yungSNAT/PascalsLetter",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 881,
+      "s": 860.0
+    }
+  ]
+}

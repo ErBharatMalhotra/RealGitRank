@@ -1,0 +1,61 @@
+{
+  "username": "devswha",
+  "country": "South Korea",
+  "primary_language": "TypeScript",
+  "total_pushes": 47,
+  "merged_prs": 28,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.95,
+  "s_quality": 50.0,
+  "s_impact": 99.91,
+  "s_consistency": 98.58,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 24,
+  "window_days": 30,
+  "rank_score": 872.5,
+  "active_repos_touched": 10,
+  "pr_reviews": 17,
+  "issue_comments": 55,
+  "releases": 0,
+  "stars_fraud_filtered": 11,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 26,
+  "avatar_url": "https://avatars.githubusercontent.com/u/25837994?u=67316ed7691d5083d4a47f7b0eae6e36366693f6&v=4",
+  "bio": "AI engineer building open-source tools for agents and developer workflows. Medical AI, computer vision & edge deployment. ",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "devswha/ovis",
+      "prs": 25
+    },
+    {
+      "repo": "devswha/ovis-terminal",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 26,
+      "s": 872.5
+    }
+  ]
+}

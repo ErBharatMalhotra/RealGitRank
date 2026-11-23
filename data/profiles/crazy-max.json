@@ -1,0 +1,85 @@
+{
+  "username": "crazy-max",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 10,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.69,
+  "s_quality": 50.0,
+  "s_impact": 99.67,
+  "s_consistency": 99.35,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 872.1,
+  "active_repos_touched": 21,
+  "pr_reviews": 2,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 57,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Splode/fname",
+      "prs": 1
+    },
+    {
+      "repo": "crazy-max/cs-escalation-controller",
+      "prs": 1
+    },
+    {
+      "repo": "crazy-max/gopls-analyzers",
+      "prs": 1
+    },
+    {
+      "repo": "docker/actions-toolkit",
+      "prs": 1
+    },
+    {
+      "repo": "docker/docs",
+      "prs": 1
+    },
+    {
+      "repo": "docker/github-builder",
+      "prs": 1
+    },
+    {
+      "repo": "docker/metadata-action",
+      "prs": 1
+    },
+    {
+      "repo": "moby/buildkit",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 57,
+      "s": 872.1
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "username": "renovate-bot",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 246,
+  "merged_prs": 34,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.99,
+  "s_quality": 50.0,
+  "s_impact": 99.67,
+  "s_consistency": 98.39,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 26,
+  "window_days": 30,
+  "rank_score": 871.7,
+  "active_repos_touched": 196,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 77,
+  "avatar_url": "https://avatars.githubusercontent.com/u/25180681?u=52b5860ab267400de6ab46df639ef58661455321&v=4",
+  "bio": "Mend Renovate is a bot to keep dependencies up-to-date using Pull Requests. To install: https://github.com/apps/renovate, or /apps/forking-renovate",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.8,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "GoogleCloudPlatform/prometheus-engine",
+      "prs": 3
+    },
+    {
+      "repo": "moby/moby",
+      "prs": 3
+    },
+    {
+      "repo": "GoogleCloudPlatform/pgadapter",
+      "prs": 2
+    },
+    {
+      "repo": "JohnStrunk/template",
+      "prs": 2
+    },
+    {
+      "repo": "apache/superset-kubernetes-operator",
+      "prs": 2
+    },
+    {
+      "repo": "GoogleCloudPlatform/dataproc-plugin",
+      "prs": 1
+    },
+    {
+      "repo": "GoogleCloudPlatform/looker-plugin",
+      "prs": 1
+    },
+    {
+      "repo": "JabRef/jabref",
+      "prs": 1
+    },
+    {
+      "repo": "JohnStrunk/my-sandbox",
+      "prs": 1
+    },
+    {
+      "repo": "JohnStrunk/oats",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 77,
+      "s": 871.7
+    }
+  ]
+}

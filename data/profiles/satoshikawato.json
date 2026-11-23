@@ -1,0 +1,61 @@
+{
+  "username": "satoshikawato",
+  "country": "Japan",
+  "primary_language": "Unknown",
+  "total_pushes": 59,
+  "merged_prs": 20,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.9,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 99.2,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 18,
+  "window_days": 30,
+  "rank_score": 871.3,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 112,
+  "avatar_url": "https://avatars.githubusercontent.com/u/58936715?u=57d03c1995421b1bab18cc518452dfcecd7d8c59&v=4",
+  "bio": "Evolutionary genomics of fish/shellfish pathogens",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.8,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "satoshikawato/LOSAT",
+      "prs": 13
+    },
+    {
+      "repo": "satoshikawato/gbdraw",
+      "prs": 7
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 112,
+      "s": 871.3
+    }
+  ]
+}

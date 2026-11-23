@@ -1,0 +1,73 @@
+{
+  "username": "lahfir",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 14,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.66,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 98.3,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 14,
+  "window_days": 30,
+  "rank_score": 870.2,
+  "active_repos_touched": 7,
+  "pr_reviews": 1,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 200,
+  "avatar_url": "https://avatars.githubusercontent.com/u/70215676?u=b9dd3294aa4ce8294ca836b574c60218f6f97862&v=4",
+  "bio": "AI | Computer Use | SWE",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.6,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "prs": 2
+    },
+    {
+      "repo": "vercel-labs/portless",
+      "prs": 2
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "prs": 1
+    },
+    {
+      "repo": "vercel-labs/emulate",
+      "prs": 1
+    },
+    {
+      "repo": "vercel-labs/native",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 200,
+      "s": 870.2
+    }
+  ]
+}

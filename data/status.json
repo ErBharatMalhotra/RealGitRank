@@ -1,8 +1,13 @@
 {
-  "last_run_utc": "2026-11-21T06:49:08.218715+00:00",
+  "last_run_utc": "2026-11-23T06:27:42.109390+00:00",
   "data_age_hours": 0,
   "status": "ok",
-  "users": 45384,
-  "new_today": 32490,
-  "source": "real"
+  "users": 50000,
+  "new_today": 986226,
+  "source": "real",
+  "score_version": "v2-percentile",
+  "window_days": 30,
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "shards": 30
 }

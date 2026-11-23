@@ -1,20 +1,69 @@
 {
   "username": "ctate",
-  "rank": 162,
-  "rank_score": 79.5,
   "country": "United States",
   "primary_language": "Rust",
+  "total_pushes": 64,
+  "merged_prs": 18,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.94,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.5,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 15,
+  "window_days": 30,
+  "rank_score": 870.4,
+  "active_repos_touched": 5,
+  "pr_reviews": 2,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 180,
   "avatar_url": "https://avatars.githubusercontent.com/u/366502?u=46a854ffb1cc4a07075045f8096cf30d165ab459&v=4",
   "bio": "Dev @Vercel",
   "company": "Vercel",
-  "tier": "Elite",
+  "location": "Austin, TX",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
   "percentile": 99.6,
-  "history": [
+  "tier": "Elite",
+  "prev_rank": 162,
+  "prev_score": 79.5,
+  "rank_delta": -18,
+  "score_delta": 790.9,
+  "counted_merges": [
     {
-      "d": "2026-11-21",
-      "r": 162,
-      "s": 79.5
+      "repo": "vercel-labs/scriptc",
+      "prs": 16
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "prs": 1
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "prs": 1
     }
   ],
-  "location": "Austin, TX"
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 180,
+      "s": 870.4
+    }
+  ]
 }

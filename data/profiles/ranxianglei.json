@@ -1,0 +1,57 @@
+{
+  "username": "ranxianglei",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 95,
+  "merged_prs": 9,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.55,
+  "s_quality": 50.0,
+  "s_impact": 99.99,
+  "s_consistency": 98.87,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 26,
+  "window_days": 30,
+  "rank_score": 871.7,
+  "active_repos_touched": 12,
+  "pr_reviews": 5,
+  "issue_comments": 140,
+  "releases": 0,
+  "stars_fraud_filtered": 64,
+  "forks_fraud_filtered": 3,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 79,
+  "avatar_url": "https://avatars.githubusercontent.com/u/12445698?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.8,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "ranxianglei/billion-context",
+      "prs": 9
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 79,
+      "s": 871.7
+    }
+  ]
+}

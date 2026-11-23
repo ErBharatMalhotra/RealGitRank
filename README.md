@@ -1,5 +1,11 @@
 # 🚀 RealGitRank (`realgitrank.bharatdn.com`)
-> The Anti-Bot Developer Ranking & Engineering Impact Engine for GitHub.
+> A 30-day engineering-impact ranking for GitHub, built from real public events.
+
+**Methodology status (v2):** scores use a rolling 30-day window; each pillar is
+percentile-ranked only where it was observed, and missing pillars are excluded from
+the weighted score. Pillar coverage, bot-evidence coverage and weekly GitHub spot
+checks are published at `/methodology/` and in `data/coverage.json`. There is no
+mock-data fallback: if the real ingest fails, the run fails.
 
 [![RealGitRank](https://img.shields.io/badge/RealGitRank-Engineering%20Impact%20Index-blue?style=flat-square)](#)
 [![Bot-Immune](https://img.shields.io/badge/Bot%20Immunity-Entropy%20Filtered-emerald?style=flat-square)](#)
@@ -41,8 +47,8 @@ cd web && npm install && npm run dev
 ## 🎯 Key Milestones
 1. **Ingest Engine:** BigQuery public dataset ingestion + Parquet output + fallback chain.
 2. **Analysis:** Entropy & Circadian rhythm bot-detection heuristics in DuckDB (vectorized).
-3. **Web UI:** Country & Tech Stack leaderboard tables with instant search (static, GitHub Pages).
-4. **Badges:** Static SVG endpoint for developer README profiles (`/badges/[username].svg`).
+3. **Web UI:** Country & language leaderboard tables with instant search (static, GitHub Pages). Country/language filters only cover enriched profiles; current coverage is shown on the country page.
+4. **Badges:** Static SVG endpoint for developer README profiles (`/badges/[username].svg`). The badge marks "bot-checked" only when bot evidence was actually observed.
 5. **Deployment:** Production release to `realgitrank.bharatdn.com` (GitHub Pages, free forever).
 
 ---

@@ -1,0 +1,89 @@
+{
+  "username": "CrispStrobe",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 136,
+  "merged_prs": 18,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.88,
+  "s_quality": 50.0,
+  "s_impact": 99.72,
+  "s_consistency": 99.07,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 22,
+  "window_days": 30,
+  "rank_score": 872.5,
+  "active_repos_touched": 17,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 28,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "CrispStrobe/CrispEmbed",
+      "prs": 4
+    },
+    {
+      "repo": "CrispStrobe/brickwright-lite",
+      "prs": 4
+    },
+    {
+      "repo": "CrispStrobe/CrispCloud",
+      "prs": 3
+    },
+    {
+      "repo": "CrispStrobe/quds_office_suite",
+      "prs": 2
+    },
+    {
+      "repo": "CrispStrobe/CrispMath",
+      "prs": 1
+    },
+    {
+      "repo": "CrispStrobe/bw-board",
+      "prs": 1
+    },
+    {
+      "repo": "CrispStrobe/bw-circuit-ui",
+      "prs": 1
+    },
+    {
+      "repo": "CrispStrobe/kerotakis",
+      "prs": 1
+    },
+    {
+      "repo": "CrispStrobe/labwired-core",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 28,
+      "s": 872.5
+    }
+  ]
+}

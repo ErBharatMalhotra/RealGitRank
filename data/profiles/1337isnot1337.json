@@ -1,0 +1,69 @@
+{
+  "username": "1337isnot1337",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 36,
+  "merged_prs": 8,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.5,
+  "s_quality": 50.0,
+  "s_impact": 99.97,
+  "s_consistency": 98.38,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 870.7,
+  "active_repos_touched": 14,
+  "pr_reviews": 1,
+  "issue_comments": 47,
+  "releases": 3,
+  "stars_fraud_filtered": 13,
+  "forks_fraud_filtered": 3,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 162,
+  "avatar_url": "https://avatars.githubusercontent.com/u/164028474?u=d33b272eceeeffc4759daf3c0fac7be607e669cf&v=4",
+  "bio": "High school student. Github for my work, side projects, and shenanigans.\r\n",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "1337isnot1337/DOPPLERGEIST",
+      "prs": 5
+    },
+    {
+      "repo": "1337isnot1337/3-SAT",
+      "prs": 1
+    },
+    {
+      "repo": "1337isnot1337/integer-factoring",
+      "prs": 1
+    },
+    {
+      "repo": "rohanarun/alpoge-rh-replay",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 162,
+      "s": 870.7
+    }
+  ]
+}

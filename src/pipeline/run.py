@@ -1,12 +1,21 @@
-"""RealGitRank pipeline runner: real BigQuery ingest if credentials exist, else mock demo data."""
-import json, os, random, sys
+"""RealGitRank pipeline runner.
+
+Flow: gharchive.org -> daily rolling shard -> newest 30 shards -> percentile
+scoring -> leaderboard + top-1,000 profiles + coverage.
+
+No mock data: if the real ingest fails, the run fails instead of publishing
+invented numbers. Scores are computed from the window only (no 70/30 blending
+with an older scale), and a changed score version clears day-over-day movement
+so a scale migration does not look like a giant rank shift.
+"""
+import json
+import os
+import sys
+from datetime import datetime, timedelta, timezone
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from datetime import datetime, timezone
-import duckdb
-from scoring_engine import compute_rank_scores
-from profiles import PROFILE_LIMIT, prune_profiles_for_leaderboard
+from coverage import write_coverage
 from history import (
-    MOVEMENT_KEYS,
     append_user_history,
     apply_deltas,
     assign_tiers,
@@ -15,222 +24,175 @@ from history import (
     prune_snapshots,
     write_snapshot,
 )
+from profiles import PROFILE_LIMIT, prune_profiles_for_leaderboard
+from rolling import WINDOW_DAYS, build_window_rows, prune_window, write_rows_parquet
+from scoring_engine import compute_rank_scores
 
-# Network ingest is skipped when RGR_OFFLINE=1 (offline dev / local verification).
-offline = os.environ.get("RGR_OFFLINE") == "1"
-used_real = False
-if offline:
-    print("RGR_OFFLINE=1 - skipping gharchive/BigQuery ingest, using local snapshot")
-else:
-    # Try real data from gharchive.org (zero GCP, zero auth, free forever) FIRST
+SCORE_VERSION = "v2-percentile"
+LEADERBOARD_LIMIT = 50000  # keeps the static site (50k API files + chunks) inside Pages limits
+
+
+def load_json(path, default):
     try:
-        from ingest_gharchive import ingest as gh_ingest
-        used_real = gh_ingest()
-    except Exception as e:
-        print(f"gharchive ingest error: {e}")
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return default
 
-    # If gharchive failed, try BigQuery (if credentials exist)
-    if not used_real:
-        try:
-            from ingest_bigquery import ingest as bq_ingest
-            used_real = bq_ingest()
-        except Exception as e:
-            print(f"BigQuery module error: {e}")
 
-# If no real data, generate mock (for local dev / demo)
-if not used_real or not os.path.exists("data/raw.parquet"):
-    print("Generating mock data for worldwide demo (1000 per country)...")
-    random.seed(42)
-    countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria",
-    "Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan",
-    "Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cabo Verde","Cambodia",
-    "Cameroon","Canada","Central African Republic","Chad","Chile","China","Colombia","Comoros","Congo (Brazzaville)","Congo (Kinshasa)",
-    "Costa Rica","Croatia","Cuba","Cyprus","Czechia","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador",
-    "Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Eswatini","Ethiopia","Fiji","Finland","France",
-    "Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea-Bissau",
-    "Guyana","Haiti","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland",
-    "Israel","Italy","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","Korea (North)","Korea (South)",
-    "Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein",
-    "Lithuania","Luxembourg","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Mauritania",
-    "Mauritius","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","Myanmar",
-    "Namibia","Nauru","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Macedonia","Norway",
-    "Oman","Pakistan","Palau","Palestine","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland",
-    "Portugal","Qatar","Romania","Russia","Rwanda","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","Samoa","San Marino",
-    "Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands",
-    "Somalia","South Africa","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Sweden","Switzerland","Syria",
-    "Tajikistan","Tanzania","Thailand","Timor-Leste","Togo","Tonga","Trinidad and Tobago","Tunisia","Turkey","Turkmenistan",
-    "Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay","Uzbekistan","Vanuatu","Vatican City",
-    "Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"]
-    langs = ["Python", "TypeScript", "Rust", "Go", "JavaScript", "Java", "C++", "Kotlin", "Swift", "Ruby"]
-
-    PER_COUNTRY = 1000
-    rows = []
-    idx = 0
-    for country in countries:
-        for _ in range(PER_COUNTRY):
-            is_bot = random.random() < 0.10
-            if is_bot:
-                total_pushes = random.randint(200, 2000)
-                unique_msgs = random.randint(1, max(2, int(total_pushes * 0.05)))
-                distinct_hours = random.choice([23, 24])
-                avg_files = 1.0
-                merged_prs = random.randint(0, 5)
-            else:
-                total_pushes = random.randint(5, 400)
-                unique_msgs = random.randint(int(total_pushes * 0.4), total_pushes)
-                distinct_hours = random.randint(6, 18)
-                avg_files = random.uniform(1.5, 8.0)
-                merged_prs = random.randint(0, 40)
-
-            rows.append({
-                "username": f"dev_{idx}",
-                "country": country,
-                "primary_language": random.choice(langs),
-                "total_pushes": total_pushes,
-                "merged_prs": merged_prs,
-                "merged_prs_external_weighted": merged_prs * random.uniform(0.8, 2.5),
-                "closed_issues": random.randint(0, 20),
-                "active_repos_touched": random.randint(1, 15),
-                "unique_commit_messages": unique_msgs,
-                "distinct_active_hours": distinct_hours,
-                "avg_files_changed": avg_files,
-                "push_hour_stddev": random.uniform(2, 8) if not is_bot else 0.5,
-                "test_file_ratio": random.uniform(0, 0.6) if not is_bot else 0.0,
-                "multi_file_commit_ratio": random.uniform(0.2, 0.9) if not is_bot else 0.05,
-                "language_diversity": random.randint(1, 5),
-                "stars_fraud_filtered": random.randint(0, 500) if not is_bot else random.randint(0, 50),
-                "forks_fraud_filtered": random.randint(0, 200) if not is_bot else random.randint(0, 20),
-                "dependents": random.randint(0, 50),
-                "active_shipping_weeks": random.randint(1, 52) if not is_bot else random.randint(1, 52),
-            })
-            idx += 1
-
-    os.makedirs("data", exist_ok=True)
-    import pyarrow as pa, pyarrow.parquet as pq
-    table = pa.Table.from_pylist(rows)
-    pq.write_table(table, "data/raw.parquet")
-    print(f"Mock: {len(rows)} users across {len(countries)} countries ({PER_COUNTRY} each)")
-
-os.makedirs("data", exist_ok=True)
-scored = compute_rank_scores("data/raw.parquet")
-
-# ACCUMULATE: merge with existing leaderboard (don't replace)
-# Over time, this grows to cover the active developer population worldwide
-existing = {}
-if os.path.exists("data/leaderboard.json"):
-    try:
-        old = json.load(open("data/leaderboard.json"))
-        for u in old:
-            existing[u["username"]] = u
-    except Exception:
-        pass
-
-merged = {}
-for r in scored:
-    u = r["username"]
-    new_entry = {
-        "username": u,
-        "rank_score": r["rank_score"],
-        "country": r["country"] or existing.get(u, {}).get("country", ""),
-        "primary_language": r["primary_language"] if r["primary_language"] != "Unknown" else existing.get(u, {}).get("primary_language", "Unknown"),
-        "merged_prs": r["merged_prs"],
-        "is_human_verified": r["is_human_verified"],
-        "is_bot_classified": r["is_bot_classified"],
-        "bot_penalty": r["bot_penalty"],
-        "avatar_url": existing.get(u, {}).get("avatar_url", ""),
-        "bio": existing.get(u, {}).get("bio", ""),
+def carried_profile_fields(username, old_by_name, old_profiles):
+    """Enrichment (country/language/avatar/bio/company) from the previous run."""
+    prev = old_by_name.get(username) or {}
+    prof = old_profiles.get(username) or {}
+    return {
+        "country": prev.get("country") or prof.get("country") or "",
+        "primary_language": prev.get("primary_language") or prof.get("primary_language") or "Unknown",
+        "avatar_url": prev.get("avatar_url") or prof.get("avatar_url") or "",
+        "bio": prev.get("bio") or prof.get("bio") or "",
+        "company": prev.get("company") or prof.get("company") or "",
+        "location": prev.get("location") or prof.get("location") or "",
     }
-    # Blend scores: weighted average (70% new day, 30% historical)
-    if u in existing:
-        old_score = existing[u].get("rank_score", 0)
-        new_entry["rank_score"] = round(new_entry["rank_score"] * 0.7 + old_score * 0.3, 1)
-    merged[u] = new_entry
 
-# Add existing users not in today's data (keep their historical score, decay slightly)
-for u, e in existing.items():
-    if u not in merged:
-        e["rank_score"] = round(e.get("rank_score", 0) * 0.95, 1)  # 5% decay per inactive day
-        merged[u] = e
 
-# Sort globally
-lb = sorted(merged.values(), key=lambda x: x["rank_score"], reverse=True)
+def main():
+    offline = os.environ.get("RGR_OFFLINE") == "1"
+    today = datetime.now(timezone.utc).date()
+    end_date = (today - timedelta(days=1)).isoformat()
 
-# Per-country minimum: ensure at least 100 devs per country
-included_usernames = set(u["username"] for u in lb[:200000])
-for country in set(u["country"] or "Unknown" for u in lb):
-    country_users = [u for u in lb if (u["country"] or "Unknown") == country]
-    added = 0
-    for u in country_users:
-        if added >= 100:
-            break
-        if u["username"] not in included_usernames:
-            lb.append(u)
-            included_usernames.add(u["username"])
-            added += 1
+    if not offline:
+        from ingest_gharchive import ingest
 
-# Re-sort and cap
-lb.sort(key=lambda x: x["rank_score"], reverse=True)
-lb = lb[:220000]
-for i, u in enumerate(lb, 1):
-    u["rank"] = i
+        print("Ingesting real GitHub event data (gharchive.org)...")
+        if not ingest():
+            print("FAIL: real ingest produced no data; refusing to publish invented numbers")
+            return 1
+    else:
+        from rolling import available_dates
 
-# Tiers/percentiles + day-over-day movement, then persist today's snapshot.
-run_date = datetime.now(timezone.utc).date().isoformat()
-assign_tiers(lb)
-clear_movement(lb)
-prev_date, previous = load_previous_snapshot("data/history", run_date)
-if previous:
-    matched = apply_deltas(lb, previous)
-    print(f"Movement vs {prev_date}: {matched} returning users matched")
-write_snapshot("data/history", run_date, lb)
-pruned_snapshots = prune_snapshots("data/history")
-if pruned_snapshots:
-    print(f"Pruned {pruned_snapshots} old history snapshots")
+        shards = available_dates()
+        if not shards:
+            print("FAIL: RGR_OFFLINE=1 but no rolling shards exist")
+            return 1
+        end_date = shards[-1]
 
-print(f"Total: {len(lb)} users (top 200k + per-country minimums)")
+    rows, window = build_window_rows(end_date)
+    if not rows:
+        print(f"FAIL: no rows in the rolling window ending {end_date}")
+        return 1
+    print(
+        f"Window {window['window_start']}..{window['window_end']} "
+        f"({window['shards']}/{WINDOW_DAYS} shards, {len(rows)} users)"
+    )
 
-with open("data/leaderboard.json", "w") as f:
-    json.dump(lb, f, indent=2)
+    write_rows_parquet(rows, "data/raw.parquet")
+    scored = compute_rank_scores("data/raw.parquet")
 
-# Save per-user profiles ONLY for top 1000 globally (hybrid scalability)
-# Profiles are written from the MERGED leaderboard so the rank/score on a profile page
-# always matches the leaderboard row, with today's metrics and enrichment merged in.
-scored_by_name = {r["username"]: r for r in scored}
-os.makedirs("data/profiles", exist_ok=True)
-for u in lb[:PROFILE_LIMIT]:
-    prof = dict(scored_by_name.get(u["username"], {}))
-    prof.update({"username": u["username"], "rank": u["rank"], "rank_score": u["rank_score"]})
-    for key in ("country", "primary_language", "avatar_url", "bio", "company"):
-        prof[key] = prof.get(key) or u.get(key, "")
-    prof_path = f"data/profiles/{u['username']}.json"
-    old_prof = {}
-    if os.path.exists(prof_path):
-        try:
-            old_prof = json.load(open(prof_path))
-            for key in ("avatar_url", "bio", "company", "country"):
-                prof[key] = prof.get(key) or old_prof.get(key, "")
-        except Exception:
-            old_prof = {}
-    for key in ("tier", "percentile", *MOVEMENT_KEYS):
-        if key in u:
-            prof[key] = u[key]
-        else:
-            prof.pop(key, None)
-    prof["history"] = old_prof.get("history") or []
-    append_user_history(prof, run_date, u["rank"], u["rank_score"])
-    with open(prof_path, "w") as f:
-        json.dump(prof, f, indent=2)
+    old_status = load_json("data/status.json", {})
+    old_lb = load_json("data/leaderboard.json", [])
+    old_by_name = {u.get("username"): u for u in old_lb if u.get("username")}
+    old_profiles = {}
+    if os.path.isdir("data/profiles"):
+        for name in os.listdir("data/profiles"):
+            if name.endswith(".json"):
+                payload = load_json(os.path.join("data/profiles", name), None)
+                if isinstance(payload, dict) and payload.get("username"):
+                    old_profiles[payload["username"]] = payload
 
-pruned_profiles = prune_profiles_for_leaderboard("data/profiles", lb)
-if pruned_profiles:
-    print(f"Pruned {pruned_profiles} profiles for users outside the top {PROFILE_LIMIT}")
+    # Provenance lives in the window rows (it is not a parquet/scoring column).
+    merges_by_name = {r["username"]: (r.get("merged_repos") or {}) for r in rows}
 
-print(f"Accumulated: {len(lb)} total users ({len(scored)} new/updated today). Top: {lb[0]['username']} ({lb[0]['rank_score']})")
+    by_name = {}
+    for rec in scored:
+        username = rec["username"]
+        entry = dict(rec)
+        entry.update(carried_profile_fields(username, old_by_name, old_profiles))
+        entry["score_version"] = SCORE_VERSION
+        entry["window_start"] = window["window_start"]
+        entry["window_end"] = window["window_end"]
+        by_name[username] = entry
 
-with open("data/status.json", "w") as f:
-    json.dump({"last_run_utc": datetime.now(timezone.utc).isoformat(), "data_age_hours": 0,
-               "status": "ok", "users": len(lb), "new_today": len(scored),
-               "source": "real" if used_real else "mock"}, f, indent=2)
+    lb = sorted(
+        by_name.values(),
+        key=lambda u: (u.get("rank_score", 0), u.get("merged_prs", 0), u.get("username", "")),
+        reverse=True,
+    )[:LEADERBOARD_LIMIT]
+    for index, entry in enumerate(lb, 1):
+        entry["rank"] = index
 
-print(f"Scored {len(scored)} users. Top: {scored[0]['username']} ({scored[0]['rank_score']})")
-print(f"Profile JSONs: {min(PROFILE_LIMIT, len(lb))} (top {PROFILE_LIMIT} only)")
+    run_date = today.isoformat()
+    assign_tiers(lb)
+    clear_movement(lb)
+    prev_date, previous = load_previous_snapshot("data/history", run_date)
+    if previous and old_status.get("score_version") == SCORE_VERSION:
+        matched = apply_deltas(lb, previous)
+        print(f"Movement vs {prev_date}: {matched} returning users matched")
+    elif previous:
+        print(f"Score version changed to {SCORE_VERSION}: movement reset for this run")
+    write_snapshot("data/history", run_date, lb)
+    pruned_snapshots = prune_snapshots("data/history")
+    if pruned_snapshots:
+        print(f"Pruned {pruned_snapshots} old history snapshots")
+
+    with open("data/leaderboard.json", "w", encoding="utf-8") as f:
+        json.dump(lb, f, indent=2)
+
+    os.makedirs("data/profiles", exist_ok=True)
+    for entry in lb[:PROFILE_LIMIT]:
+        username = entry["username"]
+        profile = dict(entry)
+        profile["rank"] = entry["rank"]
+        merged_repos = merges_by_name.get(username) or {}
+        if merged_repos:
+            profile["counted_merges"] = [
+                {"repo": repo, "prs": int(count)}
+                for repo, count in sorted(merged_repos.items(), key=lambda kv: (-int(kv[1]), kv[0]))[:10]
+            ]
+        profile["history"] = list(old_profiles.get(username, {}).get("history") or [])
+        append_user_history(profile, run_date, entry["rank"], entry["rank_score"])
+        with open(f"data/profiles/{username}.json", "w", encoding="utf-8") as f:
+            json.dump(profile, f, indent=2)
+
+    pruned_profiles = prune_profiles_for_leaderboard("data/profiles", lb)
+    if pruned_profiles:
+        print(f"Pruned {pruned_profiles} profiles for users outside the top {PROFILE_LIMIT}")
+
+    removed_shards = prune_window(end_date)
+    if removed_shards:
+        print(f"Pruned {removed_shards} shards older than {WINDOW_DAYS} days")
+
+    generated_at = datetime.now(timezone.utc).isoformat()
+    coverage_meta = {
+        "generated_at": generated_at,
+        "score_version": SCORE_VERSION,
+        **window,
+    }
+    coverage = write_coverage(lb, coverage_meta, load_json("data/validation.json", None))
+
+    with open("data/status.json", "w", encoding="utf-8") as f:
+        json.dump({
+            "last_run_utc": generated_at,
+            "data_age_hours": 0,
+            "status": "ok",
+            "users": len(lb),
+            "new_today": len(scored),
+            "source": "real",
+            "score_version": SCORE_VERSION,
+            "window_days": window["window_days"],
+            "window_start": window["window_start"],
+            "window_end": window["window_end"],
+            "shards": window["shards"],
+        }, f, indent=2)
+
+    print(
+        f"Scored {len(scored)} users from real events. Top: {lb[0]['username']} "
+        f"({lb[0]['rank_score']}, {lb[0]['merged_prs']} merged PRs)"
+    )
+    print(
+        f"Coverage: quality {coverage['pillars']['code_health']['pct']}%, "
+        f"bot evidence {coverage['bot_evidence']['pct']}%"
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

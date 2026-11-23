@@ -1,0 +1,65 @@
+{
+  "username": "EtienneLescot",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 3,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.47,
+  "s_quality": 50.0,
+  "s_impact": 98.68,
+  "s_consistency": 98.85,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 868.1,
+  "active_repos_touched": 3,
+  "pr_reviews": 1,
+  "issue_comments": 3,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 367,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.3,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "getopenscreen/openscreen",
+      "prs": 3
+    },
+    {
+      "repo": "EtienneLescot/rusuban",
+      "prs": 2
+    },
+    {
+      "repo": "exolunehq/exolune",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 367,
+      "s": 868.1
+    }
+  ]
+}

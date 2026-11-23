@@ -1,0 +1,77 @@
+{
+  "username": "BerryUIKI",
+  "country": "China",
+  "primary_language": "Unknown",
+  "total_pushes": 8,
+  "merged_prs": 11,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.69,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 99.19,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 870.5,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 175,
+  "avatar_url": "https://avatars.githubusercontent.com/u/40695099?u=c1f6cb56a9852d8387191c041b89f4fc65ac8313&v=4",
+  "bio": "Independent Researcher\r\nAI Infrastructure \u2022 Semiconductors \u2022 Data Centers\r\nExplaining complex technologies from an industry perspective.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "BerryUIKI/CatCup-Tavern",
+      "prs": 4
+    },
+    {
+      "repo": "BerryUIKI/CowBot",
+      "prs": 2
+    },
+    {
+      "repo": "BerryUIKI/Omera",
+      "prs": 2
+    },
+    {
+      "repo": "BerryUIKI/AI-Studio",
+      "prs": 1
+    },
+    {
+      "repo": "BerryUIKI/Taleno",
+      "prs": 1
+    },
+    {
+      "repo": "BerryUIKI/berry-ai-harness",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 175,
+      "s": 870.5
+    }
+  ]
+}

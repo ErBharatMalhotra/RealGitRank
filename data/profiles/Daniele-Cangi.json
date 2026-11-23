@@ -1,0 +1,57 @@
+{
+  "username": "Daniele-Cangi",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 8,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 97.36,
+  "s_quality": 50.0,
+  "s_impact": 99.89,
+  "s_consistency": 99.32,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 864.5,
+  "active_repos_touched": 3,
+  "pr_reviews": 2,
+  "issue_comments": 3,
+  "releases": 0,
+  "stars_fraud_filtered": 9,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 624,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.8,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "NOEMETRA/PAW--Phishing-Attribution-Workbench--",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 624,
+      "s": 864.5
+    }
+  ]
+}

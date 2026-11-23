@@ -1,0 +1,77 @@
+{
+  "username": "mrcjkb",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 6,
+  "merged_prs": 6,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.47,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 99.27,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 871.0,
+  "active_repos_touched": 10,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 140,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "feldenkrais-jakobi/feldenkrais-jakobi.github.io",
+      "prs": 1
+    },
+    {
+      "repo": "lumen-oss/luarocks-tag-release",
+      "prs": 1
+    },
+    {
+      "repo": "lumen-oss/lz.n",
+      "prs": 1
+    },
+    {
+      "repo": "mrcjkb/haskell-tools.nvim",
+      "prs": 1
+    },
+    {
+      "repo": "mrcjkb/nixfiles",
+      "prs": 1
+    },
+    {
+      "repo": "nix-community/rustowl-flake",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 140,
+      "s": 871.0
+    }
+  ]
+}

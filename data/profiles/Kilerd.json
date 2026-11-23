@@ -1,0 +1,61 @@
+{
+  "username": "Kilerd",
+  "country": "China",
+  "primary_language": "Unknown",
+  "total_pushes": 12,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.66,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 92.51,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 860.4,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 860,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3162379?u=4dbd9940f93efe8d688c877641a807c2c110e91f&v=4",
+  "bio": "I've been fabulous through to find my tattered name.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 98.3,
+  "tier": "Diamond",
+  "counted_merges": [
+    {
+      "repo": "getdroppen/droppen",
+      "prs": 6
+    },
+    {
+      "repo": "zhang-accounting/zhang",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 860,
+      "s": 860.4
+    }
+  ]
+}
