@@ -189,7 +189,7 @@ def main():
     )
     print(
         f"Coverage: quality {coverage['pillars']['code_health']['pct']}%, "
-        f"bot evidence {coverage['bot_evidence']['pct']}%"
+        f"automation evidence {coverage['automation_evidence']['pct']}%"
     )
     return 0
 
