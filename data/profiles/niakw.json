@@ -1,7 +1,7 @@
 {
   "username": "niakw",
   "country": "France",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 169,
   "merged_prs": 5,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/240183845?u=0e2aca4d4dc02129b0e8ecfd7bbe3179f18ccc38&v=4",
   "bio": "Software engineer & open-source builder | Emulation, AI, automation, developer tools & digital products.",
   "company": "",
-  "location": "",
+  "location": "France",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

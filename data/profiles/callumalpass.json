@@ -1,7 +1,7 @@
 {
   "username": "callumalpass",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 12,
   "merged_prs": 15,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/12558714?v=4",
   "bio": "\r\n",
   "company": "",
-  "location": "",
+  "location": "Melbourne, Australia",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

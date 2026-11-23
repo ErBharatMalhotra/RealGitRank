@@ -41,10 +41,10 @@
   "window_end": "2026-11-22",
   "percentile": 99.5,
   "tier": "Elite",
-  "prev_rank": 621,
-  "prev_score": 66.6,
-  "rank_delta": 359,
-  "score_delta": 802.9,
+  "prev_rank": 665,
+  "prev_score": 65.5,
+  "rank_delta": 403,
+  "score_delta": 804.0,
   "counted_merges": [
     {
       "repo": "objectionary/phino",

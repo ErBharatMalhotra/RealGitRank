@@ -1,7 +1,7 @@
 {
   "username": "max-sixty",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 85,
   "merged_prs": 15,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/5635139?u=6f1102d28e4e15c49584cea2596a75eea0eb8bc3&v=4",
   "bio": "Developer of worktrunk, prql, xarray & insta.\r\n\r\nAlso pytest-accept and numbagg.\r\n\r\n\r\nYou can give me feedback at feedback.maxroos.com",
   "company": "",
-  "location": "",
+  "location": "Los Angeles",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

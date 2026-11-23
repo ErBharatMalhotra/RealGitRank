@@ -1,7 +1,7 @@
 {
   "username": "vavallee",
   "country": "Canada",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 8,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/75899046?u=8099bcba63f76a4de1128bfba551692c5f9f98cc&v=4",
   "bio": "Platform Engineering Manager",
   "company": "",
-  "location": "",
+  "location": "Timberlea, Nova Scotia, Canada",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

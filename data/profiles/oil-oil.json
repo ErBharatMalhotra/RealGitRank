@@ -1,7 +1,7 @@
 {
   "username": "oil-oil",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -32,7 +32,7 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 963,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/57465570?u=bfb4b7b49075d78526c6d04cae123aeeacd4e85a&v=4",
   "bio": "",
   "company": "",
   "location": "",

@@ -1,7 +1,7 @@
 {
   "username": "backend-bunny",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 4,
   "merged_prs": 6,
   "bot_penalty": 0.0,
@@ -32,7 +32,7 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 667,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/173007677?u=169eb128090b0ea20e89d20c51e647dc93967f11&v=4",
   "bio": "",
   "company": "",
   "location": "",

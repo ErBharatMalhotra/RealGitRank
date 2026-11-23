@@ -1,7 +1,7 @@
 {
   "username": "justrach",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "Zig",
   "total_pushes": 24,
   "merged_prs": 6,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/54503978?v=4",
   "bio": "",
   "company": "",
-  "location": "",
+  "location": "Singapore / San Francisco",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

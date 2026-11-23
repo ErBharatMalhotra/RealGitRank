@@ -1,7 +1,7 @@
 {
   "username": "the-database",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "C#",
   "total_pushes": 5,
   "merged_prs": 5,
   "bot_penalty": 0.0,
@@ -32,7 +32,7 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 409,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/25811902?u=d2263328e852345e06b43209ea1b1f801530af29&v=4",
   "bio": "",
   "company": "",
   "location": "",

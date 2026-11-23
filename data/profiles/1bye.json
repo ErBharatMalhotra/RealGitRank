@@ -1,7 +1,7 @@
 {
   "username": "1bye",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 4,
   "merged_prs": 2,
   "bot_penalty": 0.0,
@@ -32,7 +32,7 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 979,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/51824506?u=b395c47b3457dabcc29957d1839c22e16061057c&v=4",
   "bio": "",
   "company": "",
   "location": "",

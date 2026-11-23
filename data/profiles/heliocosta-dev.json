@@ -1,7 +1,7 @@
 {
   "username": "heliocosta-dev",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 5,
   "merged_prs": 6,
   "bot_penalty": 0.0,
@@ -34,7 +34,7 @@
   "rank": 203,
   "avatar_url": "https://avatars.githubusercontent.com/u/18431407?u=3634b09754d334b2d1517cb6e9ae7a8e19ca4536&v=4",
   "bio": "",
-  "company": "",
+  "company": "@agentes-chat",
   "location": "",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",

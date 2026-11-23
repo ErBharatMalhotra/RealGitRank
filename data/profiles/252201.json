@@ -1,7 +1,7 @@
 {
   "username": "252201",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 6,
   "merged_prs": 6,
   "bot_penalty": 0.0,
@@ -32,7 +32,7 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 924,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/114610855?u=157f2f5bb524e39cf636f48eb6f46005c4216aa3&v=4",
   "bio": "",
   "company": "",
   "location": "",

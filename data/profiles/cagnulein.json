@@ -1,7 +1,7 @@
 {
   "username": "cagnulein",
   "country": "Italy",
-  "primary_language": "Unknown",
+  "primary_language": "C++",
   "total_pushes": 12,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/48216?u=1af308576dffd489251fca68aceab3d4585a43c1&v=4",
   "bio": "",
   "company": "",
-  "location": "",
+  "location": "Maranello, Italy",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

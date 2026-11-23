@@ -1,0 +1,81 @@
+{
+  "username": "BeatLink",
+  "country": "",
+  "primary_language": "Vala",
+  "total_pushes": 17,
+  "merged_prs": 9,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.77,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 98.52,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 870.9,
+  "active_repos_touched": 16,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 145,
+  "avatar_url": "https://avatars.githubusercontent.com/u/47278150?u=2acb8a67c9b4316d6b8f2d5b3ef4a4dcc77afb79&v=4",
+  "bio": "Hi I'm BeatLink, an open source software developer. I believe that software should be created by everyone for everyone. ",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.7,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "x-tech-laboratories/X-Libs",
+      "prs": 3
+    },
+    {
+      "repo": "BeatLink/TechNet",
+      "prs": 1
+    },
+    {
+      "repo": "x-tech-laboratories/X-Backups",
+      "prs": 1
+    },
+    {
+      "repo": "x-tech-laboratories/X-Fitness",
+      "prs": 1
+    },
+    {
+      "repo": "x-tech-laboratories/X-Media-Tracker",
+      "prs": 1
+    },
+    {
+      "repo": "x-tech-laboratories/X-Music",
+      "prs": 1
+    },
+    {
+      "repo": "x-tech-laboratories/X-Nix",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 145,
+      "s": 870.9
+    }
+  ]
+}

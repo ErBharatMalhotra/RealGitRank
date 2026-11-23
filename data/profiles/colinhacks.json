@@ -1,7 +1,7 @@
 {
   "username": "colinhacks",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 10,
   "merged_prs": 8,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/3084745?u=00ba705b6a5ceaa3b4c5f3582ddb944f891f8847&v=4",
   "bio": "I have come here to chew bubblegum and write code. And _InsufficientBubblegumException_",
   "company": "",
-  "location": "",
+  "location": "Seattle, WA",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

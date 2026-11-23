@@ -1,7 +1,7 @@
 {
   "username": "katagaki",
   "country": "Japan",
-  "primary_language": "Unknown",
+  "primary_language": "Swift",
   "total_pushes": 9,
   "merged_prs": 12,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/68231035?u=87ce79d3bf8f9a6b7a23b5d0d3990ec05c5f1229&v=4",
   "bio": "",
   "company": "",
-  "location": "",
+  "location": "Tokyo, Japan",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

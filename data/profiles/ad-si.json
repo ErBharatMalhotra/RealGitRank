@@ -41,10 +41,10 @@
   "window_end": "2026-11-22",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 170,
-  "prev_score": 79.0,
-  "rank_delta": 141,
-  "score_delta": 793.5,
+  "prev_rank": 689,
+  "prev_score": 64.4,
+  "rank_delta": 660,
+  "score_delta": 808.1,
   "counted_merges": [
     {
       "repo": "ad-si/Woxi",
