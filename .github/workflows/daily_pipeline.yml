@@ -69,7 +69,7 @@ jobs:
           # /data/chunks and /data/profiles only, so they stay out of the public payload.
           rsync -a --exclude 'gharchive_raw/' --exclude 'rolling/' --exclude 'raw.parquet' \
             --exclude 'backfill.log' --exclude 'enrichment_cache.json' --exclude 'language_cache.json' \
-            --exclude 'leaderboard.json' --exclude 'history/' \
+            --exclude 'leaderboard.json' --exclude 'history/' --exclude 'automation_signals.json' \
             data/ web/public/data/
           python -m src.pipeline.chunks
           cd web

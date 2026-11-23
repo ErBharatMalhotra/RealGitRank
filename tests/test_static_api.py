@@ -64,15 +64,19 @@ def test_compact_user_uses_default_badge_outside_top_1000():
 
 
 def test_compact_user_links_outside_top_1000_to_github():
-    # Only the top 1,000 have pre-rendered profile pages; everyone else goes to GitHub.
+    # Only the top 1,000 have pre-rendered pages and per-user JSON.
     record = compact_user(entry(1001))
     assert record["profile_url"] == "https://github.com/dev1001"
-    assert compact_user(entry(1000))["profile_url"] == f"{SITE}/profile/dev1000"
+    assert "api_url" not in record
+    top = compact_user(entry(1000))
+    assert top["profile_url"] == f"{SITE}/profile/dev1000"
+    assert top["api_url"] == f"{SITE}/api/user/dev1000.json"
 
 
 def test_compact_user_without_profile_page_links_to_github():
     record = compact_user(entry(5), has_profile=False)
     assert record["profile_url"] == "https://github.com/dev5"
+    assert "api_url" not in record
 
 
 def test_compact_user_merges_profile_extras():
@@ -147,5 +151,7 @@ def test_generate_writes_leaderboard_user_files_and_llms(tmp_path):
     user = json.loads((tmp_path / "api" / "user" / "dev1.json").read_text(encoding="utf-8"))
     assert user["user"]["company"] == "Acme"
     assert user["user"]["avatar_url"].startswith("https://avatars.githubusercontent.com/")
-    assert (tmp_path / "api" / "user" / "dev2.json").exists()
+    # Per-user files exist only for the top 1,000 (dev1 has a profile, dev2 not).
+    assert not (tmp_path / "api" / "user" / "dev2.json").exists()
+    assert "api_url" in user["user"]
     assert (tmp_path / "llms.txt").read_text(encoding="utf-8").startswith("# RealGitRank")

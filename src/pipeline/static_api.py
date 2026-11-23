@@ -146,10 +146,10 @@ def compact_user(entry, profile=None, include_heavy=False, has_profile=None):
     has_page = (isinstance(rank, int) and 1 <= rank <= COMMUNITY_PROFILE_LIMIT) if has_profile is None else bool(has_profile)
     if has_page:
         record["profile_url"] = f"{SITE}/profile/{username}"
+        record["api_url"] = f"{SITE}/api/user/{username}.json"
     else:
         record["profile_url"] = f"https://github.com/{username}"
     record["badge_url"] = badge_url(username, record.get("rank"))
-    record["api_url"] = f"{SITE}/api/user/{username}.json"
     return record
 
 
@@ -190,8 +190,9 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None, c
         "notes": (
             "Scores measure merged work, adoption and consistency over the rolling window "
             "declared above, with each pillar percentile-ranked and missing pillars excluded "
-            "(weights renormalised). Detailed profiles are served only for the top 1,000; "
-            "avatar_url and bio live in /api/user/{username}.json. Coverage of every pillar "
+            "(weights renormalised). Detailed profiles and per-user JSON are served only "
+            "for the top 1,000; avatar_url and bio live in /api/user/{username}.json. "
+            "Coverage of every pillar "
             "is published in the coverage block, and independent GitHub spot checks in "
             "data/validation.json."
         ),
@@ -271,9 +272,10 @@ Independent validation: {validation_line}
   Avatar and bio are intentionally omitted here; read them from the per-user endpoint.
 - {payload['site']}/data/coverage.json — measured/null counts for every pillar,
   automation-signal evidence coverage and validation results.
-- {payload['site']}/api/user/{{username}}.json — one developer; includes daily history,
-  avatar_url, bio, company and location when available. Example: {payload['site']}/api/user/{(top[0].get('username') if top else 'sirine2907')}.json
-- {payload['site']}/data/chunks/page_1.json — raw leaderboard chunks (1,000 rows per page),
+- {payload['site']}/api/user/{{username}}.json — one developer in the top 1,000; includes
+  daily history, avatar_url, bio, company and location when available. Example: {payload['site']}/api/user/{(top[0].get('username') if top else 'sirine2907')}.json
+  (users outside the top 1,000 have no per-user file; read their row from the chunks)
+- {payload['site']}/data/chunks/page_1.json — raw leaderboard chunks (250 rows per page),
   index at {payload['site']}/data/chunks/index.json
 - {payload['site']}/badges/{{username}}.svg — SVG badge (dedicated badges for the global
   top 1,000; {payload['site']}/badges/default.svg otherwise)
@@ -350,6 +352,9 @@ def generate(leaderboard_path=LEADERBOARD_PATH, out_dir=OUT_DIR, llms_path=LLMS_
     for entry in entries:
         username = entry.get("username") or ""
         if not username or "/" in username or "\\" in username or username in (".", ".."):
+            continue
+        # Per-user files exist only for the top 1,000 (the profiles we already keep).
+        if username not in profiles:
             continue
         payload = build_user(entry, profiles.get(username), status, snapshot_date)
         with open(os.path.join(user_dir, f"{username}.json"), "w", encoding="utf-8") as f:

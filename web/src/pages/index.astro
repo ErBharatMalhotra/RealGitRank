@@ -211,6 +211,13 @@
           <div class="links"><a href="https://github.com/${encodeURIComponent(name)}" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>${profileLink}<a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Report / opt out</a></div>`;
       }
 
+      // Per-user JSON exists only for the top 1,000; everyone else is rendered
+      // from the chunk row already loaded in the table.
+      function loadedRow(name) {
+        const want = String(name).toLowerCase();
+        return allData.find((u) => (u.username || '').toLowerCase() === want) || null;
+      }
+
       async function openDetails(name) {
         lastFocus = document.activeElement;
         modal.hidden = false;
@@ -224,7 +231,10 @@
           const data = await res.json();
           if (seq === detailsSeq) renderDetails(data);
         } catch (err) {
-          if (seq === detailsSeq) modalBody.innerHTML = `<p class="muted">${esc(err.message || 'Could not load details.')} <a href="https://github.com/${encodeURIComponent(name)}" target="_blank" rel="noopener noreferrer">Open GitHub →</a></p>`;
+          const row = loadedRow(name);
+          if (seq !== detailsSeq) return;
+          if (row) renderDetails(row);
+          else modalBody.innerHTML = `<p class="muted">${esc(err.message || 'Could not load details.')} <a href="https://github.com/${encodeURIComponent(name)}" target="_blank" rel="noopener noreferrer">Open GitHub →</a></p>`;
         }
       }
 

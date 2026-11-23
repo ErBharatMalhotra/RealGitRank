@@ -9,6 +9,7 @@ data/gharchive_raw/
 data/*.log
 web/build.log
 data/enrichment_cache.json
+data/automation_signals.json
 data/language_cache.json
 web/public/data/
 web/public/data/chunks/

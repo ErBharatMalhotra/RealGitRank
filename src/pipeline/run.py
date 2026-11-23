@@ -14,6 +14,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from automation import strip_signals, write_signals
 from coverage import write_coverage
 from history import (
     append_user_history,
@@ -133,13 +134,16 @@ def main():
     if pruned_snapshots:
         print(f"Pruned {pruned_snapshots} old history snapshots")
 
+    # Classification values are internal only: keep them in a gitignored sidecar
+    # for the coverage/quality-gate steps, never in the committed leaderboard.
+    write_signals(lb)
     with open("data/leaderboard.json", "w", encoding="utf-8") as f:
-        json.dump(lb, f, indent=2)
+        json.dump([strip_signals(entry) for entry in lb], f, indent=2)
 
     os.makedirs("data/profiles", exist_ok=True)
     for entry in lb[:PROFILE_LIMIT]:
         username = entry["username"]
-        profile = dict(entry)
+        profile = strip_signals(entry)
         profile["rank"] = entry["rank"]
         merged_repos = merges_by_name.get(username) or {}
         if merged_repos:

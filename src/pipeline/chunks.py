@@ -8,7 +8,7 @@ module strips them from the copies the browser can download.
 import json
 import os
 
-CHUNK_SIZE = 1000
+CHUNK_SIZE = 250
 PUBLIC_DATA = "web/public/data"
 
 # Never published: these describe a per-account judgement, not a score.
@@ -71,6 +71,15 @@ def main():
     # Index file: metadata
     with open(os.path.join(chunks_dir, "index.json"), "w", encoding="utf-8") as f:
         json.dump({"total": total, "pages": pages, "chunk_size": CHUNK_SIZE}, f)
+
+    # Compact search index: [username, rank, score]. One small request beats
+    # fanning out over every chunk now that pages are small.
+    with open(os.path.join(PUBLIC_DATA, "search.json"), "w", encoding="utf-8") as f:
+        json.dump(
+            [[u["username"], u.get("rank"), round(float(u.get("rank_score") or 0), 1)]
+             for u in lb if u.get("username")],
+            f, separators=(",", ":"), ensure_ascii=False,
+        )
 
     print(f"Chunks: {pages} pages x {CHUNK_SIZE} = {total} users (classification fields stripped)")
 

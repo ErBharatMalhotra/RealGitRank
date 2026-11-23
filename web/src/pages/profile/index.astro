@@ -38,7 +38,7 @@
       const u = params.get('u');
       const hintRank = parseInt(params.get('r') || '', 10);
       const el = document.getElementById('content');
-      const CHUNK_SIZE = 1000;
+      let chunkSize = 250; // overridden by /data/chunks/index.json
 
       const esc = (v) => String(v == null ? '' : v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -57,10 +57,11 @@
       async function findInChunks(username) {
         const want = username.toLowerCase();
         const pages = [];
-        if (Number.isFinite(hintRank) && hintRank > 0) {
-          pages.push(Math.ceil(hintRank / CHUNK_SIZE));
-        }
         const idx = await fetchJSON('/data/chunks/index.json');
+        chunkSize = idx && idx.chunk_size ? idx.chunk_size : chunkSize;
+        if (Number.isFinite(hintRank) && hintRank > 0) {
+          pages.push(Math.ceil(hintRank / chunkSize));
+        }
         const totalPages = idx && idx.pages ? idx.pages : 0;
         for (let p = 1; p <= totalPages; p++) if (!pages.includes(p)) pages.push(p);
         for (const p of pages) {

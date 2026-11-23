@@ -81,7 +81,12 @@ def main():
         except (OSError, ValueError):
             return default
 
-    entries = load("data/leaderboard.json", [])
+    try:
+        from .automation import apply_signals, load_signals
+    except ImportError:  # run as a plain script: src/pipeline is on sys.path
+        from automation import apply_signals, load_signals
+
+    entries = apply_signals(load("data/leaderboard.json", []), load_signals())
     status = load("data/status.json", {})
     validation = load("data/validation.json", None)
     payload = write_coverage(entries, {

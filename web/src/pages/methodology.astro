@@ -176,8 +176,9 @@ const pillars = [
     <p>All endpoints are pre-built files on GitHub Pages, so they are cacheable, CORS-free for normal fetches, and cost nothing to serve.</p>
     <ul>
       <li><a class="endpoint" href="/api/leaderboard.json">/api/leaderboard.json</a> — every ranked developer in one document: <code>generated_at</code>, <code>snapshot_date</code>, <code>count</code>, <code>weights</code>, <code>tier_bands</code>, <code>url_templates</code> and a <code>users</code> array. Records are compact; <code>avatar_url</code> and <code>bio</code> are served only by the per-user endpoint.</li>
-      <li><a class="endpoint" href="/api/user/sirine2907.json">/api/user/&lt;username&gt;.json</a> — one developer's record, including <code>history</code>, <code>company</code>, <code>location</code> and <code>bio</code> when available. Username casing must match the leaderboard.</li>
-      <li><a class="endpoint" href="/data/chunks/index.json">/data/chunks/index.json</a> — pagination metadata for <code>/data/chunks/page_N.json</code> (1,000 rows per page).</li>
+      <li><a class="endpoint" href="/api/user/sirine2907.json">/api/user/&lt;username&gt;.json</a> — one developer's record for the top 1,000, including <code>history</code>, <code>company</code>, <code>location</code> and <code>bio</code> when available. Outside the top 1,000 there is no per-user file; read that row from the chunks. Username casing must match the leaderboard.</li>
+      <li><a class="endpoint" href="/data/chunks/index.json">/data/chunks/index.json</a> — pagination metadata for <code>/data/chunks/page_N.json</code> (250 rows per page).</li>
+      <li><a class="endpoint" href="/data/search.json">/data/search.json</a> — compact <code>[username, rank, score]</code> index for client-side search.</li>
       <li><a class="endpoint" href="/data/coverage.json">/data/coverage.json</a> — measured/null counts for every pillar, bot evidence coverage, and the validation summary shown above.</li>
       <li><a class="endpoint" href="/badges/default.svg">/badges/&lt;username&gt;.svg</a> — README badge; dedicated badges exist for the global top 1,000.</li>
       <li><a class="endpoint" href="/llms.txt">/llms.txt</a> — a short plain-text guide for LLM and agent consumers.</li>

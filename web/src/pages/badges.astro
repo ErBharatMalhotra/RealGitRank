@@ -84,13 +84,10 @@
         if (!usersPromise) {
           usersPromise = (async () => {
             try {
-              const idx = await (await fetch('/data/chunks/index.json')).json();
-              const pages = await Promise.all(
-                Array.from({ length: idx.pages || 0 }, (_, i) =>
-                  fetch(`/data/chunks/page_${i + 1}.json`).then((r) => (r.ok ? r.json() : [])).catch(() => [])
-                )
-              );
-              return pages.flat().filter((u) => u && u.username);
+              // Compact [username, rank, score] index: one small request instead
+              // of fanning out over every 250-row chunk.
+              const rows = await (await fetch('/data/search.json')).json();
+              return rows.map(([username, rank, score]) => ({ username, rank, rank_score: score }));
             } catch (e) {
               return [];
             }

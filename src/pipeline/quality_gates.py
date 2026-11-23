@@ -170,6 +170,13 @@ def main():
 
     with open(lb_path, encoding="utf-8") as f:
         leaderboard = json.load(f)
+    # Signals live in a gitignored sidecar, not in the committed leaderboard.
+    try:
+        from automation import apply_signals, load_signals
+
+        leaderboard = apply_signals(leaderboard, load_signals())
+    except ImportError:
+        pass
     history = []
     if os.path.exists(hist_path):
         try:
