@@ -24,7 +24,7 @@ def build_coverage(entries, meta=None, validation=None):
     meta = meta or {}
     total = len(entries)
     measured = {"delivery": 0, "code_health": 0, "adoption": 0, "consistency": 0}
-    bot_evidence = 0
+    automation_evidence = 0
     country = 0
     language = 0
     for e in entries:
@@ -33,7 +33,7 @@ def build_coverage(entries, meta=None, validation=None):
             if flags.get(key):
                 measured[key] += 1
         if e.get("bot_evidence"):
-            bot_evidence += 1
+            automation_evidence += 1
         if e.get("country"):
             country += 1
         if e.get("primary_language") not in (None, "", "Unknown"):
@@ -50,15 +50,16 @@ def build_coverage(entries, meta=None, validation=None):
             key: {"label": label, "measured": measured[key], "pct": _pct(measured[key], total)}
             for key, label in PILLARS
         },
-        "bot_evidence": {"measured": bot_evidence, "pct": _pct(bot_evidence, total)},
+        "automation_evidence": {"measured": automation_evidence, "pct": _pct(automation_evidence, total)},
         "country": {"known": country, "pct": _pct(country, total)},
         "language": {"known": language, "pct": _pct(language, total)},
         "validation": validation,
         "notes": (
-            "Commit-message entropy and PR changed-file counts are only known when the "
-            "GitHub events feed carries them; unknown signals are disclosed here and never "
-            "turned into a fake penalty. Missing pillars are excluded from the weighted "
-            "score and the remaining weights are renormalised."
+            "Automation signals (commit-message entropy and PR changed-file counts) are "
+            "only known when the GitHub events feed carries them; unknown signals are "
+            "disclosed here and never turned into a guessed adjustment. Missing pillars "
+            "are excluded from the weighted score and the remaining weights are "
+            "renormalised."
         ),
     }
 
@@ -92,8 +93,8 @@ def main():
     }, validation)
     print(
         f"Coverage: {payload['users']} users, quality "
-        f"{payload['pillars']['code_health']['pct']}%, bot evidence "
-        f"{payload['bot_evidence']['pct']}%"
+        f"{payload['pillars']['code_health']['pct']}%, automation evidence "
+        f"{payload['automation_evidence']['pct']}%"
     )
     return 0
 

@@ -28,7 +28,7 @@ def test_coverage_counts_measured_pillars():
     assert coverage["pillars"]["code_health"] == {
         "label": "Test-signal ratio and multi-file PRs", "measured": 1, "pct": 33.3,
     }
-    assert coverage["bot_evidence"]["pct"] == 66.7
+    assert coverage["automation_evidence"]["pct"] == 66.7
     assert coverage["country"]["pct"] == 66.7
     assert coverage["language"]["pct"] == 33.3
     assert coverage["window_days"] == 30

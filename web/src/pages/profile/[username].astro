@@ -82,7 +82,6 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
     </div>
     <p>
       {data.tier && <span class={`tier t-${tierClass}`} title={typeof data.percentile === 'number' ? `Ahead of ${data.percentile}% of ranked developers` : ''}>{data.tier}</span>}
-      {data.is_human_verified ? '✓ Verified (bot signals checked)' : (data.is_bot_classified ? '🤖 Classified as bot' : (data.bot_evidence ? 'No bot signal detected' : 'Bot signals not observed'))}
     </p>
     {(typeof data.score_delta === 'number' || typeof data.rank_delta === 'number') && (
       <p class="movement">
@@ -111,10 +110,13 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
         <div class="stat"><div class="label">Stars Received</div><div class="val">{data.stars_fraud_filtered || 0}</div></div>
         <div class="stat"><div class="label">Forks Received</div><div class="val">{data.forks_fraud_filtered || 0}</div></div>
         <div class="stat"><div class="label">Active Repos</div><div class="val">{data.active_repos_touched || 0}</div></div>
-        <div class="stat"><div class="label">Bot Penalty</div><div class="val">{typeof data.bot_penalty === 'number' ? data.bot_penalty.toFixed(2) : '—'}</div></div>
       </div>
     </div>
     {data.bio && <div class="card"><h3>Bio</h3><p style="color:var(--ink);margin:0">{data.bio}</p></div>}
+    <p class="note" style="color:var(--muted);font-size:13px">
+      An automated estimate from public GitHub events over one rolling window — not a statement of fact about a person and not affiliated with GitHub.
+      <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.
+    </p>
     {spark && (
       <div class="card">
         <h3>Score trend · {spark.points} days</h3>

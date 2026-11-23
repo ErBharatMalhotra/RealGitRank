@@ -65,8 +65,11 @@ jobs:
           rm -rf web/public/data
           mkdir -p web/public/data
           # Only public data: raw hourly downloads, rolling shards and parquet stay private.
+          # leaderboard.json (50MB+) and history/ are pipeline-internal: the site reads
+          # /data/chunks and /data/profiles only, so they stay out of the public payload.
           rsync -a --exclude 'gharchive_raw/' --exclude 'rolling/' --exclude 'raw.parquet' \
             --exclude 'backfill.log' --exclude 'enrichment_cache.json' --exclude 'language_cache.json' \
+            --exclude 'leaderboard.json' --exclude 'history/' \
             data/ web/public/data/
           python -m src.pipeline.chunks
           cd web

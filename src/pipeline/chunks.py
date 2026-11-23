@@ -1,26 +1,79 @@
-"""Split leaderboard into paginated chunks for fast browser loading."""
-import json, os
+"""Split the leaderboard into paginated chunks and sanitize the public data dir.
+
+Everything under ``web/public/data`` is published on GitHub Pages, so internal
+scoring signals (per-account automation classification and penalties) must never
+reach that layer. The pipeline keeps them in ``data/leaderboard.json``; this
+module strips them from the copies the browser can download.
+"""
+import json
+import os
 
 CHUNK_SIZE = 1000
-os.makedirs("web/public/data/chunks", exist_ok=True)
+PUBLIC_DATA = "web/public/data"
 
-with open("data/leaderboard.json") as f:
-    lb = json.load(f)
+# Never published: these describe a per-account judgement, not a score.
+HIDDEN_FIELDS = ("is_bot_classified", "is_human_verified", "bot_penalty", "bot_evidence")
 
-# Clean old chunks
-for old in os.listdir("web/public/data/chunks"):
-    if old.endswith(".json"):
-        os.remove(os.path.join("web/public/data/chunks", old))
 
-total = len(lb)
-pages = (total + CHUNK_SIZE - 1) // CHUNK_SIZE
-for p in range(pages):
-    chunk = lb[p * CHUNK_SIZE:(p + 1) * CHUNK_SIZE]
-    with open(f"web/public/data/chunks/page_{p + 1}.json", "w") as f:
-        json.dump(chunk, f)
+def public_row(row):
+    return {k: v for k, v in row.items() if k not in HIDDEN_FIELDS}
 
-# Index file: metadata
-with open("web/public/data/chunks/index.json", "w") as f:
-    json.dump({"total": total, "pages": pages, "chunk_size": CHUNK_SIZE}, f)
 
-print(f"Chunks: {pages} pages x {CHUNK_SIZE} = {total} users")
+def sanitize_profiles(directory):
+    """Strip hidden fields from public per-profile JSON copies in place."""
+    removed = 0
+    if not os.path.isdir(directory):
+        return 0
+    for name in os.listdir(directory):
+        if not name.endswith(".json"):
+            continue
+        path = os.path.join(directory, name)
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+        except (OSError, ValueError):
+            continue
+        if not isinstance(data, dict) or not any(k in data for k in HIDDEN_FIELDS):
+            continue
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(public_row(data), f, separators=(",", ":"), ensure_ascii=False)
+        removed += 1
+    return removed
+
+
+def main():
+    os.makedirs(os.path.join(PUBLIC_DATA, "chunks"), exist_ok=True)
+
+    with open("data/leaderboard.json", encoding="utf-8") as f:
+        lb = json.load(f)
+
+    # The full leaderboard is not used by the site (chunks are) and is the single
+    # largest published file, so it is not part of the public layer at all.
+    raw_public = os.path.join(PUBLIC_DATA, "leaderboard.json")
+    if os.path.exists(raw_public):
+        os.remove(raw_public)
+
+    sanitize_profiles(os.path.join(PUBLIC_DATA, "profiles"))
+
+    # Clean old chunks
+    chunks_dir = os.path.join(PUBLIC_DATA, "chunks")
+    for old in os.listdir(chunks_dir):
+        if old.endswith(".json"):
+            os.remove(os.path.join(chunks_dir, old))
+
+    total = len(lb)
+    pages = (total + CHUNK_SIZE - 1) // CHUNK_SIZE
+    for p in range(pages):
+        chunk = [public_row(u) for u in lb[p * CHUNK_SIZE:(p + 1) * CHUNK_SIZE]]
+        with open(os.path.join(chunks_dir, f"page_{p + 1}.json"), "w", encoding="utf-8") as f:
+            json.dump(chunk, f, separators=(",", ":"), ensure_ascii=False)
+
+    # Index file: metadata
+    with open(os.path.join(chunks_dir, "index.json"), "w", encoding="utf-8") as f:
+        json.dump({"total": total, "pages": pages, "chunk_size": CHUNK_SIZE}, f)
+
+    print(f"Chunks: {pages} pages x {CHUNK_SIZE} = {total} users (classification fields stripped)")
+
+
+if __name__ == "__main__":
+    main()

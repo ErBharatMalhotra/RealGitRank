@@ -67,6 +67,8 @@
       .modal .bar { height: 6px; border-radius: 999px; background: var(--bg); overflow: hidden; margin-top: 4px; }
       .modal .bar div { height: 100%; background: var(--accent-2); }
       .modal .links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
+      .foot { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+      .foot p { margin: 6px 0; }
       @media (max-width: 640px) { table { font-size: 12px; } th, td { padding: 7px 5px; } .modal-card { padding: 16px; } }
     </style>
   </head>
@@ -91,6 +93,10 @@
         <div id="modal-body"></div>
       </div>
     </div>
+    <footer class="foot">
+      <p><strong>Disclaimer:</strong> RealGitRank is an independent, unofficial project built only from public GitHub events. A score is an automated estimate over one rolling 30-day window — not a statement of fact about a person, not a measure of skill, and not affiliated with GitHub.</p>
+      <p>Wrong entry, misattribution, or prefer not to appear? <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a> — applied on the next daily publish.</p>
+    </footer>
     <script>
       let allData = [];
       let currentPage = 1;
@@ -201,8 +207,8 @@
           ${pillars}
           <p class="muted" style="margin:8px 0 0">Pillars are 0–100 percentiles where observed. Missing pillars are excluded from the score, not counted as zero.</p>
           ${merges ? `<h3 style="margin:16px 0 4px;font-size:14px">Counted merges</h3><ul style="margin:0;padding-left:18px;font-size:13px">${merges}</ul>` : ''}
-          <p class="muted" style="margin:14px 0 0">Scores are estimates from public GitHub events over a 30-day window, not a statement of fact about a person.</p>
-          <div class="links"><a href="https://github.com/${encodeURIComponent(name)}" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>${profileLink}</div>`;
+          <p class="muted" style="margin:14px 0 0">Scores are automated estimates from public GitHub events over a 30-day window, not a statement of fact about a person.</p>
+          <div class="links"><a href="https://github.com/${encodeURIComponent(name)}" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>${profileLink}<a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Report / opt out</a></div>`;
       }
 
       async function openDetails(name) {

@@ -75,7 +75,8 @@ for name in os.listdir("web/public/badges"):
 
 top_users = sorted(lb, key=lambda x: x["rank"])[:1000]
 for u in top_users:
-    svg = badge_svg(u["username"], u["rank_score"], u["rank"], u["is_human_verified"])
+    # Badges state a score and rank only; no per-account classification is drawn.
+    svg = badge_svg(u["username"], u["rank_score"], u["rank"])
     with open(f"web/public/badges/{u['username']}.svg", "w", encoding="utf-8") as f:
         f.write(svg)
 

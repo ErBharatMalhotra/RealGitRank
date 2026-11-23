@@ -121,7 +121,7 @@
           <div class="card">
             <div class="card-head">
               <div class="who">${esc(user.username)}</div>
-              <div class="meta">Global rank #${esc(user.rank)} · Score ${esc(user.rank_score)}${user.is_human_verified ? ' · ✓ bot-checked' : ''}</div>
+              <div class="meta">Global rank #${esc(user.rank)} · Score ${esc(user.rank_score)}</div>
             </div>
             <div class="badge-preview"><img src="/badges/${encodeURIComponent(user.username)}.svg" alt="RealGitRank badge for ${esc(user.username)}" width="220" height="64" onerror="this.src='/badges/default.svg'" /></div>
             <label for="snippet">README markdown</label>

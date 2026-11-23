@@ -27,7 +27,7 @@
       "pct": 100.0
     }
   },
-  "bot_evidence": {
+  "automation_evidence": {
     "measured": 0,
     "pct": 0.0
   },
@@ -54,5 +54,5 @@
     "samples": [],
     "notes": "Each checked merge event must exist, have merged_at inside the window, and have merged_by.login equal to the ranked account. Unknown (404/private) events are excluded from the rate, never counted as matches."
   },
-  "notes": "Commit-message entropy and PR changed-file counts are only known when the GitHub events feed carries them; unknown signals are disclosed here and never turned into a fake penalty. Missing pillars are excluded from the weighted score and the remaining weights are renormalised."
+  "notes": "Automation signals (commit-message entropy and PR changed-file counts) are only known when the GitHub events feed carries them; unknown signals are disclosed here and never turned into a guessed adjustment. Missing pillars are excluded from the weighted score and the remaining weights are renormalised."
 }

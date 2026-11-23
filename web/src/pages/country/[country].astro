@@ -48,7 +48,7 @@ const { country, users } = Astro.props;
         {users.map(u => (
           <tr>
             <td>{u.rank}</td>
-            <td><a href={u.rank <= 1000 ? `/profile/${u.username}` : `/profile/?u=${u.username}`}>{u.username}</a> {u.is_human_verified && '✓'}</td>
+            <td><a href={u.rank <= 1000 ? `/profile/${u.username}` : `/profile/?u=${u.username}`}>{u.username}</a></td>
             <td class="score">{u.rank_score}</td>
             <td>{u.primary_language}</td>
             <td>{u.merged_prs}</td>
@@ -57,5 +57,6 @@ const { country, users } = Astro.props;
         ))}
       </tbody>
     </table>
+    <p class="sub" style="margin-top:20px;font-size:13px">An automated estimate from public GitHub events over one rolling window — not a statement of fact about a person and not affiliated with GitHub. <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.</p>
   </body>
 </html>

@@ -118,7 +118,7 @@
 
       function renderFromChunk(d) {
         el.innerHTML = `<h1>${esc(d.username)}</h1>
-          <p>${tierBadge(d)} ${d.is_human_verified ? '✓ Verified (bot signals checked)' : (d.is_bot_classified ? '🤖 Classified as bot' : (d.bot_evidence ? 'No bot signal detected' : 'Bot signals not observed'))}</p>
+          <p>${tierBadge(d)}</p>
           ${moveText(d)}
           <img class="badge" src="/badges/${encodeURIComponent(d.username)}.svg" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
           <div class="card">
@@ -128,7 +128,6 @@
               <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
               <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
               <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
-              <div class="stat"><div class="label">Bot Penalty</div><div class="val">${Number(d.bot_penalty || 0).toFixed(2)}</div></div>
             </div>
           </div>
           ${d.bio ? `<div class="card"><h3>Bio</h3><p style="margin:0">${esc(d.bio)}</p></div>` : ''}
@@ -137,11 +136,12 @@
             <h3>README Badge</h3>
             <pre>[![RealGitRank](https://realgitrank.bharatdn.com/badges/${esc(d.username)}.svg)](https://realgitrank.bharatdn.com/profile/${esc(d.username)})</pre>
           </div>
-          <p class="muted" style="font-size:13px">Ranked in today's snapshot. Detailed pillar breakdowns are generated for the top 1,000 developers.</p>`;
+          <p class="muted" style="font-size:13px">Ranked in today's snapshot. Detailed pillar breakdowns are generated for the top 1,000 developers.</p>
+          <p class="muted" style="font-size:12px">An automated estimate from public GitHub events, not a statement of fact about a person. <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.</p>`;
       }
 
       function renderFromProfile(d, username) {
-        el.innerHTML = `<h1>${esc(username)}</h1><p>${tierBadge(d)} ${d.is_human_verified ? '✓ Verified (bot signals checked)' : (d.is_bot_classified ? '🤖 Classified as bot' : (d.bot_evidence ? 'No bot signal detected' : 'Bot signals not observed'))}</p>
+        el.innerHTML = `<h1>${esc(username)}</h1><p>${tierBadge(d)}</p>
           ${moveText(d)}
           <img class="badge" src="/badges/${encodeURIComponent(username)}.svg" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
           <div class="card"><div class="grid">
@@ -150,12 +150,12 @@
             <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
             <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
             <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
-            <div class="stat"><div class="label">Bot Penalty</div><div class="val">${Number(d.bot_penalty || 0).toFixed(2)}</div></div>
           </div></div>
           ${sparkBlock(d)}
           <div class="card"><h3>README Badge</h3>
             <pre>[![RealGitRank](https://realgitrank.bharatdn.com/badges/${esc(username)}.svg)](https://realgitrank.bharatdn.com/profile/${esc(username)})</pre>
-          </div>`;
+          </div>
+          <p class="muted" style="font-size:12px">An automated estimate from public GitHub events, not a statement of fact about a person. <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.</p>`;
       }
 
       (async () => {

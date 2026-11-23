@@ -23,6 +23,7 @@ def entry(rank=1, **extra):
         "is_human_verified": True,
         "is_bot_classified": False,
         "bot_penalty": 0.0,
+        "bot_evidence": True,
         "avatar_url": "https://avatars.githubusercontent.com/u/1",
     }
     row.update(extra)
@@ -38,6 +39,18 @@ def test_compact_user_projects_documented_fields_and_urls():
     assert record["api_url"] == f"{SITE}/api/user/dev3.json"
     assert "bio" not in record
     assert "avatar_url" not in record
+
+
+def test_compact_user_never_publishes_per_account_classification():
+    for record in (compact_user(entry(3)), compact_user(entry(3), {}, include_heavy=True)):
+        for key in ("is_human_verified", "is_bot_classified", "bot_penalty", "bot_evidence"):
+            assert key not in record
+
+
+def test_leaderboard_publishes_disclaimer_and_correction_link():
+    payload = build_leaderboard([entry(1)], {}, "2026-11-21")
+    assert payload["correction_url"].startswith("https://github.com/")
+    assert "not a statement of fact" in payload["disclaimer"]
 
 
 def test_compact_user_include_heavy_keeps_profile_fields():

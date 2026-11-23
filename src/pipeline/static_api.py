@@ -9,6 +9,18 @@ import json
 import os
 
 SITE = "https://realgitrank.bharatdn.com"
+REPO_URL = "https://github.com/ErBharatMalhotra/RealGitRank"
+CORRECTION_URL = (
+    f"{REPO_URL}/issues/new?title=Correction%20or%20opt-out%20request"
+    "&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20"
+)
+DISCLAIMER = (
+    "RealGitRank is an independent, unofficial project built only from public GitHub "
+    "events. A score is an automated estimate over one rolling window, not a statement "
+    "of fact about a person, a measure of skill, or an endorsement, and it is not "
+    "affiliated with GitHub. Per-account classification values are not published; the "
+    "site shows a score, never a label about an account."
+)
 LEADERBOARD_PATH = "data/leaderboard.json"
 STATUS_PATH = "data/status.json"
 COVERAGE_PATH = "data/coverage.json"
@@ -44,10 +56,6 @@ CORE_FIELDS = (
     "country",
     "primary_language",
     "merged_prs",
-    "is_human_verified",
-    "is_bot_classified",
-    "bot_penalty",
-    "bot_evidence",
     "rank_delta",
     "score_delta",
     "score_version",
@@ -169,6 +177,8 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None, c
         "methodology_url": f"{SITE}/methodology/",
         "weights": WEIGHTS,
         "coverage": coverage,
+        "disclaimer": DISCLAIMER,
+        "correction_url": CORRECTION_URL,
         "tier_bands": TIER_BANDS,
         "url_templates": {
             "user_api": f"{SITE}/api/user/{{username}}.json",
@@ -223,9 +233,9 @@ def llms_text(payload, leaderboard=None):
     coverage_line = ", ".join(
         f"{key} {value.get('pct', 0)}%" for key, value in pillars.items()
     ) or "not published"
-    bot = coverage.get("bot_evidence") or {}
-    if bot:
-        coverage_line += f"; bot evidence {bot.get('pct', 0)}%"
+    automation = coverage.get("automation_evidence") or {}
+    if automation:
+        coverage_line += f"; automation-signal evidence {automation.get('pct', 0)}%"
     validation = coverage.get("validation") or {}
     if validation:
         validation_line = (
@@ -241,8 +251,9 @@ def llms_text(payload, leaderboard=None):
 > RealGitRank is a free, static ranking of GitHub developers by engineering impact.
 > It scores a rolling 30-day window of real GitHub events: each pillar is
 > percentile-ranked inside the cohort where it was actually observed, missing
-> pillars are excluded (weights renormalised), then a behavioural bot penalty is
-> applied. Commit count is not the metric.
+> pillars are excluded (weights renormalised), then a conservative automation
+> adjustment is applied where the event stream shows machine-like patterns.
+> Commit count is not the metric.
 
 Canonical site: {payload['site']}/ (custom domain, GitHub Pages, no API keys)
 Last data refresh: {payload.get('generated_at') or 'unknown'}
@@ -258,8 +269,8 @@ Independent validation: {validation_line}
 - {payload['site']}/api/leaderboard.json — all {payload.get('count', 0)} ranked developers,
   one compact record each (rank, score, tier, percentile, country, language, PRs, deltas).
   Avatar and bio are intentionally omitted here; read them from the per-user endpoint.
-- {payload['site']}/data/coverage.json — measured/null counts for every pillar, bot
-  evidence coverage and validation results.
+- {payload['site']}/data/coverage.json — measured/null counts for every pillar,
+  automation-signal evidence coverage and validation results.
 - {payload['site']}/api/user/{{username}}.json — one developer; includes daily history,
   avatar_url, bio, company and location when available. Example: {payload['site']}/api/user/{(top[0].get('username') if top else 'sirine2907')}.json
 - {payload['site']}/data/chunks/page_1.json — raw leaderboard chunks (1,000 rows per page),
@@ -276,7 +287,7 @@ test/file evidence exists. `measured` says which pillars counted for that user;
 
 ## Scoring
 
-Rank score = 10 × Σ(wᵢ · pᵢ) / Σ(wᵢ observed) × (1 − bot_penalty), clamped to 0–1000,
+Rank score = 10 × Σ(wᵢ · pᵢ) / Σ(wᵢ observed) × (1 − automation adjustment), clamped to 0–1000,
 where pᵢ is the 0–100 percentile of pillar i among users where that pillar is observed.
 
 - Delivery (35%): pull requests merged by the developer over the window (merge events, not authored count); external merges weighted higher.
@@ -284,10 +295,11 @@ where pᵢ is the 0–100 percentile of pillar i among users where that pillar i
 - Adoption (25%): stars and forks received over the window.
 - Consistency (15%): active shipping weeks and push-hour spread over the window.
 
-Bot penalty (0–1) adds 0.50 for near-duplicate commit messages, 0.30 for round-the-clock
-pushing and 0.40 for single-file churn, but only on observed evidence; when the feed does
-not expose the signal the penalty stays 0 and the limitation is published in coverage.
-0.70 or higher is classified as a bot.
+Automation adjustment (0–1) adds 0.50 for near-duplicate commit messages, 0.30 for
+round-the-clock pushing and 0.40 for single-file churn, but only on observed evidence;
+when the feed does not expose the signal the adjustment stays 0 and the limitation is
+published in coverage. The adjustment is an aggregate heuristic: no per-account
+classification is published, and no account is publicly labelled as automated.
 
 ## Tiers
 
@@ -306,6 +318,8 @@ not expose the signal the penalty stays 0 and the limitation is published in cov
   marketing copy. If a pillar's coverage is low, do not treat that sub-score as reliable.
 - This is a public reputation index built from GitHub public events; attribute
   {payload['site']}/ when you quote a rank or score.
+- Disclaimer: {payload.get('disclaimer') or DISCLAIMER}
+- Corrections, misattribution and opt-out requests: {payload.get('correction_url') or CORRECTION_URL}
 """
 
 
