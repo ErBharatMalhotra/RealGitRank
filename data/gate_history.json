@@ -1,32 +1,13 @@
 [
   {
-    "rows": 15845,
+    "rows": 50000,
     "null_usernames": 0,
-    "score_min": 11.1,
-    "score_max": 135.7,
-    "score_mean": 35.13,
-    "score_std": 18.617,
+    "score_min": 705.1,
+    "score_max": 873.4,
+    "score_mean": 734.046,
+    "score_std": 31.986,
     "bot_rate": 0.0,
-    "date": "2026-11-20"
-  },
-  {
-    "rows": 45384,
-    "null_usernames": 0,
-    "score_min": 9.0,
-    "score_max": 132.1,
-    "score_mean": 24.732,
-    "score_std": 16.539,
-    "bot_rate": 0.0,
-    "date": "2026-11-21"
-  },
-  {
-    "rows": 86259,
-    "null_usernames": 0,
-    "score_min": 8.5,
-    "score_max": 138.1,
-    "score_mean": 21.023,
-    "score_std": 14.11,
-    "bot_rate": 0.0,
-    "date": "2026-11-22"
+    "score_version": "v2-percentile",
+    "date": "2026-11-23"
   }
 ]

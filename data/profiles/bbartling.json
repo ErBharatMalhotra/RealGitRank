@@ -1,7 +1,7 @@
 {
   "username": "bbartling",
   "country": "United States",
-  "primary_language": "Unknown",
+  "primary_language": "Python",
   "total_pushes": 3,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/29737117?u=ceeb8bcef30c6402b7485b9e5e3ce795ada68e07&v=4",
   "bio": "BEN == HVAC == PYTHON + Rust = True",
   "company": "",
-  "location": "",
+  "location": "United States",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

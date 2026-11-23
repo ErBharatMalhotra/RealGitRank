@@ -41,10 +41,6 @@
   "window_end": "2026-11-22",
   "percentile": 99.6,
   "tier": "Elite",
-  "prev_rank": 382,
-  "prev_score": 72.1,
-  "rank_delta": 166,
-  "score_delta": 797.9,
   "counted_merges": [
     {
       "repo": "anton-abyzov/specwithcode",

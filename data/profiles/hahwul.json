@@ -1,7 +1,7 @@
 {
   "username": "hahwul",
   "country": "South Korea",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 36,
   "merged_prs": 10,
   "bot_penalty": 0.0,
@@ -35,12 +35,16 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/13212227?u=e4ca40c1aa41990f72475bebee84c860b631a30c&v=4",
   "bio": "Security Engineer, Developer and H4cker.",
   "company": "",
-  "location": "",
+  "location": "Republic of Korea",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",
   "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 784,
+  "prev_score": 62.1,
+  "rank_delta": 763,
+  "score_delta": 810.6,
   "counted_merges": [
     {
       "repo": "hahwul/gori",

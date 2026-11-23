@@ -1,7 +1,7 @@
 {
   "username": "lmmx",
   "country": "United Kingdom",
-  "primary_language": "Unknown",
+  "primary_language": "JavaScript",
   "total_pushes": 66,
   "merged_prs": 7,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/2979452?u=050bb4b939d867ba93f351872dafc169df07bd0c&v=4",
   "bio": "",
   "company": "",
-  "location": "",
+  "location": "London",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

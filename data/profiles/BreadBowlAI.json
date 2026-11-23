@@ -1,7 +1,7 @@
 {
   "username": "BreadBowlAI",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 1,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -32,7 +32,7 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 711,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/225241532?u=e8efe8f71f50beda369af5333a69db7ead4d9385&v=4",
   "bio": "",
   "company": "",
   "location": "",

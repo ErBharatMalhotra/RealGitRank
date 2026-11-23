@@ -1,7 +1,7 @@
 {
   "username": "harehare",
   "country": "Japan",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 12,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/533078?v=4",
   "bio": "",
   "company": "",
-  "location": "",
+  "location": "Saitama, Japan",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

@@ -1,7 +1,7 @@
 {
   "username": "flyxl",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 15,
   "merged_prs": 3,
   "bot_penalty": 0.0,
@@ -32,7 +32,7 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 738,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/4601965?u=faf4e4af76459cb1cba644fa54d23f0f2191d341&v=4",
   "bio": "",
   "company": "",
   "location": "",

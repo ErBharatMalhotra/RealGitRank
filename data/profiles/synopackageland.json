@@ -1,7 +1,7 @@
 {
   "username": "synopackageland",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 5,
   "merged_prs": 8,
   "bot_penalty": 0.0,
@@ -32,7 +32,7 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 241,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/316781378?u=57deb5ac6ea7ce89a59eea57d9acbf2065a08ab4&v=4",
   "bio": "",
   "company": "",
   "location": "",

@@ -1,7 +1,7 @@
 {
   "username": "blackwell-systems",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Go",
   "total_pushes": 20,
   "merged_prs": 4,
   "bot_penalty": 0.0,
@@ -32,7 +32,7 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 557,
-  "avatar_url": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/236632453?u=c1582ceef04399385ba1d37748d4bd9e7a472185&v=4",
   "bio": "",
   "company": "",
   "location": "",

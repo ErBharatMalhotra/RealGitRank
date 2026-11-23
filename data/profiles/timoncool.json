@@ -1,7 +1,7 @@
 {
   "username": "timoncool",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 13,
   "merged_prs": 7,
   "bot_penalty": 0.0,
@@ -32,8 +32,8 @@
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
   "rank": 138,
-  "avatar_url": "",
-  "bio": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/26026304?u=80e42553ce40521e94340bb41ba4f1c0351656b4&v=4",
+  "bio": "Free local AI apps \u2014 music, speech, video. Portable, one click. Co-founder of ArtGeneration.me",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
@@ -41,6 +41,10 @@
   "window_end": "2026-11-22",
   "percentile": 99.7,
   "tier": "Elite",
+  "prev_rank": 124,
+  "prev_score": 81.3,
+  "rank_delta": -14,
+  "score_delta": 789.7,
   "counted_merges": [
     {
       "repo": "timoncool/YuE2-Studio",

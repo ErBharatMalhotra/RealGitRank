@@ -1,7 +1,7 @@
 {
   "username": "code-yeongyu",
   "country": "South Korea",
-  "primary_language": "Unknown",
+  "primary_language": "Rust",
   "total_pushes": 149,
   "merged_prs": 45,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/11153873?u=568c08de254b942a8ec466fcba17f2a02cb68802&v=4",
   "bio": "Hacker.",
   "company": "",
-  "location": "",
+  "location": "Seoul",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

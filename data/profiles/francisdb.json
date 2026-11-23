@@ -1,7 +1,7 @@
 {
   "username": "francisdb",
   "country": "",
-  "primary_language": "Unknown",
+  "primary_language": "Dockerfile",
   "total_pushes": 22,
   "merged_prs": 37,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/161305?u=571822039e43f9659a7fb43f93e1113ea1fc2ce2&v=4",
   "bio": "Software developer | Tech enthusiast | Beer lover\r\n\r\n| mov ax 13h\r\n| int 10h",
   "company": "",
-  "location": "",
+  "location": "Ghent, Belgium",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",

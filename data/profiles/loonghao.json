@@ -1,7 +1,7 @@
 {
   "username": "loonghao",
   "country": "China",
-  "primary_language": "Unknown",
+  "primary_language": "TypeScript",
   "total_pushes": 37,
   "merged_prs": 5,
   "bot_penalty": 0.0,
@@ -35,7 +35,7 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/13111745?u=1d7aa9ada305f60b241b903739803bba7d729986&v=4",
   "bio": "Pipeline TD | Working in the VFX and Game Development industry.",
   "company": "",
-  "location": "",
+  "location": "Shenzhen",
   "score_version": "v2-percentile",
   "window_start": "2026-10-24",
   "window_end": "2026-11-22",
