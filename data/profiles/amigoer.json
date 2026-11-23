@@ -1,0 +1,57 @@
+{
+  "username": "amigoer",
+  "country": "",
+  "primary_language": "Go",
+  "total_pushes": 9,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.66,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 96.11,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 866.9,
+  "active_repos_touched": 2,
+  "pr_reviews": 2,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 461,
+  "avatar_url": "https://avatars.githubusercontent.com/u/266790742?u=4502fa186fe032b37c73a7f11e67c336a1759edc&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Hang Zhou",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.1,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "KettuAI/Kettu",
+      "prs": 7
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 461,
+      "s": 866.9
+    }
+  ]
+}

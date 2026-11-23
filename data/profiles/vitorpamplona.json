@@ -1,0 +1,69 @@
+{
+  "username": "vitorpamplona",
+  "country": "United States",
+  "primary_language": "Kotlin",
+  "total_pushes": 18,
+  "merged_prs": 7,
+  "bot_penalty": 0.0,
+  "bot_evidence": false,
+  "is_human_verified": false,
+  "is_bot_classified": false,
+  "s_pr": 99.4,
+  "s_quality": 50.0,
+  "s_impact": 99.13,
+  "s_consistency": 98.27,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 14,
+  "window_days": 30,
+  "rank_score": 868.1,
+  "active_repos_touched": 8,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 363,
+  "avatar_url": "https://avatars.githubusercontent.com/u/532031?u=ef30a4d07c873db65fcee1dbb46e0850ecd55e65&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Cambridge, MA, US",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-22",
+  "percentile": 99.3,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "vitorpamplona/amethyst",
+      "prs": 4
+    },
+    {
+      "repo": "NosFabrica/the-nostr-observer",
+      "prs": 1
+    },
+    {
+      "repo": "vitorpamplona/libschnorr256k1-kotlin",
+      "prs": 1
+    },
+    {
+      "repo": "vitorpamplona/quartz",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-23",
+      "r": 363,
+      "s": 868.1
+    }
+  ]
+}
