@@ -1,0 +1,29 @@
+{
+  "username": "BetterAndBetterII",
+  "rank": 117,
+  "rank_score": 82.6,
+  "country": "China",
+  "primary_language": "Go",
+  "avatar_url": "https://avatars.githubusercontent.com/u/141388234?u=9c5db6ce6620c02cf08056f2697aad0e7016514b&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "prev_rank": 104,
+  "prev_score": 86.9,
+  "rank_delta": -13,
+  "score_delta": -4.3,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 104,
+      "s": 86.9
+    },
+    {
+      "d": "2026-11-22",
+      "r": 117,
+      "s": 82.6
+    }
+  ],
+  "location": "Shenzhen"
+}

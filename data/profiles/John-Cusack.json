@@ -1,0 +1,29 @@
+{
+  "username": "John-Cusack",
+  "rank": 580,
+  "rank_score": 66.8,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/5961784?u=65090d61e76e6648ab38dfd8f25e81d3247e604e&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 437,
+  "prev_score": 70.3,
+  "rank_delta": -143,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 437,
+      "s": 70.3
+    },
+    {
+      "d": "2026-11-22",
+      "r": 580,
+      "s": 66.8
+    }
+  ],
+  "location": "Jupiter, FL"
+}

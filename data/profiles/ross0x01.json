@@ -1,0 +1,29 @@
+{
+  "username": "ross0x01",
+  "rank": 642,
+  "rank_score": 66.0,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/144740362?v=4",
+  "bio": "Creator of @hackerai-tech",
+  "company": "HackerAI",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 542,
+  "prev_score": 69.5,
+  "rank_delta": -100,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 542,
+      "s": 69.5
+    },
+    {
+      "d": "2026-11-22",
+      "r": 642,
+      "s": 66.0
+    }
+  ],
+  "location": ""
+}

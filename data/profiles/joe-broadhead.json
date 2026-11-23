@@ -1,0 +1,29 @@
+{
+  "username": "joe-broadhead",
+  "rank": 335,
+  "rank_score": 71.7,
+  "country": "United Kingdom",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/91376460?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "prev_rank": 248,
+  "prev_score": 75.5,
+  "rank_delta": -87,
+  "score_delta": -3.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 248,
+      "s": 75.5
+    },
+    {
+      "d": "2026-11-22",
+      "r": 335,
+      "s": 71.7
+    }
+  ],
+  "location": "London"
+}

@@ -1,0 +1,29 @@
+{
+  "username": "joshuavivo",
+  "rank": 869,
+  "rank_score": 60.8,
+  "country": "United States",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/356364239?u=5035f13074e30c45e5273bd8c75681b075a0095d&v=4",
+  "bio": "Software engineer. I run Shadow Vivo LLC: I take over live web apps and harden payments, auth and data. TypeScript, React, Node, Postgres.",
+  "company": "Shadow Vivo LLC",
+  "tier": "Elite",
+  "percentile": 99.0,
+  "prev_rank": 678,
+  "prev_score": 64.0,
+  "rank_delta": -191,
+  "score_delta": -3.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 678,
+      "s": 64.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 869,
+      "s": 60.8
+    }
+  ],
+  "location": "Connecticut, USA"
+}

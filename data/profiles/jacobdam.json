@@ -1,0 +1,29 @@
+{
+  "username": "jacobdam",
+  "rank": 502,
+  "rank_score": 68.4,
+  "country": "Vietnam",
+  "primary_language": "C",
+  "avatar_url": "https://avatars.githubusercontent.com/u/74298?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 376,
+  "prev_score": 72.0,
+  "rank_delta": -126,
+  "score_delta": -3.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 376,
+      "s": 72.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 502,
+      "s": 68.4
+    }
+  ],
+  "location": "Vietnam"
+}

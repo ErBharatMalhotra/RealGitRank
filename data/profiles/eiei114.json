@@ -1,0 +1,29 @@
+{
+  "username": "eiei114",
+  "rank": 244,
+  "rank_score": 74.0,
+  "country": "Japan",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/60887155?u=cd8af69ea1ee2750133272e176e7781e5d5edb8b&v=4",
+  "bio": "Roblox & UEFN Engineer",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "prev_rank": 184,
+  "prev_score": 77.9,
+  "rank_delta": -60,
+  "score_delta": -3.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 184,
+      "s": 77.9
+    },
+    {
+      "d": "2026-11-22",
+      "r": 244,
+      "s": 74.0
+    }
+  ],
+  "location": "Japan"
+}

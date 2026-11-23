@@ -1,0 +1,29 @@
+{
+  "username": "ThomasOkVS",
+  "rank": 401,
+  "rank_score": 70.0,
+  "country": "",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/112483910?u=b22bb85a27a4a4ea984d6d6c79ec9acd2454e82b&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.5,
+  "prev_rank": 298,
+  "prev_score": 73.7,
+  "rank_delta": -103,
+  "score_delta": -3.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 298,
+      "s": 73.7
+    },
+    {
+      "d": "2026-11-22",
+      "r": 401,
+      "s": 70.0
+    }
+  ],
+  "location": "Antwerp"
+}

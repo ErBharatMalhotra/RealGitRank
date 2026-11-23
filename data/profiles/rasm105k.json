@@ -1,0 +1,29 @@
+{
+  "username": "rasm105k",
+  "rank": 604,
+  "rank_score": 66.5,
+  "country": "",
+  "primary_language": "C#",
+  "avatar_url": "https://avatars.githubusercontent.com/u/31623093?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 472,
+  "prev_score": 70.0,
+  "rank_delta": -132,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 472,
+      "s": 70.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 604,
+      "s": 66.5
+    }
+  ],
+  "location": ""
+}

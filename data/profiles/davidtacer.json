@@ -1,0 +1,29 @@
+{
+  "username": "davidtacer",
+  "rank": 453,
+  "rank_score": 69.5,
+  "country": "",
+  "primary_language": "PHP",
+  "avatar_url": "https://avatars.githubusercontent.com/u/5435355?u=96f62e28020917b25af0b745f60957d5abaf9992&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.5,
+  "prev_rank": 316,
+  "prev_score": 73.2,
+  "rank_delta": -137,
+  "score_delta": -3.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 316,
+      "s": 73.2
+    },
+    {
+      "d": "2026-11-22",
+      "r": 453,
+      "s": 69.5
+    }
+  ],
+  "location": ""
+}

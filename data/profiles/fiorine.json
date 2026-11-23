@@ -1,0 +1,29 @@
+{
+  "username": "fiorine",
+  "rank": 425,
+  "rank_score": 69.8,
+  "country": "",
+  "primary_language": "C++",
+  "avatar_url": "https://avatars.githubusercontent.com/u/22694346?u=c1df4ae900748aa0f1f4e176fbe8a81678c5f00c&v=4",
+  "bio": "Head of Design at PadSplit. Ex @USPS @capitalone @springleaf. Talk to me about design culture, orgs, ethics, and computational design. He/him.",
+  "company": "PadSplit",
+  "tier": "Elite",
+  "percentile": 99.5,
+  "prev_rank": 309,
+  "prev_score": 73.5,
+  "rank_delta": -116,
+  "score_delta": -3.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 309,
+      "s": 73.5
+    },
+    {
+      "d": "2026-11-22",
+      "r": 425,
+      "s": 69.8
+    }
+  ],
+  "location": "Washington, D.C."
+}

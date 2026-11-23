@@ -1,0 +1,39 @@
+{
+  "username": "flipslidersand",
+  "country": "Japan",
+  "primary_language": "Go",
+  "total_pushes": 4,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 48.28,
+  "s_impact": 0.0,
+  "s_consistency": 42.79,
+  "rank_score": 76.7,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 187,
+  "avatar_url": "https://avatars.githubusercontent.com/u/205122478?v=4",
+  "bio": "FDE / Applied AI Engineer. Go / Rust / GCP / AI\u3002\u696d\u52d9\u8ab2\u984c\u306e\u767a\u898b\u304b\u3089\u8a2d\u8a08\u30fb\u5b9f\u88c5\u30fb\u672c\u756a\u904b\u7528\u307e\u3067\u3002AI-native\u306a\u958b\u767a\u57fa\u76e4\u3068\u81ea\u52d5\u5316\u3092\u4f5c\u3063\u3066\u3044\u307e\u3059\u3002",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 187,
+      "s": 76.7
+    }
+  ],
+  "location": "Japan"
+}

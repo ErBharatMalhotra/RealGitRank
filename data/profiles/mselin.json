@@ -1,0 +1,29 @@
+{
+  "username": "mselin",
+  "rank": 990,
+  "rank_score": 59.3,
+  "country": "",
+  "primary_language": "C++",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1112480?v=4",
+  "bio": "",
+  "company": "@Unikie",
+  "tier": "Diamond",
+  "percentile": 98.9,
+  "prev_rank": 741,
+  "prev_score": 62.4,
+  "rank_delta": -249,
+  "score_delta": -3.1,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 741,
+      "s": 62.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 990,
+      "s": 59.3
+    }
+  ],
+  "location": "Finland"
+}

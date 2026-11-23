@@ -1,0 +1,29 @@
+{
+  "username": "hamzajg",
+  "rank": 935,
+  "rank_score": 59.8,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/7120380?u=21643ebf056f3a2ed0cd8c5ebc2b423a5b7c8b99&v=4",
+  "bio": "",
+  "company": "Tanoshii Computing",
+  "tier": "Diamond",
+  "percentile": 98.9,
+  "prev_rank": 713,
+  "prev_score": 63.0,
+  "rank_delta": -222,
+  "score_delta": -3.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 713,
+      "s": 63.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 935,
+      "s": 59.8
+    }
+  ],
+  "location": "Tunisia"
+}

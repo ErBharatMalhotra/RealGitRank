@@ -1,0 +1,29 @@
+{
+  "username": "NikitkaRa",
+  "rank": 435,
+  "rank_score": 69.7,
+  "country": "",
+  "primary_language": "Rust",
+  "avatar_url": "https://avatars.githubusercontent.com/u/181635837?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.5,
+  "prev_rank": 313,
+  "prev_score": 73.4,
+  "rank_delta": -122,
+  "score_delta": -3.7,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 313,
+      "s": 73.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 435,
+      "s": 69.7
+    }
+  ],
+  "location": ""
+}

@@ -1,0 +1,29 @@
+{
+  "username": "SUDARSHANCHAUDHARI",
+  "rank": 17,
+  "rank_score": 107.3,
+  "country": "Thailand",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/25879455?u=61fa118d588738a9efe9cb660a427518ab74154e&v=4",
+  "bio": "I moved to Bangkok in 2018 and have been living here since then. I am an expat originally from India with more than 13 years of experience in software testing.",
+  "company": "@screencloud",
+  "tier": "Elite",
+  "percentile": 100.0,
+  "prev_rank": 18,
+  "prev_score": 112.9,
+  "rank_delta": 1,
+  "score_delta": -5.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 18,
+      "s": 112.9
+    },
+    {
+      "d": "2026-11-22",
+      "r": 17,
+      "s": 107.3
+    }
+  ],
+  "location": "Bangkok, Kingdom of Thailand"
+}

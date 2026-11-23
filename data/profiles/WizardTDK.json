@@ -1,0 +1,29 @@
+{
+  "username": "WizardTDK",
+  "rank": 552,
+  "rank_score": 67.3,
+  "country": "",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/69308926?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 418,
+  "prev_score": 70.8,
+  "rank_delta": -134,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 418,
+      "s": 70.8
+    },
+    {
+      "d": "2026-11-22",
+      "r": 552,
+      "s": 67.3
+    }
+  ],
+  "location": ""
+}

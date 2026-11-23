@@ -1,0 +1,29 @@
+{
+  "username": "donovanrost",
+  "rank": 889,
+  "rank_score": 60.7,
+  "country": "United States",
+  "primary_language": "Vue",
+  "avatar_url": "https://avatars.githubusercontent.com/u/22788171?v=4",
+  "bio": "Software Engineer",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.0,
+  "prev_rank": 688,
+  "prev_score": 63.9,
+  "rank_delta": -201,
+  "score_delta": -3.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 688,
+      "s": 63.9
+    },
+    {
+      "d": "2026-11-22",
+      "r": 889,
+      "s": 60.7
+    }
+  ],
+  "location": "Denver"
+}

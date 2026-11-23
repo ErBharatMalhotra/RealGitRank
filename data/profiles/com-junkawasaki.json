@@ -1,0 +1,48 @@
+{
+  "username": "com-junkawasaki",
+  "country": "Japan",
+  "primary_language": "Go",
+  "total_pushes": 50,
+  "merged_prs": 21,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 417.75,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 41.19,
+  "rank_score": 138.1,
+  "active_repos_touched": 110,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 1,
+  "avatar_url": "https://avatars.githubusercontent.com/u/623495?u=08f24ffd086793609986eb6eb7eff415e1b31266&v=4",
+  "bio": "Niigata University Graduate School of Medical and Dental Sciences, Brain Research Institute.",
+  "company": "gftd.co.jp",
+  "tier": "Elite",
+  "percentile": 100.0,
+  "prev_rank": 307,
+  "prev_score": 73.6,
+  "rank_delta": 306,
+  "score_delta": 64.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 307,
+      "s": 73.6
+    },
+    {
+      "d": "2026-11-22",
+      "r": 1,
+      "s": 138.1
+    }
+  ],
+  "location": "Tokyo"
+}

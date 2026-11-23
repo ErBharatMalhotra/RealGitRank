@@ -1,0 +1,29 @@
+{
+  "username": "fcd007",
+  "rank": 248,
+  "rank_score": 73.9,
+  "country": "Brazil",
+  "primary_language": "HTML",
+  "avatar_url": "https://avatars.githubusercontent.com/u/23359046?u=70c9078175efd09ae14889d76d2ec8136e774137&v=4",
+  "bio": "Software Engineer / Cloud Architect",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "prev_rank": 191,
+  "prev_score": 77.8,
+  "rank_delta": -57,
+  "score_delta": -3.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 191,
+      "s": 77.8
+    },
+    {
+      "d": "2026-11-22",
+      "r": 248,
+      "s": 73.9
+    }
+  ],
+  "location": "Assu, Brazil"
+}

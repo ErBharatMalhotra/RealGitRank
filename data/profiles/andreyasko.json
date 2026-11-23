@@ -1,0 +1,39 @@
+{
+  "username": "andreyasko",
+  "country": "United States",
+  "primary_language": "JavaScript",
+  "total_pushes": 2,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 44.86,
+  "rank_score": 70.2,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 390,
+  "avatar_url": "https://avatars.githubusercontent.com/u/22210428?u=53be919baff61dc068de7662b336b66d498aa252&v=4",
+  "bio": "Building worlds.",
+  "company": "@unacms",
+  "tier": "Elite",
+  "percentile": 99.5,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 390,
+      "s": 70.2
+    }
+  ],
+  "location": "Australia"
+}

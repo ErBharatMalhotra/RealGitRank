@@ -1,0 +1,29 @@
+{
+  "username": "perlinm",
+  "rank": 565,
+  "rank_score": 67.1,
+  "country": "United States",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/567092?u=004aefd24791ca182503320b68a2b60134198f57&v=4",
+  "bio": "Quantum computing and quantum error correction",
+  "company": "JPMorganChase",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 427,
+  "prev_score": 70.6,
+  "rank_delta": -138,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 427,
+      "s": 70.6
+    },
+    {
+      "d": "2026-11-22",
+      "r": 565,
+      "s": 67.1
+    }
+  ],
+  "location": "New York City, NY"
+}

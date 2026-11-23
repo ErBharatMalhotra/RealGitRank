@@ -1,0 +1,29 @@
+{
+  "username": "epes",
+  "rank": 34,
+  "rank_score": 98.8,
+  "country": "United States",
+  "primary_language": "Go",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6786970?u=8b5a3dffc08bdaede70c19c59d92aa3a6d9b19fe&v=4",
+  "bio": "",
+  "company": "@trunk-io ",
+  "tier": "Elite",
+  "percentile": 100.0,
+  "prev_rank": 27,
+  "prev_score": 104.0,
+  "rank_delta": -7,
+  "score_delta": -5.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 27,
+      "s": 104.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 34,
+      "s": 98.8
+    }
+  ],
+  "location": "Austin, TX"
+}

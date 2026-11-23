@@ -1,0 +1,29 @@
+{
+  "username": "DeMASKe",
+  "rank": 616,
+  "rank_score": 66.3,
+  "country": "",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/40502371?u=4ac65cedb294d5bc2efb313d07b4ca7f164c0054&v=4",
+  "bio": "",
+  "company": "@emse-students ",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 488,
+  "prev_score": 69.8,
+  "rank_delta": -128,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 488,
+      "s": 69.8
+    },
+    {
+      "d": "2026-11-22",
+      "r": 616,
+      "s": 66.3
+    }
+  ],
+  "location": ""
+}

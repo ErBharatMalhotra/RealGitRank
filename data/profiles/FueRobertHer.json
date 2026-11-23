@@ -1,0 +1,39 @@
+{
+  "username": "FueRobertHer",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 1,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 131.83,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 63.3,
+  "rank_score": 60.8,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 848,
+  "avatar_url": "https://avatars.githubusercontent.com/u/49287123?u=33662c61ceb228d80f5600ce534948852af1dd9d&v=4",
+  "bio": "Software Engineer",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.0,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 848,
+      "s": 60.8
+    }
+  ],
+  "location": ""
+}

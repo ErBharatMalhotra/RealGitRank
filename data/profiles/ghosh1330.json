@@ -1,0 +1,29 @@
+{
+  "username": "ghosh1330",
+  "rank": 488,
+  "rank_score": 68.8,
+  "country": "",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/63749566?u=e879605c16dfad148f17bec832fafb8cb3d57a47&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 359,
+  "prev_score": 72.4,
+  "rank_delta": -129,
+  "score_delta": -3.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 359,
+      "s": 72.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 488,
+      "s": 68.8
+    }
+  ],
+  "location": ""
+}

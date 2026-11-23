@@ -1,0 +1,29 @@
+{
+  "username": "Temibell",
+  "rank": 247,
+  "rank_score": 73.9,
+  "country": "",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/307500483?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "prev_rank": 189,
+  "prev_score": 77.8,
+  "rank_delta": -58,
+  "score_delta": -3.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 189,
+      "s": 77.8
+    },
+    {
+      "d": "2026-11-22",
+      "r": 247,
+      "s": 73.9
+    }
+  ],
+  "location": ""
+}

@@ -1,0 +1,29 @@
+{
+  "username": "oseughu",
+  "rank": 553,
+  "rank_score": 67.3,
+  "country": "United Kingdom",
+  "primary_language": "Svelte",
+  "avatar_url": "https://avatars.githubusercontent.com/u/76438025?u=3d85abaec4fe6e6401d86f9d6454ea956b8eccdb&v=4",
+  "bio": "Soft(ware) Engineer.",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 419,
+  "prev_score": 70.8,
+  "rank_delta": -134,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 419,
+      "s": 70.8
+    },
+    {
+      "d": "2026-11-22",
+      "r": 553,
+      "s": 67.3
+    }
+  ],
+  "location": "Newcastle upon Tyne, United Kingdom"
+}

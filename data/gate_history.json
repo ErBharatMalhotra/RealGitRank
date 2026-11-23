@@ -12,11 +12,21 @@
   {
     "rows": 45384,
     "null_usernames": 0,
-    "score_min": 9.5,
-    "score_max": 131.5,
-    "score_mean": 25.166,
-    "score_std": 16.824,
+    "score_min": 9.0,
+    "score_max": 132.1,
+    "score_mean": 24.732,
+    "score_std": 16.539,
     "bot_rate": 0.0,
     "date": "2026-11-21"
+  },
+  {
+    "rows": 86259,
+    "null_usernames": 0,
+    "score_min": 8.5,
+    "score_max": 138.1,
+    "score_mean": 21.023,
+    "score_std": 14.11,
+    "bot_rate": 0.0,
+    "date": "2026-11-22"
   }
 ]

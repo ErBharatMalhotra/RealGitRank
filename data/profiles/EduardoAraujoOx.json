@@ -1,0 +1,29 @@
+{
+  "username": "EduardoAraujoOx",
+  "rank": 617,
+  "rank_score": 66.3,
+  "country": "",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/200785597?u=6113055bfb8ad175e60c9f05d33b838ac202cf85&v=4",
+  "bio": "Eduardo Ara\u00fajo \u00e9 economista, Professor s Auditor de Finan\u00e7as. Mestre pela Universidade de Oxford, com mais de 15 anos de experi\u00eancia em finan\u00e7as governamentais.",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 490,
+  "prev_score": 69.8,
+  "rank_delta": -127,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 490,
+      "s": 69.8
+    },
+    {
+      "d": "2026-11-22",
+      "r": 617,
+      "s": 66.3
+    }
+  ],
+  "location": ""
+}

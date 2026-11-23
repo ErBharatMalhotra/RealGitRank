@@ -1,0 +1,29 @@
+{
+  "username": "GaryJones",
+  "rank": 806,
+  "rank_score": 61.5,
+  "country": "United Kingdom",
+  "primary_language": "PHP",
+  "avatar_url": "https://avatars.githubusercontent.com/u/88371?v=4",
+  "bio": "WordPress VIP Support Projects Engineering Lead at @Automattic, formerly running @gamajo.",
+  "company": "Automattic (@Automattic )",
+  "tier": "Elite",
+  "percentile": 99.1,
+  "prev_rank": 632,
+  "prev_score": 64.7,
+  "rank_delta": -174,
+  "score_delta": -3.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 632,
+      "s": 64.7
+    },
+    {
+      "d": "2026-11-22",
+      "r": 806,
+      "s": 61.5
+    }
+  ],
+  "location": "Basingstoke, UK"
+}

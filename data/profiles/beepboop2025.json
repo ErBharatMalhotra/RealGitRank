@@ -1,0 +1,29 @@
+{
+  "username": "beepboop2025",
+  "rank": 946,
+  "rank_score": 59.6,
+  "country": "",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/215868371?v=4",
+  "bio": "Open-source public evidence workbench for sealed censorship measurements and reproducible AI evaluations.",
+  "company": "",
+  "tier": "Diamond",
+  "percentile": 98.9,
+  "prev_rank": 720,
+  "prev_score": 62.7,
+  "rank_delta": -226,
+  "score_delta": -3.1,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 720,
+      "s": 62.7
+    },
+    {
+      "d": "2026-11-22",
+      "r": 946,
+      "s": 59.6
+    }
+  ],
+  "location": ""
+}

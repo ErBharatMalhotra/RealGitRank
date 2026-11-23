@@ -1,0 +1,29 @@
+{
+  "username": "prashantchothani",
+  "rank": 574,
+  "rank_score": 66.9,
+  "country": "India",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/44523087?u=10a769a8c8658f254d6115a6fcc034ad02bea463&v=4",
+  "bio": "co-founder & CEO of Travelxp, world's leading travel channel. Dev fanatic.",
+  "company": "@travelxp ",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 434,
+  "prev_score": 70.4,
+  "rank_delta": -140,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 434,
+      "s": 70.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 574,
+      "s": 66.9
+    }
+  ],
+  "location": "Mumbai"
+}

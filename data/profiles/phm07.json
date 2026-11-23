@@ -1,0 +1,29 @@
+{
+  "username": "phm07",
+  "rank": 250,
+  "rank_score": 73.8,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/22707808?u=594dd0f8a68d33d7629c31883d81216c6c582d82&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "prev_rank": 193,
+  "prev_score": 77.7,
+  "rank_delta": -57,
+  "score_delta": -3.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 193,
+      "s": 77.7
+    },
+    {
+      "d": "2026-11-22",
+      "r": 250,
+      "s": 73.8
+    }
+  ],
+  "location": ""
+}

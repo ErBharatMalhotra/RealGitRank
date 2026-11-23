@@ -1,0 +1,29 @@
+{
+  "username": "cntent",
+  "rank": 491,
+  "rank_score": 68.8,
+  "country": "",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/188973438?u=0e8dc14dcef29e451a239e79ca37528c86ea4928&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 362,
+  "prev_score": 72.4,
+  "rank_delta": -129,
+  "score_delta": -3.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 362,
+      "s": 72.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 491,
+      "s": 68.8
+    }
+  ],
+  "location": ""
+}

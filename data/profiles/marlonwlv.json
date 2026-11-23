@@ -1,0 +1,29 @@
+{
+  "username": "marlonwlv",
+  "rank": 655,
+  "rank_score": 65.8,
+  "country": "",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/102085152?u=27a2747a7d0a7a7a8d3dccd88ab92c43fbe16099&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.2,
+  "prev_rank": 554,
+  "prev_score": 69.3,
+  "rank_delta": -101,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 554,
+      "s": 69.3
+    },
+    {
+      "d": "2026-11-22",
+      "r": 655,
+      "s": 65.8
+    }
+  ],
+  "location": ""
+}

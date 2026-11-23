@@ -1,0 +1,29 @@
+{
+  "username": "Andriithis",
+  "rank": 543,
+  "rank_score": 67.4,
+  "country": "",
+  "primary_language": "HTML",
+  "avatar_url": "https://avatars.githubusercontent.com/u/165557979?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 409,
+  "prev_score": 70.9,
+  "rank_delta": -134,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 409,
+      "s": 70.9
+    },
+    {
+      "d": "2026-11-22",
+      "r": 543,
+      "s": 67.4
+    }
+  ],
+  "location": ""
+}

@@ -1,0 +1,39 @@
+{
+  "username": "Tzeusy",
+  "country": "Singapore",
+  "primary_language": "Jupyter Notebook",
+  "total_pushes": 4,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 44.63,
+  "rank_score": 78.4,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 164,
+  "avatar_url": "https://avatars.githubusercontent.com/u/21179283?u=0e25a2ba2833a987c2665fe30bcb166a8c3cb828&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 164,
+      "s": 78.4
+    }
+  ],
+  "location": "Singapore"
+}

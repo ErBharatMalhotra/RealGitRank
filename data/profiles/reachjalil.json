@@ -1,0 +1,29 @@
+{
+  "username": "reachjalil",
+  "rank": 496,
+  "rank_score": 68.7,
+  "country": "United States",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6254931?u=98aaab12f3dc10fa8b0c806cdd78fce657af88b2&v=4",
+  "bio": "Founding Engineer at OpenWork \u00b7 agents, MCP & developer tools",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 372,
+  "prev_score": 72.3,
+  "rank_delta": -124,
+  "score_delta": -3.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 372,
+      "s": 72.3
+    },
+    {
+      "d": "2026-11-22",
+      "r": 496,
+      "s": 68.7
+    }
+  ],
+  "location": "San Francisco"
+}

@@ -1,0 +1,29 @@
+{
+  "username": "Xaska312",
+  "rank": 917,
+  "rank_score": 60.1,
+  "country": "",
+  "primary_language": "Java",
+  "avatar_url": "https://avatars.githubusercontent.com/u/94057683?u=12942baa5f80f030f25efe2146c5509076d40c81&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Diamond",
+  "percentile": 98.9,
+  "prev_rank": 704,
+  "prev_score": 63.3,
+  "rank_delta": -213,
+  "score_delta": -3.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 704,
+      "s": 63.3
+    },
+    {
+      "d": "2026-11-22",
+      "r": 917,
+      "s": 60.1
+    }
+  ],
+  "location": ""
+}

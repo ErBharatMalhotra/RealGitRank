@@ -1,0 +1,29 @@
+{
+  "username": "igorpogulaev485-code",
+  "rank": 606,
+  "rank_score": 66.4,
+  "country": "",
+  "primary_language": "HTML",
+  "avatar_url": "https://avatars.githubusercontent.com/u/324995889?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 478,
+  "prev_score": 69.9,
+  "rank_delta": -128,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 478,
+      "s": 69.9
+    },
+    {
+      "d": "2026-11-22",
+      "r": 606,
+      "s": 66.4
+    }
+  ],
+  "location": ""
+}

@@ -1,0 +1,29 @@
+{
+  "username": "codyNog",
+  "rank": 473,
+  "rank_score": 69.1,
+  "country": "Japan",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/38449219?u=b4008a688c12726af049da022ce9c5fabdc051e7&v=4",
+  "bio": "JavaScript/TypeScript/React/React Native/Node.js",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.5,
+  "prev_rank": 336,
+  "prev_score": 72.7,
+  "rank_delta": -137,
+  "score_delta": -3.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 336,
+      "s": 72.7
+    },
+    {
+      "d": "2026-11-22",
+      "r": 473,
+      "s": 69.1
+    }
+  ],
+  "location": "Japan"
+}

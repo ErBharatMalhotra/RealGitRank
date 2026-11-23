@@ -1,0 +1,39 @@
+{
+  "username": "pedrohrod",
+  "country": "Brazil",
+  "primary_language": "Python",
+  "total_pushes": 2,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 46.6,
+  "rank_score": 70.4,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 383,
+  "avatar_url": "https://avatars.githubusercontent.com/u/45054449?u=2daf551fb5472e9b32e17227ecfda3732c2305fb&v=4",
+  "bio": "Builder",
+  "company": "@corvo-technology ",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 383,
+      "s": 70.4
+    }
+  ],
+  "location": "Brazil"
+}

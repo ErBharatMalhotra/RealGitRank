@@ -1,0 +1,29 @@
+{
+  "username": "br-collab",
+  "rank": 740,
+  "rank_score": 63.7,
+  "country": "United States",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/268041219?v=4",
+  "bio": "",
+  "company": "Columbia University",
+  "tier": "Elite",
+  "percentile": 99.1,
+  "prev_rank": 602,
+  "prev_score": 67.1,
+  "rank_delta": -138,
+  "score_delta": -3.4,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 602,
+      "s": 67.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 740,
+      "s": 63.7
+    }
+  ],
+  "location": "NJ, USA"
+}

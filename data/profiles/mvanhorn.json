@@ -29,7 +29,7 @@
   "forks_fraud_filtered": 16,
   "active_shipping_weeks": 5,
   "avg_files_changed": null,
-  "test_file_ratio": 0.0,
+  "test_file_ratio": null,
   "multi_file_commit_ratio": null,
   "rank": 62,
   "avatar_url": "https://avatars.githubusercontent.com/u/455140?u=ca70dc656c8256c47d6739e4347937bf139c28e7&v=4",

@@ -1,0 +1,29 @@
+{
+  "username": "juanpimg",
+  "rank": 593,
+  "rank_score": 66.6,
+  "country": "",
+  "primary_language": "Rust",
+  "avatar_url": "https://avatars.githubusercontent.com/u/229525379?u=6bd30b4af1f0ef8265da0368b323ace8112e563e&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 453,
+  "prev_score": 70.1,
+  "rank_delta": -140,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 453,
+      "s": 70.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 593,
+      "s": 66.6
+    }
+  ],
+  "location": ""
+}

@@ -1,0 +1,29 @@
+{
+  "username": "Ferumit",
+  "rank": 857,
+  "rank_score": 60.8,
+  "country": "",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/128684483?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.0,
+  "prev_rank": 662,
+  "prev_score": 64.0,
+  "rank_delta": -195,
+  "score_delta": -3.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 662,
+      "s": 64.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 857,
+      "s": 60.8
+    }
+  ],
+  "location": ""
+}

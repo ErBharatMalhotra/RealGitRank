@@ -1,0 +1,29 @@
+{
+  "username": "DraChimeraVee",
+  "rank": 557,
+  "rank_score": 67.2,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/265363427?u=4031bf54bde6b492ec3983e3499d4c9a2e9b3733&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 422,
+  "prev_score": 70.7,
+  "rank_delta": -135,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 422,
+      "s": 70.7
+    },
+    {
+      "d": "2026-11-22",
+      "r": 557,
+      "s": 67.2
+    }
+  ],
+  "location": ""
+}

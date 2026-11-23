@@ -1,0 +1,29 @@
+{
+  "username": "caihao373-star",
+  "rank": 322,
+  "rank_score": 72.3,
+  "country": "",
+  "primary_language": "Go",
+  "avatar_url": "https://avatars.githubusercontent.com/u/268567234?u=111578aa25823310d395b21d0f7c6f428dfc9c30&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "prev_rank": 237,
+  "prev_score": 76.1,
+  "rank_delta": -85,
+  "score_delta": -3.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 237,
+      "s": 76.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 322,
+      "s": 72.3
+    }
+  ],
+  "location": ""
+}

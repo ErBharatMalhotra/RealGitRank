@@ -1,0 +1,29 @@
+{
+  "username": "Maratatasan",
+  "rank": 594,
+  "rank_score": 66.6,
+  "country": "",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/42720884?u=140d55c9f3dfb37465ba0ed10c1c89e3debaf2c0&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 454,
+  "prev_score": 70.1,
+  "rank_delta": -140,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 454,
+      "s": 70.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 594,
+      "s": 66.6
+    }
+  ],
+  "location": ""
+}

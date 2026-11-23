@@ -1,0 +1,29 @@
+{
+  "username": "Terminality",
+  "rank": 495,
+  "rank_score": 68.7,
+  "country": "",
+  "primary_language": "Shell",
+  "avatar_url": "https://avatars.githubusercontent.com/u/342062416?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 371,
+  "prev_score": 72.3,
+  "rank_delta": -124,
+  "score_delta": -3.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 371,
+      "s": 72.3
+    },
+    {
+      "d": "2026-11-22",
+      "r": 495,
+      "s": 68.7
+    }
+  ],
+  "location": ""
+}

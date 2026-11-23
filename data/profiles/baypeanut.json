@@ -1,0 +1,29 @@
+{
+  "username": "baypeanut",
+  "rank": 150,
+  "rank_score": 79.0,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/180485396?u=a01da7e5fb1afb32ee70f20ef9f7f09721993f0d&v=4",
+  "bio": "I like puzzles",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "prev_rank": 132,
+  "prev_score": 83.2,
+  "rank_delta": -18,
+  "score_delta": -4.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 132,
+      "s": 83.2
+    },
+    {
+      "d": "2026-11-22",
+      "r": 150,
+      "s": 79.0
+    }
+  ],
+  "location": ""
+}

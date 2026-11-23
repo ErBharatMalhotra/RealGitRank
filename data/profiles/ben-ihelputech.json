@@ -1,0 +1,29 @@
+{
+  "username": "ben-ihelputech",
+  "rank": 147,
+  "rank_score": 79.2,
+  "country": "",
+  "primary_language": "Shell",
+  "avatar_url": "https://avatars.githubusercontent.com/u/50592898?u=a367a2ca5528bee4a6d50f45f141463d6772d4ca&v=4",
+  "bio": "",
+  "company": "@ihelpu-tech ",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "prev_rank": 131,
+  "prev_score": 83.4,
+  "rank_delta": -16,
+  "score_delta": -4.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 131,
+      "s": 83.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 147,
+      "s": 79.2
+    }
+  ],
+  "location": ""
+}

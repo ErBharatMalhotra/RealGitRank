@@ -1,0 +1,29 @@
+{
+  "username": "arumiforge",
+  "rank": 595,
+  "rank_score": 66.6,
+  "country": "United States",
+  "primary_language": "HTML",
+  "avatar_url": "https://avatars.githubusercontent.com/u/226232558?u=19a4294f2beb9bcd47d99e06f161f2abb1d290e1&v=4",
+  "bio": "Arumi",
+  "company": "Arumi Studios",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 456,
+  "prev_score": 70.1,
+  "rank_delta": -139,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 456,
+      "s": 70.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 595,
+      "s": 66.6
+    }
+  ],
+  "location": "Kudus"
+}

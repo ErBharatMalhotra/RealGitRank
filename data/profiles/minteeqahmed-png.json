@@ -1,0 +1,29 @@
+{
+  "username": "minteeqahmed-png",
+  "rank": 85,
+  "rank_score": 86.5,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/229173878?u=6ccf0a4d6eb72b7e7a04b4063d207f730c98bbfc&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "prev_rank": 73,
+  "prev_score": 91.1,
+  "rank_delta": -12,
+  "score_delta": -4.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 73,
+      "s": 91.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 85,
+      "s": 86.5
+    }
+  ],
+  "location": ""
+}

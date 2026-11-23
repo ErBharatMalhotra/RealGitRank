@@ -1,0 +1,29 @@
+{
+  "username": "Division6066",
+  "rank": 108,
+  "rank_score": 83.5,
+  "country": "",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/127532925?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "prev_rank": 92,
+  "prev_score": 87.9,
+  "rank_delta": -16,
+  "score_delta": -4.4,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 92,
+      "s": 87.9
+    },
+    {
+      "d": "2026-11-22",
+      "r": 108,
+      "s": 83.5
+    }
+  ],
+  "location": ""
+}

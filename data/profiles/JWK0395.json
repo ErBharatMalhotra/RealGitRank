@@ -1,0 +1,29 @@
+{
+  "username": "JWK0395",
+  "rank": 89,
+  "rank_score": 85.6,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/284685217?u=e24ae62067e460d7d02f533bba4117b84b2520ee&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.9,
+  "prev_rank": 77,
+  "prev_score": 90.1,
+  "rank_delta": -12,
+  "score_delta": -4.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 77,
+      "s": 90.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 89,
+      "s": 85.6
+    }
+  ],
+  "location": ""
+}

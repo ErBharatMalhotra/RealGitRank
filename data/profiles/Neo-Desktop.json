@@ -1,0 +1,29 @@
+{
+  "username": "Neo-Desktop",
+  "rank": 271,
+  "rank_score": 73.2,
+  "country": "",
+  "primary_language": "C++",
+  "avatar_url": "https://avatars.githubusercontent.com/u/321592?u=2229fa2da913d79f4e8dd4556d085a2df8f0bab3&v=4",
+  "bio": "Computer Extraordinaire. Golang Enthusiast. Reverse Engineer. Full Stack Developer. Embedded Firmware Tinkerer. Legacy Coder. ",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "prev_rank": 205,
+  "prev_score": 77.1,
+  "rank_delta": -66,
+  "score_delta": -3.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 205,
+      "s": 77.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 271,
+      "s": 73.2
+    }
+  ],
+  "location": "San Diego, CA"
+}

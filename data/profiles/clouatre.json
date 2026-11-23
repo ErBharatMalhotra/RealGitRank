@@ -1,0 +1,39 @@
+{
+  "username": "clouatre",
+  "country": "Canada",
+  "primary_language": "Python",
+  "total_pushes": 4,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 53.75,
+  "s_impact": 0.0,
+  "s_consistency": 44.3,
+  "rank_score": 67.1,
+  "active_repos_touched": 11,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 560,
+  "avatar_url": "https://avatars.githubusercontent.com/u/15008125?u=b0cc986f28c78615ce7313d5da7adf05cf904085&v=4",
+  "bio": "Field CTO at 3Pillar Global advising CTOs on AI transformation. AWS veteran, Oracle strategist, HEC Montreal lecturer. 3 CIPO patents. AAIF contributor.",
+  "company": "3Pillar, HEC Montreal",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 560,
+      "s": 67.1
+    }
+  ],
+  "location": "Montr\u00e9al, Canada"
+}

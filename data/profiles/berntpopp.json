@@ -1,0 +1,29 @@
+{
+  "username": "berntpopp",
+  "rank": 832,
+  "rank_score": 61.0,
+  "country": "Germany",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/5041157?u=c767e354facc98e7a6f49213d5e9a8d38effb368&v=4",
+  "bio": "",
+  "company": "Berlin Institute of Health @Charit\u00e9",
+  "tier": "Elite",
+  "percentile": 99.0,
+  "prev_rank": 645,
+  "prev_score": 64.2,
+  "rank_delta": -187,
+  "score_delta": -3.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 645,
+      "s": 64.2
+    },
+    {
+      "d": "2026-11-22",
+      "r": 832,
+      "s": 61.0
+    }
+  ],
+  "location": "Berlin"
+}

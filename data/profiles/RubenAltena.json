@@ -1,0 +1,29 @@
+{
+  "username": "RubenAltena",
+  "rank": 599,
+  "rank_score": 66.6,
+  "country": "Netherlands",
+  "primary_language": "MDX",
+  "avatar_url": "https://avatars.githubusercontent.com/u/120325825?u=3d19e786bf70eda89be8ad8a4a0b16b09115b5b1&v=4",
+  "bio": "",
+  "company": "Grasp Labs",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 461,
+  "prev_score": 70.1,
+  "rank_delta": -138,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 461,
+      "s": 70.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 599,
+      "s": 66.6
+    }
+  ],
+  "location": "Amsterdam"
+}

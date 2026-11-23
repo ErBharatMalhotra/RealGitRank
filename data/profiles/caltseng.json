@@ -1,0 +1,39 @@
+{
+  "username": "caltseng",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 2,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 131.83,
+  "s_quality": 32.96,
+  "s_impact": 0.0,
+  "s_consistency": 42.56,
+  "rank_score": 60.8,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 846,
+  "avatar_url": "https://avatars.githubusercontent.com/u/10053784?u=8c4885985102b9bd3a35750df2b1ae85ec13795e&v=4",
+  "bio": "",
+  "company": "Microsoft",
+  "tier": "Elite",
+  "percentile": 99.0,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 846,
+      "s": 60.8
+    }
+  ],
+  "location": "Mountain View, CA"
+}

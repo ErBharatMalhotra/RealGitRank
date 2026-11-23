@@ -1,0 +1,29 @@
+{
+  "username": "lm1909",
+  "rank": 11,
+  "rank_score": 111.7,
+  "country": "Germany",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/8582279?v=4",
+  "bio": "PhD @ Max Planck Institute of Quantum Optics",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 100.0,
+  "prev_rank": 10,
+  "prev_score": 117.6,
+  "rank_delta": -1,
+  "score_delta": -5.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 10,
+      "s": 117.6
+    },
+    {
+      "d": "2026-11-22",
+      "r": 11,
+      "s": 111.7
+    }
+  ],
+  "location": "Munich, Germany"
+}

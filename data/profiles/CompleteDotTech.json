@@ -1,0 +1,29 @@
+{
+  "username": "CompleteDotTech",
+  "rank": 640,
+  "rank_score": 66.0,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/5861166?u=cb77df4bb17a1d7c40109d45deb937abce9729f1&v=4",
+  "bio": "",
+  "company": "CompleteTech LLC",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 536,
+  "prev_score": 69.5,
+  "rank_delta": -104,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 536,
+      "s": 69.5
+    },
+    {
+      "d": "2026-11-22",
+      "r": 640,
+      "s": 66.0
+    }
+  ],
+  "location": "Cincinnati, OH"
+}

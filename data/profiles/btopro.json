@@ -1,0 +1,29 @@
+{
+  "username": "btopro",
+  "rank": 242,
+  "rank_score": 74.1,
+  "country": "",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/329735?u=09787057d5c0f5c1c8afbecc1ce334364b224712&v=4",
+  "bio": "@haxtheweb Project lead. Penn State educator, technologist, change agent.",
+  "company": "Penn State",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "prev_rank": 180,
+  "prev_score": 78.0,
+  "rank_delta": -62,
+  "score_delta": -3.9,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 180,
+      "s": 78.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 242,
+      "s": 74.1
+    }
+  ],
+  "location": "2026"
+}

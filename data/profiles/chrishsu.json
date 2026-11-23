@@ -1,0 +1,29 @@
+{
+  "username": "chrishsu",
+  "rank": 155,
+  "rank_score": 78.8,
+  "country": "",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/5472765?u=9b0e71a890f0b42cc8e33e8e9070958ff35ca33a&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "prev_rank": 136,
+  "prev_score": 83.0,
+  "rank_delta": -19,
+  "score_delta": -4.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 136,
+      "s": 83.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 155,
+      "s": 78.8
+    }
+  ],
+  "location": ""
+}

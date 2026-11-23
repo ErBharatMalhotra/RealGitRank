@@ -1,0 +1,39 @@
+{
+  "username": "petertoday",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 8,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 204.57,
+  "s_quality": 41.59,
+  "s_impact": 0.0,
+  "s_consistency": 45.07,
+  "rank_score": 78.1,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 166,
+  "avatar_url": "https://avatars.githubusercontent.com/u/171875562?u=7b0dac804cd03c4f79365ae37f08f83f2687bcc7&v=4",
+  "bio": "",
+  "company": "@esaueng",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 166,
+      "s": 78.1
+    }
+  ],
+  "location": ""
+}

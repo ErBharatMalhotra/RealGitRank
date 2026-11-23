@@ -1,0 +1,29 @@
+{
+  "username": "SakharamS",
+  "rank": 487,
+  "rank_score": 68.8,
+  "country": "India",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/54575721?v=4",
+  "bio": "Principal DevOps Engineer",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 358,
+  "prev_score": 72.4,
+  "rank_delta": -129,
+  "score_delta": -3.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 358,
+      "s": 72.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 487,
+      "s": 68.8
+    }
+  ],
+  "location": "Pune, India"
+}

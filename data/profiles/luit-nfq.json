@@ -1,0 +1,29 @@
+{
+  "username": "luit-nfq",
+  "rank": 596,
+  "rank_score": 66.6,
+  "country": "",
+  "primary_language": "Unknown",
+  "avatar_url": "https://avatars.githubusercontent.com/u/179788524?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 458,
+  "prev_score": 70.1,
+  "rank_delta": -138,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 458,
+      "s": 70.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 596,
+      "s": 66.6
+    }
+  ],
+  "location": ""
+}

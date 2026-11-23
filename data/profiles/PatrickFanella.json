@@ -1,0 +1,29 @@
+{
+  "username": "PatrickFanella",
+  "rank": 720,
+  "rank_score": 64.0,
+  "country": "United States",
+  "primary_language": "Go",
+  "avatar_url": "https://avatars.githubusercontent.com/u/61631520?u=bd58a0478627e10d8cf80b0b3bf4a19d0653963f&v=4",
+  "bio": "Senior full-stack & backend engineer. Building SUBCULT: software for independent culture. Go, TypeScript, React, Python. Chicago. Open to work.",
+  "company": "@subculture-collective",
+  "tier": "Elite",
+  "percentile": 99.2,
+  "prev_rank": 595,
+  "prev_score": 67.4,
+  "rank_delta": -125,
+  "score_delta": -3.4,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 595,
+      "s": 67.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 720,
+      "s": 64.0
+    }
+  ],
+  "location": "Chicago, IL"
+}

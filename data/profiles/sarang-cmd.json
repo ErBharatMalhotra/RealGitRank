@@ -1,0 +1,29 @@
+{
+  "username": "sarang-cmd",
+  "rank": 152,
+  "rank_score": 78.9,
+  "country": "Germany",
+  "primary_language": "JavaScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/98888521?u=07f85efc35c0df3f42c645cbfeb6999b9d020892&v=4",
+  "bio": "Just another aspiring CS Student and Agentic Engineer.",
+  "company": "sarang.md",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "prev_rank": 133,
+  "prev_score": 83.1,
+  "rank_delta": -19,
+  "score_delta": -4.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 133,
+      "s": 83.1
+    },
+    {
+      "d": "2026-11-22",
+      "r": 152,
+      "s": 78.9
+    }
+  ],
+  "location": "Germany"
+}

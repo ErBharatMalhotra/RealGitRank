@@ -1,0 +1,29 @@
+{
+  "username": "Minsiki",
+  "rank": 336,
+  "rank_score": 71.7,
+  "country": "",
+  "primary_language": "CSS",
+  "avatar_url": "https://avatars.githubusercontent.com/u/43837214?u=6b2dde7faa5b6267eebb092669fa54b96ffcc8ad&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "prev_rank": 249,
+  "prev_score": 75.5,
+  "rank_delta": -87,
+  "score_delta": -3.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 249,
+      "s": 75.5
+    },
+    {
+      "d": "2026-11-22",
+      "r": 336,
+      "s": 71.7
+    }
+  ],
+  "location": ""
+}

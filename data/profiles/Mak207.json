@@ -1,0 +1,29 @@
+{
+  "username": "Mak207",
+  "rank": 851,
+  "rank_score": 60.8,
+  "country": "",
+  "primary_language": "HTML",
+  "avatar_url": "https://avatars.githubusercontent.com/u/201354213?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.0,
+  "prev_rank": 656,
+  "prev_score": 64.0,
+  "rank_delta": -195,
+  "score_delta": -3.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 656,
+      "s": 64.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 851,
+      "s": 60.8
+    }
+  ],
+  "location": ""
+}

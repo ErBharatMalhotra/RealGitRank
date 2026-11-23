@@ -1,0 +1,39 @@
+{
+  "username": "iebouihi",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 20.79,
+  "s_impact": 0.0,
+  "s_consistency": 51.78,
+  "rank_score": 71.2,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 351,
+  "avatar_url": "https://avatars.githubusercontent.com/u/93336146?u=d729c17c02c76c3533a9d57f8370b9ac24b405b3&v=4",
+  "bio": "Java Architect",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 351,
+      "s": 71.2
+    }
+  ],
+  "location": ""
+}

@@ -1,0 +1,29 @@
+{
+  "username": "inkstak",
+  "rank": 504,
+  "rank_score": 68.4,
+  "country": "",
+  "primary_language": "Ruby",
+  "avatar_url": "https://avatars.githubusercontent.com/u/474554?u=a02b1be665c890745d65404f43e4e86ea929ec34&v=4",
+  "bio": "",
+  "company": "Solutions & Territoire",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 379,
+  "prev_score": 72.0,
+  "rank_delta": -125,
+  "score_delta": -3.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 379,
+      "s": 72.0
+    },
+    {
+      "d": "2026-11-22",
+      "r": 504,
+      "s": 68.4
+    }
+  ],
+  "location": "French Pyrenees"
+}

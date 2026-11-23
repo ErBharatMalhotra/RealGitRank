@@ -1,0 +1,29 @@
+{
+  "username": "juffson",
+  "rank": 550,
+  "rank_score": 67.3,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/12583828?u=55a211b6aca2c92f7eec7f27adf57b917ad90778&v=4",
+  "bio": "life is short!\r\n@EpicGames ",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 415,
+  "prev_score": 70.8,
+  "rank_delta": -135,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 415,
+      "s": 70.8
+    },
+    {
+      "d": "2026-11-22",
+      "r": 550,
+      "s": 67.3
+    }
+  ],
+  "location": "HangZhou"
+}

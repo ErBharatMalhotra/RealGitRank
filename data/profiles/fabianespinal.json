@@ -1,0 +1,29 @@
+{
+  "username": "fabianespinal",
+  "rank": 605,
+  "rank_score": 66.4,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/47490442?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 476,
+  "prev_score": 69.9,
+  "rank_delta": -129,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 476,
+      "s": 69.9
+    },
+    {
+      "d": "2026-11-22",
+      "r": 605,
+      "s": 66.4
+    }
+  ],
+  "location": ""
+}

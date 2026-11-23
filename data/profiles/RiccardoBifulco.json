@@ -1,0 +1,39 @@
+{
+  "username": "RiccardoBifulco",
+  "country": "Italy",
+  "primary_language": "TypeScript",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "bot_penalty": 0.0,
+  "is_human_verified": true,
+  "is_bot_classified": false,
+  "s_pr": 166.36,
+  "s_quality": 32.96,
+  "s_impact": 0.0,
+  "s_consistency": 42.35,
+  "rank_score": 72.8,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 1,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 291,
+  "avatar_url": "https://avatars.githubusercontent.com/u/154237075?u=fc30e716e4ed60252edb5f5f50029796560c6530&v=4",
+  "bio": "IT & AI Consultant. Building Business Intelligence dashboards, ERP-connected AI agents, digital workflows & forecasting tools for real-world businesses.",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "history": [
+    {
+      "d": "2026-11-22",
+      "r": 291,
+      "s": 72.8
+    }
+  ],
+  "location": "Udine, Italy"
+}

@@ -1,0 +1,29 @@
+{
+  "username": "rickwengdev",
+  "rank": 305,
+  "rank_score": 72.6,
+  "country": "",
+  "primary_language": "Rust",
+  "avatar_url": "https://avatars.githubusercontent.com/u/233955863?u=aab93d6987fe8f312d1bc81b48df7f11eabb17e2&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.6,
+  "prev_rank": 229,
+  "prev_score": 76.4,
+  "rank_delta": -76,
+  "score_delta": -3.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 229,
+      "s": 76.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 305,
+      "s": 72.6
+    }
+  ],
+  "location": "Taiwan"
+}

@@ -1,0 +1,29 @@
+{
+  "username": "arkaydeus",
+  "rank": 525,
+  "rank_score": 67.8,
+  "country": "",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/39967247?u=3756e269f2c68a6b96fdedaf1143747244277472&v=4",
+  "bio": "UK based AI first engineer.\r\n\r\nBuilding Orkestrator - the safe, opensource coding agent orchestration platform.",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.4,
+  "prev_rank": 396,
+  "prev_score": 71.4,
+  "rank_delta": -129,
+  "score_delta": -3.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 396,
+      "s": 71.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 525,
+      "s": 67.8
+    }
+  ],
+  "location": ""
+}

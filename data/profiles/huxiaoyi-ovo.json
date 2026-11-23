@@ -1,0 +1,29 @@
+{
+  "username": "huxiaoyi-ovo",
+  "rank": 137,
+  "rank_score": 80.2,
+  "country": "",
+  "primary_language": "C++",
+  "avatar_url": "https://avatars.githubusercontent.com/u/259822446?u=bda7c532b0820f0a49e4592aac9ac6e9ec60053d&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.8,
+  "prev_rank": 122,
+  "prev_score": 84.4,
+  "rank_delta": -15,
+  "score_delta": -4.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 122,
+      "s": 84.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 137,
+      "s": 80.2
+    }
+  ],
+  "location": ""
+}

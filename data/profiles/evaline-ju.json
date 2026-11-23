@@ -1,0 +1,29 @@
+{
+  "username": "evaline-ju",
+  "rank": 286,
+  "rank_score": 72.9,
+  "country": "",
+  "primary_language": "Python",
+  "avatar_url": "https://avatars.githubusercontent.com/u/69598118?v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "prev_rank": 219,
+  "prev_score": 76.7,
+  "rank_delta": -67,
+  "score_delta": -3.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 219,
+      "s": 76.7
+    },
+    {
+      "d": "2026-11-22",
+      "r": 286,
+      "s": 72.9
+    }
+  ],
+  "location": ""
+}

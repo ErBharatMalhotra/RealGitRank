@@ -1,0 +1,29 @@
+{
+  "username": "ahmedhamedaly",
+  "rank": 274,
+  "rank_score": 73.1,
+  "country": "",
+  "primary_language": "TypeScript",
+  "avatar_url": "https://avatars.githubusercontent.com/u/51321440?u=9f138e0cd8f7e2a9917a5fe0a5ab00440fa81823&v=4",
+  "bio": "Graduate CS @ Trinity College Dublin - Hackathon-eer",
+  "company": "Trinity College Dublin",
+  "tier": "Elite",
+  "percentile": 99.7,
+  "prev_rank": 211,
+  "prev_score": 76.9,
+  "rank_delta": -63,
+  "score_delta": -3.8,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 211,
+      "s": 76.9
+    },
+    {
+      "d": "2026-11-22",
+      "r": 274,
+      "s": 73.1
+    }
+  ],
+  "location": ""
+}

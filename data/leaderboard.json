@@ -85,7 +85,11 @@
     "window_start": "2026-10-24",
     "window_end": "2026-11-22",
     "percentile": 100.0,
-    "tier": "Elite"
+    "tier": "Elite",
+    "prev_rank": 16,
+    "prev_score": 114.3,
+    "rank_delta": 13,
+    "score_delta": 14.4
   },
   {
     "username": "code-yeongyu",

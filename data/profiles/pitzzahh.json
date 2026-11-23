@@ -1,0 +1,29 @@
+{
+  "username": "pitzzahh",
+  "rank": 581,
+  "rank_score": 66.8,
+  "country": "",
+  "primary_language": "Java",
+  "avatar_url": "https://avatars.githubusercontent.com/u/97332554?u=5ab21e93a06f443483469d00ac71bfd8eb73543c&v=4",
+  "bio": "kuder",
+  "company": "@bicolit",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 438,
+  "prev_score": 70.3,
+  "rank_delta": -143,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 438,
+      "s": 70.3
+    },
+    {
+      "d": "2026-11-22",
+      "r": 581,
+      "s": 66.8
+    }
+  ],
+  "location": ""
+}

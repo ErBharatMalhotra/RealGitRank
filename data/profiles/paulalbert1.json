@@ -1,0 +1,29 @@
+{
+  "username": "paulalbert1",
+  "rank": 822,
+  "rank_score": 61.2,
+  "country": "",
+  "primary_language": "Go",
+  "avatar_url": "https://avatars.githubusercontent.com/u/3651640?u=8a3f1dc2c0e269b27fbba1b1d85fdff449523cb7&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.0,
+  "prev_rank": 643,
+  "prev_score": 64.4,
+  "rank_delta": -179,
+  "score_delta": -3.2,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 643,
+      "s": 64.4
+    },
+    {
+      "d": "2026-11-22",
+      "r": 822,
+      "s": 61.2
+    }
+  ],
+  "location": ""
+}

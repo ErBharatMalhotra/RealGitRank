@@ -1,0 +1,29 @@
+{
+  "username": "pat-trunk-io",
+  "rank": 471,
+  "rank_score": 69.2,
+  "country": "",
+  "primary_language": "Rust",
+  "avatar_url": "https://avatars.githubusercontent.com/u/131031962?u=3f390644dc61882c02ce00f68e00815291c59a99&v=4",
+  "bio": "",
+  "company": "",
+  "tier": "Elite",
+  "percentile": 99.5,
+  "prev_rank": 334,
+  "prev_score": 72.8,
+  "rank_delta": -137,
+  "score_delta": -3.6,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 334,
+      "s": 72.8
+    },
+    {
+      "d": "2026-11-22",
+      "r": 471,
+      "s": 69.2
+    }
+  ],
+  "location": ""
+}

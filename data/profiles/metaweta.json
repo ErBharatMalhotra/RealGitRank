@@ -1,0 +1,29 @@
+{
+  "username": "metaweta",
+  "rank": 583,
+  "rank_score": 66.8,
+  "country": "",
+  "primary_language": "Scala",
+  "avatar_url": "https://avatars.githubusercontent.com/u/857592?v=4",
+  "bio": "",
+  "company": "F1R3FLY.io",
+  "tier": "Elite",
+  "percentile": 99.3,
+  "prev_rank": 442,
+  "prev_score": 70.3,
+  "rank_delta": -141,
+  "score_delta": -3.5,
+  "history": [
+    {
+      "d": "2026-11-21",
+      "r": 442,
+      "s": 70.3
+    },
+    {
+      "d": "2026-11-22",
+      "r": 583,
+      "s": 66.8
+    }
+  ],
+  "location": ""
+}
