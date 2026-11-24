@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 7,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.79,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 863.3,
+  "rank_score": 863.4,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 6,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 659,
+  "rank": 661,
   "avatar_url": "https://avatars.githubusercontent.com/u/11325514?u=def0aabb5e44f1f3327c268bfa29299a48a9806d&v=4",
   "bio": "",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
   "prev_rank": 871,
   "prev_score": 860.2,
-  "rank_delta": 212,
-  "score_delta": 3.1,
+  "rank_delta": 210,
+  "score_delta": 3.2,
   "counted_merges": [
     {
       "repo": "rynfar/t3code",
@@ -59,8 +60,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 659,
-      "s": 863.3
+      "r": 661,
+      "s": 863.4
     }
   ]
 }

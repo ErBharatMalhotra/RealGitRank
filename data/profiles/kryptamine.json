@@ -4,7 +4,7 @@
   "primary_language": "Go",
   "total_pushes": 6,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 98.66,
   "s_consistency": 98.51,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 863.2,
+  "rank_score": 863.3,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 661,
+  "rank": 665,
   "avatar_url": "https://avatars.githubusercontent.com/u/7682795?u=a42425601af090996498cd27c0a916dda71bef0d&v=4",
   "bio": "Software developer at @WebPros \ud83d\udc99",
   "company": "WebPros",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 661,
-      "s": 863.2
+      "r": 665,
+      "s": 863.3
     }
   ]
 }

@@ -4,7 +4,7 @@
   "primary_language": "Ruby",
   "total_pushes": 7,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.71,
   "s_consistency": 95.33,
@@ -16,7 +16,7 @@
   },
   "active_days": 12,
   "window_days": 30,
-  "rank_score": 864.7,
+  "rank_score": 864.8,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 4,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 582,
+  "rank": 586,
   "avatar_url": "https://avatars.githubusercontent.com/u/1080928?u=6be244280ddf9ad5236fbd8f020086368aa80106&v=4",
   "bio": "",
   "company": "NeutralTone LTD",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 528,
   "prev_score": 865.9,
-  "rank_delta": -54,
-  "score_delta": -1.2,
+  "rank_delta": -58,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "neutraltone/settee",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 582,
-      "s": 864.7
+      "r": 586,
+      "s": 864.8
     }
   ]
 }

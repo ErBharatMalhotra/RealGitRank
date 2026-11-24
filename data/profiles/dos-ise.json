@@ -4,7 +4,7 @@
   "primary_language": "C",
   "total_pushes": 10,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.56,
   "s_consistency": 95.77,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 858.0,
+  "rank_score": 858.1,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 948,
+  "rank": 957,
   "avatar_url": "https://avatars.githubusercontent.com/u/20043350?u=ed9983805d7e2bf215cefb866639799a44057eb8&v=4",
   "bio": "",
   "company": "Rheinmetall",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 855,
   "prev_score": 860.6,
-  "rank_delta": -93,
-  "score_delta": -2.6,
+  "rank_delta": -102,
+  "score_delta": -2.5,
   "counted_merges": [
     {
       "repo": "dos-ise/doom-tizen",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 948,
-      "s": 858.0
+      "r": 957,
+      "s": 858.1
     }
   ]
 }

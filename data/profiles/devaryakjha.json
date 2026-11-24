@@ -7,7 +7,7 @@
   "s_pr": 99.87,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 99.26,
+  "s_consistency": 99.27,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 114,
+  "rank": 115,
   "avatar_url": "https://avatars.githubusercontent.com/u/99560530?u=a7083f3f0441ffa003e2bb6339e6521a7bf96efa&v=4",
   "bio": "Tech at @zerodha ",
   "company": "@zerodha",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 151,
   "prev_score": 870.8,
-  "rank_delta": 37,
+  "rank_delta": 36,
   "score_delta": 0.4,
   "counted_merges": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 114,
+      "r": 115,
       "s": 871.2
     }
   ]

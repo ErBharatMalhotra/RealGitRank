@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 22,
   "merged_prs": 2,
-  "s_pr": 96.46,
+  "s_pr": 96.51,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 98.44,
+  "s_consistency": 98.43,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 858.0,
+  "rank_score": 858.2,
   "active_repos_touched": 20,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 953,
+  "rank": 950,
   "avatar_url": "https://avatars.githubusercontent.com/u/870029?u=cc065539910207b6661bbabba39a9e78294e251d&v=4",
   "bio": "\ud83d\udcda Lifelong Learner \r\n#LearnInPublic #BuildInPublic #ITMan",
   "company": "@ProductsWay ",
@@ -35,6 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
   "counted_merges": [
@@ -50,8 +51,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 953,
-      "s": 858.0
+      "r": 950,
+      "s": 858.2
     }
   ]
 }

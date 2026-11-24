@@ -4,10 +4,10 @@
   "primary_language": "Kotlin",
   "total_pushes": 11,
   "merged_prs": 5,
-  "s_pr": 98.82,
+  "s_pr": 98.84,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 98.29,
+  "s_consistency": 98.28,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 503,
+  "rank": 511,
   "avatar_url": "https://avatars.githubusercontent.com/u/910242?u=fc4f95c521aa03a7e69bd47e1755c6131b4ef3ba&v=4",
   "bio": "Improver, Husband, Father & Mobile Service Lead when not occupied by the first three",
   "company": "@Mindera",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 682,
   "prev_score": 863.5,
-  "rank_delta": 179,
+  "rank_delta": 171,
   "score_delta": 2.6,
   "counted_merges": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 503,
+      "r": 511,
       "s": 866.1
     }
   ]

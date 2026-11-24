@@ -4,7 +4,7 @@
   "primary_language": "Ruby",
   "total_pushes": 0,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.54,
@@ -16,7 +16,7 @@
   },
   "active_days": 4,
   "window_days": 30,
-  "rank_score": 859.5,
+  "rank_score": 859.6,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 854,
+  "rank": 858,
   "avatar_url": "https://avatars.githubusercontent.com/u/845662?v=4",
   "bio": "Owner @ https://www.speedshop.co, author of www.railsspeed.com.",
   "company": "@speedshop ",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 683,
   "prev_score": 863.5,
-  "rank_delta": -171,
-  "score_delta": -4.0,
+  "rank_delta": -175,
+  "score_delta": -3.9,
   "counted_merges": [
     {
       "repo": "nateberkopec/dotfiles",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 854,
-      "s": 859.5
+      "r": 858,
+      "s": 859.6
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 10,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.82,
-  "s_consistency": 90.95,
+  "s_consistency": 90.99,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 857.8,
+  "rank_score": 857.9,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 16,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 961,
+  "rank": 968,
   "avatar_url": "https://avatars.githubusercontent.com/u/78896180?u=cec74a7e3301dd9151f16e78725f316db0fdf7eb&v=4",
   "bio": "AI Engineer & Youtuber",
   "company": "",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 961,
-      "s": 857.8
+      "r": 968,
+      "s": 857.9
     }
   ]
 }

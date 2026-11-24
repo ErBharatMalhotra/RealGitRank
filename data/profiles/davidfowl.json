@@ -4,7 +4,7 @@
   "primary_language": "C#",
   "total_pushes": 2,
   "merged_prs": 3,
-  "s_pr": 98.57,
+  "s_pr": 98.59,
   "s_quality": 50.0,
   "s_impact": 99.65,
   "s_consistency": 95.29,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 716,
+  "rank": 725,
   "avatar_url": "https://avatars.githubusercontent.com/u/95136?u=6593b6a30eb8284bcdae75638a239548d362fcdc&v=4",
   "bio": "Distinguished Engineer \ud83e\uddd0 at Microsoft",
   "company": "Microsoft",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 691,
   "prev_score": 863.3,
-  "rank_delta": -25,
+  "rank_delta": -34,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 716,
+      "r": 725,
       "s": 862.1
     }
   ]

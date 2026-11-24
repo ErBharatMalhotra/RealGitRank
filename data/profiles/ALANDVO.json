@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 17,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 99.3,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 253,
+  "rank": 258,
   "avatar_url": "https://avatars.githubusercontent.com/u/101240385?u=b0cb7ef216e3c05c4e8f39ee3c1640bfc3b03d58&v=4",
   "bio": "AI & machine learning | Agents, RAG, model evaluation and AI safety | Building open-source tools and exploring artificial superintelligence (ASI).",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 335,
   "prev_score": 868.6,
-  "rank_delta": 82,
+  "rank_delta": 77,
   "score_delta": 0.6,
   "counted_merges": [
     {
@@ -79,7 +79,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 253,
+      "r": 258,
       "s": 869.2
     }
   ]

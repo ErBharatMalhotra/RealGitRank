@@ -4,7 +4,7 @@
   "primary_language": "C",
   "total_pushes": 7,
   "merged_prs": 8,
-  "s_pr": 99.45,
+  "s_pr": 99.46,
   "s_quality": 50.0,
   "s_impact": 99.56,
   "s_consistency": 98.81,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 187,
+  "rank": 189,
   "avatar_url": "https://avatars.githubusercontent.com/u/109461996?u=4cd10ff78f5b052004d058b3da831810f124a3fb&v=4",
   "bio": "@ps2build @techwritescode @Gageformer @GDX-X @israpps @alex-free @FatBaldDad @bbsan2k @KrahJohlito @CosmicScale @saildot4k Akilluminati47 https://is.gd/akill247",
   "company": "@ps2build @casket-labs @ps2wiki @ps2homebrew @ps2-mmce @ps2store",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 306,
   "prev_score": 869.0,
-  "rank_delta": 119,
+  "rank_delta": 117,
   "score_delta": 1.2,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 187,
+      "r": 189,
       "s": 870.2
     }
   ]

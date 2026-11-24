@@ -4,7 +4,7 @@
   "primary_language": "Dart",
   "total_pushes": 17,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.65,
   "s_consistency": 99.11,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 182,
+  "rank": 186,
   "avatar_url": "https://avatars.githubusercontent.com/u/172976095?v=4",
   "bio": "",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 300,
   "prev_score": 869.1,
-  "rank_delta": 118,
+  "rank_delta": 114,
   "score_delta": 1.2,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 182,
+      "r": 186,
       "s": 870.3
     }
   ]

@@ -4,7 +4,7 @@
   "primary_language": "Rust",
   "total_pushes": 13,
   "merged_prs": 4,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 98.47,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 409,
+  "rank": 411,
   "avatar_url": "https://avatars.githubusercontent.com/u/4829346?v=4",
   "bio": "open source houseme  \r\nContact mail ",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 477,
   "prev_score": 866.7,
-  "rank_delta": 68,
+  "rank_delta": 66,
   "score_delta": 0.6,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 409,
+      "r": 411,
       "s": 867.3
     }
   ]

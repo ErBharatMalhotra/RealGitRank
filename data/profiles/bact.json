@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 3,
   "merged_prs": 7,
-  "s_pr": 99.37,
+  "s_pr": 99.38,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.07,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 490,
+  "rank": 498,
   "avatar_url": "https://avatars.githubusercontent.com/u/128572?v=4",
   "bio": "Digital rights and civic tech at @thainetizen and @mekongict. Now PhDing AI governance at Trinity College Dublin. @spdx contributor.",
   "company": "SPDX AI Working Group",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 251,
   "prev_score": 869.7,
-  "rank_delta": -239,
+  "rank_delta": -247,
   "score_delta": -3.5,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 490,
+      "r": 498,
       "s": 866.2
     }
   ]

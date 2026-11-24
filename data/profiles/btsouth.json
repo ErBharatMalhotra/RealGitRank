@@ -4,7 +4,7 @@
   "primary_language": "Go",
   "total_pushes": 10,
   "merged_prs": 7,
-  "s_pr": 99.45,
+  "s_pr": 99.46,
   "s_quality": 50.0,
   "s_impact": 98.66,
   "s_consistency": 97.85,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 473,
+  "rank": 477,
   "avatar_url": "https://avatars.githubusercontent.com/u/258147599?u=5836d0efa87231ede9c10868109761f9e98e34db&v=4",
   "bio": "AI builder with a background in IT and cyber security.",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 426,
   "prev_score": 867.4,
-  "rank_delta": -47,
+  "rank_delta": -51,
   "score_delta": -0.9,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 473,
+      "r": 477,
       "s": 866.5
     }
   ]

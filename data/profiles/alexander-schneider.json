@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 342,
+  "rank": 347,
   "avatar_url": "https://avatars.githubusercontent.com/u/33292100?u=66ce9904aab77cbfa56ad6170ed91bae8dfcc0c8&v=4",
   "bio": "CTO, Founder, Investor",
   "company": "Innos Capital GmbH",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 269,
   "prev_score": 869.4,
-  "rank_delta": -73,
+  "rank_delta": -78,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 342,
+      "r": 347,
       "s": 868.2
     }
   ]

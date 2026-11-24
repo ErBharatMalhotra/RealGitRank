@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 361,
+  "rank": 363,
   "avatar_url": "https://avatars.githubusercontent.com/u/86084767?u=770b28562ee3370a6e178984d65fa981c24d92c6&v=4",
   "bio": "Building open-source Python and Rust tools for computational proteomics and mass spectrometry.",
   "company": "The Scripps Research Institute",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 319,
   "prev_score": 868.8,
-  "rank_delta": -42,
+  "rank_delta": -44,
   "score_delta": -0.8,
   "counted_merges": [
     {
@@ -75,7 +75,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 361,
+      "r": 363,
       "s": 868.0
     }
   ]

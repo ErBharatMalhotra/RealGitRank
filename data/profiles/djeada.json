@@ -4,10 +4,10 @@
   "primary_language": "C++",
   "total_pushes": 5,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.65,
-  "s_consistency": 99.23,
+  "s_consistency": 99.24,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 863.4,
+  "rank_score": 863.5,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 655,
+  "rank": 657,
   "avatar_url": "https://avatars.githubusercontent.com/u/37275728?u=0d4f04cd03c390311b7039c4d7f69eb2dc5c2485&v=4",
   "bio": "Software Engineer (C++/Python/Rust)",
   "company": "",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 655,
-      "s": 863.4
+      "r": 657,
+      "s": 863.5
     }
   ]
 }

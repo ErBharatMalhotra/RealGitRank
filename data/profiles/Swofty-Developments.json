@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 105,
+  "rank": 108,
   "avatar_url": "https://avatars.githubusercontent.com/u/75875764?u=8c85cac10fa89f78d5b6d35a836ea0c0f75cfb3a&v=4",
   "bio": "CS @ Monash",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 32,
   "prev_score": 872.4,
-  "rank_delta": -73,
+  "rank_delta": -76,
   "score_delta": -1.1,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 105,
+      "r": 108,
       "s": 871.3
     }
   ]

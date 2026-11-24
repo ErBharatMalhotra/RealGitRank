@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 583,
+  "rank": 590,
   "avatar_url": "https://avatars.githubusercontent.com/u/219689?u=9c4829060b602cc684109440c0614b3a756afd13&v=4",
   "bio": "iOS/macOS developer",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 516,
   "prev_score": 866.1,
-  "rank_delta": -67,
+  "rank_delta": -74,
   "score_delta": -1.4,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 583,
+      "r": 590,
       "s": 864.7
     }
   ]

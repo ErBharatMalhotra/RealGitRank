@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 3,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
-  "s_impact": 99.8,
-  "s_consistency": 91.8,
+  "s_impact": 99.81,
+  "s_consistency": 91.83,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 859.0,
+  "rank_score": 859.1,
   "active_repos_touched": 18,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 879,
+  "rank": 888,
   "avatar_url": "https://avatars.githubusercontent.com/u/116977270?u=b60dd48fb3a07e463f8f7c3a31f758b7bbdb5238&v=4",
   "bio": "Martingale in a world with memory.\r\nFair game, unfair clock.\r\n\r\nQuant \u00b7 Cloud \u00b7 Crypto \u00b7 DevOps \u00b7 Real-time systems",
   "company": "@Occultaeratio @FactorFunctionQuant",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 861,
   "prev_score": 860.4,
-  "rank_delta": -18,
-  "score_delta": -1.4,
+  "rank_delta": -27,
+  "score_delta": -1.3,
   "counted_merges": [
     {
       "repo": "ATLURI0001/BackSeat",
@@ -75,8 +75,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 879,
-      "s": 859.0
+      "r": 888,
+      "s": 859.1
     }
   ]
 }

@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 2,
   "merged_prs": 2,
-  "s_pr": 95.48,
+  "s_pr": 95.55,
   "s_quality": 50.0,
   "s_impact": 99.96,
   "s_consistency": 99.94,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 859.0,
+  "rank_score": 859.2,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 886,
+  "rank": 887,
   "avatar_url": "https://avatars.githubusercontent.com/u/275001?u=94abd34c8fa06db18e09f1e6ade5a3f4f1202f9f&v=4",
   "bio": "dgtlmoon@gmail.com",
   "company": "",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 886,
-      "s": 859.0
+      "r": 887,
+      "s": 859.2
     }
   ]
 }

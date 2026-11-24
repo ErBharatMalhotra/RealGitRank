@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 13,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.56,
   "s_consistency": 98.55,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 865.5,
+  "rank_score": 865.6,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 543,
+  "rank": 546,
   "avatar_url": "https://avatars.githubusercontent.com/u/34151621?u=1d74a24adfab0ef90531ef56fbb7f811b86ad08c&v=4",
   "bio": "Software developer. A student of Open University of Japan.",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 456,
   "prev_score": 867.0,
-  "rank_delta": -87,
-  "score_delta": -1.5,
+  "rank_delta": -90,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "dyoshikawa/rulesync",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 543,
-      "s": 865.5
+      "r": 546,
+      "s": 865.6
     }
   ]
 }

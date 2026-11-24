@@ -7,7 +7,7 @@
   "s_pr": 99.72,
   "s_quality": 50.0,
   "s_impact": 99.74,
-  "s_consistency": 98.93,
+  "s_consistency": 98.94,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 88,
+  "rank": 90,
   "avatar_url": "https://avatars.githubusercontent.com/u/30676559?u=360a287b2634d739b9b0ce3f6129526c382a979b&v=4",
   "bio": "I once was a sailor; in the Navy no more. I automate things; Everything as Code.",
   "company": "@UOR-Foundation",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 130,
   "prev_score": 871.1,
-  "rank_delta": 42,
+  "rank_delta": 40,
   "score_delta": 0.7,
   "counted_merges": [
     {
@@ -79,7 +79,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 88,
+      "r": 90,
       "s": 871.8
     }
   ]

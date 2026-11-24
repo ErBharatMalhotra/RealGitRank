@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 16,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 98.5,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 864.3,
+  "rank_score": 864.4,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 611,
+  "rank": 614,
   "avatar_url": "https://avatars.githubusercontent.com/u/239123156?u=23e4a99c54624a523608ed76a3875d8d8cbc5002&v=4",
   "bio": "KBTU student",
   "company": "startup.vg",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 910,
   "prev_score": 859.6,
-  "rank_delta": 299,
-  "score_delta": 4.7,
+  "rank_delta": 296,
+  "score_delta": 4.8,
   "counted_merges": [
     {
       "repo": "SOWcd/KBTUapp",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 611,
-      "s": 864.3
+      "r": 614,
+      "s": 864.4
     }
   ]
 }

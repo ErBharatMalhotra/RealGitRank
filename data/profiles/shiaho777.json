@@ -4,9 +4,9 @@
   "primary_language": "Kotlin",
   "total_pushes": 0,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
-  "s_impact": 99.87,
+  "s_impact": 99.88,
   "s_consistency": 97.16,
   "measured": {
     "delivery": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 867.2,
+  "rank_score": 867.3,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 411,
+  "rank": 408,
   "avatar_url": "https://avatars.githubusercontent.com/u/222622008?u=1c9cf5df816b1d4db89bbf161737eb564587498c&v=4",
   "bio": "Im just doing my own thing\uff5cI dont eat pressure",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 165,
   "prev_score": 870.7,
-  "rank_delta": -246,
-  "score_delta": -3.5,
+  "rank_delta": -243,
+  "score_delta": -3.4,
   "counted_merges": [
     {
       "repo": "shiaho777/andmx",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 411,
-      "s": 867.2
+      "r": 408,
+      "s": 867.3
     }
   ]
 }

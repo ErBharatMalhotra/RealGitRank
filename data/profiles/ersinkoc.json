@@ -16,7 +16,7 @@
   },
   "active_days": 25,
   "window_days": 30,
-  "rank_score": 873.6,
+  "rank_score": 873.7,
   "active_repos_touched": 19,
   "pr_reviews": 10,
   "issue_comments": 13,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 4,
+  "rank": 3,
   "avatar_url": "https://avatars.githubusercontent.com/u/408479?v=4",
   "bio": " Totally \ud83d\udc68 not a \ud83e\udd16 // \ud83d\udcc6 for all time - Father \ud83d\udc4d // \ud83d\udcc6 other times (if I have) \ud83c\udf83 Back-end Developer \ud83d\udde1\ufe0f System Administrator \ud83c\udf35 DevOps ",
   "company": "EcoStack Technology O\u00dc",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 1,
   "prev_score": 873.4,
-  "rank_delta": -3,
-  "score_delta": 0.2,
+  "rank_delta": -2,
+  "score_delta": 0.3,
   "counted_merges": [
     {
       "repo": "ersinkoc/Agora",
@@ -83,8 +83,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 4,
-      "s": 873.6
+      "r": 3,
+      "s": 873.7
     }
   ]
 }

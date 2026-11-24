@@ -4,10 +4,10 @@
   "primary_language": "Jupyter Notebook",
   "total_pushes": 0,
   "merged_prs": 4,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 97.55,
+  "s_consistency": 97.54,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 516,
+  "rank": 521,
   "avatar_url": "https://avatars.githubusercontent.com/u/187182798?u=dc69e77a5d924a2c8fce638be20ce37bc6d30ed7&v=4",
   "bio": "HSE, FCS.\r\nAI in marketing and project management",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 467,
   "prev_score": 866.9,
-  "rank_delta": -49,
+  "rank_delta": -54,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 516,
+      "r": 521,
       "s": 865.9
     }
   ]

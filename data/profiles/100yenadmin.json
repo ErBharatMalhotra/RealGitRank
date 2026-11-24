@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 128,
+  "rank": 129,
   "avatar_url": "https://avatars.githubusercontent.com/u/239388517?u=8c3e19ab9692ad8de258a2da780decb5dbccb7ed&v=4",
   "bio": "Lead Engineer @electricsheephq \u26a1\ufe0f\ud83d\udc11",
   "company": "@electricsheephq ",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 154,
   "prev_score": 870.8,
-  "rank_delta": 26,
+  "rank_delta": 25,
   "score_delta": 0.2,
   "counted_merges": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 128,
+      "r": 129,
       "s": 871.0
     }
   ]

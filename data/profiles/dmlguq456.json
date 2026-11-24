@@ -7,7 +7,7 @@
   "s_pr": 99.68,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 98.18,
+  "s_consistency": 98.17,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 277,
+  "rank": 281,
   "avatar_url": "https://avatars.githubusercontent.com/u/41767172?u=7bef92c2dd822548c8dc862c027828d10b59a3b7&v=4",
   "bio": "interested in speech processing",
   "company": "Sogang University",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 218,
   "prev_score": 870.0,
-  "rank_delta": -59,
+  "rank_delta": -63,
   "score_delta": -1.1,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 277,
+      "r": 281,
       "s": 868.9
     }
   ]

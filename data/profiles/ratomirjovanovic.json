@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 271,
+  "rank": 277,
   "avatar_url": "https://avatars.githubusercontent.com/u/23360834?u=6f0487f1456b72eb6938bd558df6cc0319e2bfc1&v=4",
   "bio": "Product leader for payments & fintech infrastructure. I build payment SDKs and security tooling.",
   "company": "f4",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 199,
   "prev_score": 870.2,
-  "rank_delta": -72,
+  "rank_delta": -78,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 271,
+      "r": 277,
       "s": 869.0
     }
   ]

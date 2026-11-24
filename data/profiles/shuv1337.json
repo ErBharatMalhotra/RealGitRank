@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 3,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.87,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 477,
+  "rank": 483,
   "avatar_url": "https://avatars.githubusercontent.com/u/523952?u=443c48aae6c47d4b3bc2bc6c5135787dfc02ab76&v=4",
   "bio": "for love of the game",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 751,
   "prev_score": 862.3,
-  "rank_delta": 274,
+  "rank_delta": 268,
   "score_delta": 4.1,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 477,
+      "r": 483,
       "s": 866.4
     }
   ]

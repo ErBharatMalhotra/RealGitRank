@@ -1,0 +1,58 @@
+{
+  "username": "chimataraghuram",
+  "country": "India",
+  "primary_language": "TypeScript",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "s_pr": 97.3,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 97.46,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 859.5,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 868,
+  "avatar_url": "https://avatars.githubusercontent.com/u/199617735?u=f45b1d4703ce6e7954dd087935047dc34c2b2744&v=4",
+  "bio": "AI Software Developer Intern at Jaimini Group | Python Full-Stack Developer | FastAPI | Django | React | AI & Automation | B.Tech (AIML)",
+  "company": "Jaimini Group",
+  "location": "India",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "ci_pushes": 1,
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "chimataraghuram/chimataraghuram",
+      "prs": 2
+    },
+    {
+      "repo": "chimataraghuram/PROJECT-FINDER",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 868,
+      "s": 859.5
+    }
+  ]
+}

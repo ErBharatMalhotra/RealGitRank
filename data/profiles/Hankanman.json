@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.52,
@@ -16,7 +16,7 @@
   },
   "active_days": 4,
   "window_days": 30,
-  "rank_score": 859.5,
+  "rank_score": 859.6,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 857,
+  "rank": 861,
   "avatar_url": "https://avatars.githubusercontent.com/u/3953290?u=1235cd7b3d8e47bbd1f86dae125fd18721109f65&v=4",
   "bio": "I like to automate all the things....",
   "company": "RoadDux Ltd",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 857,
-      "s": 859.5
+      "r": 861,
+      "s": 859.6
     }
   ]
 }

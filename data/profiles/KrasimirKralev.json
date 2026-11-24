@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 2,
   "merged_prs": 3,
-  "s_pr": 98.57,
+  "s_pr": 98.59,
   "s_quality": 50.0,
   "s_impact": 99.65,
-  "s_consistency": 97.3,
+  "s_consistency": 97.29,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 572,
+  "rank": 581,
   "avatar_url": "https://avatars.githubusercontent.com/u/263465593?u=fa0c5dba61e192755e272454de4ed7db4e0469e4&v=4",
   "bio": "COO at @ID-Robots. I build ClawBox, a private AI box for the home, send fixes upstream to OpenClaw, and made Harness Hollow, a co-op farm game.",
   "company": "@ID-Robots",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 515,
   "prev_score": 866.2,
-  "rank_delta": -57,
+  "rank_delta": -66,
   "score_delta": -1.1,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 572,
+      "r": 581,
       "s": 865.1
     }
   ]

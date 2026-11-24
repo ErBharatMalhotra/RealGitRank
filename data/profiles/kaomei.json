@@ -4,7 +4,7 @@
   "primary_language": "JavaScript",
   "total_pushes": 2,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.99,
   "s_consistency": 99.91,
@@ -16,7 +16,7 @@
   },
   "active_days": 29,
   "window_days": 30,
-  "rank_score": 865.3,
+  "rank_score": 865.4,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 551,
+  "rank": 555,
   "avatar_url": "https://avatars.githubusercontent.com/u/307886151?u=597f2c5a23198a209dc9f97131ff7a02ea15eaf5&v=4",
   "bio": "\ud83c\udfac Building AI video skills for faceless creators. Follow for new drops!",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 602,
   "prev_score": 864.7,
-  "rank_delta": 51,
-  "score_delta": 0.6,
+  "rank_delta": 47,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "kaomei/stickman-video-director",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 551,
-      "s": 865.3
+      "r": 555,
+      "s": 865.4
     }
   ]
 }

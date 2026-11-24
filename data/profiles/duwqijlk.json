@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 2,
   "merged_prs": 2,
-  "s_pr": 95.48,
+  "s_pr": 95.55,
   "s_quality": 50.0,
   "s_impact": 99.99,
   "s_consistency": 98.76,
@@ -16,7 +16,7 @@
   },
   "active_days": 12,
   "window_days": 30,
-  "rank_score": 857.3,
+  "rank_score": 857.5,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 993,
+  "rank": 995,
   "avatar_url": "https://avatars.githubusercontent.com/u/126966774?u=8adced8fcdd78af39d55cc2e1fe03493559294ae&v=4",
   "bio": "",
   "company": "",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 993,
-      "s": 857.3
+      "r": 995,
+      "s": 857.5
     }
   ]
 }

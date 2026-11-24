@@ -4,7 +4,7 @@
   "primary_language": "PHP",
   "total_pushes": 1,
   "merged_prs": 4,
-  "s_pr": 98.57,
+  "s_pr": 98.59,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.04,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 863.3,
+  "rank_score": 863.4,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 658,
+  "rank": 660,
   "avatar_url": "https://avatars.githubusercontent.com/u/310043?u=cb3e4942e1a115e2572019de82b9f340ac414e8c&v=4",
   "bio": "Design, build, and ship end-to-end features - backend, frontend, infra - with agentic AI in the loop. Open-source maintainer and contributor.",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 621,
   "prev_score": 864.5,
-  "rank_delta": -37,
-  "score_delta": -1.2,
+  "rank_delta": -39,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "lsegal/yard",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 658,
-      "s": 863.3
+      "r": 660,
+      "s": 863.4
     }
   ]
 }

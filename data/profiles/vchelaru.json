@@ -7,7 +7,7 @@
   "s_pr": 99.82,
   "s_quality": 50.0,
   "s_impact": 99.56,
-  "s_consistency": 98.23,
+  "s_consistency": 98.22,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 158,
+  "rank": 159,
   "avatar_url": "https://avatars.githubusercontent.com/u/729631?u=be1df7f9f019cfb057996631d0b7d2e9417b87d3&v=4",
   "bio": "",
   "company": "FlatRedBall",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 72,
   "prev_score": 871.8,
-  "rank_delta": -86,
+  "rank_delta": -87,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 158,
+      "r": 159,
       "s": 870.6
     }
   ]

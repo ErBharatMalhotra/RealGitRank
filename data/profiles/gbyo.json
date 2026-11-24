@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 5,
   "merged_prs": 3,
-  "s_pr": 98.02,
+  "s_pr": 98.05,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 94.77,
+  "s_consistency": 94.78,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 858.0,
+  "rank_score": 858.1,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 947,
+  "rank": 956,
   "avatar_url": "https://avatars.githubusercontent.com/u/95596261?u=89b174d7e1aabb1cf799e3f112a19657a6161bc8&v=4",
   "bio": "Big fan of PB&J's",
   "company": "",
@@ -50,8 +50,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 947,
-      "s": 858.0
+      "r": 956,
+      "s": 858.1
     }
   ]
 }

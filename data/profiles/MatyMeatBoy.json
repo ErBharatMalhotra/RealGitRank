@@ -16,7 +16,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 870.8,
+  "rank_score": 870.9,
   "active_repos_touched": 9,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 147,
+  "rank": 139,
   "avatar_url": "https://avatars.githubusercontent.com/u/108221324?u=c5734b21a0d5db9df4f576388c4e303c8eea1c10&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 208,
   "prev_score": 870.1,
-  "rank_delta": 61,
-  "score_delta": 0.7,
+  "rank_delta": 69,
+  "score_delta": 0.8,
   "counted_merges": [
     {
       "repo": "MatyMeatBoy/SaturnTaisen",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 147,
-      "s": 870.8
+      "r": 139,
+      "s": 870.9
     }
   ]
 }

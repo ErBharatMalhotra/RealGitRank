@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 12,
   "merged_prs": 8,
-  "s_pr": 99.45,
+  "s_pr": 99.46,
   "s_quality": 50.0,
   "s_impact": 99.94,
-  "s_consistency": 97.92,
+  "s_consistency": 97.91,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 218,
+  "rank": 221,
   "avatar_url": "https://avatars.githubusercontent.com/u/2061593?u=1a561617ab547fc588a41e2b2664bb73ddd0e66d&v=4",
   "bio": "SWE at Indeed | Co-Founder @ itsteatime.app | ",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 155,
   "prev_score": 870.8,
-  "rank_delta": -63,
+  "rank_delta": -66,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 218,
+      "r": 221,
       "s": 869.8
     }
   ]

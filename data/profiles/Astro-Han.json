@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 0,
   "merged_prs": 4,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.82,
-  "s_consistency": 97.23,
+  "s_consistency": 97.22,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 414,
+  "rank": 418,
   "avatar_url": "https://avatars.githubusercontent.com/u/255364436?u=02435e6bcb9fbe6a4f9e01b4de81b9984da43dde&v=4",
   "bio": "Building AI agents and agent harness tooling.",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 361,
   "prev_score": 868.2,
-  "rank_delta": -53,
+  "rank_delta": -57,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 414,
+      "r": 418,
       "s": 867.2
     }
   ]

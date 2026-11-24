@@ -4,7 +4,7 @@
   "primary_language": "Kotlin",
   "total_pushes": 15,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 98.87,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 307,
+  "rank": 312,
   "avatar_url": "https://avatars.githubusercontent.com/u/1490936?u=91da3aa595d5e2fd133c4c6168e6306c0c65a557&v=4",
   "bio": "Working on Collie IM and custom secure patching for Graphene/Lineage/etc ROMs in ModOS.\r\n\r\nLikes herbal tea.  Plays bass.",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 408,
   "prev_score": 867.6,
-  "rank_delta": 101,
+  "rank_delta": 96,
   "score_delta": 1.0,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 307,
+      "r": 312,
       "s": 868.6
     }
   ]

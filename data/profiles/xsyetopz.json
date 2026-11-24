@@ -4,10 +4,10 @@
   "primary_language": "Swift",
   "total_pushes": 3,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 98.66,
-  "s_consistency": 94.65,
+  "s_consistency": 94.66,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 857.4,
+  "rank_score": 857.5,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 982,
+  "rank": 990,
   "avatar_url": "https://avatars.githubusercontent.com/u/187086553?u=c952a8e8208a00ff209ed12757ced52409871fc6&v=4",
   "bio": "i talk to machines",
   "company": "",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 982,
-      "s": 857.4
+      "r": 990,
+      "s": 857.5
     }
   ]
 }

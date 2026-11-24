@@ -16,7 +16,7 @@
   },
   "active_days": 23,
   "window_days": 30,
-  "rank_score": 872.2,
+  "rank_score": 872.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 69,
+  "rank": 62,
   "avatar_url": "https://avatars.githubusercontent.com/u/105429536?u=3ac16a44a5351810be0966e2b5cd5727471e0f6c&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 68,
   "prev_score": 871.9,
-  "rank_delta": -1,
-  "score_delta": 0.3,
+  "rank_delta": 6,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "rlaope/oh-my-hermes",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 69,
-      "s": 872.2
+      "r": 62,
+      "s": 872.3
     }
   ]
 }

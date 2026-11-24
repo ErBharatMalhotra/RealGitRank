@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 255,
+  "rank": 261,
   "avatar_url": "https://avatars.githubusercontent.com/u/18431407?u=3634b09754d334b2d1517cb6e9ae7a8e19ca4536&v=4",
   "bio": "",
   "company": "@agentes-chat",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 203,
   "prev_score": 870.2,
-  "rank_delta": -52,
+  "rank_delta": -58,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 255,
+      "r": 261,
       "s": 869.2
     }
   ]

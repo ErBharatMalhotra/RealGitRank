@@ -7,7 +7,7 @@
   "s_pr": 99.9,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 98.76,
+  "s_consistency": 98.75,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 159,
+  "rank": 160,
   "avatar_url": "https://avatars.githubusercontent.com/u/65047246?u=bb589ef587338d377ab2d83742c45a53f5cfd650&v=4",
   "bio": "maintainer @better-auth ",
   "company": "@better-auth",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 248,
   "prev_score": 869.7,
-  "rank_delta": 89,
+  "rank_delta": 88,
   "score_delta": 0.9,
   "counted_merges": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 159,
+      "r": 160,
       "s": 870.6
     }
   ]

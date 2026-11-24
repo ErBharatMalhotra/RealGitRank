@@ -4,7 +4,7 @@
   "primary_language": "C++",
   "total_pushes": 4,
   "merged_prs": 3,
-  "s_pr": 98.57,
+  "s_pr": 98.59,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.79,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 601,
+  "rank": 611,
   "avatar_url": "https://avatars.githubusercontent.com/u/8584783?u=cb4815d2fa47fdd6ab2082b931b8f753ddde4ad1&v=4",
   "bio": "Assistant Professor at Harvard University,  building modern data systems ",
   "company": "Harvard University",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 563,
   "prev_score": 865.4,
-  "rank_delta": -38,
+  "rank_delta": -48,
   "score_delta": -0.9,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 601,
+      "r": 611,
       "s": 864.5
     }
   ]

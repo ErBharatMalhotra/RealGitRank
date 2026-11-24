@@ -4,7 +4,7 @@
   "primary_language": "Dart",
   "total_pushes": 25,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.56,
   "s_consistency": 98.29,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 861.8,
+  "rank_score": 861.9,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 733,
+  "rank": 736,
   "avatar_url": "https://avatars.githubusercontent.com/u/2330911?u=ad1702d958e5ac2b078b85150d531c66080ecd43&v=4",
   "bio": "",
   "company": "",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 733,
-      "s": 861.8
+      "r": 736,
+      "s": 861.9
     }
   ]
 }

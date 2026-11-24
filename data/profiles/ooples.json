@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 23,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.65,
-  "s_consistency": 98.86,
+  "s_consistency": 98.87,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 866.2,
+  "rank_score": 866.3,
   "active_repos_touched": 5,
   "pr_reviews": 26,
   "issue_comments": 7,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 494,
+  "rank": 493,
   "avatar_url": "https://avatars.githubusercontent.com/u/3075685?u=e8f3f618c8cbe86d8222204eb03777c8f6147f65&v=4",
   "bio": "I'm a .Net developer that has been working on an AI based trading system for the stock market for the past few years. I also publish new technical indicators!",
   "company": "Ooples Finance",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 543,
   "prev_score": 865.7,
-  "rank_delta": 49,
-  "score_delta": 0.5,
+  "rank_delta": 50,
+  "score_delta": 0.6,
   "counted_merges": [
     {
       "repo": "ooples/AiDotNet.Tensors",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 494,
-      "s": 866.2
+      "r": 493,
+      "s": 866.3
     }
   ]
 }

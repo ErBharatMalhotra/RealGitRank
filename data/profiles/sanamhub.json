@@ -4,10 +4,10 @@
   "primary_language": "C#",
   "total_pushes": 3,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 97.18,
+  "s_consistency": 97.17,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 866.0,
+  "rank_score": 866.1,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -40,7 +40,7 @@
   "prev_rank": 501,
   "prev_score": 866.4,
   "rank_delta": -7,
-  "score_delta": -0.4,
+  "score_delta": -0.3,
   "counted_merges": [
     {
       "repo": "sanamhub/nepdate-go",
@@ -76,7 +76,7 @@
     {
       "d": "2026-11-24",
       "r": 508,
-      "s": 866.0
+      "s": 866.1
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 4,
   "merged_prs": 2,
-  "s_pr": 95.48,
+  "s_pr": 95.55,
   "s_quality": 50.0,
   "s_impact": 99.98,
-  "s_consistency": 99.21,
+  "s_consistency": 99.22,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 19,
   "window_days": 30,
-  "rank_score": 857.9,
+  "rank_score": 858.2,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 956,
+  "rank": 949,
   "avatar_url": "https://avatars.githubusercontent.com/u/97485362?u=ccd475d22588fd7491d7f9f8f7a580ae52757b0e&v=4",
   "bio": "Software Engineer and Bioinformatician",
   "company": "Wisdom Panel",
@@ -50,8 +50,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 956,
-      "s": 857.9
+      "r": 949,
+      "s": 858.2
     }
   ]
 }

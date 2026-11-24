@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 14,
+  "rank": 15,
   "avatar_url": "https://avatars.githubusercontent.com/u/875246?u=031e07800caf3dd93e6c1de3e5e4f6c14d1140e5&v=4",
   "bio": "Running @DataTalksClub and hacking some personal projects",
   "company": "@DataTalksClub ",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 7,
   "prev_score": 873.0,
-  "rank_delta": -7,
+  "rank_delta": -8,
   "score_delta": 0.4,
   "counted_merges": [
     {
@@ -83,7 +83,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 14,
+      "r": 15,
       "s": 873.4
     }
   ]

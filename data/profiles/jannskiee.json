@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 3,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 98.68,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 861.2,
+  "rank_score": 861.3,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 762,
+  "rank": 765,
   "avatar_url": "https://avatars.githubusercontent.com/u/108071426?u=4d4776b1461c66410fb7a36593f7d0bbb09ecf24&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 656,
   "prev_score": 864.0,
-  "rank_delta": -106,
-  "score_delta": -2.8,
+  "rank_delta": -109,
+  "score_delta": -2.7,
   "counted_merges": [
     {
       "repo": "jannskiee/floe",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 762,
-      "s": 861.2
+      "r": 765,
+      "s": 861.3
     }
   ]
 }

@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 331,
+  "rank": 336,
   "avatar_url": "https://avatars.githubusercontent.com/u/93620601?u=93e96239e8eb5b1cd23df020404c6388f19f0b74&v=4",
   "bio": "",
   "company": "@l2beat",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 286,
   "prev_score": 869.2,
-  "rank_delta": -45,
+  "rank_delta": -50,
   "score_delta": -0.9,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 331,
+      "r": 336,
       "s": 868.3
     }
   ]

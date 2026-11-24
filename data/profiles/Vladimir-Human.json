@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 2,
   "merged_prs": 5,
-  "s_pr": 98.82,
+  "s_pr": 98.84,
   "s_quality": 50.0,
   "s_impact": 99.74,
-  "s_consistency": 98.12,
+  "s_consistency": 98.11,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 399,
+  "rank": 403,
   "avatar_url": "https://avatars.githubusercontent.com/u/39053957?u=92a820d4e9a0ccb9df5174da1c39912d56807364&v=4",
   "bio": "Open-source \u0434\u043b\u044f \u0418\u0418-\u0430\u0433\u0435\u043d\u0442\u043e\u0432: MCP-\u0441\u0435\u0440\u0432\u0435\u0440\u044b \u0438 agent skills \u0434\u043b\u044f \u0440\u0443\u043d\u0435\u0442\u0430. Python. \u0410\u0432\u0442\u043e\u0440 ru-marketplace-mcp \u0438 humanizer-ru.",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 339,
   "prev_score": 868.6,
-  "rank_delta": -60,
+  "rank_delta": -64,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 399,
+      "r": 403,
       "s": 867.4
     }
   ]

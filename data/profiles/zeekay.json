@@ -4,7 +4,7 @@
   "primary_language": "Shell",
   "total_pushes": 53,
   "merged_prs": 3,
-  "s_pr": 98.57,
+  "s_pr": 98.59,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 99.28,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 866.7,
+  "rank_score": 866.8,
   "active_repos_touched": 50,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 460,
+  "rank": 458,
   "avatar_url": "https://avatars.githubusercontent.com/u/285707?u=5846186e631b1825f25330345df74582c98a86d1&v=4",
   "bio": "Open Sourceror.",
   "company": " @hanzoai @luxfi @zooai",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 774,
   "prev_score": 862.0,
-  "rank_delta": 314,
-  "score_delta": 4.7,
+  "rank_delta": 316,
+  "score_delta": 4.8,
   "counted_merges": [
     {
       "repo": "hanzoai/desktop",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 460,
-      "s": 866.7
+      "r": 458,
+      "s": 866.8
     }
   ]
 }

@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 6,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.92,
   "s_consistency": 99.28,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 867.5,
+  "rank_score": 867.6,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 393,
+  "rank": 391,
   "avatar_url": "https://avatars.githubusercontent.com/u/134207149?u=8c6c21dce23fa1892d7abee839ec81ed4f753e47&v=4",
   "bio": "Sup.",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 631,
   "prev_score": 864.4,
-  "rank_delta": 238,
-  "score_delta": 3.1,
+  "rank_delta": 240,
+  "score_delta": 3.2,
   "counted_merges": [
     {
       "repo": "YishenTu/claudian",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 393,
-      "s": 867.5
+      "r": 391,
+      "s": 867.6
     }
   ]
 }

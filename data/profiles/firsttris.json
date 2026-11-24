@@ -16,7 +16,7 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 873.3,
+  "rank_score": 873.4,
   "active_repos_touched": 20,
   "pr_reviews": 1,
   "issue_comments": 24,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 18,
+  "rank": 14,
   "avatar_url": "https://avatars.githubusercontent.com/u/1709260?u=8f3ec6e27611e361be75876b9043251886a2288b&v=4",
   "bio": "I build things for people who build things.",
   "company": "Teufel IT",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 11,
   "prev_score": 872.9,
-  "rank_delta": -7,
-  "score_delta": 0.4,
+  "rank_delta": -3,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "firsttris/haben",
@@ -87,8 +87,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 18,
-      "s": 873.3
+      "r": 14,
+      "s": 873.4
     }
   ]
 }

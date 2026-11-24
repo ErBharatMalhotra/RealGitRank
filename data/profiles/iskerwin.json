@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 278,
+  "rank": 282,
   "avatar_url": "https://avatars.githubusercontent.com/u/22018508?u=38523dabf7f53c31970592b78fa3007e5d82276d&v=4",
   "bio": "it`s kerwin!",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 210,
   "prev_score": 870.1,
-  "rank_delta": -68,
+  "rank_delta": -72,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 278,
+      "r": 282,
       "s": 868.9
     }
   ]

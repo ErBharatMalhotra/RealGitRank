@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 15,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 94.93,
+  "s_consistency": 94.94,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 720,
+  "rank": 729,
   "avatar_url": "https://avatars.githubusercontent.com/u/341208045?u=d0e34178209401d28d2d7dd6448e361fcb2c31f6&v=4",
   "bio": "",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 604,
   "prev_score": 864.6,
-  "rank_delta": -116,
+  "rank_delta": -125,
   "score_delta": -2.6,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 720,
+      "r": 729,
       "s": 862.0
     }
   ]

@@ -7,7 +7,7 @@
   "s_pr": 99.54,
   "s_quality": 50.0,
   "s_impact": 99.98,
-  "s_consistency": 99.11,
+  "s_consistency": 99.12,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 75,
+  "rank": 76,
   "avatar_url": "https://avatars.githubusercontent.com/u/2390382?u=4b24f5c51034fff444ad3e4cbecef762d1e974b8&v=4",
   "bio": "I turn coffee into code",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 88,
   "prev_score": 871.6,
-  "rank_delta": 13,
+  "rank_delta": 12,
   "score_delta": 0.4,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 75,
+      "r": 76,
       "s": 872.0
     }
   ]

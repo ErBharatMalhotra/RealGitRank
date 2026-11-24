@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 364,
+  "rank": 368,
   "avatar_url": "https://avatars.githubusercontent.com/u/1848514?u=0978aa605ba2c979ad6ea442117785d87c7a5263&v=4",
   "bio": "",
   "company": "AI-42 Sweden AB",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 316,
   "prev_score": 868.8,
-  "rank_delta": -48,
+  "rank_delta": -52,
   "score_delta": -0.9,
   "counted_merges": [
     {
@@ -87,7 +87,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 364,
+      "r": 368,
       "s": 867.9
     }
   ]

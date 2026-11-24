@@ -6,7 +6,7 @@
   "merged_prs": 10,
   "s_pr": 99.75,
   "s_quality": 50.0,
-  "s_impact": 99.8,
+  "s_impact": 99.81,
   "s_consistency": 98.87,
   "measured": {
     "delivery": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 871.9,
+  "rank_score": 872.0,
   "active_repos_touched": 21,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 84,
+  "rank": 74,
   "avatar_url": "https://avatars.githubusercontent.com/u/5354790?u=6c412673e011dcf39384dfbf9c9ffc7a6f678079&v=4",
   "bio": "Enterprise IoT Data Engineer with backend JavaScript experience. Personal projects include gaming and home media.",
   "company": "Particle",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 96,
   "prev_score": 871.5,
-  "rank_delta": 12,
-  "score_delta": 0.4,
+  "rank_delta": 22,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "RetroPortingToolKit/psxrecomp",
@@ -71,8 +71,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 84,
-      "s": 871.9
+      "r": 74,
+      "s": 872.0
     }
   ]
 }

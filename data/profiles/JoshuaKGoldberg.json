@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 19,
   "merged_prs": 4,
-  "s_pr": 98.82,
+  "s_pr": 98.84,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 94.71,
+  "s_consistency": 94.72,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 860.7,
+  "rank_score": 860.8,
   "active_repos_touched": 19,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 789,
+  "rank": 794,
   "avatar_url": "https://avatars.githubusercontent.com/u/3335181?u=e8cf069a9b3ef5f35413ae9788ce35b58455711e&v=4",
   "bio": "Long-time Typescript community & open source person. Occasional open source maintainer. Cranking away on @typescript-eslint.\r\n\r\nFrontend @sentry",
   "company": "@getsentry",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 789,
-      "s": 860.7
+      "r": 794,
+      "s": 860.8
     }
   ]
 }

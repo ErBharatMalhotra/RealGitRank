@@ -7,7 +7,7 @@
   "s_pr": 99.59,
   "s_quality": 50.0,
   "s_impact": 99.65,
-  "s_consistency": 99.94,
+  "s_consistency": 99.93,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 47,
+  "rank": 48,
   "avatar_url": "https://avatars.githubusercontent.com/u/1951866?v=4",
   "bio": "Open source, containers, and build systems",
   "company": "@docker",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 57,
   "prev_score": 872.1,
-  "rank_delta": 10,
+  "rank_delta": 9,
   "score_delta": 0.5,
   "counted_merges": [
     {
@@ -79,7 +79,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 47,
+      "r": 48,
       "s": 872.6
     }
   ]

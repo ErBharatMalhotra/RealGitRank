@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 142,
+  "rank": 148,
   "avatar_url": "https://avatars.githubusercontent.com/u/70215676?u=b9dd3294aa4ce8294ca836b574c60218f6f97862&v=4",
   "bio": "AI | Computer Use | SWE",
   "company": "Vercel",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 200,
   "prev_score": 870.2,
-  "rank_delta": 58,
+  "rank_delta": 52,
   "score_delta": 0.7,
   "counted_merges": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 142,
+      "r": 148,
       "s": 870.9
     }
   ]

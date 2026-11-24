@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 121,
+  "rank": 124,
   "avatar_url": "https://avatars.githubusercontent.com/u/13917777?u=df1b0dc1abcbecc04c6741d66828067d3560dd81&v=4",
   "bio": "Full-Stack Developer",
   "company": "NeverSight",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 149,
   "prev_score": 870.9,
-  "rank_delta": 28,
+  "rank_delta": 25,
   "score_delta": 0.2,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 121,
+      "r": 124,
       "s": 871.1
     }
   ]

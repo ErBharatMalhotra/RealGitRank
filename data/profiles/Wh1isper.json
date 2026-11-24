@@ -7,7 +7,7 @@
   "s_pr": 99.54,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 99.94,
+  "s_consistency": 99.93,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 122,
+  "rank": 125,
   "avatar_url": "https://avatars.githubusercontent.com/u/43375501?u=fc30be3ffc549b9c2ceb82590c9e2782eeaeaeef&v=4",
   "bio": "AI Engineer \r\n",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 186,
   "prev_score": 870.4,
-  "rank_delta": 64,
+  "rank_delta": 61,
   "score_delta": 0.7,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 122,
+      "r": 125,
       "s": 871.1
     }
   ]

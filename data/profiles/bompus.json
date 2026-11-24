@@ -4,7 +4,7 @@
   "primary_language": "JavaScript",
   "total_pushes": 30,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.82,
@@ -16,7 +16,7 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 866.3,
+  "rank_score": 866.4,
   "active_repos_touched": 7,
   "pr_reviews": 4,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 487,
+  "rank": 485,
   "avatar_url": "https://avatars.githubusercontent.com/u/253635?u=ac01270b4271ef70bca23f044a68bae0891cbf22&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 432,
   "prev_score": 867.3,
-  "rank_delta": -55,
-  "score_delta": -1.0,
+  "rank_delta": -53,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "bompus/house-rules",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 487,
-      "s": 866.3
+      "r": 485,
+      "s": 866.4
     }
   ]
 }

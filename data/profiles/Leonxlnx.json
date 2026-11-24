@@ -4,7 +4,7 @@
   "primary_language": "JavaScript",
   "total_pushes": 6,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 100.0,
   "s_consistency": 98.97,
@@ -16,7 +16,7 @@
   },
   "active_days": 30,
   "window_days": 30,
-  "rank_score": 870.9,
+  "rank_score": 871.0,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 143,
+  "rank": 131,
   "avatar_url": "https://avatars.githubusercontent.com/u/219127460?u=756c535309425d086d735cbbb410de4fd9013a63&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 213,
   "prev_score": 870.1,
-  "rank_delta": 70,
-  "score_delta": 0.8,
+  "rank_delta": 82,
+  "score_delta": 0.9,
   "counted_merges": [
     {
       "repo": "Leonxlnx/tastecode",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 143,
-      "s": 870.9
+      "r": 131,
+      "s": 871.0
     }
   ]
 }

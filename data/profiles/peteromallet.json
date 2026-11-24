@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 14,
   "merged_prs": 4,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.97,
   "s_consistency": 98.8,
@@ -16,7 +16,7 @@
   },
   "active_days": 17,
   "window_days": 30,
-  "rank_score": 869.9,
+  "rank_score": 870.0,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 17,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 213,
+  "rank": 207,
   "avatar_url": "https://avatars.githubusercontent.com/u/4647941?u=b72cf185b6960c74ac0a2962a8884fbdbb7d4668&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 290,
   "prev_score": 869.2,
-  "rank_delta": 77,
-  "score_delta": 0.7,
+  "rank_delta": 83,
+  "score_delta": 0.8,
   "counted_merges": [
     {
       "repo": "banodoco/astrid-dev",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 213,
-      "s": 869.9
+      "r": 207,
+      "s": 870.0
     }
   ]
 }

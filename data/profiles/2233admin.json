@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 10,
   "merged_prs": 4,
-  "s_pr": 98.82,
+  "s_pr": 98.84,
   "s_quality": 50.0,
   "s_impact": 99.65,
   "s_consistency": 98.07,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 867.1,
+  "rank_score": 867.2,
   "active_repos_touched": 13,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 421,
+  "rank": 419,
   "avatar_url": "https://avatars.githubusercontent.com/u/57929895?u=6e3b6360b65f7419eb58650d6efe89d4e9df5053&v=4",
   "bio": "Building the operational layer for autonomous AI systems.",
   "company": "@EpicGames @nVidia @apache miHoYo ",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 354,
   "prev_score": 868.3,
-  "rank_delta": -67,
-  "score_delta": -1.2,
+  "rank_delta": -65,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "2233admin/design-pipeline",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 421,
-      "s": 867.1
+      "r": 419,
+      "s": 867.2
     }
   ]
 }

@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 28,
   "merged_prs": 5,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.71,
   "s_consistency": 99.19,
@@ -16,7 +16,7 @@
   },
   "active_days": 12,
   "window_days": 30,
-  "rank_score": 870.5,
+  "rank_score": 870.6,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 165,
+  "rank": 162,
   "avatar_url": "https://avatars.githubusercontent.com/u/4596216?u=ac5b973d2872660b648fd65adf82b0b8ce7f9a21&v=4",
   "bio": "",
   "company": "Amazon",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 156,
   "prev_score": 870.8,
-  "rank_delta": -9,
-  "score_delta": -0.3,
+  "rank_delta": -6,
+  "score_delta": -0.2,
   "counted_merges": [
     {
       "repo": "pingdotgg/t3code",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 165,
-      "s": 870.5
+      "r": 162,
+      "s": 870.6
     }
   ]
 }

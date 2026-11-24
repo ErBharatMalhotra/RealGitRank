@@ -4,7 +4,7 @@
   "primary_language": "Vue",
   "total_pushes": 4,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.71,
   "s_consistency": 97.23,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 863.9,
+  "rank_score": 864.0,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 630,
+  "rank": 629,
   "avatar_url": "https://avatars.githubusercontent.com/u/43114803?u=98ec8dc4bb574d9c4861ab65f25a14f2ec975ffa&v=4",
   "bio": "\ud83c\udf0a surf on sushy.dev",
   "company": "",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 630,
-      "s": 863.9
+      "r": 629,
+      "s": 864.0
     }
   ]
 }

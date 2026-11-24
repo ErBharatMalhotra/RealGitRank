@@ -7,7 +7,7 @@
   "s_pr": 99.72,
   "s_quality": 50.0,
   "s_impact": 99.89,
-  "s_consistency": 97.11,
+  "s_consistency": 97.1,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 245,
+  "rank": 247,
   "avatar_url": "https://avatars.githubusercontent.com/u/255665900?u=c45dcefbeb0005ad85d4a3d472d67eec6d962dae&v=4",
   "bio": "Cordis contributor \u00b7 DSH community ecosystem builder (not affiliated) \u00b7 110k weekly npm downloads \u00b7 host-compat & plugin-quality tooling",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 183,
   "prev_score": 870.4,
-  "rank_delta": -62,
+  "rank_delta": -64,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 245,
+      "r": 247,
       "s": 869.4
     }
   ]

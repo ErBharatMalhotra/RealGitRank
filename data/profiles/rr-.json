@@ -4,7 +4,7 @@
   "primary_language": "C",
   "total_pushes": 18,
   "merged_prs": 5,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 98.66,
   "s_consistency": 99.31,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 355,
+  "rank": 358,
   "avatar_url": "https://avatars.githubusercontent.com/u/1045476?u=40c0402877e96ce580c3f4a4966eb82e64dc046b&v=4",
   "bio": "",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 374,
   "prev_score": 868.0,
-  "rank_delta": 19,
+  "rank_delta": 16,
   "score_delta": 0.1,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 355,
+      "r": 358,
       "s": 868.1
     }
   ]

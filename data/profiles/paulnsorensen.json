@@ -4,7 +4,7 @@
   "primary_language": "Ruby",
   "total_pushes": 12,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 98.93,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 296,
+  "rank": 301,
   "avatar_url": "https://avatars.githubusercontent.com/u/429793?u=08b75c5c157882feed07d1f4af30af5d852439d6&v=4",
   "bio": "aka Cheese Lord \ud83e\uddc0",
   "company": "Multiplier Holdings, Inc.",
@@ -58,7 +58,7 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 296,
+      "r": 301,
       "s": 868.7
     }
   ]

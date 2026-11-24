@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 13,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 98.12,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 444,
+  "rank": 448,
   "avatar_url": "https://avatars.githubusercontent.com/u/25898984?u=94e75e5fd3fa153b866ff171e3c14cba82286a85&v=4",
   "bio": "Particle Physicist at CERN",
   "company": "CERN ",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 384,
   "prev_score": 867.9,
-  "rank_delta": -60,
+  "rank_delta": -64,
   "score_delta": -1.1,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 444,
+      "r": 448,
       "s": 866.8
     }
   ]

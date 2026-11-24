@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 13,
   "merged_prs": 5,
-  "s_pr": 99.37,
+  "s_pr": 99.38,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 98.55,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 324,
+  "rank": 330,
   "avatar_url": "https://avatars.githubusercontent.com/u/91378285?u=6945f99eb083626a2d4cbe4b40ce381e47b7853b&v=4",
   "bio": "just code",
   "company": "Antarctic Corporation",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 260,
   "prev_score": 869.6,
-  "rank_delta": -64,
+  "rank_delta": -70,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 324,
+      "r": 330,
       "s": 868.4
     }
   ]

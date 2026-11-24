@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 28,
   "merged_prs": 4,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.9,
   "s_consistency": 99.32,
@@ -16,7 +16,7 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 870.5,
+  "rank_score": 870.6,
   "active_repos_touched": 7,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 167,
+  "rank": 163,
   "avatar_url": "https://avatars.githubusercontent.com/u/16256802?u=9622ad4c25aa0a0bfc6dfac3db6bd0d7732c0f1e&v=4",
   "bio": "No code All live",
   "company": "Millennium Science School",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 646,
   "prev_score": 864.2,
-  "rank_delta": 479,
-  "score_delta": 6.3,
+  "rank_delta": 483,
+  "score_delta": 6.4,
   "counted_merges": [
     {
       "repo": "Prism-Shadow/penguin-harness-plugins",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 167,
-      "s": 870.5
+      "r": 163,
+      "s": 870.6
     }
   ]
 }

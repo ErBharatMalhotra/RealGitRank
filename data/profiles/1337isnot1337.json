@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 209,
+  "rank": 214,
   "avatar_url": "https://avatars.githubusercontent.com/u/164028474?u=d33b272eceeeffc4759daf3c0fac7be607e669cf&v=4",
   "bio": "High school student. Github for my work, side projects, and shenanigans.\r\n",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 162,
   "prev_score": 870.7,
-  "rank_delta": -47,
+  "rank_delta": -52,
   "score_delta": -0.8,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 209,
+      "r": 214,
       "s": 869.9
     }
   ]

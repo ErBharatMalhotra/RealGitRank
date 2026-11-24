@@ -6,8 +6,8 @@
   "merged_prs": 12,
   "s_pr": 99.72,
   "s_quality": 50.0,
-  "s_impact": 99.9,
-  "s_consistency": 94.93,
+  "s_impact": 99.91,
+  "s_consistency": 94.94,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 489,
+  "rank": 497,
   "avatar_url": "https://avatars.githubusercontent.com/u/17414972?u=2e12d9b02d934ea44fb5b494e3b3d9421620921d&v=4",
   "bio": "",
   "company": "@enmerasoftware",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 888,
   "prev_score": 859.9,
-  "rank_delta": 399,
+  "rank_delta": 391,
   "score_delta": 6.3,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 489,
+      "r": 497,
       "s": 866.2
     }
   ]

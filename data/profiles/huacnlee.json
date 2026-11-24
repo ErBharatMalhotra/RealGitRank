@@ -7,7 +7,7 @@
   "s_pr": 99.87,
   "s_quality": 50.0,
   "s_impact": 99.96,
-  "s_consistency": 99.3,
+  "s_consistency": 99.31,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 16,
+  "rank": 17,
   "avatar_url": "https://avatars.githubusercontent.com/u/5518?v=4",
   "bio": "Ruby / Go / Rust",
   "company": "@longbridge",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 12,
   "prev_score": 872.9,
-  "rank_delta": -4,
+  "rank_delta": -5,
   "score_delta": 0.5,
   "counted_merges": [
     {
@@ -83,7 +83,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 16,
+      "r": 17,
       "s": 873.4
     }
   ]

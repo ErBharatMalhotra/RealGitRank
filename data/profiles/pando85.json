@@ -4,7 +4,7 @@
   "primary_language": "Rust",
   "total_pushes": 30,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 95.6,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 642,
+  "rank": 647,
   "avatar_url": "https://avatars.githubusercontent.com/u/4646670?u=a3fc7adfccd8ebbe837bf8b7249da2f71b3c1515&v=4",
   "bio": "",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 588,
   "prev_score": 864.9,
-  "rank_delta": -54,
+  "rank_delta": -59,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 642,
+      "r": 647,
       "s": 863.7
     }
   ]

@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 10,
   "merged_prs": 4,
-  "s_pr": 98.94,
+  "s_pr": 98.95,
   "s_quality": 50.0,
   "s_impact": 99.91,
   "s_consistency": 99.94,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 130,
+  "rank": 133,
   "avatar_url": "https://avatars.githubusercontent.com/u/41265413?u=5defe33c0eab5ba840757ae66e2c3c09007c8afa&v=4",
   "bio": "Digital Nomad. Design Engineer. Prompt Engineer. Making @mx-space @Afilmory @Torrent-Vibe @kansoku-trade @musubicho. Building @lobehub. Gen-Z",
   "company": "@lobehub",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 195,
   "prev_score": 870.3,
-  "rank_delta": 65,
+  "rank_delta": 62,
   "score_delta": 0.7,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 130,
+      "r": 133,
       "s": 871.0
     }
   ]

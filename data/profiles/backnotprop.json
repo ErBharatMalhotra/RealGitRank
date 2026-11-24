@@ -16,7 +16,7 @@
   },
   "active_days": 28,
   "window_days": 30,
-  "rank_score": 872.1,
+  "rank_score": 872.2,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -40,7 +40,7 @@
   "prev_rank": 100,
   "prev_score": 871.5,
   "rank_delta": 30,
-  "score_delta": 0.6,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "backnotprop/plannotator",
@@ -61,7 +61,7 @@
     {
       "d": "2026-11-24",
       "r": 70,
-      "s": 872.1
+      "s": 872.2
     }
   ]
 }

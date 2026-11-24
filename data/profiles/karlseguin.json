@@ -4,10 +4,10 @@
   "primary_language": "Zig",
   "total_pushes": 5,
   "merged_prs": 3,
-  "s_pr": 98.57,
+  "s_pr": 98.59,
   "s_quality": 50.0,
   "s_impact": 99.49,
-  "s_consistency": 97.59,
+  "s_consistency": 97.58,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 570,
+  "rank": 580,
   "avatar_url": "https://avatars.githubusercontent.com/u/206480?u=a16bb11f04918b2fc9220ac8c93866c2b1659eb3&v=4",
   "bio": "",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 905,
   "prev_score": 859.7,
-  "rank_delta": 335,
+  "rank_delta": 325,
   "score_delta": 5.4,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 570,
+      "r": 580,
       "s": 865.1
     }
   ]

@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 588,
+  "rank": 596,
   "avatar_url": "https://avatars.githubusercontent.com/u/166641?u=568fab6cec1688cd10eaf487881f65e1e89c53e0&v=4",
   "bio": "Builder by day, sleeper by night.",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 512,
   "prev_score": 866.2,
-  "rank_delta": -76,
+  "rank_delta": -84,
   "score_delta": -1.6,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 588,
+      "r": 596,
       "s": 864.6
     }
   ]

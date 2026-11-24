@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 2,
   "merged_prs": 3,
-  "s_pr": 98.02,
+  "s_pr": 98.05,
   "s_quality": 50.0,
   "s_impact": 99.96,
   "s_consistency": 98.55,
@@ -16,7 +16,7 @@
   },
   "active_days": 13,
   "window_days": 30,
-  "rank_score": 865.8,
+  "rank_score": 865.9,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 519,
+  "rank": 522,
   "avatar_url": "https://avatars.githubusercontent.com/u/69044080?u=1d46c8588bfa73f659f37abb5d6da532052ae964&v=4",
   "bio": "I have a computer",
   "company": "@OceanBase",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 916,
   "prev_score": 859.5,
-  "rank_delta": 397,
-  "score_delta": 6.3,
+  "rank_delta": 394,
+  "score_delta": 6.4,
   "counted_merges": [
     {
       "repo": "astryx-vue/astryx-vue",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 519,
-      "s": 865.8
+      "r": 522,
+      "s": 865.9
     }
   ]
 }

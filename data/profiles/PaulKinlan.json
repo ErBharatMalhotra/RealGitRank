@@ -7,7 +7,7 @@
   "s_pr": 99.54,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 98.04,
+  "s_consistency": 98.03,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 339,
+  "rank": 344,
   "avatar_url": "https://avatars.githubusercontent.com/u/45510?u=1586b8745b16bf2fe812c02fbde04f9af70dbc7e&v=4",
   "bio": "I lead Google's Chrome and Web Developer relations team.\r\n\r\nhttps://aifoc.us/",
   "company": "Google",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 277,
   "prev_score": 869.3,
-  "rank_delta": -62,
+  "rank_delta": -67,
   "score_delta": -1.1,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 339,
+      "r": 344,
       "s": 868.2
     }
   ]

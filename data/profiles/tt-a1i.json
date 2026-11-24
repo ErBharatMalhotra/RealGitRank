@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 17,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 99.88,
+  "s_consistency": 99.87,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 30,
   "window_days": 30,
-  "rank_score": 865.2,
+  "rank_score": 865.3,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 562,
+  "rank": 566,
   "avatar_url": "https://avatars.githubusercontent.com/u/53142663?u=0b4227024a29da8bfd9d0d037dd6cad78c8f3ae0&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 610,
   "prev_score": 864.6,
-  "rank_delta": 48,
-  "score_delta": 0.6,
+  "rank_delta": 44,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "tt-a1i/archify",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 562,
-      "s": 865.2
+      "r": 566,
+      "s": 865.3
     }
   ]
 }

@@ -7,7 +7,7 @@
   "s_pr": 99.97,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 99.08,
+  "s_consistency": 99.09,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 104,
+  "rank": 107,
   "avatar_url": "https://avatars.githubusercontent.com/u/6759885?u=271d5cd7dfc157c1805658db5c85e29b0bad29ff&v=4",
   "bio": "NUJ NEC | Open University | Formal Verification, Language Design, Dependable.& Distributed Safety-Critical Systems | Available for collaborations.",
   "company": "The Open University & National Union of Journalists",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 150,
   "prev_score": 870.8,
-  "rank_delta": 46,
+  "rank_delta": 43,
   "score_delta": 0.5,
   "counted_merges": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 104,
+      "r": 107,
       "s": 871.3
     }
   ]

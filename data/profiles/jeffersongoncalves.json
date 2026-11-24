@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 101,
+  "rank": 104,
   "avatar_url": "https://avatars.githubusercontent.com/u/411493?u=53b5f0453da8f12a07b081a3b5e45103a571a2d8&v=4",
   "bio": "Full Stack PHP Developer | Filament | Laravel | Livewire | Alpine.js | Tailwind CSS",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 169,
   "prev_score": 870.6,
-  "rank_delta": 68,
+  "rank_delta": 65,
   "score_delta": 0.8,
   "counted_merges": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 101,
+      "r": 104,
       "s": 871.4
     }
   ]

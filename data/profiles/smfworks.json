@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 3,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.71,
   "s_consistency": 98.23,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 323,
+  "rank": 328,
   "avatar_url": "https://avatars.githubusercontent.com/u/258122072?u=c32e19317c5bbb475b0453fed68d1a4ed7a81640&v=4",
   "bio": "SMF Works delivers HighTech-powered content and workflow solutions. Serious expertise. Genuine craftsmanship. No corporate fluff",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 321,
   "prev_score": 868.8,
-  "rank_delta": -2,
+  "rank_delta": -7,
   "score_delta": -0.4,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 323,
+      "r": 328,
       "s": 868.4
     }
   ]

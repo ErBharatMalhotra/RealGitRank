@@ -7,7 +7,7 @@
   "s_pr": 99.93,
   "s_quality": 50.0,
   "s_impact": 98.66,
-  "s_consistency": 98.22,
+  "s_consistency": 98.21,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 292,
+  "rank": 295,
   "avatar_url": "https://avatars.githubusercontent.com/u/68980965?u=e58dc2791ab098a62f4f574a95bf0c7578e94e3b&v=4",
   "bio": "Founder @OpenCoven and VC Moderator @TypeSafeAI \ud83c\udf38",
   "company": "@OpenCoven",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 233,
   "prev_score": 869.8,
-  "rank_delta": -59,
+  "rank_delta": -62,
   "score_delta": -1.1,
   "counted_merges": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 292,
+      "r": 295,
       "s": 868.7
     }
   ]

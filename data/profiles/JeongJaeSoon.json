@@ -7,7 +7,7 @@
   "s_pr": 99.91,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 99.07,
+  "s_consistency": 99.08,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 119,
+  "rank": 121,
   "avatar_url": "https://avatars.githubusercontent.com/u/53788601?u=d7eabb0bdc6bcecc716f4b89912562c9c9180107&v=4",
   "bio": "Failure is an option here \ud83d\udc4a\ud83c\udffb",
   "company": "Senior AI Platform Engineer | CAIO Office @freee",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 168,
   "prev_score": 870.6,
-  "rank_delta": 49,
+  "rank_delta": 47,
   "score_delta": 0.5,
   "counted_merges": [
     {
@@ -75,7 +75,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 119,
+      "r": 121,
       "s": 871.1
     }
   ]

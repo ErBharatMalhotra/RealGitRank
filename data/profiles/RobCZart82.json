@@ -4,10 +4,10 @@
   "primary_language": "C++",
   "total_pushes": 2,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 91.63,
+  "s_consistency": 91.67,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 857.7,
+  "rank_score": 857.8,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 968,
+  "rank": 972,
   "avatar_url": "https://avatars.githubusercontent.com/u/323901677?u=7ede37f9b5b22f429d1f7ef6abfa8d9dc2e737f4&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 935,
   "prev_score": 859.1,
-  "rank_delta": -33,
-  "score_delta": -1.4,
+  "rank_delta": -37,
+  "score_delta": -1.3,
   "counted_merges": [
     {
       "repo": "RobCZart82/yaman1x",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 968,
-      "s": 857.7
+      "r": 972,
+      "s": 857.8
     }
   ]
 }

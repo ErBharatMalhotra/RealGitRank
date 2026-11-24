@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 110,
   "merged_prs": 20,
-  "s_pr": 99.89,
+  "s_pr": 99.9,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 99.29,
@@ -16,7 +16,7 @@
   },
   "active_days": 17,
   "window_days": 30,
-  "rank_score": 871.3,
+  "rank_score": 871.4,
   "active_repos_touched": 13,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 106,
+  "rank": 103,
   "avatar_url": "https://avatars.githubusercontent.com/u/337697385?u=3454538ec9174699c24f14de4905f1cfba3e5764&v=4",
   "bio": "PUI89 is an independent AI and robotics research initiative based in Thailand  ",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 133,
   "prev_score": 871.0,
-  "rank_delta": 27,
-  "score_delta": 0.3,
+  "rank_delta": 30,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "Pui89/Pui89.github.io",
@@ -83,8 +83,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 106,
-      "s": 871.3
+      "r": 103,
+      "s": 871.4
     }
   ]
 }

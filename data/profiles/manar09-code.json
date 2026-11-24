@@ -4,7 +4,7 @@
   "primary_language": "Dart",
   "total_pushes": 0,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 98.66,
   "s_consistency": 97.63,
@@ -16,7 +16,7 @@
   },
   "active_days": 5,
   "window_days": 30,
-  "rank_score": 861.9,
+  "rank_score": 862.0,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 728,
+  "rank": 731,
   "avatar_url": "https://avatars.githubusercontent.com/u/177405113?v=4",
   "bio": "Software engineer | Final-Year IT Student | AI & ML Enthusiast  ",
   "company": "",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 728,
-      "s": 861.9
+      "r": 731,
+      "s": 862.0
     }
   ]
 }

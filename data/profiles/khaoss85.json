@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 5,
   "merged_prs": 8,
-  "s_pr": 99.45,
+  "s_pr": 99.46,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 98.22,
+  "s_consistency": 98.21,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 340,
+  "rank": 345,
   "avatar_url": "https://avatars.githubusercontent.com/u/48571113?u=1b51026186ae155f6b09ab91f0611d5089f73ea4&v=4",
   "bio": "Expert in distributed architectures, AI integration and multi-agent system orchestration for corporate environments.",
   "company": "Daniele Pelleri",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 268,
   "prev_score": 869.4,
-  "rank_delta": -72,
+  "rank_delta": -77,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 340,
+      "r": 345,
       "s": 868.2
     }
   ]

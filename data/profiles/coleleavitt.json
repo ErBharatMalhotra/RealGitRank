@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 10,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 94.73,
+  "s_consistency": 94.74,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 5,
   "window_days": 30,
-  "rank_score": 858.7,
+  "rank_score": 858.8,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 898,
+  "rank": 903,
   "avatar_url": "https://avatars.githubusercontent.com/u/75138914?u=c34d1b62fbb63d07c324f22f2830cc4bf1ed4e82&v=4",
   "bio": "idiolect",
   "company": "Foundations Investment Advisors, LLC",
@@ -50,8 +50,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 898,
-      "s": 858.7
+      "r": 903,
+      "s": 858.8
     }
   ]
 }

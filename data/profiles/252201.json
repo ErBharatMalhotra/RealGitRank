@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 6,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 92.18,
+  "s_consistency": 92.21,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 857.8,
+  "rank_score": 857.9,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 963,
+  "rank": 970,
   "avatar_url": "https://avatars.githubusercontent.com/u/114610855?u=157f2f5bb524e39cf636f48eb6f46005c4216aa3&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 924,
   "prev_score": 859.3,
-  "rank_delta": -39,
-  "score_delta": -1.5,
+  "rank_delta": -46,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "252201/wukong-panel",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 963,
-      "s": 857.8
+      "r": 970,
+      "s": 857.9
     }
   ]
 }

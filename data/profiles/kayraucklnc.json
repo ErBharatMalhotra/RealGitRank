@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 11,
   "merged_prs": 4,
-  "s_pr": 98.57,
+  "s_pr": 98.59,
   "s_quality": 50.0,
   "s_impact": 99.93,
   "s_consistency": 98.61,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 867.7,
+  "rank_score": 867.8,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 381,
+  "rank": 379,
   "avatar_url": "https://avatars.githubusercontent.com/u/20380316?u=cd37f638616c4f76d06d494ce575e329416cc062&v=4",
   "bio": "I experiment and share",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 193,
   "prev_score": 870.3,
-  "rank_delta": -188,
-  "score_delta": -2.6,
+  "rank_delta": -186,
+  "score_delta": -2.5,
   "counted_merges": [
     {
       "repo": "kayraucklnc/beluga",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 381,
-      "s": 867.7
+      "r": 379,
+      "s": 867.8
     }
   ]
 }

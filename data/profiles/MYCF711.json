@@ -7,7 +7,7 @@
   "s_pr": 99.68,
   "s_quality": 50.0,
   "s_impact": 99.65,
-  "s_consistency": 98.25,
+  "s_consistency": 98.24,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 169,
+  "rank": 174,
   "avatar_url": "https://avatars.githubusercontent.com/u/323101370?u=4d90376b6963fce219b0be89f16a90ff409e5503&v=4",
   "bio": "",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 101,
   "prev_score": 871.5,
-  "rank_delta": -68,
+  "rank_delta": -73,
   "score_delta": -1.1,
   "counted_merges": [
     {
@@ -75,7 +75,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 169,
+      "r": 174,
       "s": 870.4
     }
   ]

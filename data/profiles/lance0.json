@@ -7,7 +7,7 @@
   "s_pr": 99.76,
   "s_quality": 50.0,
   "s_impact": 99.56,
-  "s_consistency": 98.99,
+  "s_consistency": 99.0,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 97,
+  "rank": 98,
   "avatar_url": "https://avatars.githubusercontent.com/u/3323861?u=aa97d511d09c487fc3af7e7565eb0c6702661fe8&v=4",
   "bio": "lance@lance0.com",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 106,
   "prev_score": 871.4,
-  "rank_delta": 9,
+  "rank_delta": 8,
   "score_delta": 0.2,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 97,
+      "r": 98,
       "s": 871.6
     }
   ]

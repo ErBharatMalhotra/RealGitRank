@@ -4,7 +4,7 @@
   "primary_language": "Rust",
   "total_pushes": 10,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.7,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 859.7,
+  "rank_score": 859.9,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 847,
+  "rank": 844,
   "avatar_url": "https://avatars.githubusercontent.com/u/203963471?u=ae79f55040b7dbbc3adfc1f10c2b82423875c1f0&v=4",
   "bio": "",
   "company": "ServiceFuzz PTY LTD",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 847,
-      "s": 859.7
+      "r": 844,
+      "s": 859.9
     }
   ]
 }

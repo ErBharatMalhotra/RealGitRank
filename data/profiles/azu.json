@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 424,
+  "rank": 430,
   "avatar_url": "https://avatars.githubusercontent.com/u/19714?u=c04e98ee399fac20feb795994a4e779bf64ad531&v=4",
   "bio": "Creator of @textlint, @secretlint, @honkit and @almin.\r\nEditor of @efcl, @jser and @ecmascript-daily.\r\nAuthor of @js-primer.\r\n(Don't send me email-ad.)",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 372,
   "prev_score": 868.0,
-  "rank_delta": -52,
+  "rank_delta": -58,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -79,7 +79,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 424,
+      "r": 430,
       "s": 867.0
     }
   ]

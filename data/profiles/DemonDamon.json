@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 3,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.76,
   "s_consistency": 97.15,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 863.9,
+  "rank_score": 864.0,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 633,
+  "rank": 632,
   "avatar_url": "https://avatars.githubusercontent.com/u/20499644?u=536db9a2851746e169b9c5ad00e5d521e3cbd822&v=4",
   "bio": "Math \u2283 Physics, CS, Finance \u2022 Exploring AI Agents",
   "company": "Illinois Institute of Technology",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 584,
   "prev_score": 865.1,
-  "rank_delta": -49,
-  "score_delta": -1.2,
+  "rank_delta": -48,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "DemonDamon/AgenticX",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 633,
-      "s": 863.9
+      "r": 632,
+      "s": 864.0
     }
   ]
 }

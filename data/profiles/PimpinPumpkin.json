@@ -4,10 +4,10 @@
   "primary_language": "Kotlin",
   "total_pushes": 6,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.91,
-  "s_consistency": 95.25,
+  "s_consistency": 95.26,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 864.4,
+  "rank_score": 864.5,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 603,
+  "rank": 604,
   "avatar_url": "https://avatars.githubusercontent.com/u/16398290?u=8eb69440a9404f343a3559ac265f79546fa543c5&v=4",
   "bio": "Pumpkinposting on GitHub",
   "company": "https://www.vintagefangirl.com/vintage-moon-face-pumpkin-carving-pattern",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 550,
   "prev_score": 865.6,
-  "rank_delta": -53,
-  "score_delta": -1.2,
+  "rank_delta": -54,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "PimpinPumpkin/passbundle-apps",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 603,
-      "s": 864.4
+      "r": 604,
+      "s": 864.5
     }
   ]
 }

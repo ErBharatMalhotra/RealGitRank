@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 7,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 98.66,
   "s_consistency": 97.64,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 527,
+  "rank": 539,
   "avatar_url": "https://avatars.githubusercontent.com/u/226156296?u=247c916b11949033e0f156202c18dcd2553e00da&v=4",
   "bio": "Developer relations at Tenstorrent",
   "company": "Tenstorrent",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 793,
   "prev_score": 861.6,
-  "rank_delta": 266,
+  "rank_delta": 254,
   "score_delta": 4.0,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 527,
+      "r": 539,
       "s": 865.6
     }
   ]

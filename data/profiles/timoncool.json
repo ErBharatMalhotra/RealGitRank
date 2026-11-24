@@ -4,7 +4,7 @@
   "primary_language": "Rust",
   "total_pushes": 16,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.98,
   "s_consistency": 99.28,
@@ -16,7 +16,7 @@
   },
   "active_days": 22,
   "window_days": 30,
-  "rank_score": 871.3,
+  "rank_score": 871.4,
   "active_repos_touched": 12,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 109,
+  "rank": 106,
   "avatar_url": "https://avatars.githubusercontent.com/u/26026304?u=80e42553ce40521e94340bb41ba4f1c0351656b4&v=4",
   "bio": "Free local AI apps \u2014 music, speech, video. Portable, one click. Co-founder of ArtGeneration.me",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 138,
   "prev_score": 871.0,
-  "rank_delta": 29,
-  "score_delta": 0.3,
+  "rank_delta": 32,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "timoncool/YuE2-Studio",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 109,
-      "s": 871.3
+      "r": 106,
+      "s": 871.4
     }
   ]
 }

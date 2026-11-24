@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T04:46:59.629066+00:00",
+  "generated_at": "2026-11-24T06:00:26.541814+00:00",
   "score_version": "v2-percentile",
   "window_days": 30,
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
   "users": 50000,
-  "users_total": 949186,
+  "users_total": 963107,
   "source": {
     "days_measured": 1,
     "days_in_window": 30,
@@ -13,7 +13,8 @@
     "events": 306107,
     "bot_events": 85484,
     "bot_share_pct": 27.9,
-    "events_per_day": 306107.0
+    "events_per_day": 306107.0,
+    "ci_pushes": 39902
   },
   "pillars": {
     "delivery": {
@@ -23,8 +24,8 @@
     },
     "code_health": {
       "label": "Test-signal ratio and multi-file PRs",
-      "measured": 46564,
-      "pct": 93.1
+      "measured": 46494,
+      "pct": 93.0
     },
     "adoption": {
       "label": "Stars and forks received",
@@ -46,7 +47,7 @@
     "pct": 10.5
   },
   "language": {
-    "known": 2926,
+    "known": 2931,
     "pct": 5.9
   },
   "validation": {

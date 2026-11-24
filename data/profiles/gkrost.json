@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 7,
   "merged_prs": 8,
-  "s_pr": 99.45,
+  "s_pr": 99.46,
   "s_quality": 50.0,
   "s_impact": 98.66,
-  "s_consistency": 98.68,
+  "s_consistency": 98.67,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 867.7,
+  "rank_score": 867.8,
   "active_repos_touched": 2,
   "pr_reviews": 3,
   "issue_comments": 6,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 377,
+  "rank": 374,
   "avatar_url": "https://avatars.githubusercontent.com/u/685749?u=1a0ca39149021053885d72c3dd18daa17b54edd4&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 285,
   "prev_score": 869.2,
-  "rank_delta": -92,
-  "score_delta": -1.5,
+  "rank_delta": -89,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "gkrost/unidrive-cli",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 377,
-      "s": 867.7
+      "r": 374,
+      "s": 867.8
     }
   ]
 }

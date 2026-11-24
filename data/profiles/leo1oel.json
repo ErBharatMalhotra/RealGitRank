@@ -7,7 +7,7 @@
   "s_pr": 99.68,
   "s_quality": 50.0,
   "s_impact": 99.95,
-  "s_consistency": 98.43,
+  "s_consistency": 98.42,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 102,
+  "rank": 105,
   "avatar_url": "https://avatars.githubusercontent.com/u/142374191?u=de1bc165ce9372bfbbaf5342705c43263efbc7e1&v=4",
   "bio": "",
   "company": "Tsinghua University",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 31,
   "prev_score": 872.5,
-  "rank_delta": -71,
+  "rank_delta": -74,
   "score_delta": -1.1,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 102,
+      "r": 105,
       "s": 871.4
     }
   ]

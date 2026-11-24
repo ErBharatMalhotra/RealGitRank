@@ -4,9 +4,9 @@
   "primary_language": "Rust",
   "total_pushes": 7,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
-  "s_impact": 99.8,
+  "s_impact": 99.81,
   "s_consistency": 97.95,
   "measured": {
     "delivery": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 868.9,
+  "rank_score": 869.0,
   "active_repos_touched": 3,
   "pr_reviews": 7,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 280,
+  "rank": 278,
   "avatar_url": "https://avatars.githubusercontent.com/u/33802653?u=cf15fa95859b7cece5df8d9094753746f6ffc85f&v=4",
   "bio": "Make the thing I love and have fun.",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 244,
   "prev_score": 869.8,
-  "rank_delta": -36,
-  "score_delta": -0.9,
+  "rank_delta": -34,
+  "score_delta": -0.8,
   "counted_merges": [
     {
       "repo": "kane50613/takumi",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 280,
-      "s": 868.9
+      "r": 278,
+      "s": 869.0
     }
   ]
 }

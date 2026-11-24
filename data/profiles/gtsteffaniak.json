@@ -4,10 +4,10 @@
   "primary_language": "Go",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.89,
-  "s_consistency": 95.02,
+  "s_consistency": 95.03,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 857.7,
+  "rank_score": 857.8,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 970,
+  "rank": 974,
   "avatar_url": "https://avatars.githubusercontent.com/u/42989099?u=b5332034e5f5ab5c9c7b8ebf6424aa6fd9783224&v=4",
   "bio": "Gtsteffaniak ",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 934,
   "prev_score": 859.2,
-  "rank_delta": -36,
-  "score_delta": -1.5,
+  "rank_delta": -40,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "gtsteffaniak/ffmpeg",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 970,
-      "s": 857.7
+      "r": 974,
+      "s": 857.8
     }
   ]
 }

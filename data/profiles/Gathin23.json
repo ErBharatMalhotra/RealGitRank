@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 15,
+  "rank": 16,
   "avatar_url": "https://avatars.githubusercontent.com/u/94786511?u=a36aa7656053e4cd6f14772ff0fe7752c4365ddb&v=4",
   "bio": "Sr. DevRel Lead @0gfoundation \u00b7 built CleanYourTV",
   "company": "0G",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 5,
   "prev_score": 873.1,
-  "rank_delta": -10,
+  "rank_delta": -11,
   "score_delta": 0.3,
   "counted_merges": [
     {
@@ -60,7 +60,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 15,
+      "r": 16,
       "s": 873.4
     }
   ]

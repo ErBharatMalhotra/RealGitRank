@@ -7,7 +7,7 @@
   "s_pr": 99.61,
   "s_quality": 50.0,
   "s_impact": 99.84,
-  "s_consistency": 99.23,
+  "s_consistency": 99.24,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -35,6 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 115,

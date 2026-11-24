@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 288,
+  "rank": 291,
   "avatar_url": "https://avatars.githubusercontent.com/u/1475795?u=c7d74f75bc11135954e9413b374dd00d4ca832c1&v=4",
   "bio": "",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 229,
   "prev_score": 869.9,
-  "rank_delta": -59,
+  "rank_delta": -62,
   "score_delta": -1.1,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 288,
+      "r": 291,
       "s": 868.8
     }
   ]

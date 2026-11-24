@@ -4,7 +4,7 @@
   "primary_language": "JavaScript",
   "total_pushes": 16,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.96,
   "s_consistency": 97.78,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 262,
+  "rank": 265,
   "avatar_url": "https://avatars.githubusercontent.com/u/278058887?u=3a88e32d675055c4ed6182a3e227f6ffe4fdc4fa&v=4",
   "bio": "\u5f00\u53d1\u8005\u4ea4\u6d41\u7fa4\r\nt.me/vm2api\r\n",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 212,
   "prev_score": 870.1,
-  "rank_delta": -50,
+  "rank_delta": -53,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 262,
+      "r": 265,
       "s": 869.1
     }
   ]

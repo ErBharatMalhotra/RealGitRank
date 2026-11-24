@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 309,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 98.84,
@@ -16,7 +16,7 @@
   },
   "active_days": 17,
   "window_days": 30,
-  "rank_score": 861.4,
+  "rank_score": 861.6,
   "active_repos_touched": 5,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 751,
+  "rank": 748,
   "avatar_url": "https://avatars.githubusercontent.com/u/42751205?u=b590493a5669647bad33e855033fd9ccc0e7333f&v=4",
   "bio": "Survived real-world robotics: dishwashing robot vs. Denny's brunch rush. Deployed and rescued robots across LA chaos. Building with ROS2, PX4 & Jetson.",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 818,
   "prev_score": 861.2,
-  "rank_delta": 67,
-  "score_delta": 0.2,
+  "rank_delta": 70,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "abelxmendoza/RobotForge-Hackathon",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 751,
-      "s": 861.4
+      "r": 748,
+      "s": 861.6
     }
   ]
 }

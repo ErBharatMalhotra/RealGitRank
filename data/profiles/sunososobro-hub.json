@@ -7,7 +7,7 @@
   "s_pr": 99.68,
   "s_quality": 50.0,
   "s_impact": 99.82,
-  "s_consistency": 90.62,
+  "s_consistency": 90.67,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 859.4,
+  "rank_score": 859.5,
   "active_repos_touched": 4,
   "pr_reviews": 2,
   "issue_comments": 45,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 860,
+  "rank": 862,
   "avatar_url": "https://avatars.githubusercontent.com/u/243713070?v=4",
   "bio": "",
   "company": "",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 860,
-      "s": 859.4
+      "r": 862,
+      "s": 859.5
     }
   ]
 }

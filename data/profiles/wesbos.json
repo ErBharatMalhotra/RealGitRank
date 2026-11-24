@@ -4,7 +4,7 @@
   "primary_language": "HTML",
   "total_pushes": 0,
   "merged_prs": 3,
-  "s_pr": 97.26,
+  "s_pr": 97.3,
   "s_quality": 50.0,
   "s_impact": 99.97,
   "s_consistency": 99.89,
@@ -16,7 +16,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 865.2,
+  "rank_score": 865.3,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 561,
+  "rank": 565,
   "avatar_url": "https://avatars.githubusercontent.com/u/176013?u=1d436e62dc32dbbf1bfefb4d658cd67553154c42&v=4",
   "bio": "I create courses that make learning things like JavaScript easy and fun \ud83d\udd25",
   "company": "me",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 554,
   "prev_score": 865.6,
-  "rank_delta": -7,
-  "score_delta": -0.4,
+  "rank_delta": -11,
+  "score_delta": -0.3,
   "counted_merges": [
     {
       "repo": "wesbos/photo-frame-dashboard",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 561,
-      "s": 865.2
+      "r": 565,
+      "s": 865.3
     }
   ]
 }

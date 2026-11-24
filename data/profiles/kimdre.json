@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 371,
+  "rank": 375,
   "avatar_url": "https://avatars.githubusercontent.com/u/27567533?u=4dc77603c90e95d169cef316c28ef1ad383db4f1&v=4",
   "bio": "DevOps engineer, adventurer and mountainbike enthusiast! \ud83d\udeb5\u200d\u2642\ufe0f\r\nFounder of @Maki-IT.",
   "company": "@adorsys @maki-it ",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 320,
   "prev_score": 868.8,
-  "rank_delta": -51,
+  "rank_delta": -55,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 371,
+      "r": 375,
       "s": 867.8
     }
   ]

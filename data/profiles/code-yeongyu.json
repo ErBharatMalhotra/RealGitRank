@@ -7,7 +7,7 @@
   "s_pr": 99.99,
   "s_quality": 50.0,
   "s_impact": 99.97,
-  "s_consistency": 99.17,
+  "s_consistency": 99.18,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 29,
   "window_days": 30,
-  "rank_score": 873.6,
+  "rank_score": 873.7,
   "active_repos_touched": 17,
   "pr_reviews": 6,
   "issue_comments": 108,
@@ -40,7 +40,7 @@
   "prev_rank": 3,
   "prev_score": 873.1,
   "rank_delta": 1,
-  "score_delta": 0.5,
+  "score_delta": 0.6,
   "counted_merges": [
     {
       "repo": "code-yeongyu/senpi",
@@ -76,7 +76,7 @@
     {
       "d": "2026-11-24",
       "r": 2,
-      "s": 873.6
+      "s": 873.7
     }
   ]
 }

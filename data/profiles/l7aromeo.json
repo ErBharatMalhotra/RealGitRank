@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 422,
+  "rank": 429,
   "avatar_url": "https://avatars.githubusercontent.com/u/90084686?u=80dd5e36b529b2e086b01601e282301ac316def8&v=4",
   "bio": "Rust underneath, TypeScript on top. Frameworks, compilers, runtimes and renderers.",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 356,
   "prev_score": 868.2,
-  "rank_delta": -66,
+  "rank_delta": -73,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 422,
+      "r": 429,
       "s": 867.0
     }
   ]

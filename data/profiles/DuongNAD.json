@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 294,
+  "rank": 297,
   "avatar_url": "https://avatars.githubusercontent.com/u/200087586?u=f82a2d2e104f31db70cadedc33b6f1bc2bb492c3&v=4",
   "bio": "Software Engineering Student | AI Systems & Agentic Workflows | Rust, Python & TypeScript",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 565,
   "prev_score": 865.3,
-  "rank_delta": 271,
+  "rank_delta": 268,
   "score_delta": 3.4,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 294,
+      "r": 297,
       "s": 868.7
     }
   ]

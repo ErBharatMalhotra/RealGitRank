@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 270,
+  "rank": 276,
   "avatar_url": "https://avatars.githubusercontent.com/u/7637832?u=9c360fd403cec327be79578630935fc373e6cc88&v=4",
   "bio": "Average level computer engineer",
   "company": "Ex-Mozilla",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 174,
   "prev_score": 870.5,
-  "rank_delta": -96,
+  "rank_delta": -102,
   "score_delta": -1.5,
   "counted_merges": [
     {
@@ -79,7 +79,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 270,
+      "r": 276,
       "s": 869.0
     }
   ]

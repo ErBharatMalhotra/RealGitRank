@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 865.2,
+  "rank_score": 865.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 556,
+  "rank": 560,
   "avatar_url": "https://avatars.githubusercontent.com/u/2303500?u=f718d3f7a5915d54cfa5607ad27c930778de7bab&v=4",
   "bio": "Yet Another Evil Bit-level Hack",
   "company": "@yet-another-ai",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 517,
   "prev_score": 866.1,
-  "rank_delta": -39,
-  "score_delta": -0.9,
+  "rank_delta": -43,
+  "score_delta": -0.8,
   "counted_merges": [
     {
       "repo": "yet-another-ai/deskfleet",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 556,
-      "s": 865.2
+      "r": 560,
+      "s": 865.3
     }
   ]
 }

@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 4,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.56,
   "s_consistency": 97.84,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 864.5,
+  "rank_score": 864.6,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 597,
+  "rank": 600,
   "avatar_url": "https://avatars.githubusercontent.com/u/17303517?u=e35be5a21feabfaf5991aa38cdf9f5ba4ee18a04&v=4",
   "bio": "JVM engineer (Kotlin/Java) @deliveryhero. I build frameworks, DSLs, games and AI tooling, and run a homelab k8s on a Raspberry Pi.",
   "company": "@deliveryhero ",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 556,
   "prev_score": 865.5,
-  "rank_delta": -41,
-  "score_delta": -1.0,
+  "rank_delta": -44,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "gvart/Hearth",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 597,
-      "s": 864.5
+      "r": 600,
+      "s": 864.6
     }
   ]
 }

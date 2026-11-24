@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 329,
+  "rank": 334,
   "avatar_url": "https://avatars.githubusercontent.com/u/1311301?u=faa9388d5fb4d0d36f781436b114ac5bd1f60f58&v=4",
   "bio": "Building AI agents, open source tools, and FPV drones. 20 years shipping free software.",
   "company": "@twilio, @creditkarma, @shipkit-io",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 276,
   "prev_score": 869.3,
-  "rank_delta": -53,
+  "rank_delta": -58,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -79,7 +79,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 329,
+      "r": 334,
       "s": 868.3
     }
   ]

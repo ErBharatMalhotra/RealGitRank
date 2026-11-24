@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 12,
   "merged_prs": 4,
-  "s_pr": 98.57,
+  "s_pr": 98.59,
   "s_quality": 50.0,
   "s_impact": 99.65,
   "s_consistency": 99.18,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 867.9,
+  "rank_score": 868.0,
   "active_repos_touched": 4,
   "pr_reviews": 3,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 370,
+  "rank": 367,
   "avatar_url": "https://avatars.githubusercontent.com/u/140198731?u=0bdfbfad5ce6aa20aac24112d90b2039e7bad549&v=4",
   "bio": "23 yo UT-Austin PhD-dropout researcher, automating sci research. B.S. USTC Space Physics.",
   "company": "The University of Texas at Austin",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 392,
   "prev_score": 867.8,
-  "rank_delta": 22,
-  "score_delta": 0.1,
+  "rank_delta": 25,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "ktwu01/benchmark-radar",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 370,
-      "s": 867.9
+      "r": 367,
+      "s": 868.0
     }
   ]
 }

@@ -7,7 +7,7 @@
   "s_pr": 99.59,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 97.92,
+  "s_consistency": 97.91,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 341,
+  "rank": 346,
   "avatar_url": "https://avatars.githubusercontent.com/u/7027842?u=5301b0e414d1c57eb2dead743383da18262821a2&v=4",
   "bio": "",
   "company": "@OSIlife ",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 296,
   "prev_score": 869.1,
-  "rank_delta": -45,
+  "rank_delta": -50,
   "score_delta": -0.9,
   "counted_merges": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 341,
+      "r": 346,
       "s": 868.2
     }
   ]

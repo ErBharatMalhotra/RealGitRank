@@ -4,7 +4,7 @@
   "primary_language": "C#",
   "total_pushes": 24,
   "merged_prs": 5,
-  "s_pr": 98.82,
+  "s_pr": 98.84,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 95.33,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 861.6,
+  "rank_score": 861.7,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 11,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 737,
+  "rank": 740,
   "avatar_url": "https://avatars.githubusercontent.com/u/5146175?u=b19430e51f7a50ed9f0b78fc252b3a22c36f6f19&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 734,
   "prev_score": 862.6,
-  "rank_delta": -3,
-  "score_delta": -1.0,
+  "rank_delta": -6,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "eyalgolan/statecraft-israel",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 737,
-      "s": 861.6
+      "r": 740,
+      "s": 861.7
     }
   ]
 }

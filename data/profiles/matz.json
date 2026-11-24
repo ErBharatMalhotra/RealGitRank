@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 237,
+  "rank": 238,
   "avatar_url": "https://avatars.githubusercontent.com/u/30733?u=77a590bb5dddfc7e7ee0d1d058b05e0fb709653f&v=4",
   "bio": "\r\n    \r\n",
   "company": "Ruby Association,NaCl",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 189,
   "prev_score": 870.3,
-  "rank_delta": -48,
+  "rank_delta": -49,
   "score_delta": -0.8,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 237,
+      "r": 238,
       "s": 869.5
     }
   ]

@@ -4,10 +4,10 @@
   "primary_language": "MATLAB",
   "total_pushes": 20,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.86,
-  "s_consistency": 99.24,
+  "s_consistency": 99.25,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 129,
+  "rank": 130,
   "avatar_url": "https://avatars.githubusercontent.com/u/33260510?u=61ffd752795cfe3c1c3bcfe5f93dfafed82a0bb6&v=4",
   "bio": "Battery systems & BESS R&D engineer | EV thermal management, smart grids, MATLAB/Simulink + Python | PhD, Aalborg University",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 170,
   "prev_score": 870.6,
-  "rank_delta": 41,
+  "rank_delta": 40,
   "score_delta": 0.4,
   "counted_merges": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 129,
+      "r": 130,
       "s": 871.0
     }
   ]

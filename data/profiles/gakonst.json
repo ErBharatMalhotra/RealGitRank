@@ -7,7 +7,7 @@
   "s_pr": 99.72,
   "s_quality": 50.0,
   "s_impact": 99.67,
-  "s_consistency": 99.05,
+  "s_consistency": 99.06,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 87,
+  "rank": 89,
   "avatar_url": "https://avatars.githubusercontent.com/u/17802178?u=415799bf0993e702ceb029e13fadb14eb79cfa0a&v=4",
   "bio": "cto @paradigmxyz / @tempoxyz. rustacean/devtools/security/high performance. crypto 10yrs.",
   "company": "@paradigmxyz",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 146,
   "prev_score": 870.9,
-  "rank_delta": 59,
+  "rank_delta": 57,
   "score_delta": 0.9,
   "counted_merges": [
     {
@@ -75,7 +75,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 87,
+      "r": 89,
       "s": 871.8
     }
   ]

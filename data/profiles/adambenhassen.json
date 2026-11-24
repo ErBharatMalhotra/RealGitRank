@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 171,
+  "rank": 177,
   "avatar_url": "https://avatars.githubusercontent.com/u/91687975?u=b8bfdf2553eeb94b8a4ce278debe82603b94f229&v=4",
   "bio": "Out in the wild",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 236,
   "prev_score": 869.8,
-  "rank_delta": 65,
+  "rank_delta": 59,
   "score_delta": 0.6,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 171,
+      "r": 177,
       "s": 870.4
     }
   ]

@@ -4,7 +4,7 @@
   "primary_language": "HTML",
   "total_pushes": 13,
   "merged_prs": 3,
-  "s_pr": 98.57,
+  "s_pr": 98.59,
   "s_quality": 50.0,
   "s_impact": 99.93,
   "s_consistency": 97.62,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 866.2,
+  "rank_score": 866.3,
   "active_repos_touched": 17,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 499,
+  "rank": 496,
   "avatar_url": "https://avatars.githubusercontent.com/u/226203219?u=e1344d0e36983e0ac259cfc60d64fa889a443460&v=4",
   "bio": "Systems engineer \u2022 Blockchain developer \u2022 AI explorer.\r\nDesigning mechanical, digital, and decentralized systems with precisional R&D and scalability.",
   "company": "@Shards-foundation",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 720,
   "prev_score": 862.9,
-  "rank_delta": 221,
-  "score_delta": 3.3,
+  "rank_delta": 224,
+  "score_delta": 3.4,
   "counted_merges": [
     {
       "repo": "Shards-foundation/Shards-Agent-Trading-Network",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 499,
-      "s": 866.2
+      "r": 496,
+      "s": 866.3
     }
   ]
 }

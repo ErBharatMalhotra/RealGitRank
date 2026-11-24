@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 440,
+  "rank": 443,
   "avatar_url": "https://avatars.githubusercontent.com/u/42347559?u=489a48ed4862cdc7b7834869c8d0160dce3b109f&v=4",
   "bio": "Leveraging AI to its fullest potential\r\n\r\n",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 390,
   "prev_score": 867.8,
-  "rank_delta": -50,
+  "rank_delta": -53,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 440,
+      "r": 443,
       "s": 866.8
     }
   ]

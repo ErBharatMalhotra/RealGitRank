@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 25,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.76,
   "s_consistency": 98.86,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 190,
+  "rank": 191,
   "avatar_url": "https://avatars.githubusercontent.com/u/216905?v=4",
   "bio": "Building CAD, geometry & WebAssembly tools for the browser. AI/ML at Babylist. Ask me about my cat hair. \ud83d\udc08",
   "company": "@babylist",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 308,
   "prev_score": 869.0,
-  "rank_delta": 118,
+  "rank_delta": 117,
   "score_delta": 1.2,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 190,
+      "r": 191,
       "s": 870.2
     }
   ]

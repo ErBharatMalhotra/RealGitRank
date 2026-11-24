@@ -7,7 +7,7 @@
   "s_pr": 99.61,
   "s_quality": 50.0,
   "s_impact": 99.95,
-  "s_consistency": 98.23,
+  "s_consistency": 98.22,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 140,
+  "rank": 146,
   "avatar_url": "https://avatars.githubusercontent.com/u/257484394?u=8d71a2e282922f25c420eaddd8718fcd28feb7be&v=4",
   "bio": "Part Marketer, Part AI Explorer.",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 56,
   "prev_score": 872.1,
-  "rank_delta": -84,
+  "rank_delta": -90,
   "score_delta": -1.2,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 140,
+      "r": 146,
       "s": 870.9
     }
   ]

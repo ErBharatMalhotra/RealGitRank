@@ -4,7 +4,7 @@
   "primary_language": "TypeScript",
   "total_pushes": 30,
   "merged_prs": 6,
-  "s_pr": 99.08,
+  "s_pr": 99.1,
   "s_quality": 50.0,
   "s_impact": 99.96,
   "s_consistency": 99.19,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 163,
+  "rank": 167,
   "avatar_url": "https://avatars.githubusercontent.com/u/47287758?u=aaa9d575d4624a8d7952e455fc752755b012086c&v=4",
   "bio": "Generative AI specialist with a wide range of experience developing AI Agents, RAG solutions, local AI deployments, generative AI libraries/packages, and more.",
   "company": "Dynamous",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 224,
   "prev_score": 870.0,
-  "rank_delta": 61,
+  "rank_delta": 57,
   "score_delta": 0.5,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 163,
+      "r": 167,
       "s": 870.5
     }
   ]

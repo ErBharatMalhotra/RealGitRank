@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 4,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 94.83,
+  "s_consistency": 94.84,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 858.8,
+  "rank_score": 858.9,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 894,
+  "rank": 897,
   "avatar_url": "https://avatars.githubusercontent.com/u/208672083?u=23eb3cb3bb080aadfaa0373d02445f5df9c63014&v=4",
   "bio": "Always looking to improve and welcoming any help or suggestions. \r\n",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 716,
   "prev_score": 862.9,
-  "rank_delta": -178,
-  "score_delta": -4.1,
+  "rank_delta": -181,
+  "score_delta": -4.0,
   "counted_merges": [
     {
       "repo": "VonHoltenCodes/SlowBooks-Pro-2026",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 894,
-      "s": 858.8
+      "r": 897,
+      "s": 858.9
     }
   ]
 }

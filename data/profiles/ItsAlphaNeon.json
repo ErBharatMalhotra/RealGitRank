@@ -4,7 +4,7 @@
   "primary_language": "Rust",
   "total_pushes": 6,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.97,
   "s_consistency": 97.72,
@@ -16,7 +16,7 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 865.3,
+  "rank_score": 865.4,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 550,
+  "rank": 554,
   "avatar_url": "https://avatars.githubusercontent.com/u/102443376?u=556bb5c6011349af88da0269e0a4eac0d24bd9bd&v=4",
   "bio": "A novice programmer, learning the ways of computer science",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 509,
   "prev_score": 866.3,
-  "rank_delta": -41,
-  "score_delta": -1.0,
+  "rank_delta": -45,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "ItsAlphaNeon/Lemon-Studio",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 550,
-      "s": 865.3
+      "r": 554,
+      "s": 865.4
     }
   ]
 }

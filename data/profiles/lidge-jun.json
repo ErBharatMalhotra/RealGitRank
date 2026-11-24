@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 3,
+  "rank": 5,
   "avatar_url": "https://avatars.githubusercontent.com/u/243035832?u=203b26a91b68a5be02c9e34f38389c852bb4e998&v=4",
   "bio": "Building GOAT (trygoat.ai): run coding agents on any model, any machine. Creator of OpenCodex (18K\u2605). Korea University.",
   "company": "Korea University",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 4,
   "prev_score": 873.1,
-  "rank_delta": 1,
+  "rank_delta": -1,
   "score_delta": 0.5,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 3,
+      "r": 5,
       "s": 873.6
     }
   ]

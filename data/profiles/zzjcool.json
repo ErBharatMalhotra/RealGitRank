@@ -4,9 +4,9 @@
   "primary_language": "Swift",
   "total_pushes": 14,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
-  "s_impact": 99.8,
+  "s_impact": 99.81,
   "s_consistency": 98.45,
   "measured": {
     "delivery": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 866.0,
+  "rank_score": 866.1,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 510,
+  "rank": 512,
   "avatar_url": "https://avatars.githubusercontent.com/u/92666291?u=162e8f90b283d50729f93208be3562cc4298ed32&v=4",
   "bio": "email@zzj.cool",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 273,
   "prev_score": 869.4,
-  "rank_delta": -237,
-  "score_delta": -3.4,
+  "rank_delta": -239,
+  "score_delta": -3.3,
   "counted_merges": [
     {
       "repo": "zzjcool/anotify",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 510,
-      "s": 866.0
+      "r": 512,
+      "s": 866.1
     }
   ]
 }

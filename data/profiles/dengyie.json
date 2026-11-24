@@ -4,7 +4,7 @@
   "primary_language": "Python",
   "total_pushes": 23,
   "merged_prs": 4,
-  "s_pr": 98.23,
+  "s_pr": 98.25,
   "s_quality": 50.0,
   "s_impact": 99.56,
   "s_consistency": 99.26,
@@ -16,7 +16,7 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 866.6,
+  "rank_score": 866.7,
   "active_repos_touched": 16,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 469,
+  "rank": 467,
   "avatar_url": "https://avatars.githubusercontent.com/u/45208696?u=c2244406f787b3e6aecd72dcd121983f2ef4b402&v=4",
   "bio": "learning\uff0cliving\uff0cloving",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 712,
   "prev_score": 863.0,
-  "rank_delta": 243,
-  "score_delta": 3.6,
+  "rank_delta": 245,
+  "score_delta": 3.7,
   "counted_merges": [
     {
       "repo": "dengyie/agent-fleet",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 469,
-      "s": 866.6
+      "r": 467,
+      "s": 866.7
     }
   ]
 }

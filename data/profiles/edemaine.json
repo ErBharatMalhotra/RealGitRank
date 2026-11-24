@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 200,
+  "rank": 203,
   "avatar_url": "https://avatars.githubusercontent.com/u/2218736?v=4",
   "bio": "Professor in computer science at MIT.  Specialist in algorithms and data structures.",
   "company": "Massachusetts Institute of Technology",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 147,
   "prev_score": 870.9,
-  "rank_delta": -53,
+  "rank_delta": -56,
   "score_delta": -0.9,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 200,
+      "r": 203,
       "s": 870.0
     }
   ]

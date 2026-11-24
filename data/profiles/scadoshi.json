@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 320,
+  "rank": 326,
   "avatar_url": "https://avatars.githubusercontent.com/u/180063176?u=c2d5f7a53200fd836107679413714d1e8b8d8f48&v=4",
   "bio": "",
   "company": "Halo Software LLC",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 284,
   "prev_score": 869.2,
-  "rank_delta": -36,
+  "rank_delta": -42,
   "score_delta": -0.8,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 320,
+      "r": 326,
       "s": 868.4
     }
   ]

@@ -4,7 +4,7 @@
   "primary_language": "C++",
   "total_pushes": 21,
   "merged_prs": 8,
-  "s_pr": 99.69,
+  "s_pr": 99.7,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.89,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 868.5,
+  "rank_score": 868.6,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 316,
+  "rank": 310,
   "avatar_url": "https://avatars.githubusercontent.com/u/20812494?u=5721cef585626ad5899aa082f32984a9475499de&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 258,
   "prev_score": 869.6,
-  "rank_delta": -58,
-  "score_delta": -1.1,
+  "rank_delta": -52,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "pineforge-4pass/pineforge-engine",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 316,
-      "s": 868.5
+      "r": 310,
+      "s": 868.6
     }
   ]
 }

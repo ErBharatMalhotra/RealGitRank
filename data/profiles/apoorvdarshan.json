@@ -7,7 +7,7 @@
   "s_pr": 99.65,
   "s_quality": 50.0,
   "s_impact": 99.65,
-  "s_consistency": 98.3,
+  "s_consistency": 98.29,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 870.3,
+  "rank_score": 870.4,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 180,
+  "rank": 176,
   "avatar_url": "https://avatars.githubusercontent.com/u/90602809?u=3022def6e980d9c5775f6ed19e10e6e5ae599e18&v=4",
   "bio": "developer",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 67,
   "prev_score": 871.9,
-  "rank_delta": -113,
-  "score_delta": -1.6,
+  "rank_delta": -109,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "apoorvdarshan/coincide",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 180,
-      "s": 870.3
+      "r": 176,
+      "s": 870.4
     }
   ]
 }

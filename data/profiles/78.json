@@ -4,10 +4,10 @@
   "primary_language": "C++",
   "total_pushes": 3,
   "merged_prs": 2,
-  "s_pr": 95.48,
+  "s_pr": 95.55,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 99.17,
+  "s_consistency": 99.18,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 22,
   "window_days": 30,
-  "rank_score": 857.9,
+  "rank_score": 858.1,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 960,
+  "rank": 961,
   "avatar_url": "https://avatars.githubusercontent.com/u/4488133?u=c0ce6cda2559f8b3b48d2e29eb917af44fb3c0b3&v=4",
   "bio": "",
   "company": "",
@@ -50,8 +50,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 960,
-      "s": 857.9
+      "r": 961,
+      "s": 858.1
     }
   ]
 }

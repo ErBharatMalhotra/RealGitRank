@@ -16,7 +16,7 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 870.8,
+  "rank_score": 870.9,
   "active_repos_touched": 68,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 146,
+  "rank": 135,
   "avatar_url": "https://avatars.githubusercontent.com/u/6911384?v=4",
   "bio": "Computational biologist \u00b7 Active Inference \u00b7 Cognitive security \u00b7 Artist. President, Active Inference Institute. Ants, Bayesian modeling, open tools.",
   "company": "@ActiveInferenceInstitute",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 205,
   "prev_score": 870.1,
-  "rank_delta": 59,
-  "score_delta": 0.7,
+  "rank_delta": 70,
+  "score_delta": 0.8,
   "counted_merges": [
     {
       "repo": "docxology/template",
@@ -91,8 +91,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 146,
-      "s": 870.8
+      "r": 135,
+      "s": 870.9
     }
   ]
 }

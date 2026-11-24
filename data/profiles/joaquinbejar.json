@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 12,
   "merged_prs": 7,
-  "s_pr": 99.45,
+  "s_pr": 99.46,
   "s_quality": 50.0,
   "s_impact": 99.11,
-  "s_consistency": 98.14,
+  "s_consistency": 98.13,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 353,
+  "rank": 356,
   "avatar_url": "https://avatars.githubusercontent.com/u/99006095?u=61e08504c4ed97370f41c1fe60e3607eade6f1f9&v=4",
   "bio": "Quant Developer in trading algorithms and strategy development. Proficient in C++, Python, Go, Rust. Skilled in high-performance trading platforms.\r\n",
   "company": "Capital Delta",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 605,
   "prev_score": 864.6,
-  "rank_delta": 252,
+  "rank_delta": 249,
   "score_delta": 3.5,
   "counted_merges": [
     {
@@ -75,7 +75,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 353,
+      "r": 356,
       "s": 868.1
     }
   ]

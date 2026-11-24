@@ -7,7 +7,7 @@
   "s_pr": 99.87,
   "s_quality": 50.0,
   "s_impact": 99.71,
-  "s_consistency": 99.85,
+  "s_consistency": 99.84,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 5,
+  "rank": 6,
   "avatar_url": "https://avatars.githubusercontent.com/u/74563097?u=0f9f46f572b2624796994881295824332e249a73&v=4",
   "bio": "Hi, Nice to meet you.\r\n\r\nI'm Chong Liu",
   "company": "Roboticist & Product Manager",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 118,
   "prev_score": 871.2,
-  "rank_delta": 113,
+  "rank_delta": 112,
   "score_delta": 2.4,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 5,
+      "r": 6,
       "s": 873.6
     }
   ]

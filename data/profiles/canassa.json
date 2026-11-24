@@ -4,7 +4,7 @@
   "primary_language": "Less",
   "total_pushes": 23,
   "merged_prs": 7,
-  "s_pr": 99.28,
+  "s_pr": 99.29,
   "s_quality": 50.0,
   "s_impact": 99.11,
   "s_consistency": 97.85,
@@ -16,7 +16,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 867.0,
+  "rank_score": 867.1,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 12,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 423,
+  "rank": 421,
   "avatar_url": "https://avatars.githubusercontent.com/u/288227?v=4",
   "bio": "",
   "company": "New10",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 382,
   "prev_score": 867.9,
-  "rank_delta": -41,
-  "score_delta": -0.9,
+  "rank_delta": -39,
+  "score_delta": -0.8,
   "counted_merges": [
     {
       "repo": "canassa/beni",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 423,
-      "s": 867.0
+      "r": 421,
+      "s": 867.1
     }
   ]
 }
