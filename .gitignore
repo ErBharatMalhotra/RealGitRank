@@ -20,6 +20,9 @@ web/public/llms.txt
 # Secrets
 .env
 secrets/
+# GCP service-account keys (`name-<12 hex>.json`) must never be committed
+*-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].json
+step-ahead-pte-7bc1d3fe3fb3.json
 
 # Python
 __pycache__/
