@@ -100,7 +100,7 @@ def new_user(login):
         "multi_file_prs": 0,
         "test_hits": 0,
         "evidence": 0,
-        "extra_messages": 0,
+        "ci_pushes": 0,
         "org": "",
         "pr_reviews": 0,
         "issue_comments": 0,
@@ -235,7 +235,8 @@ def build_rows(agg):
     for d in agg.values():
         tp = d["total_pushes"]
         mp = d["merged_prs"]
-        if tp < 1 and mp < 1:
+        ci = int(d.get("ci_pushes") or 0)
+        if tp < 1 and mp < 1 and ci < 1:
             continue
 
         hours = d["hours"]
@@ -249,14 +250,13 @@ def build_rows(agg):
             "primary_language": "Unknown",
             "org": d["org"],
             "total_pushes": tp,
+            "ci_pushes": ci,
             "merged_prs": mp,
             "merged_prs_external_weighted": round(d["merged_pr_weighted"], 2),
             "closed_issues": d["closed_issues"],
             "active_repos_touched": repos if repos > 0 else 1,
             # NaN = no commit messages observed in this feed, so entropy is unknown
-            "unique_commit_messages": (
-                len(d["commit_msgs"]) + int(d.get("extra_messages") or 0)
-            ) or float("nan"),
+            "unique_commit_messages": len(d["commit_msgs"]) if d["commit_msgs"] else float("nan"),
             "distinct_active_hours": len(set(hours)) if hours else 1,
             "avg_files_changed": (sum(files) / len(files)) if files else float("nan"),
             "push_hour_stddev": pstdev(hours) if len(hours) > 1 else float("nan"),
@@ -297,24 +297,24 @@ def read_events(path):
                 continue
 
 
-def attribute_bot_pushes(target_date, agg, stats):
-    """Optional BigQuery pass: credit commits that a bot pushed to their authors.
+def attribute_ci_pushes(target_date, agg, stats):
+    """Optional BigQuery pass: credit github-actions pushes to the repo owner.
 
     Without credentials (or on any BigQuery failure) this is a no-op, so the free
     gharchive shard is written exactly as before.
     """
     try:
-        from ingest_bigquery import augment_agg
+        from ingest_bigquery import attribute_ci_pushes as run_bigquery
     except ImportError:
         return None
-    summary = augment_agg(target_date, agg)
+    summary = run_bigquery(target_date, agg)
     if not summary:
         return None
-    stats["attributed_pushes"] = summary["pushes"]
-    stats["attributed_authors"] = summary["authors"]
+    stats["ci_pushes"] = summary["pushes"]
+    stats["ci_owners"] = summary["owners"]
     print(
-        f"BigQuery attribution: {summary['pushes']} bot-pushed commit sets credited "
-        f"to {summary['authors']} authors ({summary['messages']} messages)"
+        f"BigQuery CI attribution: {summary['pushes']} github-actions pushes "
+        f"credited to {summary['owners']} repository owners"
     )
     return summary
 
@@ -344,7 +344,7 @@ def ingest_day(target_date, rolling_dir="data/rolling", write_raw=True):
         except Exception as e:
             print(f"  error processing {f}: {e}")
 
-    attribute_bot_pushes(target_date, agg, stats)
+    attribute_ci_pushes(target_date, agg, stats)
     print(f"Aggregated {len(agg)} users from {stats['events']} events "
           f"({stats['bot_events']} bot events skipped)")
     path, users = write_day_shard(date_str, agg, rolling_dir, stats=stats)

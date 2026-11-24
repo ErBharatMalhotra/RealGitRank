@@ -126,6 +126,7 @@ const pillars = [
           <>
             <h3>Source coverage</h3>
             <p class="note">The window is built from <a href="https://www.gharchive.org/" target="_blank" rel="noopener noreferrer">gharchive.org</a> hourly event dumps. gharchive is a partial mirror of public GitHub events, so a developer whose activity the mirror did not carry cannot be ranked — that is a source limitation, not a judgement. These numbers state how much of the stream this window actually saw.</p>
+            <p class="note">Push payloads are trimmed in the public feed: a push made by the <code>github-actions</code> bot carries the repository and the head commit, but not the commit author. Rather than guess, those pushes are counted as a separate <strong>CI-attributed</strong> signal for the owner of a user-owned repository (organisation repos are skipped). CI pushes never enter the commit-message entropy denominator, add no active hours and no repositories, so an automated workflow cannot look like human round-the-clock work; they make an otherwise invisible owner rankable, nothing more.</p>
             <table>
               <thead><tr><th>Source</th><th>Value</th></tr></thead>
               <tbody>
@@ -134,8 +135,8 @@ const pillars = [
                 <tr><td>Public events seen</td><td>{coverage.source.events.toLocaleString()}</td></tr>
                 <tr><td>Events per day (avg)</td><td>{coverage.source.events_per_day.toLocaleString()}</td></tr>
                 <tr><td>Bot events skipped</td><td>{coverage.source.bot_events.toLocaleString()} ({coverage.source.bot_share_pct}%)</td></tr>
-                {coverage.source.attributed_pushes ? (
-                  <tr><td>Bot-pushed commits credited to their authors (BigQuery)</td><td>{coverage.source.attributed_pushes.toLocaleString()}</td></tr>
+                {coverage.source.ci_pushes ? (
+                  <tr><td>CI-attributed pushes (github-actions bot, credited to the repository owner)</td><td>{coverage.source.ci_pushes.toLocaleString()}</td></tr>
                 ) : null}
               </tbody>
             </table>

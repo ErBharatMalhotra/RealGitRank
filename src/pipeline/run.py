@@ -111,6 +111,7 @@ def main():
 
     # Provenance lives in the window rows (it is not a parquet/scoring column).
     merges_by_name = {r["username"]: (r.get("merged_repos") or {}) for r in rows}
+    ci_by_name = {r["username"]: int(r.get("ci_pushes") or 0) for r in rows}
 
     by_name = {}
     for rec in scored:
@@ -120,6 +121,9 @@ def main():
         entry["score_version"] = SCORE_VERSION
         entry["window_start"] = window["window_start"]
         entry["window_end"] = window["window_end"]
+        if ci_by_name.get(username):
+            # Disclosed per user: CI-attributed pushes, not authored commits.
+            entry["ci_pushes"] = ci_by_name[username]
         by_name[username] = entry
 
     ranked = sorted(
@@ -210,6 +214,7 @@ def main():
             "data_age_hours": 0,
             "status": "ok",
             "users": len(ranked),
+            "ci_pushes": sum(ci_by_name.values()),
             "detailed": len(lb),
             "new_today": len(scored),
             "source": "real",

@@ -11,7 +11,8 @@ Shard schema (compact keys, users mapped by login)::
       "date": "2026-11-21",
       "users": {
         "alice": {
-          "p": 3,                # pushes
+          "p": 3,                # pushes (human-attributed only)
+          "cp": 2,               # CI-attributed pushes (bot actor, repo owner)
           "m": 1, "mw": 1.5,     # merged PRs, external-weighted merges
           "ci": 0,               # closed issues
           "r": ["a/b", ...],     # repos touched that day
@@ -58,11 +59,14 @@ def write_day_shard(date_str, agg, rolling_dir=ROLLING_DIR, stats=None):
         merged = int(d.get("merged_prs") or 0)
         stars = int(d.get("stars_received") or 0)
         forks = int(d.get("forks_received") or 0)
-        if pushes < 1 and merged < 1 and stars < 1 and forks < 1:
+        ci = int(d.get("ci_pushes") or 0)
+        if pushes < 1 and merged < 1 and stars < 1 and forks < 1 and ci < 1:
             continue
 
         repos = sorted(d.get("repos") or ())
         record = {"p": pushes}
+        if ci:
+            record["cp"] = ci  # CI-attributed pushes ("ci" is closed issues)
         if merged:
             record["m"] = merged
             record["mw"] = round(float(d.get("merged_pr_weighted") or 0.0), 2)
@@ -79,9 +83,8 @@ def write_day_shard(date_str, agg, rolling_dir=ROLLING_DIR, stats=None):
         if hours:
             record["h"] = hours
         messages = d.get("commit_msgs") or set()
-        message_count = len(messages) + int(d.get("extra_messages") or 0)
-        if message_count:
-            record["u"] = message_count
+        if messages:
+            record["u"] = len(messages)
         evidence = int(d.get("evidence") or 0)
         if evidence:
             record["th"] = int(d.get("test_hits") or 0)
@@ -108,7 +111,7 @@ def write_day_shard(date_str, agg, rolling_dir=ROLLING_DIR, stats=None):
             "bot_events": int(stats.get("bot_events") or 0),
             "hours": int(stats.get("hours") or 0),
         }
-        for key in ("attributed_pushes", "attributed_authors"):
+        for key in ("ci_pushes", "ci_owners"):
             value = int(stats.get(key) or 0)
             if value:
                 payload["stats"][key] = value
@@ -120,7 +123,7 @@ def write_day_shard(date_str, agg, rolling_dir=ROLLING_DIR, stats=None):
 def window_source_stats(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
     """How much source activity the window actually contains (or None if unknown)."""
     dates = window_dates(end_date, days, rolling_dir)
-    events = bot_events = hours = attributed = 0
+    events = bot_events = hours = ci_pushes = 0
     known_days = 0
     for date_str in dates:
         try:
@@ -135,7 +138,7 @@ def window_source_stats(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
         events += int(stats.get("events") or 0)
         bot_events += int(stats.get("bot_events") or 0)
         hours += int(stats.get("hours") or 0)
-        attributed += int(stats.get("attributed_pushes") or 0)
+        ci_pushes += int(stats.get("ci_pushes") or 0)
     if not known_days:
         return None
     source = {
@@ -147,8 +150,8 @@ def window_source_stats(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
         "bot_share_pct": round(bot_events / events * 100.0, 1) if events else 0.0,
         "events_per_day": round(events / known_days, 0) if known_days else 0,
     }
-    if attributed:
-        source["attributed_pushes"] = attributed
+    if ci_pushes:
+        source["ci_pushes"] = ci_pushes
     return source
 
 
@@ -187,12 +190,11 @@ def load_window(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
                 "p": 0, "m": 0, "mw": 0.0, "ci": 0, "repos": set(), "rn": 0,
                 "mr": {}, "hours": [], "u": 0, "u_known": False, "th": 0, "ev": 0,
                 "fs": 0, "fp": 0, "mf": 0, "st": 0, "fk": 0, "rv": 0, "ic": 0,
-                "rel": 0, "days": 0, "hours_by_day": [], "weeks": set(),
+                "rel": 0, "cp": 0, "days": 0, "hours_by_day": [], "weeks": set(),
             })
             acc["p"] += int(rec.get("p") or 0)
             acc["m"] += int(rec.get("m") or 0)
             acc["mw"] += float(rec.get("mw") or 0.0)
-            acc["ci"] += int(rec.get("ci") or 0)
             acc["repos"].update(rec.get("r") or ())
             acc["rn"] += int(rec.get("rn") or 0)
             for repo, count in (rec.get("mr") or {}).items():
@@ -211,6 +213,7 @@ def load_window(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
             acc["mf"] += int(rec.get("mf") or 0)
             for key in ("st", "fk", "rv", "ic", "rel"):
                 acc[key] += int(rec.get(key) or 0)
+            acc["cp"] += int(rec.get("cp") or 0)
             acc["days"] += 1
             acc["weeks"].add(week)
     return dates, total
@@ -221,7 +224,7 @@ def build_window_rows(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
     dates, users = load_window(end_date, days, rolling_dir)
     rows = []
     for login, a in users.items():
-        if a["p"] < 1 and a["m"] < 1:
+        if a["p"] < 1 and a["m"] < 1 and a["cp"] < 1:
             continue
         hours = a["hours"]
         pushes = a["p"]
@@ -254,6 +257,7 @@ def build_window_rows(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
             # provenance / disclosure fields (carried through scoring)
             "merged_repos": _top_repos(a["mr"]),
             "active_days": a["days"],
+            "ci_pushes": a["cp"],  # presence only: never in the scoring columns
             "window_days": len(dates),
             "entropy_known": entropy_known,
             "files_known": files_known,

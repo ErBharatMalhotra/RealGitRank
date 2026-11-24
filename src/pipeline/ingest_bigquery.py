@@ -1,27 +1,29 @@
-"""BigQuery ingest: attribute bot-pushed commits back to their authors.
+"""BigQuery ingest: credit CI-pushed commits to the repository owner.
 
-The free gharchive.org feed ships trimmed PushEvent payloads, so a commit that
-reaches a repository through ``github-actions`` (a bot actor) is dropped, and
-the person who actually wrote it never appears in the ranking. The
-``githubarchive.day`` public dataset keeps the full payload, so one
-date-partitioned query per day recovers ``payload.commits[].author.username``
-for those pushes.
+gharchive.org and ``githubarchive.day`` ship trimmed PushEvent payloads - only
+``push_id``, ``ref``, ``head`` and ``before`` survive - so the commit author of a
+push made by ``github-actions[bot]`` is not in the public feed at all (measured:
+0 of 184,962 pushes on 2026-11-23 carried a commits array). Looking every head
+SHA up on the GitHub API would need ~42,000 calls a day against a 5,000/hour
+limit, which is not viable.
 
-This module augments the free gharchive ingest, it never replaces it:
+What the feed does carry is the repository, and a CI push into a repository is
+that owner's pipeline. So this module adds a separate, clearly labelled signal:
+every ``github-actions[bot]`` push into a user-owned repository (organisation
+repos are skipped) gives the owner one *CI-attributed* push.
 
-* pushes are added only when the push actor was a bot - human actors are already
-  counted by the free feed, so nothing is counted twice,
-* commit messages and test-signal evidence are added for every author, which
-  turns "unknown" entropy into a measured value instead of NaN,
-* every failure (missing credentials, quota, schema change) is logged and the
-  run continues on the plain gharchive shard.
+Deliberately kept apart from the main counters:
 
-Cost: one partition-pruned query per day (a few GB scanned; the first TiB each
-month is free) with ``maximum_bytes_billed`` set, and the aggregation happens
-inside BigQuery, so only a few thousand per-author rows are downloaded.
+* ``ci_pushes`` is its own field and never folds into ``total_pushes``, so the
+  commit-message entropy denominator is not diluted by commits whose messages
+  were never published (that would trigger the bot penalty on CI users),
+* it adds no active hours and no repositories, so a 24/7 workflow cannot look
+  like round-the-clock human activity,
+* it only makes an owner rankable when the free feed saw nothing else.
 
-``python -m src.pipeline.ingest_bigquery --estimate`` prints the bytes a day
-would scan without running the query.
+Cost: one query per day over three columns of one day table (~0.05 GiB scanned),
+well inside the 1 TiB/month free tier. Missing credentials or any failure is a
+no-op, so the free gharchive shard is written exactly as before.
 """
 import json
 import os
@@ -29,8 +31,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 SQL_PATH = Path(__file__).resolve().parents[2] / "scripts" / "bigquery" / "daily_ingest.sql"
-# One day scans ~2-4 GB. 20 GiB only trips on a mistake (missing partition
-# filter), which is exactly when the free tier should stop us.
+# One day scans ~0.05 GiB. 20 GiB only trips on a mistake (no date filter).
 DEFAULT_MAX_BYTES_BILLED = 20 * 1024 ** 3
 
 
@@ -43,7 +44,7 @@ def credentials():
     try:
         return project, json.loads(raw)
     except ValueError:
-        print("BigQuery: GCP_SA_KEY is not valid JSON; attribution skipped")
+        print("BigQuery: GCP_SA_KEY is not valid JSON; CI attribution skipped")
         return None, None
 
 
@@ -51,36 +52,26 @@ def has_credentials():
     return credentials()[1] is not None
 
 
-def payload_json_expression():
-    """``payload`` as JSON text, whichever type the dataset stores the column as.
+def build_sql(target_date):
+    """SQL for one UTC day.
 
-    ``githubarchive.day`` types payload as STRING; a JSON/STRUCT column needs
-    TO_JSON_STRING. TO_JSON_STRING on a STRING quotes and escapes it, so that
-    case is unwrapped back to the raw JSON text before UNNEST sees it.
+    A single day table is named directly: the dataset also exposes views (such as
+    ``day.yesterday``) and BigQuery refuses a wildcard query over a dataset that
+    contains views, so ``day.*`` cannot be used here.
     """
-    return (
-        "IF(STARTS_WITH(TO_JSON_STRING(payload), '\"'), "
-        "JSON_EXTRACT_SCALAR(TO_JSON_STRING(payload), '$'), "
-        "TO_JSON_STRING(payload))"
-    )
-
-
-def build_sql():
+    suffix = f"{int(target_date.strftime('%Y%m%d')):08d}"
     sql = SQL_PATH.read_text(encoding="utf-8")
-    return sql.replace("{payload}", payload_json_expression())
+    return sql.replace("{table}", f"`githubarchive.day.{suffix}`")
 
 
-def job_config(suffix, max_bytes=None):
+def job_config(max_bytes=None):
     """Query config, or None when the BigQuery client library is unavailable."""
     try:
         from google.cloud import bigquery
     except ImportError:
         return None
     limit = max_bytes or os.environ.get("GCP_MAX_BYTES_BILLED") or DEFAULT_MAX_BYTES_BILLED
-    return bigquery.QueryJobConfig(
-        query_parameters=[bigquery.ScalarQueryParameter("suffix", "STRING", suffix)],
-        maximum_bytes_billed=int(limit),
-    )
+    return bigquery.QueryJobConfig(maximum_bytes_billed=int(limit))
 
 
 def _client():
@@ -94,30 +85,27 @@ def _client():
     return bigquery.Client(project=project, credentials=creds)
 
 
-def fetch_author_stats(target_date, client=None, max_bytes=None):
-    """Per-author rows for one UTC day of githubarchive.day (already aggregated)."""
+def fetch_ci_stats(target_date, client=None, max_bytes=None):
+    """Per-owner CI pushes for one UTC day (already aggregated in SQL)."""
     if client is None:
         client = _client()
         if client is None:
             return []
-    job = client.query(build_sql(), job_config=job_config(target_date.strftime("%Y%m%d"), max_bytes))
+    job = client.query(build_sql(target_date), job_config=job_config(max_bytes))
     return [dict(row) for row in job.result()]
 
 
-def merge_author_stats(rows, agg, target_date):
-    """Fold per-author rows into a day's accumulators and return a summary."""
+def merge_ci_stats(rows, agg, target_date):
+    """Fold per-owner CI pushes into a day's accumulators; returns a summary."""
     from ingest_gharchive import is_bot_login, new_user
 
-    summary = {"authors": 0, "pushes": 0, "messages": 0, "test_hits": 0}
+    summary = {"owners": 0, "pushes": 0, "repos": 0}
     for row in rows:
-        login = (row.get("author_login") or "").strip()
+        login = (row.get("owner") or "").strip()
         if not login or is_bot_login(login):
             continue
-        bot_pushes = int(row.get("bot_pushes") or 0)
-        messages = int(row.get("messages") or 0)
-        commits = int(row.get("commits") or 0)
-        test_hits = int(row.get("test_hits") or 0)
-        if not (bot_pushes or messages or commits):
+        ci = int(row.get("ci_pushes") or 0)
+        if ci < 1:
             continue
 
         user = agg.get(login)
@@ -125,47 +113,36 @@ def merge_author_stats(rows, agg, target_date):
             user = new_user(login)
             agg[login] = user
 
-        user["total_pushes"] += bot_pushes
-        # Message *counts* only: BigQuery already deduplicated them and the free
-        # feed carried none, so the set-based message total still adds up.
-        user["extra_messages"] = int(user.get("extra_messages") or 0) + messages
-        user["evidence"] += commits
-        user["test_hits"] += test_hits
+        # Separate counter on purpose: never in total_pushes (entropy
+        # denominator), hours or repos (automation heuristics).
+        user["ci_pushes"] = int(user.get("ci_pushes") or 0) + ci
         user["dates"].add(target_date)
-        if bot_pushes:
-            # Hours/repos only for the pushes the free feed lost; for human
-            # actors they are already in the shard and would double count.
-            user["hours"].extend(int(h) for h in (row.get("hours") or ()) if h is not None)
-            user["repos"].update(r for r in (row.get("repos") or ()) if r)
-        elif not user["repos"]:
-            user["repos"].update(r for r in (row.get("repos") or ()) if r)
 
-        summary["authors"] += 1
-        summary["pushes"] += bot_pushes
-        summary["messages"] += messages
-        summary["test_hits"] += test_hits
+        summary["owners"] += 1
+        summary["pushes"] += ci
+        summary["repos"] += int(row.get("repos") or 0)
     return summary
 
 
-def augment_agg(target_date, agg, client=None):
-    """Add BigQuery-only attribution to one day of accumulators. Never raises."""
+def attribute_ci_pushes(target_date, agg, client=None):
+    """Add CI-push attribution to one day of accumulators. Never raises."""
     if client is None and not has_credentials():
         return None
     try:
-        rows = fetch_author_stats(target_date, client=client)
+        rows = fetch_ci_stats(target_date, client=client)
     except Exception as exc:  # auth, quota, schema drift: keep the free ingest
-        print(f"BigQuery attribution skipped: {exc}")
+        print(f"BigQuery CI attribution skipped: {exc}")
         return None
     if not rows:
-        print("BigQuery attribution: no commit authors returned (trimmed payloads?)")
+        print("BigQuery CI attribution: no github-actions pushes returned")
         return None
-    return merge_author_stats(rows, agg, target_date)
+    return merge_ci_stats(rows, agg, target_date)
 
 
 def main(argv=None):
     import argparse
 
-    parser = argparse.ArgumentParser(description="BigQuery author attribution for one UTC day")
+    parser = argparse.ArgumentParser(description="BigQuery CI-push attribution for one UTC day")
     parser.add_argument("--date", help="UTC date to query (YYYY-MM-DD); defaults to yesterday")
     parser.add_argument("--estimate", action="store_true",
                         help="dry run: report bytes scanned instead of running")
@@ -187,21 +164,15 @@ def main(argv=None):
     )
 
     if args.estimate:
-        config = bigquery.QueryJobConfig(
-            dry_run=True,
-            use_query_cache=False,
-            query_parameters=[
-                bigquery.ScalarQueryParameter("suffix", "STRING", target.strftime("%Y%m%d"))
-            ],
-        )
-        job = client.query(build_sql(), job_config=config)
+        config = bigquery.QueryJobConfig(dry_run=True, use_query_cache=False)
+        job = client.query(build_sql(target), job_config=config)
         gib = (job.total_bytes_processed or 0) / 1024 ** 3
         print(f"{target}: this query would scan {gib:.2f} GiB (free tier: 1024 GiB/month)")
         return 0
 
-    rows = fetch_author_stats(target, client=client)
-    bot_pushes = sum(int(r.get("bot_pushes") or 0) for r in rows)
-    print(f"{target}: {len(rows)} commit authors, {bot_pushes} bot-pushed commit sets")
+    rows = fetch_ci_stats(target, client=client)
+    pushes = sum(int(r.get("ci_pushes") or 0) for r in rows)
+    print(f"{target}: {len(rows)} owners, {pushes} CI-attributed pushes")
     return 0
 
 
