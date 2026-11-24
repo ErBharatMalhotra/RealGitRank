@@ -4,10 +4,10 @@
   "primary_language": "C#",
   "total_pushes": 7,
   "merged_prs": 6,
-  "s_pr": 99.24,
+  "s_pr": 99.33,
   "s_quality": 50.0,
-  "s_impact": 99.71,
-  "s_consistency": 96.76,
+  "s_impact": 99.72,
+  "s_consistency": 96.28,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 866.7,
+  "rank_score": 866.4,
   "active_repos_touched": 5,
   "pr_reviews": 1,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 464,
+  "rank": 507,
   "avatar_url": "https://avatars.githubusercontent.com/u/165835485?u=1f84d9b01ea55935cab1a4737bc750279b83df9b&v=4",
   "bio": "Networking performance researching",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 407,
   "prev_score": 867.6,
-  "rank_delta": -57,
-  "score_delta": -0.9,
+  "rank_delta": -100,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "MDA2AV/HttpArena",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 464,
-      "s": 866.7
+      "r": 507,
+      "s": 866.4
     }
   ]
 }

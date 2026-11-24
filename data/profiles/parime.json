@@ -4,10 +4,10 @@
   "primary_language": "PHP",
   "total_pushes": 52,
   "merged_prs": 11,
-  "s_pr": 99.68,
+  "s_pr": 99.72,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 99.13,
+  "s_impact": 99.15,
+  "s_consistency": 98.97,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 173,
+  "rank": 170,
   "avatar_url": "https://avatars.githubusercontent.com/u/80900142?v=4",
   "bio": "Administrateur syst\u00e8mes, r\u00e9seaux et s\u00e9curit\u00e9, avec 7 ans d'exp\u00e9rience dans la construction et l'\u00e9volution du SI d'une structure de 400+ collaborateurs r\u00e9partis ",
   "company": "",
@@ -58,7 +58,7 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 173,
+      "r": 170,
       "s": 870.4
     }
   ]

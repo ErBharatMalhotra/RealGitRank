@@ -4,10 +4,10 @@
   "primary_language": "C++",
   "total_pushes": 11,
   "merged_prs": 7,
-  "s_pr": 99.65,
+  "s_pr": 99.69,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 96.99,
+  "s_impact": 99.15,
+  "s_consistency": 96.49,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 867.1,
+  "rank_score": 866.5,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 422,
+  "rank": 496,
   "avatar_url": "https://avatars.githubusercontent.com/u/3162379?u=4dbd9940f93efe8d688c877641a807c2c110e91f&v=4",
   "bio": "I've been fabulous through to find my tattered name.",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 860,
   "prev_score": 860.4,
-  "rank_delta": 438,
-  "score_delta": 6.7,
+  "rank_delta": 364,
+  "score_delta": 6.1,
   "counted_merges": [
     {
       "repo": "getdroppen/droppen",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 422,
-      "s": 867.1
+      "r": 496,
+      "s": 866.5
     }
   ]
 }

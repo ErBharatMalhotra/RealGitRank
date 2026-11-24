@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 13,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.81,
-  "s_consistency": 99.26,
+  "s_impact": 99.82,
+  "s_consistency": 99.1,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 12,
   "window_days": 30,
-  "rank_score": 864.0,
+  "rank_score": 864.9,
   "active_repos_touched": 6,
   "pr_reviews": 2,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 633,
+  "rank": 609,
   "avatar_url": "https://avatars.githubusercontent.com/u/108589275?u=395a558d6ef7f10195ba7f787e31901a29a24eef&v=4",
   "bio": "Teacher of CS, maths & social sciences. Maintainer of Yuvomi, the self-hosted family planner. AI literacy & digital sovereignty in education.",
   "company": "",
@@ -50,8 +50,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 633,
-      "s": 864.0
+      "r": 609,
+      "s": 864.9
     }
   ]
 }

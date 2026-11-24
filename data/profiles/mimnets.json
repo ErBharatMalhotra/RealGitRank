@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 2,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 97.37,
+  "s_impact": 98.72,
+  "s_consistency": 97.12,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 5,
   "window_days": 30,
-  "rank_score": 858.3,
+  "rank_score": 859.2,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 940,
+  "rank": 949,
   "avatar_url": "https://avatars.githubusercontent.com/u/5805652?u=4fc7470e0be2f80602d66b4b6116ac0422c73e88&v=4",
   "bio": "Apple Certified Technician | IT Support Specialists",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 921,
   "prev_score": 859.4,
-  "rank_delta": -19,
-  "score_delta": -1.1,
+  "rank_delta": -28,
+  "score_delta": -0.2,
   "counted_merges": [
     {
       "repo": "mimnets/vcl-assurer-group",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 940,
-      "s": 858.3
+      "r": 949,
+      "s": 859.2
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 8,
   "merged_prs": 5,
-  "s_pr": 98.84,
+  "s_pr": 98.98,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 97.77,
+  "s_impact": 98.72,
+  "s_consistency": 97.52,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 864.2,
+  "rank_score": 864.5,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 624,
+  "rank": 626,
   "avatar_url": "https://avatars.githubusercontent.com/u/13938178?u=2d1d15635498abbab0aefe0314b08c5cf4c82ae8&v=4",
   "bio": "AI Researcher",
   "company": "American Express",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 939,
   "prev_score": 859.0,
-  "rank_delta": 315,
-  "score_delta": 5.2,
+  "rank_delta": 313,
+  "score_delta": 5.5,
   "counted_merges": [
     {
       "repo": "selimfirat/pysad",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 624,
-      "s": 864.2
+      "r": 626,
+      "s": 864.5
     }
   ]
 }

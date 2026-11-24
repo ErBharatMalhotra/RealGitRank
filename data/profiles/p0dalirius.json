@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 2,
   "merged_prs": 10,
-  "s_pr": 99.82,
+  "s_pr": 99.85,
   "s_quality": 50.0,
-  "s_impact": 99.56,
-  "s_consistency": 90.97,
+  "s_impact": 99.58,
+  "s_consistency": 90.24,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 859.8,
+  "rank_score": 858.8,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 846,
+  "rank": 986,
   "avatar_url": "https://avatars.githubusercontent.com/u/79218792?u=f6b0f27134df6083787490cfcd2ccfdbd5eb70d6&v=4",
   "bio": "Senior Security Researcher @SpecterOps, Speaker, 5x Microsoft MVP",
   "company": "@SpecterOps",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 831,
   "prev_score": 861.0,
-  "rank_delta": -15,
-  "score_delta": -1.2,
+  "rank_delta": -155,
+  "score_delta": -2.2,
   "counted_merges": [
     {
       "repo": "TheManticoreProject/Manticore",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 846,
-      "s": 859.8
+      "r": 986,
+      "s": 858.8
     }
   ]
 }

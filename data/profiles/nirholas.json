@@ -4,10 +4,10 @@
   "primary_language": "HTML",
   "total_pushes": 8,
   "merged_prs": 9,
-  "s_pr": 99.54,
+  "s_pr": 99.6,
   "s_quality": 50.0,
-  "s_impact": 99.65,
-  "s_consistency": 98.19,
+  "s_impact": 99.67,
+  "s_consistency": 97.9,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 869.8,
+  "rank_score": 869.6,
   "active_repos_touched": 32,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 219,
+  "rank": 229,
   "avatar_url": "https://avatars.githubusercontent.com/u/22895867?u=56ece328987410ef7987e2e9b2c9247f735bf751&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 135,
   "prev_score": 871.0,
-  "rank_delta": -84,
-  "score_delta": -1.2,
+  "rank_delta": -94,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "nirholas/concierge-mcp",
@@ -87,8 +87,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 219,
-      "s": 869.8
+      "r": 229,
+      "s": 869.6
     }
   ]
 }

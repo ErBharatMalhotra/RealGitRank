@@ -4,10 +4,10 @@
   "primary_language": "Swift",
   "total_pushes": 3,
   "merged_prs": 2,
-  "s_pr": 96.51,
+  "s_pr": 96.95,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.98,
+  "s_impact": 99.15,
+  "s_consistency": 98.83,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 859.0,
+  "rank_score": 860.4,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 896,
+  "rank": 883,
   "avatar_url": "https://avatars.githubusercontent.com/u/149026?u=05fe12750d4f2b3e7c81edc65b8e1f44bd593a0c&v=4",
   "bio": "Founder @openscout-app, ex @Meta",
   "company": "@openscout-app",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 685,
   "prev_score": 863.5,
-  "rank_delta": -211,
-  "score_delta": -4.5,
+  "rank_delta": -198,
+  "score_delta": -3.1,
   "counted_merges": [
     {
       "repo": "arach/scout",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 896,
-      "s": 859.0
+      "r": 883,
+      "s": 860.4
     }
   ]
 }

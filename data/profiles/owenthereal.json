@@ -4,10 +4,10 @@
   "primary_language": "Go",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 96.73,
+  "s_impact": 99.15,
+  "s_consistency": 96.25,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 4,
   "window_days": 30,
-  "rank_score": 858.4,
+  "rank_score": 859.0,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 933,
+  "rank": 964,
   "avatar_url": "https://avatars.githubusercontent.com/u/169064?u=929f3c29135bc8897007d7b0fd49e2b7a4a4ea2d&v=4",
   "bio": "Hacker",
   "company": "",
@@ -35,6 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
   "counted_merges": [
@@ -50,8 +51,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 933,
-      "s": 858.4
+      "r": 964,
+      "s": 859.0
     }
   ]
 }

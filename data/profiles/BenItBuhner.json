@@ -4,10 +4,10 @@
   "primary_language": "Java",
   "total_pushes": 3,
   "merged_prs": 6,
-  "s_pr": 99.1,
+  "s_pr": 99.21,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.86,
+  "s_impact": 99.15,
+  "s_consistency": 97.6,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 866.4,
+  "rank_score": 866.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 486,
+  "rank": 500,
   "avatar_url": "https://avatars.githubusercontent.com/u/136861830?u=2b2bc9d339179677377239730b980561d19f50bb&v=4",
   "bio": "19 y/o | Making some neat little projects and helping contribute to the best community on Earth.",
   "company": "",
@@ -35,12 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 433,
   "prev_score": 867.3,
-  "rank_delta": -53,
-  "score_delta": -0.9,
+  "rank_delta": -67,
+  "score_delta": -0.8,
   "counted_merges": [
     {
       "repo": "BenItBuhner/Codex-Meter",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 486,
-      "s": 866.4
+      "r": 500,
+      "s": 866.5
     }
   ]
 }

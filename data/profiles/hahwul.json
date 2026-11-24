@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 34,
   "merged_prs": 9,
-  "s_pr": 99.65,
+  "s_pr": 99.69,
   "s_quality": 50.0,
-  "s_impact": 99.92,
-  "s_consistency": 98.59,
+  "s_impact": 99.93,
+  "s_consistency": 98.28,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 871.5,
+  "rank_score": 871.2,
   "active_repos_touched": 13,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 101,
+  "rank": 112,
   "avatar_url": "https://avatars.githubusercontent.com/u/13212227?u=e4ca40c1aa41990f72475bebee84c860b631a30c&v=4",
   "bio": "Security Engineer, Developer and H4cker.",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 4,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 21,
   "prev_score": 872.7,
-  "rank_delta": -80,
-  "score_delta": -1.2,
+  "rank_delta": -91,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "hahwul/gori",
@@ -67,8 +68,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 101,
-      "s": 871.5
+      "r": 112,
+      "s": 871.2
     }
   ]
 }

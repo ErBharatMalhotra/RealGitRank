@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 9,
   "merged_prs": 5,
-  "s_pr": 99.38,
+  "s_pr": 99.46,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.66,
+  "s_impact": 99.15,
+  "s_consistency": 98.35,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 868.6,
+  "rank_score": 868.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 315,
+  "rank": 324,
   "avatar_url": "https://avatars.githubusercontent.com/u/45992437?u=18bd400e57da620f57c0adab10e57cf73eba5fa8&v=4",
   "bio": "Thinking complicates, doing simplifies.",
   "company": "@langbot-app",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 495,
   "prev_score": 866.5,
-  "rank_delta": 180,
-  "score_delta": 2.1,
+  "rank_delta": 171,
+  "score_delta": 2.0,
   "counted_merges": [
     {
       "repo": "langbot-app/LangBot",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 315,
-      "s": 868.6
+      "r": 324,
+      "s": 868.5
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 3,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
   "s_impact": 99.98,
-  "s_consistency": 97.24,
+  "s_consistency": 96.72,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 592,
+  "rank": 620,
   "avatar_url": "https://avatars.githubusercontent.com/u/16354517?u=5593eb2c8d07fbda26375f32b032701912b0e682&v=4",
   "bio": "",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 542,
   "prev_score": 865.7,
-  "rank_delta": -50,
+  "rank_delta": -78,
   "score_delta": -1.0,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 592,
+      "r": 620,
       "s": 864.7
     }
   ]

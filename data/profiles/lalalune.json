@@ -6,8 +6,8 @@
   "merged_prs": 124,
   "s_pr": 100.0,
   "s_quality": 50.0,
-  "s_impact": 99.89,
-  "s_consistency": 98.86,
+  "s_impact": 99.9,
+  "s_consistency": 98.72,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 26,
   "window_days": 30,
-  "rank_score": 873.0,
+  "rank_score": 872.8,
   "active_repos_touched": 18,
   "pr_reviews": 8,
   "issue_comments": 37,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 25,
+  "rank": 26,
   "avatar_url": "https://avatars.githubusercontent.com/u/18633264?u=e2e906c3712c2506ebfa98df01c2cfdc50050b30&v=4",
   "bio": "Creator of elizaOS",
   "company": "Eliza Research",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 35,
   "prev_score": 872.3,
-  "rank_delta": 10,
-  "score_delta": 0.7,
+  "rank_delta": 9,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "lalalune/hyperliquid-source",
@@ -91,8 +91,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 25,
-      "s": 873.0
+      "r": 26,
+      "s": 872.8
     }
   ]
 }

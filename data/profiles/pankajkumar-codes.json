@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 10,
   "merged_prs": 5,
-  "s_pr": 98.84,
+  "s_pr": 98.98,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.98,
+  "s_impact": 99.15,
+  "s_consistency": 97.71,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 865.7,
+  "rank_score": 865.9,
   "active_repos_touched": 5,
   "pr_reviews": 3,
   "issue_comments": 7,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 532,
+  "rank": 547,
   "avatar_url": "https://avatars.githubusercontent.com/u/13355077?u=cd54e41ee118c9dc3876749522c0a6e8b4ea5017&v=4",
   "bio": "",
   "company": "",
@@ -35,12 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 475,
   "prev_score": 866.7,
-  "rank_delta": -57,
-  "score_delta": -1.0,
+  "rank_delta": -72,
+  "score_delta": -0.8,
   "counted_merges": [
     {
       "repo": "pankajkumar-codes/api-test-pilot-skill",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 532,
-      "s": 865.7
+      "r": 547,
+      "s": 865.9
     }
   ]
 }

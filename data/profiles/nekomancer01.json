@@ -4,10 +4,10 @@
   "primary_language": "C",
   "total_pushes": 10,
   "merged_prs": 9,
-  "s_pr": 99.54,
+  "s_pr": 99.6,
   "s_quality": 50.0,
-  "s_impact": 99.65,
-  "s_consistency": 98.25,
+  "s_impact": 99.67,
+  "s_consistency": 97.95,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 869.9,
+  "rank_score": 869.7,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 208,
+  "rank": 220,
   "avatar_url": "https://avatars.githubusercontent.com/u/5332082?u=1cba09d96708b59b770268b3c8f40615a3e6555f&v=4",
   "bio": "Engine & reverse-engineering programmer. Porting Dark Souls Remastered to PS2 in C and VU1 asm.",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 486,
   "prev_score": 866.6,
-  "rank_delta": 278,
-  "score_delta": 3.3,
+  "rank_delta": 266,
+  "score_delta": 3.1,
   "counted_merges": [
     {
       "repo": "nekomancer01/DarkSoulsPS2",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 208,
-      "s": 869.9
+      "r": 220,
+      "s": 869.7
     }
   ]
 }

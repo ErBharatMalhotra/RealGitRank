@@ -4,10 +4,10 @@
   "primary_language": "Go",
   "total_pushes": 3,
   "merged_prs": 2,
-  "s_pr": 95.55,
+  "s_pr": 96.1,
   "s_quality": 50.0,
-  "s_impact": 99.84,
-  "s_consistency": 99.92,
+  "s_impact": 99.85,
+  "s_consistency": 99.88,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 858.9,
+  "rank_score": 860.8,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 899,
+  "rank": 850,
   "avatar_url": "https://avatars.githubusercontent.com/u/2492783?u=2c6d92f8faacd53cdf2d5d135a6f7210bedf0a84&v=4",
   "bio": "Microsoft MVP | GitHub Star | GitKraken Ambassador | Code | Kids | Straight Edge | Running | Rollerblading",
   "company": "",
@@ -35,6 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
   "counted_merges": [
@@ -50,8 +51,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 899,
-      "s": 858.9
+      "r": 850,
+      "s": 860.8
     }
   ]
 }

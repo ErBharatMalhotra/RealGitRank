@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 3,
   "merged_prs": 6,
-  "s_pr": 99.1,
+  "s_pr": 99.21,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.87,
+  "s_impact": 99.15,
+  "s_consistency": 97.61,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 866.4,
+  "rank_score": 866.5,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 483,
+  "rank": 497,
   "avatar_url": "https://avatars.githubusercontent.com/u/523952?u=443c48aae6c47d4b3bc2bc6c5135787dfc02ab76&v=4",
   "bio": "for love of the game",
   "company": "",
@@ -35,12 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 751,
   "prev_score": 862.3,
-  "rank_delta": 268,
-  "score_delta": 4.1,
+  "rank_delta": 254,
+  "score_delta": 4.2,
   "counted_merges": [
     {
       "repo": "shuv1337/s2code",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 483,
-      "s": 866.4
+      "r": 497,
+      "s": 866.5
     }
   ]
 }

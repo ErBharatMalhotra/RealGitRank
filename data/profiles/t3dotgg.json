@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 25,
   "merged_prs": 5,
-  "s_pr": 99.38,
+  "s_pr": 99.46,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 98.09,
+  "s_consistency": 97.81,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 869.9,
+  "rank_score": 869.8,
   "active_repos_touched": 2,
   "pr_reviews": 10,
   "issue_comments": 8,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 217,
+  "rank": 219,
   "avatar_url": "https://avatars.githubusercontent.com/u/6751787?u=e0c12e160dc03a1b0164b73de66b917e239cb6b4&v=4",
   "bio": "I'm just here for the vibes, man",
   "company": "CEO @ Ping.gg",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 157,
   "prev_score": 870.8,
-  "rank_delta": -60,
-  "score_delta": -0.9,
+  "rank_delta": -62,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "pingdotgg/t3code",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 217,
-      "s": 869.9
+      "r": 219,
+      "s": 869.8
     }
   ]
 }

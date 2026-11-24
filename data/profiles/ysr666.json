@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 8,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.76,
-  "s_consistency": 98.62,
+  "s_impact": 99.77,
+  "s_consistency": 98.31,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 862.9,
+  "rank_score": 863.6,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 687,
+  "rank": 679,
   "avatar_url": "https://avatars.githubusercontent.com/u/77105194?u=49feea52bc5f396778d54ec87286339b6c7160f2&v=4",
   "bio": "Xi'an Jiaotong University, Youth Gifted Program",
   "company": "Xi'an Jiaotong University",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 638,
   "prev_score": 864.3,
-  "rank_delta": -49,
-  "score_delta": -1.4,
+  "rank_delta": -41,
+  "score_delta": -0.7,
   "counted_merges": [
     {
       "repo": "ysr666/dsh-vision-router",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 687,
-      "s": 862.9
+      "r": 679,
+      "s": 863.6
     }
   ]
 }

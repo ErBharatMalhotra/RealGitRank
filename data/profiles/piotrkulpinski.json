@@ -4,10 +4,10 @@
   "primary_language": "Astro",
   "total_pushes": 1,
   "merged_prs": 2,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.03,
+  "s_impact": 99.15,
+  "s_consistency": 96.53,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 3,
   "window_days": 30,
-  "rank_score": 858.9,
+  "rank_score": 859.4,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 898,
+  "rank": 935,
   "avatar_url": "https://avatars.githubusercontent.com/u/358412?v=4",
   "bio": "I build and run my own products: Highseat, OpenAlternative, Dirstarter and Revinel.",
   "company": "",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 898,
-      "s": 858.9
+      "r": 935,
+      "s": 859.4
     }
   ]
 }

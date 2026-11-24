@@ -4,10 +4,10 @@
   "primary_language": "Shell",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.98,
-  "s_consistency": 95.66,
+  "s_impact": 99.99,
+  "s_consistency": 95.29,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 859.0,
+  "rank_score": 859.6,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 894,
+  "rank": 924,
   "avatar_url": "https://avatars.githubusercontent.com/u/34001140?u=67ca645cd17b78cb222fd2aafc7c3bb709f43840&v=4",
   "bio": "The only person who can change you is YOU! BUUUT With an AI. Plus, open for Impact & Partnerships* ",
   "company": "",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 894,
-      "s": 859.0
+      "r": 924,
+      "s": 859.6
     }
   ]
 }

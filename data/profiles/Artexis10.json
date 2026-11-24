@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 24,
   "merged_prs": 11,
-  "s_pr": 99.68,
+  "s_pr": 99.72,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 99.08,
+  "s_impact": 99.15,
+  "s_consistency": 98.93,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 184,
+  "rank": 180,
   "avatar_url": "https://avatars.githubusercontent.com/u/54939745?u=50b39f3ae9ef0e59da4ff35f148369effd02e0c3&v=4",
   "bio": "Founder at Substrate Systems. Building local-first infrastructure, AI memory and source-grounded systems.",
   "company": "Substrate Systems O\u00dc",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 228,
   "prev_score": 869.9,
-  "rank_delta": 44,
+  "rank_delta": 48,
   "score_delta": 0.4,
   "counted_merges": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 184,
+      "r": 180,
       "s": 870.3
     }
   ]

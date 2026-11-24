@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 98.59,
+  "s_pr": 98.76,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 95.68,
+  "s_impact": 99.15,
+  "s_consistency": 95.31,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 3,
   "window_days": 30,
-  "rank_score": 861.4,
+  "rank_score": 861.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 760,
+  "rank": 799,
   "avatar_url": "https://avatars.githubusercontent.com/u/3971271?u=6825b424ca5f462f20148c41cdbbb14de8ca6612&v=4",
   "bio": "Design Engineer. I \u2764\ufe0f WebXR",
   "company": "@topotal ",
@@ -50,8 +50,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 760,
-      "s": 861.4
+      "r": 799,
+      "s": 861.5
     }
   ]
 }

@@ -6,8 +6,8 @@
   "merged_prs": 28,
   "s_pr": 99.98,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.38,
+  "s_impact": 99.15,
+  "s_consistency": 98.08,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 870.3,
+  "rank_score": 869.9,
   "active_repos_touched": 2,
   "pr_reviews": 23,
   "issue_comments": 96,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 182,
+  "rank": 205,
   "avatar_url": "https://avatars.githubusercontent.com/u/4018618?u=2cf25add1d778638b7e7dd32b950944a80bfbb77&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 105,
   "prev_score": 871.4,
-  "rank_delta": -77,
-  "score_delta": -1.1,
+  "rank_delta": -100,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "okou-ai/okou",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 182,
-      "s": 870.3
+      "r": 205,
+      "s": 869.9
     }
   ]
 }

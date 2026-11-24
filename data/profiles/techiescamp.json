@@ -1,0 +1,57 @@
+{
+  "username": "techiescamp",
+  "country": "India",
+  "primary_language": "HCL",
+  "total_pushes": 2,
+  "merged_prs": 2,
+  "s_pr": 96.1,
+  "s_quality": 50.0,
+  "s_impact": 99.91,
+  "s_consistency": 98.57,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 859.0,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 3,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 970,
+  "avatar_url": "https://avatars.githubusercontent.com/u/106984297?u=c673a2b4f20f204e6f99c6358cdebf21678834c3&v=4",
+  "bio": "Practical DevOps Learning Platform -  Gain access to structured learning paths, ready-to-use DevOps IaC and hands-on tutorials for popular DevOps tools.",
+  "company": "DevOpscube",
+  "location": "Bangalore",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "techiescamp/cka-certification-guide",
+      "prs": 1
+    },
+    {
+      "repo": "techiescamp/mlops-for-devops",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 970,
+      "s": 859.0
+    }
+  ]
+}

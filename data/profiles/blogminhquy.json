@@ -4,19 +4,19 @@
   "primary_language": "Python",
   "total_pushes": 19,
   "merged_prs": 11,
-  "s_pr": 99.68,
+  "s_pr": 99.72,
   "s_quality": 50.0,
-  "s_impact": 99.94,
-  "s_consistency": 99.84,
+  "s_impact": 99.95,
+  "s_consistency": 99.6,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 17,
+  "active_days": 18,
   "window_days": 30,
-  "rank_score": 873.5,
+  "rank_score": 873.3,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 11,
+  "rank": 12,
   "avatar_url": "https://avatars.githubusercontent.com/u/280610439?u=be47f088066f89073b554da140711d21d6c8c40c&v=4",
   "bio": "",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 2,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 25,
   "prev_score": 872.6,
-  "rank_delta": 14,
-  "score_delta": 0.9,
+  "rank_delta": 13,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "blogminhquy/javis-os",
@@ -59,8 +60,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 11,
-      "s": 873.5
+      "r": 12,
+      "s": 873.3
     }
   ]
 }

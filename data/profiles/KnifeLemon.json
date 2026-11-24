@@ -4,10 +4,10 @@
   "primary_language": "C#",
   "total_pushes": 11,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
   "s_impact": 100.0,
-  "s_consistency": 98.09,
+  "s_consistency": 97.81,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 29,
   "window_days": 30,
-  "rank_score": 866.0,
+  "rank_score": 866.4,
   "active_repos_touched": 4,
   "pr_reviews": 3,
   "issue_comments": 9,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 517,
+  "rank": 511,
   "avatar_url": "https://avatars.githubusercontent.com/u/13937016?v=4",
   "bio": "",
   "company": "",
@@ -35,12 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 449,
   "prev_score": 867.1,
-  "rank_delta": -68,
-  "score_delta": -1.1,
+  "rank_delta": -62,
+  "score_delta": -0.7,
   "counted_merges": [
     {
       "repo": "KnifeLemon/Filee",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 517,
-      "s": 866.0
+      "r": 511,
+      "s": 866.4
     }
   ]
 }

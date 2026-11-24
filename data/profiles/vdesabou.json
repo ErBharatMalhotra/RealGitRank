@@ -4,30 +4,30 @@
   "primary_language": "PHP",
   "total_pushes": 9,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 98.52,
+  "s_impact": 98.72,
+  "s_consistency": 99.65,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 7,
+  "active_days": 8,
   "window_days": 30,
-  "rank_score": 863.3,
+  "rank_score": 865.9,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 4,
   "releases": 0,
   "stars_fraud_filtered": 0,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 664,
+  "rank": 550,
   "avatar_url": "https://avatars.githubusercontent.com/u/4061923?u=8079f4d382f7015adae3878b772130a163f433ab&v=4",
   "bio": "Staff Technical Support Engineer @confluentinc\r\n\r\nKafka Connect SME",
   "company": "@confluentinc ",
@@ -35,13 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 1,
-  "percentile": 99.9,
+  "ci_pushes": 3,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 794,
   "prev_score": 861.6,
-  "rank_delta": 130,
-  "score_delta": 1.7,
+  "rank_delta": 244,
+  "score_delta": 4.3,
   "counted_merges": [
     {
       "repo": "vdesabou/kafka-docker-playground",
@@ -56,8 +56,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 664,
-      "s": 863.3
+      "r": 550,
+      "s": 865.9
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 14,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.0,
+  "s_impact": 99.15,
+  "s_consistency": 96.5,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 858.8,
+  "rank_score": 859.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 906,
+  "rank": 943,
   "avatar_url": "https://avatars.githubusercontent.com/u/4601965?u=faf4e4af76459cb1cba644fa54d23f0f2191d341&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 738,
   "prev_score": 862.6,
-  "rank_delta": -168,
-  "score_delta": -3.8,
+  "rank_delta": -205,
+  "score_delta": -3.3,
   "counted_merges": [
     {
       "repo": "flyxl/datazen",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 906,
-      "s": 858.8
+      "r": 943,
+      "s": 859.3
     }
   ]
 }

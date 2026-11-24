@@ -4,19 +4,19 @@
   "primary_language": "Python",
   "total_pushes": 182,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.01,
+  "s_impact": 99.15,
+  "s_consistency": 97.74,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 9,
   "window_days": 30,
-  "rank_score": 863.7,
+  "rank_score": 864.1,
   "active_repos_touched": 13,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 649,
+  "rank": 652,
   "avatar_url": "https://avatars.githubusercontent.com/u/213859472?u=e8717b0d9f121000e5d61c1b704a751399b6dda0&v=4",
   "bio": "",
   "company": "https://github.com/orgs/intent-solutions-io/repositories",
@@ -35,13 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 1,
+  "ci_pushes": 2,
   "percentile": 99.9,
   "tier": "Elite",
   "prev_rank": 844,
   "prev_score": 860.7,
-  "rank_delta": 195,
-  "score_delta": 3.0,
+  "rank_delta": 192,
+  "score_delta": 3.4,
   "counted_merges": [
     {
       "repo": "jeremylongshore/bobs-big-brain-registrar",
@@ -68,8 +68,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 649,
-      "s": 863.7
+      "r": 652,
+      "s": 864.1
     }
   ]
 }

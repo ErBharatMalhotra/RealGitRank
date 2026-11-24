@@ -4,10 +4,10 @@
   "primary_language": "Shell",
   "total_pushes": 74,
   "merged_prs": 11,
-  "s_pr": 99.84,
+  "s_pr": 99.86,
   "s_quality": 50.0,
-  "s_impact": 99.71,
-  "s_consistency": 99.93,
+  "s_impact": 99.72,
+  "s_consistency": 99.89,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 9,
+  "rank": 2,
   "avatar_url": "https://avatars.githubusercontent.com/u/491117?u=6dc89fc1d5279d2f343cd4a0ddc8af8bb101c2a3&v=4",
   "bio": "",
   "company": "",
@@ -35,11 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 13,
   "prev_score": 872.9,
-  "rank_delta": 4,
+  "rank_delta": 11,
   "score_delta": 0.7,
   "counted_merges": [
     {
@@ -87,7 +88,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 9,
+      "r": 2,
       "s": 873.6
     }
   ]

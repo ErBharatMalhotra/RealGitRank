@@ -1,0 +1,66 @@
+{
+  "username": "muaaziqbalvip",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "s_pr": 98.29,
+  "s_quality": 50.0,
+  "s_impact": 99.77,
+  "s_consistency": 99.92,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 868.3,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 4,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 342,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "ci_pushes": 1923,
+  "percentile": 100.0,
+  "tier": "Elite",
+  "prev_rank": 611,
+  "prev_score": 864.6,
+  "rank_delta": 269,
+  "score_delta": 3.7,
+  "counted_merges": [
+    {
+      "repo": "Mizanora-org/MIZANORA",
+      "prs": 1
+    },
+    {
+      "repo": "muaaziqbalvip/BarakatWave-TV",
+      "prs": 1
+    },
+    {
+      "repo": "muaaziqbalvip/SIRAVEX",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 342,
+      "s": 868.3
+    }
+  ]
+}

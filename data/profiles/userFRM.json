@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 56,
   "merged_prs": 13,
-  "s_pr": 99.76,
+  "s_pr": 99.79,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 99.04,
+  "s_impact": 99.15,
+  "s_consistency": 98.89,
   "measured": {
     "delivery": true,
     "code_health": true,

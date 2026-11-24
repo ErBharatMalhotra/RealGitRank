@@ -4,10 +4,10 @@
   "primary_language": "C++",
   "total_pushes": 3,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
-  "s_impact": 99.95,
-  "s_consistency": 98.66,
+  "s_impact": 99.96,
+  "s_consistency": 98.35,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 866.8,
+  "rank_score": 867.1,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 454,
+  "rank": 444,
   "avatar_url": "https://avatars.githubusercontent.com/u/87016106?u=3018e7d18d1530c149acb9f1157787d6af712fec&v=4",
   "bio": "haaaaaaaaa",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 377,
   "prev_score": 868.0,
-  "rank_delta": -77,
-  "score_delta": -1.2,
+  "rank_delta": -67,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "mg-chao/snow-apps",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 454,
-      "s": 866.8
+      "r": 444,
+      "s": 867.1
     }
   ]
 }

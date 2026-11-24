@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
   "s_impact": 100.0,
-  "s_consistency": 99.95,
+  "s_consistency": 99.93,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 30,
   "window_days": 30,
-  "rank_score": 865.5,
+  "rank_score": 866.6,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 551,
+  "rank": 491,
   "avatar_url": "https://avatars.githubusercontent.com/u/18239147?u=2fa61f3304043dfc8da872ac7b171f07c390fd52&v=4",
   "bio": "Machine Learning, Computer Science, Mathematics, Music",
   "company": "",
@@ -35,12 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 547,
   "prev_score": 865.7,
-  "rank_delta": -4,
-  "score_delta": -0.2,
+  "rank_delta": 56,
+  "score_delta": 0.9,
   "counted_merges": [
     {
       "repo": "Vincentwei1021/Vincentwei1021",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 551,
-      "s": 865.5
+      "r": 491,
+      "s": 866.6
     }
   ]
 }

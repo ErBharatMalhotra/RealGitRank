@@ -4,10 +4,10 @@
   "primary_language": "Objective-C",
   "total_pushes": 7,
   "merged_prs": 7,
-  "s_pr": 99.65,
+  "s_pr": 99.69,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 95.44,
+  "s_impact": 99.15,
+  "s_consistency": 95.09,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 864.7,
+  "rank_score": 864.4,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 590,
+  "rank": 633,
   "avatar_url": "https://avatars.githubusercontent.com/u/219689?u=9c4829060b602cc684109440c0614b3a756afd13&v=4",
   "bio": "iOS/macOS developer",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 516,
   "prev_score": 866.1,
-  "rank_delta": -74,
-  "score_delta": -1.4,
+  "rank_delta": -117,
+  "score_delta": -1.7,
   "counted_merges": [
     {
       "repo": "CupThread/CupThreadAndroidSDK",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 590,
-      "s": 864.7
+      "r": 633,
+      "s": 864.4
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 2,
   "merged_prs": 6,
-  "s_pr": 99.1,
+  "s_pr": 99.21,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 95.64,
+  "s_impact": 99.15,
+  "s_consistency": 95.27,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 863.1,
+  "rank_score": 863.0,
   "active_repos_touched": 5,
   "pr_reviews": 3,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 672,
+  "rank": 712,
   "avatar_url": "https://avatars.githubusercontent.com/u/42838667?u=8c016bba1f8370e22a173dce326e0add155f18fb&v=4",
   "bio": "Senior Frontend Engineer at Constructor Tech",
   "company": "Constructor Tech",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 634,
   "prev_score": 864.3,
-  "rank_delta": -38,
-  "score_delta": -1.2,
+  "rank_delta": -78,
+  "score_delta": -1.3,
   "counted_merges": [
     {
       "repo": "itechmeat/agentic-playbooks",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 672,
-      "s": 863.1
+      "r": 712,
+      "s": 863.0
     }
   ]
 }

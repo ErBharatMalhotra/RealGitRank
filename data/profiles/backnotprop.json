@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 47,
   "merged_prs": 11,
-  "s_pr": 99.68,
+  "s_pr": 99.72,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 98.85,
+  "s_consistency": 98.72,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 28,
   "window_days": 30,
-  "rank_score": 872.2,
+  "rank_score": 872.1,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 70,
+  "rank": 68,
   "avatar_url": "https://avatars.githubusercontent.com/u/7244317?u=ca99a5717dd0ce83ad6e9f39a00489f84e501fbe&v=4",
   "bio": "github is the fun stuff. day to day is complex critical systems, mostly involving AI.",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 100,
   "prev_score": 871.5,
-  "rank_delta": 30,
-  "score_delta": 0.7,
+  "rank_delta": 32,
+  "score_delta": 0.6,
   "counted_merges": [
     {
       "repo": "backnotprop/plannotator",
@@ -60,8 +60,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 70,
-      "s": 872.2
+      "r": 68,
+      "s": 872.1
     }
   ]
 }

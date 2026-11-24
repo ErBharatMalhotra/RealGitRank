@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 6,
   "merged_prs": 5,
-  "s_pr": 98.84,
+  "s_pr": 98.98,
   "s_quality": 50.0,
   "s_impact": 99.91,
-  "s_consistency": 97.88,
+  "s_consistency": 97.62,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 867.5,
+  "rank_score": 867.7,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 395,
+  "rank": 396,
   "avatar_url": "https://avatars.githubusercontent.com/u/61092457?u=5cdbac9662aefbaa806cd0c848cd8b33ae22e4fd&v=4",
   "bio": "Network engineer focused on Linux and virtualization technologies. ",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 343,
   "prev_score": 868.4,
-  "rank_delta": -52,
-  "score_delta": -0.9,
+  "rank_delta": -53,
+  "score_delta": -0.7,
   "counted_merges": [
     {
       "repo": "domsvoboda/nexus-runtime",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 395,
-      "s": 867.5
+      "r": 396,
+      "s": 867.7
     }
   ]
 }

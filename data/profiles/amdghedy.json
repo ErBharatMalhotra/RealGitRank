@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 22,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.45,
+  "s_impact": 99.15,
+  "s_consistency": 98.15,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 861.0,
+  "rank_score": 861.8,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 787,
+  "rank": 785,
   "avatar_url": "https://avatars.githubusercontent.com/u/43811322?u=7dff029dfa1a96cec84edbe3afaec5e437306872&v=4",
   "bio": "",
   "company": "",
@@ -50,8 +50,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 787,
-      "s": 861.0
+      "r": 785,
+      "s": 861.8
     }
   ]
 }

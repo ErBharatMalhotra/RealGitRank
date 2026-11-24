@@ -4,19 +4,19 @@
   "primary_language": "Ruby",
   "total_pushes": 12,
   "merged_prs": 7,
-  "s_pr": 99.29,
+  "s_pr": 99.38,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.93,
+  "s_impact": 99.15,
+  "s_consistency": 98.79,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 9,
   "window_days": 30,
-  "rank_score": 868.7,
+  "rank_score": 868.9,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 301,
+  "rank": 283,
   "avatar_url": "https://avatars.githubusercontent.com/u/429793?u=08b75c5c157882feed07d1f4af30af5d852439d6&v=4",
   "bio": "aka Cheese Lord \ud83e\uddc0",
   "company": "Multiplier Holdings, Inc.",
@@ -35,6 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "counted_merges": [
@@ -58,8 +59,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 301,
-      "s": 868.7
+      "r": 283,
+      "s": 868.9
     }
   ]
 }

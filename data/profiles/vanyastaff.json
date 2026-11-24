@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 7,
   "merged_prs": 10,
-  "s_pr": 99.61,
+  "s_pr": 99.66,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.88,
+  "s_impact": 99.15,
+  "s_consistency": 97.62,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 868.3,
+  "rank_score": 868.1,
   "active_repos_touched": 1,
   "pr_reviews": 8,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 332,
+  "rank": 351,
   "avatar_url": "https://avatars.githubusercontent.com/u/24690216?v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 564,
   "prev_score": 865.3,
-  "rank_delta": 232,
-  "score_delta": 3.0,
+  "rank_delta": 213,
+  "score_delta": 2.8,
   "counted_merges": [
     {
       "repo": "vanyastaff/flui",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 332,
-      "s": 868.3
+      "r": 351,
+      "s": 868.1
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 25,
   "merged_prs": 9,
-  "s_pr": 99.76,
+  "s_pr": 99.79,
   "s_quality": 50.0,
   "s_impact": 100.0,
-  "s_consistency": 99.12,
+  "s_consistency": 98.96,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 28,
   "window_days": 30,
-  "rank_score": 872.8,
+  "rank_score": 872.7,
   "active_repos_touched": 94,
   "pr_reviews": 24,
   "issue_comments": 27,
@@ -40,7 +40,7 @@
   "prev_rank": 62,
   "prev_score": 872.0,
   "rank_delta": 25,
-  "score_delta": 0.8,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "EKKOLearnAI/ekko-studio",
@@ -88,7 +88,7 @@
     {
       "d": "2026-11-24",
       "r": 37,
-      "s": 872.8
+      "s": 872.7
     }
   ]
 }

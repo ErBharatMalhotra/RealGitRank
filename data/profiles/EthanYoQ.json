@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 15,
   "merged_prs": 10,
-  "s_pr": 99.61,
+  "s_pr": 99.66,
   "s_quality": 50.0,
-  "s_impact": 99.95,
-  "s_consistency": 98.22,
+  "s_impact": 99.96,
+  "s_consistency": 97.93,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 870.9,
+  "rank_score": 870.6,
   "active_repos_touched": 5,
   "pr_reviews": 5,
   "issue_comments": 4,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 146,
+  "rank": 158,
   "avatar_url": "https://avatars.githubusercontent.com/u/257484394?u=8d71a2e282922f25c420eaddd8718fcd28feb7be&v=4",
   "bio": "Part Marketer, Part AI Explorer.",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 56,
   "prev_score": 872.1,
-  "rank_delta": -90,
-  "score_delta": -1.2,
+  "rank_delta": -102,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "EthanYoQ/Job-finder-Codex",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 146,
-      "s": 870.9
+      "r": 158,
+      "s": 870.6
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 5,
   "merged_prs": 11,
-  "s_pr": 99.68,
+  "s_pr": 99.72,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.01,
+  "s_impact": 99.15,
+  "s_consistency": 97.74,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 868.7,
+  "rank_score": 868.5,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 297,
+  "rank": 315,
   "avatar_url": "https://avatars.githubusercontent.com/u/200087586?u=f82a2d2e104f31db70cadedc33b6f1bc2bb492c3&v=4",
   "bio": "Software Engineering Student | AI Systems & Agentic Workflows | Rust, Python & TypeScript",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 565,
   "prev_score": 865.3,
-  "rank_delta": 268,
-  "score_delta": 3.4,
+  "rank_delta": 250,
+  "score_delta": 3.2,
   "counted_merges": [
     {
       "repo": "DuongNAD/OxideSwarm",
@@ -59,8 +60,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 297,
-      "s": 868.7
+      "r": 315,
+      "s": 868.5
     }
   ]
 }

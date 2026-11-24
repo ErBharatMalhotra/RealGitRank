@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 4,
   "merged_prs": 2,
-  "s_pr": 95.55,
+  "s_pr": 96.1,
   "s_quality": 50.0,
-  "s_impact": 99.81,
-  "s_consistency": 99.23,
+  "s_impact": 99.82,
+  "s_consistency": 99.07,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 857.8,
+  "rank_score": 859.5,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 977,
+  "rank": 930,
   "avatar_url": "https://avatars.githubusercontent.com/u/7056537?u=f0fe07dd967e83c2e7328962baf85f6340c454eb&v=4",
   "bio": "Senior Software Engineer. Too many hobbies: VR, game development, synthesizers, sequencers, and creative tools. ",
   "company": "",
@@ -50,8 +50,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 977,
-      "s": 857.8
+      "r": 930,
+      "s": 859.5
     }
   ]
 }

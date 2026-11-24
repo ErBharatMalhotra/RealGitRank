@@ -4,10 +4,10 @@
   "primary_language": "Java",
   "total_pushes": 19,
   "merged_prs": 25,
-  "s_pr": 99.93,
+  "s_pr": 99.94,
   "s_quality": 50.0,
-  "s_impact": 99.78,
-  "s_consistency": 98.02,
+  "s_impact": 99.8,
+  "s_consistency": 97.75,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 20,
   "window_days": 30,
-  "rank_score": 871.3,
+  "rank_score": 870.9,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 108,
+  "rank": 131,
   "avatar_url": "https://avatars.githubusercontent.com/u/75875764?u=8c85cac10fa89f78d5b6d35a836ea0c0f75cfb3a&v=4",
   "bio": "CS @ Monash",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 32,
   "prev_score": 872.4,
-  "rank_delta": -76,
-  "score_delta": -1.1,
+  "rank_delta": -99,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "Swofty-Developments/SwoftyLauncher",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 108,
-      "s": 871.3
+      "r": 131,
+      "s": 870.9
     }
   ]
 }

@@ -4,19 +4,19 @@
   "primary_language": "Python",
   "total_pushes": 4,
   "merged_prs": 8,
-  "s_pr": 99.49,
+  "s_pr": 99.56,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.99,
+  "s_impact": 99.15,
+  "s_consistency": 98.84,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 10,
+  "active_days": 13,
   "window_days": 30,
-  "rank_score": 869.5,
+  "rank_score": 869.6,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 242,
+  "rank": 231,
   "avatar_url": "https://avatars.githubusercontent.com/u/1735900?u=d3eca4830b897fd7f37a9651d6e43436751eff97&v=4",
   "bio": "",
   "company": "Microsoft",
@@ -35,13 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 3,
+  "ci_pushes": 47,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 313,
   "prev_score": 868.9,
-  "rank_delta": 71,
-  "score_delta": 0.6,
+  "rank_delta": 82,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "kody-w/aibast-agents-library",
@@ -64,8 +64,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 242,
-      "s": 869.5
+      "r": 231,
+      "s": 869.6
     }
   ]
 }

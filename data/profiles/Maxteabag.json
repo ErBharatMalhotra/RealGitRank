@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 62,
   "merged_prs": 5,
-  "s_pr": 98.84,
+  "s_pr": 98.98,
   "s_quality": 50.0,
-  "s_impact": 99.56,
-  "s_consistency": 98.06,
+  "s_impact": 99.58,
+  "s_consistency": 97.78,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 866.9,
+  "rank_score": 867.1,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 439,
+  "rank": 443,
   "avatar_url": "https://avatars.githubusercontent.com/u/18162810?u=725cf61a1cc804f16dcec67111dc34e7eb679957&v=4",
   "bio": "Fullstack consultant, Linux enthusiast\r\n\r\n.NET, Javascript, Python, specializing in Gamedev, Web, Devops, Tech leadership and Cloud. Coding for a living and fun",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 642,
   "prev_score": 864.2,
-  "rank_delta": 203,
-  "score_delta": 2.7,
+  "rank_delta": 199,
+  "score_delta": 2.9,
   "counted_merges": [
     {
       "repo": "Maxteabag/clarp",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 439,
-      "s": 866.9
+      "r": 443,
+      "s": 867.1
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.65,
+  "s_impact": 99.15,
+  "s_consistency": 97.41,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 5,
   "window_days": 30,
-  "rank_score": 859.8,
+  "rank_score": 860.7,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 850,
+  "rank": 854,
   "avatar_url": "https://avatars.githubusercontent.com/u/104313479?u=af81924a63ba679f23605fadd06d7289848a93f2&v=4",
   "bio": "Creator of E3D",
   "company": "FutCo LLC",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 850,
-      "s": 859.8
+      "r": 854,
+      "s": 860.7
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "C++",
   "total_pushes": 7,
   "merged_prs": 5,
-  "s_pr": 99.38,
+  "s_pr": 99.46,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 97.71,
+  "s_impact": 98.72,
+  "s_consistency": 97.47,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 510,
+  "rank": 528,
   "avatar_url": "https://avatars.githubusercontent.com/u/2862690?u=9cd6959d0b3e9abc102a3d08745c71950c45ddcc&v=4",
   "bio": "Moscow State University, Faculty of Mechanics and Mathematics,\r\nPhD",
   "company": "",
@@ -35,11 +35,11 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 520,
   "prev_score": 866.1,
-  "rank_delta": 10,
+  "rank_delta": -8,
   "score_delta": 0.0,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 510,
+      "r": 528,
       "s": 866.1
     }
   ]

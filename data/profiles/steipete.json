@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 345,
   "merged_prs": 32,
-  "s_pr": 99.98,
+  "s_pr": 99.99,
   "s_quality": 50.0,
   "s_impact": 99.96,
-  "s_consistency": 99.03,
+  "s_consistency": 98.88,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 23,
   "window_days": 30,
-  "rank_score": 873.4,
+  "rank_score": 873.2,
   "active_repos_touched": 45,
   "pr_reviews": 2,
   "issue_comments": 49,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 12,
+  "rank": 13,
   "avatar_url": "https://avatars.githubusercontent.com/u/58493?u=95a4fccef3d341039661c427695691a664e333ba&v=4",
   "bio": "Came back from retirement to mess with AI. Clawdfather @OpenClaw\r\n\r\nPreviously: Founder of @PSPDFKit.",
   "company": "OpenAI",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 16,
   "prev_score": 872.7,
-  "rank_delta": 4,
-  "score_delta": 0.7,
+  "rank_delta": 3,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "openclaw/openclaw",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 12,
-      "s": 873.4
+      "r": 13,
+      "s": 873.2
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 9,
   "merged_prs": 5,
-  "s_pr": 98.84,
+  "s_pr": 98.98,
   "s_quality": 50.0,
-  "s_impact": 99.56,
-  "s_consistency": 95.53,
+  "s_impact": 99.58,
+  "s_consistency": 95.17,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 863.1,
+  "rank_score": 863.2,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 673,
+  "rank": 702,
   "avatar_url": "https://avatars.githubusercontent.com/u/143774106?u=1011c26d1561e3d156069fdef41befddb78a5ee0&v=4",
   "bio": "terminal-native tooling for the linux desktop",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 573,
   "prev_score": 865.2,
-  "rank_delta": -100,
-  "score_delta": -2.1,
+  "rank_delta": -129,
+  "score_delta": -2.0,
   "counted_merges": [
     {
       "repo": "Nomadcxx/sysc-shell",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 673,
-      "s": 863.1
+      "r": 702,
+      "s": 863.2
     }
   ]
 }

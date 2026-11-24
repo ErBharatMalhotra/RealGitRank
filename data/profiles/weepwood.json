@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 54,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.22,
+  "s_impact": 99.15,
+  "s_consistency": 96.71,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 859.2,
+  "rank_score": 859.7,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 877,
+  "rank": 914,
   "avatar_url": "https://avatars.githubusercontent.com/u/46443012?u=b2f2e40bab180774f17f0a079be957f4451eb29f&v=4",
   "bio": "",
   "company": "",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 877,
-      "s": 859.2
+      "r": 914,
+      "s": 859.7
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "C++",
   "total_pushes": 4,
   "merged_prs": 3,
-  "s_pr": 98.59,
+  "s_pr": 98.76,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.79,
+  "s_impact": 99.15,
+  "s_consistency": 97.54,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 864.5,
+  "rank_score": 864.9,
   "active_repos_touched": 3,
   "pr_reviews": 1,
   "issue_comments": 1,
@@ -40,7 +40,7 @@
   "prev_rank": 563,
   "prev_score": 865.4,
   "rank_delta": -48,
-  "score_delta": -0.9,
+  "score_delta": -0.5,
   "counted_merges": [
     {
       "repo": "HarvardMadSys/agentic-hpc-dashboard",
@@ -64,7 +64,7 @@
     {
       "d": "2026-11-24",
       "r": 611,
-      "s": 864.5
+      "s": 864.9
     }
   ]
 }

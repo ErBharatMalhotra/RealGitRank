@@ -1,0 +1,62 @@
+{
+  "username": "jmgirard",
+  "country": "United States",
+  "primary_language": "JavaScript",
+  "total_pushes": 24,
+  "merged_prs": 3,
+  "s_pr": 97.64,
+  "s_quality": 50.0,
+  "s_impact": 99.15,
+  "s_consistency": 97.74,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 861.2,
+  "active_repos_touched": 13,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 820,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6829033?u=047b398f3b8e1e503d2d3f93a90d27a03524a61c&v=4",
+  "bio": "Associate Professor of Psychology",
+  "company": "University of Kansas",
+  "location": "Lawrence, KS, USA",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "ci_pushes": 4,
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "jmgirard/rlmstudio",
+      "prs": 1
+    },
+    {
+      "repo": "jmgirard/rocker-bayes",
+      "prs": 1
+    },
+    {
+      "repo": "jmgirard/supplement",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 820,
+      "s": 861.2
+    }
+  ]
+}

@@ -4,30 +4,30 @@
   "primary_language": "TypeScript",
   "total_pushes": 1,
   "merged_prs": 2,
-  "s_pr": 96.51,
+  "s_pr": 96.95,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.17,
+  "s_impact": 99.15,
+  "s_consistency": 99.06,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 5,
+  "active_days": 8,
   "window_days": 30,
-  "rank_score": 857.8,
+  "rank_score": 860.8,
   "active_repos_touched": 6,
   "pr_reviews": 1,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 979,
+  "rank": 851,
   "avatar_url": "https://avatars.githubusercontent.com/u/180387319?u=d0018aaadc394e46b01f11c4842d0bedbbfd7480&v=4",
   "bio": "\ud83c\udf31 Full-stack Developer | Network Engineering | zh_*/en_*/ja_*",
   "company": "",
@@ -35,7 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 1,
+  "ci_pushes": 9,
   "percentile": 99.9,
   "tier": "Elite",
   "counted_merges": [
@@ -51,8 +51,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 979,
-      "s": 857.8
+      "r": 851,
+      "s": 860.8
     }
   ]
 }

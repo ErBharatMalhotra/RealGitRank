@@ -4,10 +4,10 @@
   "primary_language": "Go",
   "total_pushes": 5,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.5,
+  "s_impact": 99.15,
+  "s_consistency": 98.2,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 861.1,
+  "rank_score": 861.9,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 780,
+  "rank": 776,
   "avatar_url": "https://avatars.githubusercontent.com/u/12224738?u=b9e108b9e78efb8373b50e4179ebe95589327b9a&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 536,
   "prev_score": 865.8,
-  "rank_delta": -244,
-  "score_delta": -4.7,
+  "rank_delta": -240,
+  "score_delta": -3.9,
   "counted_merges": [
     {
       "repo": "JRpersonal/streborn",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 780,
-      "s": 861.1
+      "r": 776,
+      "s": 861.9
     }
   ]
 }

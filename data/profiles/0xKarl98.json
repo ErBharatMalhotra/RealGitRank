@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 3,
   "merged_prs": 2,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.6,
+  "s_impact": 99.15,
+  "s_consistency": 98.29,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 4,
   "window_days": 30,
-  "rank_score": 861.2,
+  "rank_score": 862.0,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 775,
+  "rank": 771,
   "avatar_url": "https://avatars.githubusercontent.com/u/43113774?v=4",
   "bio": "Rust fully piiled ",
   "company": "Rust World",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 775,
-      "s": 861.2
+      "r": 771,
+      "s": 862.0
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 13,
   "merged_prs": 6,
-  "s_pr": 99.38,
+  "s_pr": 99.46,
   "s_quality": 50.0,
   "s_impact": 99.96,
-  "s_consistency": 97.93,
+  "s_consistency": 97.66,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 18,
   "window_days": 30,
-  "rank_score": 869.6,
+  "rank_score": 869.5,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 27,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 234,
+  "rank": 239,
   "avatar_url": "https://avatars.githubusercontent.com/u/119944436?u=0c50679b525e273e2ef63b108b316a855f6e7664&v=4",
   "bio": "Despertando o potencial do ser humano com as IAs",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 116,
   "prev_score": 871.3,
-  "rank_delta": -118,
-  "score_delta": -1.7,
+  "rank_delta": -123,
+  "score_delta": -1.8,
   "counted_merges": [
     {
       "repo": "DeskLabs-OpenSource/DeskVoice",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 234,
-      "s": 869.6
+      "r": 239,
+      "s": 869.5
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 4,
   "merged_prs": 10,
-  "s_pr": 99.61,
+  "s_pr": 99.66,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.81,
+  "s_impact": 99.15,
+  "s_consistency": 97.56,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 868.1,
+  "rank_score": 868.0,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 351,
+  "rank": 366,
   "avatar_url": "https://avatars.githubusercontent.com/u/3594146?u=731166567435d1344899091131cdf3dc7458b289&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 326,
   "prev_score": 868.7,
-  "rank_delta": -25,
-  "score_delta": -0.6,
+  "rank_delta": -40,
+  "score_delta": -0.7,
   "counted_merges": [
     {
       "repo": "crisprintsstuff/OxyBrush",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 351,
-      "s": 868.1
+      "r": 366,
+      "s": 868.0
     }
   ]
 }

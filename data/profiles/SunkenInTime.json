@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 16,
   "merged_prs": 6,
-  "s_pr": 99.1,
+  "s_pr": 99.21,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 97.81,
+  "s_impact": 98.72,
+  "s_consistency": 97.55,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 12,
   "window_days": 30,
-  "rank_score": 865.2,
+  "rank_score": 865.4,
   "active_repos_touched": 3,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 571,
+  "rank": 580,
   "avatar_url": "https://avatars.githubusercontent.com/u/76637177?u=7e4f6d83718a30fa6bfadf2cb825f1282faed976&v=4",
   "bio": "19 cs content creator | A student who makes things | prev amazon",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 522,
   "prev_score": 866.0,
-  "rank_delta": -49,
-  "score_delta": -0.8,
+  "rank_delta": -58,
+  "score_delta": -0.6,
   "counted_merges": [
     {
       "repo": "SunkenInTime/diorama",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 571,
-      "s": 865.2
+      "r": 580,
+      "s": 865.4
     }
   ]
 }

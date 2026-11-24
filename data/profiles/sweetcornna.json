@@ -1,0 +1,58 @@
+{
+  "username": "sweetcornna",
+  "country": "China",
+  "primary_language": "TypeScript",
+  "total_pushes": 17,
+  "merged_prs": 2,
+  "s_pr": 96.1,
+  "s_quality": 50.0,
+  "s_impact": 99.58,
+  "s_consistency": 99.11,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 859.0,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 6,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 971,
+  "avatar_url": "https://avatars.githubusercontent.com/u/96944678?u=092fabbae671a9562975303170579493f7c8323b&v=4",
+  "bio": "Hello everyone\r\nMy name is Yongchang Yu\r\nI am a Software Engineering student at Jilin University\r\nNice to meet you",
+  "company": "",
+  "location": "China",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "ci_pushes": 1,
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "sweetcornna/Super-Cage",
+      "prs": 1
+    },
+    {
+      "repo": "sweetcornna/universe",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 971,
+      "s": 859.0
+    }
+  ]
+}

@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 3,
   "merged_prs": 3,
-  "s_pr": 98.59,
+  "s_pr": 98.76,
   "s_quality": 50.0,
-  "s_impact": 99.89,
-  "s_consistency": 94.59,
+  "s_impact": 99.9,
+  "s_consistency": 94.32,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 861.7,
+  "rank_score": 861.9,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 744,
+  "rank": 773,
   "avatar_url": "https://avatars.githubusercontent.com/u/6511?u=81224072024df51b0f1f6b3b0f863be8d244eb2d&v=4",
   "bio": "Transforming AI and CS education @codepath ",
   "company": "Co-Founder @ CodePath.org",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 446,
   "prev_score": 867.2,
-  "rank_delta": -298,
-  "score_delta": -5.5,
+  "rank_delta": -327,
+  "score_delta": -5.3,
   "counted_merges": [
     {
       "repo": "padrino/padrino-framework",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 744,
-      "s": 861.7
+      "r": 773,
+      "s": 861.9
     }
   ]
 }

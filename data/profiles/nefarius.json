@@ -4,10 +4,10 @@
   "primary_language": "C#",
   "total_pushes": 7,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 97.61,
+  "s_impact": 98.72,
+  "s_consistency": 97.36,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 858.6,
+  "rank_score": 859.6,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 919,
+  "rank": 923,
   "avatar_url": "https://avatars.githubusercontent.com/u/286631?u=55fc7db6ec981b71bbb3111a632f8a2b7326c1fe&v=4",
   "bio": "Gaming Input Peripherals Expert, Windows Device Drivers Developer, Austrian Open Source Ambassador",
   "company": "Nefarius Software Solutions e.U.",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 919,
-      "s": 858.6
+      "r": 923,
+      "s": 859.6
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 20,
   "merged_prs": 10,
-  "s_pr": 99.82,
+  "s_pr": 99.85,
   "s_quality": 50.0,
-  "s_impact": 99.87,
-  "s_consistency": 99.01,
+  "s_impact": 99.88,
+  "s_consistency": 98.86,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 13,
   "window_days": 30,
-  "rank_score": 872.6,
+  "rank_score": 872.4,
   "active_repos_touched": 9,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 47,
+  "rank": 50,
   "avatar_url": "https://avatars.githubusercontent.com/u/89211796?u=1857347b9787d8d8a7ea5bfc333f96be92d5a683&v=4",
   "bio": "work @ opencode | building inbound.new",
   "company": "@anomalyco",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 76,
   "prev_score": 871.8,
-  "rank_delta": 29,
-  "score_delta": 0.8,
+  "rank_delta": 26,
+  "score_delta": 0.6,
   "counted_merges": [
     {
       "repo": "anomalyco/hex",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 47,
-      "s": 872.6
+      "r": 50,
+      "s": 872.4
     }
   ]
 }

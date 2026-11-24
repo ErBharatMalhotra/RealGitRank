@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 15,
   "merged_prs": 10,
-  "s_pr": 99.61,
+  "s_pr": 99.66,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.88,
+  "s_impact": 99.15,
+  "s_consistency": 97.62,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 868.3,
+  "rank_score": 868.1,
   "active_repos_touched": 12,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 333,
+  "rank": 352,
   "avatar_url": "https://avatars.githubusercontent.com/u/1773202?u=af2f1f3aae16a01a559d7a7b8d23820374e5f59a&v=4",
   "bio": "",
   "company": "@wso2 ",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 294,
   "prev_score": 869.1,
-  "rank_delta": -39,
-  "score_delta": -0.8,
+  "rank_delta": -58,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "pzfreo/draftwright",
@@ -83,8 +83,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 333,
-      "s": 868.3
+      "r": 352,
+      "s": 868.1
     }
   ]
 }

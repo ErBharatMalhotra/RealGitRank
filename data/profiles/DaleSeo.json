@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 98.59,
+  "s_pr": 98.76,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 94.12,
+  "s_impact": 99.15,
+  "s_consistency": 93.89,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 4,
   "window_days": 30,
-  "rank_score": 859.0,
+  "rank_score": 859.4,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 895,
+  "rank": 932,
   "avatar_url": "https://avatars.githubusercontent.com/u/5466341?u=47101f5c5dbae216a099c9afdc2dde6bc84ee405&v=4",
   "bio": "Helping developers help the world \ud83e\uddd1\u200d\ud83d\ude80",
   "company": "Apollo GraphQL",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 872,
   "prev_score": 860.2,
-  "rank_delta": -23,
-  "score_delta": -1.2,
+  "rank_delta": -60,
+  "score_delta": -0.8,
   "counted_merges": [
     {
       "repo": "DaleStudy/survey",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 895,
-      "s": 859.0
+      "r": 932,
+      "s": 859.4
     }
   ]
 }

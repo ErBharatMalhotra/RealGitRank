@@ -4,10 +4,10 @@
   "primary_language": "Objective-C",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
   "s_impact": 99.97,
-  "s_consistency": 94.93,
+  "s_consistency": 94.64,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 861.2,
+  "rank_score": 861.5,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 772,
+  "rank": 800,
   "avatar_url": "https://avatars.githubusercontent.com/u/1218847?v=4",
   "bio": "Founder & Investor",
   "company": "Bloxwap",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 736,
   "prev_score": 862.6,
-  "rank_delta": -36,
-  "score_delta": -1.4,
+  "rank_delta": -64,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "bloxwap/.github",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 772,
-      "s": 861.2
+      "r": 800,
+      "s": 861.5
     }
   ]
 }

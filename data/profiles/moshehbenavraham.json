@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 19,
   "merged_prs": 11,
-  "s_pr": 99.85,
+  "s_pr": 99.87,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 99.29,
+  "s_impact": 98.72,
+  "s_consistency": 99.13,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 870.1,
+  "rank_score": 870.0,
   "active_repos_touched": 8,
   "pr_reviews": 5,
   "issue_comments": 14,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 195,
+  "rank": 199,
   "avatar_url": "https://avatars.githubusercontent.com/u/17122072?u=88f5d77677e24040c4299fe1ede12e338279209c&v=4",
   "bio": "AI dev, founder, builder. 20+ yrs in tech. Passionate about Voice AI, Agents, RAG, humanitarian work, learning, and teaching.",
   "company": "@AI-with-Apex-Premium @LuminariMUD @rescuethepersecuted @zusuk @AI-with-Apex-VIP",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 235,
   "prev_score": 869.8,
-  "rank_delta": 40,
-  "score_delta": 0.3,
+  "rank_delta": 36,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "LuminariMUD/Duris",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 195,
-      "s": 870.1
+      "r": 199,
+      "s": 870.0
     }
   ]
 }

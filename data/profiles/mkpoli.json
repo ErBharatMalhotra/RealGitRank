@@ -4,10 +4,10 @@
   "primary_language": "Svelte",
   "total_pushes": 52,
   "merged_prs": 30,
-  "s_pr": 99.95,
+  "s_pr": 99.96,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.44,
+  "s_impact": 99.15,
+  "s_consistency": 98.14,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 870.3,
+  "rank_score": 869.9,
   "active_repos_touched": 12,
   "pr_reviews": 2,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 181,
+  "rank": 204,
   "avatar_url": "https://avatars.githubusercontent.com/u/3502597?u=ab07a5135d35e7aec9a39392ff8cd4bfdd1cd27d&v=4",
   "bio": "Co-founder of @LambdaInnovation. Member of @nk2028 and @aynumosir. Founder of @ai-art-club @LemonTV-win  @transnavi. ",
   "company": "@LambdaInnovation @nk2028 @aynumosir @ai-art-club @PurplePalette ",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 104,
   "prev_score": 871.4,
-  "rank_delta": -77,
-  "score_delta": -1.1,
+  "rank_delta": -100,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "mkpoli/ids-input",
@@ -91,8 +92,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 181,
-      "s": 870.3
+      "r": 204,
+      "s": 869.9
     }
   ]
 }

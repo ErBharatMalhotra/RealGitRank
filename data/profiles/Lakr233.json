@@ -4,10 +4,10 @@
   "primary_language": "Swift",
   "total_pushes": 9,
   "merged_prs": 4,
-  "s_pr": 98.59,
+  "s_pr": 98.76,
   "s_quality": 50.0,
-  "s_impact": 99.97,
-  "s_consistency": 98.6,
+  "s_impact": 99.98,
+  "s_consistency": 98.29,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 22,
   "window_days": 30,
-  "rank_score": 867.9,
+  "rank_score": 868.1,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 372,
+  "rank": 365,
   "avatar_url": "https://avatars.githubusercontent.com/u/25259084?u=b430a4db552aefc368ff79254c1ae0132c8edaa8&v=4",
   "bio": "\ud83e\udd7a",
   "company": "Home Lab",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 301,
   "prev_score": 869.1,
-  "rank_delta": -71,
-  "score_delta": -1.2,
+  "rank_delta": -64,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "Lakr233/libghostty-spm",
@@ -67,8 +68,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 372,
-      "s": 867.9
+      "r": 365,
+      "s": 868.1
     }
   ]
 }

@@ -4,10 +4,10 @@
   "primary_language": "C",
   "total_pushes": 31,
   "merged_prs": 10,
-  "s_pr": 99.61,
+  "s_pr": 99.66,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 98.11,
+  "s_consistency": 97.83,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 870.8,
+  "rank_score": 870.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 71,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 152,
+  "rank": 167,
   "avatar_url": "https://avatars.githubusercontent.com/u/258432107?v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 102,
   "prev_score": 871.5,
-  "rank_delta": -50,
-  "score_delta": -0.7,
+  "rank_delta": -65,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "jhaizhou-ops/S2Arm",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 152,
-      "s": 870.8
+      "r": 167,
+      "s": 870.5
     }
   ]
 }

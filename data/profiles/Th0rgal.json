@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 56,
   "merged_prs": 21,
-  "s_pr": 99.91,
+  "s_pr": 99.92,
   "s_quality": 50.0,
   "s_impact": 99.95,
-  "s_consistency": 98.14,
+  "s_consistency": 97.86,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 22,
   "window_days": 30,
-  "rank_score": 871.8,
+  "rank_score": 871.4,
   "active_repos_touched": 15,
   "pr_reviews": 5,
   "issue_comments": 4,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 86,
+  "rank": 100,
   "avatar_url": "https://avatars.githubusercontent.com/u/41830259?u=f56e5ff505f810fbb9e818cc43527579be7ed616&v=4",
   "bio": "24, french.",
   "company": "LFG Labs",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 10,
   "prev_score": 872.9,
-  "rank_delta": -76,
-  "score_delta": -1.1,
+  "rank_delta": -90,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "Th0rgal/orb",
@@ -71,8 +71,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 86,
-      "s": 871.8
+      "r": 100,
+      "s": 871.4
     }
   ]
 }

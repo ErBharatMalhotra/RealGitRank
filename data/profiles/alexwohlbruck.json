@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 14,
   "merged_prs": 11,
-  "s_pr": 99.68,
+  "s_pr": 99.72,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.77,
+  "s_impact": 99.15,
+  "s_consistency": 97.52,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 868.3,
+  "rank_score": 868.2,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 331,
+  "rank": 344,
   "avatar_url": "https://avatars.githubusercontent.com/u/10440826?u=9349fc76e4af52bcae5d7755c4ca3d1dc47b57fc&v=4",
   "bio": "",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 293,
   "prev_score": 869.1,
-  "rank_delta": -38,
-  "score_delta": -0.8,
+  "rank_delta": -51,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "alexwohlbruck/barrelman",
@@ -67,8 +68,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 331,
-      "s": 868.3
+      "r": 344,
+      "s": 868.2
     }
   ]
 }

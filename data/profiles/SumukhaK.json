@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 7,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.52,
+  "s_impact": 99.15,
+  "s_consistency": 97.26,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 859.6,
+  "rank_score": 860.5,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 860,
+  "rank": 870,
   "avatar_url": "https://avatars.githubusercontent.com/u/14575420?u=70a48d0edcceaf03144bddaad3988578eda45bda&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 849,
   "prev_score": 860.7,
-  "rank_delta": -11,
-  "score_delta": -1.1,
+  "rank_delta": -21,
+  "score_delta": -0.2,
   "counted_merges": [
     {
       "repo": "SumukhaK/open-source-projectFinder",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 860,
-      "s": 859.6
+      "r": 870,
+      "s": 860.5
     }
   ]
 }

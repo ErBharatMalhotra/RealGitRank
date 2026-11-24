@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 9,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.56,
-  "s_consistency": 99.87,
+  "s_impact": 99.58,
+  "s_consistency": 99.63,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 864.3,
+  "rank_score": 865.1,
   "active_repos_touched": 23,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 620,
+  "rank": 593,
   "avatar_url": "https://avatars.githubusercontent.com/u/215324508?u=95f8bcfe4fd15cee6f692e6b62e9573f9fc3204e&v=4",
   "bio": "Exploring data science, machine learning & artificial superintelligence (ASI). Building AI tools, experimenting with models, and contributing to open source.",
   "company": "",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 620,
-      "s": 864.3
+      "r": 593,
+      "s": 865.1
     }
   ]
 }

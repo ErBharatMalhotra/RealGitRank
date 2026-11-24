@@ -1,0 +1,57 @@
+{
+  "username": "renezander030",
+  "country": "Germany",
+  "primary_language": "JavaScript",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "s_pr": 96.1,
+  "s_quality": 50.0,
+  "s_impact": 99.88,
+  "s_consistency": 98.54,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 858.9,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 4,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 984,
+  "avatar_url": "https://avatars.githubusercontent.com/u/96420681?u=380c4a896be876c85ab6ae7ace21e3bd55cc42e8&v=4",
+  "bio": "Enterprise AI architect | Context layers for AI agents | Sourced answers, approved actions | DACH",
+  "company": "",
+  "location": "Berlin, Germany",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "renezander030/agentic-task-system",
+      "prs": 1
+    },
+    {
+      "repo": "renezander030/rungbot",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 984,
+      "s": 858.9
+    }
+  ]
+}

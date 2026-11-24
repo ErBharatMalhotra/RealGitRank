@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 22,
   "merged_prs": 15,
-  "s_pr": 99.91,
+  "s_pr": 99.92,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 98.17,
+  "s_impact": 98.72,
+  "s_consistency": 97.88,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 868.6,
+  "rank_score": 868.3,
   "active_repos_touched": 8,
   "pr_reviews": 3,
   "issue_comments": 24,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 305,
+  "rank": 333,
   "avatar_url": "https://avatars.githubusercontent.com/u/15378933?v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 247,
   "prev_score": 869.7,
-  "rank_delta": -58,
-  "score_delta": -1.1,
+  "rank_delta": -86,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "ThinkFlowLab/FlyBot",
@@ -75,8 +75,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 305,
-      "s": 868.6
+      "r": 333,
+      "s": 868.3
     }
   ]
 }

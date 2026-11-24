@@ -4,30 +4,30 @@
   "primary_language": "Python",
   "total_pushes": 11,
   "merged_prs": 6,
-  "s_pr": 99.1,
+  "s_pr": 99.21,
   "s_quality": 50.0,
-  "s_impact": 99.81,
-  "s_consistency": 91.19,
+  "s_impact": 99.82,
+  "s_consistency": 98.08,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 7,
+  "active_days": 9,
   "window_days": 30,
-  "rank_score": 858.1,
+  "rank_score": 868.9,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 12,
   "releases": 0,
   "stars_fraud_filtered": 5,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 3,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 954,
+  "rank": 286,
   "avatar_url": "https://avatars.githubusercontent.com/u/454862?u=c1e352a7e6b62c0dc56d7dc04ed3e88e7051cc6f&v=4",
   "bio": "",
   "company": "",
@@ -35,8 +35,8 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 1,
-  "percentile": 99.9,
+  "ci_pushes": 12,
+  "percentile": 100.0,
   "tier": "Elite",
   "counted_merges": [
     {
@@ -51,8 +51,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 954,
-      "s": 858.1
+      "r": 286,
+      "s": 868.9
     }
   ]
 }

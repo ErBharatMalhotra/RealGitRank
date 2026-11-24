@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 1,
   "merged_prs": 8,
-  "s_pr": 99.46,
+  "s_pr": 99.53,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.29,
+  "s_impact": 99.15,
+  "s_consistency": 97.05,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 445,
+  "rank": 469,
   "avatar_url": "https://avatars.githubusercontent.com/u/221153190?u=50b9a26b60511c638d6a4fb8280e1121dfb4d814&v=4",
   "bio": "Infrastructure / Network / Software Engineer ",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 442,
   "prev_score": 867.2,
-  "rank_delta": -3,
+  "rank_delta": -27,
   "score_delta": -0.4,
   "counted_merges": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 445,
+      "r": 469,
       "s": 866.8
     }
   ]

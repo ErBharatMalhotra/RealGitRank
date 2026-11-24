@@ -4,10 +4,10 @@
   "primary_language": "VHDL",
   "total_pushes": 9,
   "merged_prs": 7,
-  "s_pr": 99.29,
+  "s_pr": 99.38,
   "s_quality": 50.0,
-  "s_impact": 99.65,
-  "s_consistency": 97.9,
+  "s_impact": 99.67,
+  "s_consistency": 97.64,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 322,
+  "rank": 319,
   "avatar_url": "https://avatars.githubusercontent.com/u/11812212?u=fa11ec1a9f594639dbc7c87cf63001b7edbda29a&v=4",
   "bio": "A quest to learn everything in computing, from hardware to software, from cloud to client, from robotics to AI",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 579,
   "prev_score": 865.1,
-  "rank_delta": 257,
+  "rank_delta": 260,
   "score_delta": 3.4,
   "counted_merges": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 322,
+      "r": 319,
       "s": 868.5
     }
   ]

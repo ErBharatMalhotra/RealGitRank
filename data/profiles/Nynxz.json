@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 3,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.82,
-  "s_consistency": 97.56,
+  "s_impact": 99.84,
+  "s_consistency": 97.31,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 861.4,
+  "rank_score": 862.3,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 761,
+  "rank": 755,
   "avatar_url": "https://avatars.githubusercontent.com/u/60878743?u=bbbefb01cf835e8fbbd33a54ec8a5c49ba0554c2&v=4",
   "bio": "I am looking for work! :heart_hands: ",
   "company": "",
@@ -35,6 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 2,
   "percentile": 99.9,
   "tier": "Elite",
   "counted_merges": [
@@ -46,8 +47,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 761,
-      "s": 861.4
+      "r": 755,
+      "s": 862.3
     }
   ]
 }

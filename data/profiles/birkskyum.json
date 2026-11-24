@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 5,
   "merged_prs": 4,
-  "s_pr": 99.1,
+  "s_pr": 99.21,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 95.58,
+  "s_impact": 99.15,
+  "s_consistency": 95.22,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 863.0,
+  "rank_score": 862.9,
   "active_repos_touched": 8,
   "pr_reviews": 1,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 677,
+  "rank": 718,
   "avatar_url": "https://avatars.githubusercontent.com/u/74932975?u=ac2f6ede79205bcb7896aacc5db15443266c5986&v=4",
   "bio": "@maplibre Co-founder and 3D Graphics Engineer | WebGPU/WAsm | @TanStack Start/Router Maintainer | @solidjs Maintainer",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 755,
   "prev_score": 862.3,
-  "rank_delta": 78,
-  "score_delta": 0.7,
+  "rank_delta": 37,
+  "score_delta": 0.6,
   "counted_merges": [
     {
       "repo": "omacom/omarchy-pkgs",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 677,
-      "s": 863.0
+      "r": 718,
+      "s": 862.9
     }
   ]
 }

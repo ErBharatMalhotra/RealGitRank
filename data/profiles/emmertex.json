@@ -4,10 +4,10 @@
   "primary_language": "C",
   "total_pushes": 33,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
-  "s_impact": 99.78,
-  "s_consistency": 97.85,
+  "s_impact": 99.8,
+  "s_consistency": 97.59,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 865.1,
+  "rank_score": 865.5,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 579,
+  "rank": 577,
   "avatar_url": "https://avatars.githubusercontent.com/u/5079957?u=5374208596af9c187d932407f2544564dcdaa3ee&v=4",
   "bio": "Systems Engineer, cut loose and having fun.\r\nI do SWE, EE and ME. ",
   "company": "EMMERTEX",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 769,
   "prev_score": 862.0,
-  "rank_delta": 190,
-  "score_delta": 3.1,
+  "rank_delta": 192,
+  "score_delta": 3.5,
   "counted_merges": [
     {
       "repo": "emmertex/chromaforge",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 579,
-      "s": 865.1
+      "r": 577,
+      "s": 865.5
     }
   ]
 }

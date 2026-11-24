@@ -6,8 +6,8 @@
   "merged_prs": 67,
   "s_pr": 99.99,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 99.01,
+  "s_impact": 98.72,
+  "s_consistency": 98.87,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 194,
+  "rank": 192,
   "avatar_url": "https://avatars.githubusercontent.com/u/3159389?u=2f07b0c2ae7e83de03e84a1cc0e2e0323a6e46f5&v=4",
   "bio": ".Net developper, MyIA founder",
   "company": "@MyIntelligenceAgency ",
@@ -35,11 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 261,
   "prev_score": 869.5,
-  "rank_delta": 67,
+  "rank_delta": 69,
   "score_delta": 0.6,
   "counted_merges": [
     {
@@ -79,7 +80,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 194,
+      "r": 192,
       "s": 870.1
     }
   ]

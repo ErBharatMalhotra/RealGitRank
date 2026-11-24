@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 86,
   "merged_prs": 34,
-  "s_pr": 99.98,
+  "s_pr": 99.99,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.78,
+  "s_impact": 99.15,
+  "s_consistency": 98.65,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 870.9,
+  "rank_score": 870.8,
   "active_repos_touched": 44,
   "pr_reviews": 20,
   "issue_comments": 5,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 134,
+  "rank": 138,
   "avatar_url": "https://avatars.githubusercontent.com/u/277927?u=0b128586eff77f70bc30658e7f14a2ea63038b64&v=4",
   "bio": "I consider myself a technology enthusiast, and I have been interested in coding from a very young age. I find that it's always exciting to work on new projects.",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 204,
   "prev_score": 870.1,
-  "rank_delta": 70,
-  "score_delta": 0.8,
+  "rank_delta": 66,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "storytold/craft-libs",
@@ -91,8 +91,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 134,
-      "s": 870.9
+      "r": 138,
+      "s": 870.8
     }
   ]
 }

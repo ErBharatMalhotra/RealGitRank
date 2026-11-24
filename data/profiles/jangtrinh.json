@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 20,
   "merged_prs": 9,
-  "s_pr": 99.54,
+  "s_pr": 99.6,
   "s_quality": 50.0,
-  "s_impact": 99.49,
-  "s_consistency": 99.17,
+  "s_impact": 99.51,
+  "s_consistency": 99.01,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 147,
+  "rank": 136,
   "avatar_url": "https://avatars.githubusercontent.com/u/6948894?u=ae91287b81f0be7bffaea6aff2e11c96f7e00909&v=4",
   "bio": "Creative technologist and autonomous system architect. DESIGN:OS Studio and CLI: design tools for AI agents. FREE + source-available.",
   "company": "@EaseStart ",
@@ -35,11 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 348,
   "prev_score": 868.3,
-  "rank_delta": 201,
+  "rank_delta": 212,
   "score_delta": 2.6,
   "counted_merges": [
     {
@@ -59,7 +60,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 147,
+      "r": 136,
       "s": 870.9
     }
   ]

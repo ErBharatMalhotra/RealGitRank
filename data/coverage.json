@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-24T06:00:26.541814+00:00",
+  "generated_at": "2026-11-24T06:12:07.332078+00:00",
   "score_version": "v2-percentile",
   "window_days": 30,
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
   "users": 50000,
-  "users_total": 963107,
+  "users_total": 1100384,
   "source": {
-    "days_measured": 1,
+    "days_measured": 30,
     "days_in_window": 30,
     "hourly_files": 24,
     "events": 306107,
     "bot_events": 85484,
     "bot_share_pct": 27.9,
-    "events_per_day": 306107.0,
-    "ci_pushes": 39902
+    "events_per_day": 10204.0,
+    "ci_pushes": 793082
   },
   "pillars": {
     "delivery": {
@@ -24,8 +24,8 @@
     },
     "code_health": {
       "label": "Test-signal ratio and multi-file PRs",
-      "measured": 46494,
-      "pct": 93.0
+      "measured": 45679,
+      "pct": 91.4
     },
     "adoption": {
       "label": "Stars and forks received",
@@ -43,12 +43,12 @@
     "pct": 0.0
   },
   "country": {
-    "known": 5253,
-    "pct": 10.5
+    "known": 5209,
+    "pct": 10.4
   },
   "language": {
-    "known": 2931,
-    "pct": 5.9
+    "known": 2876,
+    "pct": 5.8
   },
   "validation": {
     "method": "event-level: GitHub PR API merged_at + merged_by",

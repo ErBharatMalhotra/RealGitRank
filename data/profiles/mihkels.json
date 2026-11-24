@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.47,
+  "s_impact": 99.15,
+  "s_consistency": 97.22,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 5,
   "window_days": 30,
-  "rank_score": 859.5,
+  "rank_score": 860.4,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 864,
+  "rank": 876,
   "avatar_url": "https://avatars.githubusercontent.com/u/1080953?u=ab05ba78ac2fae968d72389832e27dab80bad941&v=4",
   "bio": "",
   "company": "Workday",
@@ -35,6 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
   "counted_merges": [
@@ -46,8 +47,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 864,
-      "s": 859.5
+      "r": 876,
+      "s": 860.4
     }
   ]
 }

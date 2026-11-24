@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 21,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
-  "s_impact": 99.87,
-  "s_consistency": 99.28,
+  "s_impact": 99.88,
+  "s_consistency": 99.12,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 867.5,
+  "rank_score": 868.0,
   "active_repos_touched": 5,
   "pr_reviews": 3,
   "issue_comments": 7,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 398,
+  "rank": 379,
   "avatar_url": "https://avatars.githubusercontent.com/u/10922642?u=94748ad9d207620107cada2e71da67ae5e487953&v=4",
   "bio": "",
   "company": "Bytedance",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 310,
   "prev_score": 869.0,
-  "rank_delta": -88,
-  "score_delta": -1.5,
+  "rank_delta": -69,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "deepcoldy/botmux",
@@ -55,8 +56,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 398,
-      "s": 867.5
+      "r": 379,
+      "s": 868.0
     }
   ]
 }

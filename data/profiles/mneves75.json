@@ -1,0 +1,62 @@
+{
+  "username": "mneves75",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 5,
+  "merged_prs": 5,
+  "s_pr": 98.98,
+  "s_quality": 50.0,
+  "s_impact": 99.15,
+  "s_consistency": 94.48,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 861.0,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 1,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 831,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2423436?u=e478bc3783e4dfe96b46751e293e41864c3d95fc&v=4",
+  "bio": "+30 years shipping production code. dangerously-skip-permissions. Failure is not an option.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "ci_pushes": 1,
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "mneves75/devtrim",
+      "prs": 3
+    },
+    {
+      "repo": "mneves75/ai-pedometer",
+      "prs": 1
+    },
+    {
+      "repo": "mneves75/pstack-claude",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 831,
+      "s": 861.0
+    }
+  ]
+}

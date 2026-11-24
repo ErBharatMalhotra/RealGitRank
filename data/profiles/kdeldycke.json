@@ -4,30 +4,30 @@
   "primary_language": "Python",
   "total_pushes": 19,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
-  "s_impact": 99.56,
-  "s_consistency": 98.66,
+  "s_impact": 99.58,
+  "s_consistency": 99.69,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 10,
+  "active_days": 13,
   "window_days": 30,
-  "rank_score": 865.8,
+  "rank_score": 868.1,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 1,
   "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 525,
+  "rank": 362,
   "avatar_url": "https://avatars.githubusercontent.com/u/159718?u=380aeb7f080829a640b73b3b78e3c18e3945dce4&v=4",
   "bio": "Entrepreneur, VP, Engineering Manager, Founding Engineer - Billing, Payments & IAM.\r\n",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "ci_pushes": 17,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 601,
   "prev_score": 864.7,
-  "rank_delta": 76,
-  "score_delta": 1.1,
+  "rank_delta": 239,
+  "score_delta": 3.4,
   "counted_merges": [
     {
       "repo": "kdeldycke/click-extra",
@@ -59,8 +60,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 525,
-      "s": 865.8
+      "r": 362,
+      "s": 868.1
     }
   ]
 }

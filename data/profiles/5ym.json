@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 43,
   "merged_prs": 13,
-  "s_pr": 99.89,
+  "s_pr": 99.9,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 99.89,
+  "s_impact": 99.15,
+  "s_consistency": 99.66,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 17,
   "window_days": 30,
-  "rank_score": 872.2,
+  "rank_score": 872.0,
   "active_repos_touched": 20,
   "pr_reviews": 1,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 69,
+  "rank": 72,
   "avatar_url": "https://avatars.githubusercontent.com/u/13718335?u=61bf0451ba37f62286f3e59f8a227ae4f8161b8e&v=4",
   "bio": "\u660e\u8a18\u304c\u306a\u3044\u9650\u308a\u5f53\u65b9\u306e\u5168\u30b3\u30fc\u30c9\u306fCC BY-NC-ND 4.0\u3067\u3059.\r\n\u8a73\u7d30\u306a\u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u306f\u4e0b\u8a18\u30ea\u30f3\u30af\u53c2\u7167.",
   "company": "Doa",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 94,
   "prev_score": 871.5,
-  "rank_delta": 25,
-  "score_delta": 0.7,
+  "rank_delta": 22,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "danything/denpa",
@@ -67,8 +67,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 69,
-      "s": 872.2
+      "r": 72,
+      "s": 872.0
     }
   ]
 }

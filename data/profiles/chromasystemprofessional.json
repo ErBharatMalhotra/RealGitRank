@@ -4,10 +4,10 @@
   "primary_language": "C++",
   "total_pushes": 3,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.56,
-  "s_consistency": 97.67,
+  "s_impact": 99.58,
+  "s_consistency": 97.43,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 861.0,
+  "rank_score": 861.8,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 786,
+  "rank": 784,
   "avatar_url": "https://avatars.githubusercontent.com/u/234286624?u=62b06bdcc185b994349da889ce62db9502c24aa3&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 773,
   "prev_score": 862.0,
-  "rank_delta": -13,
-  "score_delta": -1.0,
+  "rank_delta": -11,
+  "score_delta": -0.2,
   "counted_merges": [
     {
       "repo": "chromasystemprofessional/Zac-OS-9",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 786,
-      "s": 861.0
+      "r": 784,
+      "s": 861.8
     }
   ]
 }

@@ -4,17 +4,17 @@
   "primary_language": "TypeScript",
   "total_pushes": 10,
   "merged_prs": 6,
-  "s_pr": 99.1,
+  "s_pr": 99.21,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.52,
+  "s_impact": 99.15,
+  "s_consistency": 98.21,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 10,
   "window_days": 30,
   "rank_score": 867.4,
   "active_repos_touched": 6,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 400,
+  "rank": 418,
   "avatar_url": "https://avatars.githubusercontent.com/u/74780083?u=686731e2261823d47814e0148e8c2b3274eb6e63&v=4",
   "bio": "",
   "company": "Nimtech",
@@ -35,11 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 11,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 287,
   "prev_score": 869.2,
-  "rank_delta": -113,
+  "rank_delta": -131,
   "score_delta": -1.8,
   "counted_merges": [
     {
@@ -63,7 +64,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 400,
+      "r": 418,
       "s": 867.4
     }
   ]

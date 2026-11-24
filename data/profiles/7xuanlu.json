@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 16,
   "merged_prs": 5,
-  "s_pr": 99.29,
+  "s_pr": 99.38,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.77,
+  "s_impact": 99.15,
+  "s_consistency": 97.52,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 433,
+  "rank": 454,
   "avatar_url": "https://avatars.githubusercontent.com/u/23661875?u=9d79a0ce4ea516650c0de341064c7c01a80a8050&v=4",
   "bio": "Essentialist. Builder. Crafting wenlan.app",
   "company": "",
@@ -35,11 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 391,
   "prev_score": 867.8,
-  "rank_delta": -42,
+  "rank_delta": -63,
   "score_delta": -0.8,
   "counted_merges": [
     {
@@ -59,7 +60,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 433,
+      "r": 454,
       "s": 867.0
     }
   ]

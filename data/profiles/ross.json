@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 17,
   "merged_prs": 9,
-  "s_pr": 99.59,
+  "s_pr": 99.65,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.75,
+  "s_impact": 99.15,
+  "s_consistency": 97.5,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 868.0,
+  "rank_score": 867.9,
   "active_repos_touched": 5,
   "pr_reviews": 4,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 362,
+  "rank": 383,
   "avatar_url": "https://avatars.githubusercontent.com/u/12789?u=e7672f2d8919c3cae6ca4af5dba4e9cd96739660&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 312,
   "prev_score": 868.9,
-  "rank_delta": -50,
-  "score_delta": -0.9,
+  "rank_delta": -71,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "ross/logit",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 362,
-      "s": 868.0
+      "r": 383,
+      "s": 867.9
     }
   ]
 }

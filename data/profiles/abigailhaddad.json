@@ -4,19 +4,19 @@
   "primary_language": "HTML",
   "total_pushes": 2,
   "merged_prs": 5,
-  "s_pr": 98.84,
+  "s_pr": 98.98,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.99,
+  "s_impact": 99.15,
+  "s_consistency": 97.72,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 7,
+  "active_days": 8,
   "window_days": 30,
-  "rank_score": 865.7,
+  "rank_score": 865.9,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 533,
+  "rank": 548,
   "avatar_url": "https://avatars.githubusercontent.com/u/17127131?u=842977d015750cade0340779d6346395a852ae36&v=4",
   "bio": "I have an LLC and build data pipelines and websites, mostly from federal data: hiring, contracting, regulations and agency decisions.",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "ci_pushes": 2,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 478,
   "prev_score": 866.7,
-  "rank_delta": -55,
-  "score_delta": -1.0,
+  "rank_delta": -70,
+  "score_delta": -0.8,
   "counted_merges": [
     {
       "repo": "abigailhaddad/usajobs_historical",
@@ -67,8 +68,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 533,
-      "s": 865.7
+      "r": 548,
+      "s": 865.9
     }
   ]
 }

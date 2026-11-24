@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 66,
   "merged_prs": 18,
-  "s_pr": 99.87,
+  "s_pr": 99.89,
   "s_quality": 50.0,
-  "s_impact": 99.71,
-  "s_consistency": 99.84,
+  "s_impact": 99.72,
+  "s_consistency": 99.6,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 873.6,
+  "rank_score": 873.3,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 6,
+  "rank": 10,
   "avatar_url": "https://avatars.githubusercontent.com/u/74563097?u=0f9f46f572b2624796994881295824332e249a73&v=4",
   "bio": "Hi, Nice to meet you.\r\n\r\nI'm Chong Liu",
   "company": "Roboticist & Product Manager",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 10,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 118,
   "prev_score": 871.2,
-  "rank_delta": 112,
-  "score_delta": 2.4,
+  "rank_delta": 108,
+  "score_delta": 2.1,
   "counted_merges": [
     {
       "repo": "ImChong/Robotics_Notebooks",
@@ -59,8 +60,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 6,
-      "s": 873.6
+      "r": 10,
+      "s": 873.3
     }
   ]
 }

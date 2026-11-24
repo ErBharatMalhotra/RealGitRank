@@ -4,10 +4,10 @@
   "primary_language": "QML",
   "total_pushes": 7,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 95.42,
+  "s_impact": 99.15,
+  "s_consistency": 95.08,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 859.8,
+  "rank_score": 860.1,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 849,
+  "rank": 897,
   "avatar_url": "https://avatars.githubusercontent.com/u/144720980?u=3293d655cf4b15e3037fbadaeb564123e0e41af7&v=4",
   "bio": "Industrial Maintenance Engineer | Industrial Mechanic | Linux Enthusiast | Hobbyist Developer focused on Python, PyQt6, QML, C++, AI and System Automation",
   "company": "PunchiSoft",
@@ -50,8 +50,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 849,
-      "s": 859.8
+      "r": 897,
+      "s": 860.1
     }
   ]
 }

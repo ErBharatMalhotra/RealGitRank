@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 2,
   "merged_prs": 7,
-  "s_pr": 99.29,
+  "s_pr": 99.38,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.64,
+  "s_impact": 99.15,
+  "s_consistency": 97.4,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 866.7,
+  "rank_score": 866.8,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 461,
+  "rank": 470,
   "avatar_url": "https://avatars.githubusercontent.com/u/176143450?u=50df6c57003ddba58ba2307160d97556ca765d7b&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 580,
   "prev_score": 865.1,
-  "rank_delta": 119,
-  "score_delta": 1.6,
+  "rank_delta": 110,
+  "score_delta": 1.7,
   "counted_merges": [
     {
       "repo": "My-Denia/WuwaTerm",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 461,
-      "s": 866.7
+      "r": 470,
+      "s": 866.8
     }
   ]
 }

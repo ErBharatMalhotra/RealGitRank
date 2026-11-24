@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 8,
   "merged_prs": 9,
-  "s_pr": 99.54,
+  "s_pr": 99.6,
   "s_quality": 50.0,
   "s_impact": 99.98,
-  "s_consistency": 99.12,
+  "s_consistency": 98.96,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 76,
+  "rank": 74,
   "avatar_url": "https://avatars.githubusercontent.com/u/2390382?u=4b24f5c51034fff444ad3e4cbecef762d1e974b8&v=4",
   "bio": "I turn coffee into code",
   "company": "",
@@ -35,11 +35,12 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 88,
   "prev_score": 871.6,
-  "rank_delta": 12,
+  "rank_delta": 14,
   "score_delta": 0.4,
   "counted_merges": [
     {
@@ -63,7 +64,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 76,
+      "r": 74,
       "s": 872.0
     }
   ]

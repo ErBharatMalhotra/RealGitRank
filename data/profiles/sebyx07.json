@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 7,
   "merged_prs": 6,
-  "s_pr": 99.54,
+  "s_pr": 99.6,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.04,
+  "s_impact": 99.15,
+  "s_consistency": 97.77,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 868.3,
+  "rank_score": 868.1,
   "active_repos_touched": 15,
   "pr_reviews": 1,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 338,
+  "rank": 358,
   "avatar_url": "https://avatars.githubusercontent.com/u/5052549?u=1624acf4929dbcb6fbffbb53b0c00458e5787d14&v=4",
   "bio": "on the road to 1M PRs merged per day",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 560,
   "prev_score": 865.4,
-  "rank_delta": 222,
-  "score_delta": 2.9,
+  "rank_delta": 202,
+  "score_delta": 2.7,
   "counted_merges": [
     {
       "repo": "developerz-ai/ultimate",
@@ -71,8 +71,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 338,
-      "s": 868.3
+      "r": 358,
+      "s": 868.1
     }
   ]
 }

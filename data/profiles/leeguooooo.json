@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 16,
   "merged_prs": 8,
-  "s_pr": 99.46,
+  "s_pr": 99.53,
   "s_quality": 50.0,
-  "s_impact": 99.84,
-  "s_consistency": 98.11,
+  "s_impact": 99.85,
+  "s_consistency": 97.83,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 12,
   "window_days": 30,
-  "rank_score": 869.9,
+  "rank_score": 869.7,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 209,
+  "rank": 221,
   "avatar_url": "https://avatars.githubusercontent.com/u/9278645?u=347c2da404951a957bda0145856fd975f7ab46b0&v=4",
   "bio": "\u90ed\u7acb (Guo Li / Leo / leeguoo) \u00b7 full-stack dev \u00b7 AI-agent tools & CLIs \u00b7 ex-Qunar/Zhihu",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 3,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 131,
   "prev_score": 871.1,
-  "rank_delta": -78,
-  "score_delta": -1.2,
+  "rank_delta": -90,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "leeguooooo/chrome-use",
@@ -71,8 +72,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 209,
-      "s": 869.9
+      "r": 221,
+      "s": 869.7
     }
   ]
 }

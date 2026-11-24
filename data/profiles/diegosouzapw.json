@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 52,
   "merged_prs": 12,
-  "s_pr": 99.87,
+  "s_pr": 99.89,
   "s_quality": 50.0,
-  "s_impact": 99.76,
-  "s_consistency": 98.92,
+  "s_impact": 99.77,
+  "s_consistency": 98.78,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 18,
   "window_days": 30,
-  "rank_score": 872.3,
+  "rank_score": 872.2,
   "active_repos_touched": 19,
   "pr_reviews": 0,
   "issue_comments": 8,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 59,
+  "rank": 58,
   "avatar_url": "https://avatars.githubusercontent.com/u/8016841?u=ed2ff706399ff7157d41e9d2c03281d65a192dde&v=4",
   "bio": "Creator of OmniRoute. I build open-source AI infrastructure, maintain developer tools, and help a global community contribute and learn.",
   "company": "CDWA Solutions",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 99,
   "prev_score": 871.5,
-  "rank_delta": 40,
-  "score_delta": 0.8,
+  "rank_delta": 41,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "cheaper-inference/OmniRoute",
@@ -55,8 +55,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 59,
-      "s": 872.3
+      "r": 58,
+      "s": 872.2
     }
   ]
 }

@@ -4,30 +4,30 @@
   "primary_language": "JavaScript",
   "total_pushes": 72,
   "merged_prs": 9,
-  "s_pr": 99.54,
+  "s_pr": 99.6,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 91.34,
+  "s_impact": 99.15,
+  "s_consistency": 95.45,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 4,
+  "active_days": 5,
   "window_days": 30,
-  "rank_score": 858.2,
+  "rank_score": 864.7,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 3,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 945,
+  "rank": 616,
   "avatar_url": "https://avatars.githubusercontent.com/u/185875790?u=13beb437a463974c5df2c8f6024235f11b2cc93a&v=4",
   "bio": "Informatics student | ITSecurity , AIEngineer  Full-Stack Dev",
   "company": "",
@@ -35,6 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
   "counted_merges": [
@@ -50,8 +51,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 945,
-      "s": 858.2
+      "r": 616,
+      "s": 864.7
     }
   ]
 }

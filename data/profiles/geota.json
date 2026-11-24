@@ -4,10 +4,10 @@
   "primary_language": "Kotlin",
   "total_pushes": 19,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.16,
+  "s_impact": 99.15,
+  "s_consistency": 97.87,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 860.6,
+  "rank_score": 861.4,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 6,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 807,
+  "rank": 808,
   "avatar_url": "https://avatars.githubusercontent.com/u/2237123?u=a9a98b8c163366e1fee20fe9fd0bdbf5cb45a02b&v=4",
   "bio": "",
   "company": "@Cloudflare",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 807,
-      "s": 860.6
+      "r": 808,
+      "s": 861.4
     }
   ]
 }

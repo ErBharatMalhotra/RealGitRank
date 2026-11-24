@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 11,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.59,
+  "s_impact": 99.15,
+  "s_consistency": 98.28,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 864.6,
+  "rank_score": 864.9,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 602,
+  "rank": 605,
   "avatar_url": "https://avatars.githubusercontent.com/u/1719651?u=3eea08c315ea980cdec4bf5f7e0be0ca3fb46e48&v=4",
   "bio": "https://www.linkedin.com/in/calionauta",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 5,
   "percentile": 99.9,
   "tier": "Elite",
   "prev_rank": 534,
   "prev_score": 865.8,
-  "rank_delta": -68,
-  "score_delta": -1.2,
+  "rank_delta": -71,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "calionauta/daisyui-lint",
@@ -59,8 +60,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 602,
-      "s": 864.6
+      "r": 605,
+      "s": 864.9
     }
   ]
 }

@@ -13,10 +13,10 @@
   {
     "rows": 50000,
     "null_usernames": 0,
-    "score_min": 704.1,
-    "score_max": 874.1,
-    "score_mean": 733.405,
-    "score_std": 31.949,
+    "score_min": 705.9,
+    "score_max": 873.9,
+    "score_mean": 735.019,
+    "score_std": 31.862,
     "bot_rate": 0.0,
     "score_version": "v2-percentile",
     "date": "2026-11-24"

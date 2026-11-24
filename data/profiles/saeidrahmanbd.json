@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 21,
   "merged_prs": 5,
-  "s_pr": 98.84,
+  "s_pr": 98.98,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.7,
+  "s_impact": 99.15,
+  "s_consistency": 98.53,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 866.8,
+  "rank_score": 867.1,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 450,
+  "rank": 441,
   "avatar_url": "https://avatars.githubusercontent.com/u/298127238?u=b2aa6a0e9d2f1623ba23b6e978240e1dcc47920c&v=4",
   "bio": "Marketing & Brand Professional | Digital Projects | Technology Enthusiast",
   "company": "Keya Cosmetics Ltd.",
@@ -35,13 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 1,
+  "ci_pushes": 5,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 373,
   "prev_score": 868.0,
-  "rank_delta": -77,
-  "score_delta": -1.2,
+  "rank_delta": -68,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "saeidrahmanbd/BDIX-IPTV",
@@ -56,8 +56,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 450,
-      "s": 866.8
+      "r": 441,
+      "s": 867.1
     }
   ]
 }

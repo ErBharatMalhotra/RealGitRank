@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 9,
   "merged_prs": 2,
-  "s_pr": 95.55,
+  "s_pr": 96.1,
   "s_quality": 50.0,
-  "s_impact": 99.76,
-  "s_consistency": 99.27,
+  "s_impact": 99.77,
+  "s_consistency": 99.11,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 857.7,
+  "rank_score": 859.5,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 981,
+  "rank": 928,
   "avatar_url": "https://avatars.githubusercontent.com/u/1464667?u=45feeacfaa63ea1407418877b202f66f183230fa&v=4",
   "bio": "",
   "company": "@VisivoConsulting ",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 981,
-      "s": 857.7
+      "r": 928,
+      "s": 859.5
     }
   ]
 }

@@ -6,8 +6,8 @@
   "merged_prs": 74,
   "s_pr": 99.99,
   "s_quality": 50.0,
-  "s_impact": 99.89,
-  "s_consistency": 99.19,
+  "s_impact": 99.9,
+  "s_consistency": 99.03,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 29,
   "window_days": 30,
-  "rank_score": 873.5,
+  "rank_score": 873.3,
   "active_repos_touched": 32,
   "pr_reviews": 0,
   "issue_comments": 50,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 10,
+  "rank": 8,
   "avatar_url": "https://avatars.githubusercontent.com/u/1218621?v=4",
   "bio": "",
   "company": "",
@@ -35,13 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 3,
+  "ci_pushes": 44,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 8,
   "prev_score": 872.9,
-  "rank_delta": -2,
-  "score_delta": 0.6,
+  "rank_delta": 0,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "tamnd/rupg",
@@ -92,8 +92,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 10,
-      "s": 873.5
+      "r": 8,
+      "s": 873.3
     }
   ]
 }

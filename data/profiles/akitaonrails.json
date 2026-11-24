@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 16,
   "merged_prs": 7,
-  "s_pr": 99.29,
+  "s_pr": 99.38,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 98.92,
+  "s_consistency": 98.78,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 26,
   "window_days": 30,
-  "rank_score": 870.9,
+  "rank_score": 871.0,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 149,
+  "rank": 128,
   "avatar_url": "https://avatars.githubusercontent.com/u/2840?u=6923ae49ba086f2c94d29287bc998bacf5b32010&v=4",
   "bio": "Agile Senior Vibe Coder /\r\nSign up for my newsletter: https://themakitachronicles.com",
   "company": "Codeminer 42",
@@ -40,8 +40,8 @@
   "tier": "Elite",
   "prev_rank": 272,
   "prev_score": 869.4,
-  "rank_delta": 123,
-  "score_delta": 1.5,
+  "rank_delta": 144,
+  "score_delta": 1.6,
   "counted_merges": [
     {
       "repo": "akitaonrails/ai-memory",
@@ -60,8 +60,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 149,
-      "s": 870.9
+      "r": 128,
+      "s": 871.0
     }
   ]
 }

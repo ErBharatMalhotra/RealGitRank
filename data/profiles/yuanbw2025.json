@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 6,
   "merged_prs": 5,
-  "s_pr": 98.84,
+  "s_pr": 98.98,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 99.89,
+  "s_impact": 98.72,
+  "s_consistency": 99.66,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 867.4,
+  "rank_score": 867.7,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 401,
+  "rank": 395,
   "avatar_url": "https://avatars.githubusercontent.com/u/251321267?u=b6c169df7c7e84d39432208a89945a375d026e80&v=4",
   "bio": "",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 2,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 489,
   "prev_score": 866.6,
-  "rank_delta": 88,
-  "score_delta": 0.8,
+  "rank_delta": 94,
+  "score_delta": 1.1,
   "counted_merges": [
     {
       "repo": "yuanbw2025/storyforge",
@@ -55,8 +56,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 401,
-      "s": 867.4
+      "r": 395,
+      "s": 867.7
     }
   ]
 }

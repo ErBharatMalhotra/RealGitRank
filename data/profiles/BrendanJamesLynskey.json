@@ -4,10 +4,10 @@
   "primary_language": "SystemVerilog",
   "total_pushes": 8,
   "merged_prs": 8,
-  "s_pr": 99.46,
+  "s_pr": 99.53,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 99.32,
+  "s_impact": 99.15,
+  "s_consistency": 99.16,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 213,
+  "rank": 208,
   "avatar_url": "https://avatars.githubusercontent.com/u/27049659?u=44f4d9fd8e82af0e9ebf717986fa4ddcdaf73622&v=4",
   "bio": "Experienced engineer with broad skill-set: LLM, RTL, FPGA, HW/PSU/SI/PI, DSP, Python",
   "company": "",
@@ -39,7 +39,7 @@
   "tier": "Elite",
   "prev_rank": 259,
   "prev_score": 869.6,
-  "rank_delta": 46,
+  "rank_delta": 51,
   "score_delta": 0.3,
   "counted_merges": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 213,
+      "r": 208,
       "s": 869.9
     }
   ]

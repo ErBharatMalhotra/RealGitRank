@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 15,
   "merged_prs": 5,
-  "s_pr": 98.84,
+  "s_pr": 98.98,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 95.61,
+  "s_impact": 98.72,
+  "s_consistency": 95.25,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 861.0,
+  "rank_score": 861.1,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 783,
+  "rank": 827,
   "avatar_url": "https://avatars.githubusercontent.com/u/57127132?u=c49e1e021f38d9c8f37e493e299af04cb8a79638&v=4",
   "bio": "Applied AI Researcher @ Taiwan Polar Institute \u00b7 Founder of POUK YAM",
   "company": "Taiwan Polar Institute",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 757,
   "prev_score": 862.2,
-  "rank_delta": -26,
-  "score_delta": -1.2,
+  "rank_delta": -70,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "Rekin226/aquascope",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 783,
-      "s": 861.0
+      "r": 827,
+      "s": 861.1
     }
   ]
 }

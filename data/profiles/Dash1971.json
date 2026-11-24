@@ -4,10 +4,10 @@
   "primary_language": "Dart",
   "total_pushes": 6,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 95.6,
+  "s_impact": 98.72,
+  "s_consistency": 95.24,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 859.0,
+  "rank_score": 859.3,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 893,
+  "rank": 942,
   "avatar_url": "https://avatars.githubusercontent.com/u/277174790?u=5e1e6e43ee93469ad2b836dc68862ad9957b04b6&v=4",
   "bio": "Creator of Mobile Maia Android app and mutechess.org # Interested in chess, Maia, AI, Nostr # npub1tqwfm20g9pxzd70f8w8cnphsl8u28ydl0kkqpmhnk3pc2spuz5us9j2j",
   "company": "",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 893,
-      "s": 859.0
+      "r": 942,
+      "s": 859.3
     }
   ]
 }

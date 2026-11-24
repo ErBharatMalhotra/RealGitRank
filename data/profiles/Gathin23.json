@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 16,
-  "s_pr": 99.84,
+  "s_pr": 99.86,
   "s_quality": 50.0,
   "s_impact": 100.0,
-  "s_consistency": 99.33,
+  "s_consistency": 99.17,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 30,
   "window_days": 30,
-  "rank_score": 873.4,
+  "rank_score": 873.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 26,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 16,
+  "rank": 11,
   "avatar_url": "https://avatars.githubusercontent.com/u/94786511?u=a36aa7656053e4cd6f14772ff0fe7752c4365ddb&v=4",
   "bio": "Sr. DevRel Lead @0gfoundation \u00b7 built CleanYourTV",
   "company": "0G",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 5,
   "prev_score": 873.1,
-  "rank_delta": -11,
-  "score_delta": 0.3,
+  "rank_delta": -6,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "Gathin23/cleanyourtv",
@@ -60,8 +60,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 16,
-      "s": 873.4
+      "r": 11,
+      "s": 873.3
     }
   ]
 }

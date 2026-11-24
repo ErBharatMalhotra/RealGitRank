@@ -4,10 +4,10 @@
   "primary_language": "C#",
   "total_pushes": 6,
   "merged_prs": 14,
-  "s_pr": 99.88,
+  "s_pr": 99.89,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 97.79,
+  "s_impact": 98.72,
+  "s_consistency": 97.54,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 13,
   "window_days": 30,
-  "rank_score": 867.9,
+  "rank_score": 867.7,
   "active_repos_touched": 13,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 368,
+  "rank": 393,
   "avatar_url": "https://avatars.githubusercontent.com/u/1848514?u=0978aa605ba2c979ad6ea442117785d87c7a5263&v=4",
   "bio": "",
   "company": "AI-42 Sweden AB",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 316,
   "prev_score": 868.8,
-  "rank_delta": -52,
-  "score_delta": -0.9,
+  "rank_delta": -77,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "CometWorks/linux-compat",
@@ -87,8 +87,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 368,
-      "s": 867.9
+      "r": 393,
+      "s": 867.7
     }
   ]
 }

@@ -4,19 +4,19 @@
   "primary_language": "Vue",
   "total_pushes": 6,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
-  "s_impact": 99.56,
-  "s_consistency": 95.53,
+  "s_impact": 99.58,
+  "s_consistency": 95.17,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 9,
   "window_days": 30,
-  "rank_score": 861.1,
+  "rank_score": 861.4,
   "active_repos_touched": 4,
   "pr_reviews": 6,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 776,
+  "rank": 804,
   "avatar_url": "https://avatars.githubusercontent.com/u/18638914?u=631ff621b1f072e5e86c6ed6df55743348fbd17f&v=4",
   "bio": "Coding the world.",
   "company": "Always Day 1",
@@ -35,7 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 1,
+  "ci_pushes": 2,
   "percentile": 99.9,
   "tier": "Elite",
   "counted_merges": [
@@ -59,8 +59,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 776,
-      "s": 861.1
+      "r": 804,
+      "s": 861.4
     }
   ]
 }

@@ -4,17 +4,17 @@
   "primary_language": "TypeScript",
   "total_pushes": 14,
   "merged_prs": 6,
-  "s_pr": 99.1,
+  "s_pr": 99.21,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 95.34,
+  "s_impact": 99.15,
+  "s_consistency": 95.01,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 9,
+  "active_days": 10,
   "window_days": 30,
   "rank_score": 862.6,
   "active_repos_touched": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 697,
+  "rank": 731,
   "avatar_url": "https://avatars.githubusercontent.com/u/2778161?u=db40c318c154771aee41574b9cdd5cd082a093e8&v=4",
   "bio": "Senior Full-Stack Developer specializing in scalable web apps with React, Node.js, GraphQL, and TypeScript. Focused on performance and usability.",
   "company": "",
@@ -35,6 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 4,
   "percentile": 99.9,
   "tier": "Elite",
   "counted_merges": [
@@ -46,7 +47,7 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 697,
+      "r": 731,
       "s": 862.6
     }
   ]

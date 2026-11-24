@@ -4,10 +4,10 @@
   "primary_language": "Kotlin",
   "total_pushes": 3,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.9,
-  "s_consistency": 99.92,
+  "s_impact": 99.91,
+  "s_consistency": 99.69,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 865.2,
+  "rank_score": 866.0,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 573,
+  "rank": 542,
   "avatar_url": "https://avatars.githubusercontent.com/u/65166044?u=01c221fcc47de2af3d2182031167e2ed74bd7d3a&v=4",
   "bio": "Birds of a feather flock together",
   "company": "City University of Hong Kong",
@@ -35,7 +35,7 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "percentile": 100.0,
   "tier": "Elite",
   "counted_merges": [
     {
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 573,
-      "s": 865.2
+      "r": 542,
+      "s": 866.0
     }
   ]
 }

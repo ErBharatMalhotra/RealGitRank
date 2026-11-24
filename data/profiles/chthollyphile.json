@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 2,
   "merged_prs": 4,
-  "s_pr": 98.25,
+  "s_pr": 98.47,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 98.63,
+  "s_consistency": 98.32,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 24,
   "window_days": 30,
-  "rank_score": 866.8,
+  "rank_score": 867.1,
   "active_repos_touched": 2,
   "pr_reviews": 1,
   "issue_comments": 4,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 456,
+  "rank": 445,
   "avatar_url": "https://avatars.githubusercontent.com/u/30263107?u=8254937bec806c54b6b7b0cece322512467ceed5&v=4",
   "bio": "\u541b\u306f\u3001\u523b\u306e\u6d99\u3092\u898b\u308b",
   "company": "",
@@ -35,13 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 1,
+  "ci_pushes": 2,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 379,
   "prev_score": 868.0,
-  "rank_delta": -77,
-  "score_delta": -1.2,
+  "rank_delta": -66,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "chthollyphile/folia-major",
@@ -56,8 +56,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 456,
-      "s": 866.8
+      "r": 445,
+      "s": 867.1
     }
   ]
 }

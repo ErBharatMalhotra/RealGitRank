@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 47,
   "merged_prs": 11,
-  "s_pr": 99.68,
+  "s_pr": 99.72,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.88,
+  "s_impact": 99.15,
+  "s_consistency": 97.62,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 868.5,
+  "rank_score": 868.3,
   "active_repos_touched": 2,
   "pr_reviews": 2,
   "issue_comments": 13,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 319,
+  "rank": 335,
   "avatar_url": "https://avatars.githubusercontent.com/u/151978260?v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 275,
   "prev_score": 869.3,
-  "rank_delta": -44,
-  "score_delta": -0.8,
+  "rank_delta": -60,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "DrunkOnJava/rvt-rs",
@@ -59,8 +59,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 319,
-      "s": 868.5
+      "r": 335,
+      "s": 868.3
     }
   ]
 }

@@ -6,8 +6,8 @@
   "merged_prs": 28,
   "s_pr": 99.95,
   "s_quality": 50.0,
-  "s_impact": 99.71,
-  "s_consistency": 99.22,
+  "s_impact": 99.72,
+  "s_consistency": 99.05,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 24,
   "window_days": 30,
-  "rank_score": 872.9,
+  "rank_score": 872.7,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 31,
+  "rank": 33,
   "avatar_url": "https://avatars.githubusercontent.com/u/7365912?u=0e7e6585e465c46f91fb0b6ba27524cebb68fcd0&v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 36,
   "prev_score": 872.3,
-  "rank_delta": 5,
-  "score_delta": 0.6,
+  "rank_delta": 3,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "Kosinkadink/Dinkster",
@@ -63,8 +63,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 31,
-      "s": 872.9
+      "r": 33,
+      "s": 872.7
     }
   ]
 }

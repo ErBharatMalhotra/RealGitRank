@@ -4,30 +4,30 @@
   "primary_language": "TypeScript",
   "total_pushes": 12,
   "merged_prs": 4,
-  "s_pr": 99.1,
+  "s_pr": 99.21,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.73,
+  "s_impact": 99.15,
+  "s_consistency": 98.67,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 9,
   "window_days": 30,
-  "rank_score": 866.2,
+  "rank_score": 868.1,
   "active_repos_touched": 3,
   "pr_reviews": 1,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 501,
+  "rank": 361,
   "avatar_url": "https://avatars.githubusercontent.com/u/16478229?v=4",
   "bio": "",
   "company": "",
@@ -35,13 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 1,
-  "percentile": 99.9,
+  "ci_pushes": 3,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 707,
   "prev_score": 863.0,
-  "rank_delta": 206,
-  "score_delta": 3.2,
+  "rank_delta": 346,
+  "score_delta": 5.1,
   "counted_merges": [
     {
       "repo": "refactory-lang/sittir",
@@ -56,8 +56,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 501,
-      "s": 866.2
+      "r": 361,
+      "s": 868.1
     }
   ]
 }

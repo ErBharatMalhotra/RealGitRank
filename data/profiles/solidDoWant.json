@@ -4,10 +4,10 @@
   "primary_language": "Go",
   "total_pushes": 14,
   "merged_prs": 15,
-  "s_pr": 99.82,
+  "s_pr": 99.85,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.78,
+  "s_impact": 99.15,
+  "s_consistency": 97.53,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 868.8,
+  "rank_score": 868.6,
   "active_repos_touched": 8,
   "pr_reviews": 2,
   "issue_comments": 30,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 287,
+  "rank": 302,
   "avatar_url": "https://avatars.githubusercontent.com/u/16456946?v=4",
   "bio": "",
   "company": "",
@@ -39,8 +39,8 @@
   "tier": "Elite",
   "prev_rank": 549,
   "prev_score": 865.6,
-  "rank_delta": 262,
-  "score_delta": 3.2,
+  "rank_delta": 247,
+  "score_delta": 3.0,
   "counted_merges": [
     {
       "repo": "solidDoWant/toolgate",
@@ -75,8 +75,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 287,
-      "s": 868.8
+      "r": 302,
+      "s": 868.6
     }
   ]
 }

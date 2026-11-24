@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 27,
   "merged_prs": 11,
-  "s_pr": 99.72,
+  "s_pr": 99.76,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.76,
+  "s_impact": 99.15,
+  "s_consistency": 98.6,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 870.0,
+  "rank_score": 869.9,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 201,
+  "rank": 206,
   "avatar_url": "https://avatars.githubusercontent.com/u/53419401?u=e5de954aa54b738c945757d21d5601efe52f71fa&v=4",
   "bio": "for the love of the game",
   "company": "",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 2,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 283,
   "prev_score": 869.2,
-  "rank_delta": 82,
-  "score_delta": 0.8,
+  "rank_delta": 77,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "schmayterling/hibi",
@@ -63,8 +64,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 201,
-      "s": 870.0
+      "r": 206,
+      "s": 869.9
     }
   ]
 }

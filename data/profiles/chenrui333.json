@@ -4,19 +4,19 @@
   "primary_language": "TypeScript",
   "total_pushes": 32,
   "merged_prs": 18,
-  "s_pr": 99.87,
+  "s_pr": 99.89,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.84,
+  "s_impact": 99.15,
+  "s_consistency": 98.71,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 21,
+  "active_days": 22,
   "window_days": 30,
-  "rank_score": 870.6,
+  "rank_score": 870.5,
   "active_repos_touched": 7,
   "pr_reviews": 18,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 158,
+  "rank": 163,
   "avatar_url": "https://avatars.githubusercontent.com/u/1580956?u=89a9167e4e17b66ee9bbc0e60fec075783be05be&v=4",
   "bio": "",
   "company": "@justworkshr",
@@ -35,12 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
+  "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 234,
   "prev_score": 869.8,
-  "rank_delta": 76,
-  "score_delta": 0.8,
+  "rank_delta": 71,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "chenrui333/homebrew-tap",
@@ -59,8 +60,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 158,
-      "s": 870.6
+      "r": 163,
+      "s": 870.5
     }
   ]
 }

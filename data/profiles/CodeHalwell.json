@@ -4,10 +4,10 @@
   "primary_language": "Jupyter Notebook",
   "total_pushes": 12,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 97.8,
+  "s_impact": 99.15,
+  "s_consistency": 97.55,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 860.0,
+  "rank_score": 860.9,
   "active_repos_touched": 5,
   "pr_reviews": 3,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 837,
+  "rank": 839,
   "avatar_url": "https://avatars.githubusercontent.com/u/120649965?u=a303ff5b700a7bd04916138e312204dfdbc62595&v=4",
   "bio": "Analytical Chemist \u2014> Data Scientist / AI Engineer and Developer. When I\u2019m not coding, I dream about coding ",
   "company": "Synextra",
@@ -54,8 +54,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 837,
-      "s": 860.0
+      "r": 839,
+      "s": 860.9
     }
   ]
 }

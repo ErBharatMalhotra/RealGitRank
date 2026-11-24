@@ -4,10 +4,10 @@
   "primary_language": "Kotlin",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 98.59,
+  "s_pr": 98.76,
   "s_quality": 50.0,
-  "s_impact": 98.66,
-  "s_consistency": 95.11,
+  "s_impact": 98.72,
+  "s_consistency": 94.8,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 4,
   "window_days": 30,
-  "rank_score": 859.4,
+  "rank_score": 859.7,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 870,
+  "rank": 916,
   "avatar_url": "https://avatars.githubusercontent.com/u/11050179?u=c947858d566901dc0b3256a44a7b6b9591e54ac2&v=4",
   "bio": "",
   "company": "",
@@ -50,8 +50,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 870,
-      "s": 859.4
+      "r": 916,
+      "s": 859.7
     }
   ]
 }

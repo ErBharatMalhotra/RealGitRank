@@ -4,10 +4,10 @@
   "primary_language": "Lua",
   "total_pushes": 5,
   "merged_prs": 6,
-  "s_pr": 99.46,
+  "s_pr": 99.53,
   "s_quality": 50.0,
-  "s_impact": 99.56,
-  "s_consistency": 99.88,
+  "s_impact": 99.58,
+  "s_consistency": 99.65,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 91,
+  "rank": 86,
   "avatar_url": "https://avatars.githubusercontent.com/u/12857160?u=1014b81d0dff9ba67047e538d8296e79162115e0&v=4",
   "bio": "Insanity is running the same build over and over again and getting different results.",
   "company": "",
@@ -40,7 +40,7 @@
   "tier": "Elite",
   "prev_rank": 140,
   "prev_score": 871.0,
-  "rank_delta": 49,
+  "rank_delta": 54,
   "score_delta": 0.8,
   "counted_merges": [
     {
@@ -76,7 +76,7 @@
     },
     {
       "d": "2026-11-24",
-      "r": 91,
+      "r": 86,
       "s": 871.8
     }
   ]

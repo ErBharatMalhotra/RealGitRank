@@ -4,19 +4,19 @@
   "primary_language": "Go",
   "total_pushes": 18,
   "merged_prs": 4,
-  "s_pr": 98.59,
+  "s_pr": 98.76,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.88,
+  "s_impact": 99.15,
+  "s_consistency": 98.74,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 9,
+  "active_days": 10,
   "window_days": 30,
-  "rank_score": 866.2,
+  "rank_score": 866.7,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 504,
+  "rank": 482,
   "avatar_url": "https://avatars.githubusercontent.com/u/236632453?u=c1582ceef04399385ba1d37748d4bd9e7a472185&v=4",
   "bio": "",
   "company": "",
@@ -35,13 +35,13 @@
   "score_version": "v2-percentile",
   "window_start": "2026-10-25",
   "window_end": "2026-11-23",
-  "ci_pushes": 1,
-  "percentile": 99.9,
+  "ci_pushes": 4,
+  "percentile": 100.0,
   "tier": "Elite",
   "prev_rank": 557,
   "prev_score": 865.5,
-  "rank_delta": 53,
-  "score_delta": 0.7,
+  "rank_delta": 75,
+  "score_delta": 1.2,
   "counted_merges": [
     {
       "repo": "blackwell-systems/axiomscope",
@@ -64,8 +64,8 @@
     },
     {
       "d": "2026-11-24",
-      "r": 504,
-      "s": 866.2
+      "r": 482,
+      "s": 866.7
     }
   ]
 }

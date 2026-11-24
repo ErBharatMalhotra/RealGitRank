@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 5,
   "merged_prs": 3,
-  "s_pr": 97.3,
+  "s_pr": 97.64,
   "s_quality": 50.0,
-  "s_impact": 99.11,
-  "s_consistency": 98.72,
+  "s_impact": 99.15,
+  "s_consistency": 98.56,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 861.4,
+  "rank_score": 862.4,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,7 +27,7 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 762,
+  "rank": 745,
   "avatar_url": "https://avatars.githubusercontent.com/u/22872368?u=8cdfda9d17b1619614142c065e796bece47f0927&v=4",
   "bio": "AI Research Scientist @ Apodex, Singapore. I put model capabilities into products & platforms. 5k+ \u2b50 of self-hosted tools. Now building very-happy.",
   "company": "@ApodexAI",
@@ -46,8 +46,8 @@
   "history": [
     {
       "d": "2026-11-24",
-      "r": 762,
-      "s": 861.4
+      "r": 745,
+      "s": 862.4
     }
   ]
 }
