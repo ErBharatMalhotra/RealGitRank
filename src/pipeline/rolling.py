@@ -50,7 +50,7 @@ def _top_repos(counter, cap=MERGED_REPO_CAP):
     return dict(sorted(counter.items(), key=lambda kv: (-kv[1], kv[0]))[:cap])
 
 
-def write_day_shard(date_str, agg, rolling_dir=ROLLING_DIR):
+def write_day_shard(date_str, agg, rolling_dir=ROLLING_DIR, stats=None):
     """Convert one day's gharchive accumulators into a compact gzip shard."""
     users = {}
     for login, d in agg.items():
@@ -100,9 +100,47 @@ def write_day_shard(date_str, agg, rolling_dir=ROLLING_DIR):
 
     os.makedirs(rolling_dir, exist_ok=True)
     path = shard_path(date_str, rolling_dir)
+    payload = {"date": date_str, "users": users}
+    if stats:
+        payload["stats"] = {
+            "events": int(stats.get("events") or 0),
+            "bot_events": int(stats.get("bot_events") or 0),
+            "hours": int(stats.get("hours") or 0),
+        }
     with gzip.open(path, "wt", encoding="utf-8") as f:
-        json.dump({"date": date_str, "users": users}, f, separators=(",", ":"))
+        json.dump(payload, f, separators=(",", ":"))
     return path, len(users)
+
+
+def window_source_stats(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
+    """How much source activity the window actually contains (or None if unknown)."""
+    dates = window_dates(end_date, days, rolling_dir)
+    events = bot_events = hours = 0
+    known_days = 0
+    for date_str in dates:
+        try:
+            with gzip.open(shard_path(date_str, rolling_dir), "rt", encoding="utf-8") as f:
+                payload = json.load(f)
+        except (OSError, ValueError):
+            continue
+        stats = payload.get("stats")
+        if not isinstance(stats, dict):
+            continue
+        known_days += 1
+        events += int(stats.get("events") or 0)
+        bot_events += int(stats.get("bot_events") or 0)
+        hours += int(stats.get("hours") or 0)
+    if not known_days:
+        return None
+    return {
+        "days_measured": known_days,
+        "days_in_window": len(dates),
+        "hourly_files": hours,
+        "events": events,
+        "bot_events": bot_events,
+        "bot_share_pct": round(bot_events / events * 100.0, 1) if events else 0.0,
+        "events_per_day": round(events / known_days, 0) if known_days else 0,
+    }
 
 
 def available_dates(rolling_dir=ROLLING_DIR):

@@ -10,6 +10,7 @@ data/*.log
 web/build.log
 data/enrichment_cache.json
 data/automation_signals.json
+data/long_tail.json
 data/language_cache.json
 web/public/data/
 web/public/data/chunks/

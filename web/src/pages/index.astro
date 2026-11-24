@@ -192,8 +192,11 @@
         const merges = Array.isArray(d.counted_merges) ? d.counted_merges.slice(0, 8).map((m) =>
           `<li><a href="https://github.com/${String(m.repo).split('/').map(encodeURIComponent).join('/')}/pulls?q=is%3Apr+is%3Amerged" target="_blank" rel="noopener noreferrer nofollow">${esc(m.repo)}</a> — ${num(m.prs)} merged PR</li>`
         ).join('') : '';
-        const profileLink = (typeof d.rank === 'number' && d.rank <= 1000)
-          ? `<a href="/profile/${encodeURIComponent(name)}">Full profile →</a>` : '';
+        // Every ranked user has a profile view; detailed pillars exist for the top 1,000.
+        const profileLink = d.rank
+          ? `<a href="/profile/?u=${encodeURIComponent(name)}&r=${encodeURIComponent(String(d.rank))}">Full profile →</a>` : '';
+        const detailNote = Object.keys(measured).length ? '' :
+          '<p class="muted" style="margin:8px 0 0">This developer is ranked, but the detailed pillar breakdown is generated for the top 1,000 only.</p>';
         modalBody.innerHTML = `
           <h2 id="modal-name">${esc(name)}</h2>
           <p class="muted">${d.rank ? 'Rank #' + num(d.rank) : 'Unranked'}${d.tier ? ' · ' + esc(d.tier) : ''}${d.country ? ' · ' + esc(d.country) : ''}${d.primary_language ? ' · ' + esc(d.primary_language) : ''}</p>
@@ -206,6 +209,7 @@
           <h3 style="margin:14px 0 4px;font-size:14px">Why this score</h3>
           ${pillars}
           <p class="muted" style="margin:8px 0 0">Pillars are 0–100 percentiles where observed. Missing pillars are excluded from the score, not counted as zero.</p>
+          ${detailNote}
           ${merges ? `<h3 style="margin:16px 0 4px;font-size:14px">Counted merges</h3><ul style="margin:0;padding-left:18px;font-size:13px">${merges}</ul>` : ''}
           <p class="muted" style="margin:14px 0 0">Scores are automated estimates from public GitHub events over a 30-day window, not a statement of fact about a person.</p>
           <div class="links"><a href="https://github.com/${encodeURIComponent(name)}" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>${profileLink}<a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Report / opt out</a></div>`;

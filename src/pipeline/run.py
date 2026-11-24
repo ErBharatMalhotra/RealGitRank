@@ -26,11 +26,21 @@ from history import (
     write_snapshot,
 )
 from profiles import PROFILE_LIMIT, prune_profiles_for_leaderboard
-from rolling import WINDOW_DAYS, build_window_rows, prune_window, write_rows_parquet
+from rolling import (
+    WINDOW_DAYS,
+    build_window_rows,
+    prune_window,
+    window_source_stats,
+    write_rows_parquet,
+)
 from scoring_engine import compute_rank_scores
 
 SCORE_VERSION = "v2-percentile"
-LEADERBOARD_LIMIT = 50000  # keeps the static site (50k API files + chunks) inside Pages limits
+# Detailed rows committed to git. Everyone else is still ranked and published
+# (profile/score/search); the compact long tail is written to a gitignored file
+# that the chunk step then turns into public payload pages.
+LEADERBOARD_LIMIT = 50000
+LONG_TAIL_PATH = "data/long_tail.json"
 
 
 def load_json(path, default):
@@ -112,16 +122,18 @@ def main():
         entry["window_end"] = window["window_end"]
         by_name[username] = entry
 
-    lb = sorted(
+    ranked = sorted(
         by_name.values(),
         key=lambda u: (u.get("rank_score", 0), u.get("merged_prs", 0), u.get("username", "")),
         reverse=True,
-    )[:LEADERBOARD_LIMIT]
-    for index, entry in enumerate(lb, 1):
+    )
+    for index, entry in enumerate(ranked, 1):
         entry["rank"] = index
+    lb = ranked[:LEADERBOARD_LIMIT]
 
     run_date = today.isoformat()
-    assign_tiers(lb)
+    # Percentile/tier are computed over the whole ranked population, not the slice.
+    assign_tiers(ranked, total=len(ranked))
     clear_movement(lb)
     prev_date, previous = load_previous_snapshot("data/history", run_date)
     if previous and old_status.get("score_version") == SCORE_VERSION:
@@ -139,6 +151,24 @@ def main():
     write_signals(lb)
     with open("data/leaderboard.json", "w", encoding="utf-8") as f:
         json.dump([strip_signals(entry) for entry in lb], f, indent=2)
+
+    # Everyone outside the detailed slice stays ranked and searchable, with the
+    # fields a profile/mini-card needs. Derived data: never committed.
+    tail = [
+        {
+            "username": entry["username"],
+            "rank": entry["rank"],
+            "rank_score": entry.get("rank_score"),
+            "percentile": entry.get("percentile"),
+            "tier": entry.get("tier"),
+            "merged_prs": entry.get("merged_prs"),
+            "total_pushes": entry.get("total_pushes"),
+        }
+        for entry in ranked[LEADERBOARD_LIMIT:]
+    ]
+    with open(LONG_TAIL_PATH, "w", encoding="utf-8") as f:
+        json.dump(tail, f, separators=(",", ":"), ensure_ascii=False)
+    print(f"Live ranked users: {len(ranked)} ({len(lb)} detailed + {len(tail)} compact)")
 
     os.makedirs("data/profiles", exist_ok=True)
     for entry in lb[:PROFILE_LIMIT]:
@@ -168,6 +198,8 @@ def main():
     coverage_meta = {
         "generated_at": generated_at,
         "score_version": SCORE_VERSION,
+        "source": window_source_stats(end_date),
+        "users_total": len(ranked),
         **window,
     }
     coverage = write_coverage(lb, coverage_meta, load_json("data/validation.json", None))
@@ -177,9 +209,11 @@ def main():
             "last_run_utc": generated_at,
             "data_age_hours": 0,
             "status": "ok",
-            "users": len(lb),
+            "users": len(ranked),
+            "detailed": len(lb),
             "new_today": len(scored),
             "source": "real",
+            "ingest": coverage_meta["source"],
             "score_version": SCORE_VERSION,
             "window_days": window["window_days"],
             "window_start": window["window_start"],

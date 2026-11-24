@@ -111,8 +111,12 @@ def new_user(login):
     }
 
 
-def aggregate_events(events, agg=None):
-    """Fold raw gharchive event dicts into per-user accumulators."""
+def aggregate_events(events, agg=None, stats=None):
+    """Fold raw gharchive event dicts into per-user accumulators.
+
+    ``stats`` (optional) records how much of the feed was seen and how much of it
+    was dropped as bot activity, so coverage can be published instead of implied.
+    """
     if agg is None:
         agg = {}
 
@@ -128,7 +132,12 @@ def aggregate_events(events, agg=None):
         actor = r.get("actor") or {}
         login = actor.get("login") if isinstance(actor, dict) else None
         if is_bot_login(login):
+            if stats is not None:
+                stats["events"] = stats.get("events", 0) + 1
+                stats["bot_events"] = stats.get("bot_events", 0) + 1
             continue
+        if stats is not None:
+            stats["events"] = stats.get("events", 0) + 1
 
         etype = r.get("type")
         repo = r.get("repo") or {}
@@ -303,14 +312,16 @@ def ingest_day(target_date, rolling_dir="data/rolling", write_raw=True):
         return 0
 
     agg = {}
+    stats = {"events": 0, "bot_events": 0, "hours": len(files)}
     for f in files:
         try:
-            aggregate_events(read_events(f), agg)
+            aggregate_events(read_events(f), agg, stats)
         except Exception as e:
             print(f"  error processing {f}: {e}")
 
-    print(f"Aggregated {len(agg)} users")
-    path, users = write_day_shard(date_str, agg, rolling_dir)
+    print(f"Aggregated {len(agg)} users from {stats['events']} events "
+          f"({stats['bot_events']} bot events skipped)")
+    path, users = write_day_shard(date_str, agg, rolling_dir, stats=stats)
     print(f"Rolling shard: {path} ({users} users)")
 
     if write_raw:

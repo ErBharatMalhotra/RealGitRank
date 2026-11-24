@@ -52,15 +52,27 @@
       }
 
       // Users ranked above the top-1000 profile cut-off only live in the leaderboard
-      // chunks (page_<n>.json, 1000 users each, rank ordered). Use the rank hint from
-      // the leaderboard link when present, otherwise scan pages until we find the user.
+      // chunks (page_<n>.json, 250 rows each, rank ordered). Resolve the name to a
+      // rank through the prefix-sharded search index first, then fetch that one page.
+      async function rankFor(username) {
+        const first = String(username || '').slice(0, 1).toLowerCase();
+        const bucket = /[a-z0-9]/.test(first) ? first : 'other';
+        const rows = await fetchJSON(`/data/search/${bucket}.json`);
+        if (!Array.isArray(rows)) return null;
+        const want = username.toLowerCase();
+        const hit = rows.find((r) => String(r[0]).toLowerCase() === want);
+        return hit ? hit[1] : null;
+      }
+
       async function findInChunks(username) {
         const want = username.toLowerCase();
         const pages = [];
         const idx = await fetchJSON('/data/chunks/index.json');
         chunkSize = idx && idx.chunk_size ? idx.chunk_size : chunkSize;
-        if (Number.isFinite(hintRank) && hintRank > 0) {
-          pages.push(Math.ceil(hintRank / chunkSize));
+        let rank = Number.isFinite(hintRank) && hintRank > 0 ? hintRank : null;
+        if (rank === null) rank = await rankFor(username);
+        if (Number.isFinite(rank) && rank > 0) {
+          pages.push(Math.ceil(rank / chunkSize));
         }
         const totalPages = idx && idx.pages ? idx.pages : 0;
         for (let p = 1; p <= totalPages; p++) if (!pages.includes(p)) pages.push(p);

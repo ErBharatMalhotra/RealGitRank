@@ -173,6 +173,7 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None, c
             "shards": status.get("shards"),
         },
         "count": len(users),
+        "ranked_total": status.get("users") or len(users),
         "site": SITE,
         "methodology_url": f"{SITE}/methodology/",
         "weights": WEIGHTS,
@@ -186,11 +187,14 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None, c
             "badge": f"{SITE}/badges/{{username}}.svg",
             "raw_chunks": f"{SITE}/data/chunks/page_{{n}}.json",
             "chunk_index": f"{SITE}/data/chunks/index.json",
+            "search_bucket": f"{SITE}/data/search/{{first_char}}.json",
         },
         "notes": (
             "Scores measure merged work, adoption and consistency over the rolling window "
             "declared above, with each pillar percentile-ranked and missing pillars excluded "
-            "(weights renormalised). Detailed profiles and per-user JSON are served only "
+            "(weights renormalised). Every ranked developer is published in "
+            "/data/chunks (250 rows per page) and indexed in /data/search/<first-char>.json; "
+            "detailed profiles and per-user JSON are served only "
             "for the top 1,000; avatar_url and bio live in /api/user/{username}.json. "
             "Coverage of every pillar "
             "is published in the coverage block, and independent GitHub spot checks in "
@@ -259,7 +263,7 @@ def llms_text(payload, leaderboard=None):
 Canonical site: {payload['site']}/ (custom domain, GitHub Pages, no API keys)
 Last data refresh: {payload.get('generated_at') or 'unknown'}
 Snapshot date: {payload.get('snapshot_date') or 'unknown'}
-Ranked developers: {payload.get('count', 0)}
+Ranked developers: {payload.get('ranked_total', payload.get('count', 0))} ({payload.get('count', 0)} with detailed records)
 Score version: {payload.get('score_version') or 'unknown'}
 Window: {window.get('days')} days ({window.get('start')} to {window.get('end')}, {window.get('shards')} daily shards)
 Pillar coverage: {coverage_line}
@@ -276,7 +280,10 @@ Independent validation: {validation_line}
   daily history, avatar_url, bio, company and location when available. Example: {payload['site']}/api/user/{(top[0].get('username') if top else 'sirine2907')}.json
   (users outside the top 1,000 have no per-user file; read their row from the chunks)
 - {payload['site']}/data/chunks/page_1.json — raw leaderboard chunks (250 rows per page),
-  index at {payload['site']}/data/chunks/index.json
+  index at {payload['site']}/data/chunks/index.json; every ranked developer is included
+- {payload['site']}/data/search/{{first_char}}.json — compact [username, rank, score]
+  index sharded by the first character of the username (a-z, 0-9, `other`), so a
+  lookup does not download the whole board
 - {payload['site']}/badges/{{username}}.svg — SVG badge (dedicated badges for the global
   top 1,000; {payload['site']}/badges/default.svg otherwise)
 - {payload['site']}/methodology/ — how the score is computed, in prose

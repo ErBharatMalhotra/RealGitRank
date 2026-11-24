@@ -46,6 +46,8 @@ def build_coverage(entries, meta=None, validation=None):
         "window_start": meta.get("window_start"),
         "window_end": meta.get("window_end"),
         "users": total,
+        "users_total": int(meta.get("users_total") or total),
+        "source": meta.get("source"),
         "pillars": {
             key: {"label": label, "measured": measured[key], "pct": _pct(measured[key], total)}
             for key, label in PILLARS
@@ -55,11 +57,14 @@ def build_coverage(entries, meta=None, validation=None):
         "language": {"known": language, "pct": _pct(language, total)},
         "validation": validation,
         "notes": (
-            "Automation signals (commit-message entropy and PR changed-file counts) are "
-            "only known when the GitHub events feed carries them; unknown signals are "
-            "disclosed here and never turned into a guessed adjustment. Missing pillars "
-            "are excluded from the weighted score and the remaining weights are "
-            "renormalised."
+            "`source` describes how much of the public GitHub event stream this window "
+            "actually contains (hourly files downloaded, events seen, bot events skipped). "
+            "gharchive.org is a partial mirror of public events, so the ranking covers the "
+            "activity it observed, not every commit on GitHub. Automation signals "
+            "(commit-message entropy and PR changed-file counts) are only known when the "
+            "feed carries them; unknown signals are disclosed here and never turned into "
+            "a guessed adjustment. Missing pillars are excluded from the weighted score "
+            "and the remaining weights are renormalised."
         ),
     }
 
@@ -95,6 +100,8 @@ def main():
         "window_days": status.get("window_days"),
         "window_start": status.get("window_start"),
         "window_end": status.get("window_end"),
+        "users_total": status.get("users"),
+        "source": status.get("ingest"),
     }, validation)
     print(
         f"Coverage: {payload['users']} users, quality "

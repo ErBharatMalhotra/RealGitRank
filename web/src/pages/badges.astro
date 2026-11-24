@@ -79,21 +79,29 @@
       const esc = (v) => String(v == null ? '' : v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
       const BADGE_LIMIT = 1000;
 
-      let usersPromise = null;
-      function allUsers() {
-        if (!usersPromise) {
-          usersPromise = (async () => {
+      // Prefix-sharded [username, rank, score] index. One bucket is fetched per
+      // starting character instead of a multi-megabyte monolithic index.
+      const BUCKETS = 'abcdefghijklmnopqrstuvwxyz0123456789';
+      const bucketCache = new Map();
+
+      function bucketOf(value) {
+        const first = String(value || '').trim().toLowerCase().slice(0, 1);
+        return BUCKETS.includes(first) ? first : 'other';
+      }
+
+      async function bucketUsers(value) {
+        const key = bucketOf(value);
+        if (!bucketCache.has(key)) {
+          bucketCache.set(key, (async () => {
             try {
-              // Compact [username, rank, score] index: one small request instead
-              // of fanning out over every 250-row chunk.
-              const rows = await (await fetch('/data/search.json')).json();
+              const rows = await (await fetch(`/data/search/${key}.json`)).json();
               return rows.map(([username, rank, score]) => ({ username, rank, rank_score: score }));
             } catch (e) {
               return [];
             }
-          })();
+          })());
         }
-        return usersPromise;
+        return bucketCache.get(key);
       }
 
       async function loadGallery() {
@@ -151,7 +159,7 @@
         results.innerHTML = '';
         if (q.length < 2) { hint.textContent = 'Type at least 2 characters.'; return; }
         hint.textContent = 'Searching…';
-        const users = await allUsers();
+        const users = await bucketUsers(q);
         const exact = users.find((u) => u.username.toLowerCase() === q);
         if (exact) {
           hint.textContent = '';
@@ -185,7 +193,7 @@
         const preset = new URLSearchParams(location.search).get('u');
         if (preset) {
           input.value = preset;
-          const users = await allUsers();
+          const users = await bucketUsers(preset);
           const hit = users.find((u) => u.username.toLowerCase() === preset.toLowerCase());
           hint.textContent = '';
           if (hit) select(hit);

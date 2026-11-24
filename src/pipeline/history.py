@@ -48,9 +48,13 @@ def tier_for(percentile):
     return TIERS[-1][0]
 
 
-def assign_tiers(leaderboard):
-    """Annotate every row with `percentile` and `tier` in place."""
-    total = len(leaderboard)
+def assign_tiers(leaderboard, total=None):
+    """Annotate every row with `percentile` and `tier` in place.
+
+    ``total`` is the size of the whole ranked population; pass it when
+    ``leaderboard`` is only the detailed slice so percentiles stay global.
+    """
+    total = int(total or len(leaderboard))
     for index, user in enumerate(leaderboard):
         rank = user.get("rank") or (index + 1)
         percentile = percentile_for(rank, total)
