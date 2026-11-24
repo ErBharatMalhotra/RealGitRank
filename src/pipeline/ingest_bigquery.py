@@ -25,9 +25,10 @@ Cost: one query per day over three columns of one day table (~0.05 GiB scanned),
 well inside the 1 TiB/month free tier. Missing credentials or any failure is a
 no-op, so the free gharchive shard is written exactly as before.
 """
+import gzip
 import json
 import os
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 SQL_PATH = Path(__file__).resolve().parents[2] / "scripts" / "bigquery" / "daily_ingest.sql"
@@ -95,9 +96,19 @@ def fetch_ci_stats(target_date, client=None, max_bytes=None):
     return [dict(row) for row in job.result()]
 
 
+def _module(name):
+    """Import a sibling module whether run as a script or inside the package."""
+    import importlib
+
+    if __package__:
+        return importlib.import_module(f"{__package__}.{name}")
+    return importlib.import_module(name)
+
+
 def merge_ci_stats(rows, agg, target_date):
     """Fold per-owner CI pushes into a day's accumulators; returns a summary."""
-    from ingest_gharchive import is_bot_login, new_user
+    is_bot_login = _module("ingest_gharchive").is_bot_login
+    new_user = _module("ingest_gharchive").new_user
 
     summary = {"owners": 0, "pushes": 0, "repos": 0}
     for row in rows:
@@ -139,6 +150,68 @@ def attribute_ci_pushes(target_date, agg, client=None):
     return merge_ci_stats(rows, agg, target_date)
 
 
+def _read_shard(path):
+    try:
+        with gzip.open(path, "rt", encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return None
+
+
+def _write_shard(path, payload):
+    with gzip.open(path, "wt", encoding="utf-8") as f:
+        json.dump(payload, f, separators=(",", ":"))
+
+
+def backfill_window(rolling_dir="data/rolling", days=None, client=None):
+    """Add ``cp`` to shards ingested before this pass existed (idempotent).
+
+    Each shard is queried at most once: a shard whose stats already carry
+    ``ci_pushes`` is skipped, so the daily run stays at one query per day.
+    """
+    available_dates = _module("rolling").available_dates
+    is_bot_login = _module("ingest_gharchive").is_bot_login
+    if client is None:
+        if not has_credentials():
+            return []
+        client = _client()
+
+    dates = available_dates(rolling_dir)
+    if days:
+        dates = dates[-days:]
+
+    done = []
+    for date_str in dates:
+        path = os.path.join(rolling_dir, f"{date_str}.json.gz")
+        payload = _read_shard(path)
+        if payload is None or "ci_pushes" in (payload.get("stats") or {}):
+            continue
+        try:
+            rows = fetch_ci_stats(date.fromisoformat(date_str), client=client)
+        except Exception as exc:
+            print(f"  {date_str}: BigQuery skipped ({exc})")
+            continue
+
+        users = payload.setdefault("users", {})
+        stats = payload.setdefault("stats", {})
+        pushes = owners = 0
+        for row in rows:
+            login = (row.get("owner") or "").strip()
+            ci = int(row.get("ci_pushes") or 0)
+            if not login or ci < 1 or is_bot_login(login):
+                continue
+            record = users.setdefault(login, {"p": 0})
+            record["cp"] = int(record.get("cp") or 0) + ci
+            pushes += ci
+            owners += 1
+        stats["ci_pushes"] = pushes
+        stats["ci_owners"] = owners
+        _write_shard(path, payload)
+        done.append((date_str, owners, pushes))
+        print(f"  {date_str}: +{pushes} CI pushes for {owners} owners")
+    return done
+
+
 def main(argv=None):
     import argparse
 
@@ -146,6 +219,10 @@ def main(argv=None):
     parser.add_argument("--date", help="UTC date to query (YYYY-MM-DD); defaults to yesterday")
     parser.add_argument("--estimate", action="store_true",
                         help="dry run: report bytes scanned instead of running")
+    parser.add_argument("--backfill", action="store_true",
+                        help="add CI pushes to rolling shards that lack them (idempotent)")
+    parser.add_argument("--days", type=int, default=None,
+                        help="limit --backfill to the newest N shards")
     args = parser.parse_args(argv)
 
     target = (datetime.strptime(args.date, "%Y-%m-%d").date() if args.date
@@ -162,6 +239,11 @@ def main(argv=None):
         project=project,
         credentials=service_account.Credentials.from_service_account_info(info),
     )
+
+    if args.backfill:
+        done = backfill_window(days=args.days, client=client)
+        print(f"backfilled {len(done)} shards")
+        return 0
 
     if args.estimate:
         config = bigquery.QueryJobConfig(dry_run=True, use_query_cache=False)

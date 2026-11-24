@@ -24,6 +24,7 @@ class _Client:
 
     def query(self, sql, job_config=None):
         self.sql = sql
+        self.calls = getattr(self, "calls", 0) + 1
         if self.error:
             raise self.error
         return _Job(self.rows)
@@ -103,6 +104,28 @@ def test_attribute_uses_the_client_and_never_raises():
     broken = bq.attribute_ci_pushes(date(2026, 11, 20), aggregate_events([]),
                                     client=_Client(error=RuntimeError("quota exceeded")))
     assert broken is None
+
+
+def test_backfill_adds_ci_to_old_shards_exactly_once(tmp_path):
+    import gzip
+    import json
+
+    write_day_shard("2026-11-20", aggregate_events([]), str(tmp_path))  # pre-BigQuery shard
+    client = _Client(rows=[ci_row("frank", ci_pushes=3)])
+
+    done = bq.backfill_window(rolling_dir=str(tmp_path), client=client)
+    assert done == [("2026-11-20", 1, 3)]
+    with gzip.open(tmp_path / "2026-11-20.json.gz", "rt", encoding="utf-8") as f:
+        payload = json.load(f)
+    assert payload["users"]["frank"]["cp"] == 3
+    assert payload["stats"]["ci_pushes"] == 3
+
+    rows, _ = build_window_rows("2026-11-20", days=30, rolling_dir=str(tmp_path))
+    assert next(r for r in rows if r["username"] == "frank")["ci_pushes"] == 3
+
+    # Idempotent: a shard that already carries ci_pushes is never queried again.
+    assert bq.backfill_window(rolling_dir=str(tmp_path), client=client) == []
+    assert client.calls == 1
 
 
 def test_shard_and_window_carry_ci_pushes(tmp_path):

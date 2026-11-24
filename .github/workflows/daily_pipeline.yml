@@ -27,6 +27,12 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
+      - name: Backfill CI attribution into the window (once per shard)
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+        run: python -m src.pipeline.ingest_bigquery --backfill || echo "CI backfill skipped"
+
       - name: Run pipeline (gharchive.org -> DuckDB -> snapshots)
         env:
           GH_ENRICH_TOKEN: ${{ secrets.GH_ENRICH_TOKEN }}
