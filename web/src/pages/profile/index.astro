@@ -122,6 +122,20 @@
         </div>`;
       }
 
+      // Lifetime context from GitHub enrichment. Never part of the score: the
+      // ranking only sees public events inside the 30-day window.
+      function portfolioBlock(d) {
+        const stats = [];
+        if (d.stars_total) stats.push(['Stars on owned repos', d.stars_total]);
+        if (d.commits_1y) stats.push(['Commits last year (GitHub)', d.commits_1y]);
+        if (d.repos_total) stats.push(['Public repos', d.repos_total]);
+        if (d.followers) stats.push(['Followers', d.followers]);
+        if (!stats.length) return '';
+        return `<div class="card"><h3>GitHub portfolio · lifetime context, not scored</h3>
+          <div class="grid">${stats.map(([label, value]) => `<div class="stat"><div class="label">${esc(label)}</div><div class="val">${Number(value).toLocaleString()}</div></div>`).join('')}</div>
+          <p class="muted" style="margin:10px 0 0;font-size:12px">Reported by the GitHub API. The Rank Score above only uses events published inside the 30-day window, so work pushed by a bot or kept private does not appear in it.</p></div>`;
+      }
+
       function notRanked(username) {
         el.innerHTML = `<h1>${esc(username)}</h1>
           <p>Not ranked yet — this GitHub user hasn't shown up in a RealGitRank snapshot.</p>
@@ -141,8 +155,10 @@
               <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
               <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
               <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
+              ${d.ci_pushes ? `<div class="stat"><div class="label">CI-attributed pushes</div><div class="val">${esc(d.ci_pushes)}</div></div>` : ''}
             </div>
           </div>
+          ${portfolioBlock(d)}
           ${d.bio ? `<div class="card"><h3>Bio</h3><p style="margin:0">${esc(d.bio)}</p></div>` : ''}
           ${sparkBlock(d)}
           <div class="card">
@@ -163,7 +179,9 @@
             <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
             <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
             <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
+            ${d.ci_pushes ? `<div class="stat"><div class="label">CI-attributed pushes</div><div class="val">${esc(d.ci_pushes)}</div></div>` : ''}
           </div></div>
+          ${portfolioBlock(d)}
           ${sparkBlock(d)}
           <div class="card"><h3>README Badge</h3>
             <pre>[![RealGitRank](https://realgitrank.bharatdn.com/badges/${esc(username)}.svg)](https://realgitrank.bharatdn.com/profile/${esc(username)})</pre>

@@ -55,7 +55,7 @@ def carried_profile_fields(username, old_by_name, old_profiles):
     """Enrichment (country/language/avatar/bio/company) from the previous run."""
     prev = old_by_name.get(username) or {}
     prof = old_profiles.get(username) or {}
-    return {
+    carried = {
         "country": prev.get("country") or prof.get("country") or "",
         "primary_language": prev.get("primary_language") or prof.get("primary_language") or "Unknown",
         "avatar_url": prev.get("avatar_url") or prof.get("avatar_url") or "",
@@ -63,6 +63,13 @@ def carried_profile_fields(username, old_by_name, old_profiles):
         "company": prev.get("company") or prof.get("company") or "",
         "location": prev.get("location") or prof.get("location") or "",
     }
+    # Lifetime portfolio context from enrichment: carried forward so a run that
+    # cannot query the API does not lose it. Never used by the scoring engine.
+    for key in ("followers", "commits_1y", "stars_total", "repos_total"):
+        value = prev.get(key) or prof.get(key)
+        if value:
+            carried[key] = value
+    return carried
 
 
 def main():

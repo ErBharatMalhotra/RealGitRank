@@ -180,6 +180,7 @@ const pillars = [
 
     <h2>Data sources and freshness</h2>
     <p>A scheduled GitHub Actions workflow (daily, ~02:00 UTC) downloads the previous day of public GH Archive events, folds it into the rolling window, scores every account, runs data-quality gates, then rebuilds and deploys this static site on GitHub Pages. Enrichment (avatar, country, company, language) comes from the GitHub API when a token is configured. Everything is free, static and versioned in git — there is no database and no runtime server.</p>
+    <p class="note">Profile pages also show lifetime context reported by the GitHub API (commits in the last year, stars on owned repositories, followers). It is context only — the score never uses it, because the public event feed does not publish every push and a single push can carry hundreds of commits. This is why a developer with thousands of commits can still show few or zero pushes in the window.</p>
     <p class="note">Known limitations: the public events feed does not expose file lists for every merge or languages at all, so code-health and language signals are partial; stars/forks only count events inside the window; the bot heuristic cannot see signals that were never delivered. All of this is measured above instead of being assumed.</p>
 
     <h2>Independent validation</h2>

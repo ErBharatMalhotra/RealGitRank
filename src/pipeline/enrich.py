@@ -5,6 +5,16 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 TOKEN = os.environ.get("GH_ENRICH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 GQL_URL = "https://api.github.com/graphql"
 BATCH = 50  # 50 users per query (rate limit friendly)
+# Lifetime portfolio context (never scored): the 30-day score cannot see work that
+# the public event feed does not publish, so the profile also states what GitHub
+# itself reports - commits in the last year, stars on owned repos, followers.
+USER_FIELDS = (
+    'login location avatarUrl bio company '
+    'followers { totalCount } '
+    'contributionsCollection { totalCommitContributions restrictedContributionsCount } '
+    'repositories(first: 50, ownerAffiliations: OWNER, isFork: false, '
+    'orderBy: {field: STARGAZERS, direction: DESC}) { totalCount nodes { stargazerCount } }'
+)
 
 
 def gql_query(logins):
@@ -15,7 +25,7 @@ def gql_query(logins):
     parts = []
     for i, login in enumerate(logins):
         safe = login.replace('"', '\\"')
-        parts.append(f'u{i}: user(login: "{safe}") {{ login location avatarUrl bio company }}')
+        parts.append(f'u{i}: user(login: "{safe}") {{ {USER_FIELDS} }}')
     query = "query { " + " ".join(parts) + " }"
     body = json.dumps({"query": query}).encode()
     req = urllib.request.Request(GQL_URL, data=body, headers={
@@ -33,11 +43,18 @@ def gql_query(logins):
     for i, login in enumerate(logins):
         u = (data.get("data") or {}).get(f"u{i}")
         if u:
+            repos = (u.get("repositories") or {}).get("nodes") or []
+            contributions = u.get("contributionsCollection") or {}
             result[login] = {
                 "location": u.get("location") or "",
                 "avatar_url": u.get("avatarUrl") or "",
                 "bio": u.get("bio") or "",
                 "company": u.get("company") or "",
+                "followers": int((u.get("followers") or {}).get("totalCount") or 0),
+                "commits_1y": int(contributions.get("totalCommitContributions") or 0)
+                + int(contributions.get("restrictedContributionsCount") or 0),
+                "stars_total": sum(int(r.get("stargazerCount") or 0) for r in repos),
+                "repos_total": int((u.get("repositories") or {}).get("totalCount") or 0),
             }
     return result
 
@@ -107,7 +124,7 @@ def extract_country(location):
     return ""
 
 
-def enrich(top_n=10000, do_language=False):
+def enrich(top_n=50000, do_language=False):
     if not TOKEN:
         print("No GITHUB_TOKEN — skipping enrichment (country stays empty)")
         return False
@@ -122,7 +139,14 @@ def enrich(top_n=10000, do_language=False):
             cache = json.load(f)
 
     top_users = sorted(lb, key=lambda x: x["rank"])[:top_n]
-    to_fetch = [u["username"] for u in top_users if u["username"] not in cache]
+    # The cache file is not committed, so the committed leaderboard is the real
+    # memory: rows that already carry portfolio fields are never fetched again.
+    known = {u["username"] for u in top_users if "commits_1y" in u}
+    to_fetch = [
+        u["username"] for u in top_users
+        if u["username"] not in known
+        and (u["username"] not in cache or "commits_1y" not in cache[u["username"]])
+    ]
 
     print(f"Enriching {len(to_fetch)} new users (cached: {len(cache)})...")
 
@@ -131,8 +155,7 @@ def enrich(top_n=10000, do_language=False):
         res = gql_query(batch)
         for login, info in res.items():
             cache[login] = info
-        # Rate limit: ~100 points per batch, sleep to be safe
-        time.sleep(1)
+        time.sleep(0.3)
         if (i // BATCH) % 10 == 0:
             # Save cache periodically
             with open(cache_path, "w") as f:
@@ -153,6 +176,9 @@ def enrich(top_n=10000, do_language=False):
                 updated += 1
             u["avatar_url"] = info.get("avatar_url", "")
             u["bio"] = info.get("bio", "")
+            for key in ("followers", "commits_1y", "stars_total", "repos_total"):
+                if info.get(key):
+                    u[key] = info[key]
             # Save avatar/bio to profile if exists
             prof_path = f"data/profiles/{u['username']}.json"
             if os.path.exists(prof_path):
@@ -162,6 +188,9 @@ def enrich(top_n=10000, do_language=False):
                 prof["bio"] = info.get("bio", "")
                 prof["company"] = info.get("company", "")
                 prof["location"] = info.get("location", "")
+                for key in ("followers", "commits_1y", "stars_total", "repos_total"):
+                    if info.get(key):
+                        prof[key] = info[key]
                 if country:
                     prof["country"] = country
                 with open(prof_path, "w") as f:
