@@ -1,0 +1,65 @@
+{
+  "username": "paulnsorensen",
+  "country": "United States",
+  "primary_language": "Ruby",
+  "total_pushes": 12,
+  "merged_prs": 7,
+  "s_pr": 99.28,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 98.93,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 868.7,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 6,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 296,
+  "avatar_url": "https://avatars.githubusercontent.com/u/429793?u=08b75c5c157882feed07d1f4af30af5d852439d6&v=4",
+  "bio": "aka Cheese Lord \ud83e\uddc0",
+  "company": "Multiplier Holdings, Inc.",
+  "location": "San Francisco, CA",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "paulnsorensen/tilth",
+      "prs": 3
+    },
+    {
+      "repo": "paulnsorensen/skillz-that-grillz",
+      "prs": 2
+    },
+    {
+      "repo": "paulnsorensen/dotfiles",
+      "prs": 1
+    },
+    {
+      "repo": "paulnsorensen/hallouminate",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 296,
+      "s": 868.7
+    }
+  ]
+}

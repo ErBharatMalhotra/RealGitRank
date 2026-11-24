@@ -1,0 +1,53 @@
+{
+  "username": "leonvanzyl",
+  "country": "South Africa",
+  "primary_language": "Python",
+  "total_pushes": 10,
+  "merged_prs": 6,
+  "s_pr": 99.08,
+  "s_quality": 50.0,
+  "s_impact": 99.82,
+  "s_consistency": 90.95,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 857.8,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 16,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 961,
+  "avatar_url": "https://avatars.githubusercontent.com/u/78896180?u=cec74a7e3301dd9151f16e78725f316db0fdf7eb&v=4",
+  "bio": "AI Engineer & Youtuber",
+  "company": "",
+  "location": "Mosselbay, South Africa",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "leonvanzyl/codeden",
+      "prs": 6
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 961,
+      "s": 857.8
+    }
+  ]
+}

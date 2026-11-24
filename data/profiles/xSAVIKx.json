@@ -1,0 +1,53 @@
+{
+  "username": "xSAVIKx",
+  "country": "Poland",
+  "primary_language": "Java",
+  "total_pushes": 2,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 99.19,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 862.0,
+  "active_repos_touched": 3,
+  "pr_reviews": 1,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 6,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 723,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5675689?u=60c711ef0f91cb24d13b6cbc33d5691145fb4a60&v=4",
+  "bio": "First SRE @dualentry. Google Developer Expert, Cloud. I make cloud infrastructure cheaper and less exciting to operate",
+  "company": "@dualentry",
+  "location": "Katowice, Poland",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "xSAVIKx/agent-signals",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 723,
+      "s": 862.0
+    }
+  ]
+}

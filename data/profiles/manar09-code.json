@@ -1,0 +1,53 @@
+{
+  "username": "manar09-code",
+  "country": "",
+  "primary_language": "Dart",
+  "total_pushes": 0,
+  "merged_prs": 4,
+  "s_pr": 98.23,
+  "s_quality": 50.0,
+  "s_impact": 98.66,
+  "s_consistency": 97.63,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 861.9,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 728,
+  "avatar_url": "https://avatars.githubusercontent.com/u/177405113?v=4",
+  "bio": "Software engineer | Final-Year IT Student | AI & ML Enthusiast  ",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "manar09-code/vesta",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 728,
+      "s": 861.9
+    }
+  ]
+}

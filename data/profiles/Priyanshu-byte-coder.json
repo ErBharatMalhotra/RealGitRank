@@ -1,0 +1,57 @@
+{
+  "username": "Priyanshu-byte-coder",
+  "country": "India",
+  "primary_language": "TypeScript",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "s_pr": 98.02,
+  "s_quality": 50.0,
+  "s_impact": 99.71,
+  "s_consistency": 98.7,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 865.4,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 546,
+  "avatar_url": "https://avatars.githubusercontent.com/u/180809390?u=75e23309f81d48488181f44bf120f6f7549b5122&v=4",
+  "bio": "AI/ML @ Nirma \u00b7 Building FOSS \u00b7 probably fixing a bug right now",
+  "company": "",
+  "location": "Ahmedabad India",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Priyanshu-byte-coder/devtrack",
+      "prs": 2
+    },
+    {
+      "repo": "kubeflow/mcp-server",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 546,
+      "s": 865.4
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "username": "mojomast",
+  "country": "United States",
+  "primary_language": "Python",
+  "total_pushes": 13,
+  "merged_prs": 4,
+  "s_pr": 98.23,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 95.24,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 859.4,
+  "active_repos_touched": 13,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 861,
+  "avatar_url": "https://avatars.githubusercontent.com/u/76818041?u=fb0c8d9fb783940fbbe5c2f63c3f5cc36b89e426&v=4",
+  "bio": "Having a blast reinventing the wheel for nothing but the love of the game.  Build fast, break fast... mmmm... breakfast,",
+  "company": "The Ussyverse",
+  "location": "The Ussyverse",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "mojomast/hermes-aircraft-doppler-geolocation",
+      "prs": 1
+    },
+    {
+      "repo": "mojomast/hermes-templeos",
+      "prs": 1
+    },
+    {
+      "repo": "mojomast/jackpotsyndicate",
+      "prs": 1
+    },
+    {
+      "repo": "mojomast/orbitdesktop",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 861,
+      "s": 859.4
+    }
+  ]
+}

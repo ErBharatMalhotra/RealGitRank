@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 10,
   "merged_prs": 3,
-  "s_pr": 98.09,
+  "s_pr": 98.02,
   "s_quality": 50.0,
-  "s_impact": 99.77,
-  "s_consistency": 99.29,
+  "s_impact": 99.76,
+  "s_consistency": 98.58,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 866.7,
+  "rank_score": 865.3,
   "active_repos_touched": 8,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 482,
+  "rank": 553,
   "avatar_url": "https://avatars.githubusercontent.com/u/58908124?u=323b43370c2cc5fe374e75b8cf72cc4769376c0b&v=4",
   "bio": "Coding by gut feel, writing for the close. Replacing bloated growth playbooks with self-driving software that assumes everything fails\r\n\r\n@funnelscript ",
   "company": "https://github.com/funnelscript",
   "location": "UAE",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.0,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 482,
+  "prev_score": 866.7,
+  "rank_delta": -71,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "funnelscript/funnelscript",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 482,
       "s": 866.7
+    },
+    {
+      "d": "2026-11-24",
+      "r": 553,
+      "s": 865.3
     }
   ]
 }

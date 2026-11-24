@@ -1,0 +1,61 @@
+{
+  "username": "mjmirza",
+  "country": "Germany",
+  "primary_language": "Shell",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 99.98,
+  "s_consistency": 95.66,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 858.9,
+  "active_repos_touched": 10,
+  "pr_reviews": 0,
+  "issue_comments": 3,
+  "releases": 0,
+  "stars_fraud_filtered": 48,
+  "forks_fraud_filtered": 2,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 889,
+  "avatar_url": "https://avatars.githubusercontent.com/u/34001140?u=67ca645cd17b78cb222fd2aafc7c3bb709f43840&v=4",
+  "bio": "The only person who can change you is YOU! BUUUT With an AI. Plus, open for Impact & Partnerships* ",
+  "company": "",
+  "location": "Frankfurt, Deutschland",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "mjmirza/n8n-nodes-clickfunnel",
+      "prs": 1
+    },
+    {
+      "repo": "mjmirza/n8n-nodes-smartprofiling",
+      "prs": 1
+    },
+    {
+      "repo": "mjmirza/quran-dataset",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 889,
+      "s": 858.9
+    }
+  ]
+}

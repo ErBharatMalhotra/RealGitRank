@@ -1,0 +1,65 @@
+{
+  "username": "posquit0",
+  "country": "South Korea",
+  "primary_language": "TeX",
+  "total_pushes": 9,
+  "merged_prs": 4,
+  "s_pr": 99.08,
+  "s_quality": 50.0,
+  "s_impact": 99.71,
+  "s_consistency": 95.74,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 864.7,
+  "active_repos_touched": 22,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 586,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1484002?u=1f7ee6a51940741ea893646599d3e4900d7c186a&v=4",
+  "bio": "\r\n    \"Be the change that you want to see in the world!\" -- Software Architect, Hacker, DevOps, Site Reliability Engineer, Node.js Dev\r\n",
+  "company": "Somewhere",
+  "location": "Seoul, Korea",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "tedilabs/terraform-aws-db",
+      "prs": 1
+    },
+    {
+      "repo": "tedilabs/terraform-aws-ipam",
+      "prs": 1
+    },
+    {
+      "repo": "tedilabs/terraform-aws-observability",
+      "prs": 1
+    },
+    {
+      "repo": "tedilabs/terraform-aws-organization",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 586,
+      "s": 864.7
+    }
+  ]
+}

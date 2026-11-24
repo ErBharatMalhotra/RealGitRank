@@ -2,45 +2,49 @@
   "username": "anefzaoui",
   "country": "United Arab Emirates",
   "primary_language": "Rust",
-  "total_pushes": 20,
-  "merged_prs": 13,
-  "s_pr": 99.77,
+  "total_pushes": 21,
+  "merged_prs": 14,
+  "s_pr": 99.8,
   "s_quality": 50.0,
   "s_impact": 100.0,
-  "s_consistency": 91.59,
+  "s_consistency": 95.38,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 19,
+  "active_days": 20,
   "window_days": 30,
-  "rank_score": 861.6,
+  "rank_score": 867.3,
   "active_repos_touched": 4,
   "pr_reviews": 0,
-  "issue_comments": 23,
+  "issue_comments": 24,
   "releases": 0,
-  "stars_fraud_filtered": 199,
-  "forks_fraud_filtered": 16,
-  "active_shipping_weeks": 3,
+  "stars_fraud_filtered": 207,
+  "forks_fraud_filtered": 17,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 792,
+  "rank": 404,
   "avatar_url": "https://avatars.githubusercontent.com/u/1832078?u=80e4bd9873241148c9d8eb3d0ef0a2e042d2ec51&v=4",
   "bio": "LLMs, NodeJS, JavaScript, and Wordpress. Previously at Mozilla, Apple.",
   "company": "ITQAN",
   "location": "Dubai, UAE",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.4,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "prev_rank": 792,
+  "prev_score": 861.6,
+  "rank_delta": 388,
+  "score_delta": 5.7,
   "counted_merges": [
     {
       "repo": "anefzaoui/misterdownloadmanager",
-      "prs": 12
+      "prs": 13
     },
     {
       "repo": "anefzaoui/minecraft-server-manager",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 792,
       "s": 861.6
+    },
+    {
+      "d": "2026-11-24",
+      "r": 404,
+      "s": 867.3
     }
   ]
 }

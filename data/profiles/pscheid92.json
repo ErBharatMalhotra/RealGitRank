@@ -4,10 +4,10 @@
   "primary_language": "C#",
   "total_pushes": 2,
   "merged_prs": 4,
-  "s_pr": 98.86,
+  "s_pr": 98.82,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.12,
+  "s_impact": 99.11,
+  "s_consistency": 97.57,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 5,
   "window_days": 30,
-  "rank_score": 866.0,
+  "rank_score": 865.0,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 523,
+  "rank": 573,
   "avatar_url": "https://avatars.githubusercontent.com/u/7292949?u=5afdaebb67375e31552b31fc6d220f0a1ce96ef9&v=4",
   "bio": "Engineering Manager",
   "company": "StackIT",
   "location": "Munich, Germany",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.0,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 523,
+  "prev_score": 866.0,
+  "rank_delta": -50,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "pscheid92/AgeSharp",
@@ -60,6 +64,11 @@
       "d": "2026-11-23",
       "r": 523,
       "s": 866.0
+    },
+    {
+      "d": "2026-11-24",
+      "r": 573,
+      "s": 865.0
     }
   ]
 }

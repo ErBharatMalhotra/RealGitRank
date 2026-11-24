@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 6,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
-  "s_impact": 99.79,
-  "s_consistency": 99.14,
+  "s_impact": 99.78,
+  "s_consistency": 99.87,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,27 +16,31 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 867.2,
+  "rank_score": 868.1,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 1,
   "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 445,
+  "rank": 358,
   "avatar_url": "https://avatars.githubusercontent.com/u/54629507?u=81026315ef1e8ca554254edee05a7f2c1aac833d&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.1,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 445,
+  "prev_score": 867.2,
+  "rank_delta": 87,
+  "score_delta": 0.9,
   "counted_merges": [
     {
       "repo": "skyrotter/ha-appliance-electromenager-cards",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 445,
       "s": 867.2
+    },
+    {
+      "d": "2026-11-24",
+      "r": 358,
+      "s": 868.1
     }
   ]
 }

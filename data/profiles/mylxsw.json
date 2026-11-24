@@ -1,0 +1,53 @@
+{
+  "username": "mylxsw",
+  "country": "",
+  "primary_language": "Dart",
+  "total_pushes": 25,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 99.56,
+  "s_consistency": 98.29,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 861.8,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 733,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2330911?u=ad1702d958e5ac2b078b85150d531c66080ecd43&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "mylxsw/marginmind",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 733,
+      "s": 861.8
+    }
+  ]
+}

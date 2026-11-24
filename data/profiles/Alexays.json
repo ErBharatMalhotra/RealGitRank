@@ -2,21 +2,21 @@
   "username": "Alexays",
   "country": "France",
   "primary_language": "C++",
-  "total_pushes": 15,
+  "total_pushes": 9,
   "merged_prs": 5,
-  "s_pr": 98.97,
+  "s_pr": 98.94,
   "s_quality": 50.0,
-  "s_impact": 99.81,
-  "s_consistency": 99.2,
+  "s_impact": 99.8,
+  "s_consistency": 98.43,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 13,
+  "active_days": 12,
   "window_days": 30,
-  "rank_score": 869.8,
+  "rank_score": 868.4,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 246,
+  "rank": 325,
   "avatar_url": "https://avatars.githubusercontent.com/u/13947260?u=8da5ea8627d2c2418d6cb08221e9febb3a95f997&v=4",
   "bio": "Open source hacker and lover \ud83d\ude0d\ud83e\udd18\r\n",
   "company": "@Screebapp",
   "location": "Nantes, France",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.5,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 246,
+  "prev_score": 869.8,
+  "rank_delta": -79,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "Alexays/Lilo",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 246,
       "s": 869.8
+    },
+    {
+      "d": "2026-11-24",
+      "r": 325,
+      "s": 868.4
     }
   ]
 }

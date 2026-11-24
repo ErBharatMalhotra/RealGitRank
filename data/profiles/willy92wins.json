@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 9,
   "merged_prs": 7,
-  "s_pr": 99.31,
+  "s_pr": 99.28,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 96.27,
+  "s_impact": 99.11,
+  "s_consistency": 95.57,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 864.8,
+  "rank_score": 863.6,
   "active_repos_touched": 5,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 592,
+  "rank": 647,
   "avatar_url": "https://avatars.githubusercontent.com/u/36191199?v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.8,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 592,
+  "prev_score": 864.8,
+  "rank_delta": -55,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "willy92wins/BattleRoyale",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 592,
       "s": 864.8
+    },
+    {
+      "d": "2026-11-24",
+      "r": 647,
+      "s": 863.6
     }
   ]
 }

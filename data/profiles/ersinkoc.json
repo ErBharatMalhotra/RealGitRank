@@ -2,12 +2,12 @@
   "username": "ersinkoc",
   "country": "",
   "primary_language": "C#",
-  "total_pushes": 63,
-  "merged_prs": 19,
-  "s_pr": 99.93,
+  "total_pushes": 71,
+  "merged_prs": 20,
+  "s_pr": 99.94,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 99.1,
+  "s_consistency": 99.26,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,31 +16,35 @@
   },
   "active_days": 25,
   "window_days": 30,
-  "rank_score": 873.4,
+  "rank_score": 873.6,
   "active_repos_touched": 19,
-  "pr_reviews": 9,
+  "pr_reviews": 10,
   "issue_comments": 13,
   "releases": 0,
-  "stars_fraud_filtered": 65,
+  "stars_fraud_filtered": 70,
   "forks_fraud_filtered": 5,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 1,
+  "rank": 4,
   "avatar_url": "https://avatars.githubusercontent.com/u/408479?v=4",
   "bio": " Totally \ud83d\udc68 not a \ud83e\udd16 // \ud83d\udcc6 for all time - Father \ud83d\udc4d // \ud83d\udcc6 other times (if I have) \ud83c\udf83 Back-end Developer \ud83d\udde1\ufe0f System Administrator \ud83c\udf35 DevOps ",
   "company": "EcoStack Technology O\u00dc",
   "location": "Tallinn",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
   "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 1,
+  "prev_score": 873.4,
+  "rank_delta": -3,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "ersinkoc/Agora",
-      "prs": 7
+      "prs": 8
     },
     {
       "repo": "orkunisitmak/nashi-app",
@@ -76,6 +80,11 @@
       "d": "2026-11-23",
       "r": 1,
       "s": 873.4
+    },
+    {
+      "d": "2026-11-24",
+      "r": 4,
+      "s": 873.6
     }
   ]
 }

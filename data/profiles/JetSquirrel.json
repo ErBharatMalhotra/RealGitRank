@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 4,
   "merged_prs": 2,
-  "s_pr": 96.6,
+  "s_pr": 96.46,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 99.03,
+  "s_impact": 99.11,
+  "s_consistency": 98.31,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 859.5,
+  "rank_score": 857.8,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 919,
+  "rank": 967,
   "avatar_url": "https://avatars.githubusercontent.com/u/20291255?u=3ce8ce5723ab063af761013dc0b2b0a6d9020369&v=4",
   "bio": "",
   "company": "",
   "location": "Chengdu",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.2,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 919,
+  "prev_score": 859.5,
+  "rank_delta": -48,
+  "score_delta": -1.7,
   "counted_merges": [
     {
       "repo": "JetSquirrel/DuckLocal",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 919,
       "s": 859.5
+    },
+    {
+      "d": "2026-11-24",
+      "r": 967,
+      "s": 857.8
     }
   ]
 }

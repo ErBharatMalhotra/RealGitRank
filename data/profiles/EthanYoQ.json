@@ -2,21 +2,21 @@
   "username": "EthanYoQ",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 17,
+  "total_pushes": 15,
   "merged_prs": 10,
-  "s_pr": 99.62,
+  "s_pr": 99.61,
   "s_quality": 50.0,
   "s_impact": 99.95,
-  "s_consistency": 99.01,
+  "s_consistency": 98.23,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 22,
+  "active_days": 21,
   "window_days": 30,
-  "rank_score": 872.1,
+  "rank_score": 870.9,
   "active_repos_touched": 5,
   "pr_reviews": 5,
   "issue_comments": 4,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 56,
+  "rank": 140,
   "avatar_url": "https://avatars.githubusercontent.com/u/257484394?u=8d71a2e282922f25c420eaddd8718fcd28feb7be&v=4",
   "bio": "Part Marketer, Part AI Explorer.",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.9,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 56,
+  "prev_score": 872.1,
+  "rank_delta": -84,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "EthanYoQ/Job-finder-Codex",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 56,
       "s": 872.1
+    },
+    {
+      "d": "2026-11-24",
+      "r": 140,
+      "s": 870.9
     }
   ]
 }

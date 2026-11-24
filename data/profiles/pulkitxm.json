@@ -1,0 +1,57 @@
+{
+  "username": "pulkitxm",
+  "country": "India",
+  "primary_language": "Rust",
+  "total_pushes": 19,
+  "merged_prs": 2,
+  "s_pr": 95.48,
+  "s_quality": 50.0,
+  "s_impact": 99.76,
+  "s_consistency": 99.3,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 857.5,
+  "active_repos_touched": 6,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 4,
+  "stars_fraud_filtered": 4,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 6,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 979,
+  "avatar_url": "https://avatars.githubusercontent.com/u/65671483?u=aa98826201c18c0de0c0b3204a710136da41b178&v=4",
+  "bio": "founding Engineer @noveum \u2022 prev. crowdvolt(YC W24) \u2022 documenting myself at pulkit.page / pulkit.blog",
+  "company": "@Noveum",
+  "location": "Delhi, India",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "pulkitxm/hugsy",
+      "prs": 1
+    },
+    {
+      "repo": "pulkitxm/slow.voyage",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 979,
+      "s": 857.5
+    }
+  ]
+}

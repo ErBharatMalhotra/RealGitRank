@@ -4,10 +4,10 @@
   "primary_language": "HTML",
   "total_pushes": 8,
   "merged_prs": 5,
-  "s_pr": 99.4,
+  "s_pr": 99.37,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 95.95,
+  "s_impact": 99.56,
+  "s_consistency": 95.23,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 865.7,
+  "rank_score": 864.6,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 540,
+  "rank": 590,
   "avatar_url": "https://avatars.githubusercontent.com/u/174824991?u=27acc609991b4008d44aa0be950e3e1a3512d1b1&v=4",
   "bio": "",
   "company": "Nathlan Solutions",
   "location": "Brazil",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.9,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 540,
+  "prev_score": 865.7,
+  "rank_delta": -50,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "wenathlan/devthink",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 540,
       "s": 865.7
+    },
+    {
+      "d": "2026-11-24",
+      "r": 590,
+      "s": 864.6
     }
   ]
 }

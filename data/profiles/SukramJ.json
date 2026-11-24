@@ -1,0 +1,73 @@
+{
+  "username": "SukramJ",
+  "country": "Germany",
+  "primary_language": "Python",
+  "total_pushes": 16,
+  "merged_prs": 8,
+  "s_pr": 99.45,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 99.18,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 869.6,
+  "active_repos_touched": 16,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 6,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 231,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5650106?u=4c4d6ae2804ad90b49cd6d11a499b4f0453510fd&v=4",
+  "bio": "I'm a software engineer, with a deep passion for open-source software. I'm driven by the idea of making technology more accessible.",
+  "company": "",
+  "location": "Germany",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "SukramJ/go-fabric-ui",
+      "prs": 3
+    },
+    {
+      "repo": "SukramJ/aiohomematic",
+      "prs": 1
+    },
+    {
+      "repo": "SukramJ/go-fabric",
+      "prs": 1
+    },
+    {
+      "repo": "SukramJ/godevccu",
+      "prs": 1
+    },
+    {
+      "repo": "SukramJ/homematicip-local-frontend",
+      "prs": 1
+    },
+    {
+      "repo": "SukramJ/openccu-loom",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 231,
+      "s": 869.6
+    }
+  ]
+}

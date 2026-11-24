@@ -1,0 +1,61 @@
+{
+  "username": "A220man",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 9,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 99.56,
+  "s_consistency": 99.87,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 864.1,
+  "active_repos_touched": 23,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 6,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 623,
+  "avatar_url": "https://avatars.githubusercontent.com/u/215324508?u=95f8bcfe4fd15cee6f692e6b62e9573f9fc3204e&v=4",
+  "bio": "Exploring data science, machine learning & artificial superintelligence (ASI). Building AI tools, experimenting with models, and contributing to open source.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "A220man/axiom-studio-145",
+      "prs": 1
+    },
+    {
+      "repo": "A220man/beacon-observatory-144",
+      "prs": 1
+    },
+    {
+      "repo": "A220man/vector-observatory-144-ryan-vo",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 623,
+      "s": 864.1
+    }
+  ]
+}

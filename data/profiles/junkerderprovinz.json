@@ -3,11 +3,11 @@
   "country": "United States",
   "primary_language": "Go",
   "total_pushes": 27,
-  "merged_prs": 6,
-  "s_pr": 99.12,
+  "merged_prs": 7,
+  "s_pr": 99.28,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 98.93,
+  "s_impact": 99.56,
+  "s_consistency": 99.24,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,30 +16,38 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 869.3,
-  "active_repos_touched": 30,
+  "rank_score": 870.2,
+  "active_repos_touched": 31,
   "pr_reviews": 0,
   "issue_comments": 2,
   "releases": 0,
   "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 280,
+  "rank": 188,
   "avatar_url": "https://avatars.githubusercontent.com/u/133605895?u=7ba44cd57e51191d3d93d5bbdd057bdc8c72f7d7&v=4",
   "bio": "Knight of a small province of containers. Taxes are paid in stars. Self-hosting everything except my sleep schedule.",
   "company": "",
   "location": "Austria",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.4,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 280,
+  "prev_score": 869.3,
+  "rank_delta": 92,
+  "score_delta": 0.9,
   "counted_merges": [
     {
       "repo": "junkerderprovinz/filebot",
+      "prs": 1
+    },
+    {
+      "repo": "junkerderprovinz/flatpak",
       "prs": 1
     },
     {
@@ -68,6 +76,11 @@
       "d": "2026-11-23",
       "r": 280,
       "s": 869.3
+    },
+    {
+      "d": "2026-11-24",
+      "r": 188,
+      "s": 870.2
     }
   ]
 }

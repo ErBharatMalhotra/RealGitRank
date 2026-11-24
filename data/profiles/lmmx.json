@@ -2,24 +2,24 @@
   "username": "lmmx",
   "country": "United Kingdom",
   "primary_language": "JavaScript",
-  "total_pushes": 66,
+  "total_pushes": 62,
   "merged_prs": 7,
-  "s_pr": 99.31,
+  "s_pr": 99.28,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.49,
+  "s_impact": 99.11,
+  "s_consistency": 97.89,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 18,
+  "active_days": 17,
   "window_days": 30,
-  "rank_score": 868.1,
+  "rank_score": 867.1,
   "active_repos_touched": 5,
   "pr_reviews": 0,
-  "issue_comments": 22,
+  "issue_comments": 21,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 364,
+  "rank": 416,
   "avatar_url": "https://avatars.githubusercontent.com/u/2979452?u=050bb4b939d867ba93f351872dafc169df07bd0c&v=4",
   "bio": "",
   "company": "",
   "location": "London",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.3,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 364,
+  "prev_score": 868.1,
+  "rank_delta": -52,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "lmmx/mibz2",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 364,
       "s": 868.1
+    },
+    {
+      "d": "2026-11-24",
+      "r": 416,
+      "s": 867.1
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "username": "ArnautDaniel",
+  "country": "United States",
+  "primary_language": "C",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 99.56,
+  "s_consistency": 98.13,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 861.5,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 746,
+  "avatar_url": "https://avatars.githubusercontent.com/u/659070?u=e8f97880680684702db55627b7c598fd70cf7ecb&v=4",
+  "bio": "Forth is know I all",
+  "company": "@magicmonocle",
+  "location": "USA",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "ArnautDaniel/OpenHuey",
+      "prs": 2
+    },
+    {
+      "repo": "ArnautDaniel/ClankForth",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 746,
+      "s": 861.5
+    }
+  ]
+}

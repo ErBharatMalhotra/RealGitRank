@@ -1,0 +1,61 @@
+{
+  "username": "nefarius",
+  "country": "United States",
+  "primary_language": "C#",
+  "total_pushes": 7,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 98.66,
+  "s_consistency": 97.61,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 858.5,
+  "active_repos_touched": 6,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 916,
+  "avatar_url": "https://avatars.githubusercontent.com/u/286631?u=55fc7db6ec981b71bbb3111a632f8a2b7326c1fe&v=4",
+  "bio": "Gaming Input Peripherals Expert, Windows Device Drivers Developer, Austrian Open Source Ambassador",
+  "company": "Nefarius Software Solutions e.U.",
+  "location": "Austria",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "nefarius/HydraHook",
+      "prs": 1
+    },
+    {
+      "repo": "nefarius/PS5LM.Companion",
+      "prs": 1
+    },
+    {
+      "repo": "nefarius/Vestigo",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 916,
+      "s": 858.5
+    }
+  ]
+}

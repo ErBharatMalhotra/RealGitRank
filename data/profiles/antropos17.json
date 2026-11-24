@@ -2,21 +2,21 @@
   "username": "antropos17",
   "country": "",
   "primary_language": "JavaScript",
-  "total_pushes": 17,
-  "merged_prs": 5,
-  "s_pr": 98.86,
+  "total_pushes": 12,
+  "merged_prs": 4,
+  "s_pr": 98.23,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 95.4,
+  "s_impact": 99.11,
+  "s_consistency": 94.55,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 7,
+  "active_days": 6,
   "window_days": 30,
-  "rank_score": 862.0,
+  "rank_score": 858.4,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,20 +27,24 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 768,
+  "rank": 922,
   "avatar_url": "https://avatars.githubusercontent.com/u/180439056?u=434869db6e1b8f6677ff20569687eca968dfd749&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.5,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 768,
+  "prev_score": 862.0,
+  "rank_delta": -154,
+  "score_delta": -3.6,
   "counted_merges": [
     {
       "repo": "antropos17/Aegis",
-      "prs": 4
+      "prs": 3
     },
     {
       "repo": "antropos17/chatgpt-gif-cinema",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 768,
       "s": 862.0
+    },
+    {
+      "d": "2026-11-24",
+      "r": 922,
+      "s": 858.4
     }
   ]
 }

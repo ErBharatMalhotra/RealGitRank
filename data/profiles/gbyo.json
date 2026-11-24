@@ -1,0 +1,57 @@
+{
+  "username": "gbyo",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 5,
+  "merged_prs": 3,
+  "s_pr": 98.02,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 94.77,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 858.0,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 947,
+  "avatar_url": "https://avatars.githubusercontent.com/u/95596261?u=89b174d7e1aabb1cf799e3f112a19657a6161bc8&v=4",
+  "bio": "Big fan of PB&J's",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "gbyo/tilecast",
+      "prs": 2
+    },
+    {
+      "repo": "weeklywildcat/byline",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 947,
+      "s": 858.0
+    }
+  ]
+}

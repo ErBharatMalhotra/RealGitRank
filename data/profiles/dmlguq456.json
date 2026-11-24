@@ -2,21 +2,21 @@
   "username": "dmlguq456",
   "country": "South Korea",
   "primary_language": "Python",
-  "total_pushes": 31,
+  "total_pushes": 29,
   "merged_prs": 11,
-  "s_pr": 99.69,
+  "s_pr": 99.68,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.87,
+  "s_impact": 99.11,
+  "s_consistency": 98.18,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 14,
+  "active_days": 13,
   "window_days": 30,
-  "rank_score": 870.0,
+  "rank_score": 868.9,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 218,
+  "rank": 277,
   "avatar_url": "https://avatars.githubusercontent.com/u/41767172?u=7bef92c2dd822548c8dc862c027828d10b59a3b7&v=4",
   "bio": "interested in speech processing",
   "company": "Sogang University",
   "location": "Seoul, Korea",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.6,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 218,
+  "prev_score": 870.0,
+  "rank_delta": -59,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "dmlguq456/hearting",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 218,
       "s": 870.0
+    },
+    {
+      "d": "2026-11-24",
+      "r": 277,
+      "s": 868.9
     }
   ]
 }

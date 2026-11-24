@@ -4,10 +4,10 @@
   "primary_language": "JavaScript",
   "total_pushes": 1,
   "merged_prs": 3,
-  "s_pr": 98.62,
+  "s_pr": 98.57,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 96.17,
+  "s_impact": 99.11,
+  "s_consistency": 95.46,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 5,
   "window_days": 30,
-  "rank_score": 862.3,
+  "rank_score": 861.0,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 754,
+  "rank": 774,
   "avatar_url": "https://avatars.githubusercontent.com/u/1500684?u=2da020a41a4146447b4d101d566fbbdb4ad1c1c4&v=4",
   "bio": "Improving \ud83c\udf0e with quality software \u00b7 Husband, 6x Dad, Latter-day Saint, Dev Educator, MVP\r\n\r\n\u26a1\ufe0f EpicAI.pro\r\n\ud83c\udf0c EpicWeb.dev\r\n\ud83d\ude80 EpicReact.dev",
   "company": "@epicweb-dev ",
   "location": "Salt Lake City, Utah, USA",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.5,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 754,
+  "prev_score": 862.3,
+  "rank_delta": -20,
+  "score_delta": -1.3,
   "counted_merges": [
     {
       "repo": "kody-hq/kody",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 754,
       "s": 862.3
+    },
+    {
+      "d": "2026-11-24",
+      "r": 774,
+      "s": 861.0
     }
   ]
 }

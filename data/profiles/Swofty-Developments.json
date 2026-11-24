@@ -2,21 +2,21 @@
   "username": "Swofty-Developments",
   "country": "United States",
   "primary_language": "Java",
-  "total_pushes": 25,
-  "merged_prs": 27,
-  "s_pr": 99.95,
+  "total_pushes": 19,
+  "merged_prs": 25,
+  "s_pr": 99.93,
   "s_quality": 50.0,
-  "s_impact": 99.79,
-  "s_consistency": 98.76,
+  "s_impact": 99.78,
+  "s_consistency": 98.02,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 21,
+  "active_days": 20,
   "window_days": 30,
-  "rank_score": 872.4,
+  "rank_score": 871.3,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,20 +27,24 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 32,
+  "rank": 105,
   "avatar_url": "https://avatars.githubusercontent.com/u/75875764?u=8c85cac10fa89f78d5b6d35a836ea0c0f75cfb3a&v=4",
   "bio": "CS @ Monash",
   "company": "",
   "location": "Melbourne, Australia",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.9,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 32,
+  "prev_score": 872.4,
+  "rank_delta": -73,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "Swofty-Developments/SwoftyLauncher",
-      "prs": 26
+      "prs": 24
     },
     {
       "repo": "monashcoding/jobs-board",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 32,
       "s": 872.4
+    },
+    {
+      "d": "2026-11-24",
+      "r": 105,
+      "s": 871.3
     }
   ]
 }

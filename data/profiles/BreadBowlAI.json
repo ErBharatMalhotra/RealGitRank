@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 1,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 97.4,
+  "s_impact": 99.11,
+  "s_consistency": 96.79,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 4,
   "window_days": 30,
-  "rank_score": 863.0,
+  "rank_score": 861.8,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 711,
+  "rank": 732,
   "avatar_url": "https://avatars.githubusercontent.com/u/225241532?u=e8efe8f71f50beda369af5333a69db7ead4d9385&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.6,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 711,
+  "prev_score": 863.0,
+  "rank_delta": -21,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "BreadBowlAI/music2",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 711,
       "s": 863.0
+    },
+    {
+      "d": "2026-11-24",
+      "r": 732,
+      "s": 861.8
     }
   ]
 }

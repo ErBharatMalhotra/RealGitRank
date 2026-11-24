@@ -2,24 +2,24 @@
   "username": "seven332",
   "country": "",
   "primary_language": "Java",
-  "total_pushes": 23,
-  "merged_prs": 29,
+  "total_pushes": 22,
+  "merged_prs": 28,
   "s_pr": 99.98,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 99.1,
+  "s_impact": 99.11,
+  "s_consistency": 98.39,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 22,
+  "active_days": 21,
   "window_days": 30,
-  "rank_score": 871.4,
+  "rank_score": 870.3,
   "active_repos_touched": 2,
-  "pr_reviews": 25,
-  "issue_comments": 97,
+  "pr_reviews": 23,
+  "issue_comments": 96,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
@@ -27,20 +27,24 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 105,
+  "rank": 176,
   "avatar_url": "https://avatars.githubusercontent.com/u/4018618?u=2cf25add1d778638b7e7dd32b950944a80bfbb77&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.8,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 105,
+  "prev_score": 871.4,
+  "rank_delta": -71,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "okou-ai/okou",
-      "prs": 29
+      "prs": 28
     }
   ],
   "history": [
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 105,
       "s": 871.4
+    },
+    {
+      "d": "2026-11-24",
+      "r": 176,
+      "s": 870.3
     }
   ]
 }

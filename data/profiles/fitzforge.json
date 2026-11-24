@@ -3,44 +3,48 @@
   "country": "Sweden",
   "primary_language": "Lua",
   "total_pushes": 12,
-  "merged_prs": 9,
-  "s_pr": 99.55,
+  "merged_prs": 11,
+  "s_pr": 99.68,
   "s_quality": 50.0,
-  "s_impact": 99.77,
-  "s_consistency": 98.67,
+  "s_impact": 99.76,
+  "s_consistency": 99.07,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 12,
+  "active_days": 13,
   "window_days": 30,
-  "rank_score": 870.9,
+  "rank_score": 871.9,
   "active_repos_touched": 2,
   "pr_reviews": 1,
-  "issue_comments": 25,
+  "issue_comments": 26,
   "releases": 0,
   "stars_fraud_filtered": 4,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 143,
+  "rank": 83,
   "avatar_url": "https://avatars.githubusercontent.com/u/146554352?u=c16dd627f9df69e3016e3a9321a0491acd6c4c46&v=4",
   "bio": "unemployed. lfw",
   "company": "",
   "location": "Sweden",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.7,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 143,
+  "prev_score": 870.9,
+  "rank_delta": 60,
+  "score_delta": 1.0,
   "counted_merges": [
     {
       "repo": "fitzforge/polestar",
-      "prs": 9
+      "prs": 11
     }
   ],
   "history": [
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 143,
       "s": 870.9
+    },
+    {
+      "d": "2026-11-24",
+      "r": 83,
+      "s": 871.9
     }
   ]
 }

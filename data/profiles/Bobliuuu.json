@@ -4,10 +4,10 @@
   "primary_language": "Cuda",
   "total_pushes": 16,
   "merged_prs": 9,
-  "s_pr": 99.55,
+  "s_pr": 99.54,
   "s_quality": 50.0,
-  "s_impact": 99.72,
-  "s_consistency": 91.04,
+  "s_impact": 99.71,
+  "s_consistency": 90.2,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 859.3,
+  "rank_score": 857.9,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 923,
+  "rank": 954,
   "avatar_url": "https://avatars.githubusercontent.com/u/54565411?u=900170119f7378dcc6984624a7dd86bf2c0c9600&v=4",
   "bio": "UW CS PMATH CO CM '27",
   "company": "Shopify",
   "location": "Canada",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.2,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 923,
+  "prev_score": 859.3,
+  "rank_delta": -31,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "Bobliuuu/allgit",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 923,
       "s": 859.3
+    },
+    {
+      "d": "2026-11-24",
+      "r": 954,
+      "s": 857.9
     }
   ]
 }

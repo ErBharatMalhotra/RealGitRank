@@ -2,21 +2,21 @@
   "username": "zzet",
   "country": "Netherlands",
   "primary_language": "Go",
-  "total_pushes": 9,
+  "total_pushes": 8,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
-  "s_impact": 99.77,
-  "s_consistency": 98.97,
+  "s_impact": 99.76,
+  "s_consistency": 98.22,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 12,
+  "active_days": 11,
   "window_days": 30,
-  "rank_score": 866.9,
+  "rank_score": 865.5,
   "active_repos_touched": 1,
   "pr_reviews": 1,
   "issue_comments": 2,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 464,
+  "rank": 540,
   "avatar_url": "https://avatars.githubusercontent.com/u/510788?u=65f522d7ccc1c2db5f76b549b4ce8de4985f148f&v=4",
   "bio": "Senior Engineering Manager",
   "company": " @viodotcom",
   "location": "The Netherlands, Amsterdam",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.1,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 464,
+  "prev_score": 866.9,
+  "rank_delta": -76,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "zzet/gortex",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 464,
       "s": 866.9
+    },
+    {
+      "d": "2026-11-24",
+      "r": 540,
+      "s": 865.5
     }
   ]
 }

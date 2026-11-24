@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 1,
   "merged_prs": 7,
-  "s_pr": 99.31,
+  "s_pr": 99.28,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 92.53,
+  "s_impact": 99.56,
+  "s_consistency": 91.69,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 860.3,
+  "rank_score": 858.9,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 865,
+  "rank": 887,
   "avatar_url": "https://avatars.githubusercontent.com/u/2714777?v=4",
   "bio": "",
   "company": "",
   "location": "Spain",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.3,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 865,
+  "prev_score": 860.3,
+  "rank_delta": -22,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "mbartsch/klotse",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 865,
       "s": 860.3
+    },
+    {
+      "d": "2026-11-24",
+      "r": 887,
+      "s": 858.9
     }
   ]
 }

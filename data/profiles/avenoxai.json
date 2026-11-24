@@ -3,44 +3,48 @@
   "country": "",
   "primary_language": "Python",
   "total_pushes": 7,
-  "merged_prs": 3,
-  "s_pr": 97.36,
+  "merged_prs": 5,
+  "s_pr": 98.82,
   "s_quality": 50.0,
   "s_impact": 99.86,
-  "s_consistency": 98.88,
+  "s_consistency": 99.2,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 9,
+  "active_days": 10,
   "window_days": 30,
-  "rank_score": 863.7,
+  "rank_score": 869.3,
   "active_repos_touched": 3,
   "pr_reviews": 0,
-  "issue_comments": 3,
+  "issue_comments": 9,
   "releases": 0,
   "stars_fraud_filtered": 7,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 670,
+  "rank": 251,
   "avatar_url": "https://avatars.githubusercontent.com/u/189995891?u=83658e951733955500fb32478eae15cf800ad6df&v=4",
   "bio": "Building what watches.\r\nAI \u00d7 Web3 \u00d7 token infra.",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.7,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "prev_rank": 670,
+  "prev_score": 863.7,
+  "rank_delta": 419,
+  "score_delta": 5.6,
   "counted_merges": [
     {
       "repo": "avenoxai/avenoxbeyin",
-      "prs": 3
+      "prs": 5
     }
   ],
   "history": [
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 670,
       "s": 863.7
+    },
+    {
+      "d": "2026-11-24",
+      "r": 251,
+      "s": 869.3
     }
   ]
 }

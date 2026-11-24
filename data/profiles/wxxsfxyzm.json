@@ -1,0 +1,53 @@
+{
+  "username": "wxxsfxyzm",
+  "country": "",
+  "primary_language": "Kotlin",
+  "total_pushes": 3,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 99.9,
+  "s_consistency": 99.92,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 865.0,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 10,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 576,
+  "avatar_url": "https://avatars.githubusercontent.com/u/65166044?u=01c221fcc47de2af3d2182031167e2ed74bd7d3a&v=4",
+  "bio": "Birds of a feather flock together",
+  "company": "City University of Hong Kong",
+  "location": "Your heart \u2764",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "wxxsfxyzm/CS5351-Project",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 576,
+      "s": 865.0
+    }
+  ]
+}

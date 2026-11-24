@@ -2,12 +2,12 @@
   "username": "andymai",
   "country": "United States",
   "primary_language": "TypeScript",
-  "total_pushes": 24,
-  "merged_prs": 6,
-  "s_pr": 99.12,
+  "total_pushes": 25,
+  "merged_prs": 7,
+  "s_pr": 99.28,
   "s_quality": 50.0,
-  "s_impact": 99.77,
-  "s_consistency": 98.45,
+  "s_impact": 99.76,
+  "s_consistency": 98.86,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,42 +16,42 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 869.0,
-  "active_repos_touched": 10,
+  "rank_score": 870.2,
+  "active_repos_touched": 8,
   "pr_reviews": 6,
-  "issue_comments": 0,
+  "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 4,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 308,
+  "rank": 190,
   "avatar_url": "https://avatars.githubusercontent.com/u/216905?v=4",
   "bio": "Building CAD, geometry & WebAssembly tools for the browser. AI/ML at Babylist. Ask me about my cat hair. \ud83d\udc08",
   "company": "@babylist",
   "location": "San Francisco Bay Area",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.4,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 308,
+  "prev_score": 869.0,
+  "rank_delta": 118,
+  "score_delta": 1.2,
   "counted_merges": [
     {
       "repo": "andymai/brepkit",
-      "prs": 3
-    },
-    {
-      "repo": "andymai/brepjs",
-      "prs": 1
+      "prs": 4
     },
     {
       "repo": "andymai/gridfinity-layout-tool",
-      "prs": 1
+      "prs": 2
     },
     {
-      "repo": "andymai/mini_racer_rs",
+      "repo": "andymai/brepjs",
       "prs": 1
     }
   ],
@@ -60,6 +60,11 @@
       "d": "2026-11-23",
       "r": 308,
       "s": 869.0
+    },
+    {
+      "d": "2026-11-24",
+      "r": 190,
+      "s": 870.2
     }
   ]
 }

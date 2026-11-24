@@ -4,10 +4,10 @@
   "primary_language": "C++",
   "total_pushes": 13,
   "merged_prs": 8,
-  "s_pr": 99.6,
+  "s_pr": 99.59,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.46,
+  "s_impact": 99.11,
+  "s_consistency": 97.92,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 869.1,
+  "rank_score": 868.2,
   "active_repos_touched": 9,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 296,
+  "rank": 341,
   "avatar_url": "https://avatars.githubusercontent.com/u/7027842?u=5301b0e414d1c57eb2dead743383da18262821a2&v=4",
   "bio": "",
   "company": "@OSIlife ",
   "location": "Rome, Italy",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.4,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 296,
+  "prev_score": 869.1,
+  "rank_delta": -45,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "iranl/harmony-ng",
@@ -64,6 +68,11 @@
       "d": "2026-11-23",
       "r": 296,
       "s": 869.1
+    },
+    {
+      "d": "2026-11-24",
+      "r": 341,
+      "s": 868.2
     }
   ]
 }

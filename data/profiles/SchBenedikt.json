@@ -1,0 +1,57 @@
+{
+  "username": "SchBenedikt",
+  "country": "Germany",
+  "primary_language": "Python",
+  "total_pushes": 22,
+  "merged_prs": 3,
+  "s_pr": 98.23,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 95.62,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 860.0,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 827,
+  "avatar_url": "https://avatars.githubusercontent.com/u/137323528?u=1fe7042fd9f5b174a2a5c1edd1d991a37374a6bb&v=4",
+  "bio": "Developing Aloha Social and Nextcloud AI",
+  "company": "@AlohaSocial ",
+  "location": "Germany",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "AlohaSocial/social",
+      "prs": 2
+    },
+    {
+      "repo": "SchBenedikt/nextcloud-ai",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 827,
+      "s": 860.0
+    }
+  ]
+}

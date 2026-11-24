@@ -3,11 +3,11 @@
   "country": "United States",
   "primary_language": "TypeScript",
   "total_pushes": 32,
-  "merged_prs": 17,
-  "s_pr": 99.86,
+  "merged_prs": 18,
+  "s_pr": 99.87,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.32,
+  "s_impact": 99.11,
+  "s_consistency": 98.84,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,31 +16,35 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 869.8,
+  "rank_score": 870.6,
   "active_repos_touched": 7,
-  "pr_reviews": 22,
+  "pr_reviews": 18,
   "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 234,
+  "rank": 157,
   "avatar_url": "https://avatars.githubusercontent.com/u/1580956?u=89a9167e4e17b66ee9bbc0e60fec075783be05be&v=4",
   "bio": "",
   "company": "@justworkshr",
   "location": "New York",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.5,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 234,
+  "prev_score": 869.8,
+  "rank_delta": 77,
+  "score_delta": 0.8,
   "counted_merges": [
     {
       "repo": "chenrui333/homebrew-tap",
-      "prs": 16
+      "prs": 17
     },
     {
       "repo": "chenrui333/schema-registry-iam",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 234,
       "s": 869.8
+    },
+    {
+      "d": "2026-11-24",
+      "r": 157,
+      "s": 870.6
     }
   ]
 }

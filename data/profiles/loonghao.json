@@ -2,12 +2,12 @@
   "username": "loonghao",
   "country": "China",
   "primary_language": "TypeScript",
-  "total_pushes": 37,
+  "total_pushes": 31,
   "merged_prs": 5,
-  "s_pr": 99.31,
+  "s_pr": 99.37,
   "s_quality": 50.0,
-  "s_impact": 99.75,
-  "s_consistency": 98.98,
+  "s_impact": 99.74,
+  "s_consistency": 99.32,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,27 +16,31 @@
   },
   "active_days": 12,
   "window_days": 30,
-  "rank_score": 870.4,
-  "active_repos_touched": 26,
+  "rank_score": 871.1,
+  "active_repos_touched": 23,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 2,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 187,
+  "rank": 123,
   "avatar_url": "https://avatars.githubusercontent.com/u/13111745?u=1d7aa9ada305f60b241b903739803bba7d729986&v=4",
   "bio": "Pipeline TD | Working in the VFX and Game Development industry.",
   "company": "",
   "location": "Shenzhen",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.6,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 187,
+  "prev_score": 870.4,
+  "rank_delta": 64,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "dcc-mcp/dcc-cua",
@@ -55,7 +59,7 @@
       "prs": 1
     },
     {
-      "repo": "loonghao/clawup",
+      "repo": "vx-org/vx-rez-packages",
       "prs": 1
     }
   ],
@@ -64,6 +68,11 @@
       "d": "2026-11-23",
       "r": 187,
       "s": 870.4
+    },
+    {
+      "d": "2026-11-24",
+      "r": 123,
+      "s": 871.1
     }
   ]
 }

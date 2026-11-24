@@ -4,10 +4,10 @@
   "primary_language": "Go",
   "total_pushes": 1,
   "merged_prs": 2,
-  "s_pr": 97.36,
+  "s_pr": 97.26,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 98.07,
+  "s_impact": 99.56,
+  "s_consistency": 97.51,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 4,
   "window_days": 30,
-  "rank_score": 861.8,
+  "rank_score": 860.6,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 787,
+  "rank": 797,
   "avatar_url": "https://avatars.githubusercontent.com/u/6118188?u=f727ce4b73c85ae2d6eb0eda1ff73c0027afdad4&v=4",
   "bio": "",
   "company": "",
   "location": "Nowheresville",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.4,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 787,
+  "prev_score": 861.8,
+  "rank_delta": -10,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "microsoft/winget-pkgs",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 787,
       "s": 861.8
+    },
+    {
+      "d": "2026-11-24",
+      "r": 797,
+      "s": 860.6
     }
   ]
 }

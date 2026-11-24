@@ -2,21 +2,21 @@
   "username": "merlinfuchs",
   "country": "Germany",
   "primary_language": "TypeScript",
-  "total_pushes": 14,
+  "total_pushes": 9,
   "merged_prs": 6,
-  "s_pr": 99.12,
+  "s_pr": 99.08,
   "s_quality": 50.0,
-  "s_impact": 99.67,
-  "s_consistency": 99.12,
+  "s_impact": 99.65,
+  "s_consistency": 98.42,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 12,
+  "active_days": 11,
   "window_days": 30,
-  "rank_score": 869.8,
+  "rank_score": 868.6,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 245,
+  "rank": 308,
   "avatar_url": "https://avatars.githubusercontent.com/u/33966852?u=11b311f0128b2ccd3c202fb32adada5a25ac5003&v=4",
   "bio": "everything here is a draft",
   "company": "Xenon Bot",
   "location": "Germany",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.5,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 245,
+  "prev_score": 869.8,
+  "rank_delta": -63,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "merlinfuchs/kite",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 245,
       "s": 869.8
+    },
+    {
+      "d": "2026-11-24",
+      "r": 308,
+      "s": 868.6
     }
   ]
 }

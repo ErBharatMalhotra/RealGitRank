@@ -2,21 +2,21 @@
   "username": "HD838A",
   "country": "",
   "primary_language": "Swift",
-  "total_pushes": 11,
+  "total_pushes": 8,
   "merged_prs": 6,
-  "s_pr": 99.26,
+  "s_pr": 99.23,
   "s_quality": 50.0,
   "s_impact": 99.97,
-  "s_consistency": 99.29,
+  "s_consistency": 98.52,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 18,
+  "active_days": 17,
   "window_days": 30,
-  "rank_score": 871.2,
+  "rank_score": 870.0,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 123,
+  "rank": 201,
   "avatar_url": "https://avatars.githubusercontent.com/u/126734171?u=13480c5c6472c18667176fa2370795d8be3be465&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.8,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 123,
+  "prev_score": 871.2,
+  "rank_delta": -78,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "HD838A/remote-mic-app",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 123,
       "s": 871.2
+    },
+    {
+      "d": "2026-11-24",
+      "r": 201,
+      "s": 870.0
     }
   ]
 }

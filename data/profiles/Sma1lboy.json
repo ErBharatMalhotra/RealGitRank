@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 5,
   "merged_prs": 9,
-  "s_pr": 99.55,
+  "s_pr": 99.54,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.49,
+  "s_impact": 99.11,
+  "s_consistency": 97.94,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 12,
   "window_days": 30,
-  "rank_score": 869.0,
+  "rank_score": 868.1,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 305,
+  "rank": 351,
   "avatar_url": "https://avatars.githubusercontent.com/u/90215880?u=07b893c26dfa9eb3175654362e732c31c0fc5fb3&v=4",
   "bio": "I came I saw I made it",
   "company": "",
   "location": "San jose",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.4,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 305,
+  "prev_score": 869.0,
+  "rank_delta": -46,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "Sma1lboy/rove",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 305,
       "s": 869.0
+    },
+    {
+      "d": "2026-11-24",
+      "r": 351,
+      "s": 868.1
     }
   ]
 }

@@ -1,0 +1,61 @@
+{
+  "username": "MaiklLX",
+  "country": "",
+  "primary_language": "HTML",
+  "total_pushes": 31,
+  "merged_prs": 6,
+  "s_pr": 99.08,
+  "s_quality": 50.0,
+  "s_impact": 98.66,
+  "s_consistency": 99.89,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 868.3,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 6,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 333,
+  "avatar_url": "https://avatars.githubusercontent.com/u/152959493?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "MaiklLX/AI-Library",
+      "prs": 3
+    },
+    {
+      "repo": "MaiklLX/Tetrios.LX",
+      "prs": 2
+    },
+    {
+      "repo": "MaiklLX/TRAFFIC-PUZZLE",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 333,
+      "s": 868.3
+    }
+  ]
+}

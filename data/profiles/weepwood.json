@@ -1,0 +1,53 @@
+{
+  "username": "weepwood",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 54,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 97.23,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 859.0,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 880,
+  "avatar_url": "https://avatars.githubusercontent.com/u/46443012?u=b2f2e40bab180774f17f0a079be957f4451eb29f&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "weepwood/MRR",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 880,
+      "s": 859.0
+    }
+  ]
+}

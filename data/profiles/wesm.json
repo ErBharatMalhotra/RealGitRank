@@ -2,22 +2,22 @@
   "username": "wesm",
   "country": "",
   "primary_language": "Jupyter Notebook",
-  "total_pushes": 21,
+  "total_pushes": 16,
   "merged_prs": 9,
-  "s_pr": 99.79,
+  "s_pr": 99.78,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.49,
+  "s_impact": 99.11,
+  "s_consistency": 97.84,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 14,
+  "active_days": 13,
   "window_days": 30,
-  "rank_score": 869.8,
-  "active_repos_touched": 15,
+  "rank_score": 868.8,
+  "active_repos_touched": 13,
   "pr_reviews": 0,
   "issue_comments": 2,
   "releases": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 239,
+  "rank": 287,
   "avatar_url": "https://avatars.githubusercontent.com/u/329591?u=2d251e2cbb5d0cec2679657458ec24c7398e8de9&v=4",
   "bio": "Founder @kenn-io.\r\n\r\nCreated pandas, Ibis, Apache Arrow.",
   "company": "@kenn-io",
   "location": "Nashville, TN",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.5,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 239,
+  "prev_score": 869.8,
+  "rank_delta": -48,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "kenn-io/benchdb",
@@ -72,6 +76,11 @@
       "d": "2026-11-23",
       "r": 239,
       "s": 869.8
+    },
+    {
+      "d": "2026-11-24",
+      "r": 287,
+      "s": 868.8
     }
   ]
 }

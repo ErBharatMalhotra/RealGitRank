@@ -1,10 +1,20 @@
 {
-  "generated_at": "2026-11-23T10:26:18.156532+00:00",
+  "generated_at": "2026-11-24T04:46:59.629066+00:00",
   "score_version": "v2-percentile",
   "window_days": 30,
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
   "users": 50000,
+  "users_total": 949186,
+  "source": {
+    "days_measured": 1,
+    "days_in_window": 30,
+    "hourly_files": 24,
+    "events": 306107,
+    "bot_events": 85484,
+    "bot_share_pct": 27.9,
+    "events_per_day": 306107.0
+  },
   "pillars": {
     "delivery": {
       "label": "Merged pull requests (external merges weighted)",
@@ -13,8 +23,8 @@
     },
     "code_health": {
       "label": "Test-signal ratio and multi-file PRs",
-      "measured": 46398,
-      "pct": 92.8
+      "measured": 46564,
+      "pct": 93.1
     },
     "adoption": {
       "label": "Stars and forks received",
@@ -32,12 +42,12 @@
     "pct": 0.0
   },
   "country": {
-    "known": 5021,
-    "pct": 10.0
+    "known": 5253,
+    "pct": 10.5
   },
   "language": {
-    "known": 2775,
-    "pct": 5.5
+    "known": 2926,
+    "pct": 5.9
   },
   "validation": {
     "method": "event-level: GitHub PR API merged_at + merged_by",
@@ -54,5 +64,5 @@
     "samples": [],
     "notes": "Each checked merge event must exist, have merged_at inside the window, and have merged_by.login equal to the ranked account. Unknown (404/private) events are excluded from the rate, never counted as matches."
   },
-  "notes": "Automation signals (commit-message entropy and PR changed-file counts) are only known when the GitHub events feed carries them; unknown signals are disclosed here and never turned into a guessed adjustment. Missing pillars are excluded from the weighted score and the remaining weights are renormalised."
+  "notes": "`source` describes how much of the public GitHub event stream this window actually contains (hourly files downloaded, events seen, bot events skipped). gharchive.org is a partial mirror of public events, so the ranking covers the activity it observed, not every commit on GitHub. Automation signals (commit-message entropy and PR changed-file counts) are only known when the feed carries them; unknown signals are disclosed here and never turned into a guessed adjustment. Missing pillars are excluded from the weighted score and the remaining weights are renormalised."
 }

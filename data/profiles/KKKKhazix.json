@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 6,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
   "s_impact": 100.0,
-  "s_consistency": 98.42,
+  "s_consistency": 97.89,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,27 +16,31 @@
   },
   "active_days": 28,
   "window_days": 30,
-  "rank_score": 866.7,
+  "rank_score": 865.6,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 4,
   "releases": 0,
-  "stars_fraud_filtered": 137,
-  "forks_fraud_filtered": 19,
+  "stars_fraud_filtered": 139,
+  "forks_fraud_filtered": 20,
   "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 480,
+  "rank": 536,
   "avatar_url": "https://avatars.githubusercontent.com/u/239590580?u=e36ff439fc89c0ec6eff33f6d1d5e869ce0b214f&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.0,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 480,
+  "prev_score": 866.7,
+  "rank_delta": -56,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "KKKKhazix/AIHOT",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 480,
       "s": 866.7
+    },
+    {
+      "d": "2026-11-24",
+      "r": 536,
+      "s": 865.6
     }
   ]
 }

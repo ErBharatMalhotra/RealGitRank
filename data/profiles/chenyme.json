@@ -3,11 +3,11 @@
   "country": "",
   "primary_language": "Go",
   "total_pushes": 1,
-  "merged_prs": 4,
-  "s_pr": 99.12,
+  "merged_prs": 5,
+  "s_pr": 99.37,
   "s_quality": 50.0,
-  "s_impact": 99.88,
-  "s_consistency": 99.44,
+  "s_impact": 99.83,
+  "s_consistency": 98.76,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,31 +16,35 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 870.8,
+  "rank_score": 870.5,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
-  "stars_fraud_filtered": 3,
+  "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 2,
   "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 158,
+  "rank": 166,
   "avatar_url": "https://avatars.githubusercontent.com/u/118253778?u=7d626768cb326d2df06b5f91089c73c68ce9a19f&v=4",
   "bio": "chenyme03@gmail.com",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.7,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 158,
+  "prev_score": 870.8,
+  "rank_delta": -8,
+  "score_delta": -0.3,
   "counted_merges": [
     {
       "repo": "DEEIX-AI/Winc",
-      "prs": 4
+      "prs": 5
     }
   ],
   "history": [
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 158,
       "s": 870.8
+    },
+    {
+      "d": "2026-11-24",
+      "r": 166,
+      "s": 870.5
     }
   ]
 }

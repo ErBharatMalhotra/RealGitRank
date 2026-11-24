@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 2,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
   "s_impact": 99.87,
-  "s_consistency": 94.89,
+  "s_consistency": 94.18,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 5,
   "window_days": 30,
-  "rank_score": 861.1,
+  "rank_score": 859.7,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 825,
+  "rank": 844,
   "avatar_url": "https://avatars.githubusercontent.com/u/163713803?u=00d1a406af0bf494cc1e0a61d7b3682e9808652d&v=4",
   "bio": "Learning is a Lifelong Journey.\r\n\r\n\r\n",
   "company": "@ByteDance",
   "location": "China",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.4,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 825,
+  "prev_score": 861.1,
+  "rank_delta": -19,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "LofiSu/deepseek-super-agent",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 825,
       "s": 861.1
+    },
+    {
+      "d": "2026-11-24",
+      "r": 844,
+      "s": 859.7
     }
   ]
 }

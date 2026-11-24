@@ -2,12 +2,12 @@
   "username": "CrispStrobe",
   "country": "",
   "primary_language": "C++",
-  "total_pushes": 136,
-  "merged_prs": 18,
-  "s_pr": 99.88,
+  "total_pushes": 130,
+  "merged_prs": 17,
+  "s_pr": 99.86,
   "s_quality": 50.0,
-  "s_impact": 99.72,
-  "s_consistency": 99.07,
+  "s_impact": 99.71,
+  "s_consistency": 99.31,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,27 +16,31 @@
   },
   "active_days": 22,
   "window_days": 30,
-  "rank_score": 872.5,
-  "active_repos_touched": 17,
+  "rank_score": 872.7,
+  "active_repos_touched": 16,
   "pr_reviews": 0,
   "issue_comments": 2,
   "releases": 0,
   "stars_fraud_filtered": 3,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 28,
+  "rank": 39,
   "avatar_url": "https://avatars.githubusercontent.com/u/154636388?u=c99aa22bcae0243d743523e8e2c5278870906877&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.9,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 28,
+  "prev_score": 872.5,
+  "rank_delta": -11,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "CrispStrobe/CrispEmbed",
@@ -63,10 +67,6 @@
       "prs": 1
     },
     {
-      "repo": "CrispStrobe/bw-circuit-ui",
-      "prs": 1
-    },
-    {
       "repo": "CrispStrobe/kerotakis",
       "prs": 1
     },
@@ -80,6 +80,11 @@
       "d": "2026-11-23",
       "r": 28,
       "s": 872.5
+    },
+    {
+      "d": "2026-11-24",
+      "r": 39,
+      "s": 872.7
     }
   ]
 }

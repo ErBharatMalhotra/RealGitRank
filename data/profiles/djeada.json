@@ -1,0 +1,61 @@
+{
+  "username": "djeada",
+  "country": "Germany",
+  "primary_language": "C++",
+  "total_pushes": 5,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 99.65,
+  "s_consistency": 99.23,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 863.4,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 6,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 655,
+  "avatar_url": "https://avatars.githubusercontent.com/u/37275728?u=0d4f04cd03c390311b7039c4d7f69eb2dc5c2485&v=4",
+  "bio": "Software Engineer (C++/Python/Rust)",
+  "company": "",
+  "location": "Berlin",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "djeada/Flask-Blog",
+      "prs": 1
+    },
+    {
+      "repo": "djeada/Personal-Website",
+      "prs": 1
+    },
+    {
+      "repo": "djeada/Standard-of-Iron",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 655,
+      "s": 863.4
+    }
+  ]
+}

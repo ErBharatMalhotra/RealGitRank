@@ -3,44 +3,48 @@
   "country": "Germany",
   "primary_language": "Python",
   "total_pushes": 8,
-  "merged_prs": 4,
-  "s_pr": 98.3,
+  "merged_prs": 5,
+  "s_pr": 98.82,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 97.94,
+  "s_impact": 99.56,
+  "s_consistency": 98.71,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 7,
+  "active_days": 8,
   "window_days": 30,
-  "rank_score": 864.9,
+  "rank_score": 867.9,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 4,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 590,
+  "rank": 367,
   "avatar_url": "https://avatars.githubusercontent.com/u/63877413?u=2e7697d3e83360e057d55dab2eef43cbd7b0cc15&v=4",
   "bio": "Computer Science @ RWTH Aachen",
   "company": "",
   "location": "Aachen, Germany",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.8,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "prev_rank": 590,
+  "prev_score": 864.9,
+  "rank_delta": 223,
+  "score_delta": 3.0,
   "counted_merges": [
     {
       "repo": "stickerdaniel/saas-starter",
-      "prs": 2
+      "prs": 3
     },
     {
       "repo": "stickerdaniel/convex-langfuse",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 590,
       "s": 864.9
+    },
+    {
+      "d": "2026-11-24",
+      "r": 367,
+      "s": 867.9
     }
   ]
 }

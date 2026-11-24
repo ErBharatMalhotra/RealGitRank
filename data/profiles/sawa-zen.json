@@ -1,0 +1,57 @@
+{
+  "username": "sawa-zen",
+  "country": "Japan",
+  "primary_language": "TypeScript",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "s_pr": 98.57,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 95.68,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 3,
+  "window_days": 30,
+  "rank_score": 861.3,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 754,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3971271?u=6825b424ca5f462f20148c41cdbbb14de8ca6612&v=4",
+  "bio": "Design Engineer. I \u2764\ufe0f WebXR",
+  "company": "@topotal ",
+  "location": "Tokyo",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "WebXR-JP/xrift-world-components",
+      "prs": 2
+    },
+    {
+      "repo": "WebXR-JP/xrift-docs",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 754,
+      "s": 861.3
+    }
+  ]
+}

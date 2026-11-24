@@ -3,40 +3,44 @@
   "country": "",
   "primary_language": "Python",
   "total_pushes": 0,
-  "merged_prs": 4,
-  "s_pr": 98.3,
+  "merged_prs": 5,
+  "s_pr": 98.82,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 94.28,
+  "s_impact": 99.11,
+  "s_consistency": 97.5,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 3,
+  "active_days": 4,
   "window_days": 30,
-  "rank_score": 858.3,
-  "active_repos_touched": 2,
+  "rank_score": 864.9,
+  "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 3,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 992,
+  "rank": 578,
   "avatar_url": "https://avatars.githubusercontent.com/u/48315468?v=4",
   "bio": "To make bread you first need to create the universe.",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.0,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 992,
+  "prev_score": 858.3,
+  "rank_delta": 414,
+  "score_delta": 6.6,
   "counted_merges": [
     {
       "repo": "vietbui1999ru/dotfiles",
@@ -45,6 +49,10 @@
     {
       "repo": "vietbui1999ru/llm-wiki",
       "prs": 2
+    },
+    {
+      "repo": "vietbui1999ru/claude-tui",
+      "prs": 1
     }
   ],
   "history": [
@@ -52,6 +60,11 @@
       "d": "2026-11-23",
       "r": 992,
       "s": 858.3
+    },
+    {
+      "d": "2026-11-24",
+      "r": 578,
+      "s": 864.9
     }
   ]
 }

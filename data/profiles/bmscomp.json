@@ -4,10 +4,10 @@
   "primary_language": "Go",
   "total_pushes": 5,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 99.21,
+  "s_impact": 99.11,
+  "s_consistency": 98.49,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 865.7,
+  "rank_score": 864.3,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 545,
+  "rank": 610,
   "avatar_url": "https://avatars.githubusercontent.com/u/45496?u=7cab424067bb915f042a4bd3851af6ef550c83cc&v=4",
   "bio": "Software engineer, Functional programming teacher, Architect ",
   "company": "@SCIAM-FR",
   "location": "Paris",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.9,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 545,
+  "prev_score": 865.7,
+  "rank_delta": -65,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "bmscomp/kates",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 545,
       "s": 865.7
+    },
+    {
+      "d": "2026-11-24",
+      "r": 610,
+      "s": 864.3
     }
   ]
 }

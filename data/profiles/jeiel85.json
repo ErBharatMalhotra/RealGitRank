@@ -4,10 +4,10 @@
   "primary_language": "Kotlin",
   "total_pushes": 14,
   "merged_prs": 6,
-  "s_pr": 99.12,
+  "s_pr": 99.08,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 97.37,
+  "s_impact": 99.11,
+  "s_consistency": 96.76,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 865.8,
+  "rank_score": 864.7,
   "active_repos_touched": 13,
   "pr_reviews": 2,
   "issue_comments": 5,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 531,
+  "rank": 585,
   "avatar_url": "https://avatars.githubusercontent.com/u/5762382?u=96b52fca17dc7ba6921a5d90d13973078b486b95&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.9,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 531,
+  "prev_score": 865.8,
+  "rank_delta": -54,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "jeiel85/claude-usage-tray-windows",
@@ -64,6 +68,11 @@
       "d": "2026-11-23",
       "r": 531,
       "s": 865.8
+    },
+    {
+      "d": "2026-11-24",
+      "r": 585,
+      "s": 864.7
     }
   ]
 }

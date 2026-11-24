@@ -3,23 +3,23 @@
   "country": "Japan",
   "primary_language": "JavaScript",
   "total_pushes": 4,
-  "merged_prs": 11,
-  "s_pr": 99.69,
+  "merged_prs": 10,
+  "s_pr": 99.61,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 99.2,
+  "s_impact": 99.11,
+  "s_consistency": 98.39,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 12,
+  "active_days": 11,
   "window_days": 30,
-  "rank_score": 870.5,
-  "active_repos_touched": 12,
+  "rank_score": 869.0,
+  "active_repos_touched": 10,
   "pr_reviews": 1,
-  "issue_comments": 3,
+  "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 174,
+  "rank": 270,
   "avatar_url": "https://avatars.githubusercontent.com/u/7637832?u=9c360fd403cec327be79578630935fc373e6cc88&v=4",
   "bio": "Average level computer engineer",
   "company": "Ex-Mozilla",
   "location": "Niigata Japan",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.7,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 174,
+  "prev_score": 870.5,
+  "rank_delta": -96,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "takahirox/cognix",
@@ -47,15 +51,15 @@
       "prs": 2
     },
     {
-      "repo": "takahirox/pcvan",
-      "prs": 2
-    },
-    {
       "repo": "takahirox/saturn-rust",
       "prs": 2
     },
     {
       "repo": "takahirox/mmd-gltf",
+      "prs": 1
+    },
+    {
+      "repo": "takahirox/pcvan",
       "prs": 1
     },
     {
@@ -72,6 +76,11 @@
       "d": "2026-11-23",
       "r": 174,
       "s": 870.5
+    },
+    {
+      "d": "2026-11-24",
+      "r": 270,
+      "s": 869.0
     }
   ]
 }

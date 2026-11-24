@@ -2,22 +2,22 @@
   "username": "joakimeriksson",
   "country": "Sweden",
   "primary_language": "Rust",
-  "total_pushes": 16,
+  "total_pushes": 15,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
   "s_impact": 99.95,
-  "s_consistency": 99.21,
+  "s_consistency": 98.47,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 15,
+  "active_days": 14,
   "window_days": 30,
-  "rank_score": 867.7,
-  "active_repos_touched": 9,
+  "rank_score": 866.4,
+  "active_repos_touched": 8,
   "pr_reviews": 1,
   "issue_comments": 1,
   "releases": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 401,
+  "rank": 484,
   "avatar_url": "https://avatars.githubusercontent.com/u/599447?u=66ab20fb116173947b2f0f46e090b5fc4f1fa566&v=4",
   "bio": "Researcher in Internet of Things and Edge AI.",
   "company": "RISE Research Institutes of Sweden",
   "location": "Kista, Sweden",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.2,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 401,
+  "prev_score": 867.7,
+  "rank_delta": -83,
+  "score_delta": -1.3,
   "counted_merges": [
     {
       "repo": "joakimeriksson/sbc-emu",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 401,
       "s": 867.7
+    },
+    {
+      "d": "2026-11-24",
+      "r": 484,
+      "s": 866.4
     }
   ]
 }

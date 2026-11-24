@@ -2,24 +2,24 @@
   "username": "fametrano",
   "country": "Italy",
   "primary_language": "Python",
-  "total_pushes": 87,
+  "total_pushes": 81,
   "merged_prs": 40,
   "s_pr": 99.99,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.42,
+  "s_impact": 99.11,
+  "s_consistency": 97.87,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 24,
+  "active_days": 23,
   "window_days": 30,
-  "rank_score": 870.4,
-  "active_repos_touched": 27,
+  "rank_score": 869.6,
+  "active_repos_touched": 26,
   "pr_reviews": 31,
-  "issue_comments": 42,
+  "issue_comments": 41,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 178,
+  "rank": 229,
   "avatar_url": "https://avatars.githubusercontent.com/u/3296421?u=a3e8d62a76cd5926c4351ccabc75237abb9652b2&v=4",
   "bio": "Bitcoin & Blockchain Technology @dginst @btclib-org; @quantlib founder; CheckSig cofounder and CEO; adjunct professor at ESSEC",
   "company": "@btclib-org @dginst @checksig-custody @quantlib",
   "location": "Milan and everywhere",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.6,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 178,
+  "prev_score": 870.4,
+  "rank_delta": -51,
+  "score_delta": -0.8,
   "counted_merges": [
     {
       "repo": "btclib-org/btclib-node",
@@ -84,6 +88,11 @@
       "d": "2026-11-23",
       "r": 178,
       "s": 870.4
+    },
+    {
+      "d": "2026-11-24",
+      "r": 229,
+      "s": 869.6
     }
   ]
 }

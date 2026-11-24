@@ -2,12 +2,12 @@
   "username": "steipete",
   "country": "United States",
   "primary_language": "Rust",
-  "total_pushes": 398,
-  "merged_prs": 42,
-  "s_pr": 99.99,
+  "total_pushes": 345,
+  "merged_prs": 32,
+  "s_pr": 99.98,
   "s_quality": 50.0,
-  "s_impact": 99.95,
-  "s_consistency": 98.56,
+  "s_impact": 99.96,
+  "s_consistency": 99.02,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,39 +16,39 @@
   },
   "active_days": 23,
   "window_days": 30,
-  "rank_score": 872.7,
-  "active_repos_touched": 50,
-  "pr_reviews": 3,
-  "issue_comments": 73,
+  "rank_score": 873.4,
+  "active_repos_touched": 45,
+  "pr_reviews": 2,
+  "issue_comments": 49,
   "releases": 0,
-  "stars_fraud_filtered": 10,
+  "stars_fraud_filtered": 11,
   "forks_fraud_filtered": 2,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 16,
+  "rank": 12,
   "avatar_url": "https://avatars.githubusercontent.com/u/58493?u=95a4fccef3d341039661c427695691a664e333ba&v=4",
   "bio": "Came back from retirement to mess with AI. Clawdfather @OpenClaw\r\n\r\nPreviously: Founder of @PSPDFKit.",
   "company": "OpenAI",
   "location": "London / San Francisco",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 358,
-  "prev_score": 70.9,
-  "rank_delta": 342,
-  "score_delta": 801.8,
+  "prev_rank": 16,
+  "prev_score": 872.7,
+  "rank_delta": 4,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "openclaw/openclaw",
-      "prs": 38
+      "prs": 29
     },
     {
       "repo": "openclaw/crabbox",
-      "prs": 3
+      "prs": 2
     },
     {
       "repo": "openclaw/clawpatch",
@@ -60,6 +60,11 @@
       "d": "2026-11-23",
       "r": 16,
       "s": 872.7
+    },
+    {
+      "d": "2026-11-24",
+      "r": 12,
+      "s": 873.4
     }
   ]
 }

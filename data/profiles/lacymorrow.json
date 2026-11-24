@@ -2,21 +2,21 @@
   "username": "lacymorrow",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 8,
+  "total_pushes": 7,
   "merged_prs": 9,
-  "s_pr": 99.6,
+  "s_pr": 99.59,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.58,
+  "s_impact": 99.11,
+  "s_consistency": 97.96,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 9,
+  "active_days": 8,
   "window_days": 30,
-  "rank_score": 869.3,
+  "rank_score": 868.3,
   "active_repos_touched": 16,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 276,
+  "rank": 329,
   "avatar_url": "https://avatars.githubusercontent.com/u/1311301?u=faa9388d5fb4d0d36f781436b114ac5bd1f60f58&v=4",
   "bio": "Building AI agents, open source tools, and FPV drones. 20 years shipping free software.",
   "company": "@twilio, @creditkarma, @shipkit-io",
   "location": "Charlotte, NC",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.4,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 276,
+  "prev_score": 869.3,
+  "rank_delta": -53,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "lacymorrow/juno",
@@ -72,6 +76,11 @@
       "d": "2026-11-23",
       "r": 276,
       "s": 869.3
+    },
+    {
+      "d": "2026-11-24",
+      "r": 329,
+      "s": 868.3
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "username": "JanDeDobbeleer",
+  "country": "",
+  "primary_language": "Go",
+  "total_pushes": 3,
+  "merged_prs": 2,
+  "s_pr": 95.48,
+  "s_quality": 50.0,
+  "s_impact": 99.84,
+  "s_consistency": 99.93,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 858.7,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 6,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 6,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 906,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2492783?u=2c6d92f8faacd53cdf2d5d135a6f7210bedf0a84&v=4",
+  "bio": "Microsoft MVP | GitHub Star | GitKraken Ambassador | Code | Kids | Straight Edge | Running | Rollerblading",
+  "company": "",
+  "location": "Diest, Belgium",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "JanDeDobbeleer/bakkerijhans",
+      "prs": 1
+    },
+    {
+      "repo": "JanDeDobbeleer/waku-ports",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 906,
+      "s": 858.7
+    }
+  ]
+}

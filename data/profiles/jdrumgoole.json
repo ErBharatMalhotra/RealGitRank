@@ -2,12 +2,12 @@
   "username": "jdrumgoole",
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 10,
+  "total_pushes": 11,
   "merged_prs": 6,
-  "s_pr": 99.12,
+  "s_pr": 99.08,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.94,
+  "s_impact": 99.11,
+  "s_consistency": 99.09,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -23,20 +23,24 @@
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 358,
+  "rank": 346,
   "avatar_url": "https://avatars.githubusercontent.com/u/97294?u=d75c6cbb6746c85969201a49ccc471a2873dee79&v=4",
   "bio": "Dev Rel Guy. Entpreneur, Investor. Founder of http://winebox.app",
   "company": "winebox.app",
   "location": "Dublin",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.3,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 358,
+  "prev_score": 868.2,
+  "rank_delta": 12,
+  "score_delta": 0.0,
   "counted_merges": [
     {
       "repo": "jdrumgoole/SecantusDB",
@@ -47,6 +51,11 @@
     {
       "d": "2026-11-23",
       "r": 358,
+      "s": 868.2
+    },
+    {
+      "d": "2026-11-24",
+      "r": 346,
       "s": 868.2
     }
   ]

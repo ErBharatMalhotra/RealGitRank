@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 0,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
-  "s_impact": 99.81,
-  "s_consistency": 94.27,
+  "s_impact": 99.8,
+  "s_consistency": 93.52,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 860.0,
+  "rank_score": 858.6,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 883,
+  "rank": 910,
   "avatar_url": "https://avatars.githubusercontent.com/u/125804924?u=3e3fe62c7745da2c4daf25d49698a471d4c6e0f8&v=4",
   "bio": "Passionate about systems, not code.\r\nFrom flashing OS to customizing Linux, I\u2019ve tested countless distros.\r\n\r\nTech is my playground,\r\ncuriosity my guide.",
   "company": "",
   "location": "India",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.2,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 883,
+  "prev_score": 860.0,
+  "rank_delta": -27,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "mkr-infinity/MIRA",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 883,
       "s": 860.0
+    },
+    {
+      "d": "2026-11-24",
+      "r": 910,
+      "s": 858.6
     }
   ]
 }

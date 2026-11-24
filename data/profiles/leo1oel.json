@@ -4,10 +4,10 @@
   "primary_language": "Rust",
   "total_pushes": 2,
   "merged_prs": 11,
-  "s_pr": 99.69,
+  "s_pr": 99.68,
   "s_quality": 50.0,
   "s_impact": 99.95,
-  "s_consistency": 99.15,
+  "s_consistency": 98.43,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 17,
   "window_days": 30,
-  "rank_score": 872.5,
+  "rank_score": 871.4,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 31,
+  "rank": 102,
   "avatar_url": "https://avatars.githubusercontent.com/u/142374191?u=de1bc165ce9372bfbbaf5342705c43263efbc7e1&v=4",
   "bio": "",
   "company": "Tsinghua University",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.9,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 31,
+  "prev_score": 872.5,
+  "rank_delta": -71,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "leo1oel/lattice",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 31,
       "s": 872.5
+    },
+    {
+      "d": "2026-11-24",
+      "r": 102,
+      "s": 871.4
     }
   ]
 }

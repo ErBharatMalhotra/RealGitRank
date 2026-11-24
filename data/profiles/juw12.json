@@ -2,45 +2,45 @@
   "username": "juw12",
   "country": "Indonesia",
   "primary_language": "JavaScript",
-  "total_pushes": 14,
-  "merged_prs": 12,
-  "s_pr": 99.73,
+  "total_pushes": 16,
+  "merged_prs": 13,
+  "s_pr": 99.76,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 96.5,
+  "s_impact": 99.11,
+  "s_consistency": 98.38,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 11,
+  "active_days": 12,
   "window_days": 30,
-  "rank_score": 866.6,
-  "active_repos_touched": 19,
+  "rank_score": 869.5,
+  "active_repos_touched": 21,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 4,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 485,
+  "rank": 238,
   "avatar_url": "https://avatars.githubusercontent.com/u/73946469?v=4",
   "bio": "R&D mechanical engineer who ships software: CAD/CFD tools, offline-first apps and privacy-first web tools.",
   "company": "",
   "location": "Batam, Indonesia",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.0,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 745,
-  "prev_score": 63.6,
-  "rank_delta": 260,
-  "score_delta": 803.0,
+  "prev_rank": 485,
+  "prev_score": 866.6,
+  "rank_delta": 247,
+  "score_delta": 2.9,
   "counted_merges": [
     {
       "repo": "juw12/achievements-playground",
@@ -48,6 +48,10 @@
     },
     {
       "repo": "juw12/earlystar",
+      "prs": 1
+    },
+    {
+      "repo": "juw12/open-problems-lab",
       "prs": 1
     },
     {
@@ -76,6 +80,11 @@
       "d": "2026-11-23",
       "r": 485,
       "s": 866.6
+    },
+    {
+      "d": "2026-11-24",
+      "r": 238,
+      "s": 869.5
     }
   ]
 }

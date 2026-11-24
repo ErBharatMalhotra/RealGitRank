@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 25,
   "merged_prs": 7,
-  "s_pr": 99.4,
+  "s_pr": 99.37,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 99.13,
+  "s_impact": 99.11,
+  "s_consistency": 98.41,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 869.4,
+  "rank_score": 868.2,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 271,
+  "rank": 344,
   "avatar_url": "https://avatars.githubusercontent.com/u/19153718?u=bd6dd66bcf8ef23c5fe91d51fb46e3f93f0cb366&v=4",
   "bio": "",
   "company": "",
   "location": "Tokyo",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.5,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 271,
+  "prev_score": 869.4,
+  "rank_delta": -73,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "baseballyama/rsvelte",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 271,
       "s": 869.4
+    },
+    {
+      "d": "2026-11-24",
+      "r": 344,
+      "s": 868.2
     }
   ]
 }

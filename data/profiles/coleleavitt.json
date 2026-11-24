@@ -1,0 +1,57 @@
+{
+  "username": "coleleavitt",
+  "country": "United States",
+  "primary_language": "Rust",
+  "total_pushes": 10,
+  "merged_prs": 4,
+  "s_pr": 98.23,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 94.73,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 858.7,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 898,
+  "avatar_url": "https://avatars.githubusercontent.com/u/75138914?u=c34d1b62fbb63d07c324f22f2830cc4bf1ed4e82&v=4",
+  "bio": "idiolect",
+  "company": "Foundations Investment Advisors, LLC",
+  "location": "Michigan, United States",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "coleleavitt/unlace",
+      "prs": 3
+    },
+    {
+      "repo": "coleleavitt/unwrap-rs",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 898,
+      "s": 858.7
+    }
+  ]
+}

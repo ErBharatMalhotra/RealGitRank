@@ -2,21 +2,21 @@
   "username": "tmcleroy",
   "country": "",
   "primary_language": "C",
-  "total_pushes": 7,
+  "total_pushes": 6,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
   "s_impact": 99.93,
-  "s_consistency": 98.41,
+  "s_consistency": 97.85,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 14,
+  "active_days": 13,
   "window_days": 30,
-  "rank_score": 866.5,
+  "rank_score": 865.4,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 494,
+  "rank": 544,
   "avatar_url": "https://avatars.githubusercontent.com/u/2308736?u=615f1977707fc3b6a05f5552dea0f5bf2e2d4edc&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.0,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 494,
+  "prev_score": 866.5,
+  "rank_delta": -50,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "tmcleroy/cps2recomp",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 494,
       "s": 866.5
+    },
+    {
+      "d": "2026-11-24",
+      "r": 544,
+      "s": 865.4
     }
   ]
 }

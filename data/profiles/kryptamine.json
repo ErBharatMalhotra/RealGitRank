@@ -1,0 +1,61 @@
+{
+  "username": "kryptamine",
+  "country": "",
+  "primary_language": "Go",
+  "total_pushes": 6,
+  "merged_prs": 4,
+  "s_pr": 98.23,
+  "s_quality": 50.0,
+  "s_impact": 98.66,
+  "s_consistency": 98.51,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 863.2,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 661,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7682795?u=a42425601af090996498cd27c0a916dda71bef0d&v=4",
+  "bio": "Software developer at @WebPros \ud83d\udc99",
+  "company": "WebPros",
+  "location": "Sofia, Bulgaria",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "kryptamine/rune",
+      "prs": 2
+    },
+    {
+      "repo": "kryptamine/dotfiles",
+      "prs": 1
+    },
+    {
+      "repo": "kryptamine/postal",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 661,
+      "s": 863.2
+    }
+  ]
+}

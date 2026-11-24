@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 12,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.5,
+  "s_impact": 99.11,
+  "s_consistency": 97.95,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 864.6,
+  "rank_score": 863.5,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 7,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 607,
+  "rank": 649,
   "avatar_url": "https://avatars.githubusercontent.com/u/64036305?u=36d5db27f5d2566f417e52fec1998cd78dc01e05&v=4",
   "bio": "",
   "company": "Korea Institute for Advanced Study",
   "location": "Seoul, Korea",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.8,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 607,
+  "prev_score": 864.6,
+  "rank_delta": -42,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "vv137/mdir",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 607,
       "s": 864.6
+    },
+    {
+      "d": "2026-11-24",
+      "r": 649,
+      "s": 863.5
     }
   ]
 }

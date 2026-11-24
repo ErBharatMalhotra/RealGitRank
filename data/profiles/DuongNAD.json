@@ -2,41 +2,45 @@
   "username": "DuongNAD",
   "country": "",
   "primary_language": "Rust",
-  "total_pushes": 4,
-  "merged_prs": 10,
-  "s_pr": 99.62,
+  "total_pushes": 5,
+  "merged_prs": 11,
+  "s_pr": 99.68,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 95.87,
+  "s_impact": 99.11,
+  "s_consistency": 98.01,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 9,
+  "active_days": 10,
   "window_days": 30,
-  "rank_score": 865.3,
+  "rank_score": 868.7,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 1,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 4,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 565,
+  "rank": 294,
   "avatar_url": "https://avatars.githubusercontent.com/u/200087586?u=f82a2d2e104f31db70cadedc33b6f1bc2bb492c3&v=4",
   "bio": "Software Engineering Student | AI Systems & Agentic Workflows | Rust, Python & TypeScript",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.9,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "prev_rank": 565,
+  "prev_score": 865.3,
+  "rank_delta": 271,
+  "score_delta": 3.4,
   "counted_merges": [
     {
       "repo": "DuongNAD/OxideSwarm",
@@ -44,7 +48,7 @@
     },
     {
       "repo": "DuongNAD/Anima-Engine",
-      "prs": 2
+      "prs": 3
     }
   ],
   "history": [
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 565,
       "s": 865.3
+    },
+    {
+      "d": "2026-11-24",
+      "r": 294,
+      "s": 868.7
     }
   ]
 }

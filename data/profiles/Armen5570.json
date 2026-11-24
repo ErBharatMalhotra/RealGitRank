@@ -3,21 +3,21 @@
   "country": "",
   "primary_language": "JavaScript",
   "total_pushes": 18,
-  "merged_prs": 9,
-  "s_pr": 99.55,
+  "merged_prs": 7,
+  "s_pr": 99.28,
   "s_quality": 50.0,
-  "s_impact": 99.85,
-  "s_consistency": 99.26,
+  "s_impact": 99.84,
+  "s_consistency": 98.55,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 10,
+  "active_days": 9,
   "window_days": 30,
-  "rank_score": 872.0,
-  "active_repos_touched": 18,
+  "rank_score": 869.9,
+  "active_repos_touched": 17,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 60,
+  "rank": 211,
   "avatar_url": "https://avatars.githubusercontent.com/u/286051936?u=774f0789eb77522165bde760f5b6c14b20ffe0b1&v=4",
   "bio": "",
   "company": "",
   "location": "Armenia",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.9,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 60,
+  "prev_score": 872.0,
+  "rank_delta": -151,
+  "score_delta": -2.1,
   "counted_merges": [
     {
       "repo": "Armen5570/pullshark",
@@ -49,14 +53,6 @@
     {
       "repo": "Armen5570/T3",
       "prs": 2
-    },
-    {
-      "repo": "Armen5570/test10",
-      "prs": 1
-    },
-    {
-      "repo": "Armen5570/test9",
-      "prs": 1
     }
   ],
   "history": [
@@ -64,6 +60,11 @@
       "d": "2026-11-23",
       "r": 60,
       "s": 872.0
+    },
+    {
+      "d": "2026-11-24",
+      "r": 211,
+      "s": 869.9
     }
   ]
 }

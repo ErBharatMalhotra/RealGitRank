@@ -1,0 +1,65 @@
+{
+  "username": "parime",
+  "country": "France",
+  "primary_language": "PHP",
+  "total_pushes": 52,
+  "merged_prs": 11,
+  "s_pr": 99.68,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 99.13,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 870.3,
+  "active_repos_touched": 10,
+  "pr_reviews": 0,
+  "issue_comments": 6,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 6,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 178,
+  "avatar_url": "https://avatars.githubusercontent.com/u/80900142?v=4",
+  "bio": "Administrateur syst\u00e8mes, r\u00e9seaux et s\u00e9curit\u00e9, avec 7 ans d'exp\u00e9rience dans la construction et l'\u00e9volution du SI d'une structure de 400+ collaborateurs r\u00e9partis ",
+  "company": "",
+  "location": "France",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "parime/glpi-iso27001-management",
+      "prs": 8
+    },
+    {
+      "repo": "parime/Configuration-glpi-auto",
+      "prs": 1
+    },
+    {
+      "repo": "parime/assetsign-glpi",
+      "prs": 1
+    },
+    {
+      "repo": "parime/glpi-docker-inventory",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 178,
+      "s": 870.3
+    }
+  ]
+}

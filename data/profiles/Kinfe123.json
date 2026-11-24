@@ -2,12 +2,12 @@
   "username": "Kinfe123",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 21,
+  "total_pushes": 19,
   "merged_prs": 14,
-  "s_pr": 99.91,
+  "s_pr": 99.9,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.16,
+  "s_impact": 99.11,
+  "s_consistency": 98.76,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,35 +16,39 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 869.7,
-  "active_repos_touched": 13,
-  "pr_reviews": 2,
+  "rank_score": 870.6,
+  "active_repos_touched": 11,
+  "pr_reviews": 1,
   "issue_comments": 1,
   "releases": 1,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 248,
+  "rank": 159,
   "avatar_url": "https://avatars.githubusercontent.com/u/65047246?u=bb589ef587338d377ab2d83742c45a53f5cfd650&v=4",
   "bio": "maintainer @better-auth ",
   "company": "@better-auth",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.5,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 248,
+  "prev_score": 869.7,
+  "rank_delta": 89,
+  "score_delta": 0.9,
   "counted_merges": [
     {
       "repo": "farming-labs/farm.js",
-      "prs": 7
+      "prs": 6
     },
     {
       "repo": "farming-labs/docs",
-      "prs": 3
+      "prs": 4
     },
     {
       "repo": "assistant-ui/streamfold",
@@ -64,6 +68,11 @@
       "d": "2026-11-23",
       "r": 248,
       "s": 869.7
+    },
+    {
+      "d": "2026-11-24",
+      "r": 159,
+      "s": 870.6
     }
   ]
 }

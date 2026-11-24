@@ -2,12 +2,12 @@
   "username": "ChiefGyk3D",
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 38,
-  "merged_prs": 11,
-  "s_pr": 99.7,
+  "total_pushes": 36,
+  "merged_prs": 10,
+  "s_pr": 99.65,
   "s_quality": 50.0,
   "s_impact": 99.97,
-  "s_consistency": 98.32,
+  "s_consistency": 98.87,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,38 +16,42 @@
   },
   "active_days": 19,
   "window_days": 30,
-  "rank_score": 871.4,
+  "rank_score": 872.0,
   "active_repos_touched": 29,
   "pr_reviews": 3,
   "issue_comments": 6,
   "releases": 0,
-  "stars_fraud_filtered": 27,
+  "stars_fraud_filtered": 34,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 107,
+  "rank": 74,
   "avatar_url": "https://avatars.githubusercontent.com/u/19499446?u=ddc75e585c376de971aa956656e9f4f532edc0ed&v=4",
   "bio": "Cybersecurity and InfoSec by Trade and content creator by night for Tech, Cybersecurity, IT, Linux, Amateur Radio, and Gaming | Twitch | YT | Kick | TikTok",
   "company": "",
   "location": "State of Denial",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.8,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 107,
+  "prev_score": 871.4,
+  "rank_delta": 33,
+  "score_delta": 0.6,
   "counted_merges": [
-    {
-      "repo": "ChiefGyk3D/Reach-Around",
-      "prs": 2
-    },
     {
       "repo": "ChiefGyk3D/siem-docker-stack",
       "prs": 2
     },
     {
       "repo": "ChiefGyk3D/Clouds-Against-Humanity",
+      "prs": 1
+    },
+    {
+      "repo": "ChiefGyk3D/Reach-Around",
       "prs": 1
     },
     {
@@ -80,6 +84,11 @@
       "d": "2026-11-23",
       "r": 107,
       "s": 871.4
+    },
+    {
+      "d": "2026-11-24",
+      "r": 74,
+      "s": 872.0
     }
   ]
 }

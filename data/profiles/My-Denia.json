@@ -2,21 +2,21 @@
   "username": "My-Denia",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 17,
+  "total_pushes": 2,
   "merged_prs": 7,
-  "s_pr": 99.31,
+  "s_pr": 99.28,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 96.43,
+  "s_impact": 99.11,
+  "s_consistency": 97.64,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 7,
+  "active_days": 6,
   "window_days": 30,
-  "rank_score": 865.1,
+  "rank_score": 866.7,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 580,
+  "rank": 449,
   "avatar_url": "https://avatars.githubusercontent.com/u/176143450?u=50df6c57003ddba58ba2307160d97556ca765d7b&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.8,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "prev_rank": 580,
+  "prev_score": 865.1,
+  "rank_delta": 131,
+  "score_delta": 1.6,
   "counted_merges": [
     {
       "repo": "My-Denia/WuwaTerm",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 580,
       "s": 865.1
+    },
+    {
+      "d": "2026-11-24",
+      "r": 449,
+      "s": 866.7
     }
   ]
 }

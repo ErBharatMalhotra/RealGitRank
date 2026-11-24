@@ -1,0 +1,53 @@
+{
+  "username": "Nynxz",
+  "country": "United States",
+  "primary_language": "Python",
+  "total_pushes": 3,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 99.82,
+  "s_consistency": 97.56,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 861.3,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 756,
+  "avatar_url": "https://avatars.githubusercontent.com/u/60878743?u=bbbefb01cf835e8fbbd33a54ec8a5c49ba0554c2&v=4",
+  "bio": "I am looking for work! :heart_hands: ",
+  "company": "",
+  "location": "Australia, Queensland",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Nynxz/ZenTrainer",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 756,
+      "s": 861.3
+    }
+  ]
+}

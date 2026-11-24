@@ -2,12 +2,12 @@
   "username": "ImranR98",
   "country": "Canada",
   "primary_language": "Dart",
-  "total_pushes": 17,
-  "merged_prs": 3,
-  "s_pr": 97.36,
+  "total_pushes": 15,
+  "merged_prs": 4,
+  "s_pr": 98.23,
   "s_quality": 50.0,
-  "s_impact": 99.97,
-  "s_consistency": 98.28,
+  "s_impact": 99.96,
+  "s_consistency": 98.8,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,31 +16,35 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 863.1,
+  "rank_score": 866.9,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
-  "stars_fraud_filtered": 12,
+  "stars_fraud_filtered": 11,
   "forks_fraud_filtered": 3,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 704,
+  "rank": 438,
   "avatar_url": "https://avatars.githubusercontent.com/u/30463115?u=4d811189d8c9676731d1084fec433d10ba3b5ac2&v=4",
   "bio": "Software Engineer (DevOps & Backend)",
   "company": "Texas Instruments Canada",
   "location": "Toronto",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.6,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "prev_rank": 704,
+  "prev_score": 863.1,
+  "rank_delta": 266,
+  "score_delta": 3.8,
   "counted_merges": [
     {
       "repo": "ImranR98/Infra",
-      "prs": 2
+      "prs": 3
     },
     {
       "repo": "ImranR98/PixelNtfy",
@@ -52,6 +56,11 @@
       "d": "2026-11-23",
       "r": 704,
       "s": 863.1
+    },
+    {
+      "d": "2026-11-24",
+      "r": 438,
+      "s": 866.9
     }
   ]
 }

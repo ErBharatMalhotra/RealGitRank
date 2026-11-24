@@ -2,12 +2,12 @@
   "username": "arul28",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 19,
-  "merged_prs": 11,
-  "s_pr": 99.69,
+  "total_pushes": 18,
+  "merged_prs": 12,
+  "s_pr": 99.72,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.4,
+  "s_impact": 99.11,
+  "s_consistency": 98.92,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,31 +16,35 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 869.3,
+  "rank_score": 870.2,
   "active_repos_touched": 1,
-  "pr_reviews": 26,
+  "pr_reviews": 27,
   "issue_comments": 2,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 274,
+  "rank": 185,
   "avatar_url": "https://avatars.githubusercontent.com/u/31745423?u=c55a5cac6049d444532681e18e4881106b13c8dc&v=4",
   "bio": "Building Versic and ADE",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.5,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 274,
+  "prev_score": 869.3,
+  "rank_delta": 89,
+  "score_delta": 0.9,
   "counted_merges": [
     {
       "repo": "arul28/ADE",
-      "prs": 11
+      "prs": 12
     }
   ],
   "history": [
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 274,
       "s": 869.3
+    },
+    {
+      "d": "2026-11-24",
+      "r": 185,
+      "s": 870.2
     }
   ]
 }

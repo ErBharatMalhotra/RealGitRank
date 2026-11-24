@@ -2,21 +2,21 @@
   "username": "lynnswap",
   "country": "Japan",
   "primary_language": "Swift",
-  "total_pushes": 15,
-  "merged_prs": 5,
-  "s_pr": 98.86,
+  "total_pushes": 14,
+  "merged_prs": 4,
+  "s_pr": 98.23,
   "s_quality": 50.0,
-  "s_impact": 99.72,
-  "s_consistency": 98.95,
+  "s_impact": 99.71,
+  "s_consistency": 98.42,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 11,
+  "active_days": 10,
   "window_days": 30,
-  "rank_score": 868.7,
+  "rank_score": 865.7,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,20 +27,24 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 332,
+  "rank": 523,
   "avatar_url": "https://avatars.githubusercontent.com/u/65545348?u=58e545eff3a11cd6dce9fd1e5f4d8a108ac53247&v=4",
   "bio": "Powered by Swift",
   "company": "",
   "location": "Japan",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.3,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 332,
+  "prev_score": 868.7,
+  "rank_delta": -191,
+  "score_delta": -3.0,
   "counted_merges": [
     {
       "repo": "lynnswap/NeoSimulator",
-      "prs": 3
+      "prs": 2
     },
     {
       "repo": "lynnswap/TabBarMenu",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 332,
       "s": 868.7
+    },
+    {
+      "d": "2026-11-24",
+      "r": 523,
+      "s": 865.7
     }
   ]
 }

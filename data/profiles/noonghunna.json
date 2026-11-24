@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 4,
   "merged_prs": 4,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 97.4,
+  "s_impact": 99.11,
+  "s_consistency": 96.79,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 863.0,
+  "rank_score": 861.8,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 708,
+  "rank": 731,
   "avatar_url": "https://avatars.githubusercontent.com/u/10742901?u=0648adc6aebfaf05f1d2a2ebd865fdf4d8caa61d&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.6,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 708,
+  "prev_score": 863.0,
+  "rank_delta": -23,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "noonghunna/club-3090",
@@ -48,6 +52,11 @@
       "d": "2026-11-23",
       "r": 708,
       "s": 863.0
+    },
+    {
+      "d": "2026-11-24",
+      "r": 731,
+      "s": 861.8
     }
   ]
 }

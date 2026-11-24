@@ -2,12 +2,12 @@
   "username": "hyperpolymath",
   "country": "United Kingdom",
   "primary_language": "Rust",
-  "total_pushes": 109,
-  "merged_prs": 34,
+  "total_pushes": 102,
+  "merged_prs": 30,
   "s_pr": 99.97,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 98.72,
+  "s_impact": 99.11,
+  "s_consistency": 99.08,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,27 +16,31 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 870.8,
-  "active_repos_touched": 129,
-  "pr_reviews": 65,
+  "rank_score": 871.3,
+  "active_repos_touched": 127,
+  "pr_reviews": 66,
   "issue_comments": 11,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 150,
+  "rank": 104,
   "avatar_url": "https://avatars.githubusercontent.com/u/6759885?u=271d5cd7dfc157c1805658db5c85e29b0bad29ff&v=4",
   "bio": "NUJ NEC | Open University | Formal Verification, Language Design, Dependable.& Distributed Safety-Critical Systems | Available for collaborations.",
   "company": "The Open University & National Union of Journalists",
   "location": "London, United Kingdom",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.7,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 150,
+  "prev_score": 870.8,
+  "rank_delta": 46,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "hyperpolymath/gitbot-fleet",
@@ -55,10 +59,6 @@
       "prs": 2
     },
     {
-      "repo": "catachresis-colloquium/befunge93-vault-cracker",
-      "prs": 1
-    },
-    {
       "repo": "catachresis-colloquium/megadog",
       "prs": 1
     },
@@ -71,11 +71,15 @@
       "prs": 1
     },
     {
-      "repo": "hyperpolymath/JuliaKids.jl",
+      "repo": "hyperpolymath/Protoctist.jl",
       "prs": 1
     },
     {
-      "repo": "hyperpolymath/MetaManifold-WebUI",
+      "repo": "hyperpolymath/affinescript",
+      "prs": 1
+    },
+    {
+      "repo": "hyperpolymath/affinescript-vite",
       "prs": 1
     }
   ],
@@ -84,6 +88,11 @@
       "d": "2026-11-23",
       "r": 150,
       "s": 870.8
+    },
+    {
+      "d": "2026-11-24",
+      "r": 104,
+      "s": 871.3
     }
   ]
 }

@@ -3,11 +3,11 @@
   "country": "France",
   "primary_language": "Python",
   "total_pushes": 13,
-  "merged_prs": 11,
-  "s_pr": 99.8,
+  "merged_prs": 12,
+  "s_pr": 99.84,
   "s_quality": 50.0,
   "s_impact": 99.98,
-  "s_consistency": 98.65,
+  "s_consistency": 99.06,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,27 +16,31 @@
   },
   "active_days": 23,
   "window_days": 30,
-  "rank_score": 872.2,
+  "rank_score": 873.0,
   "active_repos_touched": 20,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 0,
-  "stars_fraud_filtered": 48,
+  "stars_fraud_filtered": 37,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 54,
+  "rank": 30,
   "avatar_url": "https://avatars.githubusercontent.com/u/3288457?u=a6493eedf171bb49cdff32c07991c31d70926ab7&v=4",
   "bio": "Agentic AI & Security Engineer, Paris. Tools and guides for AI coding agents: claude-howto, asm, IDD. Learn, build, share, connect.",
   "company": "https://montimage.com",
   "location": "Paris, France",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.9,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 54,
+  "prev_score": 872.2,
+  "rank_delta": 24,
+  "score_delta": 0.8,
   "counted_merges": [
     {
       "repo": "Montimage/mmt-plugin-generator",
@@ -55,15 +59,15 @@
       "prs": 2
     },
     {
+      "repo": "montimage-projects/mmt-security",
+      "prs": 2
+    },
+    {
       "repo": "luongnv89/herdr-github",
       "prs": 1
     },
     {
       "repo": "montimage-projects/cyberlab",
-      "prs": 1
-    },
-    {
-      "repo": "montimage-projects/mmt-security",
       "prs": 1
     }
   ],
@@ -72,6 +76,11 @@
       "d": "2026-11-23",
       "r": 54,
       "s": 872.2
+    },
+    {
+      "d": "2026-11-24",
+      "r": 30,
+      "s": 873.0
     }
   ]
 }

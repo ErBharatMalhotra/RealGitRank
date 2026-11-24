@@ -2,12 +2,12 @@
   "username": "tamnd",
   "country": "Vietnam",
   "primary_language": "Go",
-  "total_pushes": 121,
-  "merged_prs": 71,
+  "total_pushes": 109,
+  "merged_prs": 74,
   "s_pr": 99.99,
   "s_quality": 50.0,
-  "s_impact": 99.87,
-  "s_consistency": 98.83,
+  "s_impact": 99.89,
+  "s_consistency": 99.19,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,31 +16,39 @@
   },
   "active_days": 29,
   "window_days": 30,
-  "rank_score": 872.9,
-  "active_repos_touched": 30,
+  "rank_score": 873.5,
+  "active_repos_touched": 32,
   "pr_reviews": 0,
   "issue_comments": 50,
   "releases": 11,
-  "stars_fraud_filtered": 4,
+  "stars_fraud_filtered": 5,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 8,
+  "rank": 9,
   "avatar_url": "https://avatars.githubusercontent.com/u/1218621?v=4",
   "bio": "",
   "company": "",
   "location": "Ho Chi Minh City, Vietnam",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
   "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 8,
+  "prev_score": 872.9,
+  "rank_delta": -1,
+  "score_delta": 0.6,
   "counted_merges": [
     {
       "repo": "tamnd/rupg",
       "prs": 11
+    },
+    {
+      "repo": "tamnd/algorithm",
+      "prs": 8
     },
     {
       "repo": "tamnd/programming",
@@ -49,10 +57,6 @@
     {
       "repo": "tamnd/rukernel",
       "prs": 8
-    },
-    {
-      "repo": "tamnd/algorithm",
-      "prs": 7
     },
     {
       "repo": "tamnd/math2",
@@ -84,6 +88,11 @@
       "d": "2026-11-23",
       "r": 8,
       "s": 872.9
+    },
+    {
+      "d": "2026-11-24",
+      "r": 9,
+      "s": 873.5
     }
   ]
 }

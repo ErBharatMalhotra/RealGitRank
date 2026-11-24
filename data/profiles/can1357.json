@@ -4,10 +4,10 @@
   "primary_language": "TypeScript",
   "total_pushes": 4,
   "merged_prs": 3,
-  "s_pr": 98.3,
+  "s_pr": 98.23,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 98.3,
+  "s_consistency": 98.83,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,27 +16,31 @@
   },
   "active_days": 23,
   "window_days": 30,
-  "rank_score": 866.5,
+  "rank_score": 867.0,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 0,
-  "stars_fraud_filtered": 38,
+  "stars_fraud_filtered": 37,
   "forks_fraud_filtered": 7,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 497,
+  "rank": 430,
   "avatar_url": "https://avatars.githubusercontent.com/u/11807264?u=c100abe2f20b2a11460804a1651047a5450e2a0e&v=4",
   "bio": "Security researcher and reverse engineer. \r\n\r\nInterested in Windows kernel development, low-level programming, static program analysis and cryptography.",
   "company": "",
   "location": "The Netherlands",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.0,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 497,
+  "prev_score": 866.5,
+  "rank_delta": 67,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "can1357/oh-my-pi",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 497,
       "s": 866.5
+    },
+    {
+      "d": "2026-11-24",
+      "r": 430,
+      "s": 867.0
     }
   ]
 }

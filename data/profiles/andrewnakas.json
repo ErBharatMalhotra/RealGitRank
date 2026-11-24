@@ -2,12 +2,12 @@
   "username": "andrewnakas",
   "country": "",
   "primary_language": "C++",
-  "total_pushes": 24,
-  "merged_prs": 30,
-  "s_pr": 99.95,
+  "total_pushes": 25,
+  "merged_prs": 26,
+  "s_pr": 99.94,
   "s_quality": 50.0,
-  "s_impact": 99.91,
-  "s_consistency": 98.71,
+  "s_impact": 99.9,
+  "s_consistency": 99.0,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,31 +16,35 @@
   },
   "active_days": 25,
   "window_days": 30,
-  "rank_score": 872.7,
-  "active_repos_touched": 6,
+  "rank_score": 873.0,
+  "active_repos_touched": 7,
   "pr_reviews": 0,
-  "issue_comments": 2,
+  "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 4,
   "forks_fraud_filtered": 2,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 6,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 17,
+  "rank": 27,
   "avatar_url": "https://avatars.githubusercontent.com/u/7544678?u=fd0599106cc54910cd6a0ae3fa226a79859e59d9&v=4",
   "bio": "Building stuff",
   "company": "",
   "location": "bozeman mt",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
   "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 17,
+  "prev_score": 872.7,
+  "rank_delta": -10,
+  "score_delta": 0.3,
   "counted_merges": [
     {
       "repo": "andrewnakas/powderbench",
-      "prs": 15
+      "prs": 14
     },
     {
       "repo": "andrewnakas/thug-decomp",
@@ -49,10 +53,6 @@
     {
       "repo": "andrewnakas/jsrf-decomp",
       "prs": 5
-    },
-    {
-      "repo": "andrewnakas/thps64",
-      "prs": 3
     }
   ],
   "history": [
@@ -60,6 +60,11 @@
       "d": "2026-11-23",
       "r": 17,
       "s": 872.7
+    },
+    {
+      "d": "2026-11-24",
+      "r": 27,
+      "s": 873.0
     }
   ]
 }

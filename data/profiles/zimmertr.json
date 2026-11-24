@@ -6,8 +6,8 @@
   "merged_prs": 17,
   "s_pr": 99.86,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 95.52,
+  "s_impact": 99.11,
+  "s_consistency": 94.78,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 865.6,
+  "rank_score": 864.5,
   "active_repos_touched": 15,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 548,
+  "rank": 596,
   "avatar_url": "https://avatars.githubusercontent.com/u/4356289?u=3588e8f056475ce5483f5227fbf4705946fc02c8&v=4",
   "bio": "Mountains, Cats, and Computers",
   "company": "",
   "location": "Issaquah, Washington",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 98.9,
-  "tier": "Diamond",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "prev_rank": 548,
+  "prev_score": 865.6,
+  "rank_delta": -48,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "zimmertr/Kubernetes-Manifests",
@@ -76,6 +80,11 @@
       "d": "2026-11-23",
       "r": 548,
       "s": 865.6
+    },
+    {
+      "d": "2026-11-24",
+      "r": 596,
+      "s": 864.5
     }
   ]
 }

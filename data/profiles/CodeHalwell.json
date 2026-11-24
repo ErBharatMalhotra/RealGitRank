@@ -1,0 +1,61 @@
+{
+  "username": "CodeHalwell",
+  "country": "United Kingdom",
+  "primary_language": "Jupyter Notebook",
+  "total_pushes": 12,
+  "merged_prs": 3,
+  "s_pr": 97.26,
+  "s_quality": 50.0,
+  "s_impact": 99.11,
+  "s_consistency": 97.8,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 859.9,
+  "active_repos_touched": 5,
+  "pr_reviews": 3,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 834,
+  "avatar_url": "https://avatars.githubusercontent.com/u/120649965?u=a303ff5b700a7bd04916138e312204dfdbc62595&v=4",
+  "bio": "Analytical Chemist \u2014> Data Scientist / AI Engineer and Developer. When I\u2019m not coding, I dream about coding ",
+  "company": "Synextra",
+  "location": "North West UK",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "CodeHalwell/ADAPT-Agent",
+      "prs": 1
+    },
+    {
+      "repo": "CodeHalwell/AgentGuides",
+      "prs": 1
+    },
+    {
+      "repo": "CodeHalwell/bessemer",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-24",
+      "r": 834,
+      "s": 859.9
+    }
+  ]
+}

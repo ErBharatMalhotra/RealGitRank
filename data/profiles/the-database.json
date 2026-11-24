@@ -2,22 +2,22 @@
   "username": "the-database",
   "country": "",
   "primary_language": "C#",
-  "total_pushes": 5,
+  "total_pushes": 4,
   "merged_prs": 5,
-  "s_pr": 98.86,
+  "s_pr": 98.82,
   "s_quality": 50.0,
-  "s_impact": 99.13,
-  "s_consistency": 99.19,
+  "s_impact": 99.11,
+  "s_consistency": 98.51,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 7,
   "window_days": 30,
-  "rank_score": 867.6,
-  "active_repos_touched": 6,
+  "rank_score": 866.4,
+  "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 0,
@@ -27,16 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 409,
+  "rank": 480,
   "avatar_url": "https://avatars.githubusercontent.com/u/25811902?u=d2263328e852345e06b43209ea1b1f801530af29&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.2,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 409,
+  "prev_score": 867.6,
+  "rank_delta": -71,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "the-database/MangaJaNaiCLI",
@@ -56,6 +60,11 @@
       "d": "2026-11-23",
       "r": 409,
       "s": 867.6
+    },
+    {
+      "d": "2026-11-24",
+      "r": 480,
+      "s": 866.4
     }
   ]
 }

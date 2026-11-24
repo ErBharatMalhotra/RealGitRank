@@ -4,10 +4,10 @@
   "primary_language": "Python",
   "total_pushes": 3,
   "merged_prs": 8,
-  "s_pr": 99.47,
+  "s_pr": 99.45,
   "s_quality": 50.0,
-  "s_impact": 99.77,
-  "s_consistency": 96.05,
+  "s_impact": 99.76,
+  "s_consistency": 95.33,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +16,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 866.6,
+  "rank_score": 865.5,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,20 +27,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 488,
+  "rank": 538,
   "avatar_url": "https://avatars.githubusercontent.com/u/82093548?u=e53b38becf15aa0996e5a4749e8f8d61151aa032&v=4",
   "bio": "",
   "company": "",
   "location": "Paris - France",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-24",
-  "window_end": "2026-11-22",
-  "percentile": 99.0,
+  "window_start": "2026-10-25",
+  "window_end": "2026-11-23",
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 907,
-  "prev_score": 60.3,
-  "rank_delta": 419,
-  "score_delta": 806.3,
+  "prev_rank": 488,
+  "prev_score": 866.6,
+  "rank_delta": -50,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "CroqueMr/CB1",
@@ -76,6 +76,11 @@
       "d": "2026-11-23",
       "r": 488,
       "s": 866.6
+    },
+    {
+      "d": "2026-11-24",
+      "r": 538,
+      "s": 865.5
     }
   ]
 }
