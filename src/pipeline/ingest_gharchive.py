@@ -100,6 +100,7 @@ def new_user(login):
         "multi_file_prs": 0,
         "test_hits": 0,
         "evidence": 0,
+        "extra_messages": 0,
         "org": "",
         "pr_reviews": 0,
         "issue_comments": 0,
@@ -253,7 +254,9 @@ def build_rows(agg):
             "closed_issues": d["closed_issues"],
             "active_repos_touched": repos if repos > 0 else 1,
             # NaN = no commit messages observed in this feed, so entropy is unknown
-            "unique_commit_messages": len(d["commit_msgs"]) if d["commit_msgs"] else float("nan"),
+            "unique_commit_messages": (
+                len(d["commit_msgs"]) + int(d.get("extra_messages") or 0)
+            ) or float("nan"),
             "distinct_active_hours": len(set(hours)) if hours else 1,
             "avg_files_changed": (sum(files) / len(files)) if files else float("nan"),
             "push_hour_stddev": pstdev(hours) if len(hours) > 1 else float("nan"),
@@ -294,6 +297,28 @@ def read_events(path):
                 continue
 
 
+def attribute_bot_pushes(target_date, agg, stats):
+    """Optional BigQuery pass: credit commits that a bot pushed to their authors.
+
+    Without credentials (or on any BigQuery failure) this is a no-op, so the free
+    gharchive shard is written exactly as before.
+    """
+    try:
+        from ingest_bigquery import augment_agg
+    except ImportError:
+        return None
+    summary = augment_agg(target_date, agg)
+    if not summary:
+        return None
+    stats["attributed_pushes"] = summary["pushes"]
+    stats["attributed_authors"] = summary["authors"]
+    print(
+        f"BigQuery attribution: {summary['pushes']} bot-pushed commit sets credited "
+        f"to {summary['authors']} authors ({summary['messages']} messages)"
+    )
+    return summary
+
+
 def ingest_day(target_date, rolling_dir="data/rolling", write_raw=True):
     """Ingest one UTC day into a rolling shard. Returns the shard user count."""
     date_str = target_date.strftime("%Y-%m-%d")
@@ -319,6 +344,7 @@ def ingest_day(target_date, rolling_dir="data/rolling", write_raw=True):
         except Exception as e:
             print(f"  error processing {f}: {e}")
 
+    attribute_bot_pushes(target_date, agg, stats)
     print(f"Aggregated {len(agg)} users from {stats['events']} events "
           f"({stats['bot_events']} bot events skipped)")
     path, users = write_day_shard(date_str, agg, rolling_dir, stats=stats)

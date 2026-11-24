@@ -79,8 +79,9 @@ def write_day_shard(date_str, agg, rolling_dir=ROLLING_DIR, stats=None):
         if hours:
             record["h"] = hours
         messages = d.get("commit_msgs") or set()
-        if messages:
-            record["u"] = len(messages)
+        message_count = len(messages) + int(d.get("extra_messages") or 0)
+        if message_count:
+            record["u"] = message_count
         evidence = int(d.get("evidence") or 0)
         if evidence:
             record["th"] = int(d.get("test_hits") or 0)
@@ -107,6 +108,10 @@ def write_day_shard(date_str, agg, rolling_dir=ROLLING_DIR, stats=None):
             "bot_events": int(stats.get("bot_events") or 0),
             "hours": int(stats.get("hours") or 0),
         }
+        for key in ("attributed_pushes", "attributed_authors"):
+            value = int(stats.get(key) or 0)
+            if value:
+                payload["stats"][key] = value
     with gzip.open(path, "wt", encoding="utf-8") as f:
         json.dump(payload, f, separators=(",", ":"))
     return path, len(users)
@@ -115,7 +120,7 @@ def write_day_shard(date_str, agg, rolling_dir=ROLLING_DIR, stats=None):
 def window_source_stats(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
     """How much source activity the window actually contains (or None if unknown)."""
     dates = window_dates(end_date, days, rolling_dir)
-    events = bot_events = hours = 0
+    events = bot_events = hours = attributed = 0
     known_days = 0
     for date_str in dates:
         try:
@@ -130,9 +135,10 @@ def window_source_stats(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
         events += int(stats.get("events") or 0)
         bot_events += int(stats.get("bot_events") or 0)
         hours += int(stats.get("hours") or 0)
+        attributed += int(stats.get("attributed_pushes") or 0)
     if not known_days:
         return None
-    return {
+    source = {
         "days_measured": known_days,
         "days_in_window": len(dates),
         "hourly_files": hours,
@@ -141,6 +147,9 @@ def window_source_stats(end_date, days=WINDOW_DAYS, rolling_dir=ROLLING_DIR):
         "bot_share_pct": round(bot_events / events * 100.0, 1) if events else 0.0,
         "events_per_day": round(events / known_days, 0) if known_days else 0,
     }
+    if attributed:
+        source["attributed_pushes"] = attributed
+    return source
 
 
 def available_dates(rolling_dir=ROLLING_DIR):

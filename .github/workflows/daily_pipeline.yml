@@ -30,8 +30,11 @@ jobs:
       - name: Run pipeline (gharchive.org -> DuckDB -> snapshots)
         env:
           GH_ENRICH_TOKEN: ${{ secrets.GH_ENRICH_TOKEN }}
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
         run: python src/pipeline/run.py
-        # fallback chain handled inside run.py: BigQuery -> gharchive.org -> last snapshot
+        # gharchive.org is the source; BigQuery attribution is optional and only
+        # runs when GCP credentials are configured (see ingest_bigquery.py).
 
       - name: Data quality gates
         run: python src/pipeline/quality_gates.py

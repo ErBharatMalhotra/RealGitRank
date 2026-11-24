@@ -134,6 +134,9 @@ const pillars = [
                 <tr><td>Public events seen</td><td>{coverage.source.events.toLocaleString()}</td></tr>
                 <tr><td>Events per day (avg)</td><td>{coverage.source.events_per_day.toLocaleString()}</td></tr>
                 <tr><td>Bot events skipped</td><td>{coverage.source.bot_events.toLocaleString()} ({coverage.source.bot_share_pct}%)</td></tr>
+                {coverage.source.attributed_pushes ? (
+                  <tr><td>Bot-pushed commits credited to their authors (BigQuery)</td><td>{coverage.source.attributed_pushes.toLocaleString()}</td></tr>
+                ) : null}
               </tbody>
             </table>
           </>

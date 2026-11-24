@@ -1,25 +1,43 @@
--- RealGitRank daily ingest (GitHub Actions, 02:00 UTC)
--- Partition-pruned to ~2-4 GB/day. Free tier safe (~60-120 GB/month).
-DECLARE target_date DATE DEFAULT DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY);
+-- RealGitRank: author attribution for bot-pushed commits (optional, BigQuery).
+--
+-- gharchive.org trims PushEvent payloads, so a commit pushed by github-actions
+-- never reaches the person who wrote it. This query reads one date partition of
+-- githubarchive.day (full payloads) and returns per-author aggregates: how many
+-- of their pushes a bot made, plus their commit-message evidence. All the
+-- aggregation happens here, so only a few thousand rows are downloaded.
+--
+-- Cost: one partition-pruned day, a few GB scanned, free under the 1 TiB/month
+-- free tier. {payload} is replaced at run time by a JSON-string expression for
+-- whichever type the dataset uses for the payload column
+-- (see ingest_bigquery.payload_json_expression).
 
+WITH commits AS (
+  SELECT
+    actor.login AS actor_login,
+    repo.name AS repo_name,
+    created_at,
+    CONCAT(CAST(actor.id AS STRING), '|', repo.name, '|',
+           FORMAT_TIMESTAMP('%Y-%m-%dT%H:%M:%SZ', created_at)) AS push_key,
+    JSON_EXTRACT_SCALAR(commit_json, '$.author.username') AS author_login,
+    JSON_EXTRACT_SCALAR(commit_json, '$.message') AS message
+  FROM `githubarchive.day.*`,
+    UNNEST(JSON_EXTRACT_ARRAY({payload}, '$.commits')) AS commit_json
+  WHERE _TABLE_SUFFIX = @suffix
+    AND type = 'PushEvent'
+)
 SELECT
-    actor.login AS username,
-    COUNTIF(type = 'PushEvent') AS total_pushes,
-    COUNTIF(type = 'PullRequestEvent'
-            AND JSON_EXTRACT_SCALAR(payload, '$.action') = 'closed'
-            AND JSON_EXTRACT_SCALAR(payload, '$.pull_request.merged') = 'true') AS merged_prs,
-    COUNTIF(type = 'IssuesEvent' AND JSON_EXTRACT_SCALAR(payload, '$.action') = 'closed') AS closed_issues,
-    COUNT(DISTINCT repo.name) AS active_repos_touched,
-    COUNT(DISTINCT cm.message) AS unique_commit_messages,
-    COUNT(DISTINCT EXTRACT(HOUR FROM created_at)) AS distinct_active_hours,
-    STDDEV(EXTRACT(HOUR FROM created_at)) AS push_hour_stddev
-FROM `githubarchive.day.*`
-LEFT JOIN UNNEST(JSON_EXTRACT_ARRAY(payload, '$.commits')) AS c ON TRUE
-LEFT JOIN UNNEST([JSON_EXTRACT_SCALAR(c, '$.message')]) AS cm ON TRUE
-WHERE _TABLE_SUFFIX = FORMAT_DATE('%Y%m%d', target_date)
-  AND actor.login NOT LIKE '%[bot]'
-  AND actor.login NOT IN ('github-actions', 'dependabot', 'renovate[bot]')
-GROUP BY username
-HAVING total_pushes >= 5 OR merged_prs >= 1
-ORDER BY merged_prs DESC, total_pushes DESC
-LIMIT 200000;
+  author_login,
+  COUNT(DISTINCT push_key) AS pushes,
+  COUNT(DISTINCT IF(
+      REGEXP_CONTAINS(actor_login, r'\[bot\]$')
+      OR actor_login IN ('github-actions', 'dependabot', 'renovate'),
+      push_key, NULL)) AS bot_pushes,
+  COUNT(DISTINCT message) AS messages,
+  COUNT(*) AS commits,
+  COUNTIF(REGEXP_CONTAINS(LOWER(message),
+      r'test|spec|pytest|jest|unittest|e2e|coverage|fixture')) AS test_hits,
+  ARRAY_AGG(DISTINCT EXTRACT(HOUR FROM created_at)) AS hours,
+  ARRAY_AGG(DISTINCT repo_name LIMIT 20) AS repos
+FROM commits
+WHERE author_login IS NOT NULL AND author_login != ''
+GROUP BY author_login
