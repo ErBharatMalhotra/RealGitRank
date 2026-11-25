@@ -65,12 +65,17 @@
         <li>Find your username above (or open <code>/badges/?u=your-username</code> directly) and copy the markdown snippet.</li>
         <li>Paste it in your README. The badge image refreshes with every daily snapshot.</li>
       </ol>
-      <p class="note">Badge images are generated for the global top 1,000, so everyone else gets the neutral “Not Ranked” badge until they break into the top 1,000. The badge link always points at your profile page.</p>
+      <p class="note">You get a real score badge if you are on the board — the global top 1,000 is served as pre-built SVG, and every other listed developer is rendered on demand by the badge service. Only a username that is not in the latest snapshot shows the neutral “Not Found” badge. The badge link always points at your profile page.</p>
       <p class="note">Not on the leaderboard yet? <a href="/">Check the leaderboard</a> to see where you stand.</p>
     </div>
 
     <script is:inline>
       const CDN = 'https://realgitrank.bharatdn.com';
+      // On-demand badges for everyone outside the pre-built top 1,000.
+      const BADGE_SERVICE = 'https://realgitrank-badges-ganx3c.freebuff.site';
+      const badgeImage = (username, rank) => (rank && rank <= 1000
+        ? `${CDN}/badges/${encodeURIComponent(username)}.svg`
+        : `${BADGE_SERVICE}/badges/${encodeURIComponent(username)}.svg`);
       const input = document.getElementById('q');
       const results = document.getElementById('results');
       const hint = document.getElementById('hint');
@@ -118,8 +123,7 @@
       }
 
       function select(user) {
-        const hasBadge = user.rank <= BADGE_LIMIT;
-        const badgeUrl = `${CDN}/badges/${hasBadge ? encodeURIComponent(user.username) : 'default'}.svg`;
+        const badgeUrl = badgeImage(user.username, user.rank);
         const profileUrl = `${CDN}/profile/${encodeURIComponent(user.username)}`;
         const snippet = `[![RealGitRank](${badgeUrl})](${profileUrl})`;
         card.innerHTML = `
@@ -128,7 +132,7 @@
               <div class="who">${esc(user.username)}</div>
               <div class="meta">Global rank #${esc(user.rank)} · Score ${esc(user.rank_score)}</div>
             </div>
-            <div class="badge-preview"><img src="/badges/${encodeURIComponent(user.username)}.svg" alt="RealGitRank badge for ${esc(user.username)}" width="220" height="64" onerror="this.src='/badges/default.svg'" /></div>
+            <div class="badge-preview"><img src="${badgeImage(user.username, user.rank)}" alt="RealGitRank badge for ${esc(user.username)}" width="220" height="64" onerror="this.src='/badges/default.svg'" /></div>
             <label for="snippet">README markdown</label>
             <pre id="snippet">${esc(snippet)}</pre>
             <button class="copy" id="copy" type="button">Copy markdown</button>

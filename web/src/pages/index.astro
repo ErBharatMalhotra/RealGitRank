@@ -119,6 +119,14 @@
       const langSel = document.getElementById('lang');
       const stats = document.getElementById('stats');
       const loadmore = document.getElementById('loadmore');
+      // Pre-built SVGs exist for the top 1,000; the badge service renders the rest on demand.
+      const BADGE_SERVICE = 'https://realgitrank-badges-ganx3c.freebuff.site';
+      function badgeFor(username, rank) {
+        return rank && rank <= 1000
+          ? `/badges/${encodeURIComponent(username)}.svg`
+          : `${BADGE_SERVICE}/badges/${encodeURIComponent(username)}.svg`;
+      }
+
       const qres = document.getElementById('qres');
       let nameIndex = null;
       const bucketCache = new Map();
@@ -201,7 +209,7 @@
           <td>${u.country||'—'}</td>
           <td>${u.primary_language||'—'}</td>
           <td>${u.merged_prs}</td>
-          <td><img class="badge" src="/badges/${u.username}.svg" alt="badge" loading="lazy" onerror="this.src='/badges/default.svg'" /></td>`;
+          <td><img class="badge" src="${badgeFor(u.username, u.rank)}" alt="badge" loading="lazy" onerror="this.src='/badges/default.svg'" /></td>`;
         return tr;
       }
 

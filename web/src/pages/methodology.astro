@@ -203,7 +203,7 @@ const pillars = [
       <li><a class="endpoint" href="/data/search/e.json">/data/search/&lt;first-char&gt;.json</a> — <code>[username, rank, score]</code> for every listed developer whose name starts with that character; prefix search across the whole board loads one bucket.</li>
       <li><a class="endpoint" href="/data/search/names.json">/data/search/names.json</a> — rank-ordered <code>[username, rank]</code> for the top 50,000, so a search can match anywhere inside a name without shipping the full board.</li>
       <li><a class="endpoint" href="/data/coverage.json">/data/coverage.json</a> — measured/null counts for every pillar, bot evidence coverage, and the validation summary shown above.</li>
-      <li><a class="endpoint" href="/badges/default.svg">/badges/&lt;username&gt;.svg</a> — README badge; dedicated badges exist for the global top 1,000.</li>
+      <li><a class="endpoint" href="/badges/default.svg">/badges/&lt;username&gt;.svg</a> — README badge; dedicated files are pre-built for the global top 1,000, and every other listed developer is rendered on demand by the badge service at <a class="endpoint" href="https://realgitrank-badges-ganx3c.freebuff.site/">realgitrank-badges-ganx3c.freebuff.site/badges/&lt;username&gt;.svg</a>. A listed account with no public work in the window shows <code>LISTED</code> instead of a zero score, and an unknown username shows <code>NOT FOUND</code>.</li>
       <li><a class="endpoint" href="/llms.txt">/llms.txt</a> — a short plain-text guide for LLM and agent consumers.</li>
     </ul>
 

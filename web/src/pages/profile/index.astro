@@ -149,6 +149,14 @@
           <p class="muted" style="margin:10px 0 0;font-size:12px">Reported by the GitHub API. The Rank Score above only uses events published inside the 30-day window, so work pushed by a bot or kept private does not appear in it.</p></div>`;
       }
 
+      // Top 1,000 has a pre-built SVG; everyone else is rendered by the badge service.
+      const BADGE_SERVICE = 'https://realgitrank-badges-ganx3c.freebuff.site';
+      function badgeFor(username, rank) {
+        return rank && rank <= 1000
+          ? `/badges/${encodeURIComponent(username)}.svg`
+          : `${BADGE_SERVICE}/badges/${encodeURIComponent(username)}.svg`;
+      }
+
       function notRanked(username) {
         el.innerHTML = `<h1>${esc(username)}</h1>
           <p>Not ranked yet — this GitHub user hasn't shown up in a RealGitRank snapshot.</p>
@@ -161,7 +169,7 @@
           <p>${tierBadge(d)}</p>
           ${listedOnlyNote(d)}
           ${moveText(d)}
-          <img class="badge" src="/badges/${encodeURIComponent(d.username)}.svg" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
+          <img class="badge" src="${badgeFor(d.username, d.rank)}" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
           <div class="card">
             <div class="grid">
               <div class="stat"><div class="label">Rank Score</div><div class="val">${scoreCell(d)}</div></div>
@@ -177,7 +185,7 @@
           ${sparkBlock(d)}
           <div class="card">
             <h3>README Badge</h3>
-            <pre>[![RealGitRank](https://realgitrank.bharatdn.com/badges/${esc(d.username)}.svg)](https://realgitrank.bharatdn.com/profile/${esc(d.username)})</pre>
+            <pre>[![RealGitRank](${badgeFor(d.username, d.rank)})](https://realgitrank.bharatdn.com/profile/${esc(d.username)})</pre>
           </div>
           <p class="muted" style="font-size:13px">Ranked in today's snapshot. Detailed pillar breakdowns are generated for the top 1,000 developers.</p>
           <p class="muted" style="font-size:12px">An automated estimate from public GitHub events, not a statement of fact about a person. <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.</p>`;
