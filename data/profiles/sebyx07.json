@@ -3,22 +3,23 @@
   "country": "",
   "primary_language": "TypeScript",
   "total_pushes": 7,
-  "merged_prs": 6,
-  "s_pr": 99.6,
+  "merged_prs": 7,
+  "listed_only": false,
+  "s_pr": 99.55,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 97.77,
+  "s_impact": 99.02,
+  "s_consistency": 98.73,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 11,
+  "active_days": 12,
   "window_days": 30,
-  "rank_score": 868.1,
+  "rank_score": 869.1,
   "active_repos_touched": 15,
-  "pr_reviews": 1,
+  "pr_reviews": 5,
   "issue_comments": 2,
   "releases": 0,
   "stars_fraud_filtered": 1,
@@ -27,23 +28,27 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 358,
+  "rank": 191,
   "avatar_url": "https://avatars.githubusercontent.com/u/5052549?u=1624acf4929dbcb6fbffbb53b0c00458e5787d14&v=4",
   "bio": "on the road to 1M PRs merged per day",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 560,
-  "prev_score": 865.4,
-  "rank_delta": 202,
-  "score_delta": 2.7,
+  "prev_rank": 358,
+  "prev_score": 868.1,
+  "rank_delta": 167,
+  "score_delta": 1.0,
   "counted_merges": [
     {
       "repo": "developerz-ai/ultimate",
+      "prs": 2
+    },
+    {
+      "repo": "developerz-ai/wurk",
       "prs": 2
     },
     {
@@ -57,10 +62,6 @@
     {
       "repo": "developerz-ai/ui-debugger-mcp",
       "prs": 1
-    },
-    {
-      "repo": "developerz-ai/wurk",
-      "prs": 1
     }
   ],
   "history": [
@@ -73,6 +74,11 @@
       "d": "2026-11-24",
       "r": 358,
       "s": 868.1
+    },
+    {
+      "d": "2026-11-25",
+      "r": 191,
+      "s": 869.1
     }
   ]
 }

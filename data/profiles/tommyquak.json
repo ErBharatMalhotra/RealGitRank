@@ -1,0 +1,58 @@
+{
+  "username": "tommyquak",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 97.49,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 94.53,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 3,
+  "window_days": 30,
+  "rank_score": 855.5,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 892,
+  "avatar_url": "https://avatars.githubusercontent.com/u/20338303?u=9c1b5ae594e42b2f9aaf2e1da89e84cb40940fa9&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "tommyquak/GarugonsSpaceApps",
+      "prs": 2
+    },
+    {
+      "repo": "AY2627S1-CS2103T-T09-2/tp",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 892,
+      "s": 855.5
+    }
+  ]
+}

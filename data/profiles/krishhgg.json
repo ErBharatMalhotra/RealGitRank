@@ -1,0 +1,63 @@
+{
+  "username": "krishhgg",
+  "country": "United States",
+  "primary_language": "Python",
+  "total_pushes": 3,
+  "merged_prs": 4,
+  "listed_only": false,
+  "s_pr": 97.75,
+  "s_quality": 50.0,
+  "s_impact": 99.91,
+  "s_consistency": 98.23,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 864.2,
+  "active_repos_touched": 6,
+  "pr_reviews": 2,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 5,
+  "forks_fraud_filtered": 2,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 474,
+  "avatar_url": "https://avatars.githubusercontent.com/u/181051779?u=dc075a2a0008a846981c4773fa6a34c80d206ea7&v=4",
+  "bio": "",
+  "company": "rocketride.ai",
+  "location": "san francisco",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 2,
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "krishhgg/koi",
+      "prs": 2
+    },
+    {
+      "repo": "krishhgg/Insomnia",
+      "prs": 1
+    },
+    {
+      "repo": "krishhgg/coolmathsmash",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 474,
+      "s": 864.2
+    }
+  ]
+}

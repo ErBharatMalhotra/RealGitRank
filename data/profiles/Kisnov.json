@@ -4,10 +4,11 @@
   "primary_language": "Python",
   "total_pushes": 3,
   "merged_prs": 3,
-  "s_pr": 97.64,
+  "listed_only": false,
+  "s_pr": 96.51,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 96.72,
+  "s_impact": 99.02,
+  "s_consistency": 97.71,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 859.7,
+  "rank_score": 856.9,
   "active_repos_touched": 4,
   "pr_reviews": 3,
   "issue_comments": 1,
@@ -27,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 918,
+  "rank": 836,
   "avatar_url": "https://avatars.githubusercontent.com/u/196570696?u=77146b810a61909eb1754d7810261f0ae1052102&v=4",
   "bio": "",
   "company": "",
   "location": "Catalunya",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 918,
+  "prev_score": 859.7,
+  "rank_delta": 82,
+  "score_delta": -2.8,
   "counted_merges": [
     {
       "repo": "Kisnov/Suwayomi-Server",
@@ -56,6 +61,11 @@
       "d": "2026-11-24",
       "r": 918,
       "s": 859.7
+    },
+    {
+      "d": "2026-11-25",
+      "r": 836,
+      "s": 856.9
     }
   ]
 }

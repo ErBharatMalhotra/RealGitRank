@@ -1,0 +1,58 @@
+{
+  "username": "lijiaqi-AI-Product-Manager",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 3,
+  "merged_prs": 4,
+  "listed_only": false,
+  "s_pr": 97.75,
+  "s_quality": 50.0,
+  "s_impact": 99.91,
+  "s_consistency": 92.58,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 855.8,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 1,
+  "stars_fraud_filtered": 7,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 882,
+  "avatar_url": "https://avatars.githubusercontent.com/u/254705836?u=4e1b037ee43d8771595fb3cf9a9031526242d174&v=4",
+  "bio": "AI PM \u00b7 Xiamen University '29 \u00b7 Alibaba-Fliggy AI PM intern \u00b7 Incoming Lenovo Baiying \u00b7 Building useful AI products, agent tools & open-source data.",
+  "company": "@XiamenUniversity @Alibaba @Lenovo",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "lijiaqi-AI-Product-Manager/job_radar",
+      "prs": 3
+    },
+    {
+      "repo": "lijiaqi-AI-Product-Manager/dsh-agent-compare",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 882,
+      "s": 855.8
+    }
+  ]
+}

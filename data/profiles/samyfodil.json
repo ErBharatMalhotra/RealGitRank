@@ -4,10 +4,11 @@
   "primary_language": "Go",
   "total_pushes": 7,
   "merged_prs": 4,
-  "s_pr": 98.76,
+  "listed_only": false,
+  "s_pr": 98.19,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 97.43,
+  "s_impact": 99.51,
+  "s_consistency": 98.16,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 865.8,
+  "rank_score": 864.6,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 559,
+  "rank": 436,
   "avatar_url": "https://avatars.githubusercontent.com/u/76626119?u=db9fec29f17d24feb801583ed861d2eae443d4c7&v=4",
   "bio": "Founder of Taubyte",
   "company": "Taubyte",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 753,
-  "prev_score": 862.3,
-  "rank_delta": 194,
-  "score_delta": 3.5,
+  "prev_rank": 559,
+  "prev_score": 865.8,
+  "rank_delta": 123,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "samyfodil/musql",
@@ -61,6 +62,11 @@
       "d": "2026-11-24",
       "r": 559,
       "s": 865.8
+    },
+    {
+      "d": "2026-11-25",
+      "r": 436,
+      "s": 864.6
     }
   ]
 }

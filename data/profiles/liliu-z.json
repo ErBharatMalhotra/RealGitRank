@@ -1,0 +1,54 @@
+{
+  "username": "liliu-z",
+  "country": "",
+  "primary_language": "Go",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 98.19,
+  "s_quality": 50.0,
+  "s_impact": 99.78,
+  "s_consistency": 91.36,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 855.1,
+  "active_repos_touched": 2,
+  "pr_reviews": 1,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 5,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 904,
+  "avatar_url": "https://avatars.githubusercontent.com/u/105927039?u=23c5bb4ef3f9b4b92ec2a73c64f7c70ccf7aa97a&v=4",
+  "bio": "",
+  "company": "zilliz",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "milvus-io/milvus",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 904,
+      "s": 855.1
+    }
+  ]
+}

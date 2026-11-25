@@ -1,0 +1,82 @@
+{
+  "username": "dhaupin",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 1,
+  "merged_prs": 8,
+  "listed_only": false,
+  "s_pr": 99.3,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 89.1,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 853.8,
+  "active_repos_touched": 9,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 959,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6352930?u=191d2f089e7e44423640cfda7249281e2787c93f&v=4",
+  "bio": "Hi. I make web, app, ecom, enterprise, agent, and orchestration things. Let me know if I can help with your next project. \ud83e\udd1d Part of the Creadev.org team.",
+  "company": "Creadev.org",
+  "location": "NW PA",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 4,
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "dhaupin/eyestruct",
+      "prs": 2
+    },
+    {
+      "repo": "dhaupin/crashtest",
+      "prs": 1
+    },
+    {
+      "repo": "dhaupin/gistory",
+      "prs": 1
+    },
+    {
+      "repo": "dhaupin/govstruct",
+      "prs": 1
+    },
+    {
+      "repo": "dhaupin/monoforge",
+      "prs": 1
+    },
+    {
+      "repo": "dhaupin/synmergia",
+      "prs": 1
+    },
+    {
+      "repo": "dhaupin/vant",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 959,
+      "s": 853.8
+    }
+  ],
+  "followers": 7,
+  "commits_1y": 8372,
+  "repos_total": 39
+}

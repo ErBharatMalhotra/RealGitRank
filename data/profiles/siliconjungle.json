@@ -1,0 +1,54 @@
+{
+  "username": "siliconjungle",
+  "country": "United States",
+  "primary_language": "JavaScript",
+  "total_pushes": 18,
+  "merged_prs": 8,
+  "listed_only": false,
+  "s_pr": 99.3,
+  "s_quality": 50.0,
+  "s_impact": 99.96,
+  "s_consistency": 90.73,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 858.6,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 14,
+  "forks_fraud_filtered": 3,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 753,
+  "avatar_url": "https://avatars.githubusercontent.com/u/71357672?u=18bc36a235e52a2596efcff661166fabff21212e&v=4",
+  "bio": "\ud83e\udd16\ud83c\udf43\ud83d\udc35 Navigating time & space.\r\n@latitudeai ex @githubnext, @replit, @tldraw",
+  "company": "",
+  "location": "Sydney, Australia",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "siliconjungle/shapeshift-labs-ink-studio",
+      "prs": 8
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 753,
+      "s": 858.6
+    }
+  ]
+}

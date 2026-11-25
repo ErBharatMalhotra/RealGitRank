@@ -2,53 +2,50 @@
   "username": "avivsinai",
   "country": "",
   "primary_language": "Go",
-  "total_pushes": 34,
-  "merged_prs": 8,
-  "s_pr": 99.53,
+  "total_pushes": 7,
+  "merged_prs": 6,
+  "listed_only": false,
+  "s_pr": 98.84,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 99.16,
+  "s_impact": 99.02,
+  "s_consistency": 98.73,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 11,
+  "active_days": 10,
   "window_days": 30,
-  "rank_score": 869.9,
-  "active_repos_touched": 13,
+  "rank_score": 866.6,
+  "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 207,
+  "rank": 312,
   "avatar_url": "https://avatars.githubusercontent.com/u/16213?u=88b1405a86951589697f29712d134750b3a0e75c&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 288,
-  "prev_score": 869.2,
-  "rank_delta": 81,
-  "score_delta": 0.7,
+  "prev_rank": 207,
+  "prev_score": 869.9,
+  "rank_delta": -105,
+  "score_delta": -3.3,
   "counted_merges": [
     {
       "repo": "avivsinai/agent-message-queue",
-      "prs": 6
-    },
-    {
-      "repo": "avivsinai/snagline",
-      "prs": 1
+      "prs": 5
     },
     {
       "repo": "avivsinai/yoetz",
@@ -65,6 +62,11 @@
       "d": "2026-11-24",
       "r": 207,
       "s": 869.9
+    },
+    {
+      "d": "2026-11-25",
+      "r": 312,
+      "s": 866.6
     }
   ]
 }

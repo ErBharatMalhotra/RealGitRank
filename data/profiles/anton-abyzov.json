@@ -2,46 +2,47 @@
   "username": "anton-abyzov",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 25,
-  "merged_prs": 18,
-  "s_pr": 99.89,
+  "total_pushes": 22,
+  "merged_prs": 17,
+  "listed_only": false,
+  "s_pr": 99.82,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 98.89,
+  "s_impact": 99.02,
+  "s_consistency": 98.45,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 20,
+  "active_days": 19,
   "window_days": 30,
-  "rank_score": 870.8,
+  "rank_score": 869.6,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 1,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 142,
+  "rank": 161,
   "avatar_url": "https://avatars.githubusercontent.com/u/979819?u=b50f0586ea056682b5024c94a5be20d6f19673bd&v=4",
   "bio": "Founder of SpecWithCode \u00b7 Creator of SpecWeave \u00b7 AI coding agents, Cloud, DevOps \u00b7 20 yrs SWE \u00b7 YouTube: @AntonAbyzov",
   "company": "",
   "location": "Miami",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "ci_pushes": 106,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 75,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 216,
-  "prev_score": 870.0,
-  "rank_delta": 74,
-  "score_delta": 0.8,
+  "prev_rank": 142,
+  "prev_score": 870.8,
+  "rank_delta": -19,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "anton-abyzov/specwithcode",
@@ -49,7 +50,7 @@
     },
     {
       "repo": "anton-abyzov/specweave-umb",
-      "prs": 4
+      "prs": 3
     }
   ],
   "history": [
@@ -62,6 +63,11 @@
       "d": "2026-11-24",
       "r": 142,
       "s": 870.8
+    },
+    {
+      "d": "2026-11-25",
+      "r": 161,
+      "s": 869.6
     }
   ]
 }

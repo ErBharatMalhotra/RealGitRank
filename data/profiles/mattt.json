@@ -1,0 +1,62 @@
+{
+  "username": "mattt",
+  "country": "",
+  "primary_language": "Swift",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.87,
+  "s_consistency": 97.81,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 859.2,
+  "active_repos_touched": 7,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 9,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 722,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7659?u=0e0c0deaf39c080b52506afc43f4d3c1961df656&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Portland, OR",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "mattt/Replay",
+      "prs": 1
+    },
+    {
+      "repo": "mattt/homebrew-tap",
+      "prs": 1
+    },
+    {
+      "repo": "mattt/paseo-creator-micro",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 722,
+      "s": 859.2
+    }
+  ]
+}

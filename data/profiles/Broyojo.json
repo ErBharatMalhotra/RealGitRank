@@ -1,0 +1,58 @@
+{
+  "username": "Broyojo",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 1,
+  "merged_prs": 5,
+  "listed_only": false,
+  "s_pr": 99.2,
+  "s_quality": 50.0,
+  "s_impact": 99.66,
+  "s_consistency": 90.08,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 856.5,
+  "active_repos_touched": 2,
+  "pr_reviews": 2,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 855,
+  "avatar_url": "https://avatars.githubusercontent.com/u/20409082?v=4",
+  "bio": "I'm a programmer who is interested in compiler and language design, Minecraft, digital logic, and machine learning.",
+  "company": "",
+  "location": "New Jersey",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "GT-Drehmal/avSYS",
+      "prs": 4
+    },
+    {
+      "repo": "python/cpython",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 855,
+      "s": 856.5
+    }
+  ]
+}

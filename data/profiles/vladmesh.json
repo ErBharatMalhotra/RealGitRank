@@ -2,12 +2,13 @@
   "username": "vladmesh",
   "country": "",
   "primary_language": "Jupyter Notebook",
-  "total_pushes": 15,
+  "total_pushes": 11,
   "merged_prs": 6,
-  "s_pr": 99.33,
+  "listed_only": false,
+  "s_pr": 99.08,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 97.94,
+  "s_impact": 99.02,
+  "s_consistency": 96.15,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,35 +17,39 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 867.5,
+  "rank_score": 863.6,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 2,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 413,
+  "rank": 504,
   "avatar_url": "https://avatars.githubusercontent.com/u/16962535?u=33b500d359ce255293939be8b06614399687a47c&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "percentile": 100.0,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 599,
-  "prev_score": 864.7,
-  "rank_delta": 186,
-  "score_delta": 2.8,
+  "prev_rank": 413,
+  "prev_score": 867.5,
+  "rank_delta": -91,
+  "score_delta": -3.9,
   "counted_merges": [
     {
       "repo": "vladmesh/ulei",
       "prs": 3
+    },
+    {
+      "repo": "pasekahq/ulei",
+      "prs": 1
     },
     {
       "repo": "pasekahq/ummanu",
@@ -52,10 +57,6 @@
     },
     {
       "repo": "vladmesh/dnd-simulator",
-      "prs": 1
-    },
-    {
-      "repo": "vladmesh/ummanu",
       "prs": 1
     }
   ],
@@ -69,6 +70,11 @@
       "d": "2026-11-24",
       "r": 413,
       "s": 867.5
+    },
+    {
+      "d": "2026-11-25",
+      "r": 504,
+      "s": 863.6
     }
   ]
 }

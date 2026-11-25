@@ -1,0 +1,58 @@
+{
+  "username": "sadmann7",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 7,
+  "merged_prs": 4,
+  "listed_only": false,
+  "s_pr": 97.75,
+  "s_quality": 50.0,
+  "s_impact": 99.42,
+  "s_consistency": 95.46,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 858.9,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 2,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 735,
+  "avatar_url": "https://avatars.githubusercontent.com/u/68962712?u=a38c9cfedf5f807534c9988b9016dee341a77382&v=4",
+  "bio": "low fidelity",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "sadmann7/pptx",
+      "prs": 2
+    },
+    {
+      "repo": "sadmann7/wadsmith",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 735,
+      "s": 858.9
+    }
+  ]
+}

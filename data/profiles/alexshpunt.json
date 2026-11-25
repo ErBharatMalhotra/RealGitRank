@@ -4,10 +4,11 @@
   "primary_language": "TypeScript",
   "total_pushes": 8,
   "merged_prs": 10,
-  "s_pr": 99.66,
+  "listed_only": false,
+  "s_pr": 99.5,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 91.47,
+  "s_impact": 99.02,
+  "s_consistency": 92.69,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 858.9,
+  "rank_score": 859.8,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 979,
+  "rank": 693,
   "avatar_url": "https://avatars.githubusercontent.com/u/19336652?u=57ec6afb7c1f8899e5933a42c3f3c7dfa520c280&v=4",
   "bio": "",
   "company": "Straumann ",
   "location": "Berlin, Germany",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 812,
-  "prev_score": 861.3,
-  "rank_delta": -167,
-  "score_delta": -2.4,
+  "prev_rank": 979,
+  "prev_score": 858.9,
+  "rank_delta": 286,
+  "score_delta": 0.9,
   "counted_merges": [
     {
       "repo": "alexshpunt/pi-agent-ide",
@@ -58,6 +59,11 @@
       "d": "2026-11-24",
       "r": 979,
       "s": 858.9
+    },
+    {
+      "d": "2026-11-25",
+      "r": 693,
+      "s": 859.8
     }
   ]
 }

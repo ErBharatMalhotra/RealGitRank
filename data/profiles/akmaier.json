@@ -2,50 +2,51 @@
   "username": "akmaier",
   "country": "Germany",
   "primary_language": "Python",
-  "total_pushes": 30,
-  "merged_prs": 6,
-  "s_pr": 99.21,
+  "total_pushes": 18,
+  "merged_prs": 5,
+  "listed_only": false,
+  "s_pr": 98.51,
   "s_quality": 50.0,
-  "s_impact": 98.72,
-  "s_consistency": 96.67,
+  "s_impact": 98.53,
+  "s_consistency": 92.32,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 6,
+  "active_days": 5,
   "window_days": 30,
-  "rank_score": 864.0,
-  "active_repos_touched": 3,
+  "rank_score": 854.6,
+  "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 0,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 4,
+  "active_shipping_weeks": 3,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 654,
+  "rank": 920,
   "avatar_url": "https://avatars.githubusercontent.com/u/10292261?u=b342471960871926cb403b35681cc20afc1cc1f3&v=4",
   "bio": "I do research in Machine Learning. My positions include being Prof @FAU_Germany, President @DataDonors, and Board Member for Science & Technology @TimeMachineEU",
   "company": "Friedrich-Alexander-University Erlangen-Nuremberg",
   "location": "Erlangen, Germany",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "ci_pushes": 17,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 3,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 600,
-  "prev_score": 864.7,
-  "rank_delta": -54,
-  "score_delta": -0.7,
+  "prev_rank": 654,
+  "prev_score": 864.0,
+  "rank_delta": -266,
+  "score_delta": -9.4,
   "counted_merges": [
     {
       "repo": "akmaier/agent-m",
-      "prs": 6
+      "prs": 5
     }
   ],
   "history": [
@@ -58,6 +59,11 @@
       "d": "2026-11-24",
       "r": 654,
       "s": 864.0
+    },
+    {
+      "d": "2026-11-25",
+      "r": 920,
+      "s": 854.6
     }
   ]
 }

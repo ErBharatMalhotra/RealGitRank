@@ -3,20 +3,21 @@
   "country": "France",
   "primary_language": "C",
   "total_pushes": 13,
-  "merged_prs": 3,
-  "s_pr": 98.47,
+  "merged_prs": 6,
+  "listed_only": false,
+  "s_pr": 99.08,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 96.51,
+  "s_impact": 99.02,
+  "s_consistency": 97.54,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 7,
+  "active_days": 8,
   "window_days": 30,
-  "rank_score": 862.3,
+  "rank_score": 865.6,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,17 +28,25 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 752,
+  "rank": 375,
   "avatar_url": "https://avatars.githubusercontent.com/u/103693?v=4",
   "bio": "@ocaml @mirage",
   "company": "@tarides  @parsimoni-labs",
   "location": "Paris, FR",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 752,
+  "prev_score": 862.3,
+  "rank_delta": 377,
+  "score_delta": 3.3,
   "counted_merges": [
+    {
+      "repo": "samoht/cascade",
+      "prs": 3
+    },
     {
       "repo": "mirage/alcotest",
       "prs": 1
@@ -56,6 +65,11 @@
       "d": "2026-11-24",
       "r": 752,
       "s": 862.3
+    },
+    {
+      "d": "2026-11-25",
+      "r": 375,
+      "s": 865.6
     }
   ]
 }

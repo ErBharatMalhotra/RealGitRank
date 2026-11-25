@@ -1,0 +1,59 @@
+{
+  "username": "CikeSeven",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 2,
+  "merged_prs": 4,
+  "listed_only": false,
+  "s_pr": 97.75,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 92.55,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 853.5,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 988,
+  "avatar_url": "https://avatars.githubusercontent.com/u/78466962?u=832a7cb3cf2ca1041a548269ef5653e954facb26&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 1,
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "CikeSeven/jotsy",
+      "prs": 3
+    },
+    {
+      "repo": "CikeSeven/DS-Bot",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 988,
+      "s": 853.5
+    }
+  ]
+}

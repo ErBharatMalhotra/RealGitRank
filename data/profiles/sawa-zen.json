@@ -2,41 +2,46 @@
   "username": "sawa-zen",
   "country": "Japan",
   "primary_language": "TypeScript",
-  "total_pushes": 1,
-  "merged_prs": 3,
-  "s_pr": 98.76,
+  "total_pushes": 2,
+  "merged_prs": 4,
+  "listed_only": false,
+  "s_pr": 98.84,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 95.31,
+  "s_impact": 99.02,
+  "s_consistency": 92.51,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 3,
+  "active_days": 4,
   "window_days": 30,
-  "rank_score": 861.5,
-  "active_repos_touched": 2,
+  "rank_score": 857.3,
+  "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
-  "releases": 0,
+  "releases": 1,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
   "active_shipping_weeks": 3,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 799,
+  "rank": 823,
   "avatar_url": "https://avatars.githubusercontent.com/u/3971271?u=6825b424ca5f462f20148c41cdbbb14de8ca6612&v=4",
   "bio": "Design Engineer. I \u2764\ufe0f WebXR",
   "company": "@topotal ",
   "location": "Tokyo",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 799,
+  "prev_score": 861.5,
+  "rank_delta": -24,
+  "score_delta": -4.2,
   "counted_merges": [
     {
       "repo": "WebXR-JP/xrift-world-components",
@@ -45,6 +50,10 @@
     {
       "repo": "WebXR-JP/xrift-docs",
       "prs": 1
+    },
+    {
+      "repo": "WebXR-JP/xrift-world-template",
+      "prs": 1
     }
   ],
   "history": [
@@ -52,6 +61,11 @@
       "d": "2026-11-24",
       "r": 799,
       "s": 861.5
+    },
+    {
+      "d": "2026-11-25",
+      "r": 823,
+      "s": 857.3
     }
   ]
 }

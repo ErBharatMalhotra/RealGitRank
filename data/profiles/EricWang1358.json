@@ -2,49 +2,50 @@
   "username": "EricWang1358",
   "country": "Singapore",
   "primary_language": "JavaScript",
-  "total_pushes": 5,
-  "merged_prs": 11,
-  "s_pr": 99.72,
+  "total_pushes": 1,
+  "merged_prs": 10,
+  "listed_only": false,
+  "s_pr": 99.5,
   "s_quality": 50.0,
-  "s_impact": 99.67,
-  "s_consistency": 94.99,
+  "s_impact": 99.61,
+  "s_consistency": 90.62,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 7,
+  "active_days": 6,
   "window_days": 30,
-  "rank_score": 865.7,
+  "rank_score": 858.2,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 4,
+  "active_shipping_weeks": 3,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 564,
+  "rank": 777,
   "avatar_url": "https://avatars.githubusercontent.com/u/122358137?u=e7b5a4f7d1e9cf9e39df5679ace7710b75f26ee7&v=4",
   "bio": "",
   "company": "NUS-ISS",
   "location": "Singapore",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 460,
-  "prev_score": 866.9,
-  "rank_delta": -104,
-  "score_delta": -1.2,
+  "prev_rank": 564,
+  "prev_score": 865.7,
+  "rank_delta": -213,
+  "score_delta": -7.5,
   "counted_merges": [
     {
       "repo": "EricWang1358/dsh-web-studyhub",
-      "prs": 8
+      "prs": 7
     },
     {
       "repo": "EricWang1358/java-hood-lab",
@@ -61,6 +62,11 @@
       "d": "2026-11-24",
       "r": 564,
       "s": 865.7
+    },
+    {
+      "d": "2026-11-25",
+      "r": 777,
+      "s": 858.2
     }
   ]
 }

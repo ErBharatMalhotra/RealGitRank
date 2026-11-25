@@ -1,0 +1,78 @@
+{
+  "username": "ATLURI0001",
+  "country": "India",
+  "primary_language": "JavaScript",
+  "total_pushes": 3,
+  "merged_prs": 7,
+  "listed_only": false,
+  "s_pr": 99.08,
+  "s_quality": 50.0,
+  "s_impact": 99.78,
+  "s_consistency": 97.44,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 10,
+  "window_days": 30,
+  "rank_score": 867.4,
+  "active_repos_touched": 18,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 5,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 268,
+  "avatar_url": "https://avatars.githubusercontent.com/u/116977270?u=b60dd48fb3a07e463f8f7c3a31f758b7bbdb5238&v=4",
+  "bio": "Martingale in a world with memory.\r\nFair game, unfair clock.\r\n\r\nQuant \u00b7 Cloud \u00b7 Crypto \u00b7 DevOps \u00b7 Real-time systems",
+  "company": "@Occultaeratio @FactorFunctionQuant",
+  "location": "Vijayawada,India",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "ATLURI0001/BackSeat",
+      "prs": 1
+    },
+    {
+      "repo": "ATLURI0001/BizAtlas",
+      "prs": 1
+    },
+    {
+      "repo": "ATLURI0001/BuildSite",
+      "prs": 1
+    },
+    {
+      "repo": "ATLURI0001/EvalCore",
+      "prs": 1
+    },
+    {
+      "repo": "ATLURI0001/Orbiscope",
+      "prs": 1
+    },
+    {
+      "repo": "ATLURI0001/Oriel",
+      "prs": 1
+    },
+    {
+      "repo": "ATLURI0001/PromptTestKit",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 268,
+      "s": 867.4
+    }
+  ]
+}

@@ -2,56 +2,57 @@
   "username": "argszero",
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 16,
-  "merged_prs": 10,
-  "s_pr": 99.72,
+  "total_pushes": 8,
+  "merged_prs": 9,
+  "listed_only": false,
+  "s_pr": 99.5,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 97.79,
+  "s_impact": 99.02,
+  "s_consistency": 95.88,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 13,
+  "active_days": 12,
   "window_days": 30,
-  "rank_score": 868.6,
-  "active_repos_touched": 13,
+  "rank_score": 864.6,
+  "active_repos_touched": 8,
   "pr_reviews": 3,
   "issue_comments": 4,
   "releases": 1,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 304,
+  "rank": 432,
   "avatar_url": "https://avatars.githubusercontent.com/u/52026?v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 237,
-  "prev_score": 869.8,
-  "rank_delta": -67,
-  "score_delta": -1.2,
+  "prev_rank": 304,
+  "prev_score": 868.6,
+  "rank_delta": -128,
+  "score_delta": -4.0,
   "counted_merges": [
     {
       "repo": "argszero/emrg",
       "prs": 3
     },
     {
-      "repo": "argszero/seek",
-      "prs": 3
+      "repo": "argszero/deepnest",
+      "prs": 2
     },
     {
-      "repo": "argszero/deepnest",
+      "repo": "argszero/seek",
       "prs": 2
     },
     {
@@ -73,6 +74,11 @@
       "d": "2026-11-24",
       "r": 304,
       "s": 868.6
+    },
+    {
+      "d": "2026-11-25",
+      "r": 432,
+      "s": 864.6
     }
   ]
 }

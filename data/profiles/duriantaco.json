@@ -1,0 +1,54 @@
+{
+  "username": "duriantaco",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 2,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.51,
+  "s_consistency": 97.66,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 858.1,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 788,
+  "avatar_url": "https://avatars.githubusercontent.com/u/57052760?u=ed59d8a06144440134aaf7d10ff83d6543c6d6f1&v=4",
+  "bio": "Do whatever you want as long as it makes you happy. Shipping features that I want to use. Feel free to contact me if you want to colab \r\n\r\naaron@skylos.dev",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "duriantaco/skylos",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 788,
+      "s": 858.1
+    }
+  ]
+}

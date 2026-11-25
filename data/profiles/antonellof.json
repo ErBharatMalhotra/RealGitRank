@@ -4,10 +4,11 @@
   "primary_language": "Rust",
   "total_pushes": 5,
   "merged_prs": 4,
-  "s_pr": 98.47,
+  "listed_only": false,
+  "s_pr": 97.75,
   "s_quality": 50.0,
-  "s_impact": 98.72,
-  "s_consistency": 95.38,
+  "s_impact": 98.53,
+  "s_consistency": 96.27,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 859.5,
+  "rank_score": 857.9,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 927,
+  "rank": 793,
   "avatar_url": "https://avatars.githubusercontent.com/u/6189495?u=dc119db464eb0719dc79bbef484fa2aadcc2b422&v=4",
   "bio": "",
   "company": "",
   "location": "Italy",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 862,
-  "prev_score": 860.4,
-  "rank_delta": -65,
-  "score_delta": -0.9,
+  "prev_rank": 927,
+  "prev_score": 859.5,
+  "rank_delta": 134,
+  "score_delta": -1.6,
   "counted_merges": [
     {
       "repo": "antonellof/frink",
@@ -61,6 +62,11 @@
       "d": "2026-11-24",
       "r": 927,
       "s": 859.5
+    },
+    {
+      "d": "2026-11-25",
+      "r": 793,
+      "s": 857.9
     }
   ]
 }

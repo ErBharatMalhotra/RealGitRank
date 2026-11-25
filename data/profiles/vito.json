@@ -1,0 +1,58 @@
+{
+  "username": "vito",
+  "country": "Canada",
+  "primary_language": "Go",
+  "total_pushes": 3,
+  "merged_prs": 7,
+  "listed_only": false,
+  "s_pr": 99.41,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 91.2,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 857.3,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 822,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1880?u=a10924f634114c4950a1c6895d1f8f5ab8a8ab8d&v=4",
+  "bio": "",
+  "company": "@dagger",
+  "location": "Toronto, ON",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "dagger/dagger",
+      "prs": 4
+    },
+    {
+      "repo": "vito/dang",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 822,
+      "s": 857.3
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "username": "IvanLi-CN",
+  "country": "China",
+  "primary_language": "TypeScript",
+  "total_pushes": 30,
+  "merged_prs": 13,
+  "listed_only": false,
+  "s_pr": 99.69,
+  "s_quality": 50.0,
+  "s_impact": 98.53,
+  "s_consistency": 99.05,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 16,
+  "window_days": 30,
+  "rank_score": 868.8,
+  "active_repos_touched": 10,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 203,
+  "avatar_url": "https://avatars.githubusercontent.com/u/30215105?u=6aa2705a9e957af4881e9134f2aad75703c2ebf6&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Fujian, China",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 8,
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "IvanLi-CN/Loomhelm",
+      "prs": 3
+    },
+    {
+      "repo": "IvanLi-CN/codex-vibe-monitor",
+      "prs": 3
+    },
+    {
+      "repo": "IvanLi-CN/agent-vm",
+      "prs": 2
+    },
+    {
+      "repo": "IvanLi-CN/xp",
+      "prs": 2
+    },
+    {
+      "repo": "IvanLi-CN/flux-purr",
+      "prs": 1
+    },
+    {
+      "repo": "IvanLi-CN/mains-aegis",
+      "prs": 1
+    },
+    {
+      "repo": "IvanLi-CN/octo-rill",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 203,
+      "s": 868.8
+    }
+  ]
+}

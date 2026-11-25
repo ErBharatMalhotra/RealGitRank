@@ -1,0 +1,57 @@
+{
+  "username": "Totopo27",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 4,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 95.73,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 853.9,
+  "active_repos_touched": 5,
+  "pr_reviews": 1,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 953,
+  "avatar_url": "https://avatars.githubusercontent.com/u/35828647?u=fe4c81a0987541c258261821beb44fccfa78688f&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Costa Rica",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Totopo27/harmos",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 953,
+      "s": 853.9
+    }
+  ],
+  "followers": 10,
+  "commits_1y": 580,
+  "repos_total": 35
+}

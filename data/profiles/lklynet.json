@@ -1,0 +1,54 @@
+{
+  "username": "lklynet",
+  "country": "United States",
+  "primary_language": "TypeScript",
+  "total_pushes": 1,
+  "merged_prs": 4,
+  "listed_only": false,
+  "s_pr": 97.75,
+  "s_quality": 50.0,
+  "s_impact": 99.9,
+  "s_consistency": 95.89,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 860.7,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 6,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 651,
+  "avatar_url": "https://avatars.githubusercontent.com/u/190622871?u=604b415e046215e6987f1d0128a6ec6308b93741&v=4",
+  "bio": "Marketing & OSS enthusiast",
+  "company": "",
+  "location": "Florida, USA",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "lklynet/aurral",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 651,
+      "s": 860.7
+    }
+  ]
+}

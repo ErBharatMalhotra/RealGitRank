@@ -1,0 +1,66 @@
+{
+  "username": "soleil0815",
+  "country": "Germany",
+  "primary_language": "Python",
+  "total_pushes": 2,
+  "merged_prs": 7,
+  "listed_only": false,
+  "s_pr": 99.08,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 91.41,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 856.4,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 861,
+  "avatar_url": "https://avatars.githubusercontent.com/u/222504472?u=3feaa845232dccc3bdc2e0e83db564a2ddba19b8&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Germany",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "soleil0815/whatsonmynet",
+      "prs": 3
+    },
+    {
+      "repo": "soleil0815/pocketknife",
+      "prs": 2
+    },
+    {
+      "repo": "soleil0815/helfi.space.ticket",
+      "prs": 1
+    },
+    {
+      "repo": "soleil0815/samaudit",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 861,
+      "s": 856.4
+    }
+  ]
+}

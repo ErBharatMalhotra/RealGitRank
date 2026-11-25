@@ -3,40 +3,45 @@
   "country": "United States",
   "primary_language": "Python",
   "total_pushes": 13,
-  "merged_prs": 4,
-  "s_pr": 98.47,
+  "merged_prs": 7,
+  "listed_only": false,
+  "s_pr": 99.08,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 94.92,
+  "s_impact": 99.51,
+  "s_consistency": 95.7,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 12,
+  "active_days": 13,
   "window_days": 30,
-  "rank_score": 859.9,
+  "rank_score": 864.1,
   "active_repos_touched": 13,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 0,
-  "stars_fraud_filtered": 1,
+  "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 0,
   "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 904,
+  "rank": 479,
   "avatar_url": "https://avatars.githubusercontent.com/u/76818041?u=fb0c8d9fb783940fbbe5c2f63c3f5cc36b89e426&v=4",
   "bio": "Having a blast reinventing the wheel for nothing but the love of the game.  Build fast, break fast... mmmm... breakfast,",
   "company": "The Ussyverse",
   "location": "The Ussyverse",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 904,
+  "prev_score": 859.9,
+  "rank_delta": 425,
+  "score_delta": 4.2,
   "counted_merges": [
     {
       "repo": "mojomast/hermes-aircraft-doppler-geolocation",
@@ -47,11 +52,23 @@
       "prs": 1
     },
     {
+      "repo": "mojomast/hyvv",
+      "prs": 1
+    },
+    {
       "repo": "mojomast/jackpotsyndicate",
       "prs": 1
     },
     {
       "repo": "mojomast/orbitdesktop",
+      "prs": 1
+    },
+    {
+      "repo": "mojomast/uirizz",
+      "prs": 1
+    },
+    {
+      "repo": "mojomast/velvetrp",
       "prs": 1
     }
   ],
@@ -60,6 +77,11 @@
       "d": "2026-11-24",
       "r": 904,
       "s": 859.9
+    },
+    {
+      "d": "2026-11-25",
+      "r": 479,
+      "s": 864.1
     }
   ]
 }

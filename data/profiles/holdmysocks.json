@@ -1,0 +1,58 @@
+{
+  "username": "holdmysocks",
+  "country": "",
+  "primary_language": "C++",
+  "total_pushes": 6,
+  "merged_prs": 6,
+  "listed_only": false,
+  "s_pr": 99.2,
+  "s_quality": 50.0,
+  "s_impact": 99.78,
+  "s_consistency": 89.49,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 855.9,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 2,
+  "stars_fraud_filtered": 5,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 877,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "TrinitronClient/GTA6-Asset-Info",
+      "prs": 3
+    },
+    {
+      "repo": "holdmysocks/SixNG",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 877,
+      "s": 855.9
+    }
+  ]
+}

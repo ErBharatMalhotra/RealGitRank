@@ -2,45 +2,46 @@
   "username": "DerpcatMusic",
   "country": "",
   "primary_language": "Rust",
-  "total_pushes": 26,
-  "merged_prs": 8,
-  "s_pr": 99.6,
+  "total_pushes": 6,
+  "merged_prs": 7,
+  "listed_only": false,
+  "s_pr": 99.2,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 94.75,
+  "s_impact": 99.02,
+  "s_consistency": 90.48,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 9,
+  "active_days": 8,
   "window_days": 30,
-  "rank_score": 863.6,
+  "rank_score": 855.5,
   "active_repos_touched": 2,
-  "pr_reviews": 8,
+  "pr_reviews": 5,
   "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 4,
+  "active_shipping_weeks": 3,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 676,
+  "rank": 890,
   "avatar_url": "https://avatars.githubusercontent.com/u/35739233?v=4",
   "bio": "just a nerd that likes looking at software \r\n\r\n",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 566,
-  "prev_score": 865.3,
-  "rank_delta": -110,
-  "score_delta": -1.7,
+  "prev_rank": 676,
+  "prev_score": 863.6,
+  "rank_delta": -214,
+  "score_delta": -8.1,
   "counted_merges": [
     {
       "repo": "DerpcatMusic/KONTRA",
@@ -48,7 +49,7 @@
     },
     {
       "repo": "Matari-Audio/MUI",
-      "prs": 2
+      "prs": 1
     }
   ],
   "history": [
@@ -61,6 +62,11 @@
       "d": "2026-11-24",
       "r": 676,
       "s": 863.6
+    },
+    {
+      "d": "2026-11-25",
+      "r": 890,
+      "s": 855.5
     }
   ]
 }

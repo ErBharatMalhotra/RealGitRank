@@ -2,41 +2,46 @@
   "username": "unowncollectables",
   "country": "",
   "primary_language": "C",
-  "total_pushes": 22,
-  "merged_prs": 10,
-  "s_pr": 99.66,
+  "total_pushes": 9,
+  "merged_prs": 9,
+  "listed_only": false,
+  "s_pr": 99.41,
   "s_quality": 50.0,
-  "s_impact": 98.72,
-  "s_consistency": 98.6,
+  "s_impact": 98.53,
+  "s_consistency": 98.11,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 12,
+  "active_days": 11,
   "window_days": 30,
-  "rank_score": 868.5,
-  "active_repos_touched": 6,
+  "rank_score": 866.4,
+  "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 1,
   "stars_fraud_filtered": 0,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 316,
+  "rank": 322,
   "avatar_url": "https://avatars.githubusercontent.com/u/332487689?v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 316,
+  "prev_score": 868.5,
+  "rank_delta": -6,
+  "score_delta": -2.1,
   "counted_merges": [
     {
       "repo": "unowncollectables/Pokemon-HeartGold-SoulSilver-New3ds",
@@ -44,7 +49,7 @@
     },
     {
       "repo": "unowncollectables/Pokemon-Soulsilver-New3ds",
-      "prs": 4
+      "prs": 3
     },
     {
       "repo": "unowncollectables/3ds-platinum",
@@ -60,6 +65,11 @@
       "d": "2026-11-24",
       "r": 316,
       "s": 868.5
+    },
+    {
+      "d": "2026-11-25",
+      "r": 322,
+      "s": 866.4
     }
   ]
 }

@@ -2,12 +2,13 @@
   "username": "hiyouga",
   "country": "China",
   "primary_language": "Python",
-  "total_pushes": 28,
-  "merged_prs": 4,
-  "s_pr": 99.21,
+  "total_pushes": 23,
+  "merged_prs": 5,
+  "listed_only": false,
+  "s_pr": 99.2,
   "s_quality": 50.0,
-  "s_impact": 99.91,
-  "s_consistency": 99.15,
+  "s_impact": 99.93,
+  "s_consistency": 98.91,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,39 +17,39 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 870.7,
+  "rank_score": 870.4,
   "active_repos_touched": 7,
-  "pr_reviews": 1,
+  "pr_reviews": 2,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 10,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 6,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 151,
+  "rank": 118,
   "avatar_url": "https://avatars.githubusercontent.com/u/16256802?u=9622ad4c25aa0a0bfc6dfac3db6bd0d7732c0f1e&v=4",
   "bio": "No code All live",
   "company": "Millennium Science School",
   "location": "Beijing, China",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 646,
-  "prev_score": 864.2,
-  "rank_delta": 495,
-  "score_delta": 6.5,
+  "prev_rank": 151,
+  "prev_score": 870.7,
+  "rank_delta": 33,
+  "score_delta": -0.3,
   "counted_merges": [
     {
-      "repo": "Prism-Shadow/penguin-harness-plugins",
+      "repo": "Prism-Shadow/penguin-harness",
       "prs": 2
     },
     {
-      "repo": "Prism-Shadow/penguin-harness",
-      "prs": 1
+      "repo": "Prism-Shadow/penguin-harness-plugins",
+      "prs": 2
     },
     {
       "repo": "Prism-Shadow/penguin-harness-community",
@@ -65,6 +66,11 @@
       "d": "2026-11-24",
       "r": 151,
       "s": 870.7
+    },
+    {
+      "d": "2026-11-25",
+      "r": 118,
+      "s": 870.4
     }
   ]
 }

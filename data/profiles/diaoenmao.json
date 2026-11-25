@@ -1,0 +1,54 @@
+{
+  "username": "diaoenmao",
+  "country": "China",
+  "primary_language": "Python",
+  "total_pushes": 4,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 98.19,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 95.76,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 859.8,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 696,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6510674?u=afaa46550c36dfd5c6aa75930d7ca02e8f9da399&v=4",
+  "bio": "Entrepreneur and Reseacher interested in Machine Learning and Aritifical Intelligence",
+  "company": "",
+  "location": "Shanghai, China",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "DreamSoul-AI/knowledge",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 696,
+      "s": 859.8
+    }
+  ]
+}

@@ -2,12 +2,13 @@
   "username": "VictorZakharov",
   "country": "Canada",
   "primary_language": "C#",
-  "total_pushes": 6,
-  "merged_prs": 3,
-  "s_pr": 97.64,
+  "total_pushes": 5,
+  "merged_prs": 5,
+  "listed_only": false,
+  "s_pr": 98.51,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 99.9,
+  "s_impact": 99.02,
+  "s_consistency": 99.03,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,39 +17,39 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 864.4,
-  "active_repos_touched": 5,
+  "rank_score": 865.9,
+  "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 642,
+  "rank": 353,
   "avatar_url": "https://avatars.githubusercontent.com/u/8978766?u=4f77502d1fab0b04e8b97bb608e14947ebde4001&v=4",
   "bio": "",
   "company": "",
   "location": "Ontario, Canada",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "ci_pushes": 3,
-  "percentile": 99.9,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 2,
+  "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 723,
-  "prev_score": 862.8,
-  "rank_delta": 81,
-  "score_delta": 1.6,
+  "prev_rank": 642,
+  "prev_score": 864.4,
+  "rank_delta": 289,
+  "score_delta": 1.5,
   "counted_merges": [
     {
-      "repo": "VictorZakharov/budiff",
-      "prs": 1
+      "repo": "VictorZakharov/last-stand",
+      "prs": 3
     },
     {
-      "repo": "VictorZakharov/last-stand",
+      "repo": "VictorZakharov/budiff",
       "prs": 1
     },
     {
@@ -66,6 +67,11 @@
       "d": "2026-11-24",
       "r": 642,
       "s": 864.4
+    },
+    {
+      "d": "2026-11-25",
+      "r": 353,
+      "s": 865.9
     }
   ]
 }

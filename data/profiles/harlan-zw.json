@@ -4,10 +4,11 @@
   "primary_language": "TypeScript",
   "total_pushes": 13,
   "merged_prs": 7,
-  "s_pr": 99.46,
+  "listed_only": false,
+  "s_pr": 99.2,
   "s_quality": 50.0,
-  "s_impact": 99.67,
-  "s_consistency": 95.38,
+  "s_impact": 99.61,
+  "s_consistency": 96.27,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 12,
   "window_days": 30,
-  "rank_score": 865.3,
+  "rank_score": 865.6,
   "active_repos_touched": 15,
   "pr_reviews": 5,
   "issue_comments": 2,
@@ -27,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 586,
+  "rank": 373,
   "avatar_url": "https://avatars.githubusercontent.com/u/5326365?u=171656f99ff4c2f33943f642d813fff8399e76a8&v=4",
   "bio": "Self-funded open-sourcing at @nuxt \u25e6 @vueuse \u25e6 @unjs",
   "company": "Myself",
   "location": "Australia",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 834,
-  "prev_score": 860.9,
-  "rank_delta": 248,
-  "score_delta": 4.4,
+  "prev_rank": 586,
+  "prev_score": 865.3,
+  "rank_delta": 213,
+  "score_delta": 0.3,
   "counted_merges": [
     {
       "repo": "harlan-zw/harlan-agent-kit",
@@ -73,6 +74,11 @@
       "d": "2026-11-24",
       "r": 586,
       "s": 865.3
+    },
+    {
+      "d": "2026-11-25",
+      "r": 373,
+      "s": 865.6
     }
   ]
 }

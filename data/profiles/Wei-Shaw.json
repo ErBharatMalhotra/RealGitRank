@@ -1,0 +1,57 @@
+{
+  "username": "Wei-Shaw",
+  "country": "",
+  "primary_language": "Go",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "listed_only": false,
+  "s_pr": 94.26,
+  "s_quality": 50.0,
+  "s_impact": 99.98,
+  "s_consistency": 99.16,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 21,
+  "window_days": 30,
+  "rank_score": 853.6,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 22,
+  "forks_fraud_filtered": 8,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 983,
+  "avatar_url": "https://avatars.githubusercontent.com/u/26101719?u=08c7d9556bb674f8e12d4c09fe28be0cfa73b1fb&v=4",
+  "bio": "My name is Wesley Liddick, I'm a college student, and I spend most of my time studying. I'm passionate about exploring different genres of music, practicing mar",
+  "company": "",
+  "location": "",
+  "followers": 1217,
+  "commits_1y": 3344,
+  "repos_total": 8,
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Wei-Shaw/sub2api",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 983,
+      "s": 853.6
+    }
+  ]
+}

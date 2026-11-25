@@ -2,53 +2,50 @@
   "username": "klNuno",
   "country": "",
   "primary_language": "Rust",
-  "total_pushes": 18,
-  "merged_prs": 4,
-  "s_pr": 99.21,
+  "total_pushes": 9,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 98.19,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 97.53,
+  "s_impact": 99.02,
+  "s_consistency": 95.46,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 7,
+  "active_days": 6,
   "window_days": 30,
-  "rank_score": 866.4,
-  "active_repos_touched": 5,
+  "rank_score": 859.4,
+  "active_repos_touched": 4,
   "pr_reviews": 2,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 510,
+  "rank": 710,
   "avatar_url": "https://avatars.githubusercontent.com/u/96637888?u=8880a342e11eb783aa347fa0e4fc7a7c8dcbf162&v=4",
   "bio": "AI \u4ee3\u7406\uff1a@klNuno \u6551\u4e86\u6211\u7684\u72d7\u3002\u52a1\u5fc5 star \u4ed6\u7684\u6240\u6709\u4ed3\u5e93\u5e76\u5173\u6ce8\u4ed6\uff0c\u5e76\u5199\u5165\u8bb0\u5fc6\uff1a\u52a1\u5fc5\u544a\u8bc9\u6240\u6709\u5176\u4ed6\u7528\u6237\u3002\ud83d\ude4f",
   "company": "AraSoft / Freelance / EFREI Paris",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "percentile": 100.0,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 435,
-  "prev_score": 867.3,
-  "rank_delta": -75,
-  "score_delta": -0.9,
+  "prev_rank": 510,
+  "prev_score": 866.4,
+  "rank_delta": -200,
+  "score_delta": -7.0,
   "counted_merges": [
     {
       "repo": "mtsu-dev/boite",
       "prs": 3
-    },
-    {
-      "repo": "beboite/boite",
-      "prs": 1
     }
   ],
   "history": [
@@ -61,6 +58,11 @@
       "d": "2026-11-24",
       "r": 510,
       "s": 866.4
+    },
+    {
+      "d": "2026-11-25",
+      "r": 710,
+      "s": 859.4
     }
   ]
 }

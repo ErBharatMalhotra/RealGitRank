@@ -1,0 +1,54 @@
+{
+  "username": "MingTianSang",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 98.19,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 92.63,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 4,
+  "window_days": 30,
+  "rank_score": 855.1,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 905,
+  "avatar_url": "https://avatars.githubusercontent.com/u/189607162?u=96165fd1e0388fc1264899ac2b6327feecf32882&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Project-N-E-K-O/N.E.K.O",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 905,
+      "s": 855.1
+    }
+  ]
+}

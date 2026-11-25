@@ -3,20 +3,21 @@
   "country": "United States",
   "primary_language": "TypeScript",
   "total_pushes": 11,
-  "merged_prs": 7,
-  "s_pr": 99.6,
+  "merged_prs": 8,
+  "listed_only": false,
+  "s_pr": 99.55,
   "s_quality": 50.0,
-  "s_impact": 99.97,
-  "s_consistency": 97.42,
+  "s_impact": 99.96,
+  "s_consistency": 98.14,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 19,
+  "active_days": 20,
   "window_days": 30,
-  "rank_score": 869.7,
+  "rank_score": 870.5,
   "active_repos_touched": 11,
   "pr_reviews": 3,
   "issue_comments": 0,
@@ -27,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 225,
+  "rank": 107,
   "avatar_url": "https://avatars.githubusercontent.com/u/3084745?u=00ba705b6a5ceaa3b4c5f3582ddb944f891f8847&v=4",
   "bio": "I have come here to chew bubblegum and write code. And _InsufficientBubblegumException_",
   "company": "",
   "location": "Seattle, WA",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 148,
-  "prev_score": 870.9,
-  "rank_delta": -77,
-  "score_delta": -1.2,
+  "prev_rank": 225,
+  "prev_score": 869.7,
+  "rank_delta": 118,
+  "score_delta": 0.8,
   "counted_merges": [
     {
       "repo": "nubjs/nub",
@@ -51,11 +52,11 @@
       "prs": 2
     },
     {
-      "repo": "colinhacks/zod",
-      "prs": 1
+      "repo": "reylosql/reylo",
+      "prs": 2
     },
     {
-      "repo": "reylosql/reylo",
+      "repo": "colinhacks/zod",
       "prs": 1
     }
   ],
@@ -69,6 +70,11 @@
       "d": "2026-11-24",
       "r": 225,
       "s": 869.7
+    },
+    {
+      "d": "2026-11-25",
+      "r": 107,
+      "s": 870.5
     }
   ]
 }

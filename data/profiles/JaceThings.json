@@ -1,0 +1,54 @@
+{
+  "username": "JaceThings",
+  "country": "",
+  "primary_language": "Objective-C",
+  "total_pushes": 3,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.93,
+  "s_consistency": 94.99,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 11,
+  "window_days": 30,
+  "rank_score": 855.1,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 4,
+  "releases": 0,
+  "stars_fraud_filtered": 9,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 906,
+  "avatar_url": "https://avatars.githubusercontent.com/u/60551230?u=5a4a3057487e142190aaa32361663a33eedd3e06&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "JaceThings/DiaTweaks",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 906,
+      "s": 855.1
+    }
+  ]
+}

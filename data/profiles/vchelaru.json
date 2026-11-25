@@ -2,12 +2,13 @@
   "username": "vchelaru",
   "country": "United States",
   "primary_language": "C#",
-  "total_pushes": 30,
-  "merged_prs": 15,
-  "s_pr": 99.85,
+  "total_pushes": 10,
+  "merged_prs": 16,
+  "listed_only": false,
+  "s_pr": 99.8,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 97.93,
+  "s_impact": 99.51,
+  "s_consistency": 98.77,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,8 +17,8 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 870.3,
-  "active_repos_touched": 5,
+  "rank_score": 871.2,
+  "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 5,
   "releases": 0,
@@ -27,31 +28,31 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 177,
+  "rank": 69,
   "avatar_url": "https://avatars.githubusercontent.com/u/729631?u=be1df7f9f019cfb057996631d0b7d2e9417b87d3&v=4",
   "bio": "",
   "company": "FlatRedBall",
   "location": "Utah, USA",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 72,
-  "prev_score": 871.8,
-  "rank_delta": -105,
-  "score_delta": -1.5,
+  "prev_rank": 177,
+  "prev_score": 870.3,
+  "rank_delta": 108,
+  "score_delta": 0.9,
   "counted_merges": [
     {
       "repo": "vchelaru/Gum",
       "prs": 13
     },
     {
-      "repo": "vchelaru/FlatRedBall",
-      "prs": 1
+      "repo": "vchelaru/FlatRedBall2",
+      "prs": 2
     },
     {
-      "repo": "vchelaru/FlatRedBall2",
+      "repo": "vchelaru/FlatRedBall",
       "prs": 1
     }
   ],
@@ -65,6 +66,11 @@
       "d": "2026-11-24",
       "r": 177,
       "s": 870.3
+    },
+    {
+      "d": "2026-11-25",
+      "r": 69,
+      "s": 871.2
     }
   ]
 }

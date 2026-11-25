@@ -2,46 +2,47 @@
   "username": "dirkwa",
   "country": "",
   "primary_language": "Rust",
-  "total_pushes": 21,
-  "merged_prs": 12,
-  "s_pr": 99.83,
+  "total_pushes": 11,
+  "merged_prs": 11,
+  "listed_only": false,
+  "s_pr": 99.68,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 97.42,
+  "s_impact": 99.02,
+  "s_consistency": 95.07,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 13,
+  "active_days": 12,
   "window_days": 30,
-  "rank_score": 868.4,
-  "active_repos_touched": 31,
+  "rank_score": 864.0,
+  "active_repos_touched": 29,
   "pr_reviews": 7,
-  "issue_comments": 11,
+  "issue_comments": 7,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 327,
+  "rank": 484,
   "avatar_url": "https://avatars.githubusercontent.com/u/86628605?u=8d4d5e779f3b564c298069230fb18ec0718a8de5&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "ci_pushes": 2,
-  "percentile": 100.0,
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 266,
-  "prev_score": 869.4,
-  "rank_delta": -61,
-  "score_delta": -1.0,
+  "prev_rank": 327,
+  "prev_score": 868.4,
+  "rank_delta": -157,
+  "score_delta": -4.4,
   "counted_merges": [
     {
       "repo": "dirkwa/signalk-charts-provider-simple",
@@ -74,10 +75,6 @@
     {
       "repo": "motamman/signalk-weather-router-plus",
       "prs": 1
-    },
-    {
-      "repo": "sailingnaturali/claude-skills",
-      "prs": 1
     }
   ],
   "history": [
@@ -90,6 +87,11 @@
       "d": "2026-11-24",
       "r": 327,
       "s": 868.4
+    },
+    {
+      "d": "2026-11-25",
+      "r": 484,
+      "s": 864.0
     }
   ]
 }

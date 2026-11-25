@@ -4,10 +4,11 @@
   "primary_language": "JavaScript",
   "total_pushes": 8,
   "merged_prs": 3,
-  "s_pr": 97.64,
+  "listed_only": false,
+  "s_pr": 96.51,
   "s_quality": 50.0,
-  "s_impact": 99.77,
-  "s_consistency": 98.31,
+  "s_impact": 99.72,
+  "s_consistency": 99.19,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 863.6,
+  "rank_score": 860.9,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -27,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 679,
+  "rank": 639,
   "avatar_url": "https://avatars.githubusercontent.com/u/77105194?u=49feea52bc5f396778d54ec87286339b6c7160f2&v=4",
   "bio": "Xi'an Jiaotong University, Youth Gifted Program",
   "company": "Xi'an Jiaotong University",
   "location": "Xi'an Jiaotong University, Beiling District, Xi'an, Shaanxi Province, China",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 638,
-  "prev_score": 864.3,
-  "rank_delta": -41,
-  "score_delta": -0.7,
+  "prev_rank": 679,
+  "prev_score": 863.6,
+  "rank_delta": 40,
+  "score_delta": -2.7,
   "counted_merges": [
     {
       "repo": "ysr666/dsh-vision-router",
@@ -57,6 +58,11 @@
       "d": "2026-11-24",
       "r": 679,
       "s": 863.6
+    },
+    {
+      "d": "2026-11-25",
+      "r": 639,
+      "s": 860.9
     }
   ]
 }

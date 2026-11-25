@@ -1,0 +1,58 @@
+{
+  "username": "delebedev",
+  "country": "",
+  "primary_language": "Objective-C",
+  "total_pushes": 5,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 95.65,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 853.8,
+  "active_repos_touched": 3,
+  "pr_reviews": 2,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 961,
+  "avatar_url": "https://avatars.githubusercontent.com/u/829783?u=944c60c6fdb351e68563a969d3a8f10ee026179e&v=4",
+  "bio": "",
+  "company": "@transferwise ",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "delebedev/leyline",
+      "prs": 2
+    },
+    {
+      "repo": "delebedev/forge-web",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 961,
+      "s": 853.8
+    }
+  ]
+}

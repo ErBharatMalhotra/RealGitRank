@@ -1,0 +1,54 @@
+{
+  "username": "shirai91",
+  "country": "",
+  "primary_language": "C",
+  "total_pushes": 2,
+  "merged_prs": 2,
+  "listed_only": false,
+  "s_pr": 94.26,
+  "s_quality": 50.0,
+  "s_impact": 99.97,
+  "s_consistency": 99.09,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 17,
+  "window_days": 30,
+  "rank_score": 853.5,
+  "active_repos_touched": 1,
+  "pr_reviews": 2,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 28,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 992,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8848513?u=2c0efc04505f265fe4e5c2f7d1bc8b0af1276e9f&v=4",
+  "bio": "mewmew",
+  "company": "",
+  "location": "Ha noi, viet nam",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "shirai91/nx2android",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 992,
+      "s": 853.5
+    }
+  ]
+}

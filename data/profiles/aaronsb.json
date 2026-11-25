@@ -1,0 +1,58 @@
+{
+  "username": "aaronsb",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 6,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 97.49,
+  "s_quality": 50.0,
+  "s_impact": 99.61,
+  "s_consistency": 94.99,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 857.7,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 803,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2738471?u=705626c66c94c205de9592b9240decb00f7d0ba3&v=4",
+  "bio": "I like coding with AI tools and making things.",
+  "company": "",
+  "location": "Wichita, KS",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "aaronsb/agent-ways",
+      "prs": 2
+    },
+    {
+      "repo": "vtium/vtium",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 803,
+      "s": 857.7
+    }
+  ]
+}

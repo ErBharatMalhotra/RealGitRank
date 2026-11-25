@@ -2,12 +2,13 @@
   "username": "tphakala",
   "country": "",
   "primary_language": "Go",
-  "total_pushes": 4,
+  "total_pushes": 3,
   "merged_prs": 4,
-  "s_pr": 98.47,
+  "listed_only": false,
+  "s_pr": 97.75,
   "s_quality": 50.0,
-  "s_impact": 99.77,
-  "s_consistency": 97.09,
+  "s_impact": 99.78,
+  "s_consistency": 97.83,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,35 +17,39 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 864.7,
-  "active_repos_touched": 2,
+  "rank_score": 863.3,
+  "active_repos_touched": 3,
   "pr_reviews": 1,
   "issue_comments": 0,
   "releases": 0,
-  "stars_fraud_filtered": 4,
+  "stars_fraud_filtered": 5,
   "forks_fraud_filtered": 0,
   "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 619,
+  "rank": 518,
   "avatar_url": "https://avatars.githubusercontent.com/u/7030001?v=4",
   "bio": "20+ years in data center systems, ex-VMware Certified Instructor, now into agentic LLM automation. Author of BirdNET-Go. Wildlife photographer, owl enthusiast.",
   "company": "",
   "location": "Muurame, Finland",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 418,
-  "prev_score": 867.5,
-  "rank_delta": -201,
-  "score_delta": -2.8,
+  "prev_rank": 619,
+  "prev_score": 864.7,
+  "rank_delta": 101,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "tphakala/birdnet-go",
-      "prs": 4
+      "prs": 3
+    },
+    {
+      "repo": "tphakala/panos-mcp-go",
+      "prs": 1
     }
   ],
   "history": [
@@ -57,6 +62,11 @@
       "d": "2026-11-24",
       "r": 619,
       "s": 864.7
+    },
+    {
+      "d": "2026-11-25",
+      "r": 518,
+      "s": 863.3
     }
   ]
 }

@@ -4,10 +4,11 @@
   "primary_language": "Python",
   "total_pushes": 4,
   "merged_prs": 6,
-  "s_pr": 99.21,
+  "listed_only": false,
+  "s_pr": 98.84,
   "s_quality": 50.0,
-  "s_impact": 99.89,
-  "s_consistency": 98.18,
+  "s_impact": 99.86,
+  "s_consistency": 99.09,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 262,
+  "rank": 186,
   "avatar_url": "https://avatars.githubusercontent.com/u/218792529?u=436f4d411661aff1e8c82916f510d2f494234b12&v=4",
   "bio": "building open source software for gtm teams",
   "company": "",
   "location": "Sweden",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 350,
-  "prev_score": 868.3,
-  "rank_delta": 88,
-  "score_delta": 0.9,
+  "prev_rank": 262,
+  "prev_score": 869.2,
+  "rank_delta": 76,
+  "score_delta": 0.0,
   "counted_merges": [
     {
       "repo": "eliasstravik/shepherdr",
@@ -56,6 +57,11 @@
     {
       "d": "2026-11-24",
       "r": 262,
+      "s": 869.2
+    },
+    {
+      "d": "2026-11-25",
+      "r": 186,
       "s": 869.2
     }
   ]

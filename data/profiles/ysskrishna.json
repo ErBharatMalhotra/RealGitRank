@@ -1,0 +1,62 @@
+{
+  "username": "ysskrishna",
+  "country": "India",
+  "primary_language": "Python",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 95.88,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 4,
+  "window_days": 30,
+  "rank_score": 854.2,
+  "active_repos_touched": 8,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 940,
+  "avatar_url": "https://avatars.githubusercontent.com/u/26503640?u=66d463d52595751130c54e2939e76371d9807cbb&v=4",
+  "bio": "Founding Engineer | Ex-Navi | Ex-Honeywell | IIT Madras",
+  "company": "",
+  "location": "Banglore, India",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "ysskrishna/claude-code-subagents-for-cursor",
+      "prs": 1
+    },
+    {
+      "repo": "ysskrishna/pypi-package-stats",
+      "prs": 1
+    },
+    {
+      "repo": "ysskrishna/shai-hulud-detector",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 940,
+      "s": 854.2
+    }
+  ]
+}

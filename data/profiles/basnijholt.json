@@ -2,45 +2,46 @@
   "username": "basnijholt",
   "country": "United States",
   "primary_language": "Python",
-  "total_pushes": 80,
-  "merged_prs": 17,
-  "s_pr": 99.94,
+  "total_pushes": 51,
+  "merged_prs": 15,
+  "listed_only": false,
+  "s_pr": 99.89,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 98.69,
+  "s_impact": 99.51,
+  "s_consistency": 98.22,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 19,
+  "active_days": 18,
   "window_days": 30,
-  "rank_score": 871.8,
-  "active_repos_touched": 14,
-  "pr_reviews": 8,
+  "rank_score": 870.7,
+  "active_repos_touched": 11,
+  "pr_reviews": 7,
   "issue_comments": 13,
   "releases": 0,
   "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 81,
+  "rank": 95,
   "avatar_url": "https://avatars.githubusercontent.com/u/6897215?u=a7d69832481ceabbd1a99ab22413a7141d2b1183&v=4",
   "bio": "\ud83d\udd2c Building quantum computers at IonQ by day, crafting various open-source tools at night.",
   "company": "",
   "location": "Seattle, USA",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 119,
-  "prev_score": 871.2,
-  "rank_delta": 38,
-  "score_delta": 0.6,
+  "prev_rank": 81,
+  "prev_score": 871.8,
+  "rank_delta": -14,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "mindroom-ai/mindroom",
@@ -51,15 +52,7 @@
       "prs": 4
     },
     {
-      "repo": "mindroom-ai/deep-research-plugin",
-      "prs": 1
-    },
-    {
       "repo": "mindroom-ai/mindroom-nio",
-      "prs": 1
-    },
-    {
-      "repo": "mindroom-ai/mindroom-stack",
       "prs": 1
     },
     {
@@ -77,6 +70,11 @@
       "d": "2026-11-24",
       "r": 81,
       "s": 871.8
+    },
+    {
+      "d": "2026-11-25",
+      "r": 95,
+      "s": 870.7
     }
   ]
 }

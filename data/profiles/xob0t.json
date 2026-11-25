@@ -4,10 +4,11 @@
   "primary_language": "TypeScript",
   "total_pushes": 3,
   "merged_prs": 4,
-  "s_pr": 98.47,
+  "listed_only": false,
+  "s_pr": 97.75,
   "s_quality": 50.0,
-  "s_impact": 99.72,
-  "s_consistency": 95.04,
+  "s_impact": 99.66,
+  "s_consistency": 95.85,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 861.5,
+  "rank_score": 860.1,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -27,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 796,
+  "rank": 676,
   "avatar_url": "https://avatars.githubusercontent.com/u/32616886?u=eeaefd4043a43ce80dc6239c9441b0e905858c97&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 752,
-  "prev_score": 862.3,
-  "rank_delta": -44,
-  "score_delta": -0.8,
+  "prev_rank": 796,
+  "prev_score": 861.5,
+  "rank_delta": 120,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "xob0t/driversf-forza",
@@ -61,6 +62,11 @@
       "d": "2026-11-24",
       "r": 796,
       "s": 861.5
+    },
+    {
+      "d": "2026-11-25",
+      "r": 676,
+      "s": 860.1
     }
   ]
 }

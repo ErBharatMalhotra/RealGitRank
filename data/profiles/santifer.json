@@ -1,0 +1,62 @@
+{
+  "username": "santifer",
+  "country": "Spain",
+  "primary_language": "JavaScript",
+  "total_pushes": 3,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 98.19,
+  "s_quality": 50.0,
+  "s_impact": 98.53,
+  "s_consistency": 97.59,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 861.4,
+  "active_repos_touched": 4,
+  "pr_reviews": 5,
+  "issue_comments": 4,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 614,
+  "avatar_url": "https://avatars.githubusercontent.com/u/256850418?u=1abde924a2eb593c30ef8122a1efcf4e5622f727&v=4",
+  "bio": "Creator of career-ops, open-source AI job search agent.\r\n\r\nFounder (exit 2025)",
+  "company": "@career-ops-hq ",
+  "location": "Seville, Spain",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "career-ops-hq/career-ops",
+      "prs": 1
+    },
+    {
+      "repo": "career-ops-hq/career-ops-docs",
+      "prs": 1
+    },
+    {
+      "repo": "hashgraph-online/awesome-ai-plugins",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 614,
+      "s": 861.4
+    }
+  ]
+}

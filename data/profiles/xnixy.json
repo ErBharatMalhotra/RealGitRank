@@ -1,0 +1,54 @@
+{
+  "username": "xnixy",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.51,
+  "s_consistency": 95.48,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 854.8,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 914,
+  "avatar_url": "https://avatars.githubusercontent.com/u/99137202?u=3d49615146d82ac6de63ee1ac1b70a51c6dfe5b8&v=4",
+  "bio": "",
+  "company": "",
+  "location": "California",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "xnixy/guesthouse",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 914,
+      "s": 854.8
+    }
+  ]
+}

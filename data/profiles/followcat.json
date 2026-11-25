@@ -1,0 +1,62 @@
+{
+  "username": "followcat",
+  "country": "China",
+  "primary_language": "Rust",
+  "total_pushes": 2,
+  "merged_prs": 5,
+  "listed_only": false,
+  "s_pr": 98.84,
+  "s_quality": 50.0,
+  "s_impact": 99.66,
+  "s_consistency": 91.41,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 857.2,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 827,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3616823?u=7541fcf7f86be205fdb2bc5ecffe2043fbe44c8d&v=4",
+  "bio": "Play the high efficiency. black magic.",
+  "company": "@WillendareTech ",
+  "location": "GZ, china",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "afloury/wherdr",
+      "prs": 2
+    },
+    {
+      "repo": "followcat/hc-tui",
+      "prs": 2
+    },
+    {
+      "repo": "followcat/backlot",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 827,
+      "s": 857.2
+    }
+  ]
+}

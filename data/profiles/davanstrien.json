@@ -1,0 +1,62 @@
+{
+  "username": "davanstrien",
+  "country": "United Kingdom",
+  "primary_language": "Python",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 97.49,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 98.06,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 860.8,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 648,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8995957?u=fb2aad2b52bb4e7b56db6d7c8ecc9ae1eac1b984&v=4",
+  "bio": "Machine Learning Librarian @huggingface ",
+  "company": "Hugging Face",
+  "location": "United Kingdom",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "davanstrien/bucketbag",
+      "prs": 1
+    },
+    {
+      "repo": "davanstrien/uv-scripts",
+      "prs": 1
+    },
+    {
+      "repo": "huggingface/hub-docs",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 648,
+      "s": 860.8
+    }
+  ]
+}

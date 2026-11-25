@@ -1,0 +1,54 @@
+{
+  "username": "Bobliuuu",
+  "country": "Canada",
+  "primary_language": "Cuda",
+  "total_pushes": 16,
+  "merged_prs": 9,
+  "listed_only": false,
+  "s_pr": 99.41,
+  "s_quality": 50.0,
+  "s_impact": 99.66,
+  "s_consistency": 90.6,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 858.0,
+  "active_repos_touched": 8,
+  "pr_reviews": 0,
+  "issue_comments": 3,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 790,
+  "avatar_url": "https://avatars.githubusercontent.com/u/54565411?u=900170119f7378dcc6984624a7dd86bf2c0c9600&v=4",
+  "bio": "UW CS PMATH CO CM '27",
+  "company": "Shopify",
+  "location": "Canada",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Bobliuuu/allgit",
+      "prs": 9
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 790,
+      "s": 858.0
+    }
+  ]
+}

@@ -2,12 +2,13 @@
   "username": "yeongseon",
   "country": "South Korea",
   "primary_language": "Python",
-  "total_pushes": 70,
+  "total_pushes": 42,
   "merged_prs": 35,
+  "listed_only": false,
   "s_pr": 99.98,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 98.98,
+  "s_impact": 99.42,
+  "s_consistency": 98.65,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,31 +17,31 @@
   },
   "active_days": 25,
   "window_days": 30,
-  "rank_score": 872.2,
-  "active_repos_touched": 35,
+  "rank_score": 871.4,
+  "active_repos_touched": 34,
   "pr_reviews": 8,
-  "issue_comments": 24,
+  "issue_comments": 21,
   "releases": 0,
   "stars_fraud_filtered": 0,
   "forks_fraud_filtered": 2,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 54,
+  "rank": 60,
   "avatar_url": "https://avatars.githubusercontent.com/u/8798819?u=60ae1b6e02f2a2fbdf2afa33ff135818876422fc&v=4",
   "bio": "Cloud & Platform Engineer | Distributed Systems | Azure | Builder",
   "company": "Microsoft",
   "location": "Seoul, Korea",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 63,
-  "prev_score": 871.9,
-  "rank_delta": 9,
-  "score_delta": 0.3,
+  "prev_rank": 54,
+  "prev_score": 872.2,
+  "rank_delta": -6,
+  "score_delta": -0.8,
   "counted_merges": [
     {
       "repo": "cubrid-lab/cubrid-client",
@@ -52,7 +53,7 @@
     },
     {
       "repo": "cubrid-lab/cubrid-kubernetes-operator",
-      "prs": 3
+      "prs": 4
     },
     {
       "repo": "cubrid-lab/pycubrid",
@@ -93,6 +94,11 @@
       "d": "2026-11-24",
       "r": 54,
       "s": 872.2
+    },
+    {
+      "d": "2026-11-25",
+      "r": 60,
+      "s": 871.4
     }
   ]
 }

@@ -2,12 +2,13 @@
   "username": "jeffersongoncalves",
   "country": "Brazil",
   "primary_language": "PHP",
-  "total_pushes": 15,
-  "merged_prs": 15,
-  "s_pr": 99.85,
+  "total_pushes": 14,
+  "merged_prs": 17,
+  "listed_only": false,
+  "s_pr": 99.82,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 98.61,
+  "s_impact": 99.51,
+  "s_consistency": 98.19,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,31 +17,31 @@
   },
   "active_days": 13,
   "window_days": 30,
-  "rank_score": 871.3,
-  "active_repos_touched": 62,
+  "rank_score": 870.4,
+  "active_repos_touched": 66,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 3,
   "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 103,
+  "rank": 108,
   "avatar_url": "https://avatars.githubusercontent.com/u/411493?u=53b5f0453da8f12a07b081a3b5e45103a571a2d8&v=4",
   "bio": "Full Stack PHP Developer | Filament | Laravel | Livewire | Alpine.js | Tailwind CSS",
   "company": "",
   "location": "Assis, SP, Brazil",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 169,
-  "prev_score": 870.6,
-  "rank_delta": 66,
-  "score_delta": 0.7,
+  "prev_rank": 103,
+  "prev_score": 871.3,
+  "rank_delta": -5,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "jeffersongoncalves/filament-user",
@@ -52,6 +53,14 @@
     },
     {
       "repo": "jeffersongoncalves/cakephp-ldap",
+      "prs": 1
+    },
+    {
+      "repo": "jeffersongoncalves/filament-carve",
+      "prs": 1
+    },
+    {
+      "repo": "jeffersongoncalves/filament-crisp",
       "prs": 1
     },
     {
@@ -73,14 +82,6 @@
     {
       "repo": "jeffersongoncalves/filament-skeleton",
       "prs": 1
-    },
-    {
-      "repo": "jeffersongoncalves/filament-topbar",
-      "prs": 1
-    },
-    {
-      "repo": "jeffersongoncalves/filament-widget-configuration",
-      "prs": 1
     }
   ],
   "history": [
@@ -93,6 +94,11 @@
       "d": "2026-11-24",
       "r": 103,
       "s": 871.3
+    },
+    {
+      "d": "2026-11-25",
+      "r": 108,
+      "s": 870.4
     }
   ]
 }

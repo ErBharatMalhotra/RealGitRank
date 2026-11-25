@@ -1,0 +1,58 @@
+{
+  "username": "arxhr007",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 1,
+  "merged_prs": 2,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.78,
+  "s_consistency": 95.66,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 855.7,
+  "active_repos_touched": 6,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 5,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 887,
+  "avatar_url": "https://avatars.githubusercontent.com/u/84493696?u=0040d6628d85136b5e215a86f3be91f554cd7c69&v=4",
+  "bio": "AI/ML Engineer | Full Stack Devloper",
+  "company": "",
+  "location": "Remote",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "docker/docker-agent",
+      "prs": 1
+    },
+    {
+      "repo": "python-pillow/Pillow",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 887,
+      "s": 855.7
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "username": "dexhunter",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 0,
+  "merged_prs": 4,
+  "listed_only": false,
+  "s_pr": 98.84,
+  "s_quality": 50.0,
+  "s_impact": 99.51,
+  "s_consistency": 89.47,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 853.9,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 951,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6930518?u=c28e088cf173288cb749a002f7721a3ea1d0e3c6&v=4",
+  "bio": "Felix, qui potuit rerum cognoscere causas. ",
+  "company": "@WecoAI",
+  "location": "via lactea",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 1,
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "PINA-org/PINA",
+      "prs": 1
+    },
+    {
+      "repo": "machinewrapped/llm-subtrans",
+      "prs": 1
+    },
+    {
+      "repo": "phonopy/phonopy",
+      "prs": 1
+    },
+    {
+      "repo": "trailofbits/graphtage",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 951,
+      "s": 853.9
+    }
+  ]
+}

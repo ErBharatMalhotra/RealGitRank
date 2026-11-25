@@ -1,0 +1,70 @@
+{
+  "username": "codepuncher",
+  "country": "United Kingdom",
+  "primary_language": "Dockerfile",
+  "total_pushes": 0,
+  "merged_prs": 5,
+  "listed_only": false,
+  "s_pr": 99.08,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 91.49,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 856.6,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 849,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8135396?u=8eebbe60dfc9e018d136bcacaeacde0841fc71d0&v=4",
+  "bio": "Senior Full Stack Developer. Working with PHP, Typescript, Go, Bash and Linux.",
+  "company": "@ItinerisLtd ",
+  "location": "United Kingdom",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "ItinerisLtd/PostTypes",
+      "prs": 1
+    },
+    {
+      "repo": "ItinerisLtd/composify",
+      "prs": 1
+    },
+    {
+      "repo": "ItinerisLtd/trellis-wordfence-kinsta",
+      "prs": 1
+    },
+    {
+      "repo": "ItinerisLtd/wp-force-lowercase-urls",
+      "prs": 1
+    },
+    {
+      "repo": "codepuncher/khuey",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 849,
+      "s": 856.6
+    }
+  ]
+}

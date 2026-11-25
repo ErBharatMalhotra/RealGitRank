@@ -1,0 +1,54 @@
+{
+  "username": "comfyanonymous",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.61,
+  "s_consistency": 94.62,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 4,
+  "window_days": 30,
+  "rank_score": 853.7,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 971,
+  "avatar_url": "https://avatars.githubusercontent.com/u/121283862?u=87fb35433cc6eaa4604e3920257c7ff181cae030&v=4",
+  "bio": "",
+  "company": "@Comfy-Org",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 971,
+      "s": 853.7
+    }
+  ]
+}

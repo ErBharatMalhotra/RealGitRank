@@ -3,50 +3,47 @@
   "country": "",
   "primary_language": "JavaScript",
   "total_pushes": 2,
-  "merged_prs": 3,
-  "s_pr": 98.29,
+  "merged_prs": 2,
+  "listed_only": false,
+  "s_pr": 95.49,
   "s_quality": 50.0,
-  "s_impact": 99.84,
-  "s_consistency": 98.08,
+  "s_impact": 99.8,
+  "s_consistency": 98.51,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 7,
   "window_days": 30,
-  "rank_score": 865.7,
-  "active_repos_touched": 4,
+  "rank_score": 856.5,
+  "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 3,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 567,
+  "rank": 859,
   "avatar_url": "https://avatars.githubusercontent.com/u/100819018?u=98baf1eece3019dd0dae538a363ea04c9039348a&v=4",
   "bio": "Building practical, local-first desktop tools and AI-assisted workflows.",
   "company": "",
   "location": "Online",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "ci_pushes": 2,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 498,
-  "prev_score": 866.5,
-  "rank_delta": -69,
-  "score_delta": -0.8,
+  "prev_rank": 567,
+  "prev_score": 865.7,
+  "rank_delta": -292,
+  "score_delta": -9.2,
   "counted_merges": [
-    {
-      "repo": "WSL043/DSH-Portable",
-      "prs": 1
-    },
     {
       "repo": "WSL043/dsh-chat-manager",
       "prs": 1
@@ -66,6 +63,11 @@
       "d": "2026-11-24",
       "r": 567,
       "s": 865.7
+    },
+    {
+      "d": "2026-11-25",
+      "r": 859,
+      "s": 856.5
     }
   ]
 }

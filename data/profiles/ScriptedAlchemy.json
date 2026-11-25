@@ -2,46 +2,47 @@
   "username": "ScriptedAlchemy",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 53,
-  "merged_prs": 9,
-  "s_pr": 99.6,
+  "total_pushes": 36,
+  "merged_prs": 8,
+  "listed_only": false,
+  "s_pr": 99.3,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 97.75,
+  "s_impact": 99.02,
+  "s_consistency": 95.75,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 16,
+  "active_days": 15,
   "window_days": 30,
-  "rank_score": 868.1,
+  "rank_score": 863.7,
   "active_repos_touched": 7,
   "pr_reviews": 3,
   "issue_comments": 5,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 354,
+  "rank": 497,
   "avatar_url": "https://avatars.githubusercontent.com/u/25274700?u=6d6033b74f887770d2fbc8489bbed280949437e9&v=4",
   "bio": "Infra Architect | Webpack / Rspack Maintainer, Inventor & co-creator of Module Federation, Universal Javascript, JavasScript orchestration at scale.",
   "company": "@web-infra-dev @webpack, @module-federation ",
   "location": "Redmond, WA",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "ci_pushes": 3,
-  "percentile": 100.0,
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 265,
-  "prev_score": 869.5,
-  "rank_delta": -89,
-  "score_delta": -1.4,
+  "prev_rank": 354,
+  "prev_score": 868.1,
+  "rank_delta": -143,
+  "score_delta": -4.4,
   "counted_merges": [
     {
       "repo": "ScriptedAlchemy/tracedecay",
@@ -53,7 +54,7 @@
     },
     {
       "repo": "ScriptedAlchemy/t3code",
-      "prs": 2
+      "prs": 1
     }
   ],
   "history": [
@@ -66,6 +67,11 @@
       "d": "2026-11-24",
       "r": 354,
       "s": 868.1
+    },
+    {
+      "d": "2026-11-25",
+      "r": 497,
+      "s": 863.7
     }
   ]
 }

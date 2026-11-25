@@ -4,10 +4,11 @@
   "primary_language": "Go",
   "total_pushes": 13,
   "merged_prs": 7,
-  "s_pr": 99.69,
+  "listed_only": false,
+  "s_pr": 99.55,
   "s_quality": 50.0,
-  "s_impact": 99.67,
-  "s_consistency": 96.16,
+  "s_impact": 99.61,
+  "s_consistency": 97.12,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 867.3,
+  "rank_score": 868.1,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -27,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 425,
+  "rank": 237,
   "avatar_url": "https://avatars.githubusercontent.com/u/27567533?u=4dc77603c90e95d169cef316c28ef1ad383db4f1&v=4",
   "bio": "DevOps engineer, adventurer and mountainbike enthusiast! \ud83d\udeb5\u200d\u2642\ufe0f\r\nFounder of @Maki-IT.",
   "company": "@adorsys @maki-it ",
   "location": "Nuremberg, Germany",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 320,
-  "prev_score": 868.8,
-  "rank_delta": -105,
-  "score_delta": -1.5,
+  "prev_rank": 425,
+  "prev_score": 867.3,
+  "rank_delta": 188,
+  "score_delta": 0.8,
   "counted_merges": [
     {
       "repo": "maki-it/hostashi",
@@ -58,6 +59,11 @@
       "d": "2026-11-24",
       "r": 425,
       "s": 867.3
+    },
+    {
+      "d": "2026-11-25",
+      "r": 237,
+      "s": 868.1
     }
   ]
 }

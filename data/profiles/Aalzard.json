@@ -4,10 +4,11 @@
   "primary_language": "Rust",
   "total_pushes": 5,
   "merged_prs": 9,
-  "s_pr": 99.6,
+  "listed_only": false,
+  "s_pr": 99.41,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 94.44,
+  "s_impact": 99.51,
+  "s_consistency": 95.15,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 864.2,
+  "rank_score": 864.4,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 649,
+  "rank": 448,
   "avatar_url": "https://avatars.githubusercontent.com/u/69751770?u=e36332338b1915a6b7bf11d66261652bba2fad0c&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 649,
+  "prev_score": 864.2,
+  "rank_delta": 201,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "Aalzard/subcraft",
@@ -48,6 +53,11 @@
       "d": "2026-11-24",
       "r": 649,
       "s": 864.2
+    },
+    {
+      "d": "2026-11-25",
+      "r": 448,
+      "s": 864.4
     }
   ]
 }

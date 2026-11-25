@@ -3,11 +3,12 @@
   "country": "France",
   "primary_language": "Python",
   "total_pushes": 3,
-  "merged_prs": 8,
-  "s_pr": 99.53,
+  "merged_prs": 9,
+  "listed_only": false,
+  "s_pr": 99.41,
   "s_quality": 50.0,
-  "s_impact": 99.77,
-  "s_consistency": 95.0,
+  "s_impact": 99.8,
+  "s_consistency": 95.79,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,34 +17,38 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 865.3,
+  "rank_score": 866.1,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 0,
-  "stars_fraud_filtered": 4,
-  "forks_fraud_filtered": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 1,
   "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 585,
+  "rank": 339,
   "avatar_url": "https://avatars.githubusercontent.com/u/82093548?u=e53b38becf15aa0996e5a4749e8f8d61151aa032&v=4",
   "bio": "",
   "company": "",
   "location": "Paris - France",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "percentile": 99.9,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 488,
-  "prev_score": 866.6,
-  "rank_delta": -97,
-  "score_delta": -1.3,
+  "prev_rank": 585,
+  "prev_score": 865.3,
+  "rank_delta": 246,
+  "score_delta": 0.8,
   "counted_merges": [
     {
       "repo": "CroqueMr/CB1",
+      "prs": 2
+    },
+    {
+      "repo": "CroqueMr/libreelec-CB1",
       "prs": 2
     },
     {
@@ -52,10 +57,6 @@
     },
     {
       "repo": "CroqueMr/libplacebo",
-      "prs": 1
-    },
-    {
-      "repo": "CroqueMr/libreelec-CB1",
       "prs": 1
     },
     {
@@ -81,6 +82,11 @@
       "d": "2026-11-24",
       "r": 585,
       "s": 865.3
+    },
+    {
+      "d": "2026-11-25",
+      "r": 339,
+      "s": 866.1
     }
   ]
 }

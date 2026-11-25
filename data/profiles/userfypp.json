@@ -1,0 +1,58 @@
+{
+  "username": "userfypp",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 3,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.42,
+  "s_consistency": 96.06,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 855.4,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 2,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 895,
+  "avatar_url": "https://avatars.githubusercontent.com/u/299657742?u=a9fe8b3207bd2d1f18f5d571d344115e9db0f7db&v=4",
+  "bio": "I like privacy and grape juice.",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "userfypp/phasewise",
+      "prs": 2
+    },
+    {
+      "repo": "userfypp/plan-measure",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 895,
+      "s": 855.4
+    }
+  ]
+}

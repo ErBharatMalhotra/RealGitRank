@@ -2,53 +2,50 @@
   "username": "fabriziosalmi",
   "country": "Italy",
   "primary_language": "Python",
-  "total_pushes": 15,
-  "merged_prs": 6,
-  "s_pr": 99.21,
+  "total_pushes": 5,
+  "merged_prs": 5,
+  "listed_only": false,
+  "s_pr": 98.51,
   "s_quality": 50.0,
-  "s_impact": 99.84,
-  "s_consistency": 99.16,
+  "s_impact": 99.75,
+  "s_consistency": 98.87,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 7,
   "window_days": 30,
-  "rank_score": 870.6,
-  "active_repos_touched": 12,
+  "rank_score": 867.5,
+  "active_repos_touched": 9,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 1,
-  "stars_fraud_filtered": 3,
+  "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 160,
+  "rank": 266,
   "avatar_url": "https://avatars.githubusercontent.com/u/1569108?u=9dc3b1ee38c085af6a573d3af1519e15dd1373d8&v=4",
   "bio": "I am not a coder.",
   "company": "",
   "location": "Italy",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 163,
-  "prev_score": 870.7,
-  "rank_delta": 3,
-  "score_delta": -0.1,
+  "prev_rank": 160,
+  "prev_score": 870.6,
+  "rank_delta": -106,
+  "score_delta": -3.1,
   "counted_merges": [
     {
       "repo": "fabriziosalmi/secure-proxy-manager",
       "prs": 3
-    },
-    {
-      "repo": "fabriziosalmi/certmate",
-      "prs": 1
     },
     {
       "repo": "fabriziosalmi/scanprivacy",
@@ -69,6 +66,11 @@
       "d": "2026-11-24",
       "r": 160,
       "s": 870.6
+    },
+    {
+      "d": "2026-11-25",
+      "r": 266,
+      "s": 867.5
     }
   ]
 }

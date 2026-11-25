@@ -2,45 +2,46 @@
   "username": "hevangel",
   "country": "Canada",
   "primary_language": "VHDL",
-  "total_pushes": 9,
-  "merged_prs": 7,
-  "s_pr": 99.38,
+  "total_pushes": 7,
+  "merged_prs": 6,
+  "listed_only": false,
+  "s_pr": 98.84,
   "s_quality": 50.0,
-  "s_impact": 99.67,
-  "s_consistency": 97.64,
+  "s_impact": 99.61,
+  "s_consistency": 95.56,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 7,
   "window_days": 30,
-  "rank_score": 868.5,
-  "active_repos_touched": 9,
+  "rank_score": 863.3,
+  "active_repos_touched": 8,
   "pr_reviews": 0,
-  "issue_comments": 10,
+  "issue_comments": 5,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 319,
+  "rank": 517,
   "avatar_url": "https://avatars.githubusercontent.com/u/11812212?u=fa11ec1a9f594639dbc7c87cf63001b7edbda29a&v=4",
   "bio": "A quest to learn everything in computing, from hardware to software, from cloud to client, from robotics to AI",
   "company": "",
   "location": "Canada",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "percentile": 100.0,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 579,
-  "prev_score": 865.1,
-  "rank_delta": 260,
-  "score_delta": 3.4,
+  "prev_rank": 319,
+  "prev_score": 868.5,
+  "rank_delta": -198,
+  "score_delta": -5.2,
   "counted_merges": [
     {
       "repo": "hevangel/ai_hw_engineer",
@@ -53,10 +54,6 @@
     {
       "repo": "hevangel/silicon_wars_anime_girls",
       "prs": 2
-    },
-    {
-      "repo": "hevangel/tokensfyi",
-      "prs": 1
     }
   ],
   "history": [
@@ -69,6 +66,11 @@
       "d": "2026-11-24",
       "r": 319,
       "s": 868.5
+    },
+    {
+      "d": "2026-11-25",
+      "r": 517,
+      "s": 863.3
     }
   ]
 }

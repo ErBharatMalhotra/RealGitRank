@@ -4,10 +4,11 @@
   "primary_language": "TypeScript",
   "total_pushes": 2,
   "merged_prs": 3,
-  "s_pr": 97.64,
+  "listed_only": false,
+  "s_pr": 96.51,
   "s_quality": 50.0,
-  "s_impact": 99.97,
-  "s_consistency": 96.65,
+  "s_impact": 99.96,
+  "s_consistency": 97.64,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 861.6,
+  "rank_score": 859.1,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 793,
+  "rank": 727,
   "avatar_url": "https://avatars.githubusercontent.com/u/1032175?u=43298a3d7c931db356f6f08e357ebe142bb29f89&v=4",
   "bio": "",
   "company": "AGALWOOD",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 596,
-  "prev_score": 864.8,
-  "rank_delta": -197,
-  "score_delta": -3.2,
+  "prev_rank": 793,
+  "prev_score": 861.6,
+  "rank_delta": 66,
+  "score_delta": -2.5,
   "counted_merges": [
     {
       "repo": "agalwood/Motrix",
@@ -57,6 +58,11 @@
       "d": "2026-11-24",
       "r": 793,
       "s": 861.6
+    },
+    {
+      "d": "2026-11-25",
+      "r": 727,
+      "s": 859.1
     }
   ]
 }

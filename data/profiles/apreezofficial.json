@@ -1,0 +1,61 @@
+{
+  "username": "apreezofficial",
+  "country": "Nigeria",
+  "primary_language": "PHP",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "listed_only": false,
+  "s_pr": 95.49,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 98.08,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 3,
+  "window_days": 30,
+  "rank_score": 853.9,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 958,
+  "avatar_url": "https://avatars.githubusercontent.com/u/193069706?u=89594126b35aa39e3b785ce2595bbca3f94cfbfe&v=4",
+  "bio": "founder @voieforms active in\r\n@Geeks-Global as a Fullstack software dev\r\n@JUJOGE as a Senior frontend developer \r\n@OBSFashion as a Mobile app dev",
+  "company": "@Geeksglobal solutions",
+  "location": "Nigeria",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Almond-devOps/jimvolt",
+      "prs": 1
+    },
+    {
+      "repo": "apreezofficial/yizelearn",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 958,
+      "s": 853.9
+    }
+  ],
+  "followers": 73,
+  "commits_1y": 4614,
+  "repos_total": 135
+}

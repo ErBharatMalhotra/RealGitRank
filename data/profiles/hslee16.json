@@ -4,10 +4,11 @@
   "primary_language": "Python",
   "total_pushes": 4,
   "merged_prs": 9,
-  "s_pr": 99.6,
+  "listed_only": false,
+  "s_pr": 99.41,
   "s_quality": 50.0,
-  "s_impact": 98.72,
-  "s_consistency": 94.38,
+  "s_impact": 98.53,
+  "s_consistency": 95.08,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 862.0,
+  "rank_score": 861.9,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -27,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 764,
+  "rank": 586,
   "avatar_url": "https://avatars.githubusercontent.com/u/3871876?u=579a182aeb23340fc2a352396d47622603a83121&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 764,
+  "prev_score": 862.0,
+  "rank_delta": 178,
+  "score_delta": -0.1,
   "counted_merges": [
     {
       "repo": "hslee16/klatch",
@@ -52,6 +57,11 @@
       "d": "2026-11-24",
       "r": 764,
       "s": 862.0
+    },
+    {
+      "d": "2026-11-25",
+      "r": 586,
+      "s": 861.9
     }
   ]
 }

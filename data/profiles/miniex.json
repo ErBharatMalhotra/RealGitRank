@@ -1,0 +1,62 @@
+{
+  "username": "miniex",
+  "country": "South Korea",
+  "primary_language": "Rust",
+  "total_pushes": 22,
+  "merged_prs": 2,
+  "listed_only": false,
+  "s_pr": 96.51,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 95.74,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 853.9,
+  "active_repos_touched": 12,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 956,
+  "avatar_url": "https://avatars.githubusercontent.com/u/176331224?u=b0ff0584469b18188fe339e06a257dbfe6e128ae&v=4",
+  "bio": "",
+  "company": "@daminstudio",
+  "location": "Seoul, Korea",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 1,
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "nabi-lang/nabi",
+      "prs": 1
+    },
+    {
+      "repo": "rok-lang/rok",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 956,
+      "s": 853.9
+    }
+  ],
+  "followers": 80,
+  "commits_1y": 1744,
+  "repos_total": 20
+}

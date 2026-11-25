@@ -2,12 +2,13 @@
   "username": "SamuelSchlesinger",
   "country": "",
   "primary_language": "Lean",
-  "total_pushes": 64,
+  "total_pushes": 37,
   "merged_prs": 42,
+  "listed_only": false,
   "s_pr": 99.99,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 98.75,
+  "s_impact": 99.51,
+  "s_consistency": 98.35,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,14 +17,14 @@
   },
   "active_days": 24,
   "window_days": 30,
-  "rank_score": 872.1,
-  "active_repos_touched": 8,
-  "pr_reviews": 65,
-  "issue_comments": 205,
+  "rank_score": 871.3,
+  "active_repos_touched": 7,
+  "pr_reviews": 71,
+  "issue_comments": 206,
   "releases": 0,
   "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
@@ -33,22 +34,22 @@
   "company": "Google",
   "location": "Connecticut",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 90,
-  "prev_score": 871.5,
-  "rank_delta": 28,
-  "score_delta": 0.6,
+  "prev_rank": 62,
+  "prev_score": 872.1,
+  "rank_delta": 0,
+  "score_delta": -0.8,
   "counted_merges": [
     {
       "repo": "cslib-community/complexitylib",
-      "prs": 23
+      "prs": 22
     },
     {
       "repo": "cslib-community/cslib-frontier",
-      "prs": 19
+      "prs": 20
     }
   ],
   "history": [
@@ -61,6 +62,11 @@
       "d": "2026-11-24",
       "r": 62,
       "s": 872.1
+    },
+    {
+      "d": "2026-11-25",
+      "r": 62,
+      "s": 871.3
     }
   ]
 }

@@ -2,12 +2,13 @@
   "username": "soulteary",
   "country": "China",
   "primary_language": "Python",
-  "total_pushes": 34,
-  "merged_prs": 15,
-  "s_pr": 99.85,
+  "total_pushes": 20,
+  "merged_prs": 17,
+  "listed_only": false,
+  "s_pr": 99.82,
   "s_quality": 50.0,
-  "s_impact": 99.72,
-  "s_consistency": 97.87,
+  "s_impact": 99.66,
+  "s_consistency": 98.74,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,10 +17,10 @@
   },
   "active_days": 20,
   "window_days": 30,
-  "rank_score": 870.6,
+  "rank_score": 871.6,
   "active_repos_touched": 27,
-  "pr_reviews": 2,
-  "issue_comments": 6,
+  "pr_reviews": 3,
+  "issue_comments": 3,
   "releases": 1,
   "stars_fraud_filtered": 3,
   "forks_fraud_filtered": 0,
@@ -27,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 154,
+  "rank": 53,
   "avatar_url": "https://avatars.githubusercontent.com/u/1500781?u=39d7e9d3cc0d0a0799d3ceeb965e6b270d9f5d09&v=4",
   "bio": "I find code fascinating: building for life.",
   "company": "",
   "location": "Beijing, China",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "ci_pushes": 2,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 48,
-  "prev_score": 872.2,
-  "rank_delta": -106,
-  "score_delta": -1.6,
+  "prev_rank": 154,
+  "prev_score": 870.6,
+  "rank_delta": 101,
+  "score_delta": 1.0,
   "counted_merges": [
     {
       "repo": "soulteary/porter",
@@ -76,11 +77,11 @@
       "prs": 1
     },
     {
-      "repo": "soulteary/phorge",
+      "repo": "soulteary/logger-kit",
       "prs": 1
     },
     {
-      "repo": "soulteary/secure-kit",
+      "repo": "soulteary/phorge",
       "prs": 1
     }
   ],
@@ -94,6 +95,11 @@
       "d": "2026-11-24",
       "r": 154,
       "s": 870.6
+    },
+    {
+      "d": "2026-11-25",
+      "r": 53,
+      "s": 871.6
     }
   ]
 }

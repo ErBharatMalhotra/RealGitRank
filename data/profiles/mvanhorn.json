@@ -2,12 +2,13 @@
   "username": "mvanhorn",
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 25,
+  "total_pushes": 16,
   "merged_prs": 9,
-  "s_pr": 99.79,
+  "listed_only": false,
+  "s_pr": 99.68,
   "s_quality": 50.0,
   "s_impact": 100.0,
-  "s_consistency": 98.96,
+  "s_consistency": 98.58,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,32 +17,36 @@
   },
   "active_days": 28,
   "window_days": 30,
-  "rank_score": 872.7,
-  "active_repos_touched": 94,
-  "pr_reviews": 24,
-  "issue_comments": 27,
+  "rank_score": 871.7,
+  "active_repos_touched": 83,
+  "pr_reviews": 23,
+  "issue_comments": 29,
   "releases": 1,
-  "stars_fraud_filtered": 113,
+  "stars_fraud_filtered": 115,
   "forks_fraud_filtered": 17,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 37,
+  "rank": 50,
   "avatar_url": "https://avatars.githubusercontent.com/u/455140?u=ca70dc656c8256c47d6739e4347937bf139c28e7&v=4",
   "bio": "Co-founded June (\"self-driving oven\" acquired by @webergrills) & the co that became @Lyft. Building again, more soon. OS: @slashlast30days 67k\u2605 @ppressdev 4.9k\u2605",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 62,
-  "prev_score": 872.0,
-  "rank_delta": 25,
-  "score_delta": 0.7,
+  "prev_rank": 37,
+  "prev_score": 872.7,
+  "rank_delta": -13,
+  "score_delta": -1.0,
   "counted_merges": [
+    {
+      "repo": "mvanhorn/agent-tincan",
+      "prs": 2
+    },
     {
       "repo": "EKKOLearnAI/ekko-studio",
       "prs": 1
@@ -59,15 +64,7 @@
       "prs": 1
     },
     {
-      "repo": "javaparser/javaparser",
-      "prs": 1
-    },
-    {
       "repo": "kylezantos/headroom",
-      "prs": 1
-    },
-    {
-      "repo": "mvanhorn/agent-tincan",
       "prs": 1
     },
     {
@@ -89,6 +86,11 @@
       "d": "2026-11-24",
       "r": 37,
       "s": 872.7
+    },
+    {
+      "d": "2026-11-25",
+      "r": 50,
+      "s": 871.7
     }
   ]
 }

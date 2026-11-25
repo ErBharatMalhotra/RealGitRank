@@ -4,10 +4,11 @@
   "primary_language": "C++",
   "total_pushes": 5,
   "merged_prs": 4,
-  "s_pr": 98.47,
+  "listed_only": false,
+  "s_pr": 97.75,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 94.94,
+  "s_impact": 99.02,
+  "s_consistency": 95.73,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 859.9,
+  "rank_score": 858.3,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -27,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 905,
+  "rank": 772,
   "avatar_url": "https://avatars.githubusercontent.com/u/437395?u=163ade6cce1607502bfff70c0b7eb8833899560f&v=4",
   "bio": "A deadly dragon stalks this profile. Roll for Hide and Move Silently.",
   "company": "@Vhonowslend",
   "location": "Germany",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "ci_pushes": 2,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 840,
-  "prev_score": 860.8,
-  "rank_delta": -65,
-  "score_delta": -0.9,
+  "prev_rank": 905,
+  "prev_score": 859.9,
+  "rank_delta": 133,
+  "score_delta": -1.6,
   "counted_merges": [
     {
       "repo": "Xaymar/BlitzLLVM",
@@ -58,6 +59,11 @@
       "d": "2026-11-24",
       "r": 905,
       "s": 859.9
+    },
+    {
+      "d": "2026-11-25",
+      "r": 772,
+      "s": 858.3
     }
   ]
 }

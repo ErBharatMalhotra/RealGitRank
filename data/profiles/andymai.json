@@ -2,12 +2,13 @@
   "username": "andymai",
   "country": "United States",
   "primary_language": "TypeScript",
-  "total_pushes": 25,
-  "merged_prs": 7,
-  "s_pr": 99.38,
+  "total_pushes": 19,
+  "merged_prs": 9,
+  "listed_only": false,
+  "s_pr": 99.41,
   "s_quality": 50.0,
-  "s_impact": 99.77,
-  "s_consistency": 98.73,
+  "s_impact": 99.72,
+  "s_consistency": 98.28,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,40 +17,40 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 870.3,
-  "active_repos_touched": 8,
+  "rank_score": 869.7,
+  "active_repos_touched": 6,
   "pr_reviews": 6,
   "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 4,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 6,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 182,
+  "rank": 158,
   "avatar_url": "https://avatars.githubusercontent.com/u/216905?v=4",
   "bio": "Building CAD, geometry & WebAssembly tools for the browser. AI/ML at Babylist. Ask me about my cat hair. \ud83d\udc08",
   "company": "@babylist",
   "location": "San Francisco Bay Area",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "ci_pushes": 6,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 2,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 308,
-  "prev_score": 869.0,
-  "rank_delta": 126,
-  "score_delta": 1.3,
+  "prev_rank": 182,
+  "prev_score": 870.3,
+  "rank_delta": 24,
+  "score_delta": -0.6,
   "counted_merges": [
     {
       "repo": "andymai/brepkit",
-      "prs": 4
+      "prs": 5
     },
     {
       "repo": "andymai/gridfinity-layout-tool",
-      "prs": 2
+      "prs": 3
     },
     {
       "repo": "andymai/brepjs",
@@ -66,6 +67,11 @@
       "d": "2026-11-24",
       "r": 182,
       "s": 870.3
+    },
+    {
+      "d": "2026-11-25",
+      "r": 158,
+      "s": 869.7
     }
   ]
 }

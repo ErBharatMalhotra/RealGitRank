@@ -4,10 +4,11 @@
   "primary_language": "C",
   "total_pushes": 14,
   "merged_prs": 4,
-  "s_pr": 98.47,
+  "listed_only": false,
+  "s_pr": 97.75,
   "s_quality": 50.0,
-  "s_impact": 99.58,
-  "s_consistency": 97.52,
+  "s_impact": 99.51,
+  "s_consistency": 98.24,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 864.9,
+  "rank_score": 863.3,
   "active_repos_touched": 4,
   "pr_reviews": 6,
   "issue_comments": 1,
@@ -27,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 607,
+  "rank": 520,
   "avatar_url": "https://avatars.githubusercontent.com/u/170875756?u=928713390eac12993f784fc916877b67c787c95e&v=4",
   "bio": "Looking for work",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 559,
-  "prev_score": 865.5,
-  "rank_delta": -48,
-  "score_delta": -0.6,
+  "prev_rank": 607,
+  "prev_score": 864.9,
+  "rank_delta": 87,
+  "score_delta": -1.6,
   "counted_merges": [
     {
       "repo": "NoRain211/doa2u-re",
@@ -65,6 +66,11 @@
       "d": "2026-11-24",
       "r": 607,
       "s": 864.9
+    },
+    {
+      "d": "2026-11-25",
+      "r": 520,
+      "s": 863.3
     }
   ]
 }

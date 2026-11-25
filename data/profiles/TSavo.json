@@ -1,0 +1,62 @@
+{
+  "username": "TSavo",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 19,
+  "merged_prs": 18,
+  "listed_only": false,
+  "s_pr": 99.84,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 98.55,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 869.8,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 4,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 147,
+  "avatar_url": "https://avatars.githubusercontent.com/u/877990?v=4",
+  "bio": "I'm an open source developer and active maintainer on several projects.",
+  "company": "Global Domination",
+  "location": "Earth",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "TSavo/sugar",
+      "prs": 15
+    },
+    {
+      "repo": "TSavo/swapchan",
+      "prs": 2
+    },
+    {
+      "repo": "TSavo/blocktools",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 147,
+      "s": 869.8
+    }
+  ]
+}

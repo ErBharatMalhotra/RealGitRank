@@ -2,53 +2,50 @@
   "username": "lynnswap",
   "country": "Japan",
   "primary_language": "Swift",
-  "total_pushes": 14,
-  "merged_prs": 4,
-  "s_pr": 98.47,
+  "total_pushes": 10,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 96.51,
   "s_quality": 50.0,
-  "s_impact": 99.72,
-  "s_consistency": 98.11,
+  "s_impact": 99.66,
+  "s_consistency": 97.17,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 10,
+  "active_days": 9,
   "window_days": 30,
-  "rank_score": 866.1,
-  "active_repos_touched": 8,
+  "rank_score": 857.7,
+  "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 3,
   "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
+  "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 530,
+  "rank": 800,
   "avatar_url": "https://avatars.githubusercontent.com/u/65545348?u=58e545eff3a11cd6dce9fd1e5f4d8a108ac53247&v=4",
   "bio": "Powered by Swift",
   "company": "",
   "location": "Japan",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "percentile": 100.0,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 332,
-  "prev_score": 868.7,
-  "rank_delta": -198,
-  "score_delta": -2.6,
+  "prev_rank": 530,
+  "prev_score": 866.1,
+  "rank_delta": -270,
+  "score_delta": -8.4,
   "counted_merges": [
     {
       "repo": "lynnswap/NeoSimulator",
       "prs": 2
-    },
-    {
-      "repo": "lynnswap/TabBarMenu",
-      "prs": 1
     },
     {
       "repo": "lynnswap/XcodeRunnerKit",
@@ -65,6 +62,11 @@
       "d": "2026-11-24",
       "r": 530,
       "s": 866.1
+    },
+    {
+      "d": "2026-11-25",
+      "r": 800,
+      "s": 857.7
     }
   ]
 }

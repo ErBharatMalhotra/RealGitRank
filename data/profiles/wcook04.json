@@ -4,10 +4,11 @@
   "primary_language": "Lean",
   "total_pushes": 18,
   "merged_prs": 8,
-  "s_pr": 99.53,
+  "listed_only": false,
+  "s_pr": 99.3,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 97.65,
+  "s_impact": 99.02,
+  "s_consistency": 98.41,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -27,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 394,
+  "rank": 255,
   "avatar_url": "https://avatars.githubusercontent.com/u/46428721?u=a2cb10af3869676b755fe71e353f6b606faeda9f&v=4",
   "bio": "Mathematics research and software with AI. Lean formalisation, readers for papers and proofs, and tools for coding agents.",
   "company": "",
   "location": "London, UK",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 618,
-  "prev_score": 864.5,
-  "rank_delta": 224,
-  "score_delta": 3.2,
+  "prev_rank": 394,
+  "prev_score": 867.7,
+  "rank_delta": 139,
+  "score_delta": 0.0,
   "counted_merges": [
     {
       "repo": "wcook04/lean-exposition",
@@ -76,6 +77,11 @@
     {
       "d": "2026-11-24",
       "r": 394,
+      "s": 867.7
+    },
+    {
+      "d": "2026-11-25",
+      "r": 255,
       "s": 867.7
     }
   ]

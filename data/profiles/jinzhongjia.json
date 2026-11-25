@@ -1,0 +1,54 @@
+{
+  "username": "jinzhongjia",
+  "country": "Singapore",
+  "primary_language": "Shell",
+  "total_pushes": 3,
+  "merged_prs": 6,
+  "listed_only": false,
+  "s_pr": 98.84,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 97.45,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 864.7,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 420,
+  "avatar_url": "https://avatars.githubusercontent.com/u/41784264?u=682a94ebad6402b2121d37988a6b2ea2141c0ed1&v=4",
+  "bio": "Programming is like building blocks",
+  "company": "@manus-ai ",
+  "location": "Singapore",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "jinzhongjia/zig-analyzer",
+      "prs": 6
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 420,
+      "s": 864.7
+    }
+  ]
+}

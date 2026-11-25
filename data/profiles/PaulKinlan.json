@@ -2,12 +2,13 @@
   "username": "PaulKinlan",
   "country": "United Kingdom",
   "primary_language": "TypeScript",
-  "total_pushes": 174,
-  "merged_prs": 9,
-  "s_pr": 99.6,
+  "total_pushes": 106,
+  "merged_prs": 10,
+  "listed_only": false,
+  "s_pr": 99.5,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 97.76,
+  "s_impact": 99.02,
+  "s_consistency": 98.64,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,8 +17,8 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 868.1,
-  "active_repos_touched": 24,
+  "rank_score": 868.8,
+  "active_repos_touched": 23,
   "pr_reviews": 9,
   "issue_comments": 0,
   "releases": 0,
@@ -27,36 +28,36 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 355,
+  "rank": 204,
   "avatar_url": "https://avatars.githubusercontent.com/u/45510?u=1586b8745b16bf2fe812c02fbde04f9af70dbc7e&v=4",
   "bio": "I lead Google's Chrome and Web Developer relations team.\r\n\r\nhttps://aifoc.us/",
   "company": "Google",
   "location": "Ruthin, London, Mountain View (CA)",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
-  "ci_pushes": 4,
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "ci_pushes": 3,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 277,
-  "prev_score": 869.3,
-  "rank_delta": -78,
-  "score_delta": -1.2,
+  "prev_rank": 355,
+  "prev_score": 868.1,
+  "rank_delta": 151,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "PaulKinlan/ExtensibleWebApps",
       "prs": 6
     },
     {
-      "repo": "PaulKinlan/MarkdownEdiitor",
-      "prs": 1
+      "repo": "PaulKinlan/html-in-canvas-demos",
+      "prs": 2
     },
     {
       "repo": "PaulKinlan/Wordle-like",
       "prs": 1
     },
     {
-      "repo": "PaulKinlan/html-in-canvas-demos",
+      "repo": "PaulKinlan/gendn",
       "prs": 1
     }
   ],
@@ -70,6 +71,11 @@
       "d": "2026-11-24",
       "r": 355,
       "s": 868.1
+    },
+    {
+      "d": "2026-11-25",
+      "r": 204,
+      "s": 868.8
     }
   ]
 }

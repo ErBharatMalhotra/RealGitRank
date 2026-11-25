@@ -4,10 +4,11 @@
   "primary_language": "Python",
   "total_pushes": 87,
   "merged_prs": 28,
-  "s_pr": 99.95,
+  "listed_only": false,
+  "s_pr": 99.93,
   "s_quality": 50.0,
-  "s_impact": 99.15,
-  "s_consistency": 97.69,
+  "s_impact": 99.02,
+  "s_consistency": 98.47,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -16,7 +17,7 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 869.2,
+  "rank_score": 870.0,
   "active_repos_touched": 16,
   "pr_reviews": 4,
   "issue_comments": 2,
@@ -27,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 256,
+  "rank": 135,
   "avatar_url": "https://avatars.githubusercontent.com/u/157447210?u=95b3c996dc880133cfc90bd4746ad47ce673ed0a&v=4",
   "bio": "Don't hesitate to reach out!",
   "company": "",
   "location": "ohio, United States",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-25",
-  "window_end": "2026-11-23",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
   "ci_pushes": 8,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 499,
-  "prev_score": 866.4,
-  "rank_delta": 243,
-  "score_delta": 2.8,
+  "prev_rank": 256,
+  "prev_score": 869.2,
+  "rank_delta": 121,
+  "score_delta": 0.8,
   "counted_merges": [
     {
       "repo": "dovvnloading/Auvra",
@@ -94,6 +95,11 @@
       "d": "2026-11-24",
       "r": 256,
       "s": 869.2
+    },
+    {
+      "d": "2026-11-25",
+      "r": 135,
+      "s": 870.0
     }
   ]
 }

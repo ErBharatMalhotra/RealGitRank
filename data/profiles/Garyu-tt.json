@@ -1,0 +1,62 @@
+{
+  "username": "Garyu-tt",
+  "country": "",
+  "primary_language": "C",
+  "total_pushes": 111,
+  "merged_prs": 7,
+  "listed_only": false,
+  "s_pr": 99.08,
+  "s_quality": 50.0,
+  "s_impact": 99.02,
+  "s_consistency": 90.25,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 854.7,
+  "active_repos_touched": 12,
+  "pr_reviews": 10,
+  "issue_comments": 28,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 916,
+  "avatar_url": "https://avatars.githubusercontent.com/u/210456509?u=ca32d1bfa0d6e1fe698a6a4170cb8b297636fd26&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-24",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Garyu-tt/mojum",
+      "prs": 5
+    },
+    {
+      "repo": "Garyu-tt/AdamantiumToolBox",
+      "prs": 1
+    },
+    {
+      "repo": "Garyu-tt/tinner",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-25",
+      "r": 916,
+      "s": 854.7
+    }
+  ]
+}
