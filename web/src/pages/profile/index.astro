@@ -97,6 +97,19 @@
         return bits.length ? `<p class="movement">${bits.join(' · ')} since yesterday</p>` : '';
       }
 
+      function listedOnlyNote(d) {
+        if (!d.listed_only) return '';
+        return `<p class="muted" style="margin:0 0 8px;font-size:13px">Listed only · no public pushes or merged pull requests were observed in this 30-day window, so this account is not scored or tiered.</p>`;
+      }
+
+      function rankCell(d) {
+        return d.listed_only ? '—' : `#${esc(d.rank)}`;
+      }
+
+      function scoreCell(d) {
+        return d.listed_only ? '—' : esc(d.rank_score);
+      }
+
       function tierBadge(d) {
         if (!d.tier) return '';
         const pct = typeof d.percentile === 'number' ? `Ahead of ${d.percentile}% of ranked developers` : '';
@@ -146,12 +159,13 @@
       function renderFromChunk(d) {
         el.innerHTML = `<h1>${esc(d.username)}</h1>
           <p>${tierBadge(d)}</p>
+          ${listedOnlyNote(d)}
           ${moveText(d)}
           <img class="badge" src="/badges/${encodeURIComponent(d.username)}.svg" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
           <div class="card">
             <div class="grid">
-              <div class="stat"><div class="label">Rank Score</div><div class="val">${esc(d.rank_score)}</div></div>
-              <div class="stat"><div class="label">Global Rank</div><div class="val">#${esc(d.rank)}</div></div>
+              <div class="stat"><div class="label">Rank Score</div><div class="val">${scoreCell(d)}</div></div>
+              <div class="stat"><div class="label">Global Rank</div><div class="val">${rankCell(d)}</div></div>
               <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
               <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
               <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
@@ -171,11 +185,12 @@
 
       function renderFromProfile(d, username) {
         el.innerHTML = `<h1>${esc(username)}</h1><p>${tierBadge(d)}</p>
+          ${listedOnlyNote(d)}
           ${moveText(d)}
           <img class="badge" src="/badges/${encodeURIComponent(username)}.svg" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
           <div class="card"><div class="grid">
-            <div class="stat"><div class="label">Rank Score</div><div class="val">${esc(d.rank_score)}</div></div>
-            <div class="stat"><div class="label">Global Rank</div><div class="val">#${esc(d.rank)}</div></div>
+            <div class="stat"><div class="label">Rank Score</div><div class="val">${scoreCell(d)}</div></div>
+            <div class="stat"><div class="label">Global Rank</div><div class="val">${rankCell(d)}</div></div>
             <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
             <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
             <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>

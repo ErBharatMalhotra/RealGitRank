@@ -145,6 +145,14 @@ def main():
     run_date = today.isoformat()
     # Percentile/tier are computed over the whole ranked population, not the slice.
     assign_tiers(ranked, total=len(ranked))
+    # Presence is not rank: CI-only owners (no public push or merged PR observed)
+    # stay listed, but claiming a tier for them would invent achievement.
+    listed_only = 0
+    for entry in ranked:
+        if entry.get("listed_only"):
+            entry.pop("tier", None)
+            entry.pop("percentile", None)
+            listed_only += 1
     clear_movement(lb)
     prev_date, previous = load_previous_snapshot("data/history", run_date)
     if previous and old_status.get("score_version") == SCORE_VERSION:
@@ -221,6 +229,7 @@ def main():
             "data_age_hours": 0,
             "status": "ok",
             "users": len(ranked),
+            "listed_only": listed_only,
             "ci_pushes": sum(ci_by_name.values()),
             "detailed": len(lb),
             "new_today": len(scored),

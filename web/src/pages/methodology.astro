@@ -104,7 +104,7 @@ const pillars = [
         ))}
       </tbody>
     </table>
-    <p class="note">Pillar sub-scores (<code>s_pr</code>, <code>s_quality</code>, <code>s_impact</code>, <code>s_consistency</code>) are 0–100 percentiles. <code>s_quality</code> is omitted when no test/file evidence exists, and each record’s <code>measured</code> object states which pillars counted. Percentile is against the whole ranked population.</p>
+    <p class="note">Accounts with no observed push or merged pull request are listed as <code>listed_only</code> instead of being scored. Pillar sub-scores (<code>s_pr</code>, <code>s_quality</code>, <code>s_impact</code>, <code>s_consistency</code>) are 0–100 percentiles. <code>s_quality</code> is omitted when no test/file evidence exists, and each record’s <code>measured</code> object states which pillars counted. Percentile is against the whole ranked population.</p>
 
     <h2>What is actually measured</h2>
     {coverage ? (
@@ -168,7 +168,7 @@ const pillars = [
         ))}
       </tbody>
     </table>
-    <p class="note">A tier is a relative band of the current ranked population, so it moves as the population grows. Tier and percentile are recomputed on every daily run.</p>
+    <p class="note">A tier is a relative band of the current ranked population, so it moves as the population grows. Tier and percentile are recomputed on every daily run. Only accounts with an observed push or merged pull request in the window are ranked: a repository owner whose only visible activity is CI-driven (bot pushes) is listed for presence with no score, no percentile and no tier, and those rows are excluded from the percentile base so they cannot inflate anyone else's band.</p>
 
     <h2>Rolling window, snapshots and movement</h2>
     <ul>

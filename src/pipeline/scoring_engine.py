@@ -148,22 +148,29 @@ def compute_rank_scores(parquet_file_path):
         "adoption": np.ones(n, bool),
         "consistency": np.ones(n, bool),
     }
+    # Only accounts with observed work are ranked. A CI-only owner (pushes a bot
+    # made into their repository) is listed for presence, but has no measured
+    # activity - and scoring those near-empty rows inside the percentile base is
+    # what made one star look like the 99th percentile for everybody.
+    active = (total_pushes > 0) | (merged_prs > 0)
+    rankable = {k: v & active for k, v in measured.items()}
     raw_pillars = {
         "delivery": s_pr_raw,
         "code_health": s_quality_raw,
         "adoption": s_impact_raw,
         "consistency": s_consistency_raw,
     }
-    pillar_pct = {k: _percentile(v, measured[k]) for k, v in raw_pillars.items()}
+    pillar_pct = {k: _percentile(v, rankable[k]) for k, v in raw_pillars.items()}
 
     weighted = np.zeros(n)
     weight_sum = np.zeros(n)
     for key, weight in WEIGHTS.items():
-        available = measured[key]
+        available = rankable[key]
         weighted += np.where(available, pillar_pct[key], 0.0) * weight
         weight_sum += np.where(available, weight, 0.0)
     composite = np.divide(weighted, weight_sum, out=np.zeros(n), where=weight_sum > 0)
     rank_score = np.clip(composite * 10.0 * (1 - bot_penalty), 0, 1000).round(1)
+    rank_score = np.where(active, rank_score, 0.0)
 
     usernames = data.get("username", [""] * n)
     countries = data.get("country", [""] * n)
@@ -198,12 +205,14 @@ def compute_rank_scores(parquet_file_path):
             "bot_evidence": bool(entropy_known[i] or files_known[i]),
             "is_human_verified": bool((entropy_known[i] or files_known[i]) and bot_penalty[i] < 0.05),
             "is_bot_classified": bool(bot_penalty[i] >= 0.70),
-            "s_pr": round(float(pillar_pct["delivery"][i]), 2),
+            "listed_only": not bool(active[i]),
+            "s_pr": (None if not active[i] else round(float(pillar_pct["delivery"][i]), 2)),
             "s_quality": (None if np.isnan(pillar_pct["code_health"][i])
                           else round(float(pillar_pct["code_health"][i]), 2)),
-            "s_impact": round(float(pillar_pct["adoption"][i]), 2),
-            "s_consistency": round(float(pillar_pct["consistency"][i]), 2),
-            "measured": {key: bool(measured[key][i]) for key in WEIGHTS},
+            "s_impact": (None if not active[i] else round(float(pillar_pct["adoption"][i]), 2)),
+            "s_consistency": (None if not active[i]
+                              else round(float(pillar_pct["consistency"][i]), 2)),
+            "measured": {key: bool(rankable[key][i]) for key in WEIGHTS},
             "active_days": int(active_days[i]) if not np.isnan(active_days[i]) else 0,
             "window_days": int(window_days[i]) if not np.isnan(window_days[i]) else 0,
             "rank_score": round(float(rank_score[i]), 1),

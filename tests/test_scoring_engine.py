@@ -140,6 +140,39 @@ def test_single_day_rows_still_supported(tmp_path):
     assert out["bot_evidence"] is True
 
 
+def test_ci_only_owner_is_listed_but_not_ranked(tmp_path):
+    """No observed push or merge means presence only: score 0, no pillar claim."""
+    ci_only = row(username="ci", total_pushes=0, merged_prs=0,
+                  merged_prs_external_weighted=0.0, stars_fraud_filtered=1,
+                  unique_commit_messages=float("nan"), entropy_known=False,
+                  avg_files_changed=float("nan"), files_known=False)
+    active = row(username="dev", stars_fraud_filtered=1)
+    out = {r["username"]: r for r in score(tmp_path, [ci_only, active])}
+
+    assert out["ci"]["listed_only"] is True
+    assert out["ci"]["rank_score"] == 0.0
+    assert out["ci"]["s_pr"] is None and out["ci"]["s_impact"] is None
+    assert out["ci"]["measured"] == {
+        "delivery": False, "code_health": False, "adoption": False, "consistency": False,
+    }
+    assert out["dev"]["listed_only"] is False
+    assert out["dev"]["rank_score"] > 0
+
+
+def test_percentiles_are_computed_without_listed_rows(tmp_path):
+    """A near-empty population must not turn one star into the 99th percentile."""
+    listed = [row(username=f"ci{i}", total_pushes=0, merged_prs=0,
+                  merged_prs_external_weighted=0.0, stars_fraud_filtered=1000)
+              for i in range(10)]
+    active = [row(username="one-star", stars_fraud_filtered=1, merged_prs_external_weighted=1.0),
+              row(username="no-star", stars_fraud_filtered=0, merged_prs_external_weighted=1.0)]
+    out = {r["username"]: r for r in score(tmp_path, listed + active)}
+
+    assert out["one-star"]["s_impact"] == 100.0
+    assert out["no-star"]["s_impact"] == 0.0
+    assert max(r["rank_score"] for name, r in out.items() if name.startswith("ci")) == 0.0
+
+
 def test_profile_metrics_pass_through(tmp_path):
     r = row(active_repos_touched=6, pr_reviews=3, issue_comments=2, releases=1,
             stars_fraud_filtered=11, forks_fraud_filtered=4,
