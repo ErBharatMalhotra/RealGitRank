@@ -34,6 +34,8 @@
       .qres a { display: flex; justify-content: space-between; gap: 10px; padding: 7px 12px; font-size: 13px; color: var(--ink); text-decoration: none; }
       .qres a:hover { background: var(--bg); text-decoration: none; }
       .qres .rk { color: var(--muted); font-variant-numeric: tabular-nums; }
+      .qnote { color: var(--muted); font-size: 12px; margin: -6px 0 14px; }
+      .qnote code { font-size: 12px; color: var(--ink); }
       input:focus, select:focus { border-color: var(--accent); outline: none; }
       table { width: 100%; border-collapse: collapse; font-size: 14px; }
       th, td { padding: 10px; text-align: left; border-bottom: 1px solid var(--line); }
@@ -89,6 +91,7 @@
       <select id="country"><option value="">All countries</option></select>
       <select id="lang"><option value="">All languages</option></select>
     </div>
+    <p class="qnote">Matching the start of a username searches every listed developer; matching anywhere inside the name covers the top 50,000. Open any profile directly with <code>/profile/?u=username</code>.</p>
     <div class="stats" id="stats">Loading...</div>
     <table id="tbl">
       <thead><tr><th>#</th><th>User</th><th>Score</th><th>Tier</th><th>Country</th><th>Lang</th><th>Merges (30d)</th><th>Badge</th></tr></thead>
@@ -118,6 +121,8 @@
       const loadmore = document.getElementById('loadmore');
       const qres = document.getElementById('qres');
       let nameIndex = null;
+      const bucketCache = new Map();
+      let searchSeq = 0;
 
       // The table only holds the pages loaded so far, so a name in the rest of the
       // board (or beyond the first page) would never match there. The pipeline
@@ -132,23 +137,50 @@
         return nameIndex;
       }
 
+      // The prefix buckets hold every listed developer ([username, rank, score] per
+      // first character, ~0.3-1 MB gzipped each), so a prefix lookup reaches the
+      // long tail without shipping the whole board. names.json supplies the
+      // "contains" matches for the detailed top 50k.
+      function bucketKey(name) {
+        const c = String(name || '').slice(0, 1).toLowerCase();
+        return /[a-z0-9]/.test(c) ? c : 'other';
+      }
+
+      function loadBucket(key) {
+        if (!bucketCache.has(key)) {
+          bucketCache.set(key, fetch(`/data/search/${key}.json`)
+            .then((r) => (r.ok ? r.json() : []))
+            .catch(() => []));
+        }
+        return bucketCache.get(key);
+      }
+
       function renderRemote(v) {
+        const seq = ++searchSeq;
         if (!v || v.length < 2) {
           qres.hidden = true;
           qres.innerHTML = '';
           return;
         }
-        loadNameIndex().then((names) => {
-          if (q.value.toLowerCase() !== v) return;
+        Promise.all([loadNameIndex(), loadBucket(bucketKey(v))]).then(([names, bucket]) => {
+          if (seq !== searchSeq) return;
+          const seen = new Set();
           const hits = [];
-          for (const [name, rank] of names) {
-            if (String(name).toLowerCase().includes(v)) {
-              hits.push([name, rank]);
-              if (hits.length === 25) break;
-            }
+          const add = (name, rank, prefix) => {
+            const key = String(name).toLowerCase();
+            if (seen.has(key) || hits.length === 30) return;
+            seen.add(key);
+            hits.push([name, rank, prefix]);
+          };
+          for (const [name, rank] of bucket) {
+            if (String(name).toLowerCase().startsWith(v)) add(name, rank, true);
           }
-          qres.innerHTML = hits.map(([name, rank]) =>
-            `<a href="/profile/?u=${encodeURIComponent(name)}&r=${rank}"><span>${esc(name)}</span><span class="rk">#${rank}</span></a>`
+          for (const [name, rank] of names) {
+            if (String(name).toLowerCase().includes(v)) add(name, rank, false);
+          }
+          qres.innerHTML = hits.map(([name, rank, prefix]) =>
+            `<a href="/profile/?u=${encodeURIComponent(name)}&r=${rank}"${prefix ? '' : ' title="Matched inside the name (top 50,000)"'}>`
+            + `<span>${esc(name)}</span><span class="rk">#${rank}</span></a>`
           ).join('');
           qres.hidden = hits.length === 0;
         });
