@@ -12,6 +12,9 @@ Two public layers are written here:
 * ``search/<bucket>.json`` — a prefix-sharded ``[username, rank, score]`` index.
   A single index would be tens of megabytes, so the browser fetches only the
   bucket it needs while the user types.
+* ``search/names.json`` — ``[username, rank]`` for the detailed board so a
+  substring search ("bharat" finding "ErBharatMalhotra") can reach every user on
+  it, not just the rows the table has already loaded.
 """
 import json
 import os
@@ -60,7 +63,10 @@ def search_bucket(username):
 
 
 def load_rows():
-    """Detailed leaderboard rows plus the compact long tail, in rank order."""
+    """Detailed leaderboard rows plus the compact long tail, in rank order.
+
+    Returns ``(rows, detailed_count)`` so callers can bound the substring index.
+    """
     with open("data/leaderboard.json", encoding="utf-8") as f:
         detailed = json.load(f)
     tail = []
@@ -70,15 +76,16 @@ def load_rows():
     except (OSError, ValueError):
         tail = []
     rows = [public_row(u) for u in detailed if u.get("username")]
+    detailed_count = len(rows)
     rows.extend(public_row(u) for u in tail if u.get("username"))
     rows.sort(key=lambda u: u.get("rank") or 0)
-    return rows
+    return rows, detailed_count
 
 
 def main():
     os.makedirs(os.path.join(PUBLIC_DATA, "chunks"), exist_ok=True)
 
-    rows = load_rows()
+    rows, detailed_count = load_rows()
 
     # The full leaderboard is not used by the site (chunks are) and is the single
     # largest published file, so it is not part of the public layer at all.
@@ -120,10 +127,18 @@ def main():
         with open(os.path.join(search_dir, f"{key}.json"), "w", encoding="utf-8") as f:
             json.dump(bucket_rows, f, separators=(",", ":"), ensure_ascii=False)
 
-    # The single-file index is gone; keep a small manifest so clients can discover
-    # the buckets (and the total) without guessing.
+    # Substring search: one rank-ordered name list for the detailed board. The
+    # prefix buckets cannot answer "contains", and the full board would be tens of
+    # megabytes, so this stays a few hundred kilobytes.
+    with open(os.path.join(search_dir, "names.json"), "w", encoding="utf-8") as f:
+        json.dump([[u["username"], u.get("rank")] for u in rows[:detailed_count]],
+                  f, separators=(",", ":"), ensure_ascii=False)
+
+    # Keep a small manifest so clients can discover the buckets (and the total)
+    # without guessing.
     with open(os.path.join(search_dir, "index.json"), "w", encoding="utf-8") as f:
-        json.dump({"total": total, "buckets": sorted(buckets)}, f)
+        json.dump({"total": total, "detailed": detailed_count,
+                   "buckets": sorted(buckets), "names": "names.json"}, f)
 
     stale_search = os.path.join(PUBLIC_DATA, "search.json")
     if os.path.exists(stale_search):
@@ -131,7 +146,8 @@ def main():
 
     print(
         f"Chunks: {pages} pages x {CHUNK_SIZE} = {total} users, "
-        f"search buckets: {len(buckets)} (classification fields stripped)"
+        f"search buckets: {len(buckets)}, substring names: {detailed_count} "
+        "(classification fields stripped)"
     )
 
 

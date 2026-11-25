@@ -28,6 +28,12 @@
       .controls { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
       input, select { padding: 10px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font-size: 14px; font-family: inherit; }
       input { flex: 1; min-width: 200px; }
+      .qwrap { position: relative; flex: 1; min-width: 200px; display: flex; }
+      .qwrap input { width: 100%; }
+      .qres { position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 40; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; max-height: 340px; overflow: auto; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+      .qres a { display: flex; justify-content: space-between; gap: 10px; padding: 7px 12px; font-size: 13px; color: var(--ink); text-decoration: none; }
+      .qres a:hover { background: var(--bg); text-decoration: none; }
+      .qres .rk { color: var(--muted); font-variant-numeric: tabular-nums; }
       input:focus, select:focus { border-color: var(--accent); outline: none; }
       table { width: 100%; border-collapse: collapse; font-size: 14px; }
       th, td { padding: 10px; text-align: left; border-bottom: 1px solid var(--line); }
@@ -76,7 +82,10 @@
     <h1>Real<span>Git</span>Rank</h1>
     <p class="sub">Commit count measures typing speed. RealGitRank scores a rolling 30-day window of merged work, adoption and consistency. <span id="total">Loading...</span> developers ranked worldwide. <a href="/countries">🌍 Countries & Worldwide →</a> · <a href="/badges/">🏅 README badges →</a> · <a href="/methodology/">📐 Methodology, coverage & API →</a></p>
     <div class="controls">
-      <input id="q" type="text" placeholder="Search username, country, language..." />
+      <div class="qwrap">
+        <input id="q" type="text" placeholder="Search username, country, language..." autocomplete="off" />
+        <div class="qres" id="qres" hidden></div>
+      </div>
       <select id="country"><option value="">All countries</option></select>
       <select id="lang"><option value="">All languages</option></select>
     </div>
@@ -107,6 +116,43 @@
       const langSel = document.getElementById('lang');
       const stats = document.getElementById('stats');
       const loadmore = document.getElementById('loadmore');
+      const qres = document.getElementById('qres');
+      let nameIndex = null;
+
+      // The table only holds the pages loaded so far, so a name in the rest of the
+      // board (or beyond the first page) would never match there. The pipeline
+      // publishes one rank-ordered name list for the detailed board; fetch it on
+      // the first search and look across all of it.
+      function loadNameIndex() {
+        if (!nameIndex) {
+          nameIndex = fetch('/data/search/names.json')
+            .then((r) => (r.ok ? r.json() : []))
+            .catch(() => []);
+        }
+        return nameIndex;
+      }
+
+      function renderRemote(v) {
+        if (!v || v.length < 2) {
+          qres.hidden = true;
+          qres.innerHTML = '';
+          return;
+        }
+        loadNameIndex().then((names) => {
+          if (q.value.toLowerCase() !== v) return;
+          const hits = [];
+          for (const [name, rank] of names) {
+            if (String(name).toLowerCase().includes(v)) {
+              hits.push([name, rank]);
+              if (hits.length === 25) break;
+            }
+          }
+          qres.innerHTML = hits.map(([name, rank]) =>
+            `<a href="/profile/?u=${encodeURIComponent(name)}&r=${rank}"><span>${esc(name)}</span><span class="rk">#${rank}</span></a>`
+          ).join('');
+          qres.hidden = hits.length === 0;
+        });
+      }
 
       function row(u) {
         const tr = document.createElement('tr');
@@ -139,7 +185,11 @@
           if (match) visible++;
         });
         stats.textContent = `Showing ${visible} of ${allData.length} loaded (${totalPages > 1 ? currentPage + '/' + totalPages + ' pages' : ''})`;
+        renderRemote(v);
       }
+
+      q.addEventListener('blur', () => setTimeout(() => { qres.hidden = true; }, 150));
+      q.addEventListener('keydown', (e) => { if (e.key === 'Escape') qres.hidden = true; });
 
       async function loadPage(p) {
         const r = await fetch(`/data/chunks/page_${p}.json`);
