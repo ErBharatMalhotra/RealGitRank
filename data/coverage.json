@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T07:12:07.931873+00:00",
+  "generated_at": "2026-11-26T10:33:47.887186+00:00",
   "score_version": "v2-percentile",
   "window_days": 30,
   "window_start": "2026-10-27",
@@ -46,12 +46,12 @@
     "pct": 0.0
   },
   "country": {
-    "known": 7013,
-    "pct": 14.0
+    "known": 7340,
+    "pct": 14.7
   },
   "language": {
-    "known": 3111,
-    "pct": 6.2
+    "known": 3169,
+    "pct": 6.3
   },
   "validation": {
     "method": "event-level: GitHub PR API merged_at + merged_by",
