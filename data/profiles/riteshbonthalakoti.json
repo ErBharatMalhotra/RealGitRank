@@ -1,0 +1,54 @@
+{
+  "username": "riteshbonthalakoti",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 97.86,
+  "s_quality": 50.0,
+  "s_impact": 99.73,
+  "s_consistency": 91.65,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 854.3,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 910,
+  "avatar_url": "https://avatars.githubusercontent.com/u/199930184?u=5717e886ad566bac485b9cbed5e640f3a0f231b5&v=4",
+  "bio": "18 | Embedded Systems Engineer | Fusion of Hardware & Software | AGI | IoT & Edge AI | 266 Days Contribution Streak on Projects in Single year",
+  "company": "@dharanova-code",
+  "location": "Visakhapatnam",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Pratyush-Panda-2006/CAREERFORGE",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 910,
+      "s": 854.3
+    }
+  ]
+}

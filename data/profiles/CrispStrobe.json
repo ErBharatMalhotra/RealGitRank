@@ -2,13 +2,13 @@
   "username": "CrispStrobe",
   "country": "",
   "primary_language": "C++",
-  "total_pushes": 85,
-  "merged_prs": 20,
+  "total_pushes": 80,
+  "merged_prs": 19,
   "listed_only": false,
-  "s_pr": 99.87,
+  "s_pr": 99.82,
   "s_quality": 50.0,
-  "s_impact": 99.66,
-  "s_consistency": 98.95,
+  "s_impact": 99.63,
+  "s_consistency": 99.19,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,8 +17,8 @@
   },
   "active_days": 22,
   "window_days": 30,
-  "rank_score": 872.1,
-  "active_repos_touched": 17,
+  "rank_score": 872.2,
+  "active_repos_touched": 19,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 0,
@@ -28,32 +28,32 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 28,
+  "rank": 37,
   "avatar_url": "https://avatars.githubusercontent.com/u/154636388?u=c99aa22bcae0243d743523e8e2c5278870906877&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "ci_pushes": 1,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "ci_pushes": 2,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 40,
-  "prev_score": 872.6,
-  "rank_delta": 12,
-  "score_delta": -0.5,
+  "prev_rank": 28,
+  "prev_score": 872.1,
+  "rank_delta": -9,
+  "score_delta": 0.1,
   "counted_merges": [
     {
       "repo": "CrispStrobe/CrispEmbed",
       "prs": 4
     },
     {
-      "repo": "CrispStrobe/brickwright-lite",
-      "prs": 4
+      "repo": "CrispStrobe/CrispCloud",
+      "prs": 3
     },
     {
-      "repo": "CrispStrobe/CrispCloud",
+      "repo": "CrispStrobe/brickwright-lite",
       "prs": 3
     },
     {
@@ -96,6 +96,11 @@
       "d": "2026-11-25",
       "r": 28,
       "s": 872.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 37,
+      "s": 872.2
     }
   ]
 }

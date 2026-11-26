@@ -5,10 +5,10 @@
   "total_pushes": 1,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 96.51,
+  "s_pr": 95.9,
   "s_quality": 50.0,
-  "s_impact": 99.72,
-  "s_consistency": 94.25,
+  "s_impact": 99.7,
+  "s_consistency": 94.71,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 853.5,
+  "rank_score": 852.0,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 989,
+  "rank": 996,
   "avatar_url": "https://avatars.githubusercontent.com/u/49175785?u=2bf22601c30ace58736fed73a1d4334cdccd9dd3&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 822,
-  "prev_score": 861.2,
-  "rank_delta": -167,
-  "score_delta": -7.7,
+  "prev_rank": 989,
+  "prev_score": 853.5,
+  "rank_delta": -7,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "ShuaiMXu/happyhands-site",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 989,
       "s": 853.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 996,
+      "s": 852.0
     }
   ]
 }

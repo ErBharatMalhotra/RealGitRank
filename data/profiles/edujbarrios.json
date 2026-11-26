@@ -3,21 +3,21 @@
   "country": "Spain",
   "primary_language": "R",
   "total_pushes": 4,
-  "merged_prs": 7,
+  "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 99.08,
+  "s_pr": 98.63,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 99.29,
+  "s_impact": 98.95,
+  "s_consistency": 99.36,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 11,
+  "active_days": 10,
   "window_days": 30,
-  "rank_score": 868.3,
+  "rank_score": 866.6,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,24 +28,24 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 231,
+  "rank": 337,
   "avatar_url": "https://avatars.githubusercontent.com/u/52458555?u=67e773304d03ddb2c1254b4352226cf1c6cfafb8&v=4",
   "bio": "\ud835\udde6\ud835\uddfc\ud835\uddf3\ud835\ude01\ud835\ude04\ud835\uddee\ud835\uddff\ud835\uddf2 & \ud835\uddd4\ud835\udddc/\ud835\udde0\ud835\udddf \ud835\uddd8\ud835\uddfb\ud835\uddf4\ud835\uddf6\ud835\uddfb\ud835\uddf2\ud835\uddf2\ud835\uddff",
   "company": "",
   "location": "Canary Islands, Spain",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 168,
-  "prev_score": 870.5,
-  "rank_delta": -63,
-  "score_delta": -2.2,
+  "prev_rank": 231,
+  "prev_score": 868.3,
+  "rank_delta": -106,
+  "score_delta": -1.7,
   "counted_merges": [
     {
       "repo": "edujbarrios/edujbarrios-ai",
-      "prs": 3
+      "prs": 2
     },
     {
       "repo": "edujbarrios/elevenloom",
@@ -79,6 +79,11 @@
       "d": "2026-11-25",
       "r": 231,
       "s": 868.3
+    },
+    {
+      "d": "2026-11-26",
+      "r": 337,
+      "s": 866.6
     }
   ]
 }

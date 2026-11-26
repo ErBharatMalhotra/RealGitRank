@@ -5,10 +5,10 @@
   "total_pushes": 9,
   "merged_prs": 10,
   "listed_only": false,
-  "s_pr": 99.5,
+  "s_pr": 99.41,
   "s_quality": 50.0,
-  "s_impact": 99.95,
-  "s_consistency": 98.85,
+  "s_impact": 99.94,
+  "s_consistency": 99.13,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,8 +17,8 @@
   },
   "active_days": 21,
   "window_days": 30,
-  "rank_score": 871.4,
-  "active_repos_touched": 5,
+  "rank_score": 871.5,
+  "active_repos_touched": 4,
   "pr_reviews": 5,
   "issue_comments": 5,
   "releases": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 61,
+  "rank": 66,
   "avatar_url": "https://avatars.githubusercontent.com/u/257484394?u=8d71a2e282922f25c420eaddd8718fcd28feb7be&v=4",
   "bio": "Part Marketer, Part AI Explorer.",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 158,
-  "prev_score": 870.6,
-  "rank_delta": 97,
-  "score_delta": 0.8,
+  "prev_rank": 61,
+  "prev_score": 871.4,
+  "rank_delta": -5,
+  "score_delta": 0.1,
   "counted_merges": [
     {
       "repo": "EthanYoQ/Job-finder-Codex",
@@ -71,6 +71,11 @@
       "d": "2026-11-25",
       "r": 61,
       "s": 871.4
+    },
+    {
+      "d": "2026-11-26",
+      "r": 66,
+      "s": 871.5
     }
   ]
 }

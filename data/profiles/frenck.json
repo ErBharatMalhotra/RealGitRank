@@ -2,13 +2,13 @@
   "username": "frenck",
   "country": "Netherlands",
   "primary_language": "Python",
-  "total_pushes": 10,
+  "total_pushes": 9,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 98.19,
+  "s_pr": 97.86,
   "s_quality": 50.0,
   "s_impact": 99.92,
-  "s_consistency": 98.57,
+  "s_consistency": 99.02,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,9 +17,9 @@
   },
   "active_days": 13,
   "window_days": 30,
-  "rank_score": 866.3,
-  "active_repos_touched": 14,
-  "pr_reviews": 19,
+  "rank_score": 865.8,
+  "active_repos_touched": 17,
+  "pr_reviews": 24,
   "issue_comments": 0,
   "releases": 0,
   "stars_fraud_filtered": 6,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 333,
+  "rank": 385,
   "avatar_url": "https://avatars.githubusercontent.com/u/195327?u=c0f88e376380f7a811559aa54d5096a66f6d3488&v=4",
   "bio": "Lead of @home-assistant at the Open Home Foundation. GitHub Star \ud83c\udf1f Open Sourcerer. Him/He. Dad. Be the change \u2764",
   "company": "@home-assistant @hassio-addons",
   "location": "Enschede, The Netherlands",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "percentile": 100.0,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 446,
-  "prev_score": 867.1,
-  "rank_delta": 113,
-  "score_delta": -0.8,
+  "prev_rank": 333,
+  "prev_score": 866.3,
+  "rank_delta": -52,
+  "score_delta": -0.5,
   "counted_merges": [
     {
       "repo": "Apoc182/local_daikin",
@@ -52,7 +52,7 @@
       "prs": 1
     },
     {
-      "repo": "eifinger/hass-foldingathomecontrol",
+      "repo": "home-assistant/installer",
       "prs": 1
     }
   ],
@@ -71,6 +71,11 @@
       "d": "2026-11-25",
       "r": 333,
       "s": 866.3
+    },
+    {
+      "d": "2026-11-26",
+      "r": 385,
+      "s": 865.8
     }
   ]
 }

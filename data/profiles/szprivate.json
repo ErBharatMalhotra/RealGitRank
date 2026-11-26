@@ -2,22 +2,22 @@
   "username": "szprivate",
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 9,
+  "total_pushes": 4,
   "merged_prs": 7,
   "listed_only": false,
-  "s_pr": 99.08,
+  "s_pr": 98.92,
   "s_quality": 50.0,
-  "s_impact": 99.7,
-  "s_consistency": 99.17,
+  "s_impact": 99.67,
+  "s_consistency": 99.31,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 12,
+  "active_days": 11,
   "window_days": 30,
-  "rank_score": 869.8,
+  "rank_score": 869.4,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 151,
+  "rank": 187,
   "avatar_url": "https://avatars.githubusercontent.com/u/130984588?v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 270,
-  "prev_score": 869.1,
-  "rank_delta": 119,
-  "score_delta": 0.7,
+  "prev_rank": 151,
+  "prev_score": 869.8,
+  "rank_delta": -36,
+  "score_delta": -0.4,
   "counted_merges": [
     {
       "repo": "szprivate/ComfyUI-ImageViewer",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 151,
       "s": 869.8
+    },
+    {
+      "d": "2026-11-26",
+      "r": 187,
+      "s": 869.4
     }
   ]
 }

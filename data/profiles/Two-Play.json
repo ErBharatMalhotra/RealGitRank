@@ -5,10 +5,10 @@
   "total_pushes": 2,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 97.49,
+  "s_pr": 97.04,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 95.21,
+  "s_impact": 99.46,
+  "s_consistency": 95.65,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 857.8,
+  "rank_score": 856.8,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 797,
+  "rank": 803,
   "avatar_url": "https://avatars.githubusercontent.com/u/17220448?u=47771e8d673888f3fd69b6c5acca7131b59a1ed9&v=4",
   "bio": "",
   "company": "",
   "location": "GERMANY",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 708,
-  "prev_score": 863.1,
-  "rank_delta": -89,
-  "score_delta": -5.3,
+  "prev_rank": 797,
+  "prev_score": 857.8,
+  "rank_delta": -6,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "Tux-Force/xTux",
@@ -66,6 +66,11 @@
       "d": "2026-11-25",
       "r": 797,
       "s": 857.8
+    },
+    {
+      "d": "2026-11-26",
+      "r": 803,
+      "s": 856.8
     }
   ]
 }

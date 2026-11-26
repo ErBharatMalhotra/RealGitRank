@@ -2,22 +2,22 @@
   "username": "neutraltone",
   "country": "",
   "primary_language": "Ruby",
-  "total_pushes": 7,
+  "total_pushes": 8,
   "merged_prs": 7,
   "listed_only": false,
-  "s_pr": 99.08,
+  "s_pr": 98.92,
   "s_quality": 50.0,
-  "s_impact": 99.8,
-  "s_consistency": 98.57,
+  "s_impact": 99.78,
+  "s_consistency": 98.94,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 13,
+  "active_days": 14,
   "window_days": 30,
-  "rank_score": 869.1,
+  "rank_score": 869.0,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 4,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 192,
+  "rank": 207,
   "avatar_url": "https://avatars.githubusercontent.com/u/1080928?u=6be244280ddf9ad5236fbd8f020086368aa80106&v=4",
   "bio": "",
   "company": "NeutralTone LTD",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 621,
-  "prev_score": 864.6,
-  "rank_delta": 429,
-  "score_delta": 4.5,
+  "prev_rank": 192,
+  "prev_score": 869.1,
+  "rank_delta": -15,
+  "score_delta": -0.1,
   "counted_merges": [
     {
       "repo": "neutraltone/settee",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 192,
       "s": 869.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 207,
+      "s": 869.0
     }
   ]
 }

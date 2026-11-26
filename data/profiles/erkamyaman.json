@@ -2,57 +2,57 @@
   "username": "erkamyaman",
   "country": "Turkey",
   "primary_language": "Rust",
-  "total_pushes": 4,
-  "merged_prs": 5,
+  "total_pushes": 5,
+  "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 99.02,
+  "s_pr": 99.05,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 99.12,
+  "s_consistency": 99.28,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 12,
+  "active_days": 13,
   "window_days": 30,
-  "rank_score": 870.2,
-  "active_repos_touched": 11,
+  "rank_score": 870.6,
+  "active_repos_touched": 12,
   "pr_reviews": 0,
-  "issue_comments": 2,
+  "issue_comments": 5,
   "releases": 0,
-  "stars_fraud_filtered": 104,
-  "forks_fraud_filtered": 6,
+  "stars_fraud_filtered": 113,
+  "forks_fraud_filtered": 8,
   "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 126,
+  "rank": 115,
   "avatar_url": "https://avatars.githubusercontent.com/u/88717125?u=e3befe1017148d7ea8a606a19031f7c7c38498b0&v=4",
   "bio": "k\u00e6m \u00b7 D\u00f6ner kebab in developer form \ud83c\udf2f",
   "company": "@Kolay-Randevu",
   "location": "Istanbul \ud83c\uddf9\ud83c\uddf7",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 198,
-  "prev_score": 870.1,
-  "rank_delta": 72,
-  "score_delta": 0.1,
+  "prev_rank": 126,
+  "prev_score": 870.2,
+  "rank_delta": 11,
+  "score_delta": 0.4,
   "counted_merges": [
+    {
+      "repo": "erkamyaman/rust-anything",
+      "prs": 2
+    },
     {
       "repo": "slide-ng/starter",
       "prs": 2
     },
     {
       "repo": "erkamyaman/capacitor-foldable",
-      "prs": 1
-    },
-    {
-      "repo": "erkamyaman/rust-anything",
       "prs": 1
     },
     {
@@ -75,6 +75,11 @@
       "d": "2026-11-25",
       "r": 126,
       "s": 870.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 115,
+      "s": 870.6
     }
   ]
 }

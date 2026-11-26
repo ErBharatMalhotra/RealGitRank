@@ -5,10 +5,10 @@
   "total_pushes": 2,
   "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 98.19,
+  "s_pr": 97.86,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 98.42,
+  "s_impact": 99.46,
+  "s_consistency": 98.87,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 865.0,
+  "rank_score": 864.5,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 407,
+  "rank": 450,
   "avatar_url": "https://avatars.githubusercontent.com/u/45521157?u=d4a19875df2ed4d3928bc2ed59ac46088cb36174&v=4",
   "bio": "juicer @anaralabs",
   "company": "@anaralabs",
   "location": "Romania",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "percentile": 100.0,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 531,
-  "prev_score": 866.1,
-  "rank_delta": 124,
-  "score_delta": -1.1,
+  "prev_rank": 407,
+  "prev_score": 865.0,
+  "rank_delta": -43,
+  "score_delta": -0.5,
   "counted_merges": [
     {
       "repo": "cristicretu/diri",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 407,
       "s": 865.0
+    },
+    {
+      "d": "2026-11-26",
+      "r": 450,
+      "s": 864.5
     }
   ]
 }

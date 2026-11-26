@@ -1,0 +1,58 @@
+{
+  "username": "petercorke",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 6,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 95.9,
+  "s_quality": 50.0,
+  "s_impact": 99.73,
+  "s_consistency": 99.39,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 859.1,
+  "active_repos_touched": 2,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 2,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 681,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11801682?u=c6f8c9ba184f406c6ac4f8fd0991290b0d5fb5bb&v=4",
+  "bio": "Robotics research and education.",
+  "company": "",
+  "location": "Brisbane, Australia",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "petercorke/bdsim",
+      "prs": 2
+    },
+    {
+      "repo": "petercorke/machinevision-toolbox-python",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 681,
+      "s": 859.1
+    }
+  ]
+}

@@ -2,23 +2,23 @@
   "username": "MikeMcQuaid",
   "country": "",
   "primary_language": "Shell",
-  "total_pushes": 6,
+  "total_pushes": 4,
   "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 98.65,
+  "s_pr": 98.41,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 97.87,
+  "s_impact": 98.95,
+  "s_consistency": 98.53,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 7,
   "window_days": 30,
   "rank_score": 864.6,
-  "active_repos_touched": 5,
+  "active_repos_touched": 4,
   "pr_reviews": 1,
   "issue_comments": 0,
   "releases": 0,
@@ -28,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 437,
+  "rank": 443,
   "avatar_url": "https://avatars.githubusercontent.com/u/125011?u=17f92c9ee404f7feb7ab4870486193cee617cfe4&v=4",
   "bio": "Product and engineering leader, ex-@GitHub Principal Engineer, 18 years of experience reducing developer friction and scaling @Homebrew to >10,000,000 users.",
   "company": "@Administrate @Homebrew",
   "location": "Edinburgh, Scotland",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 437,
+  "prev_score": 864.6,
+  "rank_delta": -6,
+  "score_delta": 0.0,
   "counted_merges": [
     {
       "repo": "Homebrew/brew",
@@ -52,6 +56,11 @@
     {
       "d": "2026-11-25",
       "r": 437,
+      "s": 864.6
+    },
+    {
+      "d": "2026-11-26",
+      "r": 443,
       "s": 864.6
     }
   ]

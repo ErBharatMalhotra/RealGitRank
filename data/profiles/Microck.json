@@ -1,0 +1,62 @@
+{
+  "username": "Microck",
+  "country": "Spain",
+  "primary_language": "Unknown",
+  "total_pushes": 7,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 95.9,
+  "s_quality": 50.0,
+  "s_impact": 99.78,
+  "s_consistency": 99.18,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 858.9,
+  "active_repos_touched": 8,
+  "pr_reviews": 3,
+  "issue_comments": 3,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 690,
+  "avatar_url": "https://avatars.githubusercontent.com/u/45483921?u=45b2af30f6b5343d14ac54011cdf8d2b2f766649&v=4",
+  "bio": "content creator & hobbyist",
+  "company": "/mi\u02c8kr\u0251k/",
+  "location": "Spain",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Microck/canonfig",
+      "prs": 1
+    },
+    {
+      "repo": "Microck/satelle",
+      "prs": 1
+    },
+    {
+      "repo": "Microck/t3code",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 690,
+      "s": 858.9
+    }
+  ]
+}

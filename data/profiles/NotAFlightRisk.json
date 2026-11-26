@@ -2,22 +2,22 @@
   "username": "NotAFlightRisk",
   "country": "United Kingdom",
   "primary_language": "TypeScript",
-  "total_pushes": 11,
+  "total_pushes": 8,
   "merged_prs": 14,
   "listed_only": false,
-  "s_pr": 99.74,
+  "s_pr": 99.7,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 98.64,
+  "s_impact": 99.46,
+  "s_consistency": 98.98,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 15,
+  "active_days": 14,
   "window_days": 30,
-  "rank_score": 870.8,
+  "rank_score": 871.1,
   "active_repos_touched": 13,
   "pr_reviews": 2,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 90,
+  "rank": 84,
   "avatar_url": "https://avatars.githubusercontent.com/u/23277273?u=a4c96d8919590bd9f7e4183140775eb0d3daef8d&v=4",
   "bio": "Ex-developer :bowtie:",
   "company": "",
   "location": "Essex, UK",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 82,
-  "prev_score": 871.8,
-  "rank_delta": -8,
-  "score_delta": -1.0,
+  "prev_rank": 90,
+  "prev_score": 870.8,
+  "rank_delta": 6,
+  "score_delta": 0.3,
   "counted_merges": [
     {
       "repo": "NotAFlightRisk/fineprint",
@@ -79,6 +79,11 @@
       "d": "2026-11-25",
       "r": 90,
       "s": 870.8
+    },
+    {
+      "d": "2026-11-26",
+      "r": 84,
+      "s": 871.1
     }
   ]
 }

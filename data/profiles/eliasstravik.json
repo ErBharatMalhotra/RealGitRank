@@ -5,10 +5,10 @@
   "total_pushes": 4,
   "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 98.84,
+  "s_pr": 98.63,
   "s_quality": 50.0,
-  "s_impact": 99.86,
-  "s_consistency": 99.09,
+  "s_impact": 99.84,
+  "s_consistency": 99.25,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 869.2,
+  "rank_score": 868.7,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 186,
+  "rank": 224,
   "avatar_url": "https://avatars.githubusercontent.com/u/218792529?u=436f4d411661aff1e8c82916f510d2f494234b12&v=4",
   "bio": "building open source software for gtm teams",
   "company": "",
   "location": "Sweden",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 262,
+  "prev_rank": 186,
   "prev_score": 869.2,
-  "rank_delta": 76,
-  "score_delta": 0.0,
+  "rank_delta": -38,
+  "score_delta": -0.5,
   "counted_merges": [
     {
       "repo": "eliasstravik/shepherdr",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 186,
       "s": 869.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 224,
+      "s": 868.7
     }
   ]
 }

@@ -5,10 +5,10 @@
   "total_pushes": 7,
   "merged_prs": 7,
   "listed_only": false,
-  "s_pr": 99.55,
+  "s_pr": 99.47,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.73,
+  "s_impact": 98.95,
+  "s_consistency": 99.03,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 191,
+  "rank": 202,
   "avatar_url": "https://avatars.githubusercontent.com/u/5052549?u=1624acf4929dbcb6fbffbb53b0c00458e5787d14&v=4",
   "bio": "on the road to 1M PRs merged per day",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 358,
-  "prev_score": 868.1,
-  "rank_delta": 167,
-  "score_delta": 1.0,
+  "prev_rank": 191,
+  "prev_score": 869.1,
+  "rank_delta": -11,
+  "score_delta": 0.0,
   "counted_merges": [
     {
       "repo": "developerz-ai/ultimate",
@@ -78,6 +78,11 @@
     {
       "d": "2026-11-25",
       "r": 191,
+      "s": 869.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 202,
       "s": 869.1
     }
   ]

@@ -2,22 +2,22 @@
   "username": "ad-si",
   "country": "Germany",
   "primary_language": "Unknown",
-  "total_pushes": 17,
+  "total_pushes": 15,
   "merged_prs": 16,
   "listed_only": false,
-  "s_pr": 99.8,
+  "s_pr": 99.76,
   "s_quality": 50.0,
-  "s_impact": 99.94,
-  "s_consistency": 98.71,
+  "s_impact": 99.93,
+  "s_consistency": 99.08,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 17,
+  "active_days": 16,
   "window_days": 30,
-  "rank_score": 872.2,
+  "rank_score": 872.6,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 3,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 24,
+  "rank": 27,
   "avatar_url": "https://avatars.githubusercontent.com/u/36796532?u=87cae256bce214c215b46b9f0f784fc351888fae&v=4",
   "bio": "CEO @Airsequel\r\n| Haskell, Elm, Rust\r\n",
   "company": "@Airsequel ",
   "location": "Frankfurt am Main",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 21,
-  "prev_score": 873.0,
+  "prev_rank": 24,
+  "prev_score": 872.2,
   "rank_delta": -3,
-  "score_delta": -0.8,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "ad-si/Woxi",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 24,
       "s": 872.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 27,
+      "s": 872.6
     }
   ]
 }

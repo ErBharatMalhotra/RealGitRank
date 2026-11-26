@@ -5,19 +5,19 @@
   "total_pushes": 2,
   "merged_prs": 9,
   "listed_only": false,
-  "s_pr": 99.41,
+  "s_pr": 99.31,
   "s_quality": 50.0,
-  "s_impact": 99.43,
-  "s_consistency": 96.16,
+  "s_impact": 99.38,
+  "s_consistency": 96.78,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 11,
+  "active_days": 10,
   "window_days": 30,
-  "rank_score": 865.7,
+  "rank_score": 866.2,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 364,
+  "rank": 359,
   "avatar_url": "https://avatars.githubusercontent.com/u/341060791?u=f4e860a888f4b2a2521737761242ccc62cf59104&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "ci_pushes": 5,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "ci_pushes": 2,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 242,
-  "prev_score": 869.4,
-  "rank_delta": -122,
-  "score_delta": -3.7,
+  "prev_rank": 364,
+  "prev_score": 865.7,
+  "rank_delta": 5,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "limitlessprojects/Go-Hybrid",
@@ -64,6 +64,11 @@
       "d": "2026-11-25",
       "r": 364,
       "s": 865.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 359,
+      "s": 866.2
     }
   ]
 }

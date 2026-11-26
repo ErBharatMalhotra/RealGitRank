@@ -1,0 +1,58 @@
+{
+  "username": "erikdarlingdata",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 17,
+  "merged_prs": 13,
+  "listed_only": false,
+  "s_pr": 99.64,
+  "s_quality": 50.0,
+  "s_impact": 98.95,
+  "s_consistency": 95.87,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 13,
+  "window_days": 30,
+  "rank_score": 864.9,
+  "active_repos_touched": 4,
+  "pr_reviews": 6,
+  "issue_comments": 9,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 418,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2136037?v=4",
+  "bio": "I will make your SQL Server faster in exchange for money.",
+  "company": "Darling Data",
+  "location": "NYC",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "erikdarlingdata/PerformanceMonitor",
+      "prs": 12
+    },
+    {
+      "repo": "erikdarlingdata/PerformanceStudio",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 418,
+      "s": 864.9
+    }
+  ]
+}

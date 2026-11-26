@@ -2,22 +2,22 @@
   "username": "perminder-klair",
   "country": "United Kingdom",
   "primary_language": "TypeScript",
-  "total_pushes": 3,
+  "total_pushes": 2,
   "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 99.02,
+  "s_pr": 98.84,
   "s_quality": 50.0,
-  "s_impact": 99.66,
-  "s_consistency": 97.19,
+  "s_impact": 99.63,
+  "s_consistency": 97.78,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 9,
+  "active_days": 8,
   "window_days": 30,
-  "rank_score": 866.5,
+  "rank_score": 866.7,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 320,
+  "rank": 327,
   "avatar_url": "https://avatars.githubusercontent.com/u/3984412?u=a64f1c2908753ceb7f0bc4c7eaf6311100a5aefe&v=4",
   "bio": "React, React Native, GraphQL Consultant.  ",
   "company": "",
   "location": "Birmingham, UK",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 253,
-  "prev_score": 869.3,
-  "rank_delta": -67,
-  "score_delta": -2.8,
+  "prev_rank": 320,
+  "prev_score": 866.5,
+  "rank_delta": -7,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "perminder-klair/subwave",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 320,
       "s": 866.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 327,
+      "s": 866.7
     }
   ]
 }

@@ -5,10 +5,10 @@
   "total_pushes": 2,
   "merged_prs": 5,
   "listed_only": false,
-  "s_pr": 98.51,
+  "s_pr": 98.24,
   "s_quality": 50.0,
-  "s_impact": 99.82,
-  "s_consistency": 96.23,
+  "s_impact": 99.8,
+  "s_consistency": 96.85,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 863.7,
+  "rank_score": 863.6,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 498,
+  "rank": 499,
   "avatar_url": "https://avatars.githubusercontent.com/u/52125687?u=0847c1389fb7cd1a14b235c76dbcd026324a1152&v=4",
   "bio": "Design Engineer",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 651,
-  "prev_score": 864.1,
-  "rank_delta": 153,
-  "score_delta": -0.4,
+  "prev_rank": 498,
+  "prev_score": 863.7,
+  "rank_delta": -1,
+  "score_delta": -0.1,
   "counted_merges": [
     {
       "repo": "raphaelsalaja/pond",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 498,
       "s": 863.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 499,
+      "s": 863.6
     }
   ]
 }

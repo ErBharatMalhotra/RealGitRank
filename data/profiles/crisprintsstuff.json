@@ -3,21 +3,21 @@
   "country": "",
   "primary_language": "Rust",
   "total_pushes": 4,
-  "merged_prs": 11,
+  "merged_prs": 12,
   "listed_only": false,
-  "s_pr": 99.59,
+  "s_pr": 99.58,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.28,
+  "s_impact": 98.95,
+  "s_consistency": 98.73,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 11,
+  "active_days": 12,
   "window_days": 30,
-  "rank_score": 868.5,
+  "rank_score": 869.0,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,24 +28,24 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 219,
+  "rank": 204,
   "avatar_url": "https://avatars.githubusercontent.com/u/3594146?u=731166567435d1344899091131cdf3dc7458b289&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 366,
-  "prev_score": 868.0,
-  "rank_delta": 147,
+  "prev_rank": 219,
+  "prev_score": 868.5,
+  "rank_delta": 15,
   "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "crisprintsstuff/OxyBrush",
-      "prs": 8
+      "prs": 9
     },
     {
       "repo": "crisprintsstuff/knack2-pc-port",
@@ -71,6 +71,11 @@
       "d": "2026-11-25",
       "r": 219,
       "s": 868.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 204,
+      "s": 869.0
     }
   ]
 }

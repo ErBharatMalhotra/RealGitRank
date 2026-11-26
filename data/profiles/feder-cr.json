@@ -3,12 +3,12 @@
   "country": "",
   "primary_language": "Python",
   "total_pushes": 10,
-  "merged_prs": 3,
+  "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 98.19,
+  "s_pr": 98.63,
   "s_quality": 50.0,
-  "s_impact": 99.96,
-  "s_consistency": 99.09,
+  "s_impact": 99.95,
+  "s_consistency": 99.24,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,35 +17,35 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 867.2,
+  "rank_score": 868.9,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 1,
-  "stars_fraud_filtered": 9,
+  "stars_fraud_filtered": 8,
   "forks_fraud_filtered": 4,
   "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 279,
+  "rank": 212,
   "avatar_url": "https://avatars.githubusercontent.com/u/85809106?u=3856599b073f377b3a5cad264598ee62fc784890&v=4",
   "bio": "Bachelor's in Computer Science from the University of Genoa.\r\n\r\nPassionate about Stealth Browser and Artificial Intelligence.",
   "company": "federico.elia.majo@gmail.com",
   "location": "Genoa",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 389,
-  "prev_score": 867.9,
-  "rank_delta": 110,
-  "score_delta": -0.7,
+  "prev_rank": 279,
+  "prev_score": 867.2,
+  "rank_delta": 67,
+  "score_delta": 1.7,
   "counted_merges": [
     {
       "repo": "oss-invisible/core",
-      "prs": 1
+      "prs": 2
     },
     {
       "repo": "oss-invisible/playwright",
@@ -71,6 +71,11 @@
       "d": "2026-11-25",
       "r": 279,
       "s": 867.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 212,
+      "s": 868.9
     }
   ]
 }

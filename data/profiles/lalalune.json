@@ -2,13 +2,13 @@
   "username": "lalalune",
   "country": "United States",
   "primary_language": "Java",
-  "total_pushes": 95,
+  "total_pushes": 78,
   "merged_prs": 125,
   "listed_only": false,
   "s_pr": 100.0,
   "s_quality": 50.0,
-  "s_impact": 99.85,
-  "s_consistency": 98.26,
+  "s_impact": 99.84,
+  "s_consistency": 98.75,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,10 +17,10 @@
   },
   "active_days": 26,
   "window_days": 30,
-  "rank_score": 872.0,
-  "active_repos_touched": 19,
+  "rank_score": 872.7,
+  "active_repos_touched": 17,
   "pr_reviews": 8,
-  "issue_comments": 36,
+  "issue_comments": 35,
   "releases": 0,
   "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 3,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 32,
+  "rank": 22,
   "avatar_url": "https://avatars.githubusercontent.com/u/18633264?u=e2e906c3712c2506ebfa98df01c2cfdc50050b30&v=4",
   "bio": "Creator of elizaOS",
   "company": "Eliza Research",
   "location": "San Francisco",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 26,
-  "prev_score": 872.8,
-  "rank_delta": -6,
-  "score_delta": -0.8,
+  "prev_rank": 32,
+  "prev_score": 872.0,
+  "rank_delta": 10,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "lalalune/hyperliquid-source",
@@ -57,7 +57,7 @@
     },
     {
       "repo": "SlopDotCash/slopdotcash",
-      "prs": 10
+      "prs": 9
     },
     {
       "repo": "SlopDotCash/proximityprize",
@@ -73,7 +73,7 @@
     },
     {
       "repo": "eliza-research/thenetwork",
-      "prs": 2
+      "prs": 3
     },
     {
       "repo": "eliza-research/alphaphone",
@@ -99,6 +99,11 @@
       "d": "2026-11-25",
       "r": 32,
       "s": 872.0
+    },
+    {
+      "d": "2026-11-26",
+      "r": 22,
+      "s": 872.7
     }
   ]
 }

@@ -5,10 +5,10 @@
   "total_pushes": 4,
   "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 98.84,
+  "s_pr": 98.63,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 95.18,
+  "s_impact": 98.95,
+  "s_consistency": 95.62,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 861.3,
+  "rank_score": 861.0,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 616,
+  "rank": 603,
   "avatar_url": "https://avatars.githubusercontent.com/u/19217483?u=0e73b8e2cf89462397f39e8c54d67ae9b1eb2f50&v=4",
   "bio": "Chief Bottle Washer at Murgatroid Heavy Industries, Ltd.",
   "company": "Murgatroid Heavy Industries, Ltd.",
   "location": "Mountain View",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 832,
-  "prev_score": 861.0,
-  "rank_delta": 216,
-  "score_delta": 0.3,
+  "prev_rank": 616,
+  "prev_score": 861.3,
+  "rank_delta": 13,
+  "score_delta": -0.3,
   "counted_merges": [
     {
       "repo": "charlieh0tel/smartclock",
@@ -76,6 +76,11 @@
       "d": "2026-11-25",
       "r": 616,
       "s": 861.3
+    },
+    {
+      "d": "2026-11-26",
+      "r": 603,
+      "s": 861.0
     }
   ]
 }

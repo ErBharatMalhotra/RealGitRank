@@ -1,0 +1,91 @@
+{
+  "username": "suzuki-shunsuke",
+  "country": "Japan",
+  "primary_language": "Unknown",
+  "total_pushes": 11,
+  "merged_prs": 13,
+  "listed_only": false,
+  "s_pr": 99.77,
+  "s_quality": 50.0,
+  "s_impact": 98.95,
+  "s_consistency": 99.0,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 15,
+  "window_days": 30,
+  "rank_score": 870.1,
+  "active_repos_touched": 15,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 143,
+  "avatar_url": "https://avatars.githubusercontent.com/u/13323303?u=afedf0091bfd70a6a79c55f6aca781c94cb862f7&v=4",
+  "bio": "Platform Engineer / OSS Developer / Go",
+  "company": "",
+  "location": "Tokyo, Japan",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "ci_pushes": 2,
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "aquaproj/aqua-registry-g2",
+      "prs": 3
+    },
+    {
+      "repo": "aquaproj/ar2",
+      "prs": 2
+    },
+    {
+      "repo": "aquaproj/aqua",
+      "prs": 1
+    },
+    {
+      "repo": "csm-actions/demo-client",
+      "prs": 1
+    },
+    {
+      "repo": "suzuki-shunsuke/langcheck",
+      "prs": 1
+    },
+    {
+      "repo": "suzuki-shunsuke/lock-action",
+      "prs": 1
+    },
+    {
+      "repo": "suzuki-shunsuke/notify-workflow-error-action",
+      "prs": 1
+    },
+    {
+      "repo": "suzuki-shunsuke/pinact",
+      "prs": 1
+    },
+    {
+      "repo": "suzuki-shunsuke/slides",
+      "prs": 1
+    },
+    {
+      "repo": "suzuki-shunsuke/tfaction",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 143,
+      "s": 870.1
+    }
+  ]
+}

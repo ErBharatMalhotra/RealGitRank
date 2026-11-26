@@ -2,13 +2,13 @@
   "username": "max-sixty",
   "country": "United States",
   "primary_language": "Rust",
-  "total_pushes": 38,
-  "merged_prs": 17,
+  "total_pushes": 25,
+  "merged_prs": 19,
   "listed_only": false,
   "s_pr": 99.82,
   "s_quality": 50.0,
   "s_impact": 99.98,
-  "s_consistency": 98.27,
+  "s_consistency": 98.78,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,8 +17,8 @@
   },
   "active_days": 25,
   "window_days": 30,
-  "rank_score": 871.7,
-  "active_repos_touched": 9,
+  "rank_score": 872.5,
+  "active_repos_touched": 6,
   "pr_reviews": 12,
   "issue_comments": 4,
   "releases": 0,
@@ -28,25 +28,25 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 47,
+  "rank": 29,
   "avatar_url": "https://avatars.githubusercontent.com/u/5635139?u=6f1102d28e4e15c49584cea2596a75eea0eb8bc3&v=4",
   "bio": "Developer of worktrunk, prql, xarray & insta.\r\n\r\nAlso pytest-accept and numbagg.\r\n\r\n\r\nYou can give me feedback at feedback.maxroos.com",
   "company": "",
   "location": "Los Angeles",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 41,
-  "prev_score": 872.6,
-  "rank_delta": -6,
-  "score_delta": -0.9,
+  "prev_rank": 47,
+  "prev_score": 871.7,
+  "rank_delta": 18,
+  "score_delta": 0.8,
   "counted_merges": [
     {
       "repo": "max-sixty/leaf",
-      "prs": 16
+      "prs": 18
     },
     {
       "repo": "max-sixty/sparkjoy",
@@ -68,6 +68,11 @@
       "d": "2026-11-25",
       "r": 47,
       "s": 871.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 29,
+      "s": 872.5
     }
   ]
 }

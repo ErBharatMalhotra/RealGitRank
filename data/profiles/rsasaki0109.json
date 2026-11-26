@@ -2,13 +2,13 @@
   "username": "rsasaki0109",
   "country": "Japan",
   "primary_language": "Python",
-  "total_pushes": 15,
-  "merged_prs": 18,
+  "total_pushes": 12,
+  "merged_prs": 17,
   "listed_only": false,
-  "s_pr": 99.84,
+  "s_pr": 99.79,
   "s_quality": 50.0,
-  "s_impact": 99.87,
-  "s_consistency": 98.35,
+  "s_impact": 99.92,
+  "s_consistency": 98.81,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,31 +17,31 @@
   },
   "active_days": 22,
   "window_days": 30,
-  "rank_score": 871.6,
-  "active_repos_touched": 12,
+  "rank_score": 872.3,
+  "active_repos_touched": 11,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 1,
   "stars_fraud_filtered": 9,
-  "forks_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
   "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 52,
+  "rank": 34,
   "avatar_url": "https://avatars.githubusercontent.com/u/18298605?v=4",
   "bio": " Robotics Software Engineer",
   "company": "",
   "location": "Japan",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 45,
-  "prev_score": 872.5,
-  "rank_delta": -7,
-  "score_delta": -0.9,
+  "prev_rank": 52,
+  "prev_score": 871.6,
+  "rank_delta": 18,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "rsasaki0109/RobotNativeEngine",
@@ -60,12 +60,12 @@
       "prs": 2
     },
     {
-      "repo": "rsasaki0109/gnssplusplus-library",
+      "repo": "rsasaki0109/visloc-rs",
       "prs": 2
     },
     {
-      "repo": "rsasaki0109/visloc-rs",
-      "prs": 2
+      "repo": "rsasaki0109/gnssplusplus-library",
+      "prs": 1
     },
     {
       "repo": "rsasaki0109/lidar_slam_ros2",
@@ -91,6 +91,11 @@
       "d": "2026-11-25",
       "r": 52,
       "s": 871.6
+    },
+    {
+      "d": "2026-11-26",
+      "r": 34,
+      "s": 872.3
     }
   ]
 }

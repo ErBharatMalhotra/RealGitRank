@@ -2,13 +2,13 @@
   "username": "timerloggedout-spec",
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 282,
+  "total_pushes": 266,
   "merged_prs": 17,
   "listed_only": false,
-  "s_pr": 99.82,
+  "s_pr": 99.79,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.56,
+  "s_impact": 98.95,
+  "s_consistency": 98.95,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,10 +17,10 @@
   },
   "active_days": 24,
   "window_days": 30,
-  "rank_score": 869.8,
+  "rank_score": 870.0,
   "active_repos_touched": 14,
   "pr_reviews": 2,
-  "issue_comments": 92,
+  "issue_comments": 93,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
@@ -34,15 +34,15 @@
   "company": "Pronouns becoming annoying ++ another deployment from 2017 session.",
   "location": "Milky Way",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "ci_pushes": 235,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "ci_pushes": 237,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 132,
-  "prev_score": 870.9,
-  "rank_delta": -16,
-  "score_delta": -1.1,
+  "prev_rank": 148,
+  "prev_score": 869.8,
+  "rank_delta": 0,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "timerloggedout-spec/termux-monorepo",
@@ -64,6 +64,11 @@
       "d": "2026-11-25",
       "r": 148,
       "s": 869.8
+    },
+    {
+      "d": "2026-11-26",
+      "r": 148,
+      "s": 870.0
     }
   ]
 }

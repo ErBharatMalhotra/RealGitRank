@@ -2,22 +2,22 @@
   "username": "Deicyde",
   "country": "United States",
   "primary_language": "Lean",
-  "total_pushes": 40,
+  "total_pushes": 36,
   "merged_prs": 8,
   "listed_only": false,
-  "s_pr": 99.55,
+  "s_pr": 99.47,
   "s_quality": 50.0,
-  "s_impact": 99.75,
-  "s_consistency": 98.86,
+  "s_impact": 99.73,
+  "s_consistency": 99.13,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 17,
+  "active_days": 16,
   "window_days": 30,
-  "rank_score": 871.1,
+  "rank_score": 871.2,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 24,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 74,
+  "rank": 83,
   "avatar_url": "https://avatars.githubusercontent.com/u/37917934?u=e2b6f8c120e8b7883eb481c962f6904443c55125&v=4",
   "bio": "Graduate student of mathematics at Stony Brook University. BS in Mathematics and Computer Science.",
   "company": "Stony Brook University",
   "location": "New York",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 189,
-  "prev_score": 870.2,
-  "rank_delta": 115,
-  "score_delta": 0.9,
+  "prev_rank": 74,
+  "prev_score": 871.1,
+  "rank_delta": -9,
+  "score_delta": 0.1,
   "counted_merges": [
     {
       "repo": "facebookresearch/autoform-bot",
@@ -79,6 +79,11 @@
       "d": "2026-11-25",
       "r": 74,
       "s": 871.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 83,
+      "s": 871.2
     }
   ]
 }

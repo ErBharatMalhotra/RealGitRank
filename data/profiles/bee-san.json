@@ -5,10 +5,10 @@
   "total_pushes": 7,
   "merged_prs": 5,
   "listed_only": false,
-  "s_pr": 98.51,
+  "s_pr": 98.24,
   "s_quality": 50.0,
-  "s_impact": 99.82,
-  "s_consistency": 98.85,
+  "s_impact": 99.8,
+  "s_consistency": 99.01,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,10 +17,10 @@
   },
   "active_days": 13,
   "window_days": 30,
-  "rank_score": 867.6,
+  "rank_score": 866.9,
   "active_repos_touched": 7,
   "pr_reviews": 0,
-  "issue_comments": 3,
+  "issue_comments": 2,
   "releases": 1,
   "stars_fraud_filtered": 6,
   "forks_fraud_filtered": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 262,
+  "rank": 318,
   "avatar_url": "https://avatars.githubusercontent.com/u/10378052?u=ef40bde2b96fe1f2cda5372bbe86682a9c98c619&v=4",
   "bio": "Creator of RustScan, Ciphey, Name-That-Hash, Search-That-Hash and more \ud83c\udf0c   \r\n\r\njust a girl",
   "company": "N/A",
   "location": "Tokyo",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 360,
-  "prev_score": 868.1,
-  "rank_delta": 98,
-  "score_delta": -0.5,
+  "prev_rank": 262,
+  "prev_score": 867.6,
+  "rank_delta": -56,
+  "score_delta": -0.7,
   "counted_merges": [
     {
       "repo": "bee-san/Rubi_for_vita",
@@ -71,6 +71,11 @@
       "d": "2026-11-25",
       "r": 262,
       "s": 867.6
+    },
+    {
+      "d": "2026-11-26",
+      "r": 318,
+      "s": 866.9
     }
   ]
 }

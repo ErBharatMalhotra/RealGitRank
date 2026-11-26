@@ -5,10 +5,10 @@
   "total_pushes": 3,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 96.51,
+  "s_pr": 95.9,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 97.57,
+  "s_impact": 99.46,
+  "s_consistency": 98.15,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 857.9,
+  "rank_score": 856.5,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 794,
+  "rank": 820,
   "avatar_url": "https://avatars.githubusercontent.com/u/5789309?v=4",
   "bio": "",
   "company": "",
   "location": "US",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 704,
-  "prev_score": 863.2,
-  "rank_delta": -90,
-  "score_delta": -5.3,
+  "prev_rank": 794,
+  "prev_score": 857.9,
+  "rank_delta": -26,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "Yeraze/meshmonitor",
@@ -64,6 +64,11 @@
       "d": "2026-11-25",
       "r": 794,
       "s": 857.9
+    },
+    {
+      "d": "2026-11-26",
+      "r": 820,
+      "s": 856.5
     }
   ]
 }

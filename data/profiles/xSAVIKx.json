@@ -5,10 +5,10 @@
   "total_pushes": 1,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 96.51,
+  "s_pr": 95.9,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.65,
+  "s_impact": 98.95,
+  "s_consistency": 98.98,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 5,
   "window_days": 30,
-  "rank_score": 858.3,
+  "rank_score": 856.5,
   "active_repos_touched": 2,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 773,
+  "rank": 816,
   "avatar_url": "https://avatars.githubusercontent.com/u/5675689?u=60c711ef0f91cb24d13b6cbc33d5691145fb4a60&v=4",
   "bio": "First SRE @dualentry. Google Developer Expert, Cloud. I make cloud infrastructure cheaper and less exciting to operate",
   "company": "@dualentry",
   "location": "Katowice, Poland",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 706,
-  "prev_score": 863.1,
-  "rank_delta": -67,
-  "score_delta": -4.8,
+  "prev_rank": 773,
+  "prev_score": 858.3,
+  "rank_delta": -43,
+  "score_delta": -1.8,
   "counted_merges": [
     {
       "repo": "xSAVIKx/agent-signals",
@@ -58,6 +58,11 @@
       "d": "2026-11-25",
       "r": 773,
       "s": 858.3
+    },
+    {
+      "d": "2026-11-26",
+      "r": 816,
+      "s": 856.5
     }
   ]
 }

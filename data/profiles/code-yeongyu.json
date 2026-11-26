@@ -2,25 +2,25 @@
   "username": "code-yeongyu",
   "country": "South Korea",
   "primary_language": "Rust",
-  "total_pushes": 106,
-  "merged_prs": 47,
+  "total_pushes": 77,
+  "merged_prs": 46,
   "listed_only": false,
   "s_pr": 99.98,
   "s_quality": 50.0,
   "s_impact": 99.97,
-  "s_consistency": 98.71,
+  "s_consistency": 99.02,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 29,
+  "active_days": 28,
   "window_days": 30,
-  "rank_score": 872.9,
+  "rank_score": 873.4,
   "active_repos_touched": 9,
   "pr_reviews": 6,
-  "issue_comments": 111,
+  "issue_comments": 110,
   "releases": 1,
   "stars_fraud_filtered": 18,
   "forks_fraud_filtered": 3,
@@ -28,25 +28,24 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 2,
+  "rank": 1,
   "avatar_url": "https://avatars.githubusercontent.com/u/11153873?u=568c08de254b942a8ec466fcba17f2a02cb68802&v=4",
   "bio": "Hacker.",
   "company": "",
   "location": "Seoul",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "ci_pushes": 1,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 3,
-  "prev_score": 873.4,
+  "prev_rank": 2,
+  "prev_score": 872.9,
   "rank_delta": 1,
-  "score_delta": -0.5,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "code-yeongyu/senpi",
-      "prs": 19
+      "prs": 18
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
@@ -84,6 +83,11 @@
       "d": "2026-11-25",
       "r": 2,
       "s": 872.9
+    },
+    {
+      "d": "2026-11-26",
+      "r": 1,
+      "s": 873.4
     }
   ]
 }

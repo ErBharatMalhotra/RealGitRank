@@ -5,10 +5,10 @@
   "total_pushes": 0,
   "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 99.08,
+  "s_pr": 98.92,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 97.59,
+  "s_impact": 98.95,
+  "s_consistency": 98.17,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 865.7,
+  "rank_score": 865.8,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,19 +28,19 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 365,
+  "rank": 382,
   "avatar_url": "https://avatars.githubusercontent.com/u/4550606?u=5fff4bfcbc81bc04a4aacf06f8cfdb2df3500bce&v=4",
   "bio": "",
   "company": "",
   "location": "Ho Chi Minh",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "percentile": 100.0,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 569,
-  "prev_score": 865.6,
-  "rank_delta": 204,
+  "prev_rank": 365,
+  "prev_score": 865.7,
+  "rank_delta": -17,
   "score_delta": 0.1,
   "counted_merges": [
     {
@@ -75,6 +75,11 @@
       "d": "2026-11-25",
       "r": 365,
       "s": 865.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 382,
+      "s": 865.8
     }
   ]
 }

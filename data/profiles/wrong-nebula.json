@@ -1,0 +1,62 @@
+{
+  "username": "wrong-nebula",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 95.9,
+  "s_quality": 50.0,
+  "s_impact": 99.78,
+  "s_consistency": 96.52,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 854.9,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 889,
+  "avatar_url": "https://avatars.githubusercontent.com/u/263823322?u=adfbee984d0e6fd70691f426dfeae94606e37ff6&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "wrong-nebula/DP-NNS-AO-for-threejs",
+      "prs": 1
+    },
+    {
+      "repo": "wrong-nebula/Fast-SDF-AO",
+      "prs": 1
+    },
+    {
+      "repo": "wrong-nebula/hypbr",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 889,
+      "s": 854.9
+    }
+  ]
+}

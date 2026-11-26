@@ -5,10 +5,10 @@
   "total_pushes": 5,
   "merged_prs": 16,
   "listed_only": false,
-  "s_pr": 99.9,
+  "s_pr": 99.89,
   "s_quality": 50.0,
-  "s_impact": 99.42,
-  "s_consistency": 97.2,
+  "s_impact": 99.37,
+  "s_consistency": 97.81,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 13,
   "window_days": 30,
-  "rank_score": 869.0,
+  "rank_score": 869.7,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 195,
+  "rank": 167,
   "avatar_url": "https://avatars.githubusercontent.com/u/131544788?u=3c5d8edb689a01ff451b61dc6c369d99a07c0e16&v=4",
   "bio": "\ud83d\udc4b New project https://github.com/baocode-dev/baocode",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 381,
-  "prev_score": 867.9,
-  "rank_delta": 186,
-  "score_delta": 1.1,
+  "prev_rank": 195,
+  "prev_score": 869.0,
+  "rank_delta": 28,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "baocode-dev/baocode",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 195,
       "s": 869.0
+    },
+    {
+      "d": "2026-11-26",
+      "r": 167,
+      "s": 869.7
     }
   ]
 }

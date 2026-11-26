@@ -1,0 +1,54 @@
+{
+  "username": "raold",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 3,
+  "merged_prs": 5,
+  "listed_only": false,
+  "s_pr": 98.24,
+  "s_quality": 50.0,
+  "s_impact": 98.95,
+  "s_consistency": 90.71,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 8,
+  "window_days": 30,
+  "rank_score": 852.3,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 976,
+  "avatar_url": "https://avatars.githubusercontent.com/u/868138?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "raold/leeroy",
+      "prs": 5
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 976,
+      "s": 852.3
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "username": "Iu-yang1",
+  "country": "",
+  "primary_language": "Go",
+  "total_pushes": 19,
+  "merged_prs": 5,
+  "listed_only": false,
+  "s_pr": 98.24,
+  "s_quality": 50.0,
+  "s_impact": 98.44,
+  "s_consistency": 91.53,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 852.2,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 981,
+  "avatar_url": "https://avatars.githubusercontent.com/u/97876916?u=96aef179e091caf323eb8419b483f504ed9710cc&v=4",
+  "bio": "BG5JSU | IEEE Student Member",
+  "company": "@Be-Galaxy ",
+  "location": "HongKong",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Iu-yang1/SkyRoof-Plus",
+      "prs": 4
+    },
+    {
+      "repo": "Iu-yang1/mfsk-core-tx5dr",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 981,
+      "s": 852.2
+    }
+  ]
+}

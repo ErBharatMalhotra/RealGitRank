@@ -5,10 +5,10 @@
   "total_pushes": 26,
   "merged_prs": 9,
   "listed_only": false,
-  "s_pr": 99.55,
+  "s_pr": 99.47,
   "s_quality": 50.0,
-  "s_impact": 99.91,
-  "s_consistency": 97.48,
+  "s_impact": 99.9,
+  "s_consistency": 98.06,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 869.4,
+  "rank_score": 870.0,
   "active_repos_touched": 12,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 171,
+  "rank": 150,
   "avatar_url": "https://avatars.githubusercontent.com/u/13212227?u=e4ca40c1aa41990f72475bebee84c860b631a30c&v=4",
   "bio": "Security Engineer, Developer and H4cker.",
   "company": "",
   "location": "Republic of Korea",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 4,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 112,
-  "prev_score": 871.2,
-  "rank_delta": -59,
-  "score_delta": -1.8,
+  "prev_rank": 171,
+  "prev_score": 869.4,
+  "rank_delta": 21,
+  "score_delta": 0.6,
   "counted_merges": [
     {
       "repo": "hahwul/gori",
@@ -76,6 +76,11 @@
       "d": "2026-11-25",
       "r": 171,
       "s": 869.4
+    },
+    {
+      "d": "2026-11-26",
+      "r": 150,
+      "s": 870.0
     }
   ]
 }

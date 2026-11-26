@@ -5,10 +5,10 @@
   "total_pushes": 5,
   "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 99.02,
+  "s_pr": 98.84,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 95.86,
+  "s_impact": 99.46,
+  "s_consistency": 96.45,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 9,
   "window_days": 30,
-  "rank_score": 864.1,
+  "rank_score": 864.3,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 480,
+  "rank": 465,
   "avatar_url": "https://avatars.githubusercontent.com/u/84045975?u=3552845cef4bbe575df06c328b99b7d0396e6f70&v=4",
   "bio": "CNCF Ambassador \u00b7 Nephio TSC Member \u00b7 Zephyr Maintainer",
   "company": "Taipei City Hospital, Yangming Branch",
   "location": "No. 155, Sec. 2, Linong St. Beitou Dist., Taipei City 112304, Taiwan",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 294,
-  "prev_score": 868.8,
-  "rank_delta": -186,
-  "score_delta": -4.7,
+  "prev_rank": 480,
+  "prev_score": 864.1,
+  "rank_delta": 15,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "thc1006/sch001-108platform",
@@ -76,6 +76,11 @@
       "d": "2026-11-25",
       "r": 480,
       "s": 864.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 465,
+      "s": 864.3
     }
   ]
 }

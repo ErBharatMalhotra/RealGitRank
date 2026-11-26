@@ -2,46 +2,46 @@
   "username": "ludovic111",
   "country": "",
   "primary_language": "Rust",
-  "total_pushes": 49,
-  "merged_prs": 34,
+  "total_pushes": 29,
+  "merged_prs": 33,
   "listed_only": false,
   "s_pr": 99.98,
   "s_quality": 50.0,
-  "s_impact": 99.84,
-  "s_consistency": 95.71,
+  "s_impact": 99.75,
+  "s_consistency": 96.33,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 20,
+  "active_days": 19,
   "window_days": 30,
-  "rank_score": 868.1,
-  "active_repos_touched": 13,
+  "rank_score": 868.8,
+  "active_repos_touched": 11,
   "pr_reviews": 13,
-  "issue_comments": 42,
+  "issue_comments": 39,
   "releases": 1,
-  "stars_fraud_filtered": 7,
+  "stars_fraud_filtered": 5,
   "forks_fraud_filtered": 0,
   "active_shipping_weeks": 4,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 234,
+  "rank": 213,
   "avatar_url": "https://avatars.githubusercontent.com/u/136255825?u=9ced9c630300e7216e1faef114a8e9c60b21b839&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 95,
-  "prev_score": 871.5,
-  "rank_delta": -139,
-  "score_delta": -3.4,
+  "prev_rank": 234,
+  "prev_score": 868.1,
+  "rank_delta": 21,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "horizon-rust/horizon",
@@ -50,10 +50,6 @@
     {
       "repo": "horizon-rust/horizon-mods",
       "prs": 7
-    },
-    {
-      "repo": "ludovic111/horizon",
-      "prs": 1
     }
   ],
   "history": [
@@ -71,6 +67,11 @@
       "d": "2026-11-25",
       "r": 234,
       "s": 868.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 213,
+      "s": 868.8
     }
   ]
 }

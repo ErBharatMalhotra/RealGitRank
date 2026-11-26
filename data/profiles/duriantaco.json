@@ -5,10 +5,10 @@
   "total_pushes": 2,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 96.51,
+  "s_pr": 95.9,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 97.66,
+  "s_impact": 99.46,
+  "s_consistency": 98.23,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 858.1,
+  "rank_score": 856.7,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 788,
+  "rank": 807,
   "avatar_url": "https://avatars.githubusercontent.com/u/57052760?u=ed59d8a06144440134aaf7d10ff83d6543c6d6f1&v=4",
   "bio": "Do whatever you want as long as it makes you happy. Shipping features that I want to use. Feel free to contact me if you want to colab \r\n\r\naaron@skylos.dev",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 788,
+  "prev_score": 858.1,
+  "rank_delta": -19,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "duriantaco/skylos",
@@ -49,6 +53,11 @@
       "d": "2026-11-25",
       "r": 788,
       "s": 858.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 807,
+      "s": 856.7
     }
   ]
 }

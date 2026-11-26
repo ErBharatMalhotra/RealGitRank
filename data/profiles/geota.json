@@ -5,10 +5,10 @@
   "total_pushes": 9,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 96.51,
+  "s_pr": 95.9,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 95.88,
+  "s_impact": 98.95,
+  "s_consistency": 96.48,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 854.2,
+  "rank_score": 852.7,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 5,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 941,
+  "rank": 963,
   "avatar_url": "https://avatars.githubusercontent.com/u/2237123?u=a9a98b8c163366e1fee20fe9fd0bdbf5cb45a02b&v=4",
   "bio": "",
   "company": "@Cloudflare",
   "location": "Austin, TX",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 808,
-  "prev_score": 861.4,
-  "rank_delta": -133,
-  "score_delta": -7.2,
+  "prev_rank": 941,
+  "prev_score": 854.2,
+  "rank_delta": -22,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "geota/crema",
@@ -58,6 +58,11 @@
       "d": "2026-11-25",
       "r": 941,
       "s": 854.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 963,
+      "s": 852.7
     }
   ]
 }

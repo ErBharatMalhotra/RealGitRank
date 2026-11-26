@@ -1,20 +1,23 @@
 {
-  "generated_at": "2026-11-25T11:38:14.325836+00:00",
+  "generated_at": "2026-11-26T07:12:07.931873+00:00",
   "score_version": "v2-percentile",
   "window_days": 30,
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "users": 50000,
-  "users_total": 866244,
+  "users_detailed": 50000,
+  "users_total": 730139,
+  "users_ranked": 646093,
+  "users_listed": 84046,
   "source": {
     "days_measured": 30,
     "days_in_window": 30,
-    "hourly_files": 48,
-    "events": 384756,
-    "bot_events": 107443,
-    "bot_share_pct": 27.9,
-    "events_per_day": 12825.0,
-    "ci_pushes": 510767
+    "hourly_files": 72,
+    "events": 505290,
+    "bot_events": 141491,
+    "bot_share_pct": 28.0,
+    "events_per_day": 16843.0,
+    "ci_pushes": 380556
   },
   "pillars": {
     "delivery": {
@@ -24,8 +27,8 @@
     },
     "code_health": {
       "label": "Test-signal ratio and multi-file PRs",
-      "measured": 47810,
-      "pct": 95.6
+      "measured": 48857,
+      "pct": 97.7
     },
     "adoption": {
       "label": "Stars and forks received",
@@ -43,12 +46,12 @@
     "pct": 0.0
   },
   "country": {
-    "known": 6845,
-    "pct": 13.7
+    "known": 7013,
+    "pct": 14.0
   },
   "language": {
-    "known": 3071,
-    "pct": 6.1
+    "known": 3111,
+    "pct": 6.2
   },
   "validation": {
     "method": "event-level: GitHub PR API merged_at + merged_by",

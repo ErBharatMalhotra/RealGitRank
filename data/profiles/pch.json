@@ -1,0 +1,54 @@
+{
+  "username": "pch",
+  "country": "Poland",
+  "primary_language": "Rust",
+  "total_pushes": 5,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 95.9,
+  "s_quality": 50.0,
+  "s_impact": 99.7,
+  "s_consistency": 99.19,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 9,
+  "window_days": 30,
+  "rank_score": 858.7,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 4,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 702,
+  "avatar_url": "https://avatars.githubusercontent.com/u/9818?u=b460b71c6e929a2b8257d8932070f21cfd3b856f&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Warsaw, Poland",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "pch/rawmakase",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 702,
+      "s": 858.7
+    }
+  ]
+}

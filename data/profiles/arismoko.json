@@ -2,13 +2,13 @@
   "username": "arismoko",
   "country": "",
   "primary_language": "Rust",
-  "total_pushes": 111,
+  "total_pushes": 80,
   "merged_prs": 92,
   "listed_only": false,
   "s_pr": 100.0,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.4,
+  "s_impact": 98.95,
+  "s_consistency": 98.88,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,10 +17,10 @@
   },
   "active_days": 28,
   "window_days": 30,
-  "rank_score": 870.1,
-  "active_repos_touched": 14,
-  "pr_reviews": 78,
-  "issue_comments": 67,
+  "rank_score": 870.7,
+  "active_repos_touched": 16,
+  "pr_reviews": 83,
+  "issue_comments": 70,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
@@ -28,27 +28,27 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 128,
+  "rank": 103,
   "avatar_url": "https://avatars.githubusercontent.com/u/19542195?u=28786a6f12d9aa1f63a25396ce24fd1b71dfb05a&v=4",
   "bio": "Full-stack developer.",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 114,
-  "prev_score": 871.1,
-  "rank_delta": -14,
-  "score_delta": -1.0,
+  "prev_rank": 128,
+  "prev_score": 870.1,
+  "rank_delta": 25,
+  "score_delta": 0.6,
   "counted_merges": [
     {
-      "repo": "resident-labs/dyna",
-      "prs": 31
+      "repo": "arismoko/horizon",
+      "prs": 30
     },
     {
-      "repo": "arismoko/horizon",
+      "repo": "resident-labs/dyna",
       "prs": 30
     },
     {
@@ -74,6 +74,10 @@
     {
       "repo": "sunrise-org/sunrise-mods",
       "prs": 2
+    },
+    {
+      "repo": "arismoko/sunrise-ports",
+      "prs": 1
     }
   ],
   "history": [
@@ -91,6 +95,11 @@
       "d": "2026-11-25",
       "r": 128,
       "s": 870.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 103,
+      "s": 870.7
     }
   ]
 }

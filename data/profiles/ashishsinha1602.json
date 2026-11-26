@@ -1,0 +1,57 @@
+{
+  "username": "ashishsinha1602",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 0,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 95.9,
+  "s_quality": 50.0,
+  "s_impact": 98.95,
+  "s_consistency": 96.97,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 4,
+  "window_days": 30,
+  "rank_score": 853.5,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 943,
+  "avatar_url": "https://avatars.githubusercontent.com/u/89672346?u=712d4e52a9dd12f080bcda6a11c80389fca21eb9&v=4",
+  "bio": "Principal AI and Data Engineer. Built schemagate: text-to-SQL schema selection, ~91% fewer schema tokens, #1 BIRD Mini-Dev. Code behind every number is public.",
+  "company": "",
+  "location": "",
+  "followers": 11,
+  "commits_1y": 656,
+  "repos_total": 15,
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "ashishsinha1602/schemagate",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 943,
+      "s": 853.5
+    }
+  ]
+}

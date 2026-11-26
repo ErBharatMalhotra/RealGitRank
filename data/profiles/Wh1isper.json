@@ -2,22 +2,22 @@
   "username": "Wh1isper",
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 9,
+  "total_pushes": 7,
   "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 99.41,
+  "s_pr": 99.31,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 99.32,
+  "s_impact": 98.95,
+  "s_consistency": 99.38,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 10,
+  "active_days": 9,
   "window_days": 30,
-  "rank_score": 869.5,
+  "rank_score": 869.0,
   "active_repos_touched": 2,
   "pr_reviews": 2,
   "issue_comments": 1,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 165,
+  "rank": 208,
   "avatar_url": "https://avatars.githubusercontent.com/u/43375501?u=fc30be3ffc549b9c2ceb82590c9e2782eeaeaeef&v=4",
   "bio": "AI Engineer \r\n",
   "company": "",
   "location": "\u6df1\u5733",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 107,
-  "prev_score": 871.3,
-  "rank_delta": -58,
-  "score_delta": -1.8,
+  "prev_rank": 165,
+  "prev_score": 869.5,
+  "rank_delta": -43,
+  "score_delta": -0.5,
   "counted_merges": [
     {
       "repo": "converge-ai-labs/agent-foundation",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 165,
       "s": 869.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 208,
+      "s": 869.0
     }
   ]
 }

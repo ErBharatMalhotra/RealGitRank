@@ -2,13 +2,13 @@
   "username": "po4yka",
   "country": "",
   "primary_language": "Kotlin",
-  "total_pushes": 10,
+  "total_pushes": 8,
   "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 98.84,
+  "s_pr": 98.63,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 97.59,
+  "s_impact": 98.95,
+  "s_consistency": 98.2,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -28,29 +28,29 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 408,
+  "rank": 420,
   "avatar_url": "https://avatars.githubusercontent.com/u/42894392?u=64578004eeac0f44e86e664e01868b997a2a5ab4&v=4",
   "bio": "Mobile developer: Android, KMM;\r\nAI/ML enthusiast",
   "company": "Garage IT",
   "location": "Tbilisi",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 2,
-  "percentile": 100.0,
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 473,
-  "prev_score": 866.8,
-  "rank_delta": 65,
-  "score_delta": -1.9,
+  "prev_rank": 408,
+  "prev_score": 864.9,
+  "rank_delta": -12,
+  "score_delta": 0.0,
   "counted_merges": [
     {
       "repo": "po4yka/ripdpi-vpn-deploy",
-      "prs": 3
+      "prs": 4
     },
     {
       "repo": "po4yka/RIPDPI",
-      "prs": 2
+      "prs": 1
     },
     {
       "repo": "po4yka/blog",
@@ -71,6 +71,11 @@
     {
       "d": "2026-11-25",
       "r": 408,
+      "s": 864.9
+    },
+    {
+      "d": "2026-11-26",
+      "r": 420,
       "s": 864.9
     }
   ]

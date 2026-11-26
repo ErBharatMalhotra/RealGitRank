@@ -5,10 +5,10 @@
   "total_pushes": 19,
   "merged_prs": 15,
   "listed_only": false,
-  "s_pr": 99.77,
+  "s_pr": 99.73,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 95.54,
+  "s_impact": 98.95,
+  "s_consistency": 96.01,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 865.1,
+  "rank_score": 865.5,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 397,
+  "rank": 395,
   "avatar_url": "https://avatars.githubusercontent.com/u/147595204?u=70519bc2f242db30113b6b769737f7e76259877d&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 1,
-  "percentile": 100.0,
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 266,
-  "prev_score": 869.1,
-  "rank_delta": -131,
-  "score_delta": -4.0,
+  "prev_rank": 397,
+  "prev_score": 865.1,
+  "rank_delta": 2,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "klimPaskov/HOI4-Live-Tools",
@@ -72,6 +72,11 @@
       "d": "2026-11-25",
       "r": 397,
       "s": 865.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 395,
+      "s": 865.5
     }
   ]
 }

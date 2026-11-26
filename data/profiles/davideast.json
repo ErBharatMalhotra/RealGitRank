@@ -5,10 +5,10 @@
   "total_pushes": 10,
   "merged_prs": 24,
   "listed_only": false,
-  "s_pr": 99.9,
+  "s_pr": 99.89,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 95.41,
+  "s_impact": 99.46,
+  "s_consistency": 95.86,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 14,
   "window_days": 30,
-  "rank_score": 866.5,
+  "rank_score": 867.1,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 315,
+  "rank": 292,
   "avatar_url": "https://avatars.githubusercontent.com/u/4570265?u=14886f65c34a6b3aefa9b237b4313ed173664eba&v=4",
   "bio": "Working on @google-labs-code on Stitch.",
   "company": "@google-labs-code",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 562,
-  "prev_score": 865.7,
-  "rank_delta": 247,
-  "score_delta": 0.8,
+  "prev_rank": 315,
+  "prev_score": 866.5,
+  "rank_delta": 23,
+  "score_delta": 0.6,
   "counted_merges": [
     {
       "repo": "davideast/pyric",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 315,
       "s": 866.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 292,
+      "s": 867.1
     }
   ]
 }

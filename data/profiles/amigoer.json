@@ -5,10 +5,10 @@
   "total_pushes": 2,
   "merged_prs": 7,
   "listed_only": false,
-  "s_pr": 99.55,
+  "s_pr": 99.47,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 90.84,
+  "s_impact": 99.46,
+  "s_consistency": 91.31,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 858.5,
+  "rank_score": 858.8,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 2,
@@ -28,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 759,
+  "rank": 692,
   "avatar_url": "https://avatars.githubusercontent.com/u/266790742?u=4502fa186fe032b37c73a7f11e67c336a1759edc&v=4",
   "bio": "",
   "company": "",
   "location": "Hang Zhou",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 759,
+  "prev_score": 858.5,
+  "rank_delta": 67,
+  "score_delta": 0.3,
   "counted_merges": [
     {
       "repo": "KettuAI/Kettu",
@@ -49,6 +53,11 @@
       "d": "2026-11-25",
       "r": 759,
       "s": 858.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 692,
+      "s": 858.8
     }
   ]
 }

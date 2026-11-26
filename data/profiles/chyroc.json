@@ -3,24 +3,24 @@
   "country": "China",
   "primary_language": "Python",
   "total_pushes": 37,
-  "merged_prs": 12,
+  "merged_prs": 14,
   "listed_only": false,
-  "s_pr": 99.84,
+  "s_pr": 99.85,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 95.64,
+  "s_impact": 98.95,
+  "s_consistency": 96.16,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 14,
+  "active_days": 15,
   "window_days": 30,
-  "rank_score": 865.4,
+  "rank_score": 866.1,
   "active_repos_touched": 4,
-  "pr_reviews": 30,
-  "issue_comments": 115,
+  "pr_reviews": 33,
+  "issue_comments": 130,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
@@ -28,24 +28,24 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 388,
+  "rank": 364,
   "avatar_url": "https://avatars.githubusercontent.com/u/15604894?u=420ab32f71fa4a6839da653b5a5d97381b087902&v=4",
   "bio": "Developer, interested in LLM and Agent",
   "company": "",
   "location": "China",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 612,
-  "prev_score": 864.8,
-  "rank_delta": 224,
-  "score_delta": 0.6,
+  "prev_rank": 388,
+  "prev_score": 865.4,
+  "rank_delta": 24,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "nwverse/persona",
-      "prs": 7
+      "prs": 9
     },
     {
       "repo": "nwverse/refract",
@@ -71,6 +71,11 @@
       "d": "2026-11-25",
       "r": 388,
       "s": 865.4
+    },
+    {
+      "d": "2026-11-26",
+      "r": 364,
+      "s": 866.1
     }
   ]
 }

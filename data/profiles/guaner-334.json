@@ -2,22 +2,22 @@
   "username": "guaner-334",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 3,
+  "total_pushes": 1,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 96.51,
+  "s_pr": 95.9,
   "s_quality": 50.0,
-  "s_impact": 99.84,
-  "s_consistency": 97.7,
+  "s_impact": 99.82,
+  "s_consistency": 99.32,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 9,
+  "active_days": 8,
   "window_days": 30,
-  "rank_score": 858.9,
+  "rank_score": 859.2,
   "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 739,
+  "rank": 678,
   "avatar_url": "https://avatars.githubusercontent.com/u/160236527?v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 682,
-  "prev_score": 863.6,
-  "rank_delta": -57,
-  "score_delta": -4.7,
+  "prev_rank": 739,
+  "prev_score": 858.9,
+  "rank_delta": 61,
+  "score_delta": 0.3,
   "counted_merges": [
     {
       "repo": "guaner-334/civ-atlas",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 739,
       "s": 858.9
+    },
+    {
+      "d": "2026-11-26",
+      "r": 678,
+      "s": 859.2
     }
   ]
 }

@@ -1,0 +1,90 @@
+{
+  "username": "kixelated",
+  "country": "United States",
+  "primary_language": "Rust",
+  "total_pushes": 93,
+  "merged_prs": 73,
+  "listed_only": false,
+  "s_pr": 99.99,
+  "s_quality": 50.0,
+  "s_impact": 98.44,
+  "s_consistency": 98.8,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 27,
+  "window_days": 30,
+  "rank_score": 869.3,
+  "active_repos_touched": 21,
+  "pr_reviews": 154,
+  "issue_comments": 29,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 189,
+  "avatar_url": "https://avatars.githubusercontent.com/u/432854?u=a1cecc640b684d082854d3602a91ed5f5b3305e0&v=4",
+  "bio": "live video nerd",
+  "company": "moq.pro",
+  "location": "San Francisco",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "moq-dev/moq",
+      "prs": 33
+    },
+    {
+      "repo": "moq-dev/rind",
+      "prs": 10
+    },
+    {
+      "repo": "moq-dev/quest",
+      "prs": 8
+    },
+    {
+      "repo": "moq-dev/rust2",
+      "prs": 8
+    },
+    {
+      "repo": "kixel-ai/rust2",
+      "prs": 7
+    },
+    {
+      "repo": "kixel-ai/rind",
+      "prs": 2
+    },
+    {
+      "repo": "kixel-ai/token-max",
+      "prs": 2
+    },
+    {
+      "repo": "kixelated/quest",
+      "prs": 1
+    },
+    {
+      "repo": "moq-dev/studio",
+      "prs": 1
+    },
+    {
+      "repo": "moq-dev/web-transport",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 189,
+      "s": 869.3
+    }
+  ]
+}

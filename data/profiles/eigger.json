@@ -2,23 +2,23 @@
   "username": "eigger",
   "country": "South Korea",
   "primary_language": "Python",
-  "total_pushes": 12,
-  "merged_prs": 10,
+  "total_pushes": 10,
+  "merged_prs": 9,
   "listed_only": false,
-  "s_pr": 99.5,
+  "s_pr": 99.31,
   "s_quality": 50.0,
-  "s_impact": 99.82,
-  "s_consistency": 95.8,
+  "s_impact": 99.8,
+  "s_consistency": 96.11,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 14,
+  "active_days": 13,
   "window_days": 30,
-  "rank_score": 866.5,
-  "active_repos_touched": 17,
+  "rank_score": 866.2,
+  "active_repos_touched": 15,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
@@ -28,27 +28,23 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 318,
+  "rank": 360,
   "avatar_url": "https://avatars.githubusercontent.com/u/29055708?u=5fe5af1ce56551e93d82f2d7973150e3313f4391&v=4",
   "bio": "Interested in automation.",
   "company": "",
   "location": "Korea",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 147,
-  "prev_score": 870.7,
-  "rank_delta": -171,
-  "score_delta": -4.2,
+  "prev_rank": 318,
+  "prev_score": 866.5,
+  "rank_delta": -42,
+  "score_delta": -0.3,
   "counted_merges": [
     {
       "repo": "eigger/hass-catprinter",
-      "prs": 2
-    },
-    {
-      "repo": "eigger/hass-garage",
       "prs": 2
     },
     {
@@ -57,6 +53,10 @@
     },
     {
       "repo": "eigger/hass-ble-esl",
+      "prs": 1
+    },
+    {
+      "repo": "eigger/hass-garage",
       "prs": 1
     },
     {
@@ -91,6 +91,11 @@
       "d": "2026-11-25",
       "r": 318,
       "s": 866.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 360,
+      "s": 866.2
     }
   ]
 }

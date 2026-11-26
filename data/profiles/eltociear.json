@@ -1,0 +1,58 @@
+{
+  "username": "eltociear",
+  "country": "Japan",
+  "primary_language": "Unknown",
+  "total_pushes": 2,
+  "merged_prs": 2,
+  "listed_only": false,
+  "s_pr": 95.9,
+  "s_quality": 50.0,
+  "s_impact": 99.57,
+  "s_consistency": 99.37,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 858.6,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 709,
+  "avatar_url": "https://avatars.githubusercontent.com/u/22633385?u=29190f6c8aed91fa9574b064a9995f1e49944acf&v=4",
+  "bio": "AI-driven developer @ Tokyo.\r\nLoves \ud83c\udfb8/\ud83d\udc08/\ud83c\udf5b/\ud83c\udfdd/\u26f0",
+  "company": "",
+  "location": "Tokyo, Japan",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Ebony-Vinyl/EAC-Desktop",
+      "prs": 1
+    },
+    {
+      "repo": "itsVicOC/bilibili-downloader",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 709,
+      "s": 858.6
+    }
+  ]
+}

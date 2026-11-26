@@ -5,10 +5,10 @@
   "total_pushes": 2,
   "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 99.3,
+  "s_pr": 99.17,
   "s_quality": 50.0,
-  "s_impact": 98.53,
-  "s_consistency": 95.75,
+  "s_impact": 98.44,
+  "s_consistency": 96.32,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 862.5,
+  "rank_score": 862.7,
   "active_repos_touched": 3,
   "pr_reviews": 1,
   "issue_comments": 3,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 550,
+  "rank": 538,
   "avatar_url": "https://avatars.githubusercontent.com/u/215859519?u=7afa9558022f49cca0f406067498c2779db14bc6&v=4",
   "bio": "AI Architect & Fractional CTO. Building scalable SaaS architectures & Low-latency Voice AI systems.\r\n\r\n\ud83d\udee0 Stack: Python, FastAPI, Kubernetes, AWS, WebRTC (LiveK",
   "company": "",
   "location": "Rennes, France",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 732,
-  "prev_score": 862.6,
-  "rank_delta": 182,
-  "score_delta": -0.1,
+  "prev_rank": 550,
+  "prev_score": 862.5,
+  "rank_delta": 12,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "getopenscreen/openscreen",
@@ -71,6 +71,11 @@
       "d": "2026-11-25",
       "r": 550,
       "s": 862.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 538,
+      "s": 862.7
     }
   ]
 }

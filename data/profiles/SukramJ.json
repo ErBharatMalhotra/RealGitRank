@@ -5,10 +5,10 @@
   "total_pushes": 7,
   "merged_prs": 8,
   "listed_only": false,
-  "s_pr": 99.3,
+  "s_pr": 99.17,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.66,
+  "s_impact": 98.95,
+  "s_consistency": 98.99,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 868.1,
+  "rank_score": 867.9,
   "active_repos_touched": 13,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 236,
+  "rank": 257,
   "avatar_url": "https://avatars.githubusercontent.com/u/5650106?u=4c4d6ae2804ad90b49cd6d11a499b4f0453510fd&v=4",
   "bio": "I'm a software engineer, with a deep passion for open-source software. I'm driven by the idea of making technology more accessible.",
   "company": "",
   "location": "Germany",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 224,
-  "prev_score": 869.7,
-  "rank_delta": -12,
-  "score_delta": -1.6,
+  "prev_rank": 236,
+  "prev_score": 868.1,
+  "rank_delta": -21,
+  "score_delta": -0.2,
   "counted_merges": [
     {
       "repo": "SukramJ/go-fabric-ui",
@@ -78,6 +78,11 @@
       "d": "2026-11-25",
       "r": 236,
       "s": 868.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 257,
+      "s": 867.9
     }
   ]
 }

@@ -5,10 +5,10 @@
   "total_pushes": 4,
   "merged_prs": 2,
   "listed_only": false,
-  "s_pr": 95.49,
+  "s_pr": 94.7,
   "s_quality": 50.0,
-  "s_impact": 99.78,
-  "s_consistency": 97.5,
+  "s_impact": 99.75,
+  "s_consistency": 98.08,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 854.9,
+  "rank_score": 853.0,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 913,
+  "rank": 956,
   "avatar_url": "https://avatars.githubusercontent.com/u/48503851?u=4e400921247331a8a4f46a1f2126082211e84d32&v=4",
   "bio": "M.S. @ INSC, Tsinghua <- B.E. @ Department of EE, Tsinghua",
   "company": "Tsinghua University",
   "location": "Beijing, China",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 825,
-  "prev_score": 861.2,
-  "rank_delta": -88,
-  "score_delta": -6.3,
+  "prev_rank": 913,
+  "prev_score": 854.9,
+  "rank_delta": -43,
+  "score_delta": -1.9,
   "counted_merges": [
     {
       "repo": "haneoka-gakuen/haneoka",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 913,
       "s": 854.9
+    },
+    {
+      "d": "2026-11-26",
+      "r": 956,
+      "s": 853.0
     }
   ]
 }

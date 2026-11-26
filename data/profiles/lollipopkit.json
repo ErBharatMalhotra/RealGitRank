@@ -5,10 +5,10 @@
   "total_pushes": 6,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 96.51,
+  "s_pr": 95.9,
   "s_quality": 50.0,
-  "s_impact": 99.66,
-  "s_consistency": 97.8,
+  "s_impact": 99.63,
+  "s_consistency": 98.38,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 858.7,
+  "rank_score": 857.3,
   "active_repos_touched": 6,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 750,
+  "rank": 775,
   "avatar_url": "https://avatars.githubusercontent.com/u/10864310?u=6c347714659065f32af927153759acaf68ff289a&v=4",
   "bio": "Hope live the life I want...",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 668,
-  "prev_score": 863.8,
-  "rank_delta": -82,
-  "score_delta": -5.1,
+  "prev_rank": 750,
+  "prev_score": 858.7,
+  "rank_delta": -25,
+  "score_delta": -1.4,
   "counted_merges": [
     {
       "repo": "lollipopkit/flutter_server_box",
@@ -68,6 +68,11 @@
       "d": "2026-11-25",
       "r": 750,
       "s": 858.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 775,
+      "s": 857.3
     }
   ]
 }

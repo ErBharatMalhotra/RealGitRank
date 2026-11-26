@@ -5,10 +5,10 @@
   "total_pushes": 0,
   "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 98.84,
+  "s_pr": 98.63,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 97.25,
+  "s_impact": 98.95,
+  "s_consistency": 97.86,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 455,
+  "rank": 459,
   "avatar_url": "https://avatars.githubusercontent.com/u/32509?v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 429,
-  "prev_score": 867.3,
-  "rank_delta": -26,
-  "score_delta": -2.9,
+  "prev_rank": 455,
+  "prev_score": 864.4,
+  "rank_delta": -4,
+  "score_delta": 0.0,
   "counted_merges": [
     {
       "repo": "checkly/checkly-go-sdk",
@@ -70,6 +70,11 @@
     {
       "d": "2026-11-25",
       "r": 455,
+      "s": 864.4
+    },
+    {
+      "d": "2026-11-26",
+      "r": 459,
       "s": 864.4
     }
   ]

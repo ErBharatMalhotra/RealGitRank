@@ -2,23 +2,23 @@
   "username": "narumiruna",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 21,
-  "merged_prs": 13,
+  "total_pushes": 15,
+  "merged_prs": 12,
   "listed_only": false,
-  "s_pr": 99.74,
+  "s_pr": 99.64,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 99.19,
+  "s_impact": 99.46,
+  "s_consistency": 99.33,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 15,
+  "active_days": 14,
   "window_days": 30,
-  "rank_score": 871.7,
-  "active_repos_touched": 19,
+  "rank_score": 871.4,
+  "active_repos_touched": 17,
   "pr_reviews": 1,
   "issue_comments": 2,
   "releases": 1,
@@ -28,26 +28,22 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 48,
+  "rank": 71,
   "avatar_url": "https://avatars.githubusercontent.com/u/4680567?u=b90f9b08bf936fa2a5ebcc9e94b1e2845ca9229f&v=4",
   "bio": "",
   "company": "",
   "location": "Taipei, Taiwan",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 1,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 25,
-  "prev_score": 872.9,
+  "prev_rank": 48,
+  "prev_score": 871.7,
   "rank_delta": -23,
-  "score_delta": -1.2,
+  "score_delta": -0.3,
   "counted_merges": [
-    {
-      "repo": "narumiruna/pi-extensions",
-      "prs": 3
-    },
     {
       "repo": "changenote/changenote",
       "prs": 2
@@ -58,6 +54,10 @@
     },
     {
       "repo": "narumiruna/pi-action",
+      "prs": 2
+    },
+    {
+      "repo": "narumiruna/pi-extensions",
       "prs": 2
     },
     {
@@ -88,6 +88,11 @@
       "d": "2026-11-25",
       "r": 48,
       "s": 871.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 71,
+      "s": 871.4
     }
   ]
 }

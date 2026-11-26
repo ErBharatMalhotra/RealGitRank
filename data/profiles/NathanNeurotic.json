@@ -5,10 +5,10 @@
   "total_pushes": 6,
   "merged_prs": 8,
   "listed_only": false,
-  "s_pr": 99.3,
+  "s_pr": 99.17,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 98.24,
+  "s_impact": 99.46,
+  "s_consistency": 98.74,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 13,
   "window_days": 30,
-  "rank_score": 868.7,
+  "rank_score": 868.9,
   "active_repos_touched": 7,
   "pr_reviews": 12,
   "issue_comments": 4,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 212,
+  "rank": 210,
   "avatar_url": "https://avatars.githubusercontent.com/u/109461996?u=4cd10ff78f5b052004d058b3da831810f124a3fb&v=4",
   "bio": "@ps2build @techwritescode @Gageformer @GDX-X @israpps @alex-free @FatBaldDad @bbsan2k @KrahJohlito @CosmicScale @saildot4k Akilluminati47 https://is.gd/akill247",
   "company": "@ps2build @casket-labs @ps2wiki @ps2homebrew @ps2-mmce @ps2store",
   "location": "North America",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 3,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 181,
-  "prev_score": 870.3,
-  "rank_delta": -31,
-  "score_delta": -1.6,
+  "prev_rank": 212,
+  "prev_score": 868.7,
+  "rank_delta": 2,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "NathanNeurotic/RiptOPL",
@@ -72,6 +72,11 @@
       "d": "2026-11-25",
       "r": 212,
       "s": 868.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 210,
+      "s": 868.9
     }
   ]
 }

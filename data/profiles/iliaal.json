@@ -3,21 +3,21 @@
   "country": "Canada",
   "primary_language": "Python",
   "total_pushes": 6,
-  "merged_prs": 14,
+  "merged_prs": 11,
   "listed_only": false,
-  "s_pr": 99.77,
+  "s_pr": 99.58,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.89,
+  "s_impact": 98.95,
+  "s_consistency": 99.08,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 11,
+  "active_days": 10,
   "window_days": 30,
-  "rank_score": 870.1,
+  "rank_score": 869.5,
   "active_repos_touched": 17,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,27 +28,23 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 130,
+  "rank": 178,
   "avatar_url": "https://avatars.githubusercontent.com/u/158724?u=a3f26e4d2528a68effa5ccbfa79262d110fb5926&v=4",
   "bio": "",
   "company": "",
   "location": "Canada",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 125,
-  "prev_score": 871.0,
-  "rank_delta": -5,
-  "score_delta": -0.9,
+  "prev_rank": 130,
+  "prev_score": 870.1,
+  "rank_delta": -48,
+  "score_delta": -0.6,
   "counted_merges": [
     {
       "repo": "iliaal/phonetic",
-      "prs": 2
-    },
-    {
-      "repo": "iliaal/php_clickhouse",
       "prs": 2
     },
     {
@@ -64,19 +60,15 @@
       "prs": 1
     },
     {
-      "repo": "iliaal/codesage",
-      "prs": 1
-    },
-    {
-      "repo": "iliaal/fastjson",
-      "prs": 1
-    },
-    {
       "repo": "iliaal/lchash",
       "prs": 1
     },
     {
       "repo": "iliaal/nameparser",
+      "prs": 1
+    },
+    {
+      "repo": "iliaal/php_clickhouse",
       "prs": 1
     },
     {
@@ -99,6 +91,11 @@
       "d": "2026-11-25",
       "r": 130,
       "s": 870.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 178,
+      "s": 869.5
     }
   ]
 }

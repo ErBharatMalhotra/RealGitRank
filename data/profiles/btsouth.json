@@ -2,47 +2,47 @@
   "username": "btsouth",
   "country": "United States",
   "primary_language": "Go",
-  "total_pushes": 9,
-  "merged_prs": 7,
+  "total_pushes": 7,
+  "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 99.3,
+  "s_pr": 98.84,
   "s_quality": 50.0,
-  "s_impact": 98.53,
-  "s_consistency": 95.37,
+  "s_impact": 98.44,
+  "s_consistency": 90.73,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 7,
   "window_days": 30,
-  "rank_score": 861.9,
-  "active_repos_touched": 7,
+  "rank_score": 853.1,
+  "active_repos_touched": 5,
   "pr_reviews": 1,
   "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 0,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 4,
+  "active_shipping_weeks": 3,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 588,
+  "rank": 953,
   "avatar_url": "https://avatars.githubusercontent.com/u/258147599?u=5836d0efa87231ede9c10868109761f9e98e34db&v=4",
   "bio": "AI builder with a background in IT and cyber security.",
   "company": "",
   "location": "USA",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "ci_pushes": 2,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "ci_pushes": 1,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 494,
-  "prev_score": 866.5,
-  "rank_delta": -94,
-  "score_delta": -4.6,
+  "prev_rank": 588,
+  "prev_score": 861.9,
+  "rank_delta": -365,
+  "score_delta": -8.8,
   "counted_merges": [
     {
       "repo": "btsouth/omakade",
@@ -53,11 +53,11 @@
       "prs": 2
     },
     {
-      "repo": "omacom/try-omarchy-windows",
-      "prs": 2
+      "repo": "btsouth/toolport",
+      "prs": 1
     },
     {
-      "repo": "btsouth/toolport",
+      "repo": "omacom/try-omarchy-windows",
       "prs": 1
     }
   ],
@@ -76,6 +76,11 @@
       "d": "2026-11-25",
       "r": 588,
       "s": 861.9
+    },
+    {
+      "d": "2026-11-26",
+      "r": 953,
+      "s": 853.1
     }
   ]
 }

@@ -5,10 +5,10 @@
   "total_pushes": 3,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 96.51,
+  "s_pr": 95.9,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.06,
+  "s_impact": 98.95,
+  "s_consistency": 98.6,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 857.4,
+  "rank_score": 855.9,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 817,
+  "rank": 844,
   "avatar_url": "https://avatars.githubusercontent.com/u/90670731?u=ad6c21ad61141c79fa192e4928b2d9705b641aaa&v=4",
   "bio": "Building free, open-source software anyone can use, not just developers. Powerful tools, simple to install.",
   "company": "@nexonic-technologies",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 2,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 863,
-  "prev_score": 860.6,
-  "rank_delta": 46,
-  "score_delta": -3.2,
+  "prev_rank": 817,
+  "prev_score": 857.4,
+  "rank_delta": -27,
+  "score_delta": -1.5,
   "counted_merges": [
     {
       "repo": "Shahrukhalid/nexonic-download-manager",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 817,
       "s": 857.4
+    },
+    {
+      "d": "2026-11-26",
+      "r": 844,
+      "s": 855.9
     }
   ]
 }

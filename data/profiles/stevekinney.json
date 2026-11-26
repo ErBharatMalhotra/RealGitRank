@@ -5,10 +5,10 @@
   "total_pushes": 19,
   "merged_prs": 8,
   "listed_only": false,
-  "s_pr": 99.3,
+  "s_pr": 99.17,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.29,
+  "s_impact": 98.95,
+  "s_consistency": 98.78,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 16,
   "window_days": 30,
-  "rank_score": 867.5,
+  "rank_score": 867.6,
   "active_repos_touched": 1,
   "pr_reviews": 11,
   "issue_comments": 8,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 265,
+  "rank": 269,
   "avatar_url": "https://avatars.githubusercontent.com/u/251000?u=744cf65c3cf52e36c61a990fcc8ca1e9db625a80&v=4",
   "bio": "Principal engineer at @3playmedia. Former head of engineering at @temporalio. Director emeritus at @turingschool. Organizer of @dinosaurjs. Alumnus: @twilio.",
   "company": "3Play Media",
   "location": "Denver, Colorado, USA",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 410,
+  "prev_rank": 265,
   "prev_score": 867.5,
-  "rank_delta": 145,
-  "score_delta": 0.0,
+  "rank_delta": -4,
+  "score_delta": 0.1,
   "counted_merges": [
     {
       "repo": "stevekinney/corvidae",
@@ -58,6 +58,11 @@
       "d": "2026-11-25",
       "r": 265,
       "s": 867.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 269,
+      "s": 867.6
     }
   ]
 }

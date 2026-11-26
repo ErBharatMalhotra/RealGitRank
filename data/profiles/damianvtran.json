@@ -1,0 +1,62 @@
+{
+  "username": "damianvtran",
+  "country": "Canada",
+  "primary_language": "Unknown",
+  "total_pushes": 21,
+  "merged_prs": 33,
+  "listed_only": false,
+  "s_pr": 99.94,
+  "s_quality": 50.0,
+  "s_impact": 98.95,
+  "s_consistency": 98.87,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 25,
+  "window_days": 30,
+  "rank_score": 870.5,
+  "active_repos_touched": 4,
+  "pr_reviews": 0,
+  "issue_comments": 255,
+  "releases": 3,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 5,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 116,
+  "avatar_url": "https://avatars.githubusercontent.com/u/173644497?u=1ef635f2b77d2c81196cb22954b9c2fae49b35ad&v=4",
+  "bio": "CTO @ Minerva",
+  "company": "Minerva",
+  "location": "Toronto, Ontario, Canada",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 100.0,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "damianvtran/local-operator",
+      "prs": 19
+    },
+    {
+      "repo": "damianvtran/local-operator-ui",
+      "prs": 11
+    },
+    {
+      "repo": "damianvtran/local-operator-mobile",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 116,
+      "s": 870.5
+    }
+  ]
+}

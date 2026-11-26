@@ -5,10 +5,10 @@
   "total_pushes": 10,
   "merged_prs": 12,
   "listed_only": false,
-  "s_pr": 99.65,
+  "s_pr": 99.58,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 97.8,
+  "s_impact": 99.46,
+  "s_consistency": 98.38,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 13,
   "window_days": 30,
-  "rank_score": 869.2,
+  "rank_score": 869.8,
   "active_repos_touched": 3,
   "pr_reviews": 1,
   "issue_comments": 10,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 182,
+  "rank": 161,
   "avatar_url": "https://avatars.githubusercontent.com/u/37834723?u=520deb2f17f4edea2305cf94dd421f5aad7929bf&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 145,
-  "prev_score": 870.7,
-  "rank_delta": -37,
-  "score_delta": -1.5,
+  "prev_rank": 182,
+  "prev_score": 869.2,
+  "rank_delta": 21,
+  "score_delta": 0.6,
   "counted_merges": [
     {
       "repo": "parawanderer/window-ml",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 182,
       "s": 869.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 161,
+      "s": 869.8
     }
   ]
 }

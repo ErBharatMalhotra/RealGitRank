@@ -2,23 +2,23 @@
   "username": "dzulfikar08",
   "country": "",
   "primary_language": "Rust",
-  "total_pushes": 10,
-  "merged_prs": 9,
+  "total_pushes": 5,
+  "merged_prs": 7,
   "listed_only": false,
-  "s_pr": 99.55,
+  "s_pr": 99.17,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.82,
+  "s_impact": 98.95,
+  "s_consistency": 99.12,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 10,
+  "active_days": 9,
   "window_days": 30,
-  "rank_score": 869.2,
-  "active_repos_touched": 12,
+  "rank_score": 868.1,
+  "active_repos_touched": 11,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
@@ -28,21 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 184,
+  "rank": 251,
   "avatar_url": "https://avatars.githubusercontent.com/u/99225357?u=b5bfa74dd2683cbb1a5e0aea8336ad061cd3e3f5&v=4",
   "bio": "Industrial Software Engineer",
   "company": "@Opex-Technologies-Pte-Ltd ",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "ci_pushes": 1,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 188,
-  "prev_score": 870.2,
-  "rank_delta": 4,
-  "score_delta": -1.0,
+  "prev_rank": 184,
+  "prev_score": 869.2,
+  "rank_delta": -67,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "VoltrusID/voltrus-scada",
@@ -58,10 +57,6 @@
     },
     {
       "repo": "dzulfikar08/waqtu",
-      "prs": 2
-    },
-    {
-      "repo": "VoltrusID/voltrus-explorers",
       "prs": 1
     }
   ],
@@ -80,6 +75,11 @@
       "d": "2026-11-25",
       "r": 184,
       "s": 869.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 251,
+      "s": 868.1
     }
   ]
 }

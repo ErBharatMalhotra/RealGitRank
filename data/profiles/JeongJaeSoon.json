@@ -2,25 +2,25 @@
   "username": "JeongJaeSoon",
   "country": "Japan",
   "primary_language": "TypeScript",
-  "total_pushes": 40,
-  "merged_prs": 23,
+  "total_pushes": 37,
+  "merged_prs": 22,
   "listed_only": false,
-  "s_pr": 99.9,
+  "s_pr": 99.87,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.46,
+  "s_impact": 98.95,
+  "s_consistency": 98.9,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 20,
+  "active_days": 19,
   "window_days": 30,
-  "rank_score": 869.9,
+  "rank_score": 870.2,
   "active_repos_touched": 6,
   "pr_reviews": 0,
-  "issue_comments": 20,
+  "issue_comments": 19,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 142,
+  "rank": 137,
   "avatar_url": "https://avatars.githubusercontent.com/u/53788601?u=d7eabb0bdc6bcecc716f4b89912562c9c9180107&v=4",
   "bio": "Failure is an option here \ud83d\udc4a\ud83c\udffb",
   "company": "Senior AI Platform Engineer | CAIO Office @freee",
   "location": "Daegu, Korea \u21c4 Tokyo, Japan",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 124,
-  "prev_score": 871.0,
-  "rank_delta": -18,
-  "score_delta": -1.1,
+  "prev_rank": 142,
+  "prev_score": 869.9,
+  "rank_delta": 5,
+  "score_delta": 0.3,
   "counted_merges": [
     {
       "repo": "JeongJaeSoon/agent-guard",
@@ -49,7 +49,7 @@
     },
     {
       "repo": "JeongJaeSoon/agent-platform",
-      "prs": 6
+      "prs": 5
     },
     {
       "repo": "JeongJaeSoon/werft",
@@ -83,6 +83,11 @@
       "d": "2026-11-25",
       "r": 142,
       "s": 869.9
+    },
+    {
+      "d": "2026-11-26",
+      "r": 137,
+      "s": 870.2
     }
   ]
 }

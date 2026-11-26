@@ -1,0 +1,58 @@
+{
+  "username": "IamRedi",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 3,
+  "merged_prs": 4,
+  "listed_only": false,
+  "s_pr": 97.35,
+  "s_quality": 50.0,
+  "s_impact": 98.95,
+  "s_consistency": 92.85,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 6,
+  "window_days": 30,
+  "rank_score": 852.4,
+  "active_repos_touched": 5,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 972,
+  "avatar_url": "https://avatars.githubusercontent.com/u/189620117?u=3a9e9614df1bfc2587f3209a2d988192a6d9d880&v=4",
+  "bio": "Full-Stack & Applied AI Developer | Building SaaS, automation & practical tools that empower people. Next.js \u00b7 TypeScript \u00b7 Python",
+  "company": "",
+  "location": "Essen DE",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "IamRedi/redionflow",
+      "prs": 3
+    },
+    {
+      "repo": "IamRedi/IamRedi",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 972,
+      "s": 852.4
+    }
+  ]
+}

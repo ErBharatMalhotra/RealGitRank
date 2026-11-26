@@ -3,21 +3,21 @@
   "country": "Egypt",
   "primary_language": "TypeScript",
   "total_pushes": 17,
-  "merged_prs": 44,
+  "merged_prs": 45,
   "listed_only": false,
   "s_pr": 99.97,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 95.82,
+  "s_impact": 98.95,
+  "s_consistency": 96.4,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 12,
+  "active_days": 13,
   "window_days": 30,
-  "rank_score": 866.2,
+  "rank_score": 866.9,
   "active_repos_touched": 12,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 334,
+  "rank": 310,
   "avatar_url": "https://avatars.githubusercontent.com/u/68702059?u=ac3d19cf62bd3cb8bdd6ca57ac480e38d3030b7a&v=4",
   "bio": "Software engineer from Egypt, working across learning platforms, online stores, interactive experiences and developer tools.",
   "company": "Upwork",
   "location": "Cairo ",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 583,
-  "prev_score": 865.3,
-  "rank_delta": 249,
-  "score_delta": 0.9,
+  "prev_rank": 334,
+  "prev_score": 866.2,
+  "rank_delta": 24,
+  "score_delta": 0.7,
   "counted_merges": [
     {
       "repo": "alhinawi/Menschen-Egyptian-Style",
@@ -49,7 +49,7 @@
     },
     {
       "repo": "alhinawi/henglish-Hinawi-English-Academy",
-      "prs": 10
+      "prs": 11
     },
     {
       "repo": "alhinawi/Chesti-Think-Play-Conquer",
@@ -99,6 +99,11 @@
       "d": "2026-11-25",
       "r": 334,
       "s": 866.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 310,
+      "s": 866.9
     }
   ]
 }

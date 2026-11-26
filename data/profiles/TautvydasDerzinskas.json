@@ -5,10 +5,10 @@
   "total_pushes": 5,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 96.51,
+  "s_pr": 95.9,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.89,
+  "s_impact": 98.95,
+  "s_consistency": 99.12,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 858.7,
+  "rank_score": 856.7,
   "active_repos_touched": 1,
   "pr_reviews": 3,
   "issue_comments": 4,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 751,
+  "rank": 808,
   "avatar_url": "https://avatars.githubusercontent.com/u/4116827?u=eea6d48b9bf492ff4bba6d09fd22b83d453c4a3a&v=4",
   "bio": "I build responsive, scalable web sites and single page web applications using a variety of technologies that work on smartphones, tablets and desktop computers.",
   "company": "OpenX",
   "location": "Poland",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 4,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 518,
-  "prev_score": 866.3,
-  "rank_delta": -233,
-  "score_delta": -7.6,
+  "prev_rank": 751,
+  "prev_score": 858.7,
+  "rank_delta": -57,
+  "score_delta": -2.0,
   "counted_merges": [
     {
       "repo": "TautvydasDerzinskas/Thingport",
@@ -64,6 +64,11 @@
       "d": "2026-11-25",
       "r": 751,
       "s": 858.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 808,
+      "s": 856.7
     }
   ]
 }

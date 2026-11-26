@@ -5,10 +5,10 @@
   "total_pushes": 14,
   "merged_prs": 13,
   "listed_only": false,
-  "s_pr": 99.69,
+  "s_pr": 99.64,
   "s_quality": 50.0,
   "s_impact": 99.99,
-  "s_consistency": 98.27,
+  "s_consistency": 98.77,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 23,
   "window_days": 30,
-  "rank_score": 871.3,
+  "rank_score": 871.9,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 65,
+  "rank": 55,
   "avatar_url": "https://avatars.githubusercontent.com/u/65777760?u=cbaf8553a49b597c7ecab3dc303f03a5b699b9b6&v=4",
   "bio": "I'm a Dev that makes stuff ",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 53,
-  "prev_score": 872.3,
-  "rank_delta": -12,
-  "score_delta": -1.0,
+  "prev_rank": 65,
+  "prev_score": 871.3,
+  "rank_delta": 10,
+  "score_delta": 0.6,
   "counted_merges": [
     {
       "repo": "zortos293/Lichii-rust",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 65,
       "s": 871.3
+    },
+    {
+      "d": "2026-11-26",
+      "r": 55,
+      "s": 871.9
     }
   ]
 }

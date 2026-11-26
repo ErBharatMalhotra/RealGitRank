@@ -5,10 +5,10 @@
   "total_pushes": 6,
   "merged_prs": 9,
   "listed_only": false,
-  "s_pr": 99.72,
+  "s_pr": 99.67,
   "s_quality": 50.0,
-  "s_impact": 99.66,
-  "s_consistency": 98.42,
+  "s_impact": 99.63,
+  "s_consistency": 98.87,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 870.8,
+  "rank_score": 871.2,
   "active_repos_touched": 3,
   "pr_reviews": 23,
   "issue_comments": 20,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 93,
+  "rank": 82,
   "avatar_url": "https://avatars.githubusercontent.com/u/2218736?v=4",
   "bio": "Professor in computer science at MIT.  Specialist in algorithms and data structures.",
   "company": "Massachusetts Institute of Technology",
   "location": "Cambridge, Massachusetts, USA",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 214,
-  "prev_score": 869.8,
-  "rank_delta": 121,
-  "score_delta": 1.0,
+  "prev_rank": 93,
+  "prev_score": 870.8,
+  "rank_delta": 11,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "cslib-community/cslib-frontier",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 93,
       "s": 870.8
+    },
+    {
+      "d": "2026-11-26",
+      "r": 82,
+      "s": 871.2
     }
   ]
 }

@@ -2,51 +2,47 @@
   "username": "jordanhubbard",
   "country": "",
   "primary_language": "C",
-  "total_pushes": 26,
-  "merged_prs": 18,
+  "total_pushes": 13,
+  "merged_prs": 16,
   "listed_only": false,
-  "s_pr": 99.84,
+  "s_pr": 99.76,
   "s_quality": 50.0,
-  "s_impact": 99.66,
-  "s_consistency": 98.59,
+  "s_impact": 99.46,
+  "s_consistency": 99.04,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 18,
+  "active_days": 17,
   "window_days": 30,
-  "rank_score": 871.5,
+  "rank_score": 871.4,
   "active_repos_touched": 9,
   "pr_reviews": 0,
-  "issue_comments": 29,
+  "issue_comments": 27,
   "releases": 0,
-  "stars_fraud_filtered": 3,
+  "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 0,
   "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 56,
+  "rank": 70,
   "avatar_url": "https://avatars.githubusercontent.com/u/5066252?u=46b3f82624645dbb1bb377deaeddbc068c460112&v=4",
   "bio": "I wrote some code once",
   "company": "NVIDIA",
   "location": "Santa Cruz",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 153,
-  "prev_score": 870.6,
-  "rank_delta": 97,
-  "score_delta": 0.9,
+  "prev_rank": 56,
+  "prev_score": 871.5,
+  "rank_delta": -14,
+  "score_delta": -0.1,
   "counted_merges": [
-    {
-      "repo": "jordanhubbard/daemonarchy",
-      "prs": 5
-    },
     {
       "repo": "jordanhubbard/literate-ai",
       "prs": 4
@@ -54,6 +50,10 @@
     {
       "repo": "jordanhubbard/mac",
       "prs": 4
+    },
+    {
+      "repo": "jordanhubbard/daemonarchy",
+      "prs": 3
     },
     {
       "repo": "jordanhubbard/Aviation",
@@ -83,6 +83,11 @@
       "d": "2026-11-25",
       "r": 56,
       "s": 871.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 70,
+      "s": 871.4
     }
   ]
 }

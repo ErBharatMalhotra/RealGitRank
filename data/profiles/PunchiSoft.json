@@ -2,23 +2,23 @@
   "username": "PunchiSoft",
   "country": "",
   "primary_language": "QML",
-  "total_pushes": 7,
-  "merged_prs": 5,
+  "total_pushes": 6,
+  "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 98.51,
+  "s_pr": 97.35,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 95.91,
+  "s_impact": 98.95,
+  "s_consistency": 96.31,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 7,
+  "active_days": 6,
   "window_days": 30,
-  "rank_score": 861.2,
-  "active_repos_touched": 3,
+  "rank_score": 857.6,
+  "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 624,
+  "rank": 764,
   "avatar_url": "https://avatars.githubusercontent.com/u/144720980?u=3293d655cf4b15e3037fbadaeb564123e0e41af7&v=4",
   "bio": "Industrial Maintenance Engineer | Industrial Mechanic | Linux Enthusiast | Hobbyist Developer focused on Python, PyQt6, QML, C++, AI and System Automation",
   "company": "PunchiSoft",
   "location": "Los \u00c1ngeles, Biob\u00edo, Chile",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 897,
-  "prev_score": 860.1,
-  "rank_delta": 273,
-  "score_delta": 1.1,
+  "prev_rank": 624,
+  "prev_score": 861.2,
+  "rank_delta": -140,
+  "score_delta": -3.6,
   "counted_merges": [
     {
       "repo": "PunchiSoft/punchiFluidLab",
@@ -49,7 +49,7 @@
     },
     {
       "repo": "PunchiSoft/punchi-dock-quickshell",
-      "prs": 2
+      "prs": 1
     }
   ],
   "history": [
@@ -62,6 +62,11 @@
       "d": "2026-11-25",
       "r": 624,
       "s": 861.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 764,
+      "s": 857.6
     }
   ]
 }

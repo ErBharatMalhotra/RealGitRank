@@ -1,0 +1,54 @@
+{
+  "username": "ChmaraX",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 0,
+  "merged_prs": 2,
+  "listed_only": false,
+  "s_pr": 95.9,
+  "s_quality": 50.0,
+  "s_impact": 99.63,
+  "s_consistency": 94.76,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 5,
+  "window_days": 30,
+  "rank_score": 851.9,
+  "active_repos_touched": 1,
+  "pr_reviews": 1,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 3,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 1000,
+  "avatar_url": "https://avatars.githubusercontent.com/u/32128755?u=503829d87c97d3190ccccbc12f109940f9c2758d&v=4",
+  "bio": "\"You can't have runtime errors, if your code doesn't compile\"",
+  "company": "",
+  "location": "Slovakia, Bratislava",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "novuhq/novu",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 1000,
+      "s": 851.9
+    }
+  ]
+}

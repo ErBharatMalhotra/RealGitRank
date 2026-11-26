@@ -2,22 +2,22 @@
   "username": "sadmann7",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 7,
+  "total_pushes": 9,
   "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 97.75,
+  "s_pr": 97.35,
   "s_quality": 50.0,
-  "s_impact": 99.42,
-  "s_consistency": 95.46,
+  "s_impact": 99.37,
+  "s_consistency": 95.9,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 8,
+  "active_days": 9,
   "window_days": 30,
-  "rank_score": 858.9,
+  "rank_score": 858.0,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 735,
+  "rank": 739,
   "avatar_url": "https://avatars.githubusercontent.com/u/68962712?u=a38c9cfedf5f807534c9988b9016dee341a77382&v=4",
   "bio": "low fidelity",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 735,
+  "prev_score": 858.9,
+  "rank_delta": -4,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "sadmann7/pptx",
@@ -53,6 +57,11 @@
       "d": "2026-11-25",
       "r": 735,
       "s": 858.9
+    },
+    {
+      "d": "2026-11-26",
+      "r": 739,
+      "s": 858.0
     }
   ]
 }

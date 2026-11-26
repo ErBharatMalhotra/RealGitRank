@@ -2,13 +2,13 @@
   "username": "aaronsb",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 6,
-  "merged_prs": 3,
+  "total_pushes": 1,
+  "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 97.49,
+  "s_pr": 97.86,
   "s_quality": 50.0,
-  "s_impact": 99.61,
-  "s_consistency": 94.99,
+  "s_impact": 99.57,
+  "s_consistency": 95.47,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,10 +17,10 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 857.7,
-  "active_repos_touched": 5,
+  "rank_score": 859.6,
+  "active_repos_touched": 3,
   "pr_reviews": 0,
-  "issue_comments": 2,
+  "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 1,
   "forks_fraud_filtered": 1,
@@ -28,20 +28,24 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 803,
+  "rank": 657,
   "avatar_url": "https://avatars.githubusercontent.com/u/2738471?u=705626c66c94c205de9592b9240decb00f7d0ba3&v=4",
   "bio": "I like coding with AI tools and making things.",
   "company": "",
   "location": "Wichita, KS",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 803,
+  "prev_score": 857.7,
+  "rank_delta": 146,
+  "score_delta": 1.9,
   "counted_merges": [
     {
       "repo": "aaronsb/agent-ways",
-      "prs": 2
+      "prs": 3
     },
     {
       "repo": "vtium/vtium",
@@ -53,6 +57,11 @@
       "d": "2026-11-25",
       "r": 803,
       "s": 857.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 657,
+      "s": 859.6
     }
   ]
 }

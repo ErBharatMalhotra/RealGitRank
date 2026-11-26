@@ -3,24 +3,24 @@
   "country": "Japan",
   "primary_language": "Rust",
   "total_pushes": 35,
-  "merged_prs": 10,
+  "merged_prs": 11,
   "listed_only": false,
-  "s_pr": 99.5,
+  "s_pr": 99.52,
   "s_quality": 50.0,
-  "s_impact": 99.82,
-  "s_consistency": 98.79,
+  "s_impact": 99.8,
+  "s_consistency": 99.06,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 16,
+  "active_days": 17,
   "window_days": 30,
-  "rank_score": 871.0,
+  "rank_score": 871.4,
   "active_repos_touched": 14,
-  "pr_reviews": 20,
-  "issue_comments": 4,
+  "pr_reviews": 23,
+  "issue_comments": 5,
   "releases": 0,
   "stars_fraud_filtered": 6,
   "forks_fraud_filtered": 0,
@@ -28,32 +28,32 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 78,
+  "rank": 72,
   "avatar_url": "https://avatars.githubusercontent.com/u/73962?v=4",
   "bio": "",
   "company": "",
   "location": "Tokyo/Japan",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 16,
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 69,
-  "prev_score": 872.1,
-  "rank_delta": -9,
-  "score_delta": -1.1,
+  "prev_rank": 78,
+  "prev_score": 871.0,
+  "rank_delta": 6,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "mizchi/vibe-lang",
       "prs": 4
     },
     {
-      "repo": "mizchi/idealis",
-      "prs": 2
+      "repo": "mizchi/zust",
+      "prs": 3
     },
     {
-      "repo": "mizchi/zust",
+      "repo": "mizchi/idealis",
       "prs": 2
     },
     {
@@ -80,6 +80,11 @@
       "d": "2026-11-25",
       "r": 78,
       "s": 871.0
+    },
+    {
+      "d": "2026-11-26",
+      "r": 72,
+      "s": 871.4
     }
   ]
 }

@@ -5,10 +5,10 @@
   "total_pushes": 4,
   "merged_prs": 2,
   "listed_only": false,
-  "s_pr": 95.49,
+  "s_pr": 94.7,
   "s_quality": 50.0,
-  "s_impact": 99.61,
-  "s_consistency": 97.61,
+  "s_impact": 99.57,
+  "s_consistency": 98.19,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 854.7,
+  "rank_score": 852.6,
   "active_repos_touched": 3,
   "pr_reviews": 1,
   "issue_comments": 1,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 919,
+  "rank": 968,
   "avatar_url": "https://avatars.githubusercontent.com/u/430992?v=4",
   "bio": "",
   "company": "People's Poscode Lottery",
   "location": "Edinburgh",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 3,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 835,
-  "prev_score": 861.0,
-  "rank_delta": -84,
-  "score_delta": -6.3,
+  "prev_rank": 919,
+  "prev_score": 854.7,
+  "rank_delta": -49,
+  "score_delta": -2.1,
   "counted_merges": [
     {
       "repo": "IsmaelMartinez/teams-for-linux",
@@ -68,6 +68,11 @@
       "d": "2026-11-25",
       "r": 919,
       "s": 854.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 968,
+      "s": 852.6
     }
   ]
 }

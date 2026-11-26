@@ -2,22 +2,22 @@
   "username": "IvanLi-CN",
   "country": "China",
   "primary_language": "TypeScript",
-  "total_pushes": 30,
-  "merged_prs": 13,
+  "total_pushes": 16,
+  "merged_prs": 12,
   "listed_only": false,
-  "s_pr": 99.69,
+  "s_pr": 99.58,
   "s_quality": 50.0,
-  "s_impact": 98.53,
-  "s_consistency": 99.05,
+  "s_impact": 98.44,
+  "s_consistency": 99.19,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 16,
+  "active_days": 15,
   "window_days": 30,
-  "rank_score": 868.8,
+  "rank_score": 868.4,
   "active_repos_touched": 10,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,28 +28,32 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 203,
+  "rank": 233,
   "avatar_url": "https://avatars.githubusercontent.com/u/30215105?u=6aa2705a9e957af4881e9134f2aad75703c2ebf6&v=4",
   "bio": "",
   "company": "",
   "location": "Fujian, China",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "ci_pushes": 8,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "ci_pushes": 4,
   "percentile": 100.0,
   "tier": "Elite",
+  "prev_rank": 203,
+  "prev_score": 868.8,
+  "rank_delta": -30,
+  "score_delta": -0.4,
   "counted_merges": [
     {
       "repo": "IvanLi-CN/Loomhelm",
       "prs": 3
     },
     {
-      "repo": "IvanLi-CN/codex-vibe-monitor",
-      "prs": 3
+      "repo": "IvanLi-CN/agent-vm",
+      "prs": 2
     },
     {
-      "repo": "IvanLi-CN/agent-vm",
+      "repo": "IvanLi-CN/codex-vibe-monitor",
       "prs": 2
     },
     {
@@ -74,6 +78,11 @@
       "d": "2026-11-25",
       "r": 203,
       "s": 868.8
+    },
+    {
+      "d": "2026-11-26",
+      "r": 233,
+      "s": 868.4
     }
   ]
 }

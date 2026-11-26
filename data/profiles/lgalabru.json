@@ -5,10 +5,10 @@
   "total_pushes": 2,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 97.49,
+  "s_pr": 97.04,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 95.6,
+  "s_impact": 98.95,
+  "s_consistency": 96.11,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 857.2,
+  "rank_score": 856.2,
   "active_repos_touched": 3,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 831,
+  "rank": 834,
   "avatar_url": "https://avatars.githubusercontent.com/u/87777?u=8e5d60a1efa7cc19c4038b370d1d5b1bfd9a34a4&v=4",
   "bio": "",
   "company": "@solana-foundation",
   "location": "New York",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 954,
-  "prev_score": 859.1,
-  "rank_delta": 123,
-  "score_delta": -1.9,
+  "prev_rank": 831,
+  "prev_score": 857.2,
+  "rank_delta": -3,
+  "score_delta": -1.0,
   "counted_merges": [
     {
       "repo": "lgalabru/machine-trading",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 831,
       "s": 857.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 834,
+      "s": 856.2
     }
   ]
 }

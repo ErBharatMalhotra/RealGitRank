@@ -5,10 +5,10 @@
   "total_pushes": 0,
   "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 98.84,
+  "s_pr": 98.63,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 94.22,
+  "s_impact": 99.46,
+  "s_consistency": 94.68,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 3,
   "window_days": 30,
-  "rank_score": 861.0,
+  "rank_score": 860.9,
   "active_repos_touched": 3,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 630,
+  "rank": 609,
   "avatar_url": "https://avatars.githubusercontent.com/u/329826984?u=8875a93d4297db72a539d2a10f27d01dfe9413dc&v=4",
   "bio": "new person same old mistakes",
   "company": "SBM OFFSHORE",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 790,
-  "prev_score": 861.6,
-  "rank_delta": 160,
-  "score_delta": -0.6,
+  "prev_rank": 630,
+  "prev_score": 861.0,
+  "rank_delta": 21,
+  "score_delta": -0.1,
   "counted_merges": [
     {
       "repo": "ineedfoundmyway/pentest-tool-atlas",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 630,
       "s": 861.0
+    },
+    {
+      "d": "2026-11-26",
+      "r": 609,
+      "s": 860.9
     }
   ]
 }

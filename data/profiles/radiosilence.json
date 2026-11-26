@@ -5,10 +5,10 @@
   "total_pushes": 5,
   "merged_prs": 15,
   "listed_only": false,
-  "s_pr": 99.77,
+  "s_pr": 99.73,
   "s_quality": 50.0,
-  "s_impact": 99.75,
-  "s_consistency": 99.05,
+  "s_impact": 99.73,
+  "s_consistency": 99.22,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 25,
+  "rank": 41,
   "avatar_url": "https://avatars.githubusercontent.com/u/65021?u=ffc8b8966d130dd53530809424c3b699d6f81502&v=4",
   "bio": "curious creature",
   "company": "",
   "location": "London, UK",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 6,
-  "prev_score": 873.4,
-  "rank_delta": -19,
-  "score_delta": -1.2,
+  "prev_rank": 25,
+  "prev_score": 872.2,
+  "rank_delta": -16,
+  "score_delta": 0.0,
   "counted_merges": [
     {
       "repo": "radiosilence/koan",
@@ -90,6 +90,11 @@
     {
       "d": "2026-11-25",
       "r": 25,
+      "s": 872.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 41,
       "s": 872.2
     }
   ]

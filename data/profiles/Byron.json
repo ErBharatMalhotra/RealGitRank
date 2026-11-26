@@ -1,0 +1,62 @@
+{
+  "username": "Byron",
+  "country": "Germany",
+  "primary_language": "Rust",
+  "total_pushes": 5,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 97.35,
+  "s_quality": 50.0,
+  "s_impact": 98.44,
+  "s_consistency": 93.45,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 852.0,
+  "active_repos_touched": 4,
+  "pr_reviews": 1,
+  "issue_comments": 0,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 997,
+  "avatar_url": "https://avatars.githubusercontent.com/u/63622?v=4",
+  "bio": "\r\n    \r\n",
+  "company": "",
+  "location": "Berlin",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "Byron/pulldown-cmark-to-cmark",
+      "prs": 1
+    },
+    {
+      "repo": "GitoxideLabs/gitoxide",
+      "prs": 1
+    },
+    {
+      "repo": "rust-lang/flate2-rs",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 997,
+      "s": 852.0
+    }
+  ]
+}

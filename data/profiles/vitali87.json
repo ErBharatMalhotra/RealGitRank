@@ -5,10 +5,10 @@
   "total_pushes": 12,
   "merged_prs": 21,
   "listed_only": false,
-  "s_pr": 99.88,
+  "s_pr": 99.85,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 98.35,
+  "s_impact": 99.46,
+  "s_consistency": 98.83,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 12,
   "window_days": 30,
-  "rank_score": 870.9,
+  "rank_score": 871.4,
   "active_repos_touched": 3,
   "pr_reviews": 5,
   "issue_comments": 1,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 83,
+  "rank": 67,
   "avatar_url": "https://avatars.githubusercontent.com/u/22404335?u=02fd92d43149278f101f8e8ec8a528f58bf76364&v=4",
   "bio": "I create systems",
   "company": "Anterior",
   "location": "London",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 76,
-  "prev_score": 871.9,
-  "rank_delta": -7,
-  "score_delta": -1.0,
+  "prev_rank": 83,
+  "prev_score": 870.9,
+  "rank_delta": 16,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "vitali87/croft",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 83,
       "s": 870.9
+    },
+    {
+      "d": "2026-11-26",
+      "r": 67,
+      "s": 871.4
     }
   ]
 }

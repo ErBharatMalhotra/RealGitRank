@@ -2,22 +2,22 @@
   "username": "IvanMurzak",
   "country": "United States",
   "primary_language": "C#",
-  "total_pushes": 5,
+  "total_pushes": 3,
   "merged_prs": 6,
   "listed_only": false,
-  "s_pr": 98.84,
+  "s_pr": 98.63,
   "s_quality": 50.0,
-  "s_impact": 99.66,
-  "s_consistency": 99.1,
+  "s_impact": 99.63,
+  "s_consistency": 99.24,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 9,
+  "active_days": 8,
   "window_days": 30,
-  "rank_score": 868.7,
+  "rank_score": 868.1,
   "active_repos_touched": 7,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 215,
+  "rank": 253,
   "avatar_url": "https://avatars.githubusercontent.com/u/9135028?u=2ff277d58ddac7c63feda6a4e1d9f56bcb848d97&v=4",
   "bio": "AI inference. Making AI better. Integrating AI into production pipelines. Developing AI agents. Working with 3D Graphics and real-time physics. Full stack, 0-1.",
   "company": "Anthropic",
   "location": "Kirkland, WA, United States",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 376,
-  "prev_score": 868.0,
-  "rank_delta": 161,
-  "score_delta": 0.7,
+  "prev_rank": 215,
+  "prev_score": 868.7,
+  "rank_delta": -38,
+  "score_delta": -0.6,
   "counted_merges": [
     {
       "repo": "IvanMurzak/Godot-MCP",
@@ -79,6 +79,11 @@
       "d": "2026-11-25",
       "r": 215,
       "s": 868.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 253,
+      "s": 868.1
     }
   ]
 }

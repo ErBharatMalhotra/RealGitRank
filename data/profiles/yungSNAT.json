@@ -2,22 +2,22 @@
   "username": "yungSNAT",
   "country": "United States",
   "primary_language": "Rust",
-  "total_pushes": 44,
+  "total_pushes": 46,
   "merged_prs": 21,
   "listed_only": false,
-  "s_pr": 99.88,
+  "s_pr": 99.85,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 95.47,
+  "s_impact": 99.46,
+  "s_consistency": 95.85,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 15,
+  "active_days": 16,
   "window_days": 30,
-  "rank_score": 866.5,
+  "rank_score": 866.9,
   "active_repos_touched": 12,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 316,
+  "rank": 312,
   "avatar_url": "https://avatars.githubusercontent.com/u/333319867?u=280c9df4902b758c86491d07d2a1d08fe4da3d89&v=4",
   "bio": "No disintegrations, copy.",
   "company": "",
   "location": "Australia",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 563,
-  "prev_score": 865.7,
-  "rank_delta": 247,
-  "score_delta": 0.8,
+  "prev_rank": 316,
+  "prev_score": 866.5,
+  "rank_delta": 4,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "yungSNAT/Alcuin",
@@ -99,6 +99,11 @@
       "d": "2026-11-25",
       "r": 316,
       "s": 866.5
+    },
+    {
+      "d": "2026-11-26",
+      "r": 312,
+      "s": 866.9
     }
   ]
 }

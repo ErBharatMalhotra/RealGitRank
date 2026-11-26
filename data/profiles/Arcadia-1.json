@@ -5,10 +5,10 @@
   "total_pushes": 5,
   "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 98.84,
+  "s_pr": 98.63,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 95.66,
+  "s_impact": 99.46,
+  "s_consistency": 96.07,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 11,
   "window_days": 30,
-  "rank_score": 863.2,
+  "rank_score": 863.0,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 522,
+  "rank": 528,
   "avatar_url": "https://avatars.githubusercontent.com/u/29194544?u=3bf1b7d02d820113e17ebcd972a5aa5d1d624eb4&v=4",
   "bio": "Analog/Mixed-Signal IC Design \u00b7 AI-native EDA \u00b7 Open-source chip design tools",
   "company": "",
   "location": "116.331621E, 40.010485N",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 522,
+  "prev_score": 863.2,
+  "rank_delta": -6,
+  "score_delta": -0.2,
   "counted_merges": [
     {
       "repo": "cascode-ai/analog-canvas",
@@ -49,6 +53,11 @@
       "d": "2026-11-25",
       "r": 522,
       "s": 863.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 528,
+      "s": 863.0
     }
   ]
 }

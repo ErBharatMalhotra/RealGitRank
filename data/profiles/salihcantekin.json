@@ -5,10 +5,10 @@
   "total_pushes": 14,
   "merged_prs": 12,
   "listed_only": false,
-  "s_pr": 99.65,
+  "s_pr": 99.58,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 98.6,
+  "s_impact": 99.46,
+  "s_consistency": 98.96,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 18,
   "window_days": 30,
-  "rank_score": 870.4,
+  "rank_score": 870.6,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 110,
+  "rank": 112,
   "avatar_url": "https://avatars.githubusercontent.com/u/17653555?u=d6b92f861917604d432efbf5712c5ca349ab2fb0&v=4",
   "bio": "Lover (Coding + Cooking + Space + Sports + Life + FENERBAH\u00c7E)",
   "company": "",
   "location": "United Kindom",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 92,
-  "prev_score": 871.6,
-  "rank_delta": -18,
-  "score_delta": -1.2,
+  "prev_rank": 110,
+  "prev_score": 870.4,
+  "rank_delta": -2,
+  "score_delta": 0.2,
   "counted_merges": [
     {
       "repo": "salihcantekin/rbs",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 110,
       "s": 870.4
+    },
+    {
+      "d": "2026-11-26",
+      "r": 112,
+      "s": 870.6
     }
   ]
 }

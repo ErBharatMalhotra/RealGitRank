@@ -1,0 +1,57 @@
+{
+  "username": "YashwanthKamireddi",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 1,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 95.9,
+  "s_quality": 50.0,
+  "s_impact": 99.87,
+  "s_consistency": 98.17,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 12,
+  "window_days": 30,
+  "rank_score": 857.6,
+  "active_repos_touched": 1,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 10,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 767,
+  "avatar_url": "https://avatars.githubusercontent.com/u/91589177?u=9c36087efe115122e5f06ba13ddf27f58e362708&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "followers": 56,
+  "commits_1y": 2918,
+  "repos_total": 9,
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "YashwanthKamireddi/Skykeep",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 767,
+      "s": 857.6
+    }
+  ]
+}

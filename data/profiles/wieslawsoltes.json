@@ -5,10 +5,10 @@
   "total_pushes": 19,
   "merged_prs": 9,
   "listed_only": false,
-  "s_pr": 99.48,
+  "s_pr": 99.39,
   "s_quality": 50.0,
-  "s_impact": 99.78,
-  "s_consistency": 98.33,
+  "s_impact": 99.75,
+  "s_consistency": 98.81,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 870.1,
+  "rank_score": 870.5,
   "active_repos_touched": 7,
   "pr_reviews": 1,
   "issue_comments": 3,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 131,
+  "rank": 122,
   "avatar_url": "https://avatars.githubusercontent.com/u/2297442?v=4",
   "bio": "If you like my work please consider sponsoring me or one of my projects https://github.com/sponsors/wieslawsoltes",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 98,
-  "prev_score": 871.5,
-  "rank_delta": -33,
-  "score_delta": -1.4,
+  "prev_rank": 131,
+  "prev_score": 870.1,
+  "rank_delta": 9,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "wieslawsoltes/FerroUI",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 131,
       "s": 870.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 122,
+      "s": 870.5
     }
   ]
 }

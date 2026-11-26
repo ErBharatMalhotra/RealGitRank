@@ -5,10 +5,10 @@
   "total_pushes": 3,
   "merged_prs": 12,
   "listed_only": false,
-  "s_pr": 99.65,
+  "s_pr": 99.58,
   "s_quality": 50.0,
   "s_impact": 99.9,
-  "s_consistency": 95.69,
+  "s_consistency": 96.24,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 13,
   "window_days": 30,
-  "rank_score": 867.1,
+  "rank_score": 867.6,
   "active_repos_touched": 8,
   "pr_reviews": 0,
   "issue_comments": 1,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 280,
+  "rank": 268,
   "avatar_url": "https://avatars.githubusercontent.com/u/50759463?u=6443ee415860b48a509683601ec5faf07f81aaef&v=4",
   "bio": "",
   "company": "Midori Research",
   "location": "Indonesia",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 513,
-  "prev_score": 866.3,
-  "rank_delta": 233,
-  "score_delta": 0.8,
+  "prev_rank": 280,
+  "prev_score": 867.1,
+  "rank_delta": 12,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "fzn0x/mixmusic",
@@ -79,6 +79,11 @@
       "d": "2026-11-25",
       "r": 280,
       "s": 867.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 268,
+      "s": 867.6
     }
   ]
 }

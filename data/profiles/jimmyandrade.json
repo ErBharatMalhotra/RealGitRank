@@ -5,10 +5,10 @@
   "total_pushes": 4,
   "merged_prs": 13,
   "listed_only": false,
-  "s_pr": 99.69,
+  "s_pr": 99.64,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 98.4,
+  "s_impact": 98.95,
+  "s_consistency": 98.86,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 869.1,
+  "rank_score": 869.4,
   "active_repos_touched": 1,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 188,
+  "rank": 184,
   "avatar_url": "https://avatars.githubusercontent.com/u/2307245?u=c0b3bd6d1215de9f447e5efbed6451c2e3bea35f&v=4",
   "bio": "I develop for the purpose of supporting \ud83c\udff3\ufe0f\u200d\ud83c\udf08LGBTQIA, low-income people and people with disabilities.",
   "company": "",
   "location": "Belo Horizonte",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 178,
-  "prev_score": 870.3,
-  "rank_delta": -10,
-  "score_delta": -1.2,
+  "prev_rank": 188,
+  "prev_score": 869.1,
+  "rank_delta": 4,
+  "score_delta": 0.3,
   "counted_merges": [
     {
       "repo": "jimmyandrade/harness",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 188,
       "s": 869.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 184,
+      "s": 869.4
     }
   ]
 }

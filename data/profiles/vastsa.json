@@ -5,10 +5,10 @@
   "total_pushes": 2,
   "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 97.75,
+  "s_pr": 97.35,
   "s_quality": 50.0,
-  "s_impact": 99.97,
-  "s_consistency": 98.92,
+  "s_impact": 99.96,
+  "s_consistency": 99.03,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,10 +17,10 @@
   },
   "active_days": 15,
   "window_days": 30,
-  "rank_score": 865.4,
+  "rank_score": 864.2,
   "active_repos_touched": 1,
   "pr_reviews": 1,
-  "issue_comments": 2,
+  "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 15,
   "forks_fraud_filtered": 3,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 391,
+  "rank": 471,
   "avatar_url": "https://avatars.githubusercontent.com/u/48862574?u=66dd2e293df70e164a32ed84b049d77c5d0fb61f&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "percentile": 100.0,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 341,
-  "prev_score": 868.3,
-  "rank_delta": -50,
-  "score_delta": -2.9,
+  "prev_rank": 391,
+  "prev_score": 865.4,
+  "rank_delta": -80,
+  "score_delta": -1.2,
   "counted_merges": [
     {
       "repo": "vastsa/PI-Desktop",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 391,
       "s": 865.4
+    },
+    {
+      "d": "2026-11-26",
+      "r": 471,
+      "s": 864.2
     }
   ]
 }

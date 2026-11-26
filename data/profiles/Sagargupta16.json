@@ -5,10 +5,10 @@
   "total_pushes": 0,
   "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 97.75,
+  "s_pr": 97.35,
   "s_quality": 50.0,
-  "s_impact": 99.76,
-  "s_consistency": 92.34,
+  "s_impact": 99.74,
+  "s_consistency": 92.86,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 7,
   "window_days": 30,
-  "rank_score": 855.1,
+  "rank_score": 854.4,
   "active_repos_touched": 5,
   "pr_reviews": 1,
   "issue_comments": 0,
@@ -28,21 +28,21 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 902,
+  "rank": 907,
   "avatar_url": "https://avatars.githubusercontent.com/u/92421383?u=9cc5eb8f30e254b270cc5eb8601b63dec488b20e&v=4",
   "bio": "DevOps/MLOps Consultant at @aws | MCA '24 NIT Warangal | Exploring AI Agents, Workflows & ML | 5x AWS Certified",
   "company": "Amazon Web Services",
   "location": "Hyderabad, India",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "ci_pushes": 3,
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 689,
-  "prev_score": 863.5,
-  "rank_delta": -213,
-  "score_delta": -8.4,
+  "prev_rank": 902,
+  "prev_score": 855.1,
+  "rank_delta": -5,
+  "score_delta": -0.7,
   "counted_merges": [
     {
       "repo": "Sagargupta16/bedrock-multi-model-mcp",
@@ -81,6 +81,11 @@
       "d": "2026-11-25",
       "r": 902,
       "s": 855.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 907,
+      "s": 854.4
     }
   ]
 }

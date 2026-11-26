@@ -5,10 +5,10 @@
   "total_pushes": 2,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 97.75,
+  "s_pr": 97.35,
   "s_quality": 50.0,
-  "s_impact": 99.66,
-  "s_consistency": 97.15,
+  "s_impact": 99.63,
+  "s_consistency": 97.76,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 862.0,
+  "rank_score": 861.5,
   "active_repos_touched": 3,
   "pr_reviews": 2,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 584,
+  "rank": 594,
   "avatar_url": "https://avatars.githubusercontent.com/u/49837342?u=81e94f80ea6f571e6a8e4309f080ea20c94159ff&v=4",
   "bio": "Open-source enthusiast. Probably building a new side-project right now \r\n\r\n@homarr-labs ",
   "company": "",
   "location": "Paris, France",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 520,
-  "prev_score": 866.3,
-  "rank_delta": -64,
-  "score_delta": -4.3,
+  "prev_rank": 584,
+  "prev_score": 862.0,
+  "rank_delta": -10,
+  "score_delta": -0.5,
   "counted_merges": [
     {
       "repo": "homarr-labs/homarr",
@@ -67,6 +67,11 @@
       "d": "2026-11-25",
       "r": 584,
       "s": 862.0
+    },
+    {
+      "d": "2026-11-26",
+      "r": 594,
+      "s": 861.5
     }
   ]
 }

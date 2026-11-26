@@ -5,10 +5,10 @@
   "total_pushes": 0,
   "merged_prs": 5,
   "listed_only": false,
-  "s_pr": 99.08,
+  "s_pr": 98.92,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 91.49,
+  "s_impact": 98.95,
+  "s_consistency": 92.0,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -28,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 849,
+  "rank": 809,
   "avatar_url": "https://avatars.githubusercontent.com/u/8135396?u=8eebbe60dfc9e018d136bcacaeacde0841fc71d0&v=4",
   "bio": "Senior Full Stack Developer. Working with PHP, Typescript, Go, Bash and Linux.",
   "company": "@ItinerisLtd ",
   "location": "United Kingdom",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 849,
+  "prev_score": 856.6,
+  "rank_delta": 40,
+  "score_delta": 0.0,
   "counted_merges": [
     {
       "repo": "ItinerisLtd/PostTypes",
@@ -64,6 +68,11 @@
     {
       "d": "2026-11-25",
       "r": 849,
+      "s": 856.6
+    },
+    {
+      "d": "2026-11-26",
+      "r": 809,
       "s": 856.6
     }
   ]

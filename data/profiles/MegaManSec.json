@@ -5,10 +5,10 @@
   "total_pushes": 1,
   "merged_prs": 4,
   "listed_only": false,
-  "s_pr": 97.75,
+  "s_pr": 97.35,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 95.04,
+  "s_impact": 98.95,
+  "s_consistency": 95.48,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 6,
   "window_days": 30,
-  "rank_score": 857.2,
+  "rank_score": 856.3,
   "active_repos_touched": 4,
   "pr_reviews": 0,
   "issue_comments": 0,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 829,
+  "rank": 828,
   "avatar_url": "https://avatars.githubusercontent.com/u/2505339?u=78aedab1262910f581b6fdfb2072e6d0248cb3b5&v=4",
   "bio": "",
   "company": "",
   "location": "5% in Australia, 95% somewhere in Eastern Europe",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 963,
-  "prev_score": 859.0,
-  "rank_delta": 134,
-  "score_delta": -1.8,
+  "prev_rank": 829,
+  "prev_score": 857.2,
+  "rank_delta": 1,
+  "score_delta": -0.9,
   "counted_merges": [
     {
       "repo": "MegaManSec/Gixy-Next",
@@ -71,6 +71,11 @@
       "d": "2026-11-25",
       "r": 829,
       "s": 857.2
+    },
+    {
+      "d": "2026-11-26",
+      "r": 828,
+      "s": 856.3
     }
   ]
 }

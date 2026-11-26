@@ -5,10 +5,10 @@
   "total_pushes": 37,
   "merged_prs": 53,
   "listed_only": false,
-  "s_pr": 99.99,
+  "s_pr": 99.98,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 95.38,
+  "s_impact": 99.46,
+  "s_consistency": 95.83,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 18,
   "window_days": 30,
-  "rank_score": 866.8,
+  "rank_score": 867.3,
   "active_repos_touched": 5,
   "pr_reviews": 0,
   "issue_comments": 4,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 294,
+  "rank": 283,
   "avatar_url": "https://avatars.githubusercontent.com/u/21111317?u=8560dca4c59779ecd01599a2d291a1edd8befdb1&v=4",
   "bio": "(bre|m)aker",
   "company": "a cloud near you",
   "location": "melbourne",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 176,
-  "prev_score": 870.3,
-  "rank_delta": -118,
-  "score_delta": -3.5,
+  "prev_rank": 294,
+  "prev_score": 866.8,
+  "rank_delta": 11,
+  "score_delta": 0.5,
   "counted_merges": [
     {
       "repo": "pl4nty/winget-recipes",
@@ -71,6 +71,11 @@
       "d": "2026-11-25",
       "r": 294,
       "s": 866.8
+    },
+    {
+      "d": "2026-11-26",
+      "r": 283,
+      "s": 867.3
     }
   ]
 }

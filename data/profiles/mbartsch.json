@@ -5,10 +5,10 @@
   "total_pushes": 1,
   "merged_prs": 7,
   "listed_only": false,
-  "s_pr": 99.08,
+  "s_pr": 98.92,
   "s_quality": 50.0,
-  "s_impact": 99.51,
-  "s_consistency": 92.07,
+  "s_impact": 99.46,
+  "s_consistency": 92.57,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -28,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 746,
+  "rank": 694,
   "avatar_url": "https://avatars.githubusercontent.com/u/2714777?v=4",
   "bio": "",
   "company": "",
   "location": "Spain",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 746,
+  "prev_score": 858.7,
+  "rank_delta": 52,
+  "score_delta": 0.0,
   "counted_merges": [
     {
       "repo": "mbartsch/klotse",
@@ -48,6 +52,11 @@
     {
       "d": "2026-11-25",
       "r": 746,
+      "s": 858.7
+    },
+    {
+      "d": "2026-11-26",
+      "r": 694,
       "s": 858.7
     }
   ]

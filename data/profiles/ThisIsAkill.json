@@ -5,10 +5,10 @@
   "total_pushes": 2,
   "merged_prs": 11,
   "listed_only": false,
-  "s_pr": 99.81,
+  "s_pr": 99.77,
   "s_quality": 50.0,
-  "s_impact": 99.02,
-  "s_consistency": 91.28,
+  "s_impact": 98.95,
+  "s_consistency": 91.78,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,7 +17,7 @@
   },
   "active_days": 8,
   "window_days": 30,
-  "rank_score": 858.8,
+  "rank_score": 859.2,
   "active_repos_touched": 2,
   "pr_reviews": 0,
   "issue_comments": 7,
@@ -28,16 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 740,
+  "rank": 675,
   "avatar_url": "https://avatars.githubusercontent.com/u/24420588?u=b0c5dbaa7cf268ac16f31061a5439b4b1a0bed6d&v=4",
   "bio": "Just a guy who tries to code here and there.  Mainly, to make his life easier.",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
+  "prev_rank": 740,
+  "prev_score": 858.8,
+  "rank_delta": 65,
+  "score_delta": 0.4,
   "counted_merges": [
     {
       "repo": "Yharnam-Hunters/Paleblood",
@@ -49,6 +53,11 @@
       "d": "2026-11-25",
       "r": 740,
       "s": 858.8
+    },
+    {
+      "d": "2026-11-26",
+      "r": 675,
+      "s": 859.2
     }
   ]
 }

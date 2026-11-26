@@ -2,13 +2,13 @@
   "username": "silent-suite",
   "country": "",
   "primary_language": "Kotlin",
-  "total_pushes": 6,
-  "merged_prs": 4,
+  "total_pushes": 4,
+  "merged_prs": 5,
   "listed_only": false,
-  "s_pr": 97.75,
+  "s_pr": 98.24,
   "s_quality": 50.0,
-  "s_impact": 99.75,
-  "s_consistency": 97.7,
+  "s_impact": 99.73,
+  "s_consistency": 99.33,
   "measured": {
     "delivery": true,
     "code_health": true,
@@ -17,35 +17,35 @@
   },
   "active_days": 10,
   "window_days": 30,
-  "rank_score": 863.1,
-  "active_repos_touched": 2,
+  "rank_score": 867.2,
+  "active_repos_touched": 1,
   "pr_reviews": 0,
   "issue_comments": 1,
   "releases": 0,
   "stars_fraud_filtered": 2,
   "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 4,
+  "active_shipping_weeks": 5,
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 527,
+  "rank": 290,
   "avatar_url": "https://avatars.githubusercontent.com/u/265568982?u=c514584569317bee174361f99cb1ea89869df27a&v=4",
   "bio": "",
   "company": "",
   "location": "",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
-  "percentile": 99.9,
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 100.0,
   "tier": "Elite",
-  "prev_rank": 502,
-  "prev_score": 866.5,
-  "rank_delta": -25,
-  "score_delta": -3.4,
+  "prev_rank": 527,
+  "prev_score": 863.1,
+  "rank_delta": 237,
+  "score_delta": 4.1,
   "counted_merges": [
     {
       "repo": "silent-suite/silentsuite",
-      "prs": 4
+      "prs": 5
     }
   ],
   "history": [
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 527,
       "s": 863.1
+    },
+    {
+      "d": "2026-11-26",
+      "r": 290,
+      "s": 867.2
     }
   ]
 }

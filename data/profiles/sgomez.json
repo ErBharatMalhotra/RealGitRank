@@ -1,0 +1,61 @@
+{
+  "username": "sgomez",
+  "country": "Spain",
+  "primary_language": "TypeScript",
+  "total_pushes": 2,
+  "merged_prs": 3,
+  "listed_only": false,
+  "s_pr": 95.9,
+  "s_quality": 50.0,
+  "s_impact": 98.95,
+  "s_consistency": 96.04,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 4,
+  "window_days": 30,
+  "rank_score": 852.1,
+  "active_repos_touched": 3,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 1,
+  "forks_fraud_filtered": 0,
+  "active_shipping_weeks": 4,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 990,
+  "avatar_url": "https://avatars.githubusercontent.com/u/580701?v=4",
+  "bio": "Software Baker \ud83c\udf6a\r\n",
+  "company": "University of C\u00f3rdoba",
+  "location": "C\u00f3rdoba, Spain",
+  "followers": 227,
+  "commits_1y": 12318,
+  "repos_total": 63,
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "sgomez/simplesamlphp-module-console",
+      "prs": 2
+    },
+    {
+      "repo": "sgomez/custodio",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 990,
+      "s": 852.1
+    }
+  ]
+}

@@ -2,22 +2,22 @@
   "username": "Javis603",
   "country": "",
   "primary_language": "JavaScript",
-  "total_pushes": 7,
+  "total_pushes": 4,
   "merged_prs": 3,
   "listed_only": false,
-  "s_pr": 96.51,
+  "s_pr": 95.9,
   "s_quality": 50.0,
-  "s_impact": 99.88,
-  "s_consistency": 97.55,
+  "s_impact": 99.87,
+  "s_consistency": 98.26,
   "measured": {
     "delivery": true,
     "code_health": true,
     "adoption": true,
     "consistency": true
   },
-  "active_days": 11,
+  "active_days": 10,
   "window_days": 30,
-  "rank_score": 858.8,
+  "rank_score": 857.7,
   "active_repos_touched": 2,
   "pr_reviews": 1,
   "issue_comments": 1,
@@ -28,20 +28,20 @@
   "avg_files_changed": null,
   "test_file_ratio": 0.0,
   "multi_file_commit_ratio": null,
-  "rank": 744,
+  "rank": 763,
   "avatar_url": "https://avatars.githubusercontent.com/u/81982673?u=c9f7f4edb62f353df3b1fa249fb0199678f94c1d&v=4",
   "bio": "",
   "company": "The Hong Kong Polytechnic University",
   "location": "Hong Kong",
   "score_version": "v2-percentile",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-24",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
   "percentile": 99.9,
   "tier": "Elite",
-  "prev_rank": 662,
-  "prev_score": 864.0,
-  "rank_delta": -82,
-  "score_delta": -5.2,
+  "prev_rank": 744,
+  "prev_score": 858.8,
+  "rank_delta": -19,
+  "score_delta": -1.1,
   "counted_merges": [
     {
       "repo": "Javis603/token-monitor",
@@ -63,6 +63,11 @@
       "d": "2026-11-25",
       "r": 744,
       "s": 858.8
+    },
+    {
+      "d": "2026-11-26",
+      "r": 763,
+      "s": 857.7
     }
   ]
 }

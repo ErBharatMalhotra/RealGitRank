@@ -1,0 +1,66 @@
+{
+  "username": "sjkim1127",
+  "country": "South Korea",
+  "primary_language": "Unknown",
+  "total_pushes": 7,
+  "merged_prs": 7,
+  "listed_only": false,
+  "s_pr": 99.31,
+  "s_quality": 50.0,
+  "s_impact": 98.44,
+  "s_consistency": 92.69,
+  "measured": {
+    "delivery": true,
+    "code_health": true,
+    "adoption": true,
+    "consistency": true
+  },
+  "active_days": 7,
+  "window_days": 30,
+  "rank_score": 857.7,
+  "active_repos_touched": 6,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "stars_fraud_filtered": 0,
+  "forks_fraud_filtered": 1,
+  "active_shipping_weeks": 3,
+  "avg_files_changed": null,
+  "test_file_ratio": 0.0,
+  "multi_file_commit_ratio": null,
+  "rank": 759,
+  "avatar_url": "https://avatars.githubusercontent.com/u/183040901?u=fdc1f82a7dbd3ff9be2fc6999929a759a9df9585&v=4",
+  "bio": "Systems & Reverse Engineering Tooling in Rust \u00b7 Building Fission",
+  "company": "",
+  "location": "Seoul",
+  "score_version": "v2-percentile",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-25",
+  "percentile": 99.9,
+  "tier": "Elite",
+  "counted_merges": [
+    {
+      "repo": "fission-systems/Fission",
+      "prs": 2
+    },
+    {
+      "repo": "fission-systems/freshbench",
+      "prs": 2
+    },
+    {
+      "repo": "sjkim1127/Reversecore_MCP",
+      "prs": 2
+    },
+    {
+      "repo": "sjkim1127/sjkim1127",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 759,
+      "s": 857.7
+    }
+  ]
+}
