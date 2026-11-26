@@ -1,0 +1,30 @@
+{
+  "username": "puttipak-commits",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 460,
+  "merged_prs": 0,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 460,
+  "rank_score": 460,
+  "rank": 162,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 162,
+      "s": 460.0
+    }
+  ]
+}

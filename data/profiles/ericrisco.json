@@ -1,0 +1,36 @@
+{
+  "username": "ericrisco",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 309,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 2,
+  "window_days": 30,
+  "activity": 310,
+  "rank_score": 310,
+  "rank": 281,
+  "avatar_url": "https://avatars.githubusercontent.com/u/20164590?u=46ae6af4530ef90ae233c36f2513c7c2dd3eb9e1&v=4",
+  "bio": "AI Tech Lead @ Andorra Telecom",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ericrisco/rsc-harness",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 281,
+      "s": 310.0
+    }
+  ]
+}

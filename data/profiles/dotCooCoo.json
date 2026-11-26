@@ -1,0 +1,40 @@
+{
+  "username": "dotCooCoo",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 44,
+  "merged_prs": 29,
+  "closed_issues": 0,
+  "pr_reviews": 41,
+  "issue_comments": 29,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 143,
+  "rank_score": 143,
+  "rank": 947,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1206598?u=43471453fbbfc819b66feaf65211a561e34484af&v=4",
+  "bio": "Building the tools I wish existed. Leaving them out for other hermits who wish the same.\r\n",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "storytold/vectorcraft",
+      "prs": 28
+    },
+    {
+      "repo": "storytold/soundcraft",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 947,
+      "s": 143.0
+    }
+  ]
+}

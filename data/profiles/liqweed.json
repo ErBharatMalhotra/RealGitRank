@@ -1,0 +1,40 @@
+{
+  "username": "liqweed",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 26,
+  "merged_prs": 9,
+  "closed_issues": 2,
+  "pr_reviews": 56,
+  "issue_comments": 51,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 144,
+  "rank_score": 144,
+  "rank": 941,
+  "avatar_url": "https://avatars.githubusercontent.com/u/306589?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "jig-harness/jig",
+      "prs": 8
+    },
+    {
+      "repo": "liqweed/audible-ex",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 941,
+      "s": 144.0
+    }
+  ]
+}

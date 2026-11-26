@@ -1,0 +1,36 @@
+{
+  "username": "mojtabarozegar11-ship-it",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 123,
+  "merged_prs": 12,
+  "closed_issues": 0,
+  "pr_reviews": 1,
+  "issue_comments": 11,
+  "releases": 0,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 147,
+  "rank_score": 147,
+  "rank": 916,
+  "avatar_url": "https://avatars.githubusercontent.com/u/329077837?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "mojtabarozegar11-ship-it/Saeit",
+      "prs": 12
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 916,
+      "s": 147.0
+    }
+  ]
+}

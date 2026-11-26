@@ -1,0 +1,36 @@
+{
+  "username": "jalfern",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 135,
+  "merged_prs": 9,
+  "closed_issues": 13,
+  "pr_reviews": 0,
+  "issue_comments": 91,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 248,
+  "rank_score": 248,
+  "rank": 405,
+  "avatar_url": "https://avatars.githubusercontent.com/u/230203283?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "jalfern/retrogames",
+      "prs": 9
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 405,
+      "s": 248.0
+    }
+  ]
+}

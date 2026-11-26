@@ -1,0 +1,36 @@
+{
+  "username": "mikeljungbergtvedt",
+  "country": "",
+  "primary_language": "HTML",
+  "total_pushes": 153,
+  "merged_prs": 2,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 155,
+  "rank_score": 155,
+  "rank": 857,
+  "avatar_url": "https://avatars.githubusercontent.com/u/141820536?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "mikeljungbergtvedt/mikeljungbergtvedt.github.io",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 857,
+      "s": 155.0
+    }
+  ]
+}

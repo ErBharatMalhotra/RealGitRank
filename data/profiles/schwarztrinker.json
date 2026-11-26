@@ -1,0 +1,56 @@
+{
+  "username": "schwarztrinker",
+  "country": "Germany",
+  "primary_language": "Shell",
+  "total_pushes": 26,
+  "merged_prs": 26,
+  "closed_issues": 26,
+  "pr_reviews": 0,
+  "issue_comments": 65,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 143,
+  "rank_score": 143,
+  "rank": 948,
+  "avatar_url": "https://avatars.githubusercontent.com/u/38423981?u=a1013f38a473870e9fe58fc2d9d8eb390f466b68&v=4",
+  "bio": "",
+  "company": "@infomotion",
+  "location": "Frankfurt am Main, Hessen, Germany",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "stardelt/stardelt-platform",
+      "prs": 8
+    },
+    {
+      "repo": "stardelt/stardelt",
+      "prs": 7
+    },
+    {
+      "repo": "stardelt/stardelt-docs",
+      "prs": 4
+    },
+    {
+      "repo": "stardelt/stardelt-nova",
+      "prs": 4
+    },
+    {
+      "repo": "stardelt/stardelt-operator",
+      "prs": 2
+    },
+    {
+      "repo": "stardelt/stardelt-python",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 948,
+      "s": 143.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "username": "jcnm",
+  "country": "France",
+  "primary_language": "Unknown",
+  "total_pushes": 36,
+  "merged_prs": 22,
+  "closed_issues": 17,
+  "pr_reviews": 0,
+  "issue_comments": 67,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 142,
+  "rank_score": 142,
+  "rank": 961,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2125877?u=add06dcb4fe42ac6374da977dd4b9649d8e9ada9&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "isopen-io/meeshy",
+      "prs": 22
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 961,
+      "s": 142.0
+    }
+  ]
+}

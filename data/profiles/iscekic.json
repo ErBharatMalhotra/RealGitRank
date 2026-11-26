@@ -1,0 +1,36 @@
+{
+  "username": "iscekic",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 51,
+  "merged_prs": 38,
+  "closed_issues": 0,
+  "pr_reviews": 40,
+  "issue_comments": 64,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 193,
+  "rank_score": 193,
+  "rank": 661,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4062236?u=4b4359cc78cc8a6b1498fc01e8f1e1d244930050&v=4",
+  "bio": "Staff full-stack engineer",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Kilo-Org/cloud",
+      "prs": 38
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 661,
+      "s": 193.0
+    }
+  ]
+}

@@ -4,6 +4,10 @@ Outputs (all plain files, no server):
   web/public/api/leaderboard.json   - every ranked developer, compact records
   web/public/api/user/<name>.json   - one record per ranked developer
   web/public/llms.txt               - short guide for LLM/agent consumers
+
+Score v3 is one absolute number: public GitHub activity events in the last 12
+months. There are no percentile sub-scores, weights or tier bands to publish,
+and an account with no observed activity is simply absent rather than "listed".
 """
 import json
 import os
@@ -16,10 +20,9 @@ CORRECTION_URL = (
 )
 DISCLAIMER = (
     "RealGitRank is an independent, unofficial project built only from public GitHub "
-    "events. A score is an automated estimate over one rolling window, not a statement "
-    "of fact about a person, a measure of skill, or an endorsement, and it is not "
-    "affiliated with GitHub. Per-account classification values are not published; the "
-    "site shows a score, never a label about an account."
+    "events. A score is an automated count over one rolling 12-month window, not a "
+    "statement of fact about a person, a measure of skill, or an endorsement, and it "
+    "is not affiliated with GitHub."
 )
 LEADERBOARD_PATH = "data/leaderboard.json"
 STATUS_PATH = "data/status.json"
@@ -30,29 +33,21 @@ OUT_DIR = "web/public/api"
 LLMS_PATH = "web/public/llms.txt"
 COMMUNITY_PROFILE_LIMIT = 1000  # badges/profiles are pre-rendered for the global top 1,000
 
-WEIGHTS = {
-    "delivery": 0.35,
-    "code_health": 0.25,
-    "adoption": 0.25,
-    "consistency": 0.15,
-}
-
-TIER_BANDS = [
-    {"tier": "Elite", "min_percentile": 99},
-    {"tier": "Diamond", "min_percentile": 95},
-    {"tier": "Platinum", "min_percentile": 90},
-    {"tier": "Gold", "min_percentile": 75},
-    {"tier": "Silver", "min_percentile": 50},
-    {"tier": "Bronze", "min_percentile": 0},
-]
+ACTIVITY_COMPONENTS = (
+    ("total_pushes", "Pushes"),
+    ("merged_prs", "Merged pull requests"),
+    ("closed_issues", "Closed issues"),
+    ("pr_reviews", "Pull request reviews"),
+    ("issue_comments", "Issue comments"),
+    ("releases", "Releases"),
+)
 
 # Documented contract of the compact leaderboard records.
 CORE_FIELDS = (
     "username",
     "rank",
     "rank_score",
-    "tier",
-    "percentile",
+    "activity",
     "country",
     "primary_language",
     "merged_prs",
@@ -65,22 +60,20 @@ CORE_FIELDS = (
 EXTRA_FIELDS = (
     "company",
     "location",
+    "total_pushes",
+    "closed_issues",
     "pr_reviews",
     "issue_comments",
     "releases",
-    "stars_fraud_filtered",
-    "forks_fraud_filtered",
-    "active_repos_touched",
-    "s_pr",
-    "s_quality",
-    "s_impact",
-    "s_consistency",
     "active_days",
     "window_days",
+    "contributions_1y",
+    "stars_total",
+    "followers",
 )
 
 # Evidence details stay out of the leaderboard; only /api/user/<name>.json carries them.
-USER_ONLY_FIELDS = ("measured", "counted_merges")
+USER_ONLY_FIELDS = ("counted_merges",)
 
 # Large free-text fields: only served by /api/user/<name>.json, never in the leaderboard.
 HEAVY_FIELDS = ("avatar_url", "bio")
@@ -165,24 +158,21 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None, c
         "snapshot_date": snapshot_date,
         "source": status.get("source"),
         "score_version": status.get("score_version"),
-        "score_scale": [0, 1000],
+        "score_unit": "public GitHub activity events over the last 12 complete months plus the current month",
+        "activity_components": dict(ACTIVITY_COMPONENTS),
         "window": {
             "days": status.get("window_days"),
+            "months": status.get("window_months"),
             "start": status.get("window_start"),
             "end": status.get("window_end"),
-            "shards": status.get("shards"),
         },
         "count": len(users),
         "ranked_total": status.get("users_ranked") or status.get("users") or len(users),
-        "listed_total": status.get("users_listed") or 0,
-        "snapshot_total": status.get("users_total") or status.get("users"),
         "site": SITE,
         "methodology_url": f"{SITE}/methodology/",
-        "weights": WEIGHTS,
         "coverage": coverage,
         "disclaimer": DISCLAIMER,
         "correction_url": CORRECTION_URL,
-        "tier_bands": TIER_BANDS,
         "url_templates": {
             "user_api": f"{SITE}/api/user/{{username}}.json",
             "profile": f"{SITE}/profile/{{username}}",
@@ -192,14 +182,17 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None, c
             "search_bucket": f"{SITE}/data/search/{{first_char}}.json",
         },
         "notes": (
-            "Scores measure merged work, adoption and consistency over the rolling window "
-            "declared above, with each pillar percentile-ranked and missing pillars excluded "
-            "(weights renormalised). Every ranked developer is published in "
-            "/data/chunks (250 rows per page) and indexed in /data/search/<first-char>.json; "
-            "detailed profiles and per-user JSON are served only "
-            "for the top 1,000; avatar_url and bio live in /api/user/{username}.json. "
-            "Coverage of every pillar "
-            "is published in the coverage block, and independent GitHub spot checks in "
+            "Each rank_score is the absolute count of public GitHub activity events "
+            "(pushes + merged pull requests + closed issues + pull-request reviews + "
+            "issue comments + releases) observed in the rolling 12-month window. The "
+            "components are published per user, so the score can be recomputed from the "
+            "record itself. Ties are broken by merged pull requests, then login. There "
+            "is no percentile, weight or tier. GitHub's own contribution count (which "
+            "counts commits) is published separately as contributions_1y for the top "
+            "10,000 and is never mixed into the score. Every ranked developer is "
+            "published in /data/chunks (250 rows per page) and indexed in "
+            "/data/search/<first-char>.json; detailed profiles and per-user JSON are "
+            "served only for the top 1,000. Independent GitHub spot checks live in "
             "data/validation.json."
         ),
         "users": users,
@@ -217,8 +210,10 @@ def build_user(entry, profile=None, status=None, snapshot_date=None):
         "snapshot_date": snapshot_date,
         "site": SITE,
         "methodology_url": f"{SITE}/methodology/",
+        "score_unit": "public GitHub activity events over the last 12 complete months plus the current month",
         "window": {
             "days": status.get("window_days"),
+            "months": status.get("window_months"),
             "start": status.get("window_start"),
             "end": status.get("window_end"),
         },
@@ -230,19 +225,15 @@ def llms_text(payload, leaderboard=None):
     leaderboard = leaderboard or {}
     top = leaderboard.get("users", [])[:5]
     top_lines = "\n".join(
-        f"{i}. {u.get('username')} — score {u.get('rank_score')} ({u.get('tier', 'unranked')})"
+        f"{i}. {u.get('username')} — {u.get('rank_score')} activity events"
         for i, u in enumerate(top, 1)
     )
-    weights = ", ".join(f"{name} {int(w * 100)}%" for name, w in payload["weights"].items())
-    tiers = " > ".join(f"{t['tier']} (≥{t['min_percentile']}th)" for t in payload["tier_bands"])
+    components = ", ".join(label.lower() for _, label in ACTIVITY_COMPONENTS)
     coverage = payload.get("coverage") or {}
-    pillars = coverage.get("pillars") or {}
+    signals = coverage.get("signals") or {}
     coverage_line = ", ".join(
-        f"{key} {value.get('pct', 0)}%" for key, value in pillars.items()
+        f"{value.get('label', key)} {value.get('pct', 0)}%" for key, value in signals.items()
     ) or "not published"
-    automation = coverage.get("automation_evidence") or {}
-    if automation:
-        coverage_line += f"; automation-signal evidence {automation.get('pct', 0)}%"
     validation = coverage.get("validation") or {}
     if validation:
         validation_line = (
@@ -255,29 +246,28 @@ def llms_text(payload, leaderboard=None):
     window = payload.get("window") or {}
     return f"""# RealGitRank
 
-> RealGitRank is a free, static ranking of GitHub developers by engineering impact.
-> It scores a rolling 30-day window of real GitHub events: each pillar is
-> percentile-ranked inside the cohort where it was actually observed, missing
-> pillars are excluded (weights renormalised), then a conservative automation
-> adjustment is applied where the event stream shows machine-like patterns.
-> Commit count is not the metric.
+> RealGitRank is a free, static ranking of GitHub developers by public activity.
+> One absolute number decides the rank: pushes + merged pull requests + closed
+> issues + pull-request reviews + issue comments + releases observed in the
+> rolling 12-month window ({components}). No percentiles, no weights, no tiers.
+> GitHub's own contribution count is shown separately and is never scored.
 
 Canonical site: {payload['site']}/ (custom domain, GitHub Pages, no API keys)
 Last data refresh: {payload.get('generated_at') or 'unknown'}
 Snapshot date: {payload.get('snapshot_date') or 'unknown'}
-Ranked developers: {payload.get('ranked_total', payload.get('count', 0))} of {payload.get('snapshot_total') or payload.get('ranked_total', payload.get('count', 0))} tracked ({payload.get('listed_total', 0)} listed without a score, {payload.get('count', 0)} with detailed records)
+Ranked developers: {payload.get('ranked_total', payload.get('count', 0))} (every account with at least one observed public activity event)
 Score version: {payload.get('score_version') or 'unknown'}
-Window: {window.get('days')} days ({window.get('start')} to {window.get('end')}, {window.get('shards')} daily shards)
-Pillar coverage: {coverage_line}
+Window: {window.get('days')} days across {window.get('months')} months ({window.get('start')} to {window.get('end')})
+Signal coverage: {coverage_line}
 Independent validation: {validation_line}
 
 ## Machine-readable data
 
 - {payload['site']}/api/leaderboard.json — all {payload.get('count', 0)} ranked developers,
-  one compact record each (rank, score, tier, percentile, country, language, PRs, deltas).
+  one compact record each (rank, rank_score/activity, components, country, language, deltas).
   Avatar and bio are intentionally omitted here; read them from the per-user endpoint.
-- {payload['site']}/data/coverage.json — measured/null counts for every pillar,
-  automation-signal evidence coverage and validation results.
+- {payload['site']}/data/coverage.json — observed counts for every activity component,
+  source coverage and validation results.
 - {payload['site']}/api/user/{{username}}.json — one developer in the top 1,000; includes
   daily history, avatar_url, bio, company and location when available. Example: {payload['site']}/api/user/{(top[0].get('username') if top else 'sirine2907')}.json
   (users outside the top 1,000 have no per-user file; read their row from the chunks)
@@ -285,38 +275,25 @@ Independent validation: {validation_line}
   index at {payload['site']}/data/chunks/index.json; every ranked developer is included
 - {payload['site']}/data/search/{{first_char}}.json — compact
   [username, rank, score, state, page] index sharded by the first character of
-  the username (a-z, 0-9, `other`), so a lookup does not download the whole
-  board. `state` is `ranked` or `listed`; a listed account has `rank: null` and
-  `page` is its pointer into the chunks
+  the username (a-z, 0-9, `other`). `score` is the 12-month activity count and
+  `state` is always `ranked`; an account with no observed activity is absent
 - {payload['site']}/badges/{{username}}.svg — SVG badge (dedicated badges for the global
   top 1,000; {payload['site']}/badges/default.svg otherwise)
 - {payload['site']}/methodology/ — how the score is computed, in prose
 
-Fields marked optional may be absent: `rank_delta` / `score_delta` are only present when
-yesterday's snapshot had the same user; pillar sub-scores (`s_pr`, `s_quality`,
-`s_impact`, `s_consistency`) are 0–100 percentiles and `s_quality` is absent when no
-test/file evidence exists. `measured` says which pillars counted for that user;
-`counted_merges` lists the repositories behind the merged-PR count.
-
 ## Scoring
 
-Rank score = 10 × Σ(wᵢ · pᵢ) / Σ(wᵢ observed) × (1 − automation adjustment), clamped to 0–1000,
-where pᵢ is the 0–100 percentile of pillar i among users where that pillar is observed.
+rank_score = total_pushes + merged_prs + closed_issues + pr_reviews + issue_comments + releases
 
-- Delivery (35%): pull requests merged by the developer over the window (merge events, not authored count); external merges weighted higher.
-- Code health (25%): test-signal ratio and multi-file PRs; only counted when observed.
-- Adoption (25%): stars and forks received over the window.
-- Consistency (15%): active shipping weeks and push-hour spread over the window.
+Every component is counted from the public GitHub event stream (gharchive.org)
+over the rolling 12-month window. Each user record publishes all six components,
+so the score can be recomputed from the record. Ties are broken by merged pull
+requests, then by login. A push is one event: GitHub trimmed PushEvent payloads
+so the commit list is not public, and no commit count is invented.
 
-Automation adjustment (0–1) adds 0.50 for near-duplicate commit messages, 0.30 for
-round-the-clock pushing and 0.40 for single-file churn, but only on observed evidence;
-when the feed does not expose the signal the adjustment stays 0 and the limitation is
-published in coverage. The adjustment is an aggregate heuristic: no per-account
-classification is published, and no account is publicly labelled as automated.
-
-## Tiers
-
-{tiers}. Percentile is the share of ranked developers at or below the score.
+GitHub's own `totalContributions` (which counts commits) is fetched from the
+GraphQL API for the top 10,000 and on profile lookup. It is displayed as
+`contributions_1y` and is never part of the score.
 
 ## Top 5 in this snapshot
 
@@ -325,10 +302,8 @@ classification is published, and no account is publicly labelled as automated.
 ## Notes for agents
 
 - Data refreshes daily (~02:00 UTC) through a scheduled GitHub Actions pipeline.
-- Scores use the newest 30 daily shards only; there is no blending with older scores and
-  no score decay. A user with no activity in the window is not ranked.
-- Coverage and validation numbers above are computed from the published data, not
-  marketing copy. If a pillar's coverage is low, do not treat that sub-score as reliable.
+- The window only moves forward; older months are pruned after 12 months.
+- Coverage numbers above are computed from the published data, not marketing copy.
 - This is a public reputation index built from GitHub public events; attribute
   {payload['site']}/ when you quote a rank or score.
 - Disclaimer: {payload.get('disclaimer') or DISCLAIMER}

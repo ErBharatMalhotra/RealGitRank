@@ -1,0 +1,44 @@
+{
+  "username": "azumag",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 39,
+  "merged_prs": 32,
+  "closed_issues": 25,
+  "pr_reviews": 13,
+  "issue_comments": 61,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 170,
+  "rank_score": 170,
+  "rank": 774,
+  "avatar_url": "https://avatars.githubusercontent.com/u/9018513?u=dc4eabc4e257345de133b3dbc6f17a29c68ddd78&v=4",
+  "bio": "Interests: Research & Engineering (Web, Language Evolution, Artificial Life... etc). ",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "azumag/docich",
+      "prs": 29
+    },
+    {
+      "repo": "azumag/twica",
+      "prs": 2
+    },
+    {
+      "repo": "azumag/JSMKC",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 774,
+      "s": 170.0
+    }
+  ]
+}

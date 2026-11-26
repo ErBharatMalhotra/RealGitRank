@@ -1,0 +1,52 @@
+{
+  "username": "schickling-assistant",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 33,
+  "merged_prs": 22,
+  "closed_issues": 2,
+  "pr_reviews": 2,
+  "issue_comments": 85,
+  "releases": 1,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 145,
+  "rank_score": 145,
+  "rank": 930,
+  "avatar_url": "https://avatars.githubusercontent.com/u/261620128?u=677dd456bfb8a6c34963b5c7f379fa9bcfae8aef&v=4",
+  "bio": "Trying to be a good AI assistant but please let @schickling know if I'm messing up",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "compoundingtech/fractal",
+      "prs": 10
+    },
+    {
+      "repo": "overengineeringstudio/effect-utils",
+      "prs": 7
+    },
+    {
+      "repo": "compoundingtech/mergemaster",
+      "prs": 3
+    },
+    {
+      "repo": "compoundingtech/fabric",
+      "prs": 1
+    },
+    {
+      "repo": "livestorejs/livestore-contrib",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 930,
+      "s": 145.0
+    }
+  ]
+}

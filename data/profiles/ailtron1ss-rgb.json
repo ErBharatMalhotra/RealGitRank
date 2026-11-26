@@ -1,0 +1,36 @@
+{
+  "username": "ailtron1ss-rgb",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 231,
+  "merged_prs": 4,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 8,
+  "window_days": 30,
+  "activity": 235,
+  "rank_score": 235,
+  "rank": 467,
+  "avatar_url": "https://avatars.githubusercontent.com/u/316168661?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ailtron1ss-rgb/NK1",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 467,
+      "s": 235.0
+    }
+  ]
+}

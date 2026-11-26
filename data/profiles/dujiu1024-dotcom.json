@@ -1,0 +1,52 @@
+{
+  "username": "dujiu1024-dotcom",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 116,
+  "merged_prs": 15,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 21,
+  "releases": 0,
+  "active_days": 12,
+  "window_days": 30,
+  "activity": 153,
+  "rank_score": 153,
+  "rank": 871,
+  "avatar_url": "https://avatars.githubusercontent.com/u/252706148?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "dujiu1024-dotcom/Agent-pingtai",
+      "prs": 11
+    },
+    {
+      "repo": "dujiu1024-dotcom/-",
+      "prs": 1
+    },
+    {
+      "repo": "dujiu1024-dotcom/Smart-Marketing",
+      "prs": 1
+    },
+    {
+      "repo": "dujiu1024-dotcom/iterwave-content-ops",
+      "prs": 1
+    },
+    {
+      "repo": "dujiu1024-dotcom/zhanghaoduibiao",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 871,
+      "s": 153.0
+    }
+  ]
+}

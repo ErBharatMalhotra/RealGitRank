@@ -1,0 +1,72 @@
+{
+  "username": "zackees",
+  "country": "United States",
+  "primary_language": "Python",
+  "total_pushes": 39,
+  "merged_prs": 52,
+  "closed_issues": 22,
+  "pr_reviews": 5,
+  "issue_comments": 65,
+  "releases": 0,
+  "active_days": 24,
+  "window_days": 30,
+  "activity": 183,
+  "rank_score": 183,
+  "rank": 709,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6856673?u=ee9d0408c6ca87a2553b745b41f9d72e1ffc956c&v=4",
+  "bio": "High-velocity engineer (51k commits in 2023). Most of my stuff is open source and serves as building blocks for deploying custom apps to clients.",
+  "company": "",
+  "location": "San Francisco",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "obs-rust/obs-studio",
+      "prs": 23
+    },
+    {
+      "repo": "FastLED/fbuild",
+      "prs": 10
+    },
+    {
+      "repo": "FastLED/FastLED",
+      "prs": 6
+    },
+    {
+      "repo": "talos-hq/clud",
+      "prs": 4
+    },
+    {
+      "repo": "forge-ci/zccache",
+      "prs": 2
+    },
+    {
+      "repo": "forge-ci/bosn",
+      "prs": 1
+    },
+    {
+      "repo": "forge-ci/ci.yml",
+      "prs": 1
+    },
+    {
+      "repo": "forge-ci/ghd",
+      "prs": 1
+    },
+    {
+      "repo": "forge-ci/reld",
+      "prs": 1
+    },
+    {
+      "repo": "forge-ci/soldr",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 709,
+      "s": 183.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "username": "agentydragon",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 80,
+  "merged_prs": 81,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 3,
+  "releases": 67,
+  "active_days": 26,
+  "window_days": 30,
+  "activity": 231,
+  "rank_score": 231,
+  "rank": 482,
+  "avatar_url": "https://avatars.githubusercontent.com/u/714892?u=a12a661d614ab605970ab4f5f046236aa79fff60&v=4",
+  "bio": "EA into AI. Dragons.\r\nMoving to gitlab.com/agentydragon.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "agentydragon/ducktape",
+      "prs": 81
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 482,
+      "s": 231.0
+    }
+  ]
+}

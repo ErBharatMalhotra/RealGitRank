@@ -1,0 +1,72 @@
+{
+  "username": "com-junkawasaki",
+  "country": "Japan",
+  "primary_language": "Go",
+  "total_pushes": 265,
+  "merged_prs": 75,
+  "closed_issues": 0,
+  "pr_reviews": 1,
+  "issue_comments": 4,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 345,
+  "rank_score": 345,
+  "rank": 247,
+  "avatar_url": "https://avatars.githubusercontent.com/u/623495?u=08f24ffd086793609986eb6eb7eff415e1b31266&v=4",
+  "bio": "Niigata University Graduate School of Medical and Dental Sciences, Brain Research Institute.",
+  "company": "gftd.co.jp",
+  "location": "Tokyo",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "kotoba-lang/kotoba",
+      "prs": 8
+    },
+    {
+      "repo": "cloud-itonami/app-itonami-itonami-registry",
+      "prs": 4
+    },
+    {
+      "repo": "cloud-itonami/itonami-agent",
+      "prs": 4
+    },
+    {
+      "repo": "mithril-lang/mithril-cs",
+      "prs": 4
+    },
+    {
+      "repo": "kotoba-lang/amu",
+      "prs": 3
+    },
+    {
+      "repo": "network-awai/awai-os",
+      "prs": 3
+    },
+    {
+      "repo": "cloud-itonami/cloud-itonami-isic-1623",
+      "prs": 2
+    },
+    {
+      "repo": "cloud-itonami/actor-kabuto",
+      "prs": 1
+    },
+    {
+      "repo": "cloud-itonami/app-itonami-air-sched",
+      "prs": 1
+    },
+    {
+      "repo": "cloud-itonami/app-itonami-bunsho",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 247,
+      "s": 345.0
+    }
+  ]
+}

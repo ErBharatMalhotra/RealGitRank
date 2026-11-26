@@ -1,0 +1,40 @@
+{
+  "username": "UnhealthyKraken",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 23,
+  "merged_prs": 23,
+  "closed_issues": 2,
+  "pr_reviews": 57,
+  "issue_comments": 43,
+  "releases": 0,
+  "active_days": 16,
+  "window_days": 30,
+  "activity": 148,
+  "rank_score": 148,
+  "rank": 907,
+  "avatar_url": "https://avatars.githubusercontent.com/u/10617703?u=93e9525398d1370a6f73c89b24489ff1b293de8e&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "RSPSApp/tsps",
+      "prs": 22
+    },
+    {
+      "repo": "RSPSApp/osrsreboxed-db",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 907,
+      "s": 148.0
+    }
+  ]
+}

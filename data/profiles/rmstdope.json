@@ -1,0 +1,56 @@
+{
+  "username": "rmstdope",
+  "country": "Sweden",
+  "primary_language": "Unknown",
+  "total_pushes": 150,
+  "merged_prs": 19,
+  "closed_issues": 0,
+  "pr_reviews": 1,
+  "issue_comments": 16,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 186,
+  "rank_score": 186,
+  "rank": 690,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8273479?u=d0a633d5c5390d304eb6ec07c49e175684ce17f4&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "rmstdope/retroquest",
+      "prs": 8
+    },
+    {
+      "repo": "rmstdope/jarvis",
+      "prs": 3
+    },
+    {
+      "repo": "rmstdope/raster",
+      "prs": 3
+    },
+    {
+      "repo": "rmstdope/atlantis-hud",
+      "prs": 2
+    },
+    {
+      "repo": "rmstdope/cerebro",
+      "prs": 2
+    },
+    {
+      "repo": "rmstdope/neser",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 690,
+      "s": 186.0
+    }
+  ]
+}

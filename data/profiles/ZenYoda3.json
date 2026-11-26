@@ -1,0 +1,36 @@
+{
+  "username": "ZenYoda3",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 96,
+  "merged_prs": 37,
+  "closed_issues": 6,
+  "pr_reviews": 0,
+  "issue_comments": 29,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 168,
+  "rank_score": 168,
+  "rank": 782,
+  "avatar_url": "https://avatars.githubusercontent.com/u/227968380?u=501a47d1a71f93ac80af5cc210a5d26d72546c13&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "INTAFACED/intafaced",
+      "prs": 37
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 782,
+      "s": 168.0
+    }
+  ]
+}

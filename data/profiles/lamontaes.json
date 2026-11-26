@@ -1,0 +1,36 @@
+{
+  "username": "lamontaes",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 143,
+  "merged_prs": 41,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 107,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 291,
+  "rank_score": 291,
+  "rank": 305,
+  "avatar_url": "https://avatars.githubusercontent.com/u/321138616?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "lamontaes/Political-Game-Git",
+      "prs": 41
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 305,
+      "s": 291.0
+    }
+  ]
+}

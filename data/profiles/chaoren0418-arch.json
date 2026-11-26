@@ -1,0 +1,44 @@
+{
+  "username": "chaoren0418-arch",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 9,
+  "merged_prs": 14,
+  "closed_issues": 16,
+  "pr_reviews": 0,
+  "issue_comments": 112,
+  "releases": 0,
+  "active_days": 10,
+  "window_days": 30,
+  "activity": 151,
+  "rank_score": 151,
+  "rank": 886,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "chaoren0418-arch/tw-bin-engine",
+      "prs": 6
+    },
+    {
+      "repo": "chaoren0418-arch/lito-modern",
+      "prs": 5
+    },
+    {
+      "repo": "chaoren0418-arch/lito-launcher-server",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 886,
+      "s": 151.0
+    }
+  ]
+}

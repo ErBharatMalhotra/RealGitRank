@@ -1,0 +1,40 @@
+{
+  "username": "tokuhirom",
+  "country": "Japan",
+  "primary_language": "Unknown",
+  "total_pushes": 50,
+  "merged_prs": 32,
+  "closed_issues": 9,
+  "pr_reviews": 4,
+  "issue_comments": 56,
+  "releases": 0,
+  "active_days": 24,
+  "window_days": 30,
+  "activity": 151,
+  "rank_score": 151,
+  "rank": 883,
+  "avatar_url": "https://avatars.githubusercontent.com/u/21084?u=a289d60f9b7bd71de38a209f6f07a72c634ccf89&v=4",
+  "bio": "Go/Kotlin/Rust/Python engineer.\r\nI wrote Java, Perl5, C, C++, Kotlin, and golang for $DAYJOB.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "tokuhirom/mutsu",
+      "prs": 31
+    },
+    {
+      "repo": "sacloud/skr",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 883,
+      "s": 151.0
+    }
+  ]
+}

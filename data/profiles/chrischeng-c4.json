@@ -1,0 +1,68 @@
+{
+  "username": "chrischeng-c4",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 20,
+  "merged_prs": 16,
+  "closed_issues": 22,
+  "pr_reviews": 2,
+  "issue_comments": 101,
+  "releases": 0,
+  "active_days": 12,
+  "window_days": 30,
+  "activity": 161,
+  "rank_score": 161,
+  "rank": 821,
+  "avatar_url": "https://avatars.githubusercontent.com/u/210726774?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "faberline/defer",
+      "prs": 3
+    },
+    {
+      "repo": "faberline/keep",
+      "prs": 3
+    },
+    {
+      "repo": "faberline/tape",
+      "prs": 3
+    },
+    {
+      "repo": "faberline/lumen",
+      "prs": 2
+    },
+    {
+      "repo": "faberline/aw",
+      "prs": 1
+    },
+    {
+      "repo": "faberline/core",
+      "prs": 1
+    },
+    {
+      "repo": "faberline/nlp",
+      "prs": 1
+    },
+    {
+      "repo": "faberline/relay",
+      "prs": 1
+    },
+    {
+      "repo": "faberline/som",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 821,
+      "s": 161.0
+    }
+  ]
+}

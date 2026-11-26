@@ -1,0 +1,44 @@
+{
+  "username": "justinhblee-prog",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 141,
+  "merged_prs": 6,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 4,
+  "releases": 0,
+  "active_days": 9,
+  "window_days": 30,
+  "activity": 152,
+  "rank_score": 152,
+  "rank": 877,
+  "avatar_url": "https://avatars.githubusercontent.com/u/259469268?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "justinhblee-prog/ai_studio",
+      "prs": 2
+    },
+    {
+      "repo": "justinhblee-prog/guardian",
+      "prs": 2
+    },
+    {
+      "repo": "justinhblee-prog/shorts",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 877,
+      "s": 152.0
+    }
+  ]
+}

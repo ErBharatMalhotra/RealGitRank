@@ -1,0 +1,36 @@
+{
+  "username": "SimonBarnett",
+  "country": "United Kingdom",
+  "primary_language": "JavaScript",
+  "total_pushes": 44,
+  "merged_prs": 19,
+  "closed_issues": 18,
+  "pr_reviews": 0,
+  "issue_comments": 62,
+  "releases": 0,
+  "active_days": 16,
+  "window_days": 30,
+  "activity": 143,
+  "rank_score": 143,
+  "rank": 949,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2916380?u=97c6faf071f5be41b551a25ec15bb078fff5bb0e&v=4",
+  "bio": "",
+  "company": "Medatech UK",
+  "location": "UK",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "SimonBarnett/bobiverse",
+      "prs": 19
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 949,
+      "s": 143.0
+    }
+  ]
+}

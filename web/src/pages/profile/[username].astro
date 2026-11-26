@@ -29,7 +29,15 @@ if (history.length > 1) {
     min, max, first: history[0].d, last: history[history.length - 1].d, points: history.length,
   };
 }
-const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
+const activityComponents = [
+  ['Pushes', data.total_pushes],
+  ['Merged pull requests', data.merged_prs],
+  ['Closed issues', data.closed_issues],
+  ['PR reviews', data.pr_reviews],
+  ['Issue comments', data.issue_comments],
+  ['Releases', data.releases],
+];
+const activityTotal = activityComponents.reduce((sum, [, value]) => sum + (Number(value) || 0), 0) || 1;
 ---
 <html lang="en">
   <head>
@@ -80,9 +88,7 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
       {data.avatar_url && <img src={data.avatar_url} alt={username} width="64" height="64" style="border-radius:50%;border:2px solid var(--accent)" />}
       <h1 style="margin:0">{username}</h1>
     </div>
-    <p>
-      {data.tier && <span class={`tier t-${tierClass}`} title={typeof data.percentile === 'number' ? `Ahead of ${data.percentile}% of ranked developers` : ''}>{data.tier}</span>}
-    </p>
+
     {(typeof data.score_delta === 'number' || typeof data.rank_delta === 'number') && (
       <p class="movement">
         {typeof data.score_delta === 'number' && data.score_delta !== 0 && (
@@ -97,13 +103,15 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
     <img class="badge" src={`/badges/${username}.svg`} alt="badge" width="200" height="60" />
     <div class="card">
       <div class="grid">
-        <div class="stat"><div class="label">Rank Score</div><div class="val">{data.rank_score}</div></div>
+        <div class="stat"><div class="label">Activity (12 mo)</div><div class="val">{data.rank_score}</div></div>
         <div class="stat"><div class="label">Global Rank</div><div class="val">#{data.rank}</div></div>
-        <div class="stat"><div class="label">Percentile</div><div class="val">{typeof data.percentile === 'number' ? `${data.percentile}` : '—'}</div></div>
         <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">{data.country || '—'}</div></div>
         <div class="stat"><div class="label">Company</div><div class="val" style="font-size:14px">{data.company || '—'}</div></div>
-        <div class="stat"><div class="label">Merged PRs ({data.window_days || 30}-day window)</div><div class="val">{data.merged_prs}</div></div>
+        <div class="stat"><div class="label">Merged PRs</div><div class="val">{data.merged_prs}</div></div>
         <div class="stat"><div class="label">Active days</div><div class="val">{data.active_days || '—'}</div></div>
+        {data.contributions_1y ? (
+          <div class="stat"><div class="label">GitHub contributions (12 mo, not scored)</div><div class="val">{data.contributions_1y}</div></div>
+        ) : null}
         <div class="stat"><div class="label">PR Reviews</div><div class="val">{data.pr_reviews || 0}</div></div>
         <div class="stat"><div class="label">Issue Comments</div><div class="val">{data.issue_comments || 0}</div></div>
         <div class="stat"><div class="label">Releases</div><div class="val">{data.releases || 0}</div></div>
@@ -114,7 +122,7 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
     </div>
     {data.bio && <div class="card"><h3>Bio</h3><p style="color:var(--ink);margin:0">{data.bio}</p></div>}
     <p class="note" style="color:var(--muted);font-size:13px">
-      An automated estimate from public GitHub events over one rolling window — not a statement of fact about a person and not affiliated with GitHub.
+      An automated count of public GitHub events over a rolling 12-month window — not a statement of fact about a person and not affiliated with GitHub.
       <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.
     </p>
     {spark && (
@@ -128,26 +136,21 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
       </div>
     )}
     <div class="card">
-      <h3>Pillar Breakdown</h3>
-      {[
-        ['Delivery (PRs)', 'delivery', data.s_pr, 0.35],
-        ['Code Health', 'code_health', data.s_quality, 0.25],
-        ['Adoption (Impact)', 'adoption', data.s_impact, 0.25],
-        ['Consistency (Cadence)', 'consistency', data.s_consistency, 0.15],
-      ].map(([name, key, val, w]) => {
-        const measured = data.measured ? data.measured[key] !== false : typeof val === 'number';
-        const v = typeof val === 'number' && Number.isFinite(val) ? val : 0;
+      <h3>What the activity is made of · 12 months</h3>
+      {activityComponents.map(([name, value]) => {
+        const v = Number(value) || 0;
+        const share = (v / activityTotal) * 100;
         return (
           <div style="margin:8px 0">
             <div style="display:flex;justify-content:space-between;font-size:13px">
-              <span>{name} (×{w})</span>
-              <span>{measured ? `${v.toFixed(1)} / 100` : 'not observed'}</span>
+              <span>{name}</span>
+              <span>{v.toLocaleString()} ({share.toFixed(1)}%)</span>
             </div>
-            <div class="bar"><div style={`width:${measured ? Math.min(100, v) : 0}%`}></div></div>
+            <div class="bar"><div style={`width:${share}%`}></div></div>
           </div>
         );
       })}
-      <p class="note" style="color:var(--muted);font-size:12px;margin:10px 0 0">Pillars are 0–100 percentiles inside the cohort where they were observed. Missing pillars are excluded from the score, not counted as zero.</p>
+      <p class="note" style="color:var(--muted);font-size:12px;margin:10px 0 0">The score is the sum of these six public event counts. Nothing is percentile-ranked or weighted.</p>
     </div>
     {Array.isArray(data.counted_merges) && data.counted_merges.length > 0 && (
       <div class="card">
@@ -157,7 +160,7 @@ const tierClass = data.tier ? String(data.tier).toLowerCase() : '';
             <li><a href={`https://github.com/${m.repo}/pulls?q=is%3Apr+is%3Amerged`} rel="nofollow">{m.repo}</a> — {m.prs} merged PR{m.prs === 1 ? '' : 's'}</li>
           ))}
         </ul>
-        <p class="note" style="color:var(--muted);font-size:12px;margin:10px 0 0">Merged PRs counted from the public GitHub events feed in the {data.window_days || 30}-day window.</p>
+        <p class="note" style="color:var(--muted);font-size:12px;margin:10px 0 0">Merged PRs counted from the public GitHub events feed in the 12-month window.</p>
       </div>
     )}
     <div class="card">

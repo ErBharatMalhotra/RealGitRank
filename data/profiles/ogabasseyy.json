@@ -1,0 +1,36 @@
+{
+  "username": "ogabasseyy",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 43,
+  "merged_prs": 9,
+  "closed_issues": 0,
+  "pr_reviews": 73,
+  "issue_comments": 16,
+  "releases": 0,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 141,
+  "rank_score": 141,
+  "rank": 968,
+  "avatar_url": "https://avatars.githubusercontent.com/u/196925138?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ogabasseyy/Baci",
+      "prs": 9
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 968,
+      "s": 141.0
+    }
+  ]
+}

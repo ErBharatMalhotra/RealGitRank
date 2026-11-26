@@ -1,0 +1,72 @@
+{
+  "username": "lusoris",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 45,
+  "merged_prs": 26,
+  "closed_issues": 0,
+  "pr_reviews": 79,
+  "issue_comments": 18,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 168,
+  "rank_score": 168,
+  "rank": 783,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6750258?u=28dd3a7d87688a878f41bc83469922c16db379f4&v=4",
+  "bio": "Open-source: GPU video quality metrics (VMAFx), a Go framework (golusoris), agent governance (Praetor). Fixes upstream in FFmpeg, Vulkan layers, OpenVINO.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "VMAFx/vmafx",
+      "prs": 5
+    },
+    {
+      "repo": "VMAFx/ffmpeg-patches",
+      "prs": 4
+    },
+    {
+      "repo": "golusoris/golusoris",
+      "prs": 3
+    },
+    {
+      "repo": "plurano/horistes",
+      "prs": 3
+    },
+    {
+      "repo": "cordanaLLM/praetor",
+      "prs": 2
+    },
+    {
+      "repo": "lusoris/SnatchArr",
+      "prs": 2
+    },
+    {
+      "repo": "VMAFx/pelorus",
+      "prs": 1
+    },
+    {
+      "repo": "golusoris/goenvoy",
+      "prs": 1
+    },
+    {
+      "repo": "jellysin/release-helper",
+      "prs": 1
+    },
+    {
+      "repo": "jellysin/repo",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 783,
+      "s": 168.0
+    }
+  ]
+}

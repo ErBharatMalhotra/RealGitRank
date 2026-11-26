@@ -1,15 +1,13 @@
-"""Daily rank/score history, percentile bands (tiers) and day-over-day movement.
+"""Daily rank/score history and day-over-day movement.
 
-Two things live here:
+One compact snapshot per day in `data/history/<YYYY-MM-DD>.json` containing
+`{username: [rank, score]}` for the top 1,000. Tomorrow's run reads the latest
+earlier snapshot and annotates each row with `prev_rank`, `prev_score`,
+`rank_delta` (positive = moved up) and `score_delta`. The per-profile JSON
+carries a short `history` series for the sparkline.
 
-1. *Tiers.* Every leaderboard row gets a `percentile` (share of the board it is
-   ahead of) and a `tier` name derived from it. Pure presentation, but it makes
-   "rank 4,312" mean something to a visitor.
-2. *History.* One compact snapshot per day in `data/history/<YYYY-MM-DD>.json`
-   containing `{username: [rank, score]}` for the top 1,000. Tomorrow's run reads
-   the latest earlier snapshot and annotates each row with `prev_rank`,
-   `prev_score`, `rank_delta` (positive = moved up) and `score_delta`. The
-   per-profile JSON carries a short `history` series for the sparkline.
+Percentile bands and tiers were removed with score v3: the score is an absolute
+activity count, so "ahead of N% of the board" is not part of it.
 
 Snapshots are pruned to the newest HISTORY_LIMIT days so the git-backed data
 store stays small.
@@ -20,47 +18,7 @@ import os
 HISTORY_LIMIT = 30
 SNAPSHOT_LIMIT = 1000
 
-# (name, minimum percentile). Checked top-down.
-TIERS = (
-    ("Elite", 99.0),
-    ("Diamond", 95.0),
-    ("Platinum", 90.0),
-    ("Gold", 75.0),
-    ("Silver", 50.0),
-    ("Bronze", 0.0),
-)
-
 MOVEMENT_KEYS = ("prev_rank", "prev_score", "rank_delta", "score_delta")
-
-
-def percentile_for(rank, total):
-    """Percent of the board this rank is ahead of (rank 1 -> 100.0)."""
-    if total <= 1:
-        return 100.0
-    rank = max(1, min(int(rank), total))
-    return round((total - rank) / (total - 1) * 100.0, 1)
-
-
-def tier_for(percentile):
-    for name, floor in TIERS:
-        if percentile >= floor:
-            return name
-    return TIERS[-1][0]
-
-
-def assign_tiers(leaderboard, total=None):
-    """Annotate every row with `percentile` and `tier` in place.
-
-    ``total`` is the size of the whole ranked population; pass it when
-    ``leaderboard`` is only the detailed slice so percentiles stay global.
-    """
-    total = int(total or len(leaderboard))
-    for index, user in enumerate(leaderboard):
-        rank = user.get("rank") or (index + 1)
-        percentile = percentile_for(rank, total)
-        user["percentile"] = percentile
-        user["tier"] = tier_for(percentile)
-    return leaderboard
 
 
 def clear_movement(leaderboard):

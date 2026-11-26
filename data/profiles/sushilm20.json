@@ -1,0 +1,40 @@
+{
+  "username": "sushilm20",
+  "country": "",
+  "primary_language": "Java",
+  "total_pushes": 65,
+  "merged_prs": 20,
+  "closed_issues": 13,
+  "pr_reviews": 36,
+  "issue_comments": 69,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 203,
+  "rank_score": 203,
+  "rank": 620,
+  "avatar_url": "https://avatars.githubusercontent.com/u/123318620?v=4",
+  "bio": "",
+  "company": "NJIT",
+  "location": "River Edge ",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ZOGWORK/control-scout",
+      "prs": 19
+    },
+    {
+      "repo": "ZOGWORK/BioHORS",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 620,
+      "s": 203.0
+    }
+  ]
+}

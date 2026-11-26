@@ -1,0 +1,72 @@
+{
+  "username": "rubenvdlinde",
+  "country": "Netherlands",
+  "primary_language": "JavaScript",
+  "total_pushes": 463,
+  "merged_prs": 218,
+  "closed_issues": 0,
+  "pr_reviews": 4,
+  "issue_comments": 40,
+  "releases": 0,
+  "active_days": 28,
+  "window_days": 30,
+  "activity": 725,
+  "rank_score": 725,
+  "rank": 87,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4021899?u=dbe38d8a3acd8a2132c53c9293213e6d179c96d0&v=4",
+  "bio": "",
+  "company": "Conduction",
+  "location": "Amsterdam, Netherlands",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ConductionNL/openregister",
+      "prs": 62
+    },
+    {
+      "repo": "ConductionNL/dossiq",
+      "prs": 17
+    },
+    {
+      "repo": "ConductionNL/shillinq",
+      "prs": 17
+    },
+    {
+      "repo": "ConductionNL/pipelinq",
+      "prs": 13
+    },
+    {
+      "repo": "ConductionNL/opencatalogi",
+      "prs": 10
+    },
+    {
+      "repo": "ConductionNL/integriq",
+      "prs": 9
+    },
+    {
+      "repo": "ConductionNL/launchpad",
+      "prs": 9
+    },
+    {
+      "repo": "ConductionNL/hermiq",
+      "prs": 8
+    },
+    {
+      "repo": "ConductionNL/portaliq",
+      "prs": 8
+    },
+    {
+      "repo": "ConductionNL/buildiq",
+      "prs": 7
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 87,
+      "s": 725.0
+    }
+  ]
+}

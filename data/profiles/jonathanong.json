@@ -1,0 +1,64 @@
+{
+  "username": "jonathanong",
+  "country": "",
+  "primary_language": "Shell",
+  "total_pushes": 103,
+  "merged_prs": 45,
+  "closed_issues": 6,
+  "pr_reviews": 38,
+  "issue_comments": 24,
+  "releases": 6,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 222,
+  "rank_score": 222,
+  "rank": 532,
+  "avatar_url": "https://avatars.githubusercontent.com/u/643505?u=dae9100bbd42543c6f8e0ca857a0d34e820c6432&v=4",
+  "bio": "@expressjs @koajs @jshttp @pillarjs ",
+  "company": "@houzz",
+  "location": "Orange County, CA",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "vouchington/vouchington",
+      "prs": 25
+    },
+    {
+      "repo": "jonathanong/no-mistakes",
+      "prs": 8
+    },
+    {
+      "repo": "jonathanong/pr-shepherd",
+      "prs": 4
+    },
+    {
+      "repo": "vouchington/vouchington-clients",
+      "prs": 3
+    },
+    {
+      "repo": "jonathanong/code-reviewer",
+      "prs": 2
+    },
+    {
+      "repo": "jonathanong/harness-plugins",
+      "prs": 1
+    },
+    {
+      "repo": "jonathanong/hook-harness",
+      "prs": 1
+    },
+    {
+      "repo": "vouchington/vouchington-tooling",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 532,
+      "s": 222.0
+    }
+  ]
+}

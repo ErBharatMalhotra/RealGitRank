@@ -1,0 +1,48 @@
+{
+  "username": "SamuelHassine",
+  "country": "France",
+  "primary_language": "Python",
+  "total_pushes": 131,
+  "merged_prs": 18,
+  "closed_issues": 16,
+  "pr_reviews": 6,
+  "issue_comments": 22,
+  "releases": 0,
+  "active_days": 12,
+  "window_days": 30,
+  "activity": 193,
+  "rank_score": 193,
+  "rank": 663,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1334279?u=1e1c6eb4b413b7313440549b5594ec9316c3c322&v=4",
+  "bio": "CEO and Co-Founder @FiligranHQ",
+  "company": "Filigran",
+  "location": "Paris",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "XTM-One-Platform/xtm-one",
+      "prs": 15
+    },
+    {
+      "repo": "OpenAEV-Platform/openaev",
+      "prs": 1
+    },
+    {
+      "repo": "OpenCTI-Platform/connectors",
+      "prs": 1
+    },
+    {
+      "repo": "OpenCTI-Platform/opencti",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 663,
+      "s": 193.0
+    }
+  ]
+}

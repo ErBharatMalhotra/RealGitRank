@@ -1,0 +1,60 @@
+{
+  "username": "matiur25580",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 176,
+  "merged_prs": 8,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 8,
+  "window_days": 30,
+  "activity": 184,
+  "rank_score": 184,
+  "rank": 700,
+  "avatar_url": "https://avatars.githubusercontent.com/u/102621704?u=799fb9611ac86cedbb0f6c410964fe943d26176e&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "matiur25580/PulseOps-Enterprise-Developer-Platform",
+      "prs": 2
+    },
+    {
+      "repo": "matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center",
+      "prs": 1
+    },
+    {
+      "repo": "matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center",
+      "prs": 1
+    },
+    {
+      "repo": "matiur25580/Enterprise-Software-Supply-Chain-Security-Trust-Intelligence-Platform",
+      "prs": 1
+    },
+    {
+      "repo": "matiur25580/SentinelAI-Enterprise-AI-Governance-Risk-Intelligence-Platform",
+      "prs": 1
+    },
+    {
+      "repo": "matiur25580/Trello-Clone",
+      "prs": 1
+    },
+    {
+      "repo": "matiur25580/hospital-management-system",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 700,
+      "s": 184.0
+    }
+  ]
+}

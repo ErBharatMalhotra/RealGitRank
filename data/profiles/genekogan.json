@@ -1,0 +1,44 @@
+{
+  "username": "genekogan",
+  "country": "",
+  "primary_language": "C++",
+  "total_pushes": 22,
+  "merged_prs": 25,
+  "closed_issues": 17,
+  "pr_reviews": 0,
+  "issue_comments": 99,
+  "releases": 4,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 167,
+  "rank_score": 167,
+  "rank": 792,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1335251?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "soulsimulation/souls",
+      "prs": 21
+    },
+    {
+      "repo": "genekogan/souls",
+      "prs": 3
+    },
+    {
+      "repo": "genekogan/new_sim",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 792,
+      "s": 167.0
+    }
+  ]
+}

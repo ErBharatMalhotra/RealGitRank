@@ -1,0 +1,36 @@
+{
+  "username": "Podtverzhdeno",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 144,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "active_days": 6,
+  "window_days": 30,
+  "activity": 147,
+  "rank_score": 147,
+  "rank": 919,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Podtverzhdeno/PressBuilder",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 919,
+      "s": 147.0
+    }
+  ]
+}

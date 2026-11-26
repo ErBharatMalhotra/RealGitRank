@@ -1,0 +1,30 @@
+{
+  "username": "yohannessharew55",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 402,
+  "merged_prs": 0,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 10,
+  "window_days": 30,
+  "activity": 402,
+  "rank_score": 402,
+  "rank": 198,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 198,
+      "s": 402.0
+    }
+  ]
+}

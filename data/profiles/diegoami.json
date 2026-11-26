@@ -1,0 +1,72 @@
+{
+  "username": "diegoami",
+  "country": "Germany",
+  "primary_language": "Python",
+  "total_pushes": 55,
+  "merged_prs": 34,
+  "closed_issues": 24,
+  "pr_reviews": 1,
+  "issue_comments": 112,
+  "releases": 1,
+  "active_days": 24,
+  "window_days": 30,
+  "activity": 227,
+  "rank_score": 227,
+  "rank": 504,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2590711?v=4",
+  "bio": "Look up my projects in https://diegoami.github.io/home/",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "diegoami/better-borg-c",
+      "prs": 5
+    },
+    {
+      "repo": "diegoami/borg-reborn-rs",
+      "prs": 5
+    },
+    {
+      "repo": "diegoami/goal2-archaeology",
+      "prs": 4
+    },
+    {
+      "repo": "diegoami/borg-cemetery",
+      "prs": 3
+    },
+    {
+      "repo": "diegoami/borg-zoo",
+      "prs": 3
+    },
+    {
+      "repo": "diegoami/goal2",
+      "prs": 2
+    },
+    {
+      "repo": "diegoami/ic2-conquest",
+      "prs": 2
+    },
+    {
+      "repo": "diegoami/imperial-conquest-2-research",
+      "prs": 2
+    },
+    {
+      "repo": "diegoami/imperial_conquest_2",
+      "prs": 2
+    },
+    {
+      "repo": "diegoami/onenil-archaeology",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 504,
+      "s": 227.0
+    }
+  ]
+}

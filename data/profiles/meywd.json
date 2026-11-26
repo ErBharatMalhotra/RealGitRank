@@ -1,0 +1,60 @@
+{
+  "username": "meywd",
+  "country": "",
+  "primary_language": "C#",
+  "total_pushes": 95,
+  "merged_prs": 33,
+  "closed_issues": 2,
+  "pr_reviews": 0,
+  "issue_comments": 12,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 142,
+  "rank_score": 142,
+  "rank": 960,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3499969?u=3702ed8d3a2422ebb84bcf6be15af014706890df&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Hamza-Labs-Core/Maktaba",
+      "prs": 19
+    },
+    {
+      "repo": "Al-Ummah-Now/AlUmmahNow",
+      "prs": 8
+    },
+    {
+      "repo": "Tam-ma/tamma",
+      "prs": 2
+    },
+    {
+      "repo": "Al-Ummah-Now/AlUmmahNowApple",
+      "prs": 1
+    },
+    {
+      "repo": "Al-Ummah-Now/AlUmmahNowAuth",
+      "prs": 1
+    },
+    {
+      "repo": "Al-Ummah-Now/AlUmmahNowCMS",
+      "prs": 1
+    },
+    {
+      "repo": "Al-Ummah-Now/AlUmmahNowTools",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 960,
+      "s": 142.0
+    }
+  ]
+}

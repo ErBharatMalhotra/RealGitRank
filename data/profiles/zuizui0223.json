@@ -1,0 +1,44 @@
+{
+  "username": "zuizui0223",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 328,
+  "merged_prs": 7,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 335,
+  "rank_score": 335,
+  "rank": 256,
+  "avatar_url": "https://avatars.githubusercontent.com/u/188828063?u=5b1c6ba26a82ccefbdc5d20f1374b2cfa5b52e3c&v=4",
+  "bio": "master (life science)",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "zuizui0223/eog",
+      "prs": 5
+    },
+    {
+      "repo": "zuizui0223/RSDS",
+      "prs": 1
+    },
+    {
+      "repo": "zuizui0223/esdm",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 256,
+      "s": 335.0
+    }
+  ]
+}

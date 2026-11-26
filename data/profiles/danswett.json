@@ -1,0 +1,40 @@
+{
+  "username": "danswett",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 28,
+  "merged_prs": 21,
+  "closed_issues": 8,
+  "pr_reviews": 29,
+  "issue_comments": 159,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 245,
+  "rank_score": 245,
+  "rank": 419,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3709749?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "danswett/agent-bridge",
+      "prs": 20
+    },
+    {
+      "repo": "danswett/slipgates-site",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 419,
+      "s": 245.0
+    }
+  ]
+}

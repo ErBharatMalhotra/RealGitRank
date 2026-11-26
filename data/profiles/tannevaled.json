@@ -1,0 +1,72 @@
+{
+  "username": "tannevaled",
+  "country": "France",
+  "primary_language": "Rust",
+  "total_pushes": 126,
+  "merged_prs": 160,
+  "closed_issues": 9,
+  "pr_reviews": 0,
+  "issue_comments": 26,
+  "releases": 60,
+  "active_days": 30,
+  "window_days": 30,
+  "activity": 381,
+  "rank_score": 381,
+  "rank": 212,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11405852?u=9234c489b84b2d2edbaeb4f8419bd6cb3a752bb2&v=4",
+  "bio": "",
+  "company": "Centre National de la Recherche Scientifique",
+  "location": "Ecole polytechnique, France",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "go-zpkg/recipes",
+      "prs": 6
+    },
+    {
+      "repo": "go-fleettools/fleettools",
+      "prs": 4
+    },
+    {
+      "repo": "go-numerics/special",
+      "prs": 4
+    },
+    {
+      "repo": "go-avkit/avkit",
+      "prs": 3
+    },
+    {
+      "repo": "go-filesystems/fat32",
+      "prs": 3
+    },
+    {
+      "repo": "go-authn/bridge",
+      "prs": 2
+    },
+    {
+      "repo": "go-embedded-ruby/ruby",
+      "prs": 2
+    },
+    {
+      "repo": "go-fft/fft",
+      "prs": 2
+    },
+    {
+      "repo": "go-ndarray/go-ndarray.github.io",
+      "prs": 2
+    },
+    {
+      "repo": "go-pdfkit/go-pdfkit.github.io",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 212,
+      "s": 381.0
+    }
+  ]
+}

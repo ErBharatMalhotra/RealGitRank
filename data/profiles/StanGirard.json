@@ -1,0 +1,44 @@
+{
+  "username": "StanGirard",
+  "country": "France",
+  "primary_language": "Go",
+  "total_pushes": 57,
+  "merged_prs": 44,
+  "closed_issues": 12,
+  "pr_reviews": 4,
+  "issue_comments": 20,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 137,
+  "rank_score": 137,
+  "rank": 1000,
+  "avatar_url": "https://avatars.githubusercontent.com/u/19614572?u=173c2e47345431892f3101b4febe851ea99c08ad&v=4",
+  "bio": "Creator & Co-Founder @ Quivr.app",
+  "company": "@QuivrHQ @The-Vibe-Company",
+  "location": "Paris",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "The-Vibe-Company/armada",
+      "prs": 41
+    },
+    {
+      "repo": "The-Vibe-Company/website",
+      "prs": 2
+    },
+    {
+      "repo": "The-Vibe-Company/openboard",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 1000,
+      "s": 137.0
+    }
+  ]
+}

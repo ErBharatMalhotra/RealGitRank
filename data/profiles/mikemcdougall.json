@@ -1,0 +1,72 @@
+{
+  "username": "mikemcdougall",
+  "country": "",
+  "primary_language": "C#",
+  "total_pushes": 64,
+  "merged_prs": 55,
+  "closed_issues": 17,
+  "pr_reviews": 20,
+  "issue_comments": 71,
+  "releases": 2,
+  "active_days": 24,
+  "window_days": 30,
+  "activity": 229,
+  "rank_score": 229,
+  "rank": 496,
+  "avatar_url": "https://avatars.githubusercontent.com/u/12301237?v=4",
+  "bio": "",
+  "company": "Honua IO",
+  "location": "Maui HI",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "honua-io/honua-server",
+      "prs": 22
+    },
+    {
+      "repo": "honua-io/honua-release",
+      "prs": 9
+    },
+    {
+      "repo": "honua-io/honua-console",
+      "prs": 6
+    },
+    {
+      "repo": "honua-io/honua-iac",
+      "prs": 4
+    },
+    {
+      "repo": "honua-io/honua-helm",
+      "prs": 2
+    },
+    {
+      "repo": "honua-io/honua-samples",
+      "prs": 2
+    },
+    {
+      "repo": "honua-io/honua-sdk-dotnet",
+      "prs": 2
+    },
+    {
+      "repo": "honua-io/honua-sdk-js",
+      "prs": 2
+    },
+    {
+      "repo": "honua-io/geobench",
+      "prs": 1
+    },
+    {
+      "repo": "honua-io/geospatial-mcp",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 496,
+      "s": 229.0
+    }
+  ]
+}

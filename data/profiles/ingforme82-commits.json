@@ -1,0 +1,36 @@
+{
+  "username": "ingforme82-commits",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 344,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 345,
+  "rank_score": 345,
+  "rank": 248,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ingforme82-commits/trend-lab",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 248,
+      "s": 345.0
+    }
+  ]
+}

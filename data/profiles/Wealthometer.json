@@ -1,0 +1,36 @@
+{
+  "username": "Wealthometer",
+  "country": "Nigeria",
+  "primary_language": "Unknown",
+  "total_pushes": 9,
+  "merged_prs": 34,
+  "closed_issues": 27,
+  "pr_reviews": 35,
+  "issue_comments": 182,
+  "releases": 0,
+  "active_days": 7,
+  "window_days": 30,
+  "activity": 287,
+  "rank_score": 287,
+  "rank": 307,
+  "avatar_url": "https://avatars.githubusercontent.com/u/184154682?u=1d51659c3e57e79fce9d71fb8cffbeeff8ecbeb1&v=4",
+  "bio": "If it works, don\u2019t touch it. If it breaks, blame Git. If bug dey, na feature we go call am. Just dey push code, make e no break.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Wealthometer/bookish-octo-tree",
+      "prs": 34
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 307,
+      "s": 287.0
+    }
+  ]
+}

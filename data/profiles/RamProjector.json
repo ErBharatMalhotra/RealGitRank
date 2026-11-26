@@ -1,0 +1,40 @@
+{
+  "username": "RamProjector",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 165,
+  "merged_prs": 2,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "active_days": 8,
+  "window_days": 30,
+  "activity": 168,
+  "rank_score": 168,
+  "rank": 787,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "RamProjector/Rose-Requiem",
+      "prs": 1
+    },
+    {
+      "repo": "RamProjector/TACResQ-School-Project",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 787,
+      "s": 168.0
+    }
+  ]
+}

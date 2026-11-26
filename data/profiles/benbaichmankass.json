@@ -1,0 +1,44 @@
+{
+  "username": "benbaichmankass",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 97,
+  "merged_prs": 94,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 20,
+  "releases": 0,
+  "active_days": 30,
+  "window_days": 30,
+  "activity": 212,
+  "rank_score": 212,
+  "rank": 591,
+  "avatar_url": "https://avatars.githubusercontent.com/u/119055177?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "benbaichmankass/JTA-Trader",
+      "prs": 87
+    },
+    {
+      "repo": "benbaichmankass/Metis-Insights",
+      "prs": 5
+    },
+    {
+      "repo": "benbaichmankass/Rosies-Game-House",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 591,
+      "s": 212.0
+    }
+  ]
+}

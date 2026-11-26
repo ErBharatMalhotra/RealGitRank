@@ -128,6 +128,48 @@ def test_backfill_adds_ci_to_old_shards_exactly_once(tmp_path):
     assert client.calls == 1
 
 
+def test_activity_sql_targets_one_month_table():
+    sql = bq.build_activity_sql("2026-10")
+    assert "githubarchive.month.202610" in sql
+    assert "{table}" not in sql
+    for event in ("PushEvent", "PullRequestEvent", "IssuesEvent",
+                  "PullRequestReviewEvent", "IssueCommentEvent", "ReleaseEvent"):
+        assert event in sql
+
+
+def test_complete_months_skips_the_running_month():
+    assert bq.complete_months(3, end_date=date(2026, 11, 24)) == [
+        "2026-08", "2026-09", "2026-10",
+    ]
+    assert bq.complete_months(2, end_date=date(2026, 1, 5)) == ["2025-11", "2025-12"]
+
+
+def test_activity_backfill_writes_monthly_shards_once(tmp_path, monkeypatch):
+    import activity
+
+    def rows(month, client=None, max_bytes=None):
+        return [
+            {"login": "alice", "pushes": 10, "merged_prs": 2, "closed_issues": 1,
+             "pr_reviews": 0, "issue_comments": 0, "releases": 0},
+            {"login": "dependabot[bot]", "pushes": 99, "merged_prs": 0, "closed_issues": 0,
+             "pr_reviews": 0, "issue_comments": 0, "releases": 0},
+        ]
+
+    monkeypatch.setattr(bq, "fetch_month_activity", rows)
+    done = bq.backfill_activity(["2026-10"], client=object(), monthly_dir=str(tmp_path))
+    assert done == [("2026-10", 1)]
+    payload = activity.load_month("2026-10", str(tmp_path))
+    assert payload["source"] == "bigquery"
+    assert payload["users"]["alice"]["p"] == 10
+    assert "dependabot[bot]" not in payload["users"]
+
+    # Idempotent: an already backfilled month is skipped without another query.
+    calls = []
+    monkeypatch.setattr(bq, "fetch_month_activity", lambda *a, **k: calls.append(1) or [])
+    assert bq.backfill_activity(["2026-10"], client=object(), monthly_dir=str(tmp_path)) == []
+    assert calls == []
+
+
 def test_shard_and_window_carry_ci_pushes(tmp_path):
     import gzip
     import json

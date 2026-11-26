@@ -1,0 +1,36 @@
+{
+  "username": "8W9aG",
+  "country": "United States",
+  "primary_language": "C",
+  "total_pushes": 66,
+  "merged_prs": 60,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 19,
+  "releases": 0,
+  "active_days": 27,
+  "window_days": 30,
+  "activity": 146,
+  "rank_score": 146,
+  "rank": 926,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2834638?u=62375184c4d37732bee29aa50017eb609c23cffb&v=4",
+  "bio": "",
+  "company": "@replicate ",
+  "location": "New York City, New York, USA",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "8W9aG/openinterpretability",
+      "prs": 60
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 926,
+      "s": 146.0
+    }
+  ]
+}

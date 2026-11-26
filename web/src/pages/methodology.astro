@@ -11,22 +11,16 @@ try {
 try {
   validation = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), 'public', 'data', 'validation.json'), 'utf-8'));
 } catch (e) { validation = null; }
-const pillarCoverage = coverage
-  ? Object.entries(coverage.pillars).map(([key, value]) => ({ key, ...value }))
+const signals = coverage && coverage.signals
+  ? Object.entries(coverage.signals).map(([key, value]) => ({ key, ...value }))
   : [];
-const tiers = [
-  ['Elite', '99th percentile and above', '#f0abfc'],
-  ['Diamond', '95th percentile', '#60a5fa'],
-  ['Platinum', '90th percentile', '#a78bfa'],
-  ['Gold', '75th percentile', '#fbbf24'],
-  ['Silver', '50th percentile', '#cbd5e1'],
-  ['Bronze', 'everyone else', '#d97706'],
-];
-const pillars = [
-  ['Delivery', '35%', 'Pull requests the developer merged in the rolling 30-day window (merge events, not authored count). Merging someone else’s PR in their repo weighs 1.5×; a self-merge in an owned repo weighs 1.0×.', 'Only completed merges count, so opening PRs does not move the score.'],
-  ['Code health', '25%', 'Share of observed commits and merged PRs whose text mentions tests, plus the multi-file PR ratio.', 'Counted only when the events feed actually carries the signal — otherwise the pillar is excluded, not scored as zero.'],
-  ['Adoption', '25%', 'Stars and forks received by the developer’s repositories in the window.', 'Same-window events only; downstream dependents are not observed yet and are not claimed.'],
-  ['Consistency', '15%', 'Distinct ISO weeks with shipping activity and the spread of push hours across the window.', 'Round-the-clock activity lowers the human-likeness signal instead of raising the score.'],
+const components = [
+  ['Pushes', 'Every PushEvent the developer triggered. One push is one event, however many commits it carried.'],
+  ['Merged pull requests', 'Pull requests merged by the developer in the window.'],
+  ['Closed issues', 'Issues the developer closed.'],
+  ['PR reviews', 'Pull-request reviews submitted.'],
+  ['Issue comments', 'Comments on issues and pull requests.'],
+  ['Releases', 'Releases published.'],
 ];
 ---
 <html lang="en">
@@ -34,13 +28,13 @@ const pillars = [
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Methodology &amp; API — RealGitRank</title>
-    <meta name="description" content="How the RealGitRank engineering impact score is computed: delivery, code health, adoption and consistency pillars, the automation adjustment, tiers, daily snapshots and the static JSON API." />
+    <meta name="description" content="How RealGitRank ranks GitHub developers: one absolute number — public pushes, merged pull requests, closed issues, PR reviews, issue comments and releases over 12 months. No percentiles, no weights." />
     <link rel="canonical" href={`${SITE}/methodology/`} />
     {import.meta.env.PUBLIC_GOATCOUNTER_CODE && (
       <script is:inline async src="https://gc.zgo.at/count.js" data-goatcounter={`https://${import.meta.env.PUBLIC_GOATCOUNTER_CODE}.goatcounter.com/count`}></script>
     )}
     <meta property="og:title" content="Methodology &amp; API — RealGitRank" />
-    <meta property="og:description" content="The four pillars behind the RealGitRank score, the automation adjustment, tier bands, and the static JSON endpoints." />
+    <meta property="og:description" content="One absolute activity number over 12 months: the score, the data sources, the limits and the static JSON endpoints." />
     <meta property="og:type" content="article" />
     <meta property="og:url" content={`${SITE}/methodology/`} />
     <meta name="twitter:card" content="summary" />
@@ -49,7 +43,7 @@ const pillars = [
       '@type': 'TechArticle',
       headline: 'RealGitRank methodology and API',
       url: `${SITE}/methodology/`,
-      about: 'Engineering impact scoring for GitHub developers',
+      about: 'Public GitHub activity ranking',
     })} />
     <style>
       :root { --bg: #0b0f19; --panel: #131a2b; --ink: #e8ecf4; --muted: #8a93a6; --accent: #f59e0b; --accent-2: #14b8a6; --line: #1f2740; }
@@ -58,7 +52,6 @@ const pillars = [
       h1 span { color: var(--accent); }
       h2 { font-size: 1.15rem; margin: 32px 0 10px; }
       h3 { font-size: 1rem; margin: 20px 0 6px; }
-      p, li { color: var(--ink); }
       .sub { color: var(--muted); margin: 0 0 24px; }
       a { color: var(--accent); text-decoration: none; }
       a:hover { text-decoration: underline; }
@@ -73,7 +66,6 @@ const pillars = [
       pre { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; overflow-x: auto; }
       ul { padding-left: 20px; }
       li { margin: 5px 0; }
-      .tier { font-size: 11px; font-weight: 700; letter-spacing: 0.04em; padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; }
       .note { color: var(--muted); font-size: 13px; }
       .endpoint { font-family: ui-monospace, Consolas, monospace; font-size: 13px; color: var(--accent-2); }
       :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -82,62 +74,57 @@ const pillars = [
   <body>
     <a href="/">← Leaderboard</a>
     <h1>Methodology &amp; <span>API</span></h1>
-    <p class="sub">How RealGitRank turns public GitHub events into an engineering impact index — and where to read the data yourself.</p>
+    <p class="sub">One number decides the rank, and it is the same number for everyone.</p>
 
     <h2>The score</h2>
     <div class="formula">
-      Rank Score = 10 × Σ(weight × pillar percentile) ÷ Σ(weights observed) × (1 − automation adjustment)
+      Activity = <strong>pushes + merged pull requests + closed issues + PR reviews + issue comments + releases</strong><br />
+      over the rolling 12-month window
     </div>
-    <p>Every pillar is computed from real GitHub public events over a <strong>rolling 30-day window</strong>, then percentile-ranked inside the cohort where that pillar is actually observed and mapped to 0–100. The weighted average is scaled to 0–1000; when a pillar is unknown for a user, its weight is redistributed over the observed pillars rather than counted as zero. Commit count is never a pillar. No score is blended with an older scale, and there is no decay: a developer with no activity in the window is not ranked.</p>
+    <p>The score is an absolute count of public GitHub activity events. It is not percentile-ranked, not weighted and not scaled. Every public row publishes all six components, so anyone can add them up and reproduce the score exactly. Rank is that number sorted descending; ties are broken by merged pull requests, then by login.</p>
+    <p>Because the score is absolute, it does not move when the population grows — it only changes when the developer's own public activity changes. An account with no observed public activity in the window is not published at all; it is never shown as a zero and never carries a made-up rank.</p>
 
-    <h2>The four pillars</h2>
+    <h2>The six components</h2>
     <table>
-      <thead><tr><th>Pillar</th><th>Weight</th><th>What it measures</th><th>Why it is hard to game</th></tr></thead>
+      <thead><tr><th>Component</th><th>What it counts</th></tr></thead>
       <tbody>
-        {pillars.map(([name, weight, what, why]) => (
-          <tr>
-            <td><strong>{name}</strong></td>
-            <td style="color:var(--accent)">{weight}</td>
-            <td>{what}</td>
-            <td>{why}</td>
-          </tr>
+        {components.map(([name, what]) => (
+          <tr><td><strong>{name}</strong></td><td>{what}</td></tr>
         ))}
       </tbody>
     </table>
-            <p class="note">Accounts with no observed push or merged pull request are listed as <code>listed_only</code> instead of being scored; search results and badges label them <code>listed</code> and never show a rank for them. Pillar sub-scores (<code>s_pr</code>, <code>s_quality</code>, <code>s_impact</code>, <code>s_consistency</code>) are 0–100 percentiles. <code>s_quality</code> is omitted when no test/file evidence exists, and each record’s <code>measured</code> object states which pillars counted. Percentile is against the whole ranked population.</p>
+    <p class="note">Bots are skipped at ingest: logins ending in <code>[bot]</code>, <code>github-actions</code>, <code>dependabot</code>, <code>renovate[bot]</code> and GitHub's own <code>Copilot</code> agent account never enter the counts. CI pushes into a user-owned repository are not credited to the owner either — that is the bot's work, not the account's.</p>
+
+    <h2>What GitHub counts differently</h2>
+    <p>GitHub's own contribution count on a profile counts <em>commits</em>, plus pull requests, issues and reviews, and it includes private work the public feed never sees. It is not reproducible from public events, so RealGitRank does not pretend to reproduce it. The site shows it separately, labelled <code>contributions_1y</code>, for the top 10,000 developers and on profile lookup, fetched from the GitHub GraphQL API. It is context, never part of the score.</p>
+    <p class="note">GitHub also trimmed public <code>PushEvent</code> payloads: a push now carries only its ref and commit hashes, not the commit list. That is why the score counts pushes rather than commits, and why no commit number is estimated.</p>
 
     <h2>What is actually measured</h2>
     {coverage ? (
       <>
-        <p class="note">Computed from the published snapshot: {(coverage.users_ranked || coverage.users_total || coverage.users).toLocaleString()} ranked of {(coverage.users_total || coverage.users).toLocaleString()} tracked developers ({(coverage.users_listed || 0).toLocaleString()} listed without a score; the table below covers the top {coverage.users.toLocaleString()} with full metrics), window {coverage.window_start} → {coverage.window_end} ({coverage.window_days} days), score version <code>{coverage.score_version}</code>.</p>
+        <p class="note">Computed from the published snapshot: {(coverage.users_ranked || coverage.users_total || coverage.users).toLocaleString()} ranked developers, window {coverage.window_start} → {coverage.window_end} ({coverage.window_days} days across {coverage.window_months ?? 0} monthly shards), score version <code>{coverage.score_version}</code>. The table below states how many of the published rows have each component above zero.</p>
         <table>
-          <thead><tr><th>Signal</th><th>Observed</th><th>Coverage</th></tr></thead>
+          <thead><tr><th>Component</th><th>Rows with a non-zero value</th><th>Share</th></tr></thead>
           <tbody>
-            {pillarCoverage.map((p) => (
-              <tr><td>{p.label}</td><td>{p.measured.toLocaleString()}</td><td>{p.pct}%</td></tr>
+            {signals.map((signal) => (
+              <tr><td>{signal.label}</td><td>{signal.observed.toLocaleString()}</td><td>{signal.pct}%</td></tr>
             ))}
-            <tr><td>Automation-signal evidence (commit messages or changed-file counts)</td><td>{coverage.automation_evidence.measured.toLocaleString()}</td><td>{coverage.automation_evidence.pct}%</td></tr>
             <tr><td>Country known</td><td>{coverage.country.known.toLocaleString()}</td><td>{coverage.country.pct}%</td></tr>
             <tr><td>Primary language known</td><td>{coverage.language.known.toLocaleString()}</td><td>{coverage.language.pct}%</td></tr>
           </tbody>
         </table>
-        <p class="note">Country and language come from optional GitHub API enrichment, which is rate-limited; the country/language filters only cover that subset. When the automation signal is missing, no adjustment is guessed and the entry stays neutral.</p>
+        <p class="note">Country and language come from optional GitHub API enrichment, which is rate-limited; the country/language filters only cover that subset.</p>
         {coverage.source ? (
           <>
             <h3>Source coverage</h3>
-            <p class="note">The window is built from <a href="https://www.gharchive.org/" target="_blank" rel="noopener noreferrer">gharchive.org</a> hourly event dumps. gharchive is a partial mirror of public GitHub events, so a developer whose activity the mirror did not carry cannot be ranked — that is a source limitation, not a judgement. These numbers state how much of the stream this window actually saw.</p>
-            <p class="note">Push payloads are trimmed in the public feed: a push made by the <code>github-actions</code> bot carries the repository and the head commit, but not the commit author. Rather than guess, those pushes are counted as a separate <strong>CI-attributed</strong> signal for the owner of a user-owned repository (organisation repos are skipped). CI pushes never enter the commit-message entropy denominator, add no active hours and no repositories, so an automated workflow cannot look like human round-the-clock work; they make an otherwise invisible owner rankable, nothing more.</p>
+            <p class="note">Daily events come from <a href="https://www.gharchive.org/" target="_blank" rel="noopener noreferrer">gharchive.org</a>. It is a partial mirror of public GitHub events, so a developer whose activity the mirror did not carry cannot be ranked — that is a source limitation, not a judgement. These numbers state how much of the stream the newest daily shards actually saw.</p>
             <table>
               <thead><tr><th>Source</th><th>Value</th></tr></thead>
               <tbody>
                 <tr><td>Days measured</td><td>{coverage.source.days_measured} of {coverage.source.days_in_window}</td></tr>
                 <tr><td>Hourly files ingested</td><td>{coverage.source.hourly_files.toLocaleString()}</td></tr>
                 <tr><td>Public events seen</td><td>{coverage.source.events.toLocaleString()}</td></tr>
-                <tr><td>Events per day (avg)</td><td>{coverage.source.events_per_day.toLocaleString()}</td></tr>
                 <tr><td>Bot events skipped</td><td>{coverage.source.bot_events.toLocaleString()} ({coverage.source.bot_share_pct}%)</td></tr>
-                {coverage.source.ci_pushes ? (
-                  <tr><td>CI-attributed pushes (github-actions bot, credited to the repository owner)</td><td>{coverage.source.ci_pushes.toLocaleString()}</td></tr>
-                ) : null}
               </tbody>
             </table>
           </>
@@ -147,63 +134,35 @@ const pillars = [
       <p class="note">Coverage data is generated by the pipeline; run it to populate this table.</p>
     )}
 
-    <h2>Automation adjustment</h2>
-    <p>Only aggregate behaviour from the public push stream is used. A score is reduced when that stream shows machine-like patterns:</p>
+    <h2>Window, storage and movement</h2>
     <ul>
-      <li><strong>+0.50</strong> — fewer than 10% unique commit messages (<code>update</code>, <code>auto commit #123</code>).</li>
-      <li><strong>+0.30</strong> — pushes spread across 23–24 distinct hours of the day, with no sleep window.</li>
-      <li><strong>+0.40</strong> — single-line churn: average changed files below 1.05 per commit.</li>
+      <li>Each run ingests one day of GH Archive events and adds it to <code>data/activity/monthly/&lt;YYYY-MM&gt;.json.gz</code>. Days already recorded are skipped, so a re-run never double counts.</li>
+      <li>The score reads the current month plus the newest 12 <em>complete</em> monthly files (13 shards), so the window is never a month short. Anything older is pruned.</li>
+      <li>Months older than the daily feed's retention can be filled from BigQuery (<code>githubarchive.month.*</code>) with the same event definitions; the backfill is idempotent and only writes complete past months.</li>
+      <li>Each run stores the top 1,000 in <code>data/history/&lt;YYYY-MM-DD&gt;.json</code>. <code>rank_delta</code> / <code>score_delta</code> compare with the previous snapshot and are omitted for new or returning developers.</li>
     </ul>
-    <p>The adjustment multiplies the final score and applies only to signals that were actually observed; when the events feed does not carry them, it stays neutral and the gap is published in the coverage table above. Per-account classification values are not part of the public layer: the site and the JSON API show a score, never a label about an account. This is a heuristic, not a guarantee, and it is never a statement of intent, identity or misconduct.</p>
-
-    <h2>Tiers</h2>
-    <table>
-      <thead><tr><th>Tier</th><th>Percentile</th></tr></thead>
-      <tbody>
-        {tiers.map(([name, band, color]) => (
-          <tr>
-            <td><span class="tier" style={`color:${color}`}>{name}</span></td>
-            <td>{band}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-    <p class="note">A tier is a relative band of the current ranked population, so it moves as the population grows. Tier and percentile are recomputed on every daily run. Only accounts with an observed push or merged pull request in the window are ranked: a repository owner whose only visible activity is CI-driven (bot pushes) is listed for presence with no score, no percentile and no tier, and those rows are excluded from the percentile base so they cannot inflate anyone else's band.</p>
-
-    <h2>Rolling window, snapshots and movement</h2>
-    <ul>
-      <li>Each run ingests one day of GH Archive events into <code>data/rolling/&lt;YYYY-MM-DD&gt;.json.gz</code>; scoring reads the newest 30 shards and prunes older ones.</li>
-      <li>Scores therefore describe a month of work, not yesterday's throughput. There is no 70/30 blending with an older scale and no daily decay.</li>
-      <li>Each run stores the top 1,000 in <code>data/history/&lt;YYYY-MM-DD&gt;.json</code>; snapshots older than 30 days are pruned. <code>rank_delta</code> / <code>score_delta</code> compare with the previous snapshot and are omitted for new or returning users.</li>
-      <li>Profiles in the top 1,000 keep up to 30 daily points for the trend sparkline, plus the repositories behind their merged-PR count.</li>
-    </ul>
-
-    <h2>Data sources and freshness</h2>
-    <p>A scheduled GitHub Actions workflow (daily, ~02:00 UTC) downloads the previous day of public GH Archive events, folds it into the rolling window, scores every account, runs data-quality gates, then rebuilds and deploys this static site on GitHub Pages. Enrichment (avatar, country, company, language) comes from the GitHub API when a token is configured. Everything is free, static and versioned in git — there is no database and no runtime server.</p>
-    <p class="note">Profile pages also show lifetime context reported by the GitHub API (commits in the last year, stars on owned repositories, followers). It is context only — the score never uses it, because the public event feed does not publish every push and a single push can carry hundreds of commits. This is why a developer with thousands of commits can still show few or zero pushes in the window.</p>
-    <p class="note">Known limitations: the public events feed does not expose file lists for every merge or languages at all, so code-health and language signals are partial; stars/forks only count events inside the window; the bot heuristic cannot see signals that were never delivered. All of this is measured above instead of being assumed.</p>
 
     <h2>Independent validation</h2>
     {validation ? (
       <div class="panel">
-        <p><strong>{validation.match_rate}% of counted merge events confirmed</strong> by GitHub ({validation.checked_at.slice(0, 10)}): {validation.events_confirmed} of {validation.events_checked} checked events across {validation.users_with_events} developers, {validation.events_unknown} unknown (private/deleted). Each event is fetched from the GitHub PR API and must have <code>merged_at</code> inside {validation.window_start} → {validation.window_end} and <code>merged_by.login</code> equal to the ranked account.</p>
-        <p class="note">Weekly spot check of the top 50 plus a deterministic random sample; the full event list is in <a href="/data/validation.json">/data/validation.json</a>. Counts are merge events, so they are not comparable to GitHub's “PRs authored” search totals.</p>
+        <p><strong>{validation.match_rate}% of counted merge events confirmed</strong> by GitHub ({validation.checked_at.slice(0, 10)}): {validation.events_confirmed} of {validation.events_checked} checked events across {validation.users_with_events} developers, {validation.events_unknown} unknown (private/deleted).</p>
+        <p class="note">Weekly spot check of the top 50 plus a deterministic random sample; the full event list is in <a href="/data/validation.json">/data/validation.json</a>.</p>
       </div>
     ) : (
       <p class="note">The weekly validation job has not produced a report yet. Until then, treat merge counts as unvalidated.</p>
     )}
 
     <h2>Static JSON API</h2>
-    <p>All endpoints are pre-built files on GitHub Pages, so they are cacheable, CORS-free for normal fetches, and cost nothing to serve.</p>
+    <p>All endpoints are pre-built files on GitHub Pages, so they are cacheable and cost nothing to serve.</p>
     <ul>
-      <li><a class="endpoint" href="/api/leaderboard.json">/api/leaderboard.json</a> — every ranked developer in one document: <code>generated_at</code>, <code>snapshot_date</code>, <code>count</code>, <code>weights</code>, <code>tier_bands</code>, <code>url_templates</code> and a <code>users</code> array. Records are compact; <code>avatar_url</code> and <code>bio</code> are served only by the per-user endpoint.</li>
-      <li><a class="endpoint" href="/api/user/sirine2907.json">/api/user/&lt;username&gt;.json</a> — one developer's record for the top 1,000, including <code>history</code>, <code>company</code>, <code>location</code> and <code>bio</code> when available. Outside the top 1,000 there is no per-user file; read that row from the chunks. Username casing must match the leaderboard.</li>
+      <li><a class="endpoint" href="/api/leaderboard.json">/api/leaderboard.json</a> — every ranked developer in one document: <code>generated_at</code>, <code>score_unit</code>, <code>activity_components</code>, <code>window</code>, <code>url_templates</code> and a <code>users</code> array.</li>
+      <li><a class="endpoint" href="/api/user/sirine2907.json">/api/user/&lt;username&gt;.json</a> — one developer's record for the top 1,000, including <code>history</code>, <code>company</code>, <code>location</code>, <code>bio</code> and the GitHub-reported <code>contributions_1y</code>. Outside the top 1,000 there is no per-user file; read that row from the chunks.</li>
       <li><a class="endpoint" href="/data/chunks/index.json">/data/chunks/index.json</a> — pagination metadata for <code>/data/chunks/page_N.json</code> (250 rows per page).</li>
       <li><a class="endpoint" href="/data/search/index.json">/data/search/index.json</a> — search manifest: <code>total</code>, <code>detailed</code>, the bucket keys and the name index.</li>
-      <li><a class="endpoint" href="/data/search/e.json">/data/search/&lt;first-char&gt;.json</a> — <code>[username, rank, score, state, page]</code> for every developer whose name starts with that character; prefix search across the whole board loads one bucket. <code>state</code> is <code>ranked</code> or <code>listed</code>; a listed account has <code>rank: null</code> and <code>page</code> points into the chunks.</li>
-      <li><a class="endpoint" href="/data/search/names.json">/data/search/names.json</a> — rank-ordered <code>[username, rank]</code> for the top 50,000, so a search can match anywhere inside a name without shipping the full board.</li>
-      <li><a class="endpoint" href="/data/coverage.json">/data/coverage.json</a> — measured/null counts for every pillar, bot evidence coverage, and the validation summary shown above.</li>
-      <li><a class="endpoint" href="/badges/default.svg">/badges/&lt;username&gt;.svg</a> — README badge; every developer in the snapshot is rendered by the badge service at <a class="endpoint" href="https://realgitrank-badges-ganx3c.freebuff.site/">realgitrank-badges-ganx3c.freebuff.site/badges/&lt;username&gt;.svg</a> (the pre-built top-1,000 files remain online for existing README links). A listed account with no public work in the window shows <code>LISTED</code> instead of a zero score or a made-up rank, and an unknown username shows <code>NOT FOUND</code>.</li>
+      <li><a class="endpoint" href="/data/search/e.json">/data/search/&lt;first-char&gt;.json</a> — <code>[username, rank, score, state, page]</code>; <code>score</code> is the 12-month activity count and <code>state</code> is always <code>ranked</code>.</li>
+      <li><a class="endpoint" href="/data/search/names.json">/data/search/names.json</a> — rank-ordered <code>[username, rank]</code> for the top 50,000, so search can match inside a name.</li>
+      <li><a class="endpoint" href="/data/coverage.json">/data/coverage.json</a> — observed counts for every component, source coverage and the validation summary.</li>
+      <li><a class="endpoint" href="/badges/default.svg">/badges/&lt;username&gt;.svg</a> — README badge; every ranked developer is rendered by the badge service at <a class="endpoint" href="https://realgitrank-badges-ganx3c.freebuff.site/">realgitrank-badges-ganx3c.freebuff.site/badges/&lt;username&gt;.svg</a>.</li>
       <li><a class="endpoint" href="/llms.txt">/llms.txt</a> — a short plain-text guide for LLM and agent consumers.</li>
     </ul>
 
@@ -211,16 +170,18 @@ const pillars = [
 <pre>&#123;
   "username": "sirine2907",
   "rank": 1,
-  "rank_score": 913.4,
-  "score_version": "v2-percentile",
-  "measured": &#123; "delivery": true, "code_health": true, "adoption": true, "consistency": true &#125;,
-  "tier": "Elite",
-  "percentile": 100.0,
+  "rank_score": 412,
+  "activity": 412,
+  "score_version": "v3-activity",
+  "total_pushes": 240,
+  "merged_prs": 86,
+  "closed_issues": 41,
+  "pr_reviews": 30,
+  "issue_comments": 12,
+  "releases": 3,
   "country": "United States",
   "primary_language": "Dart",
-  "merged_prs": 17,
-  "counted_merges": [ &#123; "repo": "owner/project", "prs": 9 &#125; ],
-  "active_days": 21, "window_days": 30,
+  "contributions_1y": 5120,
   "profile_url": "{SITE}/profile/sirine2907",
   "badge_url": "{SITE}/badges/sirine2907.svg",
   "api_url": "{SITE}/api/user/sirine2907.json"
@@ -228,7 +189,7 @@ const pillars = [
     <p class="note">Field names follow the pipeline schema; optional fields are omitted rather than set to null. Please link back to {SITE.replace('https://', '')} when you publish a rank or score.</p>
 
     <h2 id="corrections">Corrections, removal and disclaimer</h2>
-    <p>RealGitRank is an independent, unofficial project built only from public GitHub events. A score is an automated estimate over one rolling window — not a statement of fact about a person, not a measure of skill or worth, and not affiliated with GitHub or an endorsement of anyone.</p>
+    <p>RealGitRank is an independent, unofficial project built only from public GitHub events. A score is an automated count over one rolling 12-month window — not a statement of fact about a person, not a measure of skill or worth, and not affiliated with GitHub or an endorsement of anyone.</p>
     <p>If an entry is wrong, misattributed, or you would rather not appear, open a request with the username and what should change: <a href={CORRECTION_URL} target="_blank" rel="noopener noreferrer">correction or removal request</a>. Removals are applied on the next daily publish, after which the entry disappears from the leaderboard, the JSON API, the public chunks and the badge endpoint.</p>
 
     <h2>Related</h2>

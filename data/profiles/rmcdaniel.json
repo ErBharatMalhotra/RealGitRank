@@ -1,0 +1,64 @@
+{
+  "username": "rmcdaniel",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 16,
+  "merged_prs": 27,
+  "closed_issues": 7,
+  "pr_reviews": 0,
+  "issue_comments": 127,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 177,
+  "rank_score": 177,
+  "rank": 737,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1130888?u=84aeaf606aa01d048064420c38f022eded0250ea&v=4",
+  "bio": "Distributed Systems Architect, MS in Computer Science",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "durable-workflow/workflow",
+      "prs": 7
+    },
+    {
+      "repo": "durable-workflow/durable-workflow.github.io",
+      "prs": 5
+    },
+    {
+      "repo": "durable-workflow/server",
+      "prs": 5
+    },
+    {
+      "repo": "durable-workflow/sdk-rust",
+      "prs": 4
+    },
+    {
+      "repo": "durable-workflow/.github",
+      "prs": 2
+    },
+    {
+      "repo": "durable-workflow/sdk-python",
+      "prs": 2
+    },
+    {
+      "repo": "durable-workflow/sdk-php",
+      "prs": 1
+    },
+    {
+      "repo": "durable-workflow/waterline",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 737,
+      "s": 177.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "username": "danielhanchen",
+  "country": "United States",
+  "primary_language": "Python",
+  "total_pushes": 101,
+  "merged_prs": 34,
+  "closed_issues": 3,
+  "pr_reviews": 26,
+  "issue_comments": 110,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 274,
+  "rank_score": 274,
+  "rank": 332,
+  "avatar_url": "https://avatars.githubusercontent.com/u/23090290?u=3200d12723a822d44abe1b28c35cdf7e5d030b75&v=4",
+  "bio": "Unsloth - Making Fine-tuning and Reinforcement Learning LLMs more accessible!",
+  "company": "@unslothai",
+  "location": "San Francisco",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "unslothai/unsloth",
+      "prs": 32
+    },
+    {
+      "repo": "unslothai/unsloth-zoo",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 332,
+      "s": 274.0
+    }
+  ]
+}

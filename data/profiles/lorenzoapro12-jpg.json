@@ -1,0 +1,36 @@
+{
+  "username": "lorenzoapro12-jpg",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 289,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 290,
+  "rank_score": 290,
+  "rank": 306,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "lorenzoapro12-jpg/samsara-live",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 306,
+      "s": 290.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "username": "davidgmbb",
+  "country": "",
+  "primary_language": "Zig",
+  "total_pushes": 36,
+  "merged_prs": 31,
+  "closed_issues": 8,
+  "pr_reviews": 31,
+  "issue_comments": 71,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 177,
+  "rank_score": 177,
+  "rank": 736,
+  "avatar_url": "https://avatars.githubusercontent.com/u/39247043?u=c11d94a8e7e084169a83ac50e2bcd99264e5f6ac&v=4",
+  "bio": "Systems programmer.",
+  "company": "Buster",
+  "location": "Remote",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "buster14a/buster",
+      "prs": 23
+    },
+    {
+      "repo": "buster14a/buster-performance",
+      "prs": 8
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 736,
+      "s": 177.0
+    }
+  ]
+}

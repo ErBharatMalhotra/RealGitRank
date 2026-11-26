@@ -1,0 +1,72 @@
+{
+  "username": "hanthor",
+  "country": "India",
+  "primary_language": "Shell",
+  "total_pushes": 40,
+  "merged_prs": 31,
+  "closed_issues": 26,
+  "pr_reviews": 5,
+  "issue_comments": 39,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 141,
+  "rank_score": 141,
+  "rank": 967,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5840441?u=131613f2b18ba7d4826a5b9e96b756ee0e7ef001&v=4",
+  "bio": "@projectbluefin  - Bluefin LTS \r\n@hivecommons - Maintainer \r\n@fossunited - Lucknow chapter\r\n@AlmaLinux -  Atomic SIG\r\n",
+  "company": "",
+  "location": "India",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "tuna-os/tunaOS",
+      "prs": 7
+    },
+    {
+      "repo": "tuna-os/iso-builder",
+      "prs": 5
+    },
+    {
+      "repo": "tuna-os/gtk-office-suite",
+      "prs": 4
+    },
+    {
+      "repo": "tuna-os/tuna-desktop",
+      "prs": 4
+    },
+    {
+      "repo": "projectbluefin/utah-packages",
+      "prs": 2
+    },
+    {
+      "repo": "tuna-os/bootc-installer",
+      "prs": 2
+    },
+    {
+      "repo": "hivecommons/hive",
+      "prs": 1
+    },
+    {
+      "repo": "projectbluefin/utah",
+      "prs": 1
+    },
+    {
+      "repo": "tuna-os/compass",
+      "prs": 1
+    },
+    {
+      "repo": "tuna-os/docs",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 967,
+      "s": 141.0
+    }
+  ]
+}

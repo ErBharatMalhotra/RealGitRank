@@ -12,9 +12,10 @@ Two public layers are written here:
   the site.
 * ``search/<bucket>.json`` — a prefix-sharded ``[username, rank, score, state,
   page]`` index. A single index would be tens of megabytes, so the browser
-  fetches only the bucket it needs while the user types. ``state`` is
-  ``ranked`` or ``listed``; a listed account carries no rank claim, so its rank
-  is ``null`` and ``page`` is the only pointer into the chunks.
+  fetches only the bucket it needs while the user types. ``state`` is always
+  ``ranked`` under score v3: an account with no public activity in the 12-month
+  window is not published at all, so no row has to claim a rank it does not
+  have. The field stays in the schema so older clients keep working.
 * ``search/names.json`` — ``[username, rank]`` for the detailed board so a
   substring search ("bharat" finding "ErBharatMalhotra") can reach every user on
   it, not just the rows the table has already loaded.
@@ -26,7 +27,7 @@ import re
 CHUNK_SIZE = 250
 PUBLIC_DATA = "web/public/data"
 LONG_TAIL_PATH = "data/long_tail.json"
-SEARCH_SCHEMA = 2
+SEARCH_SCHEMA = 3
 
 # Never published: these describe a per-account judgement, not a score.
 HIDDEN_FIELDS = ("is_bot_classified", "is_human_verified", "bot_penalty", "bot_evidence")
@@ -92,13 +93,12 @@ def dedupe_rows(rows):
 
 
 def search_row(entry, page):
-    """Public search record: rank is null for accounts that are only listed."""
-    listed = bool(entry.get("listed_only"))
+    """Public search record. ``score`` is the absolute 12-month activity count."""
     return [
         entry["username"],
-        None if listed else entry.get("rank"),
+        entry.get("rank"),
         round(float(entry.get("rank_score") or 0), 1),
-        "listed" if listed else "ranked",
+        "ranked",
         page,
     ]
 
@@ -173,11 +173,8 @@ def main():
         if old.endswith(".json"):
             os.remove(os.path.join(search_dir, old))
     buckets = {}
-    listed = 0
     for index, u in enumerate(rows):
         page = index // CHUNK_SIZE + 1
-        if u.get("listed_only"):
-            listed += 1
         buckets.setdefault(search_bucket(u["username"]), []).append(search_row(u, page))
     for key, bucket_rows in buckets.items():
         with open(os.path.join(search_dir, f"{key}.json"), "w", encoding="utf-8") as f:
@@ -193,7 +190,7 @@ def main():
     # Keep a small manifest so clients can discover the buckets (and the counts)
     # without guessing.
     with open(os.path.join(search_dir, "index.json"), "w", encoding="utf-8") as f:
-        json.dump({"total": total, "ranked": total - listed, "listed": listed,
+        json.dump({"total": total, "ranked": total, "listed": 0,
                    "detailed": detailed_count, "schema": SEARCH_SCHEMA,
                    "buckets": sorted(buckets), "names": "names.json"}, f)
 
@@ -202,8 +199,7 @@ def main():
         os.remove(stale_search)
 
     print(
-        f"Chunks: {pages} pages x {CHUNK_SIZE} = {total} users "
-        f"({total - listed} ranked, {listed} listed), "
+        f"Chunks: {pages} pages x {CHUNK_SIZE} = {total} ranked users, "
         f"search buckets: {len(buckets)}, substring names: {detailed_count} "
         "(classification fields stripped)"
     )

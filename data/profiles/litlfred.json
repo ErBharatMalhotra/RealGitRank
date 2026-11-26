@@ -1,0 +1,72 @@
+{
+  "username": "litlfred",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 43,
+  "merged_prs": 57,
+  "closed_issues": 15,
+  "pr_reviews": 0,
+  "issue_comments": 61,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 176,
+  "rank_score": 176,
+  "rank": 745,
+  "avatar_url": "https://avatars.githubusercontent.com/u/662242?u=eb53d7712f440a80244c88c7471cdb2183239fe3&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "litlfred/cat-harness-tools",
+      "prs": 20
+    },
+    {
+      "repo": "litlfred/folio-assistant-core",
+      "prs": 8
+    },
+    {
+      "repo": "litlfred/cat-harness",
+      "prs": 5
+    },
+    {
+      "repo": "litlfred/who-iris",
+      "prs": 5
+    },
+    {
+      "repo": "litlfred/folio-assistant",
+      "prs": 3
+    },
+    {
+      "repo": "litlfred/dth-hrh",
+      "prs": 2
+    },
+    {
+      "repo": "litlfred/fhir-harness",
+      "prs": 2
+    },
+    {
+      "repo": "litlfred/smart-base",
+      "prs": 2
+    },
+    {
+      "repo": "litlfred/smart-ips-pilgrimage",
+      "prs": 2
+    },
+    {
+      "repo": "WorldHealthOrganization/smart-ra",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 745,
+      "s": 176.0
+    }
+  ]
+}

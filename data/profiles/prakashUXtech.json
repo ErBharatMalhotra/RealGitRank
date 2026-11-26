@@ -1,0 +1,44 @@
+{
+  "username": "prakashUXtech",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 135,
+  "merged_prs": 8,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 8,
+  "releases": 0,
+  "active_days": 10,
+  "window_days": 30,
+  "activity": 152,
+  "rank_score": 152,
+  "rank": 876,
+  "avatar_url": "https://avatars.githubusercontent.com/u/86671543?u=098be53d5d7524c416812236cbd0c6deb74d6d4e&v=4",
+  "bio": "Building Ripple, open-source generative UI, and Paw OS \u00b7 PocketPaw",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "qbtrix/creative-apps",
+      "prs": 6
+    },
+    {
+      "repo": "pocketpaw/pocketpaw",
+      "prs": 1
+    },
+    {
+      "repo": "qbtrix/ripple",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 876,
+      "s": 152.0
+    }
+  ]
+}

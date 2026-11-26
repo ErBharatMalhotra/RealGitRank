@@ -1,0 +1,36 @@
+{
+  "username": "Proximo0",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 194,
+  "merged_prs": 2,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 5,
+  "window_days": 30,
+  "activity": 196,
+  "rank_score": 196,
+  "rank": 653,
+  "avatar_url": "https://avatars.githubusercontent.com/u/340753124?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Proximo0/MagicSmash",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 653,
+      "s": 196.0
+    }
+  ]
+}

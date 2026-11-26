@@ -1,0 +1,52 @@
+{
+  "username": "kyle-sexton",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 30,
+  "merged_prs": 33,
+  "closed_issues": 19,
+  "pr_reviews": 42,
+  "issue_comments": 56,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 180,
+  "rank_score": 180,
+  "rank": 726,
+  "avatar_url": "https://avatars.githubusercontent.com/u/153232337?u=244b14f315c3b9feb614babf4c4d2ff18bb6a326&v=4",
+  "bio": "Software architect working with .NET, identity, observability, developer tooling, and AI-assisted engineering. Building @melodic-software.",
+  "company": "@melodic-software",
+  "location": "Northeastern Ohio",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "melodic-software/claude-code-plugins",
+      "prs": 28
+    },
+    {
+      "repo": "melodic-software/ci-workflows",
+      "prs": 2
+    },
+    {
+      "repo": "melodic-software/ci-runner",
+      "prs": 1
+    },
+    {
+      "repo": "melodic-software/cursor-plugins",
+      "prs": 1
+    },
+    {
+      "repo": "melodic-software/standards",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 726,
+      "s": 180.0
+    }
+  ]
+}

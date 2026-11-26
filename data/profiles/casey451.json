@@ -1,0 +1,36 @@
+{
+  "username": "casey451",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 236,
+  "merged_prs": 16,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 253,
+  "rank_score": 253,
+  "rank": 390,
+  "avatar_url": "https://avatars.githubusercontent.com/u/227737506?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "casey451/askhava",
+      "prs": 16
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 390,
+      "s": 253.0
+    }
+  ]
+}

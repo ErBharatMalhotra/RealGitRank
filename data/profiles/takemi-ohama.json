@@ -1,0 +1,44 @@
+{
+  "username": "takemi-ohama",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 48,
+  "merged_prs": 13,
+  "closed_issues": 6,
+  "pr_reviews": 90,
+  "issue_comments": 31,
+  "releases": 0,
+  "active_days": 13,
+  "window_days": 30,
+  "activity": 188,
+  "rank_score": 188,
+  "rank": 685,
+  "avatar_url": "https://avatars.githubusercontent.com/u/10234200?u=5234c3bda85b1b6bdd98e5a4f2dfa04541b37ebb&v=4",
+  "bio": "",
+  "company": "Nely.inc",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "devbasex/ai-plugins",
+      "prs": 10
+    },
+    {
+      "repo": "devbasex/nd-factory",
+      "prs": 2
+    },
+    {
+      "repo": "volareinc/laravel-admin",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 685,
+      "s": 188.0
+    }
+  ]
+}

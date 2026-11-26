@@ -1,0 +1,72 @@
+{
+  "username": "houko",
+  "country": "Japan",
+  "primary_language": "Rust",
+  "total_pushes": 148,
+  "merged_prs": 59,
+  "closed_issues": 18,
+  "pr_reviews": 2,
+  "issue_comments": 31,
+  "releases": 0,
+  "active_days": 27,
+  "window_days": 30,
+  "activity": 258,
+  "rank_score": 258,
+  "rank": 373,
+  "avatar_url": "https://avatars.githubusercontent.com/u/12625278?u=325ef18b20f3ee89802ee0bb38226edf20376f23&v=4",
+  "bio": "FullStack Engineer In Tokyo, Interested In Game/AI/IoT/XR.",
+  "company": "@u-next ",
+  "location": "Tokyo",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "metasequoiaime/msime",
+      "prs": 20
+    },
+    {
+      "repo": "nsgo-dev/nsgo",
+      "prs": 10
+    },
+    {
+      "repo": "yldm-tech/awesome-mygo",
+      "prs": 7
+    },
+    {
+      "repo": "metasequoiaime/msime-web",
+      "prs": 6
+    },
+    {
+      "repo": "yldm-tech/Kando",
+      "prs": 4
+    },
+    {
+      "repo": "nsgo-dev/game",
+      "prs": 3
+    },
+    {
+      "repo": "yldm-tech/mygo-breeze-ui",
+      "prs": 2
+    },
+    {
+      "repo": "metasequoiaime/msime-dictionary",
+      "prs": 1
+    },
+    {
+      "repo": "metasequoiaime/msime-docs",
+      "prs": 1
+    },
+    {
+      "repo": "yldm-ai/mirra",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 373,
+      "s": 258.0
+    }
+  ]
+}

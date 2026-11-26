@@ -1,0 +1,72 @@
+{
+  "username": "fallintoplace",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 66,
+  "merged_prs": 133,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 199,
+  "rank_score": 199,
+  "rank": 636,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "fallintoplace/RustHouse",
+      "prs": 73
+    },
+    {
+      "repo": "fallintoplace/RustSpark",
+      "prs": 36
+    },
+    {
+      "repo": "fallintoplace/date-fns-rs",
+      "prs": 12
+    },
+    {
+      "repo": "fallintoplace/flink-rs",
+      "prs": 5
+    },
+    {
+      "repo": "fallintoplace/orc-go",
+      "prs": 2
+    },
+    {
+      "repo": "NVIDIA/NVFlare",
+      "prs": 1
+    },
+    {
+      "repo": "apache/iceberg-go",
+      "prs": 1
+    },
+    {
+      "repo": "fallintoplace/orc-rust",
+      "prs": 1
+    },
+    {
+      "repo": "fallintoplace/puffin-go",
+      "prs": 1
+    },
+    {
+      "repo": "grafana/grafana",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 636,
+      "s": 199.0
+    }
+  ]
+}

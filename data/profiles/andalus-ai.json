@@ -1,0 +1,72 @@
+{
+  "username": "andalus-ai",
+  "country": "",
+  "primary_language": "Java",
+  "total_pushes": 123,
+  "merged_prs": 62,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 186,
+  "rank_score": 186,
+  "rank": 689,
+  "avatar_url": "https://avatars.githubusercontent.com/u/331476813?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "andalus-ai/numu",
+      "prs": 23
+    },
+    {
+      "repo": "andalus-ai/aljabr",
+      "prs": 12
+    },
+    {
+      "repo": "andalus-ai/aqli",
+      "prs": 6
+    },
+    {
+      "repo": "andalus-ai/wayang",
+      "prs": 5
+    },
+    {
+      "repo": "andalus-ai/alhambra",
+      "prs": 3
+    },
+    {
+      "repo": "andalus-ai/jezaku",
+      "prs": 3
+    },
+    {
+      "repo": "andalus-ai/andalus-framework",
+      "prs": 2
+    },
+    {
+      "repo": "andalus-ai/idrisi",
+      "prs": 2
+    },
+    {
+      "repo": "andalus-ai/wayang-console",
+      "prs": 2
+    },
+    {
+      "repo": "andalus-ai/andalus",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 689,
+      "s": 186.0
+    }
+  ]
+}

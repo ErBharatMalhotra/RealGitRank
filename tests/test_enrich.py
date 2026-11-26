@@ -35,6 +35,7 @@ def test_portfolio_fields_are_parsed(monkeypatch):
         "contributionsCollection": {
             "totalCommitContributions": 1973,
             "restrictedContributionsCount": 2385,
+            "contributionCalendar": {"totalContributions": 5120},
         },
         "repositories": {
             "totalCount": 49,
@@ -45,6 +46,7 @@ def test_portfolio_fields_are_parsed(monkeypatch):
     info = enrich.gql_query(["dev"])["dev"]
     assert info["followers"] == 588
     assert info["commits_1y"] == 4358  # public + restricted contributions
+    assert info["contributions_1y"] == 5120  # GitHub's own profile number
     assert info["stars_total"] == 33
     assert info["repos_total"] == 49
     assert info["location"] == "Mumbai, India"
@@ -62,4 +64,16 @@ def test_missing_users_are_skipped_and_requests_name_the_portfolio_fields(monkey
 
     assert enrich.gql_query(["ghost"]) == {}
     assert "contributionsCollection" in calls[0]
+    assert "contributionCalendar" in calls[0]
     assert "stargazerCount" in calls[0]
+
+
+def test_missing_calendar_defaults_to_zero(monkeypatch):
+    fake_graphql(monkeypatch, {"data": {"u0": {
+        "login": "dev",
+        "contributionsCollection": {"totalCommitContributions": 4},
+    }}})
+
+    info = enrich.gql_query(["dev"])["dev"]
+    assert info["contributions_1y"] == 0
+    assert info["commits_1y"] == 4

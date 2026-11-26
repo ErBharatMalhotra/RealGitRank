@@ -1,0 +1,36 @@
+{
+  "username": "smv620",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 26,
+  "merged_prs": 14,
+  "closed_issues": 12,
+  "pr_reviews": 40,
+  "issue_comments": 68,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 160,
+  "rank_score": 160,
+  "rank": 825,
+  "avatar_url": "https://avatars.githubusercontent.com/u/60322875?u=cf76b870ea0bdad39c00a2ceed101b98226ef825&v=4",
+  "bio": "machine learning and image analysis automation",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "smv620/Discord-DMbot",
+      "prs": 14
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 825,
+      "s": 160.0
+    }
+  ]
+}

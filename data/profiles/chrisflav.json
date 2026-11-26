@@ -1,0 +1,36 @@
+{
+  "username": "chrisflav",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 137,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 145,
+  "issue_comments": 26,
+  "releases": 0,
+  "active_days": 10,
+  "window_days": 30,
+  "activity": 309,
+  "rank_score": 309,
+  "rank": 284,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "chrisflav/diff-reviewer",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 284,
+      "s": 309.0
+    }
+  ]
+}

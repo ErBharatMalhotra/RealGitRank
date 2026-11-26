@@ -1,0 +1,52 @@
+{
+  "username": "Jitsusama",
+  "country": "Canada",
+  "primary_language": "Swift",
+  "total_pushes": 143,
+  "merged_prs": 84,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 6,
+  "releases": 0,
+  "active_days": 28,
+  "window_days": 30,
+  "activity": 233,
+  "rank_score": 233,
+  "rank": 476,
+  "avatar_url": "https://avatars.githubusercontent.com/u/801072?u=3639bc1fe0084fa8eb1abab174794c1824bc02b4&v=4",
+  "bio": "Code fiddler and bit jockey.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Jitsusama/core.nix",
+      "prs": 58
+    },
+    {
+      "repo": "Jitsusama/agentic-harness.pi",
+      "prs": 21
+    },
+    {
+      "repo": "Jitsusama/mycelium",
+      "prs": 3
+    },
+    {
+      "repo": "Jitsusama/agentic-harness.core",
+      "prs": 1
+    },
+    {
+      "repo": "Jitsusama/dotfiles",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 476,
+      "s": 233.0
+    }
+  ]
+}

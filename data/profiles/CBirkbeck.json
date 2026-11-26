@@ -1,0 +1,48 @@
+{
+  "username": "CBirkbeck",
+  "country": "",
+  "primary_language": "Lean",
+  "total_pushes": 107,
+  "merged_prs": 119,
+  "closed_issues": 90,
+  "pr_reviews": 6,
+  "issue_comments": 378,
+  "releases": 0,
+  "active_days": 29,
+  "window_days": 30,
+  "activity": 700,
+  "rank_score": 700,
+  "rank": 93,
+  "avatar_url": "https://avatars.githubusercontent.com/u/56166236?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "TauCetiProject/TauCetiRoadmapJobs",
+      "prs": 112
+    },
+    {
+      "repo": "TauCetiProject/TauCetiRoadmap",
+      "prs": 4
+    },
+    {
+      "repo": "TauCetiProject/TauCetiRoadmapWorker",
+      "prs": 2
+    },
+    {
+      "repo": "thefundamentaltheor3m/SphereCeti",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 93,
+      "s": 700.0
+    }
+  ]
+}

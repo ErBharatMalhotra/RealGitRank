@@ -1,0 +1,30 @@
+{
+  "username": "tjshea90",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 201,
+  "merged_prs": 0,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 201,
+  "rank_score": 201,
+  "rank": 631,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 631,
+      "s": 201.0
+    }
+  ]
+}

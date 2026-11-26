@@ -1,0 +1,36 @@
+{
+  "username": "wingetbot",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 19,
+  "merged_prs": 13,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 110,
+  "releases": 0,
+  "active_days": 13,
+  "window_days": 30,
+  "activity": 142,
+  "rank_score": 142,
+  "rank": 962,
+  "avatar_url": "https://avatars.githubusercontent.com/u/63816999?u=cc3b2bedce4d945a17501b89b573afcccde78aa7&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "microsoft/winget-pkgs",
+      "prs": 13
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 962,
+      "s": 142.0
+    }
+  ]
+}

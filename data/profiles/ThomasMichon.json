@@ -1,0 +1,36 @@
+{
+  "username": "ThomasMichon",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 43,
+  "merged_prs": 61,
+  "closed_issues": 12,
+  "pr_reviews": 45,
+  "issue_comments": 95,
+  "releases": 18,
+  "active_days": 28,
+  "window_days": 30,
+  "activity": 274,
+  "rank_score": 274,
+  "rank": 331,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6828233?v=4",
+  "bio": "",
+  "company": "@microsoft",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ThomasMichon/copilot-extensions",
+      "prs": 61
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 331,
+      "s": 274.0
+    }
+  ]
+}

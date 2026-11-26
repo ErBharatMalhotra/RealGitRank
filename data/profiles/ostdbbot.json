@@ -1,0 +1,36 @@
+{
+  "username": "ostdbbot",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 916,
+  "merged_prs": 18,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 34,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 968,
+  "rank_score": 968,
+  "rank": 52,
+  "avatar_url": "https://avatars.githubusercontent.com/u/320950988?u=046df7ca2010f796449434ca4468ca748044d201&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "OSTDB/soundtracks",
+      "prs": 18
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 52,
+      "s": 968.0
+    }
+  ]
+}

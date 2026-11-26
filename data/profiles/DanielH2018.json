@@ -1,0 +1,36 @@
+{
+  "username": "DanielH2018",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 42,
+  "merged_prs": 26,
+  "closed_issues": 38,
+  "pr_reviews": 0,
+  "issue_comments": 61,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 167,
+  "rank_score": 167,
+  "rank": 791,
+  "avatar_url": "https://avatars.githubusercontent.com/u/41801780?v=4",
+  "bio": "Software Engineer at Lithic Inc",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "DanielH2018/server",
+      "prs": 26
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 791,
+      "s": 167.0
+    }
+  ]
+}

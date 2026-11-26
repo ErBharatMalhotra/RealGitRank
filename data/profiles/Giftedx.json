@@ -1,0 +1,40 @@
+{
+  "username": "Giftedx",
+  "country": "United Kingdom",
+  "primary_language": "HTML",
+  "total_pushes": 248,
+  "merged_prs": 5,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "active_days": 11,
+  "window_days": 30,
+  "activity": 255,
+  "rank_score": 255,
+  "rank": 381,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8236791?u=eb218bbc5753090499734550147da49138d68256&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Giftedx/rs-sdk-bot",
+      "prs": 4
+    },
+    {
+      "repo": "Giftedx/rs-fleet-dashboard",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 381,
+      "s": 255.0
+    }
+  ]
+}

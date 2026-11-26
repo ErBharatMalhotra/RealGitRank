@@ -1,0 +1,40 @@
+{
+  "username": "ben-trunk",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 0,
+  "merged_prs": 105,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 120,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 225,
+  "rank_score": 225,
+  "rank": 519,
+  "avatar_url": "https://avatars.githubusercontent.com/u/264281809?u=663efa110ac0ae1d8e397843fbcda40e17da2177&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "merge-demo/mergequeue-st",
+      "prs": 62
+    },
+    {
+      "repo": "merge-demo/mergequeue-bazel",
+      "prs": 43
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 519,
+      "s": 225.0
+    }
+  ]
+}

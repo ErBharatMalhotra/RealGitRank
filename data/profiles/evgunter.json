@@ -1,0 +1,36 @@
+{
+  "username": "evgunter",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 164,
+  "merged_prs": 22,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 6,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 192,
+  "rank_score": 192,
+  "rank": 666,
+  "avatar_url": "https://avatars.githubusercontent.com/u/10246267?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "evgunter/cad",
+      "prs": 22
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 666,
+      "s": 192.0
+    }
+  ]
+}

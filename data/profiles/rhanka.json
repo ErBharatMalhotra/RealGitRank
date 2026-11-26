@@ -1,0 +1,52 @@
+{
+  "username": "rhanka",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 167,
+  "merged_prs": 11,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 181,
+  "rank_score": 181,
+  "rank": 722,
+  "avatar_url": "https://avatars.githubusercontent.com/u/24390932?u=a453d6e45ae094a42d82d775ac15887413db8144&v=4",
+  "bio": "full stack data/IA (speech, nlp, image, geo, fuzzy, deep, AgenticAI, analytics), IT (front/back, architecture, CI/CD GitHub ec2 nova k8s)\r\nprogram & IT mgt",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "rhanka/engram",
+      "prs": 5
+    },
+    {
+      "repo": "rhanka/radar-immobilier",
+      "prs": 3
+    },
+    {
+      "repo": "matchID-project/matchID",
+      "prs": 1
+    },
+    {
+      "repo": "rhanka/h2a",
+      "prs": 1
+    },
+    {
+      "repo": "rhanka/sent-tech-design-system",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 722,
+      "s": 181.0
+    }
+  ]
+}

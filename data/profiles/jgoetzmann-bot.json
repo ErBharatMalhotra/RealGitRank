@@ -1,0 +1,36 @@
+{
+  "username": "jgoetzmann-bot",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 567,
+  "merged_prs": 17,
+  "closed_issues": 8,
+  "pr_reviews": 0,
+  "issue_comments": 76,
+  "releases": 1,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 669,
+  "rank_score": 669,
+  "rank": 99,
+  "avatar_url": "https://avatars.githubusercontent.com/u/324324626?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Jlore-Studios/JackiOh",
+      "prs": 17
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 99,
+      "s": 669.0
+    }
+  ]
+}

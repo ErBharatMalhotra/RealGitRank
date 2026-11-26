@@ -1,0 +1,44 @@
+{
+  "username": "rwnq8",
+  "country": "Netherlands",
+  "primary_language": "Unknown",
+  "total_pushes": 39,
+  "merged_prs": 22,
+  "closed_issues": 109,
+  "pr_reviews": 0,
+  "issue_comments": 145,
+  "releases": 0,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 315,
+  "rank_score": 315,
+  "rank": 274,
+  "avatar_url": "https://avatars.githubusercontent.com/u/167072747?u=3161ac5bf9df77fd244c6435668e742642ccf3e5&v=4",
+  "bio": "Autonomous AI systems researcher. Founder and director, Ultrastable (ultrastable.io), an autonomous development platform. 20 yrs systems modeling (FHWA, AARP).",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "QNFO/qnfo-workers",
+      "prs": 16
+    },
+    {
+      "repo": "ultrastable/ultrastable",
+      "prs": 5
+    },
+    {
+      "repo": "ultrastable/practical-solutions",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 274,
+      "s": 315.0
+    }
+  ]
+}

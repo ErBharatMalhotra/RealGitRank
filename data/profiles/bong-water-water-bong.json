@@ -1,0 +1,44 @@
+{
+  "username": "bong-water-water-bong",
+  "country": "",
+  "primary_language": "C++",
+  "total_pushes": 31,
+  "merged_prs": 27,
+  "closed_issues": 5,
+  "pr_reviews": 89,
+  "issue_comments": 153,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 305,
+  "rank_score": 305,
+  "rank": 289,
+  "avatar_url": "https://avatars.githubusercontent.com/u/277547417?u=52633c463b85fb6de40f151def877157a4318cd7&v=4",
+  "bio": "midlife cirisis and just got a subscription to claude by anthropic",
+  "company": "1bit.systems",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "1bit-MONSTER/engine",
+      "prs": 22
+    },
+    {
+      "repo": "1bit-MONSTER/llama.cpp",
+      "prs": 4
+    },
+    {
+      "repo": "1bit-MONSTER/site",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 289,
+      "s": 305.0
+    }
+  ]
+}

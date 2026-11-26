@@ -94,8 +94,8 @@ function badgeSvg(user) {
   const value = state === "ranked" ? score : state === "listed" ? "LISTED" : "—";
   const rankText = user && user.rank ? `#${user.rank}` : "ranked";
   const caption =
-    state === "ranked" ? `impact index · ${rankText}` : state === "listed" ? "no public work in window" : "open realgitrank to verify";
-  const unit = state === "ranked" ? "SCORE" : state === "listed" ? "LISTED" : "NOT FOUND";
+    state === "ranked" ? `12-mo activity · ${rankText}` : state === "listed" ? "no public work in window" : "open realgitrank to verify";
+  const unit = state === "ranked" ? "ACTIVITY" : state === "listed" ? "LISTED" : "NOT FOUND";
   const handle = state === "unknown" ? "@your-username" : `@${fit(user.login)}`;
   const valueSize = state === "ranked" ? 22 : state === "listed" ? 13 : 22;
 
@@ -135,7 +135,7 @@ function landing() {
 <h1>RealGitRank badges</h1>
 <p>Per-user SVG badge for every listed developer, not just the global top 1,000.</p>
 <pre style="background:#f1f5f9;padding:12px;border-radius:8px;overflow:auto">[![RealGitRank](https://HOST/badges/your-username.svg)](https://realgitrank.bharatdn.com/profile/your-username)</pre>
-<p>States: <strong>score + rank</strong> when the account is ranked, <strong>LISTED</strong> when it has no public push or merged PR inside the scoring window, <strong>NOT FOUND</strong> when the username is not in the snapshot. Nothing is judged: listed accounts simply claim no rank.</p>
+<p>States: <strong>12-month activity + rank</strong> when the account is ranked, <strong>LISTED</strong> for a bucket cached from an older snapshot, <strong>NOT FOUND</strong> when the username is not in the snapshot. The number is an absolute count of public pushes, merged PRs, issues, reviews, comments and releases.</p>
 <p><a href="https://realgitrank.bharatdn.com/">Leaderboard</a> · <a href="https://realgitrank.bharatdn.com/methodology/">Methodology</a></p>`;
   return new Response(body, {
     headers: {

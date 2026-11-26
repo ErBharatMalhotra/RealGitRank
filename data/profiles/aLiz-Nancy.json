@@ -1,0 +1,72 @@
+{
+  "username": "aLiz-Nancy",
+  "country": "",
+  "primary_language": "SCSS",
+  "total_pushes": 91,
+  "merged_prs": 64,
+  "closed_issues": 68,
+  "pr_reviews": 47,
+  "issue_comments": 80,
+  "releases": 0,
+  "active_days": 30,
+  "window_days": 30,
+  "activity": 350,
+  "rank_score": 350,
+  "rank": 241,
+  "avatar_url": "https://avatars.githubusercontent.com/u/52145579?u=5b1c862f9e749e3bdfa73f855d99b944091ffb8e&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Fandhe-AI/agent-reference-skills",
+      "prs": 14
+    },
+    {
+      "repo": "Fandhe-AI/fandhe-silicon",
+      "prs": 10
+    },
+    {
+      "repo": "Fandhe-AI/fandhe-container",
+      "prs": 9
+    },
+    {
+      "repo": "Fandhe-AI/fandhe-db",
+      "prs": 8
+    },
+    {
+      "repo": "Fandhe-AI/fandhe-workshop",
+      "prs": 8
+    },
+    {
+      "repo": "Fandhe-AI/fandhe-ai",
+      "prs": 5
+    },
+    {
+      "repo": "Fandhe-AI/fandhe-auth",
+      "prs": 3
+    },
+    {
+      "repo": "Fandhe-AI/agent-cli-skills",
+      "prs": 2
+    },
+    {
+      "repo": "Fandhe-AI/agent-specialist-skills",
+      "prs": 2
+    },
+    {
+      "repo": "Fandhe-AI/fandhe-frontend",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 241,
+      "s": 350.0
+    }
+  ]
+}

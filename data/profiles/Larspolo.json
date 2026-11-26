@@ -1,0 +1,44 @@
+{
+  "username": "Larspolo",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 68,
+  "merged_prs": 41,
+  "closed_issues": 4,
+  "pr_reviews": 0,
+  "issue_comments": 99,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 212,
+  "rank_score": 212,
+  "rank": 592,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Larspolo/aoe2mc",
+      "prs": 19
+    },
+    {
+      "repo": "Larspolo/travel-aggregator",
+      "prs": 13
+    },
+    {
+      "repo": "Larspolo/tumach-dance",
+      "prs": 9
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 592,
+      "s": 212.0
+    }
+  ]
+}

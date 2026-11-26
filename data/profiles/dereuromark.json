@@ -1,0 +1,72 @@
+{
+  "username": "dereuromark",
+  "country": "Germany",
+  "primary_language": "PHP",
+  "total_pushes": 72,
+  "merged_prs": 68,
+  "closed_issues": 51,
+  "pr_reviews": 1,
+  "issue_comments": 127,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 319,
+  "rank_score": 319,
+  "rank": 271,
+  "avatar_url": "https://avatars.githubusercontent.com/u/39854?v=4",
+  "bio": "Senior Software Developer, Tooling Architect & Master of Automation - PHP Expert",
+  "company": "Available as (Cake)PHP expert",
+  "location": "Berlin",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "markup-carve/carve-php",
+      "prs": 20
+    },
+    {
+      "repo": "markup-carve/carve-js",
+      "prs": 14
+    },
+    {
+      "repo": "markup-carve/carve-rs",
+      "prs": 10
+    },
+    {
+      "repo": "markup-carve/carve",
+      "prs": 9
+    },
+    {
+      "repo": "markup-carve/reveal-carve",
+      "prs": 2
+    },
+    {
+      "repo": "markup-carve/carve-bench",
+      "prs": 1
+    },
+    {
+      "repo": "markup-carve/carve-components",
+      "prs": 1
+    },
+    {
+      "repo": "markup-carve/carve-grammars",
+      "prs": 1
+    },
+    {
+      "repo": "markup-carve/carve-mcp",
+      "prs": 1
+    },
+    {
+      "repo": "markup-carve/carve-php-chat",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 271,
+      "s": 319.0
+    }
+  ]
+}

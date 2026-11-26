@@ -1,0 +1,36 @@
+{
+  "username": "mccorvie",
+  "country": "",
+  "primary_language": "Lean",
+  "total_pushes": 39,
+  "merged_prs": 19,
+  "closed_issues": 54,
+  "pr_reviews": 0,
+  "issue_comments": 35,
+  "releases": 0,
+  "active_days": 5,
+  "window_days": 30,
+  "activity": 147,
+  "rank_score": 147,
+  "rank": 914,
+  "avatar_url": "https://avatars.githubusercontent.com/u/8967928?u=630add09f7c3d33ea05b9518fe0a729aef05e71c&v=4",
+  "bio": "probability and formalization",
+  "company": "Martingale Group LLC ",
+  "location": "Oakland / Berkeley",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "mccorvie/riemann-masullo",
+      "prs": 19
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 914,
+      "s": 147.0
+    }
+  ]
+}

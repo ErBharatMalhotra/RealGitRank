@@ -1,0 +1,40 @@
+{
+  "username": "genonfire",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 33,
+  "merged_prs": 2,
+  "closed_issues": 3,
+  "pr_reviews": 108,
+  "issue_comments": 1,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 147,
+  "rank_score": 147,
+  "rank": 918,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "genonfire/misscat",
+      "prs": 1
+    },
+    {
+      "repo": "neverworkalone/typewriter",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 918,
+      "s": 147.0
+    }
+  ]
+}

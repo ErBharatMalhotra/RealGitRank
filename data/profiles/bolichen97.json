@@ -1,0 +1,36 @@
+{
+  "username": "bolichen97",
+  "country": "United States",
+  "primary_language": "Python",
+  "total_pushes": 36,
+  "merged_prs": 35,
+  "closed_issues": 35,
+  "pr_reviews": 32,
+  "issue_comments": 112,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 250,
+  "rank_score": 250,
+  "rank": 399,
+  "avatar_url": "https://avatars.githubusercontent.com/u/17506219?u=27cbef2f72bdb5257e82220c87d4d4bdc13149e8&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Seattle",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "kirodotdev/KiroCrew",
+      "prs": 35
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 399,
+      "s": 250.0
+    }
+  ]
+}

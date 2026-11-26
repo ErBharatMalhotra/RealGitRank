@@ -1,0 +1,44 @@
+{
+  "username": "shivinate7",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 152,
+  "merged_prs": 14,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 72,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 238,
+  "rank_score": 238,
+  "rank": 449,
+  "avatar_url": "https://avatars.githubusercontent.com/u/309471439?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "shivinate7/claude-settings",
+      "prs": 12
+    },
+    {
+      "repo": "shivinate7/banchi",
+      "prs": 1
+    },
+    {
+      "repo": "shivinate7/mailaudit",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 449,
+      "s": 238.0
+    }
+  ]
+}

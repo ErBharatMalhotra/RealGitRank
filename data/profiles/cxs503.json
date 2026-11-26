@@ -1,0 +1,72 @@
+{
+  "username": "cxs503",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 60,
+  "merged_prs": 131,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 25,
+  "releases": 0,
+  "active_days": 24,
+  "window_days": 30,
+  "activity": 216,
+  "rank_score": 216,
+  "rank": 569,
+  "avatar_url": "https://avatars.githubusercontent.com/u/31194764?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "cxs503/TensorPlatform",
+      "prs": 23
+    },
+    {
+      "repo": "cxs503/TensorLBM",
+      "prs": 22
+    },
+    {
+      "repo": "cxs503/TensorBEM",
+      "prs": 19
+    },
+    {
+      "repo": "cxs503/TensorDEM",
+      "prs": 16
+    },
+    {
+      "repo": "cxs503/TensorFEM",
+      "prs": 16
+    },
+    {
+      "repo": "cxs503/TensorFVM",
+      "prs": 9
+    },
+    {
+      "repo": "cxs503/TensorKnowledge",
+      "prs": 7
+    },
+    {
+      "repo": "cxs503/TensorSPH",
+      "prs": 7
+    },
+    {
+      "repo": "cxs503/TensorCAD",
+      "prs": 6
+    },
+    {
+      "repo": "cxs503/TensorDG",
+      "prs": 6
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 569,
+      "s": 216.0
+    }
+  ]
+}

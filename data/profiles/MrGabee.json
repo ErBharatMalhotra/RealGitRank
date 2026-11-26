@@ -1,0 +1,36 @@
+{
+  "username": "MrGabee",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 415,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 416,
+  "rank_score": 416,
+  "rank": 186,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "MrGabee/mentoheli",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 186,
+      "s": 416.0
+    }
+  ]
+}

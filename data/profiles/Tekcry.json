@@ -1,0 +1,36 @@
+{
+  "username": "Tekcry",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 183,
+  "merged_prs": 2,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 3,
+  "window_days": 30,
+  "activity": 185,
+  "rank_score": 185,
+  "rank": 694,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Tekcry/Mobile-Coop",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 694,
+      "s": 185.0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "username": "walidatiyaai2025-gif",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 204,
+  "merged_prs": 24,
+  "closed_issues": 11,
+  "pr_reviews": 8,
+  "issue_comments": 76,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 323,
+  "rank_score": 323,
+  "rank": 268,
+  "avatar_url": "https://avatars.githubusercontent.com/u/257491436?u=f4825e7bd9866d71ebc07f86e6ff98d6d1f2a3dd&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "walidatiyaai2025-gif/WalidSite",
+      "prs": 11
+    },
+    {
+      "repo": "walidatiyaai2025-gif/FOOD",
+      "prs": 8
+    },
+    {
+      "repo": "walidatiyaai2025-gif/AIMWWeb",
+      "prs": 5
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 268,
+      "s": 323.0
+    }
+  ]
+}

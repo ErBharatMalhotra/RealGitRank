@@ -1,0 +1,52 @@
+{
+  "username": "valzargaming",
+  "country": "United States",
+  "primary_language": "PHP",
+  "total_pushes": 41,
+  "merged_prs": 58,
+  "closed_issues": 3,
+  "pr_reviews": 4,
+  "issue_comments": 38,
+  "releases": 2,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 146,
+  "rank_score": 146,
+  "rank": 927,
+  "avatar_url": "https://avatars.githubusercontent.com/u/7202504?u=87c99587ef4c2865aab81ebc249c65356c6b24e6&v=4",
+  "bio": "I'm a gamer, live streamer, teacher, programmer, and patient care advocate. I make games, my own tools, and things that makes other things work.",
+  "company": "Valgorithms",
+  "location": "United States",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Civ13/Civ13",
+      "prs": 40
+    },
+    {
+      "repo": "Civ13/civ13-wiki",
+      "prs": 11
+    },
+    {
+      "repo": "Valgorithms/Civilizationbot",
+      "prs": 3
+    },
+    {
+      "repo": "Civ13/civ13.github.io",
+      "prs": 2
+    },
+    {
+      "repo": "Valgorithms/dm-godot",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 927,
+      "s": 146.0
+    }
+  ]
+}

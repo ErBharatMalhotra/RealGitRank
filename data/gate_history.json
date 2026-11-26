@@ -31,16 +31,5 @@
     "bot_rate": 0.0,
     "score_version": "v2-percentile",
     "date": "2026-11-25"
-  },
-  {
-    "rows": 50000,
-    "null_usernames": 0,
-    "score_min": 690.9,
-    "score_max": 873.4,
-    "score_mean": 725.195,
-    "score_std": 32.735,
-    "bot_rate": 0.0,
-    "score_version": "v2-percentile",
-    "date": "2026-11-26"
   }
 ]

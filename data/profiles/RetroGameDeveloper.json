@@ -1,0 +1,48 @@
+{
+  "username": "RetroGameDeveloper",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 132,
+  "merged_prs": 55,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 1,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 189,
+  "rank_score": 189,
+  "rank": 678,
+  "avatar_url": "https://avatars.githubusercontent.com/u/40120498?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "RetroReversing/decompdecomp",
+      "prs": 31
+    },
+    {
+      "repo": "RetroReversing/decomp-repair",
+      "prs": 20
+    },
+    {
+      "repo": "RetroReversing/decomp-assets",
+      "prs": 3
+    },
+    {
+      "repo": "n-delic/decompdecomp",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 678,
+      "s": 189.0
+    }
+  ]
+}

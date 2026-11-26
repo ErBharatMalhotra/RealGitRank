@@ -1,0 +1,48 @@
+{
+  "username": "mojtaba-arvin",
+  "country": "United Arab Emirates",
+  "primary_language": "Python",
+  "total_pushes": 179,
+  "merged_prs": 7,
+  "closed_issues": 1,
+  "pr_reviews": 1,
+  "issue_comments": 12,
+  "releases": 0,
+  "active_days": 8,
+  "window_days": 30,
+  "activity": 200,
+  "rank_score": 200,
+  "rank": 632,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6056661?u=315977fa343264d11853b8a86e1af06115b640d8&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "mojtaba-arvin/django-api-versioning",
+      "prs": 3
+    },
+    {
+      "repo": "mojtaba-arvin/ai-service-marketplace",
+      "prs": 2
+    },
+    {
+      "repo": "mojtaba-arvin/agent-native",
+      "prs": 1
+    },
+    {
+      "repo": "mojtaba-arvin/ios-sim-call-recorder",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 632,
+      "s": 200.0
+    }
+  ]
+}

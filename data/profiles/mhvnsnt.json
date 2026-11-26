@@ -1,0 +1,48 @@
+{
+  "username": "mhvnsnt",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 481,
+  "merged_prs": 37,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 1,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 520,
+  "rank_score": 520,
+  "rank": 135,
+  "avatar_url": "https://avatars.githubusercontent.com/u/197314870?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "mhvnsnt/Mochiichao-Diamond-Version-2d-fresh-start",
+      "prs": 17
+    },
+    {
+      "repo": "mhvnsnt/agent-ops",
+      "prs": 11
+    },
+    {
+      "repo": "mhvnsnt/western-heart",
+      "prs": 8
+    },
+    {
+      "repo": "mhvnsnt/cape-jones",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 135,
+      "s": 520.0
+    }
+  ]
+}

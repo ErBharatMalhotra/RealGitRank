@@ -1,0 +1,72 @@
+{
+  "username": "cjber",
+  "country": "",
+  "primary_language": "Lua",
+  "total_pushes": 95,
+  "merged_prs": 50,
+  "closed_issues": 28,
+  "pr_reviews": 9,
+  "issue_comments": 34,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 216,
+  "rank_score": 216,
+  "rank": 572,
+  "avatar_url": "https://avatars.githubusercontent.com/u/44099524?u=91e594c1988245d9582e45a96713e00d9f6ebf9d&v=4",
+  "bio": "Founding Engineer at Nebula. Previously thirdweb. PhD in NLP and geography. My WoW: Forever addons have 3M+ downloads.",
+  "company": "",
+  "location": "Glasgow",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "cjber/commissions-forever",
+      "prs": 7
+    },
+    {
+      "repo": "agent-labs-dev/fastbrowse",
+      "prs": 6
+    },
+    {
+      "repo": "cjber/shortest-path-forever",
+      "prs": 6
+    },
+    {
+      "repo": "cjber/field-guide-forever",
+      "prs": 5
+    },
+    {
+      "repo": "cjber/forever-core",
+      "prs": 5
+    },
+    {
+      "repo": "cjber/skillup-forever",
+      "prs": 5
+    },
+    {
+      "repo": "cjber/adventure-guide-forever",
+      "prs": 3
+    },
+    {
+      "repo": "cjber/legacy-forever",
+      "prs": 3
+    },
+    {
+      "repo": "cjber/tweaks-forever",
+      "prs": 3
+    },
+    {
+      "repo": "cjber/macro-assist-forever",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 572,
+      "s": 216.0
+    }
+  ]
+}

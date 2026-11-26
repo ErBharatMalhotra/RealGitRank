@@ -31,12 +31,13 @@ from datetime import datetime, timedelta, timezone
 from statistics import pstdev
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from activity import add_day as add_activity_day
 from rolling import write_day_shard
 
 BASE = "https://data.gharchive.org"
 
 # Never scored (mirrors the exclusions in config/scoring_weights.yaml)
-BOT_LOGINS = {"github-actions", "dependabot", "renovate[bot]", "dependabot-preview[bot]"}
+BOT_LOGINS = {"github-actions", "dependabot", "renovate[bot]", "dependabot-preview[bot]", "Copilot"}
 
 # Commit/PR text that suggests test coverage work
 TEST_KEYWORDS = ("test", "spec", "pytest", "jest", "unittest", "e2e", "coverage", "fixture")
@@ -347,6 +348,10 @@ def ingest_day(target_date, rolling_dir="data/rolling", write_raw=True):
     attribute_ci_pushes(target_date, agg, stats)
     print(f"Aggregated {len(agg)} users from {stats['events']} events "
           f"({stats['bot_events']} bot events skipped)")
+    # One absolute 12-month score means the daily numbers must survive the 30-day
+    # shard prune; the monthly store keeps them (idempotent per date).
+    activity_path, activity_users = add_activity_day(date_str, agg)
+    print(f"Activity month: {activity_path} (+{activity_users} users)")
     path, users = write_day_shard(date_str, agg, rolling_dir, stats=stats)
     print(f"Rolling shard: {path} ({users} users)")
 

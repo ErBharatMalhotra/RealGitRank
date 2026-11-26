@@ -2,46 +2,28 @@
   "username": "kixelated",
   "country": "United States",
   "primary_language": "Rust",
-  "total_pushes": 93,
-  "merged_prs": 73,
-  "listed_only": false,
-  "s_pr": 99.99,
-  "s_quality": 50.0,
-  "s_impact": 98.44,
-  "s_consistency": 98.8,
-  "measured": {
-    "delivery": true,
-    "code_health": true,
-    "adoption": true,
-    "consistency": true
-  },
+  "total_pushes": 115,
+  "merged_prs": 69,
+  "closed_issues": 1,
+  "pr_reviews": 151,
+  "issue_comments": 31,
+  "releases": 0,
   "active_days": 27,
   "window_days": 30,
-  "rank_score": 869.3,
-  "active_repos_touched": 21,
-  "pr_reviews": 154,
-  "issue_comments": 29,
-  "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 5,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 189,
+  "activity": 367,
+  "rank_score": 367,
+  "rank": 227,
   "avatar_url": "https://avatars.githubusercontent.com/u/432854?u=a1cecc640b684d082854d3602a91ed5f5b3305e0&v=4",
   "bio": "live video nerd",
   "company": "moq.pro",
   "location": "San Francisco",
-  "score_version": "v2-percentile",
-  "window_start": "2026-10-27",
-  "window_end": "2026-11-25",
-  "percentile": 100.0,
-  "tier": "Elite",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
   "counted_merges": [
     {
       "repo": "moq-dev/moq",
-      "prs": 33
+      "prs": 30
     },
     {
       "repo": "moq-dev/rind",
@@ -57,7 +39,7 @@
     },
     {
       "repo": "kixel-ai/rust2",
-      "prs": 7
+      "prs": 6
     },
     {
       "repo": "kixel-ai/rind",
@@ -83,8 +65,8 @@
   "history": [
     {
       "d": "2026-11-26",
-      "r": 189,
-      "s": 869.3
+      "r": 227,
+      "s": 367.0
     }
   ]
 }

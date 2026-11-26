@@ -1,0 +1,40 @@
+{
+  "username": "GoosLab",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 18,
+  "merged_prs": 10,
+  "closed_issues": 3,
+  "pr_reviews": 0,
+  "issue_comments": 116,
+  "releases": 0,
+  "active_days": 11,
+  "window_days": 30,
+  "activity": 147,
+  "rank_score": 147,
+  "rank": 917,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6458969?u=83b2cd12777e6163c461f3697b38a3ab302158ba&v=4",
+  "bio": "\ubaa8\ub450\uc758AI \uacf5\uc7a5\uc7a5",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "modu-ai/moai-adk",
+      "prs": 9
+    },
+    {
+      "repo": "modu-ai/moai-atp",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 917,
+      "s": 147.0
+    }
+  ]
+}

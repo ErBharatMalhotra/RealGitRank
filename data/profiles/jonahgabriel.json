@@ -1,0 +1,48 @@
+{
+  "username": "jonahgabriel",
+  "country": "United States",
+  "primary_language": "Python",
+  "total_pushes": 56,
+  "merged_prs": 35,
+  "closed_issues": 0,
+  "pr_reviews": 38,
+  "issue_comments": 30,
+  "releases": 0,
+  "active_days": 27,
+  "window_days": 30,
+  "activity": 159,
+  "rank_score": 159,
+  "rank": 833,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1002253?u=1977cf3f37ff2370e5b8e6f21f4628551a70abc0&v=4",
+  "bio": "CEO, Engineer, Systems Architect | Building the Next Layer of Intelligent Infrastructure",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "OmniNode-ai/omnimarket",
+      "prs": 25
+    },
+    {
+      "repo": "OmniNode-ai/omniclaude",
+      "prs": 5
+    },
+    {
+      "repo": "OmniNode-ai/omnibase_infra",
+      "prs": 4
+    },
+    {
+      "repo": "OmniNode-ai/omnibase_core",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 833,
+      "s": 159.0
+    }
+  ]
+}

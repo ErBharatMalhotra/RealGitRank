@@ -1,0 +1,48 @@
+{
+  "username": "AstridPseudon",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 128,
+  "merged_prs": 16,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 3,
+  "releases": 0,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 147,
+  "rank_score": 147,
+  "rank": 915,
+  "avatar_url": "https://avatars.githubusercontent.com/u/195115040?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "banodoco/astrid-dev",
+      "prs": 11
+    },
+    {
+      "repo": "banodoco/astrid-agent",
+      "prs": 3
+    },
+    {
+      "repo": "banodoco/astrid-app",
+      "prs": 1
+    },
+    {
+      "repo": "banodoco/astrid-dev-ruleset-scratch",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 915,
+      "s": 147.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "username": "asuresh8",
+  "country": "United States",
+  "primary_language": "Python",
+  "total_pushes": 66,
+  "merged_prs": 40,
+  "closed_issues": 0,
+  "pr_reviews": 54,
+  "issue_comments": 10,
+  "releases": 0,
+  "active_days": 28,
+  "window_days": 30,
+  "activity": 170,
+  "rank_score": 170,
+  "rank": 773,
+  "avatar_url": "https://avatars.githubusercontent.com/u/15257031?u=ed911315ecfad51b2b8150175e45b8a8d7d2db34&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Austin, TX",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "komira-ai/kbf",
+      "prs": 13
+    },
+    {
+      "repo": "komira-ai/komira",
+      "prs": 8
+    },
+    {
+      "repo": "komira-ai/jobscheduler",
+      "prs": 7
+    },
+    {
+      "repo": "komira-ai/hostkeeper",
+      "prs": 5
+    },
+    {
+      "repo": "komira-ai/tierstore",
+      "prs": 4
+    },
+    {
+      "repo": "komira-ai/ucdk",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 773,
+      "s": 170.0
+    }
+  ]
+}

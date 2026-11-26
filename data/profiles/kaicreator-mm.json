@@ -1,0 +1,48 @@
+{
+  "username": "kaicreator-mm",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 62,
+  "merged_prs": 12,
+  "closed_issues": 1,
+  "pr_reviews": 7,
+  "issue_comments": 71,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 153,
+  "rank_score": 153,
+  "rank": 872,
+  "avatar_url": "https://avatars.githubusercontent.com/u/274507369?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "kaicreator-mm/domain-harness",
+      "prs": 4
+    },
+    {
+      "repo": "kaicreator-mm/formal-tools",
+      "prs": 3
+    },
+    {
+      "repo": "kaicreator-mm/tally",
+      "prs": 3
+    },
+    {
+      "repo": "kaicreator-mm/xDownload",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 872,
+      "s": 153.0
+    }
+  ]
+}

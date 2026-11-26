@@ -1,0 +1,40 @@
+{
+  "username": "cao825",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 93,
+  "merged_prs": 23,
+  "closed_issues": 2,
+  "pr_reviews": 9,
+  "issue_comments": 13,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 140,
+  "rank_score": 140,
+  "rank": 976,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4397075?u=b5f24a93f840074a474b1bd576463a79a7ad0e20&v=4",
+  "bio": "Engineering Leader. Passionate about modern, composable, digital systems.",
+  "company": "",
+  "location": "Pittsburgh, PA",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "craigoley/remudero",
+      "prs": 22
+    },
+    {
+      "repo": "craigoley/neon-drift",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 976,
+      "s": 140.0
+    }
+  ]
+}

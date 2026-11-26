@@ -1,0 +1,52 @@
+{
+  "username": "aburan28",
+  "country": "United States",
+  "primary_language": "TeX",
+  "total_pushes": 173,
+  "merged_prs": 51,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 27,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 251,
+  "rank_score": 251,
+  "rank": 395,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1086874?v=4",
+  "bio": "Reliability for AI/ML\r\n\r\nKubernetes, Envoy, ArgoCD, Argo Rollouts, Triton\r\nhttps://www.linkedin.com/in/adam-buran",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "isogeny-labs/crypto",
+      "prs": 32
+    },
+    {
+      "repo": "isogeny-labs/crypto-autoresearcher",
+      "prs": 11
+    },
+    {
+      "repo": "isogeny-labs/cryptanalysis",
+      "prs": 6
+    },
+    {
+      "repo": "isogeny-labs/ecc-challenges",
+      "prs": 1
+    },
+    {
+      "repo": "isogeny-labs/prototype",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 395,
+      "s": 251.0
+    }
+  ]
+}

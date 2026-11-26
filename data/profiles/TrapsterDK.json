@@ -1,0 +1,36 @@
+{
+  "username": "TrapsterDK",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 48,
+  "merged_prs": 82,
+  "closed_issues": 41,
+  "pr_reviews": 1,
+  "issue_comments": 112,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 284,
+  "rank_score": 284,
+  "rank": 311,
+  "avatar_url": "https://avatars.githubusercontent.com/u/56176095?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "devhusdk/rules_dx",
+      "prs": 82
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 311,
+      "s": 284.0
+    }
+  ]
+}

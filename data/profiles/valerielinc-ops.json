@@ -1,0 +1,44 @@
+{
+  "username": "valerielinc-ops",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 138,
+  "merged_prs": 26,
+  "closed_issues": 3,
+  "pr_reviews": 0,
+  "issue_comments": 22,
+  "releases": 0,
+  "active_days": 24,
+  "window_days": 30,
+  "activity": 189,
+  "rank_score": 189,
+  "rank": 679,
+  "avatar_url": "https://avatars.githubusercontent.com/u/260919838?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "valerielinc-ops/frontaliere-si-o-no",
+      "prs": 24
+    },
+    {
+      "repo": "nanakokyobashi-rgb/frontaliere-articles",
+      "prs": 1
+    },
+    {
+      "repo": "valerielinc-ops/frontaliere-workspace",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 679,
+      "s": 189.0
+    }
+  ]
+}

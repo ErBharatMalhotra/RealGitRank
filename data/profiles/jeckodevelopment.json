@@ -1,0 +1,44 @@
+{
+  "username": "jeckodevelopment",
+  "country": "Italy",
+  "primary_language": "SCSS",
+  "total_pushes": 184,
+  "merged_prs": 17,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 4,
+  "releases": 0,
+  "active_days": 10,
+  "window_days": 30,
+  "activity": 206,
+  "rank_score": 206,
+  "rank": 610,
+  "avatar_url": "https://avatars.githubusercontent.com/u/733133?v=4",
+  "bio": "Senior Cloud Engineer / Cloud Governance.\r\nFormer OSM Secretary @joomla ",
+  "company": "@joomla ",
+  "location": "Turin, Italy",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "jeckodevelopment/opera-atlas",
+      "prs": 11
+    },
+    {
+      "repo": "jeckodevelopment/jd_learn",
+      "prs": 4
+    },
+    {
+      "repo": "jeckodevelopment/opera-funding",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 610,
+      "s": 206.0
+    }
+  ]
+}

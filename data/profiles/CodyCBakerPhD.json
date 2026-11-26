@@ -1,0 +1,52 @@
+{
+  "username": "CodyCBakerPhD",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 125,
+  "merged_prs": 6,
+  "closed_issues": 0,
+  "pr_reviews": 4,
+  "issue_comments": 3,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 138,
+  "rank_score": 138,
+  "rank": 995,
+  "avatar_url": "https://avatars.githubusercontent.com/u/51133164?u=2d8519cefcf362edff54ce08de73825dd41b31b4&v=4",
+  "bio": "Data-driven problem solver",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "dandi-compute/dandi-compute-runner",
+      "prs": 2
+    },
+    {
+      "repo": "CodyCBakerPhD/historia",
+      "prs": 1
+    },
+    {
+      "repo": "brain-bbqs/data-ingest-task-force",
+      "prs": 1
+    },
+    {
+      "repo": "brain-bbqs/encoding-helper",
+      "prs": 1
+    },
+    {
+      "repo": "dandi-compute/dandi-compute-core",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 995,
+      "s": 138.0
+    }
+  ]
+}

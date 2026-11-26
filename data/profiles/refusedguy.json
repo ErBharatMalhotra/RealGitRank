@@ -1,0 +1,40 @@
+{
+  "username": "refusedguy",
+  "country": "",
+  "primary_language": "C#",
+  "total_pushes": 103,
+  "merged_prs": 42,
+  "closed_issues": 3,
+  "pr_reviews": 0,
+  "issue_comments": 6,
+  "releases": 0,
+  "active_days": 8,
+  "window_days": 30,
+  "activity": 154,
+  "rank_score": 154,
+  "rank": 861,
+  "avatar_url": "https://avatars.githubusercontent.com/u/40535288?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "refusedguy/beacon",
+      "prs": 30
+    },
+    {
+      "repo": "refusedguy/Harbor-Harness",
+      "prs": 12
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 861,
+      "s": 154.0
+    }
+  ]
+}

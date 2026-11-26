@@ -1,0 +1,60 @@
+{
+  "username": "patrickdugan",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 141,
+  "merged_prs": 12,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 154,
+  "rank_score": 154,
+  "rank": 863,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2466053?v=4",
+  "bio": "Working on self-models, storyworlds, tiny reasoning models and efficient AI research.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "MoralityLabAI/Compactification-Theory",
+      "prs": 3
+    },
+    {
+      "repo": "patrickdugan/OntologicalProofs",
+      "prs": 3
+    },
+    {
+      "repo": "MoralityLabAI/Control-Harness",
+      "prs": 2
+    },
+    {
+      "repo": "MoralityLabAI/HybridTRMLDT",
+      "prs": 1
+    },
+    {
+      "repo": "MoralityLabAI/LoopedTransformers",
+      "prs": 1
+    },
+    {
+      "repo": "patrickdugan/SystemicRiskBench",
+      "prs": 1
+    },
+    {
+      "repo": "patrickdugan/levinverse",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 863,
+      "s": 154.0
+    }
+  ]
+}

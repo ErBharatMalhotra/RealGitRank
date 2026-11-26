@@ -1,0 +1,40 @@
+{
+  "username": "ranjan-expatready",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 86,
+  "merged_prs": 19,
+  "closed_issues": 0,
+  "pr_reviews": 6,
+  "issue_comments": 66,
+  "releases": 0,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 177,
+  "rank_score": 177,
+  "rank": 739,
+  "avatar_url": "https://avatars.githubusercontent.com/u/238471676?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ranjan-expatready/xpatready",
+      "prs": 12
+    },
+    {
+      "repo": "expat-ready/xpatready",
+      "prs": 7
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 739,
+      "s": 177.0
+    }
+  ]
+}

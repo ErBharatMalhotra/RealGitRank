@@ -1,0 +1,36 @@
+{
+  "username": "akiezun",
+  "country": "United States",
+  "primary_language": "Perl",
+  "total_pushes": 75,
+  "merged_prs": 57,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 17,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 150,
+  "rank_score": 150,
+  "rank": 891,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1993519?v=4",
+  "bio": "",
+  "company": "Meta",
+  "location": "Boston, MA",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "facebookresearch/atlas-lean",
+      "prs": 57
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 891,
+      "s": 150.0
+    }
+  ]
+}

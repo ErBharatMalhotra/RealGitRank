@@ -1,0 +1,36 @@
+{
+  "username": "juliusmarminge",
+  "country": "Sweden",
+  "primary_language": "TypeScript",
+  "total_pushes": 109,
+  "merged_prs": 27,
+  "closed_issues": 41,
+  "pr_reviews": 15,
+  "issue_comments": 81,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 273,
+  "rank_score": 273,
+  "rank": 334,
+  "avatar_url": "https://avatars.githubusercontent.com/u/51714798?u=8fcd957c9117bc5841de71b0de4fa87c151fb55a&v=4",
+  "bio": "\ud83c\uddf8\ud83c\uddea. Founding Engineer @pingdotgg \ud83c\uddfa\ud83c\uddf8, Open Source \ud83c\udf0d",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "pingdotgg/t3code",
+      "prs": 27
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 334,
+      "s": 273.0
+    }
+  ]
+}

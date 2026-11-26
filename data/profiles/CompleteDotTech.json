@@ -1,0 +1,72 @@
+{
+  "username": "CompleteDotTech",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 61,
+  "merged_prs": 18,
+  "closed_issues": 7,
+  "pr_reviews": 5,
+  "issue_comments": 70,
+  "releases": 0,
+  "active_days": 12,
+  "window_days": 30,
+  "activity": 161,
+  "rank_score": 161,
+  "rank": 820,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5861166?u=cb77df4bb17a1d7c40109d45deb937abce9729f1&v=4",
+  "bio": "",
+  "company": "CompleteTech LLC",
+  "location": "Cincinnati, OH",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "CT-Infrastructure/marketing-v7-infrastructure",
+      "prs": 3
+    },
+    {
+      "repo": "CT-Infrastructure/marketing-v7-content",
+      "prs": 2
+    },
+    {
+      "repo": "CT-Infrastructure/marketing-v7-marketing",
+      "prs": 2
+    },
+    {
+      "repo": "CompleteTech-Infrastructure/scion-recreation",
+      "prs": 2
+    },
+    {
+      "repo": "CompleteTech-Skills/creative-studio",
+      "prs": 2
+    },
+    {
+      "repo": "Jev-Engineering/cookbook",
+      "prs": 2
+    },
+    {
+      "repo": "CT-Infrastructure/marketing-v7-integrations",
+      "prs": 1
+    },
+    {
+      "repo": "CompleTetech-Security/beyondtrust-remote-support-cve-2026-102764-check",
+      "prs": 1
+    },
+    {
+      "repo": "CompleTetech-Security/flowise-cve-2026-69254-check",
+      "prs": 1
+    },
+    {
+      "repo": "CompleteTech-Skills/github-showcase-skill",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 820,
+      "s": 161.0
+    }
+  ]
+}

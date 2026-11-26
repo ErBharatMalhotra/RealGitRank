@@ -27,6 +27,8 @@
       .sparkmeta { display: flex; justify-content: space-between; gap: 8px; color: var(--muted); font-size: 11px; }
       .delta-up { color: #34d399; } .delta-down { color: #f87171; }
       .movement { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+      .bar { height: 6px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); overflow: hidden; margin-top: 4px; }
+      .bar div { height: 100%; background: var(--accent-2); }
       :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     </style>
   </head>
@@ -108,15 +110,27 @@
         return bits.length ? `<p class="movement">${bits.join(' · ')} since yesterday</p>` : '';
       }
 
-      function listedOnlyNote(d) {
-        if (!d.listed_only) return '';
-        return `<p class="muted" style="margin:0 0 8px;font-size:13px">Listed · no public pushes or merged pull requests were observed in this 30-day window, so no score, rank or tier is claimed.</p>`;
-      }
-
-      function tierBadge(d) {
-        if (!d.tier) return '';
-        const pct = typeof d.percentile === 'number' ? `Ahead of ${d.percentile}% of ranked developers` : '';
-        return `<span class="tier t-${String(d.tier).toLowerCase()}" title="${esc(pct)}">${esc(d.tier)}</span>`;
+      // Score v3 is one absolute number, so the page shows its six components
+      // instead of percentile bars: the reader can add them up and get the score.
+      function componentsBlock(d) {
+        const components = [
+          ['Pushes', d.total_pushes],
+          ['Merged PRs', d.merged_prs],
+          ['Closed issues', d.closed_issues],
+          ['PR reviews', d.pr_reviews],
+          ['Issue comments', d.issue_comments],
+          ['Releases', d.releases],
+        ];
+        const sum = components.reduce((total, [, value]) => total + (Number(value) || 0), 0) || 1;
+        return `<div class="card"><h3>What the activity is made of · 12 months</h3>
+          ${components.map(([label, value]) => {
+            const v = Number(value) || 0;
+            const share = (v / sum) * 100;
+            return `<div style="margin:8px 0"><div style="display:flex;justify-content:space-between;font-size:13px"><span>${esc(label)}</span><span class="muted">${v.toLocaleString()} (${share.toFixed(1)}%)</span></div>
+              <div class="bar"><div style="width:${share}%"></div></div></div>`;
+          }).join('')}
+          <p class="muted" style="margin:10px 0 0;font-size:12px">The score is the sum of these six public event counts. Nothing is percentile-ranked or weighted.</p>
+        </div>`;
       }
 
       // Score sparkline from the per-profile daily history the pipeline keeps (top 1,000).
@@ -149,7 +163,7 @@
         if (!stats.length) return '';
         return `<div class="card"><h3>GitHub portfolio · lifetime context, not scored</h3>
           <div class="grid">${stats.map(([label, value]) => `<div class="stat"><div class="label">${esc(label)}</div><div class="val">${Number(value).toLocaleString()}</div></div>`).join('')}</div>
-          <p class="muted" style="margin:10px 0 0;font-size:12px">Reported by the GitHub API. The Rank Score above only uses events published inside the 30-day window, so work pushed by a bot or kept private does not appear in it.</p></div>`;
+          <p class="muted" style="margin:10px 0 0;font-size:12px">Reported by the GitHub API. The activity score above only counts public events in the 12-month window, so private work and work the public feed does not publish do not appear in it. GitHub's own contribution count (which counts commits) is shown here as context and is never part of the score.</p></div>`;
       }
 
       // One badge rule for everyone: the badge service renders the ranked, listed
@@ -163,18 +177,11 @@
         const facts = `<div class="grid">
               <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
               <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
-              <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
-              ${d.ci_pushes ? `<div class="stat"><div class="label">CI-attributed pushes</div><div class="val">${esc(d.ci_pushes)}</div></div>` : ''}
+              <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs || 0)}</div></div>
+              <div class="stat"><div class="label">Active days</div><div class="val">${esc(d.active_days || 0)}</div></div>
             </div>`;
-        if (d.listed_only) {
-          return `<div class="card">
-            <p style="margin:0 0 4px;font-weight:600">Listed · not scored in this 30-day window</p>
-            <p class="muted" style="margin:0 0 14px;font-size:13px">No public push or merged pull request was observed for this account. A rank, score or tier is intentionally not shown.</p>
-            ${facts}
-          </div>`;
-        }
         return `<div class="card"><div class="grid">
-              <div class="stat"><div class="label">Rank Score</div><div class="val">${esc(d.rank_score)}</div></div>
+              <div class="stat"><div class="label">Activity (12 mo)</div><div class="val">${esc(d.rank_score || 0)}</div></div>
               <div class="stat"><div class="label">Global Rank</div><div class="val">#${esc(d.rank)}</div></div>
               ${facts}
             </div></div>`;
@@ -182,18 +189,17 @@
 
       function notRanked(username) {
         el.innerHTML = `<h1>${esc(username)}</h1>
-          <p>Not in this snapshot — this GitHub username was not observed in the current 30-day window.</p>
+          <p>Not in this snapshot — no public activity was observed for this GitHub username in the current 12-month window.</p>
           <img class="badge" src="/badges/default.svg" width="200" height="60" alt="badge" />
           <p class="muted">Check the spelling, or <a href="/">search the leaderboard</a>. Contribute on GitHub and the next daily run can pick the account up.</p>`;
       }
 
       function renderFromChunk(d) {
         el.innerHTML = `<h1>${esc(d.username)}</h1>
-          <p>${tierBadge(d)}</p>
-          ${listedOnlyNote(d)}
           ${moveText(d)}
           <img class="badge" src="${badgeFor(d.username)}" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
           ${metricsBlock(d)}
+          ${componentsBlock(d)}
           ${portfolioBlock(d)}
           ${d.bio ? `<div class="card"><h3>Bio</h3><p style="margin:0">${esc(d.bio)}</p></div>` : ''}
           ${sparkBlock(d)}
@@ -201,22 +207,22 @@
             <h3>README Badge</h3>
             <pre>[![RealGitRank](${badgeFor(d.username)})](https://realgitrank.bharatdn.com/profile/?u=${encodeURIComponent(d.username)})</pre>
           </div>
-          <p class="muted" style="font-size:13px">${d.listed_only ? 'Listed in today’s snapshot without a rank claim.' : 'Ranked in today’s snapshot.'} Detailed pillar breakdowns are generated for the top 1,000 developers.</p>
-          <p class="muted" style="font-size:12px">An automated estimate from public GitHub events, not a statement of fact about a person. <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.</p>`;
+          <p class="muted" style="font-size:13px">Ranked in today’s snapshot from public GitHub activity over the last 12 months. Detailed per-user JSON is generated for the top 1,000 developers.</p>
+          <p class="muted" style="font-size:12px">An automated count of public GitHub events, not a statement of fact about a person. <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.</p>`;
       }
 
       function renderFromProfile(d, username) {
-        el.innerHTML = `<h1>${esc(username)}</h1><p>${tierBadge(d)}</p>
-          ${listedOnlyNote(d)}
+        el.innerHTML = `<h1>${esc(username)}</h1>
           ${moveText(d)}
           <img class="badge" src="${badgeFor(username)}" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
           ${metricsBlock(d)}
+          ${componentsBlock(d)}
           ${portfolioBlock(d)}
           ${sparkBlock(d)}
           <div class="card"><h3>README Badge</h3>
             <pre>[![RealGitRank](${badgeFor(username)})](https://realgitrank.bharatdn.com/profile/?u=${encodeURIComponent(username)})</pre>
           </div>
-          <p class="muted" style="font-size:12px">An automated estimate from public GitHub events, not a statement of fact about a person. <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.</p>`;
+          <p class="muted" style="font-size:12px">An automated count of public GitHub events over the last 12 months, not a statement of fact about a person. <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.</p>`;
       }
 
       (async () => {

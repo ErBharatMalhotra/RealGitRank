@@ -1,0 +1,40 @@
+{
+  "username": "epes",
+  "country": "United States",
+  "primary_language": "Go",
+  "total_pushes": 0,
+  "merged_prs": 117,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 103,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 220,
+  "rank_score": 220,
+  "rank": 549,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6786970?u=8b5a3dffc08bdaede70c19c59d92aa3a6d9b19fe&v=4",
+  "bio": "",
+  "company": "@trunk-io ",
+  "location": "Austin, TX",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "merge-demo/mergequeue-bazel",
+      "prs": 60
+    },
+    {
+      "repo": "merge-demo/mergequeue-st",
+      "prs": 57
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 549,
+      "s": 220.0
+    }
+  ]
+}

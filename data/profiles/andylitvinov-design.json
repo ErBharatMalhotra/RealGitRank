@@ -1,0 +1,36 @@
+{
+  "username": "andylitvinov-design",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 62,
+  "merged_prs": 27,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 109,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 199,
+  "rank_score": 199,
+  "rank": 638,
+  "avatar_url": "https://avatars.githubusercontent.com/u/274943885?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "andylitvinov-design/books",
+      "prs": 27
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 638,
+      "s": 199.0
+    }
+  ]
+}

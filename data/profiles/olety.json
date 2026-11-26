@@ -1,0 +1,40 @@
+{
+  "username": "olety",
+  "country": "Japan",
+  "primary_language": "Python",
+  "total_pushes": 107,
+  "merged_prs": 72,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 181,
+  "rank_score": 181,
+  "rank": 721,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2990542?u=991e479507c88d63c821f8f964a6f9edcfebcdd1&v=4",
+  "bio": "/Data Science/",
+  "company": "",
+  "location": "Tokyo, Japan",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "oneiron-dev/oneiron",
+      "prs": 68
+    },
+    {
+      "repo": "oneiron-dev/muse-glimmer-afterglow",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 721,
+      "s": 181.0
+    }
+  ]
+}

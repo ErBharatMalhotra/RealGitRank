@@ -1,0 +1,72 @@
+{
+  "username": "EliSchleifer",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 23,
+  "merged_prs": 307,
+  "closed_issues": 0,
+  "pr_reviews": 3,
+  "issue_comments": 256,
+  "releases": 0,
+  "active_days": 30,
+  "window_days": 30,
+  "activity": 589,
+  "rank_score": 589,
+  "rank": 117,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1265982?v=4",
+  "bio": "",
+  "company": "trunk.io",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "merge-demo/mergequeue-turborepo",
+      "prs": 87
+    },
+    {
+      "repo": "merge-demo/mergequeue-bazel",
+      "prs": 58
+    },
+    {
+      "repo": "merge-demo/mergequeue-st",
+      "prs": 53
+    },
+    {
+      "repo": "trunk-io/flake-farm",
+      "prs": 25
+    },
+    {
+      "repo": "merge-demo/mergequeue-buck",
+      "prs": 22
+    },
+    {
+      "repo": "trunk-io/flake-farm-staging",
+      "prs": 17
+    },
+    {
+      "repo": "merge-demo/mergequeue-github",
+      "prs": 16
+    },
+    {
+      "repo": "merge-demo/mergequeue",
+      "prs": 14
+    },
+    {
+      "repo": "merge-demo/mergequeue-nx",
+      "prs": 14
+    },
+    {
+      "repo": "elischleifer-trunk/lg-luma",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 117,
+      "s": 589.0
+    }
+  ]
+}

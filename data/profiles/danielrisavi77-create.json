@@ -1,0 +1,56 @@
+{
+  "username": "danielrisavi77-create",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 59,
+  "merged_prs": 22,
+  "closed_issues": 0,
+  "pr_reviews": 8,
+  "issue_comments": 160,
+  "releases": 0,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 249,
+  "rank_score": 249,
+  "rank": 400,
+  "avatar_url": "https://avatars.githubusercontent.com/u/236231695?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ductura/Institution_front_web_chrome",
+      "prs": 6
+    },
+    {
+      "repo": "ductura/Institution_server",
+      "prs": 6
+    },
+    {
+      "repo": "danielrisavi77-create/Ductus",
+      "prs": 4
+    },
+    {
+      "repo": "ductura/server",
+      "prs": 4
+    },
+    {
+      "repo": "ductura/.github",
+      "prs": 1
+    },
+    {
+      "repo": "ductura/preloader",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 400,
+      "s": 249.0
+    }
+  ]
+}

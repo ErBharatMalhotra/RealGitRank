@@ -33,7 +33,13 @@ jobs:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
         run: python -m src.pipeline.ingest_bigquery --backfill || echo "CI backfill skipped"
 
-      - name: Run pipeline (gharchive.org -> DuckDB -> snapshots)
+      - name: Backfill 12-month activity (BigQuery, idempotent)
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+        run: python -m src.pipeline.ingest_bigquery --backfill-activity 12 || echo "activity backfill skipped"
+
+      - name: Run pipeline (gharchive.org -> monthly activity -> snapshots)
         env:
           GH_ENRICH_TOKEN: ${{ secrets.GH_ENRICH_TOKEN }}
           GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
@@ -76,7 +82,10 @@ jobs:
           # Only public data: raw hourly downloads, rolling shards and parquet stay private.
           # leaderboard.json (50MB+) and history/ are pipeline-internal: the site reads
           # /data/chunks and /data/profiles only, so they stay out of the public payload.
+          # activity/ (12 months of monthly rollups) and the parquet are pipeline
+          # internals: the site reads the score from the chunks, never these files.
           rsync -a --exclude 'gharchive_raw/' --exclude 'rolling/' --exclude 'raw.parquet' \
+            --exclude 'activity/' --exclude 'activity.parquet' \
             --exclude '*.log' --exclude 'enrichment_cache.json' --exclude 'language_cache.json' \
             --exclude 'leaderboard.json' --exclude 'long_tail.json' --exclude 'history/' \
             --exclude 'automation_signals.json' \

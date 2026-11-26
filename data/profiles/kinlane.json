@@ -1,0 +1,40 @@
+{
+  "username": "kinlane",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 4185,
+  "merged_prs": 2,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 6,
+  "window_days": 30,
+  "activity": 4188,
+  "rank_score": 4188,
+  "rank": 3,
+  "avatar_url": "https://avatars.githubusercontent.com/u/56100?u=c66a1dced9fd7ab3ea5c363342763f0f1b0c7d91&v=4",
+  "bio": "I am the API Evangelist, making sense of the history, technology, business, politics, and governance of APIs since 2010.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "api-search/agentic-access",
+      "prs": 1
+    },
+    {
+      "repo": "openlint/.github",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 3,
+      "s": 4188.0
+    }
+  ]
+}

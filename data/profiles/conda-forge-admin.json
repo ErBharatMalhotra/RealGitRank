@@ -1,0 +1,64 @@
+{
+  "username": "conda-forge-admin",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 49,
+  "merged_prs": 8,
+  "closed_issues": 3,
+  "pr_reviews": 0,
+  "issue_comments": 108,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 168,
+  "rank_score": 168,
+  "rank": 785,
+  "avatar_url": "https://avatars.githubusercontent.com/u/16698198?u=156fb2547ff82d3c8efb713566634defbf79de01&v=4",
+  "bio": "Please ping @conda-forge/core to contact.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "conda-forge/ada-py-feedstock",
+      "prs": 1
+    },
+    {
+      "repo": "conda-forge/conda-deny-feedstock",
+      "prs": 1
+    },
+    {
+      "repo": "conda-forge/conda-lock-feedstock",
+      "prs": 1
+    },
+    {
+      "repo": "conda-forge/coredns-feedstock",
+      "prs": 1
+    },
+    {
+      "repo": "conda-forge/flake8-no-implicit-concat-feedstock",
+      "prs": 1
+    },
+    {
+      "repo": "conda-forge/kalign-feedstock",
+      "prs": 1
+    },
+    {
+      "repo": "conda-forge/sen4cap-client-feedstock",
+      "prs": 1
+    },
+    {
+      "repo": "conda-forge/tof-feedstock",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 785,
+      "s": 168.0
+    }
+  ]
+}

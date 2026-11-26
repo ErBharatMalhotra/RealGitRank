@@ -1,0 +1,68 @@
+{
+  "username": "mgh3326",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 182,
+  "merged_prs": 31,
+  "closed_issues": 0,
+  "pr_reviews": 146,
+  "issue_comments": 6,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 365,
+  "rank_score": 365,
+  "rank": 228,
+  "avatar_url": "https://avatars.githubusercontent.com/u/28249893?u=e4eabb80ff3229502d023592fa24dd032cf286a6&v=4",
+  "bio": "Watcha",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "mgh3326/panewire",
+      "prs": 9
+    },
+    {
+      "repo": "mgh3326/auto_trader",
+      "prs": 6
+    },
+    {
+      "repo": "mgh3326/handoffkeep",
+      "prs": 5
+    },
+    {
+      "repo": "mgh3326/mergewake",
+      "prs": 5
+    },
+    {
+      "repo": "mgh3326/scopefuel",
+      "prs": 2
+    },
+    {
+      "repo": "mgh3326/brewdial",
+      "prs": 1
+    },
+    {
+      "repo": "mgh3326/fillwire",
+      "prs": 1
+    },
+    {
+      "repo": "mgh3326/pacelever",
+      "prs": 1
+    },
+    {
+      "repo": "mgh3326/runtug",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 228,
+      "s": 365.0
+    }
+  ]
+}

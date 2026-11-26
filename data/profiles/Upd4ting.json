@@ -1,0 +1,72 @@
+{
+  "username": "Upd4ting",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 33,
+  "merged_prs": 75,
+  "closed_issues": 6,
+  "pr_reviews": 0,
+  "issue_comments": 25,
+  "releases": 5,
+  "active_days": 27,
+  "window_days": 30,
+  "activity": 144,
+  "rank_score": 144,
+  "rank": 937,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6763934?u=7f8e73c94b211462cbe2b2d316352d5d9d3687c9&v=4",
+  "bio": "CTO and co-founder of Antelope and Altab. I work on AntelopeJS, a TypeScript framework, and AntelopeJS DMS, an open-source back office for your database.",
+  "company": "",
+  "location": "Belgium",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "AntelopeJS/dms",
+      "prs": 12
+    },
+    {
+      "repo": "AntelopeJS/antelopejs",
+      "prs": 4
+    },
+    {
+      "repo": "AntelopeJS/interface-api",
+      "prs": 4
+    },
+    {
+      "repo": "AntelopeJS/dms-assistant",
+      "prs": 3
+    },
+    {
+      "repo": "AntelopeJS/dms-mailing",
+      "prs": 3
+    },
+    {
+      "repo": "AntelopeJS/dms-media",
+      "prs": 3
+    },
+    {
+      "repo": "AntelopeJS/mongodb",
+      "prs": 3
+    },
+    {
+      "repo": "AntelopeJS/mysql",
+      "prs": 3
+    },
+    {
+      "repo": "AntelopeJS/.github",
+      "prs": 2
+    },
+    {
+      "repo": "AntelopeJS/agent-skills",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 937,
+      "s": 144.0
+    }
+  ]
+}

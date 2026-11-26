@@ -1,0 +1,36 @@
+{
+  "username": "alexander-bain",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 9,
+  "merged_prs": 16,
+  "closed_issues": 32,
+  "pr_reviews": 3,
+  "issue_comments": 130,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 190,
+  "rank_score": 190,
+  "rank": 674,
+  "avatar_url": "https://avatars.githubusercontent.com/u/189178613?v=4",
+  "bio": "I\u2019m a data science director working on AI at Meta (Facebook).\r\n\r\n\r\nCareer: Bain & Co\u2192Apple\u2192HBS\u2192Apple\u2192Facebook\u2192Nest/Google\u2192Meta",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "alexander-bain/bainluck",
+      "prs": 16
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 674,
+      "s": 190.0
+    }
+  ]
+}

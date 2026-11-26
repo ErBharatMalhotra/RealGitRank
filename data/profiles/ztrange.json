@@ -1,0 +1,40 @@
+{
+  "username": "ztrange",
+  "country": "Mexico",
+  "primary_language": "Unknown",
+  "total_pushes": 72,
+  "merged_prs": 7,
+  "closed_issues": 3,
+  "pr_reviews": 0,
+  "issue_comments": 121,
+  "releases": 0,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 203,
+  "rank_score": 203,
+  "rank": 621,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5152245?u=4d40339b78cb4adc8f29eef9cd5045c33abe994e&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ztrange/veri",
+      "prs": 6
+    },
+    {
+      "repo": "ztrange/claude-skills",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 621,
+      "s": 203.0
+    }
+  ]
+}

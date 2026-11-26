@@ -1,0 +1,48 @@
+{
+  "username": "roshpinacare-sys",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 151,
+  "merged_prs": 15,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 169,
+  "rank_score": 169,
+  "rank": 780,
+  "avatar_url": "https://avatars.githubusercontent.com/u/326012154?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "roshpinacare-sys/Console",
+      "prs": 5
+    },
+    {
+      "repo": "roshpinacare-sys/Domain",
+      "prs": 4
+    },
+    {
+      "repo": "roshpinacare-sys/Pulse",
+      "prs": 3
+    },
+    {
+      "repo": "roshpinacare-sys/roshpinacare-sys.github.io",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 780,
+      "s": 169.0
+    }
+  ]
+}

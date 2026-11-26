@@ -1,0 +1,72 @@
+{
+  "username": "FlexOr2",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 50,
+  "merged_prs": 66,
+  "closed_issues": 70,
+  "pr_reviews": 0,
+  "issue_comments": 85,
+  "releases": 0,
+  "active_days": 26,
+  "window_days": 30,
+  "activity": 271,
+  "rank_score": 271,
+  "rank": 343,
+  "avatar_url": "https://avatars.githubusercontent.com/u/44832414?u=a3fc35989505392c1ea2d5cab5a8cf0fa7c40daf&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Erlangen",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "overnightworks/songmaker",
+      "prs": 12
+    },
+    {
+      "repo": "overnightworks/platform",
+      "prs": 6
+    },
+    {
+      "repo": "overnightworks/presentator",
+      "prs": 6
+    },
+    {
+      "repo": "overnightworks/hal",
+      "prs": 5
+    },
+    {
+      "repo": "overnightworks/marketplace",
+      "prs": 5
+    },
+    {
+      "repo": "overnightworks/quality",
+      "prs": 5
+    },
+    {
+      "repo": "overnightworks/skat",
+      "prs": 4
+    },
+    {
+      "repo": "overnightworks/speech",
+      "prs": 4
+    },
+    {
+      "repo": "overnightworks/aco",
+      "prs": 3
+    },
+    {
+      "repo": "overnightworks/hopin",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 343,
+      "s": 271.0
+    }
+  ]
+}

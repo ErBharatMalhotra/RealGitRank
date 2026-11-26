@@ -1,0 +1,52 @@
+{
+  "username": "marcusquinn",
+  "country": "United Kingdom",
+  "primary_language": "Shell",
+  "total_pushes": 101,
+  "merged_prs": 24,
+  "closed_issues": 14,
+  "pr_reviews": 16,
+  "issue_comments": 49,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 204,
+  "rank_score": 204,
+  "rank": 616,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6428977?u=135e0cc0e5b6e10572147e5ad35c0b563c4135c3&v=4",
+  "bio": "Building aidevops.sh, and lots of cool things with it.\r\n\r\nOpen-Source wins.\r\n\r\nYou can't lose what you give freely.\r\n\r\nKnowledge shared, multiplies.",
+  "company": "@wpallstars @evergreenjersey @awardsapp",
+  "location": "London, UK, Los-angeles, California, England, Jersey",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "marcusquinn/aidevops",
+      "prs": 10
+    },
+    {
+      "repo": "wpallstars/seoprostack",
+      "prs": 9
+    },
+    {
+      "repo": "wpallstars/seoprocookieconsent",
+      "prs": 2
+    },
+    {
+      "repo": "wpallstars/wp-plugin-starter-template-for-ai-coding",
+      "prs": 2
+    },
+    {
+      "repo": "wpallstars/seoprocustom",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 616,
+      "s": 204.0
+    }
+  ]
+}

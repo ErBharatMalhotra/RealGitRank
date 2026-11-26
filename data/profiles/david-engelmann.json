@@ -1,0 +1,72 @@
+{
+  "username": "david-engelmann",
+  "country": "United States",
+  "primary_language": "OCaml",
+  "total_pushes": 48,
+  "merged_prs": 50,
+  "closed_issues": 0,
+  "pr_reviews": 9,
+  "issue_comments": 61,
+  "releases": 5,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 173,
+  "rank_score": 173,
+  "rank": 757,
+  "avatar_url": "https://avatars.githubusercontent.com/u/81196676?u=d978094d5f19235d1f6172b13901c8d5cb85b074&v=4",
+  "bio": "Senior AI Software Developer",
+  "company": "BeatGig",
+  "location": "New York City",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "david-engelmann/maidan",
+      "prs": 5
+    },
+    {
+      "repo": "david-engelmann/wayside",
+      "prs": 5
+    },
+    {
+      "repo": "david-engelmann/arvin",
+      "prs": 2
+    },
+    {
+      "repo": "david-engelmann/blindgate",
+      "prs": 2
+    },
+    {
+      "repo": "david-engelmann/catchledger",
+      "prs": 2
+    },
+    {
+      "repo": "david-engelmann/deadheat",
+      "prs": 2
+    },
+    {
+      "repo": "david-engelmann/dibs",
+      "prs": 2
+    },
+    {
+      "repo": "david-engelmann/forkdrift",
+      "prs": 2
+    },
+    {
+      "repo": "david-engelmann/paceghost",
+      "prs": 2
+    },
+    {
+      "repo": "david-engelmann/peira",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 757,
+      "s": 173.0
+    }
+  ]
+}

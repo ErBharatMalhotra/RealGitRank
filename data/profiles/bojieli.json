@@ -1,0 +1,33 @@
+{
+  "username": "bojieli",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 662,
+  "merged_prs": 0,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 665,
+  "rank_score": 665,
+  "rank": 101,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1421793?u=4adb55dcfd49eec84e4c891cbebcd2cf625fabba&v=4",
+  "bio": "Independent Researcher",
+  "company": "",
+  "location": "",
+  "followers": 3488,
+  "commits_1y": 59534,
+  "repos_total": 134,
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 101,
+      "s": 665.0
+    }
+  ]
+}

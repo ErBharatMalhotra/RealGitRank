@@ -1,0 +1,44 @@
+{
+  "username": "BrewTestBot",
+  "country": "",
+  "primary_language": "Ruby",
+  "total_pushes": 33,
+  "merged_prs": 189,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 30,
+  "window_days": 30,
+  "activity": 222,
+  "rank_score": 222,
+  "rank": 531,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1589480?u=d55ba445072da72e816348cc5b87be1148ba60a9&v=4",
+  "bio": "I build things for @Homebrew.",
+  "company": "@Homebrew",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Homebrew/homebrew-cask",
+      "prs": 97
+    },
+    {
+      "repo": "Homebrew/homebrew-core",
+      "prs": 84
+    },
+    {
+      "repo": "Homebrew/advisory-database",
+      "prs": 8
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 531,
+      "s": 222.0
+    }
+  ]
+}

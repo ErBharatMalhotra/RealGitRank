@@ -1,0 +1,40 @@
+{
+  "username": "Brajesh31",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 142,
+  "merged_prs": 3,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 8,
+  "window_days": 30,
+  "activity": 145,
+  "rank_score": 145,
+  "rank": 932,
+  "avatar_url": "https://avatars.githubusercontent.com/u/90491106?u=c58e45c236497e00ba63d555c138be934953f45b&v=4",
+  "bio": "Currently a Bachelor of Technology student at GL Bajaj Group of Institutions, I am honing my expertise in Computer Engineering with a focus on full-stack dev",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "tech-dev-club/bizradar-insights",
+      "prs": 2
+    },
+    {
+      "repo": "Brajesh31/vfx-ui-anime",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 932,
+      "s": 145.0
+    }
+  ]
+}

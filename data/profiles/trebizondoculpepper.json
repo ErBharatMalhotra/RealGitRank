@@ -1,0 +1,52 @@
+{
+  "username": "trebizondoculpepper",
+  "country": "United Kingdom",
+  "primary_language": "Unknown",
+  "total_pushes": 36,
+  "merged_prs": 22,
+  "closed_issues": 18,
+  "pr_reviews": 28,
+  "issue_comments": 114,
+  "releases": 0,
+  "active_days": 13,
+  "window_days": 30,
+  "activity": 218,
+  "rank_score": 218,
+  "rank": 556,
+  "avatar_url": "https://avatars.githubusercontent.com/u/783193?u=b11b04eb69995b15e5cdada388c05b807d097598&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "trebizondoculpepper/poker_blocks",
+      "prs": 7
+    },
+    {
+      "repo": "trebizondoculpepper/presidential-daily-briefing",
+      "prs": 6
+    },
+    {
+      "repo": "trebizondoculpepper/the-steele-review",
+      "prs": 5
+    },
+    {
+      "repo": "trebizondoculpepper/github_triage",
+      "prs": 3
+    },
+    {
+      "repo": "trebizondoculpepper/the_pool",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 556,
+      "s": 218.0
+    }
+  ]
+}

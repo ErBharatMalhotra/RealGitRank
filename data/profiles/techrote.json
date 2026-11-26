@@ -1,0 +1,60 @@
+{
+  "username": "techrote",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 83,
+  "merged_prs": 14,
+  "closed_issues": 2,
+  "pr_reviews": 7,
+  "issue_comments": 82,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 188,
+  "rank_score": 188,
+  "rank": 684,
+  "avatar_url": "https://avatars.githubusercontent.com/u/261801702?u=b0db6b30b9fb4e5ffca826fbb557c0545a7bfea6&v=4",
+  "bio": "100% vibes",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "techrote/INTUIT3D",
+      "prs": 5
+    },
+    {
+      "repo": "techrote/cybersand",
+      "prs": 4
+    },
+    {
+      "repo": "techrote/autoart",
+      "prs": 1
+    },
+    {
+      "repo": "techrote/ezDarkFactory",
+      "prs": 1
+    },
+    {
+      "repo": "techrote/liquitunes",
+      "prs": 1
+    },
+    {
+      "repo": "techrote/sandmapsreference",
+      "prs": 1
+    },
+    {
+      "repo": "techrote/tokensplurge",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 684,
+      "s": 188.0
+    }
+  ]
+}

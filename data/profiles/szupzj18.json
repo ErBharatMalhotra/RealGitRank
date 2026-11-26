@@ -1,0 +1,36 @@
+{
+  "username": "szupzj18",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 4,
+  "merged_prs": 4,
+  "closed_issues": 1,
+  "pr_reviews": 14,
+  "issue_comments": 163,
+  "releases": 0,
+  "active_days": 6,
+  "window_days": 30,
+  "activity": 186,
+  "rank_score": 186,
+  "rank": 691,
+  "avatar_url": "https://avatars.githubusercontent.com/u/39005916?u=da7e8dcc06a5fcdc6efae5968d8a7406505e86aa&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "nwverse/persona",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 691,
+      "s": 186.0
+    }
+  ]
+}

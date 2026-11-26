@@ -1,0 +1,36 @@
+{
+  "username": "alimtalbi-ata",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 263,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 29,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 293,
+  "rank_score": 293,
+  "rank": 299,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "alimtalbi-ata/aiops",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 299,
+      "s": 293.0
+    }
+  ]
+}

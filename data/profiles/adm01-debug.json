@@ -1,0 +1,72 @@
+{
+  "username": "adm01-debug",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 96,
+  "merged_prs": 55,
+  "closed_issues": 0,
+  "pr_reviews": 26,
+  "issue_comments": 14,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 191,
+  "rank_score": 191,
+  "rank": 669,
+  "avatar_url": "https://avatars.githubusercontent.com/u/231131902?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "adm01-debug/Promo_Gifts_V4",
+      "prs": 8
+    },
+    {
+      "repo": "adm01-debug/Zapp_Web_V2",
+      "prs": 7
+    },
+    {
+      "repo": "adm01-debug/Brindes_Sicoob_V2",
+      "prs": 5
+    },
+    {
+      "repo": "adm01-debug/Promo_Supply_V2",
+      "prs": 5
+    },
+    {
+      "repo": "adm01-debug/Hello_V3",
+      "prs": 4
+    },
+    {
+      "repo": "adm01-debug/Singu_V2",
+      "prs": 4
+    },
+    {
+      "repo": "adm01-debug/Fast_Gravacoes_V2",
+      "prs": 3
+    },
+    {
+      "repo": "adm01-debug/Loggi_Flow_V2",
+      "prs": 3
+    },
+    {
+      "repo": "adm01-debug/Departamento_Pessoal_V3",
+      "prs": 2
+    },
+    {
+      "repo": "adm01-debug/Estoki_V2",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 669,
+      "s": 191.0
+    }
+  ]
+}

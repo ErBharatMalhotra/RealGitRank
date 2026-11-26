@@ -1,0 +1,36 @@
+{
+  "username": "pzia",
+  "country": "France",
+  "primary_language": "Python",
+  "total_pushes": 175,
+  "merged_prs": 43,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 103,
+  "releases": 0,
+  "active_days": 26,
+  "window_days": 30,
+  "activity": 322,
+  "rank_score": 322,
+  "rank": 269,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11092036?u=2fe4a73b32504ad065d33ff237035a0e9eb115e5&v=4",
+  "bio": "KAWA !",
+  "company": "",
+  "location": "France",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "pzia/cifereca",
+      "prs": 43
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 269,
+      "s": 322.0
+    }
+  ]
+}

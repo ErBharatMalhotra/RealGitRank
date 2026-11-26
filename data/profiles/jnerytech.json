@@ -1,0 +1,36 @@
+{
+  "username": "jnerytech",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 52,
+  "merged_prs": 34,
+  "closed_issues": 17,
+  "pr_reviews": 0,
+  "issue_comments": 90,
+  "releases": 0,
+  "active_days": 16,
+  "window_days": 30,
+  "activity": 193,
+  "rank_score": 193,
+  "rank": 662,
+  "avatar_url": "https://avatars.githubusercontent.com/u/255207078?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "jnerytech/flightdeck",
+      "prs": 34
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 662,
+      "s": 193.0
+    }
+  ]
+}

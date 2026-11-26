@@ -1,0 +1,48 @@
+{
+  "username": "deehw",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 23,
+  "merged_prs": 29,
+  "closed_issues": 4,
+  "pr_reviews": 0,
+  "issue_comments": 136,
+  "releases": 7,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 199,
+  "rank_score": 199,
+  "rank": 637,
+  "avatar_url": "https://avatars.githubusercontent.com/u/227991567?u=fa4ba2982bd207b2894c82425c2a75601fa1701c&v=4",
+  "bio": "AI Hardware at Autonomous",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "autonomous-ai/lampOS",
+      "prs": 17
+    },
+    {
+      "repo": "autonomous-ai/spaceship",
+      "prs": 6
+    },
+    {
+      "repo": "autonomous-ai/openharness",
+      "prs": 5
+    },
+    {
+      "repo": "autonomous-ai/hardware-design-skill",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 637,
+      "s": 199.0
+    }
+  ]
+}

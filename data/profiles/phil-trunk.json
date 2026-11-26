@@ -1,0 +1,40 @@
+{
+  "username": "phil-trunk",
+  "country": "",
+  "primary_language": "Starlark",
+  "total_pushes": 0,
+  "merged_prs": 120,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 110,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 230,
+  "rank_score": 230,
+  "rank": 490,
+  "avatar_url": "https://avatars.githubusercontent.com/u/271270754?u=5746f4d8b0826575229cfd5232104cc155690707&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "merge-demo/mergequeue-st",
+      "prs": 69
+    },
+    {
+      "repo": "merge-demo/mergequeue-bazel",
+      "prs": 51
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 490,
+      "s": 230.0
+    }
+  ]
+}

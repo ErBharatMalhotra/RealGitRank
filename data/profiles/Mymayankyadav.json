@@ -1,0 +1,40 @@
+{
+  "username": "Mymayankyadav",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 17,
+  "merged_prs": 13,
+  "closed_issues": 4,
+  "pr_reviews": 0,
+  "issue_comments": 106,
+  "releases": 0,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 140,
+  "rank_score": 140,
+  "rank": 977,
+  "avatar_url": "https://avatars.githubusercontent.com/u/69465219?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Mymayankyadav/lemma",
+      "prs": 12
+    },
+    {
+      "repo": "Mymayankyadav/carrel-app",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 977,
+      "s": 140.0
+    }
+  ]
+}

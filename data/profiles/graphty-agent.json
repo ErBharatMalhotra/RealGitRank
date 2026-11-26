@@ -1,0 +1,36 @@
+{
+  "username": "graphty-agent",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 83,
+  "merged_prs": 30,
+  "closed_issues": 34,
+  "pr_reviews": 29,
+  "issue_comments": 110,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 286,
+  "rank_score": 286,
+  "rank": 309,
+  "avatar_url": "https://avatars.githubusercontent.com/u/347682054?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "graphty-org/graphty-monorepo",
+      "prs": 30
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 309,
+      "s": 286.0
+    }
+  ]
+}

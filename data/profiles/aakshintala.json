@@ -1,0 +1,40 @@
+{
+  "username": "aakshintala",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 20,
+  "merged_prs": 14,
+  "closed_issues": 11,
+  "pr_reviews": 0,
+  "issue_comments": 104,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 149,
+  "rank_score": 149,
+  "rank": 897,
+  "avatar_url": "https://avatars.githubusercontent.com/u/748697?u=a9e1355edcccad4a2bbc0754a26ceecbdc5a17ba&v=4",
+  "bio": "Working on GPU/vectorized query processing at @databricks.\r\nAlso building an efficient light-weight agent harness - fiber. ",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "aakshintala/switchyard",
+      "prs": 8
+    },
+    {
+      "repo": "aakshintala/fiber",
+      "prs": 6
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 897,
+      "s": 149.0
+    }
+  ]
+}

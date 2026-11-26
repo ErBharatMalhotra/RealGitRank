@@ -1,0 +1,40 @@
+{
+  "username": "cixzhang",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 69,
+  "merged_prs": 30,
+  "closed_issues": 4,
+  "pr_reviews": 6,
+  "issue_comments": 73,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 182,
+  "rank_score": 182,
+  "rank": 714,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2781099?u=cdd2820cdd561dd397529d20bc9febeb1488f3b2&v=4",
+  "bio": "I work on https://astryx.atmeta.com/",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "meta/astryx",
+      "prs": 28
+    },
+    {
+      "repo": "facebook/astryx",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 714,
+      "s": 182.0
+    }
+  ]
+}

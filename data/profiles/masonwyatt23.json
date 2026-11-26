@@ -1,0 +1,60 @@
+{
+  "username": "masonwyatt23",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 87,
+  "merged_prs": 168,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 36,
+  "releases": 0,
+  "active_days": 30,
+  "window_days": 30,
+  "activity": 291,
+  "rank_score": 291,
+  "rank": 303,
+  "avatar_url": "https://avatars.githubusercontent.com/u/192697134?u=cb69e561ea577bdfa31266664bc844352f896888&v=4",
+  "bio": "Co-Founder & CEO @ashlrai. Forward-deployed engineering: AI systems and custom software.",
+  "company": "AshlrAI, Inc.",
+  "location": "Virginia",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ashlrai/phantom",
+      "prs": 87
+    },
+    {
+      "repo": "ashlrai/ashlr-md",
+      "prs": 22
+    },
+    {
+      "repo": "ashlrai/ashlr-stack",
+      "prs": 22
+    },
+    {
+      "repo": "ashlrai/locus",
+      "prs": 14
+    },
+    {
+      "repo": "ashlrai/lexicon",
+      "prs": 11
+    },
+    {
+      "repo": "ashlrai/phantom-secrets",
+      "prs": 7
+    },
+    {
+      "repo": "ashlrai/ashlr-plugin",
+      "prs": 5
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 303,
+      "s": 291.0
+    }
+  ]
+}

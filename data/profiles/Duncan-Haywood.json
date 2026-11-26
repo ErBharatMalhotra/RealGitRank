@@ -1,0 +1,36 @@
+{
+  "username": "Duncan-Haywood",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 121,
+  "merged_prs": 105,
+  "closed_issues": 0,
+  "pr_reviews": 2,
+  "issue_comments": 3,
+  "releases": 0,
+  "active_days": 30,
+  "window_days": 30,
+  "activity": 231,
+  "rank_score": 231,
+  "rank": 481,
+  "avatar_url": "https://avatars.githubusercontent.com/u/49566815?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Duncan-Haywood/oss-monorepo",
+      "prs": 105
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 481,
+      "s": 231.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "username": "0xmorarin",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 299,
+  "merged_prs": 12,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 36,
+  "releases": 0,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 347,
+  "rank_score": 347,
+  "rank": 244,
+  "avatar_url": "https://avatars.githubusercontent.com/u/316874492?u=68603b9ff72444f4327ac36fc8dae5aba6ed41c3&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "DreamwishWand/Wand",
+      "prs": 6
+    },
+    {
+      "repo": "DreamwishWand/web",
+      "prs": 6
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 244,
+      "s": 347.0
+    }
+  ]
+}

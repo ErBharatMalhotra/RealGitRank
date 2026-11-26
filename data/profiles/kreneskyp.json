@@ -1,0 +1,72 @@
+{
+  "username": "kreneskyp",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 157,
+  "merged_prs": 66,
+  "closed_issues": 11,
+  "pr_reviews": 0,
+  "issue_comments": 4,
+  "releases": 0,
+  "active_days": 28,
+  "window_days": 30,
+  "activity": 238,
+  "rank_score": 238,
+  "rank": 448,
+  "avatar_url": "https://avatars.githubusercontent.com/u/68635?u=0ebec81cc881b2428e2c45e549a1081e5fe3cddf&v=4",
+  "bio": "Full stack engineer.\r\nFluent in python, javascript, and postgres.\r\nMaker of things.",
+  "company": "Myriad Genetics",
+  "location": "Oregon",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "agent-ix/filament-spec-language",
+      "prs": 11
+    },
+    {
+      "repo": "agent-ix/quire-contract-ir",
+      "prs": 10
+    },
+    {
+      "repo": "agent-ix/quire-contract-codegen",
+      "prs": 7
+    },
+    {
+      "repo": "agent-ix/quire-spec-language",
+      "prs": 6
+    },
+    {
+      "repo": "agent-ix/quoin",
+      "prs": 4
+    },
+    {
+      "repo": "agent-ix/engineering-assurance",
+      "prs": 3
+    },
+    {
+      "repo": "agent-ix/filament-driver",
+      "prs": 3
+    },
+    {
+      "repo": "agent-ix/filament-specification",
+      "prs": 3
+    },
+    {
+      "repo": "agent-ix/filament-contract-ir",
+      "prs": 2
+    },
+    {
+      "repo": "agent-ix/quire-analyze",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 448,
+      "s": 238.0
+    }
+  ]
+}

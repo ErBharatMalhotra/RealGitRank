@@ -1,0 +1,72 @@
+{
+  "username": "juninmd",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 51,
+  "merged_prs": 41,
+  "closed_issues": 0,
+  "pr_reviews": 1,
+  "issue_comments": 45,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 138,
+  "rank_score": 138,
+  "rank": 993,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6952134?u=0267fca206131f8c34029e29530c36eea0f15dc0&v=4",
+  "bio": "Tech Lead @luizalabs",
+  "company": "",
+  "location": "Franca - SP",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "juninmd/ultimate-mugen",
+      "prs": 6
+    },
+    {
+      "repo": "juninmd/canto-widget",
+      "prs": 3
+    },
+    {
+      "repo": "juninmd/evangelho-do-dia",
+      "prs": 2
+    },
+    {
+      "repo": "juninmd/nerd-watch",
+      "prs": 2
+    },
+    {
+      "repo": "juninmd/queima-buchinho",
+      "prs": 2
+    },
+    {
+      "repo": "juninmd/release-radar",
+      "prs": 2
+    },
+    {
+      "repo": "juninmd/ApexSociety",
+      "prs": 1
+    },
+    {
+      "repo": "juninmd/Hakai",
+      "prs": 1
+    },
+    {
+      "repo": "juninmd/appmetrics-dash-hapi",
+      "prs": 1
+    },
+    {
+      "repo": "juninmd/base-actions",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 993,
+      "s": 138.0
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "username": "OpenVibers",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 82,
+  "merged_prs": 228,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 22,
+  "releases": 0,
+  "active_days": 26,
+  "window_days": 30,
+  "activity": 332,
+  "rank_score": 332,
+  "rank": 262,
+  "avatar_url": "https://avatars.githubusercontent.com/u/279216588?u=0401cfc7da2ec59c1686dac2a486b04241d6388c&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "OpenVibers/OpenVibe.Network",
+      "prs": 11
+    },
+    {
+      "repo": "OpenVibers/OpenVibe.AI",
+      "prs": 9
+    },
+    {
+      "repo": "OpenVibers/OpenVibe.Exchange",
+      "prs": 8
+    },
+    {
+      "repo": "OpenVibers/OpenVibe.News",
+      "prs": 7
+    },
+    {
+      "repo": "OpenVibers/OpenVibe.Actor",
+      "prs": 6
+    },
+    {
+      "repo": "OpenVibers/OpenVibe.Codes",
+      "prs": 6
+    },
+    {
+      "repo": "OpenVibers/OpenVibe.Deals",
+      "prs": 6
+    },
+    {
+      "repo": "OpenVibers/OpenVibe.Examples",
+      "prs": 6
+    },
+    {
+      "repo": "OpenVibers/OpenVibe.Games",
+      "prs": 6
+    },
+    {
+      "repo": "OpenVibers/OpenVibe.Inventory",
+      "prs": 6
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 262,
+      "s": 332.0
+    }
+  ]
+}

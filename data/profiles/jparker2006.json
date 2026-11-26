@@ -1,0 +1,48 @@
+{
+  "username": "jparker2006",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 41,
+  "merged_prs": 9,
+  "closed_issues": 18,
+  "pr_reviews": 1,
+  "issue_comments": 113,
+  "releases": 0,
+  "active_days": 9,
+  "window_days": 30,
+  "activity": 182,
+  "rank_score": 182,
+  "rank": 716,
+  "avatar_url": "https://avatars.githubusercontent.com/u/85816763?u=6d2a0f4c63dc5673a214e123a8cd6b25846f91f1&v=4",
+  "bio": "Open Access",
+  "company": "",
+  "location": "California",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "openwizdev/OpenWiz",
+      "prs": 3
+    },
+    {
+      "repo": "openwizdev/WizSkills",
+      "prs": 3
+    },
+    {
+      "repo": "openwizdev/WizSite",
+      "prs": 2
+    },
+    {
+      "repo": "openwizdev/WizPlugins",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 716,
+      "s": 182.0
+    }
+  ]
+}

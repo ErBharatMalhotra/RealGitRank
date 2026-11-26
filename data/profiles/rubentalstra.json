@@ -1,0 +1,72 @@
+{
+  "username": "rubentalstra",
+  "country": "Netherlands",
+  "primary_language": "Rust",
+  "total_pushes": 25,
+  "merged_prs": 48,
+  "closed_issues": 36,
+  "pr_reviews": 0,
+  "issue_comments": 32,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 141,
+  "rank_score": 141,
+  "rank": 966,
+  "avatar_url": "https://avatars.githubusercontent.com/u/14235001?u=ed70680705490da1c0590797603121dd6bf7ae10&v=4",
+  "bio": "I\u2019m a full stack web front/back-end and  mobile app developer. \u2764\ufe0f ",
+  "company": "@vernum-projecten",
+  "location": "The Netherlands",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "FerroHEALTH/FerroEHR",
+      "prs": 13
+    },
+    {
+      "repo": "FerroHEALTH/FerroBRIDGE",
+      "prs": 6
+    },
+    {
+      "repo": "FerroHEALTH/FerroSMART",
+      "prs": 6
+    },
+    {
+      "repo": "FerroHEALTH/FerroAUTH",
+      "prs": 5
+    },
+    {
+      "repo": "FerroHEALTH/FerroSYS",
+      "prs": 4
+    },
+    {
+      "repo": "FerroHEALTH/FerroPIX",
+      "prs": 3
+    },
+    {
+      "repo": "Vernum-Projecten/pullwatch",
+      "prs": 3
+    },
+    {
+      "repo": "FerroHEALTH/FerroFED",
+      "prs": 2
+    },
+    {
+      "repo": "FerroHEALTH/.github",
+      "prs": 1
+    },
+    {
+      "repo": "FerroHEALTH/FerroAUDIT",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 966,
+      "s": 141.0
+    }
+  ]
+}

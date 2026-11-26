@@ -1,0 +1,72 @@
+{
+  "username": "jverkoey",
+  "country": "United States",
+  "primary_language": "Ruby",
+  "total_pushes": 56,
+  "merged_prs": 158,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 3,
+  "releases": 0,
+  "active_days": 29,
+  "window_days": 30,
+  "activity": 217,
+  "rank_score": 217,
+  "rank": 563,
+  "avatar_url": "https://avatars.githubusercontent.com/u/45670?u=927810ea447867116b0968537626045dd3175b94&v=4",
+  "bio": "Building a company for people who use cars.",
+  "company": "Clutch Engineering",
+  "location": "New York",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "OBDb/Hyundai-Kona-Electric",
+      "prs": 6
+    },
+    {
+      "repo": "OBDb/Nissan-Leaf",
+      "prs": 6
+    },
+    {
+      "repo": "OBDb/Kia-EV9",
+      "prs": 5
+    },
+    {
+      "repo": "OBDb/BMW-3-Series",
+      "prs": 3
+    },
+    {
+      "repo": "OBDb/Ford-Fusion-Hybrid",
+      "prs": 3
+    },
+    {
+      "repo": "OBDb/Honda-Accord",
+      "prs": 3
+    },
+    {
+      "repo": "OBDb/Jeep-Grand-Cherokee",
+      "prs": 3
+    },
+    {
+      "repo": "OBDb/BMW-5-Series",
+      "prs": 2
+    },
+    {
+      "repo": "OBDb/Ford-Escape",
+      "prs": 2
+    },
+    {
+      "repo": "OBDb/Ford-Explorer",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 563,
+      "s": 217.0
+    }
+  ]
+}

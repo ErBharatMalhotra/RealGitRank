@@ -1,191 +1,79 @@
-"""Scoring v2: percentile pillars, missing-pillar renormalisation, bot evidence."""
-import pyarrow as pa
-import pyarrow.parquet as pq
-import pytest
-
+"""Scoring v3: one absolute 12-month activity number, no percentiles."""
+import activity
 from scoring_engine import compute_rank_scores
 
 
-def row(**overrides):
-    """A healthy human row with every signal observed."""
+def row(username, pushes=10, merged=1, issues=0, reviews=0, comments=0, releases=0, **extra):
+    total = pushes + merged + issues + reviews + comments + releases
     r = {
-        "username": "dev",
-        "country": "",
-        "primary_language": "Python",
-        "total_pushes": 100,
-        "merged_prs": 5,
-        "merged_prs_external_weighted": 5.0,
-        "closed_issues": 0,
-        "active_repos_touched": 3,
-        "unique_commit_messages": 90,
-        "avg_distinct_active_hours": 8,
-        "avg_files_changed": 4.0,
-        "push_hour_stddev": 3.0,
-        "test_file_ratio": 0.2,
-        "multi_file_commit_ratio": 0.5,
-        "language_diversity": float("nan"),
-        "stars_fraud_filtered": 10,
-        "forks_fraud_filtered": 2,
-        "dependents": 0,
-        "active_shipping_weeks": 10,
-        "pr_reviews": 0,
-        "issue_comments": 0,
-        "releases": 0,
+        "username": username,
+        "total_pushes": pushes,
+        "merged_prs": merged,
+        "closed_issues": issues,
+        "pr_reviews": reviews,
+        "issue_comments": comments,
+        "releases": releases,
         "active_days": 12,
-        "window_days": 30,
-        "entropy_known": True,
-        "files_known": True,
+        "window_days": 365,
+        "rank_score": total,
     }
-    r.update(overrides)
+    r.update(extra)
     return r
 
 
 def score(tmp_path, rows):
-    path = tmp_path / "raw.parquet"
-    pq.write_table(pa.Table.from_pylist(rows), str(path))
+    path = tmp_path / "activity.parquet"
+    activity.write_parquet(rows, str(path))
     return compute_rank_scores(str(path))
 
 
-def test_score_is_percentile_scale_and_monotone(tmp_path):
-    out = score(tmp_path, [
-        row(username="a", merged_prs_external_weighted=0.0, stars_fraud_filtered=0),
-        row(username="b", merged_prs_external_weighted=5.0, stars_fraud_filtered=5),
-        row(username="c", merged_prs_external_weighted=50.0, stars_fraud_filtered=100),
-    ])
+def test_score_is_the_absolute_sum_of_components(tmp_path):
+    out = score(tmp_path, [row("a", pushes=240, merged=86, issues=41, reviews=30, comments=12, releases=3)])
+    assert out[0]["rank_score"] == 412
+    assert out[0]["activity"] == 412
+    assert out[0]["total_pushes"] == 240
+    assert out[0]["merged_prs"] == 86
+    assert out[0]["closed_issues"] == 41
+    assert out[0]["pr_reviews"] == 30
+    assert out[0]["issue_comments"] == 12
+    assert out[0]["releases"] == 3
+
+
+def test_score_is_not_scaled_or_capped(tmp_path):
+    """The old 0-1000 scale is gone: a big number stays big and a small one small."""
+    out = score(tmp_path, [row("big", pushes=50_000, merged=0), row("small", pushes=3, merged=0)])
     by_name = {r["username"]: r for r in out}
-    assert 0 <= by_name["a"]["rank_score"] < by_name["b"]["rank_score"] < by_name["c"]["rank_score"] <= 1000
-    assert by_name["c"]["s_pr"] == 100.0
-    assert by_name["a"]["s_pr"] == 0.0
-    assert all(0 <= r["rank_score"] <= 1000 for r in out)
+    assert by_name["big"]["rank_score"] == 50_000
+    assert by_name["small"]["rank_score"] == 3
+
+
+def test_rank_is_activity_order_and_contiguous(tmp_path):
+    out = score(tmp_path, [row("low", pushes=1), row("high", pushes=100), row("mid", pushes=10)])
+    assert [r["username"] for r in out] == ["high", "mid", "low"]
     assert [r["rank"] for r in out] == [1, 2, 3]
 
 
-def test_all_pillars_measured_for_full_rows(tmp_path):
-    out = score(tmp_path, [row(username="a"), row(username="b", merged_prs_external_weighted=1.0)])
-    for entry in out:
-        assert entry["measured"] == {
-            "delivery": True, "code_health": True, "adoption": True, "consistency": True,
-        }
-        assert entry["s_quality"] is not None
+def test_ties_break_on_merged_prs_then_login(tmp_path):
+    out = score(tmp_path, [
+        row("b", pushes=5, merged=1),
+        row("a", pushes=5, merged=1),
+        row("c", pushes=4, merged=2),
+    ])
+    assert [r["username"] for r in out] == ["c", "a", "b"]
 
 
-def test_missing_quality_is_excluded_not_zeroed(tmp_path):
-    """A user with no test/file evidence keeps delivery/adoption/consistency weight."""
-    unknown = row(username="unknown", test_file_ratio=float("nan"),
-                  multi_file_commit_ratio=float("nan"), files_known=False,
-                  merged_prs_external_weighted=50.0)
-    known = row(username="known", test_file_ratio=0.0, multi_file_commit_ratio=0.0,
-                merged_prs_external_weighted=50.0)
-    out = score(tmp_path, [unknown, known])
-    by_name = {r["username"]: r for r in out}
-    assert by_name["unknown"]["measured"]["code_health"] is False
-    assert by_name["unknown"]["s_quality"] is None
-    assert by_name["known"]["measured"]["code_health"] is True
-    # Equal delivery/adoption/consistency: excluding quality must not punish the user.
-    assert by_name["unknown"]["rank_score"] >= by_name["known"]["rank_score"]
+def test_zero_activity_rows_are_not_ranked(tmp_path):
+    out = score(tmp_path, [row("idle", pushes=0, merged=0), row("dev", pushes=2)])
+    assert [r["username"] for r in out] == ["dev"]
+    assert out[0]["rank"] == 1
 
 
-def test_verified_requires_observed_evidence(tmp_path):
-    no_evidence = row(username="ghost", total_pushes=0, unique_commit_messages=float("nan"),
-                      avg_files_changed=float("nan"), entropy_known=False, files_known=False,
-                      merged_prs=1, merged_prs_external_weighted=1.0)
-    observed = row(username="human")
-    out = score(tmp_path, [no_evidence, observed])
-    by_name = {r["username"]: r for r in out}
-    assert by_name["ghost"]["bot_evidence"] is False
-    assert by_name["ghost"]["is_human_verified"] is False
-    assert by_name["human"]["bot_evidence"] is True
-    assert by_name["human"]["is_human_verified"] is True
+def test_empty_username_is_dropped(tmp_path):
+    out = score(tmp_path, [row(""), row("dev", pushes=1)])
+    assert [r["username"] for r in out] == ["dev"]
 
 
-def test_entropy_penalty_threshold(tmp_path):
-    out = score(tmp_path, [row(unique_commit_messages=5)])[0]
-    assert out["bot_penalty"] == 0.5
-    assert out["is_human_verified"] is False
-    assert out["is_bot_classified"] is False
-
-
-def test_unknown_entropy_is_not_penalized_when_files_observed(tmp_path):
-    out = score(tmp_path, [row(unique_commit_messages=float("nan"), entropy_known=False)])[0]
-    assert out["bot_penalty"] == 0.0
-    assert out["bot_evidence"] is True
-
-
-def test_circadian_penalty_threshold(tmp_path):
-    out = score(tmp_path, [row(avg_distinct_active_hours=23)])[0]
-    assert out["bot_penalty"] == 0.3
-
-
-def test_payload_delta_penalty_threshold(tmp_path):
-    out = score(tmp_path, [row(avg_files_changed=1.0)])[0]
-    assert out["bot_penalty"] == 0.4
-
-
-def test_penalties_capped_and_bot_classified(tmp_path):
-    out = score(tmp_path, [row(unique_commit_messages=1, avg_distinct_active_hours=24,
-                               avg_files_changed=1.0)])[0]
-    assert out["bot_penalty"] == 1.0
-    assert out["is_bot_classified"] is True
-    assert out["rank_score"] == 0.0
-
-
-def test_single_day_rows_still_supported(tmp_path):
-    legacy = row(avg_distinct_active_hours=None)
-    legacy.pop("avg_distinct_active_hours")
-    legacy["distinct_active_hours"] = 8
-    legacy.pop("entropy_known")
-    legacy.pop("files_known")
-    out = score(tmp_path, [legacy])[0]
-    assert out["rank_score"] > 0
-    assert out["bot_evidence"] is True
-
-
-def test_ci_only_owner_is_listed_but_not_ranked(tmp_path):
-    """No observed push or merge means presence only: score 0, no pillar claim."""
-    ci_only = row(username="ci", total_pushes=0, merged_prs=0,
-                  merged_prs_external_weighted=0.0, stars_fraud_filtered=1,
-                  unique_commit_messages=float("nan"), entropy_known=False,
-                  avg_files_changed=float("nan"), files_known=False)
-    active = row(username="dev", stars_fraud_filtered=1)
-    out = {r["username"]: r for r in score(tmp_path, [ci_only, active])}
-
-    assert out["ci"]["listed_only"] is True
-    assert out["ci"]["rank_score"] == 0.0
-    assert out["ci"]["s_pr"] is None and out["ci"]["s_impact"] is None
-    assert out["ci"]["measured"] == {
-        "delivery": False, "code_health": False, "adoption": False, "consistency": False,
-    }
-    assert out["dev"]["listed_only"] is False
-    assert out["dev"]["rank_score"] > 0
-
-
-def test_percentiles_are_computed_without_listed_rows(tmp_path):
-    """A near-empty population must not turn one star into the 99th percentile."""
-    listed = [row(username=f"ci{i}", total_pushes=0, merged_prs=0,
-                  merged_prs_external_weighted=0.0, stars_fraud_filtered=1000)
-              for i in range(10)]
-    active = [row(username="one-star", stars_fraud_filtered=1, merged_prs_external_weighted=1.0),
-              row(username="no-star", stars_fraud_filtered=0, merged_prs_external_weighted=1.0)]
-    out = {r["username"]: r for r in score(tmp_path, listed + active)}
-
-    assert out["one-star"]["s_impact"] == 100.0
-    assert out["no-star"]["s_impact"] == 0.0
-    assert max(r["rank_score"] for name, r in out.items() if name.startswith("ci")) == 0.0
-
-
-def test_profile_metrics_pass_through(tmp_path):
-    r = row(active_repos_touched=6, pr_reviews=3, issue_comments=2, releases=1,
-            stars_fraud_filtered=11, forks_fraud_filtered=4,
-            counted_merges=[{"repo": "a/b", "prs": 3}])
-    out = score(tmp_path, [r])[0]
-    assert out["active_repos_touched"] == 6
-    assert out["pr_reviews"] == 3
-    assert out["issue_comments"] == 2
-    assert out["releases"] == 1
-    assert out["stars_fraud_filtered"] == 11
-    assert out["forks_fraud_filtered"] == 4
-    assert out["test_file_ratio"] == pytest.approx(0.2)
-    assert out["active_days"] == 12
-
-    unknown = score(tmp_path, [row(avg_files_changed=float("nan"), files_known=False)])[0]
-    assert unknown["avg_files_changed"] is None
+def test_no_percentile_fields_remain(tmp_path):
+    out = score(tmp_path, [row("dev")])[0]
+    for key in ("tier", "percentile", "s_pr", "s_quality", "s_impact", "s_consistency", "bot_penalty", "measured"):
+        assert key not in out

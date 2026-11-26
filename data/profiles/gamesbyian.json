@@ -1,0 +1,60 @@
+{
+  "username": "gamesbyian",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 93,
+  "merged_prs": 43,
+  "closed_issues": 0,
+  "pr_reviews": 6,
+  "issue_comments": 75,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 217,
+  "rank_score": 217,
+  "rank": 564,
+  "avatar_url": "https://avatars.githubusercontent.com/u/263793426?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "gamesbyian/Chunks",
+      "prs": 17
+    },
+    {
+      "repo": "gamesbyian/UR-Recomp",
+      "prs": 9
+    },
+    {
+      "repo": "gamesbyian/Expository",
+      "prs": 7
+    },
+    {
+      "repo": "gamesbyian/wallgen",
+      "prs": 6
+    },
+    {
+      "repo": "GBIDEVELOPMENT/general-purpose",
+      "prs": 2
+    },
+    {
+      "repo": "gamesbyian/AYA",
+      "prs": 1
+    },
+    {
+      "repo": "gamesbyian/Glimpse",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 564,
+      "s": 217.0
+    }
+  ]
+}

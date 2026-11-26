@@ -1,0 +1,72 @@
+{
+  "username": "ethanyzhang",
+  "country": "United States",
+  "primary_language": "Rust",
+  "total_pushes": 24,
+  "merged_prs": 35,
+  "closed_issues": 18,
+  "pr_reviews": 1,
+  "issue_comments": 69,
+  "releases": 0,
+  "active_days": 24,
+  "window_days": 30,
+  "activity": 147,
+  "rank_score": 147,
+  "rank": 913,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6643318?u=ed1eb87fe8ab44acb83bb4463ab864893db69896&v=4",
+  "bio": "Founding Head of Engineering @action-state-group, Ph.D. in Computer Science.",
+  "company": "@action-state-group",
+  "location": "Houston, TX",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "action-state-group/evidencebook",
+      "prs": 7
+    },
+    {
+      "repo": "evidence-network/loop",
+      "prs": 5
+    },
+    {
+      "repo": "action-state-group/capsule-viewer",
+      "prs": 4
+    },
+    {
+      "repo": "Mesh-LLM/capsules-plugin",
+      "prs": 3
+    },
+    {
+      "repo": "action-state-group/evidencebook-deal",
+      "prs": 3
+    },
+    {
+      "repo": "action-state-group/agent-action-capsule",
+      "prs": 2
+    },
+    {
+      "repo": "action-state-group/capsule-emit",
+      "prs": 2
+    },
+    {
+      "repo": "action-state-group/capsule-engine",
+      "prs": 2
+    },
+    {
+      "repo": "action-state-group/checkpointed-local-log",
+      "prs": 2
+    },
+    {
+      "repo": "action-state-group/devcon-workshop",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 913,
+      "s": 147.0
+    }
+  ]
+}

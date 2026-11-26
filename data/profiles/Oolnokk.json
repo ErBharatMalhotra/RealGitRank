@@ -1,0 +1,36 @@
+{
+  "username": "Oolnokk",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 171,
+  "merged_prs": 13,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 185,
+  "rank_score": 185,
+  "rank": 693,
+  "avatar_url": "https://avatars.githubusercontent.com/u/155416726?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Oolnokk/HobunjiHollowUnity",
+      "prs": 13
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 693,
+      "s": 185.0
+    }
+  ]
+}

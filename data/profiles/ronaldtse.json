@@ -1,0 +1,72 @@
+{
+  "username": "ronaldtse",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 66,
+  "merged_prs": 93,
+  "closed_issues": 21,
+  "pr_reviews": 1,
+  "issue_comments": 34,
+  "releases": 1,
+  "active_days": 29,
+  "window_days": 30,
+  "activity": 216,
+  "rank_score": 216,
+  "rank": 570,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11865?u=92a21a79202498324675e5e8a2d9b9bafc445ae6&v=4",
+  "bio": "",
+  "company": "riboseinc",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "leptris/yeptris",
+      "prs": 6
+    },
+    {
+      "repo": "metanorma/suma",
+      "prs": 4
+    },
+    {
+      "repo": "interscript/interscript-rs",
+      "prs": 3
+    },
+    {
+      "repo": "metanorma/uniword",
+      "prs": 3
+    },
+    {
+      "repo": "parsanol/parsanol-python",
+      "prs": 3
+    },
+    {
+      "repo": "pubid/pubid",
+      "prs": 3
+    },
+    {
+      "repo": "interscript/interscript-models",
+      "prs": 2
+    },
+    {
+      "repo": "interscript/maps",
+      "prs": 2
+    },
+    {
+      "repo": "leptris/leptris-ts",
+      "prs": 2
+    },
+    {
+      "repo": "leptris/yeptris-py",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 570,
+      "s": 216.0
+    }
+  ]
+}

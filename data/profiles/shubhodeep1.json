@@ -1,0 +1,36 @@
+{
+  "username": "shubhodeep1",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 639,
+  "merged_prs": 8,
+  "closed_issues": 10,
+  "pr_reviews": 1,
+  "issue_comments": 563,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 1221,
+  "rank_score": 1221,
+  "rank": 37,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11442166?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "shubhodeep1/coding-workflows",
+      "prs": 8
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 37,
+      "s": 1221.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "username": "akiojin",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 24,
+  "merged_prs": 11,
+  "closed_issues": 11,
+  "pr_reviews": 0,
+  "issue_comments": 215,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 261,
+  "rank_score": 261,
+  "rank": 367,
+  "avatar_url": "https://avatars.githubusercontent.com/u/965624?u=0b3ad9f4be59794614a90c8f2fd153a61fcb6d32&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "akiojin/gwt",
+      "prs": 11
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 367,
+      "s": 261.0
+    }
+  ]
+}

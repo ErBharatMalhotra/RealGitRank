@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>RealGitRank — Engineering Impact Leaderboard</title>
-    <meta name="description" content="Commit count measures typing speed. RealGitRank ranks merged work, adoption and consistency over a rolling 30-day window, with published pillar coverage and independent validation." />
+    <meta name="description" content="RealGitRank ranks GitHub developers by one absolute number: public pushes, merged pull requests, closed issues, PR reviews, issue comments and releases over the last 12 months. No percentiles, no weights." />
     <link rel="canonical" href="https://realgitrank.bharatdn.com/" />
     <meta property="og:title" content="RealGitRank — Engineering Impact Leaderboard" />
     <meta property="og:description" content="Commit count measures typing speed. RealGitRank measures engineering impact." />
@@ -84,7 +84,7 @@
   </head>
   <body>
     <h1>Real<span>Git</span>Rank</h1>
-    <p class="sub">Commit count measures typing speed. RealGitRank scores a rolling 30-day window of merged work, adoption and consistency. <strong><span id="total">…</span> ranked</strong> of <span id="tracked">…</span> developers in today's snapshot · <span id="listed">…</span> listed without a score. <a href="/countries">🌍 Countries & Worldwide →</a> · <a href="/badges/">🏅 README badges →</a> · <a href="/methodology/">📐 Methodology, coverage & API →</a></p>
+    <p class="sub"><strong><span id="total">…</span> developers ranked</strong> by public GitHub activity in the last 12 months: pushes + merged pull requests + closed issues + PR reviews + comments + releases. No percentiles, no weights, no tiers — the components are published with every row. <a href="/countries">🌍 Countries & Worldwide →</a> · <a href="/badges/">🏅 README badges →</a> · <a href="/methodology/">📐 Methodology, coverage & API →</a></p>
     <div class="controls">
       <div class="qwrap">
         <input id="q" type="text" placeholder="Search username, country, language..." autocomplete="off" />
@@ -96,7 +96,7 @@
     <p class="qnote">Typing the start of a username searches the whole board; a match inside the name covers the top 50,000. Press <code>Enter</code> to open any username directly, or use <code>/profile/?u=username</code>.</p>
     <div class="stats" id="stats">Loading...</div>
     <table id="tbl">
-      <thead><tr><th>#</th><th>User</th><th>Score</th><th>Tier</th><th>Country</th><th>Lang</th><th>Merges (30d)</th></tr></thead>
+      <thead><tr><th>#</th><th>User</th><th>Activity (12 mo)</th><th>Pushes</th><th>Country</th><th>Lang</th><th>Merged PRs</th></tr></thead>
       <tbody id="tbody"></tbody>
     </table>
     <button class="loadmore" id="loadmore">Load more</button>
@@ -108,7 +108,7 @@
       </div>
     </div>
     <footer class="foot">
-      <p><strong>Disclaimer:</strong> RealGitRank is an independent, unofficial project built only from public GitHub events. A score is an automated estimate over one rolling 30-day window — not a statement of fact about a person, not a measure of skill, and not affiliated with GitHub.</p>
+      <p><strong>Disclaimer:</strong> RealGitRank is an independent, unofficial project built only from public GitHub events. A score is an automated count over one rolling 12-month window — not a statement of fact about a person, not a measure of skill, and not affiliated with GitHub.</p>
       <p>Wrong entry, misattribution, or prefer not to appear? <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a> — applied on the next daily publish.</p>
     </footer>
     <script>
@@ -205,17 +205,15 @@
         tr.dataset.u = (u.username||'').toLowerCase();
         tr.dataset.c = (u.country||'').toLowerCase();
         tr.dataset.l = (u.primary_language||'').toLowerCase();
-        const listed = Boolean(u.listed_only);
         const delta = typeof u.rank_delta === 'number' ? u.rank_delta : 0;
         const move = delta === 0 ? '' : `<span class="move ${delta > 0 ? 'up' : 'down'}" title="vs yesterday">${delta > 0 ? '▲' : '▼'}${Math.abs(delta)}</span>`;
-        const tier = u.tier ? `<span class="tier t-${String(u.tier).toLowerCase()}" title="Top ${(100 - (u.percentile || 0)).toFixed(1)}%">${u.tier}</span>` : '—';
-        tr.innerHTML = `<td>${listed ? '—' : u.rank}${listed ? '<span class="move">listed</span>' : move}</td>
+        tr.innerHTML = `<td>${u.rank}${move}</td>
           <td><img src="${u.avatar_url||''}" alt="" width="24" height="24" style="border-radius:50%;vertical-align:middle;margin-right:6px" onerror="this.style.display='none'" /><a href="https://github.com/${u.username}" target="_blank" rel="noopener noreferrer">${u.username}</a> <button type="button" class="details" data-u="${u.username}" aria-label="Show details for ${u.username}">details</button></td>
-          <td class="score">${listed ? '—' : u.rank_score}</td>
-          <td>${tier}</td>
+          <td class="score">${num(u.rank_score)}</td>
+          <td>${num(u.total_pushes)}</td>
           <td>${u.country||'—'}</td>
           <td>${u.primary_language||'—'}</td>
-          <td>${u.merged_prs}</td>`;
+          <td>${num(u.merged_prs)}</td>`;
         return tr;
       }
 
@@ -256,8 +254,6 @@
           langs.forEach(l => { const o = document.createElement('option'); o.value = l.toLowerCase(); o.textContent = l; langSel.appendChild(o); });
           fetch('/data/status.json').then((r) => r.json()).then((s) => {
             document.getElementById('total').textContent = (s.users_ranked ?? s.users ?? 0).toLocaleString();
-            document.getElementById('tracked').textContent = (s.users_total ?? s.users ?? 0).toLocaleString();
-            document.getElementById('listed').textContent = (s.users_listed ?? s.listed_only ?? 0).toLocaleString();
           }).catch(() => {});
         }
         applyFilter();
@@ -284,40 +280,40 @@
         // /api/user/<name>.json wraps the record: { generated_at, window, user: {...} }
         const d = payload && typeof payload.user === 'object' && payload.user ? payload.user : payload;
         const name = String(d.username || '');
-        const measured = d.measured && typeof d.measured === 'object' ? d.measured : {};
-        const pillars = [
-          ['Delivery', 'delivery', d.s_pr, 0.35],
-          ['Code health', 'code_health', d.s_quality, 0.25],
-          ['Adoption', 'adoption', d.s_impact, 0.25],
-          ['Consistency', 'consistency', d.s_consistency, 0.15],
-        ].map(([label, key, val, weight]) => {
-          const seen = typeof val === 'number' && Number.isFinite(val) && measured[key] !== false;
-          const v = seen ? Math.max(0, Math.min(100, val)) : 0;
-          return `<div style="margin:8px 0"><div style="display:flex;justify-content:space-between;font-size:13px"><span>${label} (×${weight})</span><span class="muted">${seen ? v.toFixed(1) + ' / 100' : 'not observed'}</span></div><div class="bar"><div style="width:${v}%"></div></div></div>`;
+        const components = [
+          ['Pushes', d.total_pushes],
+          ['Merged PRs', d.merged_prs],
+          ['Closed issues', d.closed_issues],
+          ['PR reviews', d.pr_reviews],
+          ['Issue comments', d.issue_comments],
+          ['Releases', d.releases],
+        ];
+        const sum = components.reduce((total, [, value]) => total + (Number(value) || 0), 0) || 1;
+        const pillars = components.map(([label, value]) => {
+          const v = Number(value) || 0;
+          const share = (v / sum) * 100;
+          return `<div style="margin:8px 0"><div style="display:flex;justify-content:space-between;font-size:13px"><span>${label}</span><span class="muted">${v.toLocaleString()} (${share.toFixed(1)}%)</span></div><div class="bar"><div style="width:${share}%"></div></div></div>`;
         }).join('');
         const merges = Array.isArray(d.counted_merges) ? d.counted_merges.slice(0, 8).map((m) =>
           `<li><a href="https://github.com/${String(m.repo).split('/').map(encodeURIComponent).join('/')}/pulls?q=is%3Apr+is%3Amerged" target="_blank" rel="noopener noreferrer nofollow">${esc(m.repo)}</a> — ${num(m.prs)} merged PR</li>`
         ).join('') : '';
-        // Every ranked user has a profile view; detailed pillars exist for the top 1,000.
+        // Every ranked user has a profile view; the per-user JSON exists for the top 1,000.
         const profileLink = d.rank
           ? `<a href="/profile/?u=${encodeURIComponent(name)}&r=${encodeURIComponent(String(d.rank))}">Full profile →</a>` : '';
-        const detailNote = Object.keys(measured).length ? '' :
-          '<p class="muted" style="margin:8px 0 0">This developer is ranked, but the detailed pillar breakdown is generated for the top 1,000 only.</p>';
         modalBody.innerHTML = `
           <h2 id="modal-name">${esc(name)}</h2>
-          <p class="muted">${d.rank ? 'Rank #' + num(d.rank) : 'Unranked'}${d.tier ? ' · ' + esc(d.tier) : ''}${d.country ? ' · ' + esc(d.country) : ''}${d.primary_language ? ' · ' + esc(d.primary_language) : ''}</p>
+          <p class="muted">${d.rank ? 'Rank #' + num(d.rank) : 'Unranked'}${d.country ? ' · ' + esc(d.country) : ''}${d.primary_language ? ' · ' + esc(d.primary_language) : ''}</p>
           <div class="metrics">
-            <div class="metric"><b>${num(d.rank_score)}</b><span>Score (0–1000)</span></div>
-            <div class="metric"><b>${num(d.merged_prs)}</b><span>Merged PRs (30d)</span></div>
+            <div class="metric"><b>${num(d.rank_score)}</b><span>Activity (12 mo)</span></div>
+            <div class="metric"><b>${num(d.merged_prs)}</b><span>Merged PRs</span></div>
             <div class="metric"><b>${num(d.active_days)}</b><span>Active days</span></div>
             <div class="metric"><b>${num(d.pr_reviews)}</b><span>Reviews</span></div>
           </div>
-          <h3 style="margin:14px 0 4px;font-size:14px">Why this score</h3>
+          <h3 style="margin:14px 0 4px;font-size:14px">What the activity is made of</h3>
           ${pillars}
-          <p class="muted" style="margin:8px 0 0">Pillars are 0–100 percentiles where observed. Missing pillars are excluded from the score, not counted as zero.</p>
-          ${detailNote}
+          <p class="muted" style="margin:8px 0 0">The score is the sum of these six public event counts over the last 12 months. Nothing is percentile-ranked or weighted.</p>
           ${merges ? `<h3 style="margin:16px 0 4px;font-size:14px">Counted merges</h3><ul style="margin:0;padding-left:18px;font-size:13px">${merges}</ul>` : ''}
-          <p class="muted" style="margin:14px 0 0">Scores are automated estimates from public GitHub events over a 30-day window, not a statement of fact about a person.</p>
+          <p class="muted" style="margin:14px 0 0">An automated count of public GitHub events over a rolling 12-month window, not a statement of fact about a person.</p>
           <div class="links"><a href="https://github.com/${encodeURIComponent(name)}" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>${profileLink}<a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Report / opt out</a></div>`;
       }
 

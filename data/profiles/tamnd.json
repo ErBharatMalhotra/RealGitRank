@@ -2,51 +2,32 @@
   "username": "tamnd",
   "country": "Vietnam",
   "primary_language": "Go",
-  "total_pushes": 31,
+  "total_pushes": 46,
   "merged_prs": 74,
-  "listed_only": false,
-  "s_pr": 99.99,
-  "s_quality": 50.0,
-  "s_impact": 99.89,
-  "s_consistency": 99.02,
-  "measured": {
-    "delivery": true,
-    "code_health": true,
-    "adoption": true,
-    "consistency": true
-  },
-  "active_days": 29,
-  "window_days": 30,
-  "rank_score": 873.2,
-  "active_repos_touched": 35,
+  "closed_issues": 11,
   "pr_reviews": 0,
-  "issue_comments": 45,
-  "releases": 14,
-  "stars_fraud_filtered": 6,
-  "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 5,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 4,
+  "issue_comments": 47,
+  "releases": 12,
+  "active_days": 28,
+  "window_days": 30,
+  "activity": 190,
+  "rank_score": 190,
+  "rank": 673,
   "avatar_url": "https://avatars.githubusercontent.com/u/1218621?v=4",
   "bio": "",
   "company": "",
   "location": "Ho Chi Minh City, Vietnam",
-  "score_version": "v2-percentile",
-  "window_start": "2026-10-27",
-  "window_end": "2026-11-25",
-  "ci_pushes": 24,
-  "percentile": 100.0,
-  "tier": "Elite",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
   "prev_rank": 4,
   "prev_score": 872.8,
-  "rank_delta": 0,
-  "score_delta": 0.4,
+  "rank_delta": -669,
+  "score_delta": -682.8,
   "counted_merges": [
     {
       "repo": "tamnd/rupg",
-      "prs": 9
+      "prs": 11
     },
     {
       "repo": "tamnd/algorithm",
@@ -69,15 +50,15 @@
       "prs": 6
     },
     {
+      "repo": "tamnd/math2-agent",
+      "prs": 4
+    },
+    {
       "repo": "tamnd/ai",
       "prs": 3
     },
     {
       "repo": "tamnd/ai-agent",
-      "prs": 3
-    },
-    {
-      "repo": "tamnd/math2-agent",
       "prs": 3
     },
     {
@@ -103,8 +84,8 @@
     },
     {
       "d": "2026-11-26",
-      "r": 4,
-      "s": 873.2
+      "r": 673,
+      "s": 190.0
     }
   ]
 }

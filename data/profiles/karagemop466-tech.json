@@ -1,0 +1,72 @@
+{
+  "username": "karagemop466-tech",
+  "country": "",
+  "primary_language": "HTML",
+  "total_pushes": 128,
+  "merged_prs": 47,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 4,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 179,
+  "rank_score": 179,
+  "rank": 730,
+  "avatar_url": "https://avatars.githubusercontent.com/u/309443653?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "karagemop466-tech/Demo2",
+      "prs": 5
+    },
+    {
+      "repo": "karagemop466-tech/Korea2",
+      "prs": 4
+    },
+    {
+      "repo": "karagemop466-tech/Affil2",
+      "prs": 3
+    },
+    {
+      "repo": "karagemop466-tech/Poker1",
+      "prs": 3
+    },
+    {
+      "repo": "karagemop466-tech/X2",
+      "prs": 3
+    },
+    {
+      "repo": "karagemop466-tech/X4",
+      "prs": 3
+    },
+    {
+      "repo": "karagemop466-tech/Affil1",
+      "prs": 2
+    },
+    {
+      "repo": "karagemop466-tech/Affil3",
+      "prs": 2
+    },
+    {
+      "repo": "karagemop466-tech/GEMSDOEkarage2",
+      "prs": 2
+    },
+    {
+      "repo": "karagemop466-tech/Korea7",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 730,
+      "s": 179.0
+    }
+  ]
+}

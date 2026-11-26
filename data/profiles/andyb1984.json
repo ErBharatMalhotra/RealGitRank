@@ -1,0 +1,30 @@
+{
+  "username": "andyb1984",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 238,
+  "merged_prs": 0,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 238,
+  "rank_score": 238,
+  "rank": 453,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 453,
+      "s": 238.0
+    }
+  ]
+}

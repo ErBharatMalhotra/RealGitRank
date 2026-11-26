@@ -1,0 +1,30 @@
+{
+  "username": "binc4809-999",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 640,
+  "merged_prs": 0,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 640,
+  "rank_score": 640,
+  "rank": 109,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 109,
+      "s": 640.0
+    }
+  ]
+}

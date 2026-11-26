@@ -1,0 +1,72 @@
+{
+  "username": "HephzibahBehulah",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 87,
+  "merged_prs": 51,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 140,
+  "rank_score": 140,
+  "rank": 975,
+  "avatar_url": "https://avatars.githubusercontent.com/u/126060791?u=9cf8cfba863a8abfb4fae4ec83fbc9e4037d2722&v=4",
+  "bio": "\u26a1 Elektroniker | \ud83d\udcc8 Trading | \ud83e\udd16 AI | \u271d\ufe0f Evangelist | \ud83c\udfdb\ufe0f Politics",
+  "company": "@HephzibahBehulahHQ ",
+  "location": "Hamburg ",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "HephzibahBehulahHQ/AdigunAiAutoCad",
+      "prs": 9
+    },
+    {
+      "repo": "HephzibahBehulahHQ/AdigunSimulator",
+      "prs": 9
+    },
+    {
+      "repo": "HephzibahBehulahHQ/AdigunElectroCAD",
+      "prs": 7
+    },
+    {
+      "repo": "HephzibahBehulahHQ/AdigunSPs",
+      "prs": 7
+    },
+    {
+      "repo": "HephzibahBehulahHQ/adigunFreeDocEditor",
+      "prs": 5
+    },
+    {
+      "repo": "HephzibahBehulahHQ/AdigunLightDesign",
+      "prs": 4
+    },
+    {
+      "repo": "HephzibahBehulahHQ/adigunEplanAI",
+      "prs": 3
+    },
+    {
+      "repo": "HephzibahBehulahHQ/Adigun-AiBible",
+      "prs": 2
+    },
+    {
+      "repo": "HephzibahBehulahHQ/AdigunPowerLab",
+      "prs": 2
+    },
+    {
+      "repo": "HephzibahBehulah/Hephzibahbehulah.github.io",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 975,
+      "s": 140.0
+    }
+  ]
+}

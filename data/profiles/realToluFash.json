@@ -1,0 +1,36 @@
+{
+  "username": "realToluFash",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 40,
+  "merged_prs": 34,
+  "closed_issues": 0,
+  "pr_reviews": 149,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 223,
+  "rank_score": 223,
+  "rank": 529,
+  "avatar_url": "https://avatars.githubusercontent.com/u/47564178?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "realToluFash/festivo",
+      "prs": 34
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 529,
+      "s": 223.0
+    }
+  ]
+}

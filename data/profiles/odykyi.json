@@ -1,0 +1,72 @@
+{
+  "username": "odykyi",
+  "country": "Netherlands",
+  "primary_language": "JavaScript",
+  "total_pushes": 63,
+  "merged_prs": 39,
+  "closed_issues": 15,
+  "pr_reviews": 12,
+  "issue_comments": 10,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 139,
+  "rank_score": 139,
+  "rank": 986,
+  "avatar_url": "https://avatars.githubusercontent.com/u/24225497?u=0c86785cba91fac60a4b0e25c1e5725a5f5b7043&v=4",
+  "bio": "@boring-team @orgjscom @strongloop @flisk-sh ",
+  "company": "",
+  "location": "Amsterdam",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "flisk-sh/flisk",
+      "prs": 10
+    },
+    {
+      "repo": "flisk-sh/chat",
+      "prs": 5
+    },
+    {
+      "repo": "flisk-sh/run-my-agents",
+      "prs": 5
+    },
+    {
+      "repo": "flisk-sh/grow",
+      "prs": 3
+    },
+    {
+      "repo": "flisk-sh/fleet",
+      "prs": 2
+    },
+    {
+      "repo": "flisk-sh/pages",
+      "prs": 2
+    },
+    {
+      "repo": "flisk-sh/roadmap",
+      "prs": 2
+    },
+    {
+      "repo": "flisk-sh/bot",
+      "prs": 1
+    },
+    {
+      "repo": "flisk-sh/cilytics",
+      "prs": 1
+    },
+    {
+      "repo": "flisk-sh/citable",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 986,
+      "s": 139.0
+    }
+  ]
+}

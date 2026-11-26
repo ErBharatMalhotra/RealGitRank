@@ -1,0 +1,52 @@
+{
+  "username": "alexkirs",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 5,
+  "merged_prs": 25,
+  "closed_issues": 7,
+  "pr_reviews": 0,
+  "issue_comments": 128,
+  "releases": 0,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 165,
+  "rank_score": 165,
+  "rank": 799,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1640869?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "taskqorg/fleet",
+      "prs": 11
+    },
+    {
+      "repo": "taskqorg/pilotq",
+      "prs": 7
+    },
+    {
+      "repo": "taskqorg/taskq",
+      "prs": 4
+    },
+    {
+      "repo": "taskqorg/agentq",
+      "prs": 2
+    },
+    {
+      "repo": "taskqorg/dashq",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 799,
+      "s": 165.0
+    }
+  ]
+}

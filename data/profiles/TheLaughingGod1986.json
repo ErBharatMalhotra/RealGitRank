@@ -1,0 +1,40 @@
+{
+  "username": "TheLaughingGod1986",
+  "country": "United Kingdom",
+  "primary_language": "TypeScript",
+  "total_pushes": 397,
+  "merged_prs": 13,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 62,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 472,
+  "rank_score": 472,
+  "rank": 156,
+  "avatar_url": "https://avatars.githubusercontent.com/u/16646824?u=9fd4c41b6e64fed6bc981ef62443f52f0fc51b82&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "TheLaughingGod1986/orbit-with-ben",
+      "prs": 8
+    },
+    {
+      "repo": "TheLaughingGod1986/history-of-science",
+      "prs": 5
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 156,
+      "s": 472.0
+    }
+  ]
+}

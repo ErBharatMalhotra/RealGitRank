@@ -1,0 +1,40 @@
+{
+  "username": "billbisco",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 147,
+  "merged_prs": 12,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 159,
+  "rank_score": 159,
+  "rank": 835,
+  "avatar_url": "https://avatars.githubusercontent.com/u/18236252?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "billbisco/swccg-gemp",
+      "prs": 10
+    },
+    {
+      "repo": "billbisco/swccg-wiki",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 835,
+      "s": 159.0
+    }
+  ]
+}

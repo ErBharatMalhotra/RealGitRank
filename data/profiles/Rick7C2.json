@@ -1,0 +1,72 @@
+{
+  "username": "Rick7C2",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 144,
+  "merged_prs": 39,
+  "closed_issues": 0,
+  "pr_reviews": 136,
+  "issue_comments": 40,
+  "releases": 5,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 364,
+  "rank_score": 364,
+  "rank": 230,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1856877?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "TogetherWeOwn/nntunev2",
+      "prs": 10
+    },
+    {
+      "repo": "TogetherWeOwn/two-web-next",
+      "prs": 7
+    },
+    {
+      "repo": "TogetherWeOwn/two-bot-next",
+      "prs": 6
+    },
+    {
+      "repo": "TogetherWeOwn/open-personal-agent",
+      "prs": 5
+    },
+    {
+      "repo": "TogetherWeOwn/kofra",
+      "prs": 2
+    },
+    {
+      "repo": "TogetherWeOwn/paperclip-plugin-sandbox-boat",
+      "prs": 2
+    },
+    {
+      "repo": "TogetherWeOwn/qerith",
+      "prs": 2
+    },
+    {
+      "repo": "TogetherWeOwn/cliproxy-provider-nvidia-nim",
+      "prs": 1
+    },
+    {
+      "repo": "TogetherWeOwn/cliproxy-provider-openrouter",
+      "prs": 1
+    },
+    {
+      "repo": "TogetherWeOwn/paperclip",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 230,
+      "s": 364.0
+    }
+  ]
+}

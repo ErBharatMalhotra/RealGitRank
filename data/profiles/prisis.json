@@ -1,0 +1,44 @@
+{
+  "username": "prisis",
+  "country": "Germany",
+  "primary_language": "TypeScript",
+  "total_pushes": 64,
+  "merged_prs": 14,
+  "closed_issues": 0,
+  "pr_reviews": 22,
+  "issue_comments": 30,
+  "releases": 15,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 145,
+  "rank_score": 145,
+  "rank": 931,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2716058?u=0bf7697d90371842303413d0886bf50f17f5501d&v=4",
+  "bio": "Founder @anolilab. Web, app and AI development for early-stage startups. Creator of Lunora (alpha), neore and Visulima.",
+  "company": "@anolilab",
+  "location": "Germany",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "anolilab/celld",
+      "prs": 6
+    },
+    {
+      "repo": "anolilab/lunora",
+      "prs": 5
+    },
+    {
+      "repo": "anolilab/neore",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 931,
+      "s": 145.0
+    }
+  ]
+}

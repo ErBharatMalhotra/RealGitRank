@@ -1,0 +1,48 @@
+{
+  "username": "olafura",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 33,
+  "merged_prs": 13,
+  "closed_issues": 7,
+  "pr_reviews": 118,
+  "issue_comments": 11,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 182,
+  "rank_score": 182,
+  "rank": 715,
+  "avatar_url": "https://avatars.githubusercontent.com/u/292662?u=5d76a540727d8be5d4683f9c30ec39c2f8a5b807&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "hal-c2/ljos-ui",
+      "prs": 5
+    },
+    {
+      "repo": "hal-c2/ljos-web",
+      "prs": 4
+    },
+    {
+      "repo": "hal-c2/hal-c2",
+      "prs": 3
+    },
+    {
+      "repo": "hal-c2/eldur",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 715,
+      "s": 182.0
+    }
+  ]
+}

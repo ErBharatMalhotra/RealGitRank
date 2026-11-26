@@ -1,0 +1,40 @@
+{
+  "username": "exafyltd",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 539,
+  "merged_prs": 2,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 5,
+  "releases": 0,
+  "active_days": 7,
+  "window_days": 30,
+  "activity": 546,
+  "rank_score": 546,
+  "rank": 128,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "exafyltd/vitana-platform",
+      "prs": 1
+    },
+    {
+      "repo": "exafyltd/vitana-v1",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 128,
+      "s": 546.0
+    }
+  ]
+}

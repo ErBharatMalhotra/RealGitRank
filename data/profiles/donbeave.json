@@ -1,0 +1,56 @@
+{
+  "username": "donbeave",
+  "country": "",
+  "primary_language": "Java",
+  "total_pushes": 55,
+  "merged_prs": 32,
+  "closed_issues": 16,
+  "pr_reviews": 138,
+  "issue_comments": 42,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 283,
+  "rank_score": 283,
+  "rank": 313,
+  "avatar_url": "https://avatars.githubusercontent.com/u/139017?u=49a6fe00b782eebfb2cb5d5c9d9e6ab4a7f76399&v=4",
+  "bio": "CTO at ChainArgos / Principal Architect at Scentbird",
+  "company": "@scentbird @chainargos",
+  "location": "Hong Kong",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "tailrocks/velnor-new",
+      "prs": 19
+    },
+    {
+      "repo": "donbeave/micronaut-graphql-tools",
+      "prs": 4
+    },
+    {
+      "repo": "tailrocks/terminal-components-baseline",
+      "prs": 4
+    },
+    {
+      "repo": "tailrocks/ruxel",
+      "prs": 3
+    },
+    {
+      "repo": "tailrocks/github-terraform",
+      "prs": 1
+    },
+    {
+      "repo": "tailrocks/termpane",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 313,
+      "s": 283.0
+    }
+  ]
+}

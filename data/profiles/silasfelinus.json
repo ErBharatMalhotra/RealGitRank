@@ -1,0 +1,40 @@
+{
+  "username": "silasfelinus",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 144,
+  "merged_prs": 30,
+  "closed_issues": 1,
+  "pr_reviews": 0,
+  "issue_comments": 17,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 192,
+  "rank_score": 192,
+  "rank": 665,
+  "avatar_url": "https://avatars.githubusercontent.com/u/28974288?u=600236f6babe3c331890c1bae65745b928c39d17&v=4",
+  "bio": "Human Ambassador for Kind Robots (kindrobots.org). Creating tools for AI/Human Collaboration. Please donate to https://againstmalaria.org/amibot",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "silasfelinus/conductor",
+      "prs": 15
+    },
+    {
+      "repo": "silasfelinus/kind_robots",
+      "prs": 15
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 665,
+      "s": 192.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "username": "Enteee",
+  "country": "Switzerland",
+  "primary_language": "Unknown",
+  "total_pushes": 29,
+  "merged_prs": 12,
+  "closed_issues": 14,
+  "pr_reviews": 0,
+  "issue_comments": 104,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 159,
+  "rank_score": 159,
+  "rank": 834,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5493775?u=828351db55e920cbd0d74d30d038c4836b01d3ef&v=4",
+  "bio": "I like ducks!",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Enteee/VibeWars",
+      "prs": 12
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 834,
+      "s": 159.0
+    }
+  ]
+}

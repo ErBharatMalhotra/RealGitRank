@@ -15,8 +15,7 @@ def entry(rank=1, **extra):
         "username": f"dev{rank}",
         "rank": rank,
         "rank_score": 100.0,
-        "tier": "Elite",
-        "percentile": 99.9,
+        "activity": 100,
         "country": "India",
         "primary_language": "Python",
         "merged_prs": 12,
@@ -102,10 +101,10 @@ def test_build_user_includes_history():
 
 def test_build_user_reads_counted_merges_from_profile():
     # Evidence lives in data/profiles/<name>.json, not in the leaderboard row.
-    profile = {"counted_merges": [{"repo": "acme/app", "prs": 4}], "measured": {"delivery": True}}
+    profile = {"counted_merges": [{"repo": "acme/app", "prs": 4}]}
     payload = build_user(entry(3), profile, {"last_run_utc": "x"}, "2026-11-21")
     assert payload["user"]["counted_merges"] == profile["counted_merges"]
-    assert payload["user"]["measured"] == profile["measured"]
+    assert payload["user"]["rank_score"] == 100.0
 
 
 def test_build_leaderboard_metadata_and_count():
@@ -113,7 +112,9 @@ def test_build_leaderboard_metadata_and_count():
     assert payload["count"] == 2
     assert len(payload["users"]) == 2
     assert payload["site"] == SITE
-    assert payload["weights"]["delivery"] == 0.35
+    assert payload["score_unit"].startswith("public GitHub activity")
+    assert payload["activity_components"]["merged_prs"] == "Merged pull requests"
+    assert "weights" not in payload and "tier_bands" not in payload
     assert payload["url_templates"]["user_api"].endswith("{username}.json")
 
 
@@ -123,8 +124,8 @@ def test_llms_text_lists_endpoints_and_top_users():
     assert text.startswith("# RealGitRank")
     assert f"{SITE}/api/leaderboard.json" in text
     assert f"{SITE}/api/user/dev1.json" in text
-    assert "dev1 — score 120.5" in text
-    assert "Delivery (35%)" in text
+    assert "dev1 — 120.5 activity events" in text
+    assert "rank_score = total_pushes + merged_prs" in text
 
 
 def test_generate_writes_leaderboard_user_files_and_llms(tmp_path):

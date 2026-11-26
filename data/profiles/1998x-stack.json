@@ -1,0 +1,72 @@
+{
+  "username": "1998x-stack",
+  "country": "China",
+  "primary_language": "HTML",
+  "total_pushes": 152,
+  "merged_prs": 13,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 166,
+  "rank_score": 166,
+  "rank": 797,
+  "avatar_url": "https://avatars.githubusercontent.com/u/32125213?u=05e50800eb7c43be00da5a6390bd65d89d6a4030&v=4",
+  "bio": "\u4e00\u52a8\u4e0d\u5982\u4e00\u9759",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "1998x-stack/xm-posts",
+      "prs": 2
+    },
+    {
+      "repo": "1998x-stack/CAN-bus-tutorial",
+      "prs": 1
+    },
+    {
+      "repo": "1998x-stack/Numerical_Optimization_Tutorial",
+      "prs": 1
+    },
+    {
+      "repo": "1998x-stack/arxiv2notion",
+      "prs": 1
+    },
+    {
+      "repo": "1998x-stack/awsome-games",
+      "prs": 1
+    },
+    {
+      "repo": "1998x-stack/bilingual-technical-glossary",
+      "prs": 1
+    },
+    {
+      "repo": "1998x-stack/cron-news",
+      "prs": 1
+    },
+    {
+      "repo": "1998x-stack/india-supply-chain-watch",
+      "prs": 1
+    },
+    {
+      "repo": "1998x-stack/intelligent-browser-tool",
+      "prs": 1
+    },
+    {
+      "repo": "1998x-stack/mini-redis",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 797,
+      "s": 166.0
+    }
+  ]
+}

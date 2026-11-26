@@ -1,0 +1,64 @@
+{
+  "username": "devantler",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 72,
+  "merged_prs": 20,
+  "closed_issues": 12,
+  "pr_reviews": 16,
+  "issue_comments": 76,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 196,
+  "rank_score": 196,
+  "rank": 652,
+  "avatar_url": "https://avatars.githubusercontent.com/u/26203420?u=7e6ed7b864a1d603200ca9f09f07d0c1ff8c7b30&v=4",
+  "bio": "I am an ambitious software engineer with an agile mindset, and the desire to overcome innovative challenges. For that open source is my toolbox \ud83e\uddf0",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "devantler-tech/platform",
+      "prs": 8
+    },
+    {
+      "repo": "devantler-tech/business-site",
+      "prs": 3
+    },
+    {
+      "repo": "devantler-tech/monorepo",
+      "prs": 3
+    },
+    {
+      "repo": "devantler-tech/ksail",
+      "prs": 2
+    },
+    {
+      "repo": "devantler-tech/.github",
+      "prs": 1
+    },
+    {
+      "repo": "devantler-tech/agent-plugins",
+      "prs": 1
+    },
+    {
+      "repo": "devantler-tech/homebrew-tap",
+      "prs": 1
+    },
+    {
+      "repo": "devantler-tech/world-at-ruin",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 652,
+      "s": 196.0
+    }
+  ]
+}

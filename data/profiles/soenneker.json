@@ -1,0 +1,36 @@
+{
+  "username": "soenneker",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 309,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 362,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 672,
+  "rank_score": 672,
+  "rank": 98,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "soenneker/soenneker.google.calendar.openapiclientutil",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 98,
+      "s": 672.0
+    }
+  ]
+}

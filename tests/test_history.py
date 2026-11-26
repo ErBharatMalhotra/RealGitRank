@@ -6,12 +6,9 @@ from history import (
     MOVEMENT_KEYS,
     append_user_history,
     apply_deltas,
-    assign_tiers,
     clear_movement,
     load_previous_snapshot,
-    percentile_for,
     prune_snapshots,
-    tier_for,
     write_snapshot,
 )
 
@@ -21,40 +18,6 @@ def board(size):
         {"username": f"u{i}", "rank": i, "rank_score": round(1000.0 - i, 1)}
         for i in range(1, size + 1)
     ]
-
-
-def test_percentile_spans_the_board():
-    assert percentile_for(1, 100) == 100.0
-    assert percentile_for(100, 100) == 0.0
-    assert percentile_for(51, 101) == 50.0
-    assert percentile_for(1, 1) == 100.0
-
-
-def test_percentile_clamps_out_of_range_ranks():
-    assert percentile_for(0, 100) == 100.0
-    assert percentile_for(500, 100) == 0.0
-
-
-def test_tier_boundaries():
-    assert tier_for(100.0) == "Elite"
-    assert tier_for(99.0) == "Elite"
-    assert tier_for(98.9) == "Diamond"
-    assert tier_for(95.0) == "Diamond"
-    assert tier_for(94.9) == "Platinum"
-    assert tier_for(90.0) == "Platinum"
-    assert tier_for(75.0) == "Gold"
-    assert tier_for(50.0) == "Silver"
-    assert tier_for(49.9) == "Bronze"
-    assert tier_for(0.0) == "Bronze"
-
-
-def test_assign_tiers_annotates_every_row():
-    lb = assign_tiers(board(100))
-    assert lb[0]["percentile"] == 100.0
-    assert lb[0]["tier"] == "Elite"
-    assert lb[-1]["percentile"] == 0.0
-    assert lb[-1]["tier"] == "Bronze"
-    assert all("tier" in u for u in lb)
 
 
 def test_clear_movement_drops_stale_deltas():

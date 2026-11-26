@@ -1,47 +1,29 @@
 {
   "username": "kim-em",
   "country": "",
-  "primary_language": "Lean",
-  "total_pushes": 48,
-  "merged_prs": 53,
-  "listed_only": false,
-  "s_pr": 99.99,
-  "s_quality": 50.0,
-  "s_impact": 98.95,
-  "s_consistency": 98.94,
-  "measured": {
-    "delivery": true,
-    "code_health": true,
-    "adoption": true,
-    "consistency": true
-  },
+  "primary_language": "Unknown",
+  "total_pushes": 51,
+  "merged_prs": 34,
+  "closed_issues": 0,
+  "pr_reviews": 75,
+  "issue_comments": 44,
+  "releases": 21,
   "active_days": 23,
   "window_days": 30,
-  "rank_score": 870.7,
-  "active_repos_touched": 19,
-  "pr_reviews": 76,
-  "issue_comments": 46,
-  "releases": 21,
-  "stars_fraud_filtered": 1,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 104,
+  "activity": 225,
+  "rank_score": 225,
+  "rank": 520,
   "avatar_url": "https://avatars.githubusercontent.com/u/477956?u=b0eae48895c773e3f90d1583d0d1cc9d52787b11&v=4",
   "bio": "",
   "company": "",
-  "location": "Canberra",
-  "score_version": "v2-percentile",
-  "window_start": "2026-10-27",
-  "window_end": "2026-11-25",
-  "percentile": 100.0,
-  "tier": "Elite",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
   "counted_merges": [
     {
       "repo": "leanprover-community/riemann-hypothesis",
-      "prs": 27
+      "prs": 8
     },
     {
       "repo": "TauCetiProject/TauCetiWorker",
@@ -83,8 +65,8 @@
   "history": [
     {
       "d": "2026-11-26",
-      "r": 104,
-      "s": 870.7
+      "r": 520,
+      "s": 225.0
     }
   ]
 }

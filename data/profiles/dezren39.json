@@ -1,0 +1,64 @@
+{
+  "username": "dezren39",
+  "country": "United States",
+  "primary_language": "Shell",
+  "total_pushes": 138,
+  "merged_prs": 99,
+  "closed_issues": 99,
+  "pr_reviews": 58,
+  "issue_comments": 1139,
+  "releases": 1,
+  "active_days": 28,
+  "window_days": 30,
+  "activity": 1534,
+  "rank_score": 1534,
+  "rank": 28,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11225574?u=797488820e2baf8f59c59e9b04226ff97119e64e&v=4",
+  "bio": "Software Developer. Pretty big fan of computer networking, information security, machine intelligence, automation, and sensors.",
+  "company": "@VertexInc",
+  "location": "Eau Claire, WI, United States",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "developing-today/code",
+      "prs": 64
+    },
+    {
+      "repo": "developing-today/openchamber",
+      "prs": 11
+    },
+    {
+      "repo": "developing-today-forks/openchamber",
+      "prs": 7
+    },
+    {
+      "repo": "developing-today-forks/opencode",
+      "prs": 5
+    },
+    {
+      "repo": "dezren39/nix",
+      "prs": 5
+    },
+    {
+      "repo": "developing-today/opencode",
+      "prs": 4
+    },
+    {
+      "repo": "dezren39/fleet",
+      "prs": 2
+    },
+    {
+      "repo": "dezren39/darwin-nix",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 28,
+      "s": 1534.0
+    }
+  ]
+}

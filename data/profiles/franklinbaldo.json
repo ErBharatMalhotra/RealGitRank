@@ -1,0 +1,52 @@
+{
+  "username": "franklinbaldo",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 70,
+  "merged_prs": 25,
+  "closed_issues": 1,
+  "pr_reviews": 7,
+  "issue_comments": 73,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 176,
+  "rank_score": 176,
+  "rank": 746,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6721640?v=4",
+  "bio": "I craft unique open-source projects and practical AI-powered tools to streamline intricate workflows and tackle real-world challenges.",
+  "company": "",
+  "location": "Porto Velho, Rond\u00f4nia",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "franklinbaldo/conde-incident",
+      "prs": 9
+    },
+    {
+      "repo": "franklinbaldo/ies",
+      "prs": 9
+    },
+    {
+      "repo": "franklinbaldo/digicomp",
+      "prs": 3
+    },
+    {
+      "repo": "franklinbaldo/ficha",
+      "prs": 3
+    },
+    {
+      "repo": "franklinbaldo/leizilla",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 746,
+      "s": 176.0
+    }
+  ]
+}

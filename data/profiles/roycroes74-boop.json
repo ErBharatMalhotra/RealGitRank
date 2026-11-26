@@ -1,0 +1,30 @@
+{
+  "username": "roycroes74-boop",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 332,
+  "merged_prs": 0,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 332,
+  "rank_score": 332,
+  "rank": 264,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 264,
+      "s": 332.0
+    }
+  ]
+}

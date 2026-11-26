@@ -11,7 +11,8 @@ BATCH = 50  # 50 users per query (rate limit friendly)
 USER_FIELDS = (
     'login location avatarUrl bio company '
     'followers { totalCount } '
-    'contributionsCollection { totalCommitContributions restrictedContributionsCount } '
+    'contributionsCollection { totalCommitContributions restrictedContributionsCount '
+    'contributionCalendar { totalContributions } } '
     'repositories(first: 50, ownerAffiliations: OWNER, isFork: false, '
     'orderBy: {field: STARGAZERS, direction: DESC}) { totalCount nodes { stargazerCount } }'
 )
@@ -53,6 +54,12 @@ def gql_query(logins):
                 "followers": int((u.get("followers") or {}).get("totalCount") or 0),
                 "commits_1y": int(contributions.get("totalCommitContributions") or 0)
                 + int(contributions.get("restrictedContributionsCount") or 0),
+                # GitHub's own count for the last year (commits + PRs + issues +
+                # reviews + private-eligible work). Shown as context only; the
+                # ranking score is built from public events and never uses this.
+                "contributions_1y": int(
+                    (contributions.get("contributionCalendar") or {}).get("totalContributions") or 0
+                ),
                 "stars_total": sum(int(r.get("stargazerCount") or 0) for r in repos),
                 "repos_total": int((u.get("repositories") or {}).get("totalCount") or 0),
             }
@@ -141,11 +148,13 @@ def enrich(top_n=50000, do_language=False):
     top_users = sorted(lb, key=lambda x: x["rank"])[:top_n]
     # The cache file is not committed, so the committed leaderboard is the real
     # memory: rows that already carry portfolio fields are never fetched again.
-    known = {u["username"] for u in top_users if "commits_1y" in u}
+    def complete(info):
+        return isinstance(info, dict) and "commits_1y" in info and "contributions_1y" in info
+
+    known = {u["username"] for u in top_users if complete(u)}
     to_fetch = [
         u["username"] for u in top_users
-        if u["username"] not in known
-        and (u["username"] not in cache or "commits_1y" not in cache[u["username"]])
+        if u["username"] not in known and not complete(cache.get(u["username"]))
     ]
 
     print(f"Enriching {len(to_fetch)} new users (cached: {len(cache)})...")
@@ -176,7 +185,7 @@ def enrich(top_n=50000, do_language=False):
                 updated += 1
             u["avatar_url"] = info.get("avatar_url", "")
             u["bio"] = info.get("bio", "")
-            for key in ("followers", "commits_1y", "stars_total", "repos_total"):
+            for key in ("followers", "commits_1y", "contributions_1y", "stars_total", "repos_total"):
                 if info.get(key):
                     u[key] = info[key]
             # Save avatar/bio to profile if exists
@@ -188,7 +197,7 @@ def enrich(top_n=50000, do_language=False):
                 prof["bio"] = info.get("bio", "")
                 prof["company"] = info.get("company", "")
                 prof["location"] = info.get("location", "")
-                for key in ("followers", "commits_1y", "stars_total", "repos_total"):
+                for key in ("followers", "commits_1y", "contributions_1y", "stars_total", "repos_total"):
                     if info.get(key):
                         prof[key] = info[key]
                 if country:

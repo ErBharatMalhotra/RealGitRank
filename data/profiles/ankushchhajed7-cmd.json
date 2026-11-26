@@ -1,0 +1,40 @@
+{
+  "username": "ankushchhajed7-cmd",
+  "country": "",
+  "primary_language": "MQL5",
+  "total_pushes": 1744,
+  "merged_prs": 3,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 1747,
+  "rank_score": 1747,
+  "rank": 18,
+  "avatar_url": "https://avatars.githubusercontent.com/u/297691917?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ankushchhajed7-cmd/Samusignal",
+      "prs": 2
+    },
+    {
+      "repo": "ankushchhajed7-cmd/SAMUSIGNAL-AI",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 18,
+      "s": 1747.0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "username": "kzarzycki",
+  "country": "Switzerland",
+  "primary_language": "TypeScript",
+  "total_pushes": 92,
+  "merged_prs": 14,
+  "closed_issues": 10,
+  "pr_reviews": 36,
+  "issue_comments": 39,
+  "releases": 0,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 191,
+  "rank_score": 191,
+  "rank": 671,
+  "avatar_url": "https://avatars.githubusercontent.com/u/4157788?v=4",
+  "bio": "",
+  "company": "@getindata ",
+  "location": "Zurich, Switzerland",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "kzarzycki/agent-skills",
+      "prs": 10
+    },
+    {
+      "repo": "kzarzycki/dotagents",
+      "prs": 2
+    },
+    {
+      "repo": "kzarzycki/omnigent",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 671,
+      "s": 191.0
+    }
+  ]
+}

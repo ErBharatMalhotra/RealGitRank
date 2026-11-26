@@ -5,6 +5,7 @@ web/.astro/
 
 # Data intermediates
 data/raw.parquet
+data/activity.parquet
 data/gharchive_raw/
 data/*.log
 web/build.log

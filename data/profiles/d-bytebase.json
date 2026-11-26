@@ -1,0 +1,36 @@
+{
+  "username": "d-bytebase",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 47,
+  "merged_prs": 15,
+  "closed_issues": 0,
+  "pr_reviews": 71,
+  "issue_comments": 21,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 154,
+  "rank_score": 154,
+  "rank": 862,
+  "avatar_url": "https://avatars.githubusercontent.com/u/98006139?u=f4f295c93b537a9f716e0e78443a6e898553ad55&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "bytebase/omni",
+      "prs": 15
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 862,
+      "s": 154.0
+    }
+  ]
+}

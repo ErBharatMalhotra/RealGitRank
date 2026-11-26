@@ -1,0 +1,44 @@
+{
+  "username": "steveash",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 60,
+  "merged_prs": 36,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 65,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 161,
+  "rank_score": 161,
+  "rank": 819,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1192125?u=89eff49bb0b240187cd4bac9744998219fbfa89a&v=4",
+  "bio": "Ph.D. in Computer Science focused on AI. Senior Principal Engineer at AWS in Agentic AI org",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "SteveCoInc/rustsheet",
+      "prs": 20
+    },
+    {
+      "repo": "steveash/rustsheet",
+      "prs": 12
+    },
+    {
+      "repo": "steveash/hitchhikers-guide-to-ai-native-engineering",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 819,
+      "s": 161.0
+    }
+  ]
+}

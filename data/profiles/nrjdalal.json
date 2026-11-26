@@ -1,0 +1,36 @@
+{
+  "username": "nrjdalal",
+  "country": "India",
+  "primary_language": "Unknown",
+  "total_pushes": 18,
+  "merged_prs": 13,
+  "closed_issues": 14,
+  "pr_reviews": 45,
+  "issue_comments": 56,
+  "releases": 3,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 149,
+  "rank_score": 149,
+  "rank": 898,
+  "avatar_url": "https://avatars.githubusercontent.com/u/58145505?u=5a7437c6321b6652f682627c5f2b8ae0c86757ba&v=4",
+  "bio": "Building SAAS on daily basis",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "nrjdalal/playground",
+      "prs": 13
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 898,
+      "s": 149.0
+    }
+  ]
+}

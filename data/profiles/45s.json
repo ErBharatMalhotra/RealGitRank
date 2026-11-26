@@ -1,0 +1,36 @@
+{
+  "username": "45s",
+  "country": "",
+  "primary_language": "JavaScript",
+  "total_pushes": 143,
+  "merged_prs": 17,
+  "closed_issues": 2,
+  "pr_reviews": 0,
+  "issue_comments": 15,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 177,
+  "rank_score": 177,
+  "rank": 740,
+  "avatar_url": "https://avatars.githubusercontent.com/u/47265015?u=675bba9e1e19312e9f07e0bace20957f1b94738f&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "45s/coinzilla",
+      "prs": 17
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 740,
+      "s": 177.0
+    }
+  ]
+}

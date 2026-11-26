@@ -1,0 +1,60 @@
+{
+  "username": "ihsan-sa",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 48,
+  "merged_prs": 17,
+  "closed_issues": 21,
+  "pr_reviews": 0,
+  "issue_comments": 77,
+  "releases": 1,
+  "active_days": 13,
+  "window_days": 30,
+  "activity": 164,
+  "rank_score": 164,
+  "rank": 803,
+  "avatar_url": "https://avatars.githubusercontent.com/u/77406516?u=e17c0bae5962c5e68a83c0de73c848189a8f9240&v=4",
+  "bio": "I love building things.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Hive-RSI-Lab/hive-hwde",
+      "prs": 5
+    },
+    {
+      "repo": "ihsan-sa/hive",
+      "prs": 4
+    },
+    {
+      "repo": "Hive-RSI-Lab/hifi-receiver",
+      "prs": 3
+    },
+    {
+      "repo": "Hive-RSI-Lab/hive-pcb-flow",
+      "prs": 2
+    },
+    {
+      "repo": "Hive-RSI-Lab/hive-chip-flow",
+      "prs": 1
+    },
+    {
+      "repo": "Hive-RSI-Lab/hive-dispatch",
+      "prs": 1
+    },
+    {
+      "repo": "Hive-RSI-Lab/marketplace",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 803,
+      "s": 164.0
+    }
+  ]
+}

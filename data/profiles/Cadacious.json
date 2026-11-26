@@ -1,0 +1,52 @@
+{
+  "username": "Cadacious",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 229,
+  "merged_prs": 14,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 243,
+  "rank_score": 243,
+  "rank": 430,
+  "avatar_url": "https://avatars.githubusercontent.com/u/32421665?u=a096c119f74f9146707abf4a8e6c8e8c58b85466&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "SandboxServers/geldar",
+      "prs": 10
+    },
+    {
+      "repo": "Cadacious/player-ag-jason-01",
+      "prs": 1
+    },
+    {
+      "repo": "SandboxServers/geldar-scriptorium",
+      "prs": 1
+    },
+    {
+      "repo": "SandboxServers/player-mmpr-pink",
+      "prs": 1
+    },
+    {
+      "repo": "SandboxServers/player-mmpr-yellow",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 430,
+      "s": 243.0
+    }
+  ]
+}

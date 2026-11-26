@@ -1,57 +1,63 @@
 {
-  "generated_at": "2026-11-26T10:33:47.887186+00:00",
-  "score_version": "v2-percentile",
+  "generated_at": "2026-11-26T16:01:56.766065+00:00",
+  "score_version": "v3-activity",
   "window_days": 30,
-  "window_start": "2026-10-27",
-  "window_end": "2026-11-25",
+  "window_months": 2,
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
   "users": 50000,
   "users_detailed": 50000,
-  "users_total": 730139,
-  "users_ranked": 646093,
-  "users_listed": 84046,
+  "users_total": 753198,
+  "users_ranked": 753198,
   "source": {
     "days_measured": 30,
     "days_in_window": 30,
-    "hourly_files": 72,
-    "events": 505290,
-    "bot_events": 141491,
-    "bot_share_pct": 28.0,
-    "events_per_day": 16843.0,
-    "ci_pushes": 380556
+    "hourly_files": 48,
+    "events": 384756,
+    "bot_events": 107443,
+    "bot_share_pct": 27.9,
+    "events_per_day": 12825.0,
+    "ci_pushes": 510767
   },
-  "pillars": {
-    "delivery": {
-      "label": "Merged pull requests (external merges weighted)",
-      "measured": 50000,
-      "pct": 100.0
+  "signals": {
+    "total_pushes": {
+      "label": "Pushes",
+      "observed": 49223,
+      "pct": 98.4
     },
-    "code_health": {
-      "label": "Test-signal ratio and multi-file PRs",
-      "measured": 48857,
-      "pct": 97.7
+    "merged_prs": {
+      "label": "Merged pull requests",
+      "observed": 28033,
+      "pct": 56.1
     },
-    "adoption": {
-      "label": "Stars and forks received",
-      "measured": 50000,
-      "pct": 100.0
+    "closed_issues": {
+      "label": "Closed issues",
+      "observed": 5907,
+      "pct": 11.8
     },
-    "consistency": {
-      "label": "Active shipping weeks and push-hour spread",
-      "measured": 50000,
-      "pct": 100.0
+    "pr_reviews": {
+      "label": "Pull request reviews",
+      "observed": 4750,
+      "pct": 9.5
+    },
+    "issue_comments": {
+      "label": "Issue comments",
+      "observed": 11548,
+      "pct": 23.1
+    },
+    "releases": {
+      "label": "Releases",
+      "observed": 1287,
+      "pct": 2.6
     }
   },
-  "automation_evidence": {
-    "measured": 0,
-    "pct": 0.0
-  },
   "country": {
-    "known": 7340,
-    "pct": 14.7
+    "known": 3909,
+    "pct": 7.8
   },
   "language": {
-    "known": 3169,
-    "pct": 6.3
+    "known": 2558,
+    "pct": 5.1
   },
   "validation": {
     "method": "event-level: GitHub PR API merged_at + merged_by",
@@ -68,5 +74,5 @@
     "samples": [],
     "notes": "Each checked merge event must exist, have merged_at inside the window, and have merged_by.login equal to the ranked account. Unknown (404/private) events are excluded from the rate, never counted as matches."
   },
-  "notes": "`source` describes how much of the public GitHub event stream this window actually contains (hourly files downloaded, events seen, bot events skipped). gharchive.org is a partial mirror of public events, so the ranking covers the activity it observed, not every commit on GitHub. Automation signals (commit-message entropy and PR changed-file counts) are only known when the feed carries them; unknown signals are disclosed here and never turned into a guessed adjustment. Missing pillars are excluded from the weighted score and the remaining weights are renormalised."
+  "notes": "`source` describes how much of the public GitHub event stream the newest daily shards actually contain (hourly files downloaded, events seen, bot events skipped). The score itself is one absolute number: public pushes, merged pull requests, closed issues, pull-request reviews, issue comments and releases added up over the rolling 12-month window. `signals` states how many ranked developers have each component above zero. Nothing is percentile-ranked, and no signal is inferred when the feed does not carry it. GitHub's own contribution count (which includes commits) is published separately by the GitHub API for the top 10,000 and never merged into this score."
 }

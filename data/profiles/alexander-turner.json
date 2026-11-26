@@ -1,0 +1,44 @@
+{
+  "username": "alexander-turner",
+  "country": "",
+  "primary_language": "Jupyter Notebook",
+  "total_pushes": 73,
+  "merged_prs": 20,
+  "closed_issues": 0,
+  "pr_reviews": 44,
+  "issue_comments": 11,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 148,
+  "rank_score": 148,
+  "rank": 908,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3458070?u=deee2d32e27a47f70e9611ad5dbef8881250eb33&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Berkeley, California",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "AlexanderMattTurner/agent-glovebox",
+      "prs": 18
+    },
+    {
+      "repo": "AlexanderMattTurner/agent-review",
+      "prs": 1
+    },
+    {
+      "repo": "alexander-turner/TurnTrout.com",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 908,
+      "s": 148.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "username": "lawrencecchen",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 124,
+  "merged_prs": 21,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 51,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 196,
+  "rank_score": 196,
+  "rank": 651,
+  "avatar_url": "https://avatars.githubusercontent.com/u/54008264?u=e66b7a3727d0badac181d6e32312986ff62d68ad&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "manaflow-ai/cmux",
+      "prs": 21
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 651,
+      "s": 196.0
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "username": "yasyf",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 65,
+  "merged_prs": 92,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 2,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 159,
+  "rank_score": 159,
+  "rank": 832,
+  "avatar_url": "https://avatars.githubusercontent.com/u/709645?u=f36736b3c6a85f578886ecc42a740e7b436e7a01&v=4",
+  "bio": "Engineer. Entrepreneur. CEO of @anetaco. Previously @symopsio, @MIT, @facebook. Proudly Canadian!",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "yasyf/cc-skills",
+      "prs": 61
+    },
+    {
+      "repo": "yasyf/cc-context",
+      "prs": 6
+    },
+    {
+      "repo": "yasyf/cc-inbox",
+      "prs": 6
+    },
+    {
+      "repo": "yasyf/cc-slack",
+      "prs": 5
+    },
+    {
+      "repo": "yasyf/captain-hook",
+      "prs": 4
+    },
+    {
+      "repo": "yasyf/cc-notes",
+      "prs": 4
+    },
+    {
+      "repo": "yasyf/cc-transcript",
+      "prs": 2
+    },
+    {
+      "repo": "yasyf/cc-remote",
+      "prs": 1
+    },
+    {
+      "repo": "yasyf/cc-squash",
+      "prs": 1
+    },
+    {
+      "repo": "yasyf/daemonkit",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 832,
+      "s": 159.0
+    }
+  ]
+}

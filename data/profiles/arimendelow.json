@@ -1,0 +1,72 @@
+{
+  "username": "arimendelow",
+  "country": "United States",
+  "primary_language": "TypeScript",
+  "total_pushes": 121,
+  "merged_prs": 77,
+  "closed_issues": 12,
+  "pr_reviews": 0,
+  "issue_comments": 61,
+  "releases": 1,
+  "active_days": 26,
+  "window_days": 30,
+  "activity": 272,
+  "rank_score": 272,
+  "rank": 338,
+  "avatar_url": "https://avatars.githubusercontent.com/u/16390116?u=9795f42dfbed101db669385018331dc9530e2267&v=4",
+  "bio": "Building products for humans + agents \u00b7 Microsoft Customer Innovation \u00b7 Ouro + Spoonjoy",
+  "company": "@microsoft",
+  "location": "Seattle",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ourostack/ouro-ui",
+      "prs": 19
+    },
+    {
+      "repo": "ourostack/ouroboros-website",
+      "prs": 9
+    },
+    {
+      "repo": "ourostack/.github",
+      "prs": 6
+    },
+    {
+      "repo": "spoonjoy/spoonjoy-apple",
+      "prs": 6
+    },
+    {
+      "repo": "ourostack/desk",
+      "prs": 5
+    },
+    {
+      "repo": "ourostack/gatefold",
+      "prs": 5
+    },
+    {
+      "repo": "ourostack/ouroboros",
+      "prs": 4
+    },
+    {
+      "repo": "ourostack/ouro-ui-core",
+      "prs": 3
+    },
+    {
+      "repo": "spoonjoy/spoonjoy-v2",
+      "prs": 3
+    },
+    {
+      "repo": "ourostack/hackamore",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 338,
+      "s": 272.0
+    }
+  ]
+}

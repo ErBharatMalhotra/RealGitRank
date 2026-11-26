@@ -1,0 +1,36 @@
+{
+  "username": "guoqing-noaa",
+  "country": "",
+  "primary_language": "Jinja",
+  "total_pushes": 200,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 16,
+  "window_days": 30,
+  "activity": 201,
+  "rank_score": 201,
+  "rank": 629,
+  "avatar_url": "https://avatars.githubusercontent.com/u/51679803?u=8f760fb351b76f5226c416c982e7e63037a18119&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "NOAA-GSL/rrfs_utl",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 629,
+      "s": 201.0
+    }
+  ]
+}

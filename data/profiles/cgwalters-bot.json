@@ -1,0 +1,52 @@
+{
+  "username": "cgwalters-bot",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 21,
+  "merged_prs": 22,
+  "closed_issues": 6,
+  "pr_reviews": 7,
+  "issue_comments": 101,
+  "releases": 0,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 157,
+  "rank_score": 157,
+  "rank": 844,
+  "avatar_url": "https://avatars.githubusercontent.com/u/17814078?u=ab24a08da0704ef4583077599f7fb4c5413fca4b&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "cgwalters-forge/tracker",
+      "prs": 8
+    },
+    {
+      "repo": "cgwalters-forge/agent-board",
+      "prs": 7
+    },
+    {
+      "repo": "cgwalters-forge/agentic-job",
+      "prs": 4
+    },
+    {
+      "repo": "cgwalters-forge/actions",
+      "prs": 2
+    },
+    {
+      "repo": "cgwalters-forge/review",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 844,
+      "s": 157.0
+    }
+  ]
+}

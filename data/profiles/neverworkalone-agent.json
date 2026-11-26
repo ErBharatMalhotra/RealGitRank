@@ -1,0 +1,36 @@
+{
+  "username": "neverworkalone-agent",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 35,
+  "merged_prs": 73,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 73,
+  "releases": 0,
+  "active_days": 28,
+  "window_days": 30,
+  "activity": 181,
+  "rank_score": 181,
+  "rank": 720,
+  "avatar_url": "https://avatars.githubusercontent.com/u/336548537?u=25eab255e4d2aee74b65f2f04eecb1159f7905d3&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "neverworkalone/typewriter",
+      "prs": 73
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 720,
+      "s": 181.0
+    }
+  ]
+}

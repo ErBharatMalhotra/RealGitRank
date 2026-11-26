@@ -1,0 +1,48 @@
+{
+  "username": "Ancienttwo",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 25,
+  "merged_prs": 26,
+  "closed_issues": 22,
+  "pr_reviews": 38,
+  "issue_comments": 133,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 244,
+  "rank_score": 244,
+  "rank": 423,
+  "avatar_url": "https://avatars.githubusercontent.com/u/215803476?u=ee07f40d5b4c3936bf9ae62f93004fa28fa2c838&v=4",
+  "bio": "Building reliable AI coding agents, workflow harnesses, and developer infrastructure.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Ancienttwo/byok-sdk",
+      "prs": 10
+    },
+    {
+      "repo": "Ancienttwo/repo-harness",
+      "prs": 9
+    },
+    {
+      "repo": "aimpact-inc/repo-harness",
+      "prs": 5
+    },
+    {
+      "repo": "Ancienttwo/arch-context",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 423,
+      "s": 244.0
+    }
+  ]
+}

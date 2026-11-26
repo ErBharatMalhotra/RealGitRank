@@ -1,0 +1,64 @@
+{
+  "username": "DoctorStrangeSH",
+  "country": "",
+  "primary_language": "HTML",
+  "total_pushes": 380,
+  "merged_prs": 16,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 396,
+  "rank_score": 396,
+  "rank": 200,
+  "avatar_url": "https://avatars.githubusercontent.com/u/104858906?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "DoctorStrangeSH/Last-Ritual",
+      "prs": 4
+    },
+    {
+      "repo": "DoctorStrangeSH/QuizHub",
+      "prs": 3
+    },
+    {
+      "repo": "DoctorStrangeSH/Vortex",
+      "prs": 3
+    },
+    {
+      "repo": "DoctorStrangeSH/GhostSignal",
+      "prs": 2
+    },
+    {
+      "repo": "DoctorStrangeSH/DevSpace",
+      "prs": 1
+    },
+    {
+      "repo": "DoctorStrangeSH/Giantback",
+      "prs": 1
+    },
+    {
+      "repo": "DoctorStrangeSH/dm-workspace",
+      "prs": 1
+    },
+    {
+      "repo": "DoctorStrangeSH/slay-the-spire-tg",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 200,
+      "s": 396.0
+    }
+  ]
+}

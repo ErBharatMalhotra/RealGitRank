@@ -1,0 +1,36 @@
+{
+  "username": "vv12x",
+  "country": "",
+  "primary_language": "Lean",
+  "total_pushes": 427,
+  "merged_prs": 2,
+  "closed_issues": 8,
+  "pr_reviews": 2,
+  "issue_comments": 14,
+  "releases": 0,
+  "active_days": 13,
+  "window_days": 30,
+  "activity": 453,
+  "rank_score": 453,
+  "rank": 166,
+  "avatar_url": "https://avatars.githubusercontent.com/u/120430865?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "FlareZ123/liber-primus",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 166,
+      "s": 453.0
+    }
+  ]
+}

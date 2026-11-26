@@ -1,0 +1,68 @@
+{
+  "username": "chubes4",
+  "country": "",
+  "primary_language": "PHP",
+  "total_pushes": 47,
+  "merged_prs": 63,
+  "closed_issues": 57,
+  "pr_reviews": 1,
+  "issue_comments": 53,
+  "releases": 0,
+  "active_days": 28,
+  "window_days": 30,
+  "activity": 221,
+  "rank_score": 221,
+  "rank": 543,
+  "avatar_url": "https://avatars.githubusercontent.com/u/44784595?u=92b03c8db33f76acbc74a537086714c97af1859b&v=4",
+  "bio": "Founder of @Extra-Chill, engineering @Automattic ",
+  "company": "Extra Chill",
+  "location": "Charleston, SC",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Automattic/blocks-engine",
+      "prs": 23
+    },
+    {
+      "repo": "Extra-Chill/homeboy",
+      "prs": 13
+    },
+    {
+      "repo": "Automattic/static-site-importer",
+      "prs": 9
+    },
+    {
+      "repo": "Automattic/data-liberation-agent",
+      "prs": 8
+    },
+    {
+      "repo": "Extra-Chill/data-machine",
+      "prs": 3
+    },
+    {
+      "repo": "Extra-Chill/extrachill",
+      "prs": 3
+    },
+    {
+      "repo": "Automattic/studio",
+      "prs": 2
+    },
+    {
+      "repo": "Automattic/docs-agent",
+      "prs": 1
+    },
+    {
+      "repo": "Extra-Chill/extrachill-events",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 543,
+      "s": 221.0
+    }
+  ]
+}

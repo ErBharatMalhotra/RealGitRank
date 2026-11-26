@@ -1,0 +1,36 @@
+{
+  "username": "ghbmrk",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 15,
+  "merged_prs": 19,
+  "closed_issues": 12,
+  "pr_reviews": 0,
+  "issue_comments": 98,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 144,
+  "rank_score": 144,
+  "rank": 940,
+  "avatar_url": "https://avatars.githubusercontent.com/u/68660600?u=4b5ef8201b1382f42af4c5eb3b5775e12c2df8f5&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ghbmrk/agentOS",
+      "prs": 19
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 940,
+      "s": 144.0
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "username": "believeinoakland",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 191,
+  "merged_prs": 16,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 8,
+  "releases": 0,
+  "active_days": 9,
+  "window_days": 30,
+  "activity": 215,
+  "rank_score": 215,
+  "rank": 574,
+  "avatar_url": "https://avatars.githubusercontent.com/u/308845173?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "neobobkrause/civicsmith-copy",
+      "prs": 11
+    },
+    {
+      "repo": "neobobkrause/process3-probes",
+      "prs": 2
+    },
+    {
+      "repo": "neobobkrause/process4",
+      "prs": 2
+    },
+    {
+      "repo": "neobobkrause/process3",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 574,
+      "s": 215.0
+    }
+  ]
+}

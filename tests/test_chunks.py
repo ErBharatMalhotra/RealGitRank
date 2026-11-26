@@ -1,4 +1,4 @@
-"""The public search layer must carry an explicit state, not an invented rank."""
+"""The public search layer carries an explicit state and the activity score."""
 from chunks import dedupe_rows, search_row
 
 
@@ -14,12 +14,13 @@ def test_dedupe_keeps_best_rank():
 
 
 def test_search_row_carries_ranked_state():
-    assert search_row({"username": "dev", "rank": 12, "rank_score": 800.44}, 1) == [
-        "dev", 12, 800.4, "ranked", 1,
+    assert search_row({"username": "dev", "rank": 12, "rank_score": 412.4}, 1) == [
+        "dev", 12, 412.4, "ranked", 1,
     ]
 
 
-def test_search_row_never_claims_a_rank_for_listed():
-    assert search_row(
-        {"username": "ciowner", "rank": 800000, "rank_score": 0, "listed_only": True}, 3200,
-    ) == ["ciowner", None, 0.0, "listed", 3200]
+def test_search_row_never_publishes_a_listed_state():
+    """An account with no activity is not published at all under score v3."""
+    assert search_row({"username": "dev", "rank": 800000, "rank_score": 1}, 3200) == [
+        "dev", 800000, 1.0, "ranked", 3200,
+    ]

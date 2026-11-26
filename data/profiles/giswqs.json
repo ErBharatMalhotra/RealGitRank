@@ -2,46 +2,28 @@
   "username": "giswqs",
   "country": "",
   "primary_language": "Python",
-  "total_pushes": 77,
-  "merged_prs": 10,
-  "listed_only": false,
-  "s_pr": 99.73,
-  "s_quality": 50.0,
-  "s_impact": 98.44,
-  "s_consistency": 98.86,
-  "measured": {
-    "delivery": true,
-    "code_health": true,
-    "adoption": true,
-    "consistency": true
-  },
-  "active_days": 19,
-  "window_days": 30,
-  "rank_score": 868.4,
-  "active_repos_touched": 17,
-  "pr_reviews": 111,
+  "total_pushes": 86,
+  "merged_prs": 9,
+  "closed_issues": 4,
+  "pr_reviews": 106,
   "issue_comments": 7,
   "releases": 0,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 1,
-  "active_shipping_weeks": 5,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 234,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 212,
+  "rank_score": 212,
+  "rank": 593,
   "avatar_url": "https://avatars.githubusercontent.com/u/5016453?u=ccdf45d5c7a05a6b096b8b622b2d99ae046d37ac&v=4",
   "bio": "Associate Professor at the University of Tennessee, Knoxville | Amazon Scholar",
   "company": "University of Tennessee",
   "location": "Knoxville, TN",
-  "score_version": "v2-percentile",
-  "window_start": "2026-10-27",
-  "window_end": "2026-11-25",
-  "percentile": 100.0,
-  "tier": "Elite",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
   "prev_rank": 243,
   "prev_score": 867.9,
-  "rank_delta": 9,
-  "score_delta": 0.5,
+  "rank_delta": -350,
+  "score_delta": -655.9,
   "counted_merges": [
     {
       "repo": "opengeos/RustGIS",
@@ -53,7 +35,7 @@
     },
     {
       "repo": "opengeos/terrio",
-      "prs": 3
+      "prs": 2
     }
   ],
   "history": [
@@ -74,8 +56,8 @@
     },
     {
       "d": "2026-11-26",
-      "r": 234,
-      "s": 868.4
+      "r": 593,
+      "s": 212.0
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "username": "MSSTXNEWS",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 154,
+  "merged_prs": 26,
+  "closed_issues": 0,
+  "pr_reviews": 1,
+  "issue_comments": 32,
+  "releases": 0,
+  "active_days": 16,
+  "window_days": 30,
+  "activity": 213,
+  "rank_score": 213,
+  "rank": 585,
+  "avatar_url": "https://avatars.githubusercontent.com/u/340718567?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "MSSTXNEWS/nox-helion-pp-private-build",
+      "prs": 26
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 585,
+      "s": 213.0
+    }
+  ]
+}

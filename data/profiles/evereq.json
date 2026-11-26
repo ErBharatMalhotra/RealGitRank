@@ -1,0 +1,68 @@
+{
+  "username": "evereq",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 27,
+  "merged_prs": 28,
+  "closed_issues": 1,
+  "pr_reviews": 51,
+  "issue_comments": 46,
+  "releases": 10,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 163,
+  "rank_score": 163,
+  "rank": 810,
+  "avatar_url": "https://avatars.githubusercontent.com/u/118497?u=616ee21824f798954d8de1627c4dccfefb915284&v=4",
+  "bio": "oss/acc \ud83d\udd25 @ever-co \ud83d\udd1c @cloc-co \ud83d\ude80",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "ever-co/ever-teams",
+      "prs": 10
+    },
+    {
+      "repo": "ever-co/ever-gauzy",
+      "prs": 4
+    },
+    {
+      "repo": "ever-co/ever-demand",
+      "prs": 3
+    },
+    {
+      "repo": "ever-co/ever-works",
+      "prs": 3
+    },
+    {
+      "repo": "ever-co/ever-rec",
+      "prs": 2
+    },
+    {
+      "repo": "ever-co/ever-traduora",
+      "prs": 2
+    },
+    {
+      "repo": "ever-works/ever-works",
+      "prs": 2
+    },
+    {
+      "repo": "ever-hust/ever-hust",
+      "prs": 1
+    },
+    {
+      "repo": "ever-works/directory-web-template",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 810,
+      "s": 163.0
+    }
+  ]
+}

@@ -1,18 +1,22 @@
 """Publish what the pipeline can and cannot measure.
 
 Writes ``data/coverage.json`` next to the leaderboard so the site, the API and
-llms.txt can state real coverage instead of implying every pillar is observed.
+llms.txt can state real coverage instead of implying every signal is observed.
 """
 import json
 import os
 
 COVERAGE_PATH = "data/coverage.json"
 
-PILLARS = (
-    ("delivery", "Merged pull requests (external merges weighted)"),
-    ("code_health", "Test-signal ratio and multi-file PRs"),
-    ("adoption", "Stars and forks received"),
-    ("consistency", "Active shipping weeks and push-hour spread"),
+# Public-facing activity components (score v3). Each row states how many ranked
+# developers actually have that component above zero in the 12-month window.
+SIGNALS = (
+    ("total_pushes", "Pushes"),
+    ("merged_prs", "Merged pull requests"),
+    ("closed_issues", "Closed issues"),
+    ("pr_reviews", "Pull request reviews"),
+    ("issue_comments", "Issue comments"),
+    ("releases", "Releases"),
 )
 
 
@@ -23,55 +27,54 @@ def _pct(part, total):
 def build_coverage(entries, meta=None, validation=None):
     meta = meta or {}
     total = len(entries)
-    measured = {"delivery": 0, "code_health": 0, "adoption": 0, "consistency": 0}
-    automation_evidence = 0
+    observed = {key: 0 for key, _ in SIGNALS}
     country = 0
     language = 0
-    for e in entries:
-        flags = e.get("measured") or {}
-        for key in measured:
-            if flags.get(key):
-                measured[key] += 1
-        if e.get("bot_evidence"):
-            automation_evidence += 1
-        if e.get("country"):
+    for entry in entries:
+        for key in observed:
+            try:
+                if int(entry.get(key) or 0) > 0:
+                    observed[key] += 1
+            except (TypeError, ValueError):
+                continue
+        if entry.get("country"):
             country += 1
-        if e.get("primary_language") not in (None, "", "Unknown"):
+        if entry.get("primary_language") not in (None, "", "Unknown"):
             language += 1
 
     users_total = int(meta.get("users_total") or total)
-    users_listed = int(meta.get("users_listed") or 0)
-    users_ranked = int(meta.get("users_ranked") or (users_total - users_listed))
+    users_ranked = int(meta.get("users_ranked") or users_total)
 
     return {
         "generated_at": meta.get("generated_at"),
-        "score_version": meta.get("score_version", "v2-percentile"),
+        "score_version": meta.get("score_version", "v3-activity"),
         "window_days": meta.get("window_days"),
+        "window_months": meta.get("window_months"),
         "window_start": meta.get("window_start"),
         "window_end": meta.get("window_end"),
         "users": total,
         "users_detailed": total,
         "users_total": users_total,
         "users_ranked": users_ranked,
-        "users_listed": users_listed,
         "source": meta.get("source"),
-        "pillars": {
-            key: {"label": label, "measured": measured[key], "pct": _pct(measured[key], total)}
-            for key, label in PILLARS
+        "signals": {
+            key: {"label": label, "observed": observed[key], "pct": _pct(observed[key], total)}
+            for key, label in SIGNALS
         },
-        "automation_evidence": {"measured": automation_evidence, "pct": _pct(automation_evidence, total)},
         "country": {"known": country, "pct": _pct(country, total)},
         "language": {"known": language, "pct": _pct(language, total)},
         "validation": validation,
         "notes": (
-            "`source` describes how much of the public GitHub event stream this window "
-            "actually contains (hourly files downloaded, events seen, bot events skipped). "
-            "gharchive.org is a partial mirror of public events, so the ranking covers the "
-            "activity it observed, not every commit on GitHub. Automation signals "
-            "(commit-message entropy and PR changed-file counts) are only known when the "
-            "feed carries them; unknown signals are disclosed here and never turned into "
-            "a guessed adjustment. Missing pillars are excluded from the weighted score "
-            "and the remaining weights are renormalised."
+            "`source` describes how much of the public GitHub event stream the newest "
+            "daily shards actually contain (hourly files downloaded, events seen, bot "
+            "events skipped). The score itself is one absolute number: public pushes, "
+            "merged pull requests, closed issues, pull-request reviews, issue comments "
+            "and releases added up over the rolling 12-month window. `signals` states "
+            "how many ranked developers have each component above zero. Nothing is "
+            "percentile-ranked, and no signal is inferred when the feed does not carry "
+            "it. GitHub's own contribution count (which includes commits) is published "
+            "separately by the GitHub API for the top 10,000 and never merged into this "
+            "score."
         ),
     }
 
@@ -93,29 +96,24 @@ def main():
         except (OSError, ValueError):
             return default
 
-    try:
-        from .automation import apply_signals, load_signals
-    except ImportError:  # run as a plain script: src/pipeline is on sys.path
-        from automation import apply_signals, load_signals
-
-    entries = apply_signals(load("data/leaderboard.json", []), load_signals())
+    entries = load("data/leaderboard.json", [])
     status = load("data/status.json", {})
     validation = load("data/validation.json", None)
     payload = write_coverage(entries, {
         "generated_at": status.get("last_run_utc"),
         "score_version": status.get("score_version"),
         "window_days": status.get("window_days"),
+        "window_months": status.get("window_months"),
         "window_start": status.get("window_start"),
         "window_end": status.get("window_end"),
         "users_total": status.get("users_total") or status.get("users"),
         "users_ranked": status.get("users_ranked"),
-        "users_listed": status.get("users_listed") or status.get("listed_only"),
         "source": status.get("ingest"),
     }, validation)
     print(
-        f"Coverage: {payload['users']} users, quality "
-        f"{payload['pillars']['code_health']['pct']}%, automation evidence "
-        f"{payload['automation_evidence']['pct']}%"
+        f"Coverage: {payload['users']} users, merged-PR signal "
+        f"{payload['signals']['merged_prs']['pct']}%, pushes "
+        f"{payload['signals']['total_pushes']['pct']}%"
     )
     return 0
 

@@ -1,0 +1,36 @@
+{
+  "username": "rdemb",
+  "country": "Germany",
+  "primary_language": "Unknown",
+  "total_pushes": 218,
+  "merged_prs": 4,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 222,
+  "rank_score": 222,
+  "rank": 534,
+  "avatar_url": "https://avatars.githubusercontent.com/u/176344128?v=4",
+  "bio": "Hobbyist developer passionate about quantitative finance, asynchronous architectures, and extreme optimization.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "rdemb/HyperQuant",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 534,
+      "s": 222.0
+    }
+  ]
+}

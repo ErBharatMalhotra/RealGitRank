@@ -1,0 +1,40 @@
+{
+  "username": "viniciussucupira",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 69,
+  "merged_prs": 29,
+  "closed_issues": 0,
+  "pr_reviews": 19,
+  "issue_comments": 368,
+  "releases": 0,
+  "active_days": 23,
+  "window_days": 30,
+  "activity": 485,
+  "rank_score": 485,
+  "rank": 145,
+  "avatar_url": "https://avatars.githubusercontent.com/u/146343783?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "solrenning-llc/marktmorgen",
+      "prs": 22
+    },
+    {
+      "repo": "viniciussucupira/marktmorgen",
+      "prs": 7
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 145,
+      "s": 485.0
+    }
+  ]
+}

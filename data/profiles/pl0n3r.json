@@ -1,0 +1,52 @@
+{
+  "username": "pl0n3r",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 46,
+  "merged_prs": 14,
+  "closed_issues": 17,
+  "pr_reviews": 3,
+  "issue_comments": 103,
+  "releases": 0,
+  "active_days": 13,
+  "window_days": 30,
+  "activity": 183,
+  "rank_score": 183,
+  "rank": 710,
+  "avatar_url": "https://avatars.githubusercontent.com/u/64439547?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "pl0n3r/Factory",
+      "prs": 7
+    },
+    {
+      "repo": "pl0n3r/Condor",
+      "prs": 3
+    },
+    {
+      "repo": "pl0n3r/GrindFlow",
+      "prs": 2
+    },
+    {
+      "repo": "pl0n3r/ControlBot",
+      "prs": 1
+    },
+    {
+      "repo": "pl0n3r/brvtal",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 710,
+      "s": 183.0
+    }
+  ]
+}

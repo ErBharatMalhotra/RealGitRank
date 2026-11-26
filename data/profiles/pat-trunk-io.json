@@ -1,0 +1,40 @@
+{
+  "username": "pat-trunk-io",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 0,
+  "merged_prs": 106,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 114,
+  "releases": 0,
+  "active_days": 25,
+  "window_days": 30,
+  "activity": 220,
+  "rank_score": 220,
+  "rank": 550,
+  "avatar_url": "https://avatars.githubusercontent.com/u/131031962?u=3f390644dc61882c02ce00f68e00815291c59a99&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "merge-demo/mergequeue-st",
+      "prs": 61
+    },
+    {
+      "repo": "merge-demo/mergequeue-bazel",
+      "prs": 45
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 550,
+      "s": 220.0
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "username": "release-service-bot",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 48,
+  "merged_prs": 154,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 18,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 221,
+  "rank_score": 221,
+  "rank": 542,
+  "avatar_url": "https://avatars.githubusercontent.com/u/157044195?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "hacbs-release-tests/collectors-23690152",
+      "prs": 1
+    },
+    {
+      "repo": "hacbs-release-tests/collectors-2883aa77",
+      "prs": 1
+    },
+    {
+      "repo": "hacbs-release-tests/collectors-4c24fee6",
+      "prs": 1
+    },
+    {
+      "repo": "hacbs-release-tests/collectors-50f2c1dc",
+      "prs": 1
+    },
+    {
+      "repo": "hacbs-release-tests/collectors-7a23b9b8",
+      "prs": 1
+    },
+    {
+      "repo": "hacbs-release-tests/collectors-91e83473",
+      "prs": 1
+    },
+    {
+      "repo": "hacbs-release-tests/collectors-c2753e1a",
+      "prs": 1
+    },
+    {
+      "repo": "hacbs-release-tests/collectors-e458dd8f",
+      "prs": 1
+    },
+    {
+      "repo": "hacbs-release-tests/collectors-e52e5a7a",
+      "prs": 1
+    },
+    {
+      "repo": "hacbs-release-tests/collectors-no-cve-1b35389d",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 542,
+      "s": 221.0
+    }
+  ]
+}

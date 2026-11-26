@@ -1,0 +1,48 @@
+{
+  "username": "teamleaderleo",
+  "country": "",
+  "primary_language": "Swift",
+  "total_pushes": 698,
+  "merged_prs": 198,
+  "closed_issues": 16,
+  "pr_reviews": 91,
+  "issue_comments": 645,
+  "releases": 0,
+  "active_days": 30,
+  "window_days": 30,
+  "activity": 1648,
+  "rank_score": 1648,
+  "rank": 22,
+  "avatar_url": "https://avatars.githubusercontent.com/u/13091533?u=c51e0b59b11bc00f40c36decd5591b6283c16f90&v=4",
+  "bio": "",
+  "company": "",
+  "location": "Head-Smashed-In Buffalo Jump",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "manaflow-ai/cmux",
+      "prs": 185
+    },
+    {
+      "repo": "teamleaderleo/glaeda",
+      "prs": 11
+    },
+    {
+      "repo": "manaflow-ai/cmux-extensions",
+      "prs": 1
+    },
+    {
+      "repo": "teamleaderleo/scrapbook",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 22,
+      "s": 1648.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "username": "FlareZ123",
+  "country": "",
+  "primary_language": "Rust",
+  "total_pushes": 668,
+  "merged_prs": 7,
+  "closed_issues": 26,
+  "pr_reviews": 0,
+  "issue_comments": 72,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 773,
+  "rank_score": 773,
+  "rank": 76,
+  "avatar_url": "https://avatars.githubusercontent.com/u/40903650?u=bd4be615452a488c7ed9aa50416f6a9b824b2a0c&v=4",
+  "bio": "/shrug",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "FlareZ123/obfs",
+      "prs": 4
+    },
+    {
+      "repo": "FlareZ123/liber-primus",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 76,
+      "s": 773.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "username": "spectopo",
+  "country": "",
+  "primary_language": "PowerShell",
+  "total_pushes": 75,
+  "merged_prs": 105,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 1,
+  "releases": 0,
+  "active_days": 30,
+  "window_days": 30,
+  "activity": 181,
+  "rank_score": 181,
+  "rank": 719,
+  "avatar_url": "https://avatars.githubusercontent.com/u/175387142?u=c4ba5b0295bbe0e0b9bc291611c7290e7dc0c840&v=4",
+  "bio": "A bot that collaborates with @SpecterShell",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "microsoft/winget-pkgs",
+      "prs": 105
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 719,
+      "s": 181.0
+    }
+  ]
+}

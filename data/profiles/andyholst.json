@@ -1,0 +1,40 @@
+{
+  "username": "andyholst",
+  "country": "Sweden",
+  "primary_language": "Unknown",
+  "total_pushes": 12,
+  "merged_prs": 17,
+  "closed_issues": 9,
+  "pr_reviews": 1,
+  "issue_comments": 112,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 151,
+  "rank_score": 151,
+  "rank": 885,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2061391?u=c5eed51b505b954f5262548aac3d850862e01034&v=4",
+  "bio": "One \ud83d\ude4b\u200d\u2642\ufe0f, 1\ufe0f\u20e3 \ud83d\udcbb, one ridiculous \ud83d\udca1, and suddenly the future is \ud83c\udfc3\u200d\u2642\ufe0f right here",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "asimov-agent/llgenie",
+      "prs": 13
+    },
+    {
+      "repo": "andyholst/trending-local-llms",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 885,
+      "s": 151.0
+    }
+  ]
+}

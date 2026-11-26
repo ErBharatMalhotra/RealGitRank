@@ -1,0 +1,36 @@
+{
+  "username": "OrriBogdan2",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 177,
+  "merged_prs": 4,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 34,
+  "releases": 0,
+  "active_days": 17,
+  "window_days": 30,
+  "activity": 215,
+  "rank_score": 215,
+  "rank": 575,
+  "avatar_url": "https://avatars.githubusercontent.com/u/214406663?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "OrriBogdan2/project-boki",
+      "prs": 4
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 575,
+      "s": 215.0
+    }
+  ]
+}

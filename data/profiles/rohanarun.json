@@ -1,0 +1,36 @@
+{
+  "username": "rohanarun",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 43,
+  "merged_prs": 1,
+  "closed_issues": 254,
+  "pr_reviews": 0,
+  "issue_comments": 13,
+  "releases": 0,
+  "active_days": 5,
+  "window_days": 30,
+  "activity": 311,
+  "rank_score": 311,
+  "rank": 280,
+  "avatar_url": "https://avatars.githubusercontent.com/u/11659839?u=f688ac921cdf7577c276436c46e9a8553b1811d1&v=4",
+  "bio": "rohan@cheatlayer.com\r\nhttps://x.com/Viewforge\r\nhttps://www.linkedin.com/feed/update/urn:li:share:7431718184237563905/",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "rohanarun/riemann-hypothesis",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 280,
+      "s": 311.0
+    }
+  ]
+}

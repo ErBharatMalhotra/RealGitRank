@@ -1,0 +1,44 @@
+{
+  "username": "jdegreef",
+  "country": "Canada",
+  "primary_language": "Unknown",
+  "total_pushes": 111,
+  "merged_prs": 22,
+  "closed_issues": 11,
+  "pr_reviews": 0,
+  "issue_comments": 24,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 168,
+  "rank_score": 168,
+  "rank": 784,
+  "avatar_url": "https://avatars.githubusercontent.com/u/6225201?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "jdegreef/ochorus",
+      "prs": 16
+    },
+    {
+      "repo": "jdegreef/open-word-bible",
+      "prs": 5
+    },
+    {
+      "repo": "jdegreef/logia",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 784,
+      "s": 168.0
+    }
+  ]
+}

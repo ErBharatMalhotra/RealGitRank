@@ -7,37 +7,40 @@ def entry(**overrides):
         "username": "dev",
         "country": "",
         "primary_language": "Unknown",
-        "measured": {"delivery": True, "code_health": False, "adoption": True, "consistency": True},
-        "bot_evidence": False,
+        "total_pushes": 0,
+        "merged_prs": 0,
+        "closed_issues": 0,
+        "pr_reviews": 0,
+        "issue_comments": 0,
+        "releases": 0,
     }
     base.update(overrides)
     return base
 
 
-def test_coverage_counts_measured_pillars():
+def test_coverage_counts_observed_components():
     coverage = build_coverage([
-        entry(),
-        entry(username="b", measured={"delivery": True, "code_health": True,
-                                      "adoption": True, "consistency": True},
-              bot_evidence=True, country="India", primary_language="Python"),
-        entry(username="c", bot_evidence=True, country="India"),
-    ], {"window_days": 30, "window_start": "2026-10-25", "window_end": "2026-11-23",
-        "score_version": "v2-percentile"})
+        entry(total_pushes=10),
+        entry(username="b", total_pushes=5, merged_prs=2, closed_issues=1,
+              country="India", primary_language="Python"),
+        entry(username="c", merged_prs=3, pr_reviews=4, country="India"),
+    ], {"window_days": 365, "window_months": 12, "window_start": "2025-11-25",
+        "window_end": "2026-11-24", "score_version": "v3-activity"})
 
     assert coverage["users"] == 3
-    assert coverage["pillars"]["code_health"] == {
-        "label": "Test-signal ratio and multi-file PRs", "measured": 1, "pct": 33.3,
-    }
-    assert coverage["automation_evidence"]["pct"] == 66.7
+    assert coverage["signals"]["total_pushes"] == {"label": "Pushes", "observed": 2, "pct": 66.7}
+    assert coverage["signals"]["merged_prs"]["observed"] == 2
+    assert coverage["signals"]["releases"]["observed"] == 0
     assert coverage["country"]["pct"] == 66.7
     assert coverage["language"]["pct"] == 33.3
-    assert coverage["window_days"] == 30
+    assert coverage["window_days"] == 365
+    assert coverage["score_version"] == "v3-activity"
 
 
 def test_coverage_handles_empty_board():
     coverage = build_coverage([], {})
     assert coverage["users"] == 0
-    assert coverage["pillars"]["delivery"]["pct"] == 0.0
+    assert coverage["signals"]["total_pushes"]["pct"] == 0.0
 
 
 def test_coverage_carries_validation():

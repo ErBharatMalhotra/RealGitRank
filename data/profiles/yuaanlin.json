@@ -1,0 +1,36 @@
+{
+  "username": "yuaanlin",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 83,
+  "merged_prs": 24,
+  "closed_issues": 9,
+  "pr_reviews": 26,
+  "issue_comments": 42,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 184,
+  "rank_score": 184,
+  "rank": 699,
+  "avatar_url": "https://avatars.githubusercontent.com/u/21105863?u=b75858f47c5dece1214a0e9f07a972a7a084b2a9&v=4",
+  "bio": "24y. Graduate from Zhejiang University Computer Science. Founder & CEO at @zeabur .",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "nuphos/nuphos",
+      "prs": 24
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 699,
+      "s": 184.0
+    }
+  ]
+}

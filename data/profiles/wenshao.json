@@ -1,0 +1,40 @@
+{
+  "username": "wenshao",
+  "country": "China",
+  "primary_language": "Unknown",
+  "total_pushes": 66,
+  "merged_prs": 9,
+  "closed_issues": 2,
+  "pr_reviews": 37,
+  "issue_comments": 41,
+  "releases": 0,
+  "active_days": 15,
+  "window_days": 30,
+  "activity": 155,
+  "rank_score": 155,
+  "rank": 856,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1166785?u=7c3281648b20f7a450b6f45d7904879c01dfff50&v=4",
+  "bio": "Aliyun DataWorks Tech Leader,  OpenJDK Committer; author of Alibaba's open source projects fastjson/fastjson2/druid",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "QwenLM/qwen-code",
+      "prs": 8
+    },
+    {
+      "repo": "alibaba/fastjson2",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 856,
+      "s": 155.0
+    }
+  ]
+}

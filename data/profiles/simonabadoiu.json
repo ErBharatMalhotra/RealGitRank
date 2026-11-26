@@ -1,0 +1,36 @@
+{
+  "username": "simonabadoiu",
+  "country": "",
+  "primary_language": "TypeScript",
+  "total_pushes": 139,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 19,
+  "window_days": 30,
+  "activity": 140,
+  "rank_score": 140,
+  "rank": 979,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1610123?u=c0ab16f682f5d7b52e2992d4fe725c70d372ad51&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "cdnjs/packages",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 979,
+      "s": 140.0
+    }
+  ]
+}

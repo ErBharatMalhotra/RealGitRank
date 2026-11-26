@@ -1,0 +1,72 @@
+{
+  "username": "zgeoff",
+  "country": "United States",
+  "primary_language": "Shell",
+  "total_pushes": 47,
+  "merged_prs": 22,
+  "closed_issues": 2,
+  "pr_reviews": 58,
+  "issue_comments": 8,
+  "releases": 1,
+  "active_days": 24,
+  "window_days": 30,
+  "activity": 138,
+  "rank_score": 138,
+  "rank": 994,
+  "avatar_url": "https://avatars.githubusercontent.com/u/3013783?u=ec52bd56980099dc3b7fad5008e8951dce05bd94&v=4",
+  "bio": "dumb luck & sheer will.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "zgeoff/hq",
+      "prs": 5
+    },
+    {
+      "repo": "zgeoff/tools",
+      "prs": 4
+    },
+    {
+      "repo": "zgeoff/impz",
+      "prs": 2
+    },
+    {
+      "repo": "zgeoff/skills",
+      "prs": 2
+    },
+    {
+      "repo": "zgeoff/stu",
+      "prs": 2
+    },
+    {
+      "repo": "zgeoff/vers",
+      "prs": 2
+    },
+    {
+      "repo": "zgeoff/atc",
+      "prs": 1
+    },
+    {
+      "repo": "zgeoff/auto-mode",
+      "prs": 1
+    },
+    {
+      "repo": "zgeoff/boxxy",
+      "prs": 1
+    },
+    {
+      "repo": "zgeoff/cloud",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 994,
+      "s": 138.0
+    }
+  ]
+}

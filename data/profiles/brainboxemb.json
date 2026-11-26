@@ -1,0 +1,60 @@
+{
+  "username": "brainboxemb",
+  "country": "",
+  "primary_language": "OpenSCAD",
+  "total_pushes": 114,
+  "merged_prs": 15,
+  "closed_issues": 4,
+  "pr_reviews": 0,
+  "issue_comments": 6,
+  "releases": 0,
+  "active_days": 14,
+  "window_days": 30,
+  "activity": 139,
+  "rank_score": 139,
+  "rank": 987,
+  "avatar_url": "https://avatars.githubusercontent.com/u/285184499?u=5109b7d7790a05901a9f9624feca3ba283bf4149&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "brainboxemb/lib.py.solidcraft.forge",
+      "prs": 6
+    },
+    {
+      "repo": "brainboxemb/2026-011-02.cad.solidcraft",
+      "prs": 3
+    },
+    {
+      "repo": "brainboxemb/lib.py.cad.ci",
+      "prs": 2
+    },
+    {
+      "repo": "brainboxemb/exp.2026-015.hugo-cad-site",
+      "prs": 1
+    },
+    {
+      "repo": "brainboxemb/lib.py.solidcraft.forge.NEW",
+      "prs": 1
+    },
+    {
+      "repo": "brainboxemb/template.cad.model-project",
+      "prs": 1
+    },
+    {
+      "repo": "brainboxemb/tool.cad.ci",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 987,
+      "s": 139.0
+    }
+  ]
+}

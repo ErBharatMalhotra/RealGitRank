@@ -1,0 +1,36 @@
+{
+  "username": "erdaltyy",
+  "country": "Turkey",
+  "primary_language": "PHP",
+  "total_pushes": 46,
+  "merged_prs": 82,
+  "closed_issues": 31,
+  "pr_reviews": 0,
+  "issue_comments": 29,
+  "releases": 0,
+  "active_days": 26,
+  "window_days": 30,
+  "activity": 188,
+  "rank_score": 188,
+  "rank": 682,
+  "avatar_url": "https://avatars.githubusercontent.com/u/192777041?u=9af710683d6fadfe6b5b78fd8280702b7d74a402&v=4",
+  "bio": "",
+  "company": "@kodpen ",
+  "location": "Turkey",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "kodpen/PinegrapCMS",
+      "prs": 82
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 682,
+      "s": 188.0
+    }
+  ]
+}

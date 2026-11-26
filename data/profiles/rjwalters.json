@@ -1,0 +1,72 @@
+{
+  "username": "rjwalters",
+  "country": "",
+  "primary_language": "Python",
+  "total_pushes": 34,
+  "merged_prs": 19,
+  "closed_issues": 8,
+  "pr_reviews": 0,
+  "issue_comments": 130,
+  "releases": 0,
+  "active_days": 16,
+  "window_days": 30,
+  "activity": 191,
+  "rank_score": 191,
+  "rank": 670,
+  "avatar_url": "https://avatars.githubusercontent.com/u/2687775?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "botho-project/botho",
+      "prs": 5
+    },
+    {
+      "repo": "2AMLogic/klayout-tools",
+      "prs": 3
+    },
+    {
+      "repo": "rjwalters/kicad-tools",
+      "prs": 3
+    },
+    {
+      "repo": "rjwalters/openkonnect",
+      "prs": 2
+    },
+    {
+      "repo": "2AMLogic/fasterhenry",
+      "prs": 1
+    },
+    {
+      "repo": "2AMLogic/kicad-tools",
+      "prs": 1
+    },
+    {
+      "repo": "2AMLogic/loom",
+      "prs": 1
+    },
+    {
+      "repo": "2AMLogic/sg13g2-lc-pll",
+      "prs": 1
+    },
+    {
+      "repo": "2AMLogic/sg13g2-sram",
+      "prs": 1
+    },
+    {
+      "repo": "2AMLogic/sky130-usb2-phy",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 670,
+      "s": 191.0
+    }
+  ]
+}

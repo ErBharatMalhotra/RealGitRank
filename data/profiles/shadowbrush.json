@@ -1,0 +1,48 @@
+{
+  "username": "shadowbrush",
+  "country": "Germany",
+  "primary_language": "Dart",
+  "total_pushes": 72,
+  "merged_prs": 38,
+  "closed_issues": 28,
+  "pr_reviews": 0,
+  "issue_comments": 325,
+  "releases": 0,
+  "active_days": 26,
+  "window_days": 30,
+  "activity": 463,
+  "rank_score": 463,
+  "rank": 161,
+  "avatar_url": "https://avatars.githubusercontent.com/u/527644?u=382d5a36f240379cda3b1e1e049ae555828560fa&v=4",
+  "bio": "",
+  "company": "Baragaun, Inc.",
+  "location": "Portland, OR, Herrsching am Ammersee, Germany",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "hadron-memory/hadron-server",
+      "prs": 21
+    },
+    {
+      "repo": "hadron-memory/hadron-cli",
+      "prs": 14
+    },
+    {
+      "repo": "hadron-memory/hadron-portal",
+      "prs": 2
+    },
+    {
+      "repo": "hadron-memory/hadrontool-resend",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 161,
+      "s": 463.0
+    }
+  ]
+}

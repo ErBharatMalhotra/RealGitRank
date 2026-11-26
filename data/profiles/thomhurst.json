@@ -1,0 +1,60 @@
+{
+  "username": "thomhurst",
+  "country": "United Kingdom",
+  "primary_language": "Unknown",
+  "total_pushes": 36,
+  "merged_prs": 20,
+  "closed_issues": 16,
+  "pr_reviews": 25,
+  "issue_comments": 81,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 178,
+  "rank_score": 178,
+  "rank": 733,
+  "avatar_url": "https://avatars.githubusercontent.com/u/30480171?u=95a06a743c6e10e818371a50f11de7e832875337&v=4",
+  "bio": "Developer of TUnit + Hobbyist Photographer",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "thomhurst/Relayer",
+      "prs": 7
+    },
+    {
+      "repo": "thomhurst/TUnit",
+      "prs": 4
+    },
+    {
+      "repo": "thomhurst/Dekaf",
+      "prs": 2
+    },
+    {
+      "repo": "thomhurst/ModularPipelines",
+      "prs": 2
+    },
+    {
+      "repo": "thomhurst/Respire",
+      "prs": 2
+    },
+    {
+      "repo": "thomhurst/Spectre.MEL",
+      "prs": 2
+    },
+    {
+      "repo": "thomhurst/Reservoir",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 733,
+      "s": 178.0
+    }
+  ]
+}

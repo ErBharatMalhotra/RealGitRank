@@ -1,0 +1,40 @@
+{
+  "username": "tpruittguitar",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 160,
+  "merged_prs": 8,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 168,
+  "rank_score": 168,
+  "rank": 786,
+  "avatar_url": "https://avatars.githubusercontent.com/u/295236420?u=30ba9470d9ebbd4b06e57b738659a9ba14b24750&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "tpruittguitar/foreman-cockpit",
+      "prs": 5
+    },
+    {
+      "repo": "tpruittguitar/forge-coordination",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 786,
+      "s": 168.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "username": "agrihaihahung",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 261,
+  "merged_prs": 0,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 18,
+  "window_days": 30,
+  "activity": 261,
+  "rank_score": 261,
+  "rank": 368,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 368,
+      "s": 261.0
+    }
+  ]
+}

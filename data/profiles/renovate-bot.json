@@ -2,50 +2,35 @@
   "username": "renovate-bot",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 91,
-  "merged_prs": 31,
-  "listed_only": false,
-  "s_pr": 99.97,
-  "s_quality": 50.0,
-  "s_impact": 99.67,
-  "s_consistency": 98.77,
-  "measured": {
-    "delivery": true,
-    "code_health": true,
-    "adoption": true,
-    "consistency": true
-  },
-  "active_days": 26,
-  "window_days": 30,
-  "rank_score": 872.2,
-  "active_repos_touched": 128,
+  "total_pushes": 138,
+  "merged_prs": 34,
+  "closed_issues": 0,
   "pr_reviews": 0,
   "issue_comments": 0,
   "releases": 0,
-  "stars_fraud_filtered": 1,
-  "forks_fraud_filtered": 2,
-  "active_shipping_weeks": 5,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 36,
+  "active_days": 26,
+  "window_days": 30,
+  "activity": 172,
+  "rank_score": 172,
+  "rank": 766,
   "avatar_url": "https://avatars.githubusercontent.com/u/25180681?u=52b5860ab267400de6ab46df639ef58661455321&v=4",
   "bio": "Mend Renovate is a bot to keep dependencies up-to-date using Pull Requests. To install: https://github.com/apps/renovate, or /apps/forking-renovate",
   "company": "@mend",
   "location": "",
-  "score_version": "v2-percentile",
-  "window_start": "2026-10-27",
-  "window_end": "2026-11-25",
-  "ci_pushes": 3,
-  "percentile": 100.0,
-  "tier": "Elite",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
   "prev_rank": 51,
   "prev_score": 871.6,
-  "rank_delta": 15,
-  "score_delta": 0.6,
+  "rank_delta": -715,
+  "score_delta": -699.6,
   "counted_merges": [
     {
       "repo": "GoogleCloudPlatform/prometheus-engine",
+      "prs": 3
+    },
+    {
+      "repo": "moby/moby",
       "prs": 3
     },
     {
@@ -57,7 +42,7 @@
       "prs": 2
     },
     {
-      "repo": "moby/moby",
+      "repo": "apache/superset-kubernetes-operator",
       "prs": 2
     },
     {
@@ -79,10 +64,6 @@
     {
       "repo": "JohnStrunk/oats",
       "prs": 1
-    },
-    {
-      "repo": "Spillgebees/Blazor.RichTextEditor",
-      "prs": 1
     }
   ],
   "history": [
@@ -103,8 +84,8 @@
     },
     {
       "d": "2026-11-26",
-      "r": 36,
-      "s": 872.2
+      "r": 766,
+      "s": 172.0
     }
   ]
 }

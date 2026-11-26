@@ -3,49 +3,31 @@
   "country": "United States",
   "primary_language": "TypeScript",
   "total_pushes": 45,
-  "merged_prs": 79,
-  "listed_only": false,
-  "s_pr": 100.0,
-  "s_quality": 50.0,
-  "s_impact": 99.37,
-  "s_consistency": 99.09,
-  "measured": {
-    "delivery": true,
-    "code_health": true,
-    "adoption": true,
-    "consistency": true
-  },
+  "merged_prs": 70,
+  "closed_issues": 2,
+  "pr_reviews": 0,
+  "issue_comments": 35,
+  "releases": 1,
   "active_days": 28,
   "window_days": 30,
-  "rank_score": 872.0,
-  "active_repos_touched": 38,
-  "pr_reviews": 0,
-  "issue_comments": 39,
-  "releases": 1,
-  "stars_fraud_filtered": 0,
-  "forks_fraud_filtered": 2,
-  "active_shipping_weeks": 5,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 47,
+  "activity": 153,
+  "rank_score": 153,
+  "rank": 869,
   "avatar_url": "https://avatars.githubusercontent.com/u/25068?u=5d9c466c1faf3fcd96870c8c9b99c7a548415369&v=4",
   "bio": "Chief Architect \ud83e\udd9e @openclaw Ex @qantasairways @airbytehq @microsoft | Lecturer @mit | Ethical Hacker | FIrst Responder",
   "company": "@openclaw",
   "location": "San Francisco, CA",
-  "score_version": "v2-percentile",
-  "window_start": "2026-10-27",
-  "window_end": "2026-11-25",
-  "percentile": 100.0,
-  "tier": "Elite",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
   "prev_rank": 43,
   "prev_score": 871.8,
-  "rank_delta": -4,
-  "score_delta": 0.2,
+  "rank_delta": -826,
+  "score_delta": -718.8,
   "counted_merges": [
     {
       "repo": "openclaw/openclaw",
-      "prs": 32
+      "prs": 27
     },
     {
       "repo": "openclaw/clawhub",
@@ -53,15 +35,11 @@
     },
     {
       "repo": "openclaw/clawrouter",
-      "prs": 8
+      "prs": 7
     },
     {
       "repo": "vincentkoc/tokenjuice",
       "prs": 4
-    },
-    {
-      "repo": "morluto/rea",
-      "prs": 3
     },
     {
       "repo": "openclaw/Kova",
@@ -81,6 +59,10 @@
     },
     {
       "repo": "openclaw/esp-openclaw-node",
+      "prs": 2
+    },
+    {
+      "repo": "openclaw/fs-safe",
       "prs": 2
     }
   ],
@@ -107,8 +89,8 @@
     },
     {
       "d": "2026-11-26",
-      "r": 47,
-      "s": 872.0
+      "r": 869,
+      "s": 153.0
     }
   ]
 }

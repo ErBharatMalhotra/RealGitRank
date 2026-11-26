@@ -1,0 +1,48 @@
+{
+  "username": "JOY",
+  "country": "Vietnam",
+  "primary_language": "JavaScript",
+  "total_pushes": 52,
+  "merged_prs": 30,
+  "closed_issues": 17,
+  "pr_reviews": 22,
+  "issue_comments": 81,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 202,
+  "rank_score": 202,
+  "rank": 624,
+  "avatar_url": "https://avatars.githubusercontent.com/u/5027251?v=4",
+  "bio": "Co-founder @DOS |\r\nFounder at Vietnam Game Dev",
+  "company": "@DOS",
+  "location": "Vietnam",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "DOS/Ludy",
+      "prs": 18
+    },
+    {
+      "repo": "DOS/Rate",
+      "prs": 6
+    },
+    {
+      "repo": "DOS/Give",
+      "prs": 4
+    },
+    {
+      "repo": "DOS/Crove",
+      "prs": 2
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 624,
+      "s": 202.0
+    }
+  ]
+}

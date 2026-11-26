@@ -1,0 +1,30 @@
+{
+  "username": "bigcrimping",
+  "country": "",
+  "primary_language": "C",
+  "total_pushes": 143,
+  "merged_prs": 0,
+  "closed_issues": 0,
+  "pr_reviews": 0,
+  "issue_comments": 0,
+  "releases": 0,
+  "active_days": 16,
+  "window_days": 30,
+  "activity": 143,
+  "rank_score": 143,
+  "rank": 953,
+  "avatar_url": "https://avatars.githubusercontent.com/u/74270551?u=ee6e3aab6b420366682ee15b51013ac36dfe284f&v=4",
+  "bio": "I used to do HW. I still do, but I used to, too.",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 953,
+      "s": 143.0
+    }
+  ]
+}

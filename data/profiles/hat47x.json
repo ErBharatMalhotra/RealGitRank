@@ -1,0 +1,52 @@
+{
+  "username": "hat47x",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 53,
+  "merged_prs": 52,
+  "closed_issues": 11,
+  "pr_reviews": 1,
+  "issue_comments": 92,
+  "releases": 0,
+  "active_days": 24,
+  "window_days": 30,
+  "activity": 209,
+  "rank_score": 209,
+  "rank": 604,
+  "avatar_url": "https://avatars.githubusercontent.com/u/16517913?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "hat47x/tei-platform",
+      "prs": 36
+    },
+    {
+      "repo": "hat47x/tai-pleroma",
+      "prs": 7
+    },
+    {
+      "repo": "hat47x/eki-fabric",
+      "prs": 5
+    },
+    {
+      "repo": "hat47x/sui-sensemaking",
+      "prs": 3
+    },
+    {
+      "repo": "hat47x/markdown-matrix-injector",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 604,
+      "s": 209.0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "username": "lethisa",
+  "country": "Indonesia",
+  "primary_language": "Unknown",
+  "total_pushes": 92,
+  "merged_prs": 24,
+  "closed_issues": 3,
+  "pr_reviews": 2,
+  "issue_comments": 23,
+  "releases": 0,
+  "active_days": 22,
+  "window_days": 30,
+  "activity": 144,
+  "rank_score": 144,
+  "rank": 939,
+  "avatar_url": "https://avatars.githubusercontent.com/u/26271254?u=a142baf9800f177f0511f8e7f35889fc35166091&v=4",
+  "bio": "Little Rookie",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "OXY7O/KAORI",
+      "prs": 18
+    },
+    {
+      "repo": "OXY7O/kaori-website",
+      "prs": 5
+    },
+    {
+      "repo": "OXY7O/kaori-docs",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 939,
+      "s": 144.0
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "username": "justin13888",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 80,
+  "merged_prs": 27,
+  "closed_issues": 33,
+  "pr_reviews": 0,
+  "issue_comments": 4,
+  "releases": 0,
+  "active_days": 20,
+  "window_days": 30,
+  "activity": 144,
+  "rank_score": 144,
+  "rank": 938,
+  "avatar_url": "https://avatars.githubusercontent.com/u/20733699?u=1d4bf07d6df7d5e4ca945df1bbbbe0fa8620b661&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "justin13888/Sunrise",
+      "prs": 6
+    },
+    {
+      "repo": "getkono/kynos",
+      "prs": 5
+    },
+    {
+      "repo": "Capsulsaurus/Capsule",
+      "prs": 3
+    },
+    {
+      "repo": "getkono/karet",
+      "prs": 2
+    },
+    {
+      "repo": "justin13888/Crisp",
+      "prs": 2
+    },
+    {
+      "repo": "justin13888/calendar-sync",
+      "prs": 2
+    },
+    {
+      "repo": "d18580b/torrent",
+      "prs": 1
+    },
+    {
+      "repo": "getkono/bx",
+      "prs": 1
+    },
+    {
+      "repo": "getkono/spargen",
+      "prs": 1
+    },
+    {
+      "repo": "justin13888/Teiryo",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 938,
+      "s": 144.0
+    }
+  ]
+}

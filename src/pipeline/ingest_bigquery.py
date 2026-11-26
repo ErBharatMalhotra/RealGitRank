@@ -32,8 +32,13 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 SQL_PATH = Path(__file__).resolve().parents[2] / "scripts" / "bigquery" / "daily_ingest.sql"
+ACTIVITY_SQL_PATH = Path(__file__).resolve().parents[2] / "scripts" / "bigquery" / "monthly_activity.sql"
 # One day scans ~0.05 GiB. 20 GiB only trips on a mistake (no date filter).
 DEFAULT_MAX_BYTES_BILLED = 20 * 1024 ** 3
+# One month of the activity query reads `payload` for PR/issue actions, so it is
+# far heavier than the CI query: ~40-60 GiB measured per month. The cap stops a
+# missing month filter from scanning the whole history.
+DEFAULT_ACTIVITY_MAX_BYTES = 120 * 1024 ** 3
 
 
 def credentials():
@@ -212,10 +217,89 @@ def backfill_window(rolling_dir="data/rolling", days=None, client=None):
     return done
 
 
+def build_activity_sql(month):
+    """SQL for one complete month (``YYYY-MM``) of per-login activity counts."""
+    table = "githubarchive.month." + str(month).replace("-", "")
+    return ACTIVITY_SQL_PATH.read_text(encoding="utf-8").replace("{table}", f"`{table}`")
+
+
+def fetch_month_activity(month, client=None, max_bytes=None):
+    """Per-login activity counts for one month, already aggregated in SQL."""
+    if client is None:
+        client = _client()
+        if client is None:
+            return []
+    limit = max_bytes or os.environ.get("GCP_ACTIVITY_MAX_BYTES") or DEFAULT_ACTIVITY_MAX_BYTES
+    config = job_config(limit)
+    if config is None:
+        return []
+    job = client.query(build_activity_sql(month), job_config=config)
+    return [dict(row) for row in job.result()]
+
+
+def backfill_activity(months, client=None, monthly_dir=None, max_bytes=None):
+    """Write complete past months of activity counts into the monthly store.
+
+    Idempotent: a month already backfilled from BigQuery is skipped, and
+    ``activity.merge_month`` replaces whatever it finds for that month.
+    """
+    activity = _module("activity")
+    monthly_dir = monthly_dir or activity.MONTHLY_DIR
+    if client is None:
+        if not has_credentials():
+            return []
+        client = _client()
+
+    done = []
+    for month in months:
+        existing = activity.load_month(month, monthly_dir)
+        if existing and existing.get("source") == "bigquery":
+            continue
+        try:
+            rows = fetch_month_activity(month, client=client, max_bytes=max_bytes)
+        except Exception as exc:
+            print(f"  {month}: activity backfill skipped ({exc})")
+            continue
+        counters = {}
+        for row in rows:
+            login = (row.get("login") or "").strip()
+            if not login:
+                continue
+            counters[login] = {
+                "p": int(row.get("pushes") or 0),
+                "m": int(row.get("merged_prs") or 0),
+                "i": int(row.get("closed_issues") or 0),
+                "rv": int(row.get("pr_reviews") or 0),
+                "ic": int(row.get("issue_comments") or 0),
+                "rel": int(row.get("releases") or 0),
+            }
+        if not counters:
+            print(f"  {month}: BigQuery returned no activity rows")
+            continue
+        path, users = activity.merge_month(month, counters, monthly_dir)
+        done.append((month, users))
+        print(f"  {month}: {users} users written to {path}")
+    return done
+
+
+def complete_months(count=12, end_date=None):
+    """The newest `count` complete UTC months before the running month."""
+    today = end_date or (datetime.now(timezone.utc).date() - timedelta(days=1))
+    year, month = today.year, today.month - 1
+    months = []
+    for _ in range(count):
+        if month == 0:
+            month = 12
+            year -= 1
+        months.append(f"{year:04d}-{month:02d}")
+        month -= 1
+    return sorted(months)
+
+
 def main(argv=None):
     import argparse
 
-    parser = argparse.ArgumentParser(description="BigQuery CI-push attribution for one UTC day")
+    parser = argparse.ArgumentParser(description="BigQuery CI attribution / activity backfill")
     parser.add_argument("--date", help="UTC date to query (YYYY-MM-DD); defaults to yesterday")
     parser.add_argument("--estimate", action="store_true",
                         help="dry run: report bytes scanned instead of running")
@@ -223,6 +307,10 @@ def main(argv=None):
                         help="add CI pushes to rolling shards that lack them (idempotent)")
     parser.add_argument("--days", type=int, default=None,
                         help="limit --backfill to the newest N shards")
+    parser.add_argument("--backfill-activity", type=int, default=None, metavar="MONTHS",
+                        help="write the newest N complete months into data/activity (idempotent)")
+    parser.add_argument("--months", default=None,
+                        help="comma-separated YYYY-MM list for the activity backfill")
     args = parser.parse_args(argv)
 
     target = (datetime.strptime(args.date, "%Y-%m-%d").date() if args.date
@@ -239,6 +327,15 @@ def main(argv=None):
         project=project,
         credentials=service_account.Credentials.from_service_account_info(info),
     )
+
+    if args.backfill_activity or args.months:
+        months = ([m.strip() for m in args.months.split(",") if m.strip()]
+                  if args.months else complete_months(args.backfill_activity or 12,
+                                                      end_date=datetime.strptime(args.date, "%Y-%m-%d").date()
+                                                      if args.date else None))
+        done = backfill_activity(months, client=client)
+        print(f"activity backfill: {len(done)} months written")
+        return 0
 
     if args.backfill:
         done = backfill_window(days=args.days, client=client)

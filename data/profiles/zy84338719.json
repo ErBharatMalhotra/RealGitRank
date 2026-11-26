@@ -1,0 +1,72 @@
+{
+  "username": "zy84338719",
+  "country": "China",
+  "primary_language": "Go",
+  "total_pushes": 59,
+  "merged_prs": 84,
+  "closed_issues": 43,
+  "pr_reviews": 0,
+  "issue_comments": 37,
+  "releases": 20,
+  "active_days": 27,
+  "window_days": 30,
+  "activity": 243,
+  "rank_score": 243,
+  "rank": 429,
+  "avatar_url": "https://avatars.githubusercontent.com/u/30000714?u=4d6cf7c959585b105cee9817a722728b728d56f3&v=4",
+  "bio": "learn cs course",
+  "company": "",
+  "location": "Beijing",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "oekit/kitex",
+      "prs": 5
+    },
+    {
+      "repo": "oekit/registry",
+      "prs": 5
+    },
+    {
+      "repo": "oekit/matrix-tools",
+      "prs": 4
+    },
+    {
+      "repo": "oekit/oekit.github.io",
+      "prs": 4
+    },
+    {
+      "repo": "oekit/pkg",
+      "prs": 4
+    },
+    {
+      "repo": "oagentkit/agent",
+      "prs": 3
+    },
+    {
+      "repo": "oagentkit/agentkit",
+      "prs": 3
+    },
+    {
+      "repo": "oagentkit/obs",
+      "prs": 3
+    },
+    {
+      "repo": "oagentkit/runtime",
+      "prs": 3
+    },
+    {
+      "repo": "oekit/data",
+      "prs": 3
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 429,
+      "s": 243.0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "username": "tauceti-ai-for-science",
+  "country": "",
+  "primary_language": "Unknown",
+  "total_pushes": 62,
+  "merged_prs": 1,
+  "closed_issues": 0,
+  "pr_reviews": 217,
+  "issue_comments": 71,
+  "releases": 0,
+  "active_days": 16,
+  "window_days": 30,
+  "activity": 351,
+  "rank_score": 351,
+  "rank": 239,
+  "avatar_url": "",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "TauCetiProject/TauCeti",
+      "prs": 1
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 239,
+      "s": 351.0
+    }
+  ]
+}

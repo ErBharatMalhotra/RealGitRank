@@ -1,0 +1,36 @@
+{
+  "username": "Alarion239",
+  "country": "United States",
+  "primary_language": "Unknown",
+  "total_pushes": 18,
+  "merged_prs": 20,
+  "closed_issues": 11,
+  "pr_reviews": 20,
+  "issue_comments": 86,
+  "releases": 0,
+  "active_days": 21,
+  "window_days": 30,
+  "activity": 155,
+  "rank_score": 155,
+  "rank": 855,
+  "avatar_url": "https://avatars.githubusercontent.com/u/128881772?v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "Alarion239/complex-map-workbench",
+      "prs": 20
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 855,
+      "s": 155.0
+    }
+  ]
+}

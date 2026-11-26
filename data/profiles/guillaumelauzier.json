@@ -1,0 +1,36 @@
+{
+  "username": "guillaumelauzier",
+  "country": "Switzerland",
+  "primary_language": "Unknown",
+  "total_pushes": 23,
+  "merged_prs": 22,
+  "closed_issues": 17,
+  "pr_reviews": 5,
+  "issue_comments": 104,
+  "releases": 0,
+  "active_days": 16,
+  "window_days": 30,
+  "activity": 171,
+  "rank_score": 171,
+  "rank": 768,
+  "avatar_url": "https://avatars.githubusercontent.com/u/55703540?u=e47af624f010ccbf34415625cde579a04d9ff405&v=4",
+  "bio": "",
+  "company": "",
+  "location": "",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
+  "counted_merges": [
+    {
+      "repo": "AxalNetwork/StudioOS",
+      "prs": 22
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-11-26",
+      "r": 768,
+      "s": 171.0
+    }
+  ]
+}

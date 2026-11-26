@@ -2,51 +2,32 @@
   "username": "jeong-sik",
   "country": "",
   "primary_language": "TypeScript",
-  "total_pushes": 53,
-  "merged_prs": 75,
-  "listed_only": false,
-  "s_pr": 99.99,
-  "s_quality": 50.0,
-  "s_impact": 98.95,
-  "s_consistency": 99.12,
-  "measured": {
-    "delivery": true,
-    "code_health": true,
-    "adoption": true,
-    "consistency": true
-  },
+  "total_pushes": 111,
+  "merged_prs": 73,
+  "closed_issues": 20,
+  "pr_reviews": 34,
+  "issue_comments": 53,
+  "releases": 0,
   "active_days": 28,
   "window_days": 30,
-  "rank_score": 871.0,
-  "active_repos_touched": 4,
-  "pr_reviews": 34,
-  "issue_comments": 54,
-  "releases": 0,
-  "stars_fraud_filtered": 1,
-  "forks_fraud_filtered": 0,
-  "active_shipping_weeks": 5,
-  "avg_files_changed": null,
-  "test_file_ratio": 0.0,
-  "multi_file_commit_ratio": null,
-  "rank": 87,
+  "activity": 291,
+  "rank_score": 291,
+  "rank": 304,
   "avatar_url": "https://avatars.githubusercontent.com/u/45959991?u=08b0956755a65174b79d2249f8b0957e2477c3a2&v=4",
   "bio": "anyang sleepers",
   "company": "",
   "location": "",
-  "score_version": "v2-percentile",
-  "window_start": "2026-10-27",
-  "window_end": "2026-11-25",
-  "ci_pushes": 9,
-  "percentile": 100.0,
-  "tier": "Elite",
+  "score_version": "v3-activity",
+  "window_start": "2026-10-01",
+  "window_end": "2026-11-24",
   "prev_rank": 81,
   "prev_score": 870.9,
-  "rank_delta": -6,
-  "score_delta": 0.1,
+  "rank_delta": -223,
+  "score_delta": -579.9,
   "counted_merges": [
     {
       "repo": "jeong-sik/masc",
-      "prs": 74
+      "prs": 72
     },
     {
       "repo": "jeong-sik/ocaml-dos",
@@ -76,8 +57,8 @@
     },
     {
       "d": "2026-11-26",
-      "r": 87,
-      "s": 871.0
+      "r": 304,
+      "s": 291.0
     }
   ]
 }
