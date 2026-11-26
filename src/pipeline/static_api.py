@@ -173,7 +173,9 @@ def build_leaderboard(entries, status=None, snapshot_date=None, profiles=None, c
             "shards": status.get("shards"),
         },
         "count": len(users),
-        "ranked_total": status.get("users") or len(users),
+        "ranked_total": status.get("users_ranked") or status.get("users") or len(users),
+        "listed_total": status.get("users_listed") or 0,
+        "snapshot_total": status.get("users_total") or status.get("users"),
         "site": SITE,
         "methodology_url": f"{SITE}/methodology/",
         "weights": WEIGHTS,
@@ -263,7 +265,7 @@ def llms_text(payload, leaderboard=None):
 Canonical site: {payload['site']}/ (custom domain, GitHub Pages, no API keys)
 Last data refresh: {payload.get('generated_at') or 'unknown'}
 Snapshot date: {payload.get('snapshot_date') or 'unknown'}
-Ranked developers: {payload.get('ranked_total', payload.get('count', 0))} ({payload.get('count', 0)} with detailed records)
+Ranked developers: {payload.get('ranked_total', payload.get('count', 0))} of {payload.get('snapshot_total') or payload.get('ranked_total', payload.get('count', 0))} tracked ({payload.get('listed_total', 0)} listed without a score, {payload.get('count', 0)} with detailed records)
 Score version: {payload.get('score_version') or 'unknown'}
 Window: {window.get('days')} days ({window.get('start')} to {window.get('end')}, {window.get('shards')} daily shards)
 Pillar coverage: {coverage_line}
@@ -281,9 +283,11 @@ Independent validation: {validation_line}
   (users outside the top 1,000 have no per-user file; read their row from the chunks)
 - {payload['site']}/data/chunks/page_1.json — raw leaderboard chunks (250 rows per page),
   index at {payload['site']}/data/chunks/index.json; every ranked developer is included
-- {payload['site']}/data/search/{{first_char}}.json — compact [username, rank, score]
-  index sharded by the first character of the username (a-z, 0-9, `other`), so a
-  lookup does not download the whole board
+- {payload['site']}/data/search/{{first_char}}.json — compact
+  [username, rank, score, state, page] index sharded by the first character of
+  the username (a-z, 0-9, `other`), so a lookup does not download the whole
+  board. `state` is `ranked` or `listed`; a listed account has `rank: null` and
+  `page` is its pointer into the chunks
 - {payload['site']}/badges/{{username}}.svg — SVG badge (dedicated badges for the global
   top 1,000; {payload['site']}/badges/default.svg otherwise)
 - {payload['site']}/methodology/ — how the score is computed, in prose

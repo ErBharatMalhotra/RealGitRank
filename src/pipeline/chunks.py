@@ -7,11 +7,14 @@ module strips them from the copies the browser can download.
 
 Two public layers are written here:
 
-* ``chunks/page_<n>.json`` — every ranked user (detailed rows for the top of the
-  board, compact rows for the long tail), so nobody is missing from the site.
-* ``search/<bucket>.json`` — a prefix-sharded ``[username, rank, score]`` index.
-  A single index would be tens of megabytes, so the browser fetches only the
-  bucket it needs while the user types.
+* ``chunks/page_<n>.json`` — every user in the snapshot (detailed rows for the
+  top of the board, compact rows for the long tail), so nobody is missing from
+  the site.
+* ``search/<bucket>.json`` — a prefix-sharded ``[username, rank, score, state,
+  page]`` index. A single index would be tens of megabytes, so the browser
+  fetches only the bucket it needs while the user types. ``state`` is
+  ``ranked`` or ``listed``; a listed account carries no rank claim, so its rank
+  is ``null`` and ``page`` is the only pointer into the chunks.
 * ``search/names.json`` — ``[username, rank]`` for the detailed board so a
   substring search ("bharat" finding "ErBharatMalhotra") can reach every user on
   it, not just the rows the table has already loaded.
@@ -23,6 +26,7 @@ import re
 CHUNK_SIZE = 250
 PUBLIC_DATA = "web/public/data"
 LONG_TAIL_PATH = "data/long_tail.json"
+SEARCH_SCHEMA = 2
 
 # Never published: these describe a per-account judgement, not a score.
 HIDDEN_FIELDS = ("is_bot_classified", "is_human_verified", "bot_penalty", "bot_evidence")
@@ -62,6 +66,43 @@ def search_bucket(username):
     return key if key in SEARCH_BUCKETS else "other"
 
 
+def dedupe_rows(rows):
+    """One row per GitHub login, keeping the best (lowest) rank.
+
+    ``data/long_tail.json`` survives across runs and can hold a user who has
+    since moved into the detailed slice, which used to produce two ranks for the
+    same account. Ranks are still the pipeline's positional value here; only the
+    public search layer hides the rank of a listed account.
+    """
+    best = {}
+    for row in rows:
+        name = str(row.get("username") or "")
+        if not name:
+            continue
+        key = name.lower()
+        rank = row.get("rank")
+        current = best.get(key)
+        if current is None:
+            best[key] = row
+            continue
+        current_rank = current.get("rank")
+        if isinstance(rank, int) and (not isinstance(current_rank, int) or rank < current_rank):
+            best[key] = row
+    return sorted(best.values(), key=lambda u: u.get("rank") or 0)
+
+
+def search_row(entry, page):
+    """Public search record: rank is null for accounts that are only listed."""
+    listed = bool(entry.get("listed_only"))
+    return [
+        entry["username"],
+        None if listed else entry.get("rank"),
+        round(float(entry.get("rank_score") or 0), 1),
+        "listed" if listed else "ranked",
+        page,
+    ]
+
+
 def load_rows():
     """Detailed leaderboard rows plus the compact long tail, in rank order.
 
@@ -76,9 +117,11 @@ def load_rows():
     except (OSError, ValueError):
         tail = []
     rows = [public_row(u) for u in detailed if u.get("username")]
-    detailed_count = len(rows)
+    detailed_names = {u["username"].lower() for u in rows}
     rows.extend(public_row(u) for u in tail if u.get("username"))
-    rows.sort(key=lambda u: u.get("rank") or 0)
+    # A stale tail can still name a user who is now in the detailed slice.
+    rows = dedupe_rows(rows)
+    detailed_count = sum(1 for u in rows if u["username"].lower() in detailed_names)
     return rows, detailed_count
 
 
@@ -112,17 +155,19 @@ def main():
     with open(os.path.join(chunks_dir, "index.json"), "w", encoding="utf-8") as f:
         json.dump({"total": total, "pages": pages, "chunk_size": CHUNK_SIZE}, f)
 
-    # Prefix-sharded search index: [username, rank, score] per starting character.
+    # Prefix-sharded search index: [username, rank, score, state, page].
     search_dir = os.path.join(PUBLIC_DATA, "search")
     os.makedirs(search_dir, exist_ok=True)
     for old in os.listdir(search_dir):
         if old.endswith(".json"):
             os.remove(os.path.join(search_dir, old))
     buckets = {}
-    for u in rows:
-        buckets.setdefault(search_bucket(u["username"]), []).append(
-            [u["username"], u.get("rank"), round(float(u.get("rank_score") or 0), 1)]
-        )
+    listed = 0
+    for index, u in enumerate(rows):
+        page = index // CHUNK_SIZE + 1
+        if u.get("listed_only"):
+            listed += 1
+        buckets.setdefault(search_bucket(u["username"]), []).append(search_row(u, page))
     for key, bucket_rows in buckets.items():
         with open(os.path.join(search_dir, f"{key}.json"), "w", encoding="utf-8") as f:
             json.dump(bucket_rows, f, separators=(",", ":"), ensure_ascii=False)
@@ -134,10 +179,11 @@ def main():
         json.dump([[u["username"], u.get("rank")] for u in rows[:detailed_count]],
                   f, separators=(",", ":"), ensure_ascii=False)
 
-    # Keep a small manifest so clients can discover the buckets (and the total)
+    # Keep a small manifest so clients can discover the buckets (and the counts)
     # without guessing.
     with open(os.path.join(search_dir, "index.json"), "w", encoding="utf-8") as f:
-        json.dump({"total": total, "detailed": detailed_count,
+        json.dump({"total": total, "ranked": total - listed, "listed": listed,
+                   "detailed": detailed_count, "schema": SEARCH_SCHEMA,
                    "buckets": sorted(buckets), "names": "names.json"}, f)
 
     stale_search = os.path.join(PUBLIC_DATA, "search.json")
@@ -145,7 +191,8 @@ def main():
         os.remove(stale_search)
 
     print(
-        f"Chunks: {pages} pages x {CHUNK_SIZE} = {total} users, "
+        f"Chunks: {pages} pages x {CHUNK_SIZE} = {total} users "
+        f"({total - listed} ranked, {listed} listed), "
         f"search buckets: {len(buckets)}, substring names: {detailed_count} "
         "(classification fields stripped)"
     )

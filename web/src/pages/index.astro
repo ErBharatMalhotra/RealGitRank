@@ -34,6 +34,8 @@
       .qres a { display: flex; justify-content: space-between; gap: 10px; padding: 7px 12px; font-size: 13px; color: var(--ink); text-decoration: none; }
       .qres a:hover { background: var(--bg); text-decoration: none; }
       .qres .rk { color: var(--muted); font-variant-numeric: tabular-nums; }
+      .qres .state { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; }
+      .qres a.probe { justify-content: flex-start; color: var(--accent); }
       .qnote { color: var(--muted); font-size: 12px; margin: -6px 0 14px; }
       .qnote code { font-size: 12px; color: var(--ink); }
       input:focus, select:focus { border-color: var(--accent); outline: none; }
@@ -82,7 +84,7 @@
   </head>
   <body>
     <h1>Real<span>Git</span>Rank</h1>
-    <p class="sub">Commit count measures typing speed. RealGitRank scores a rolling 30-day window of merged work, adoption and consistency. <span id="total">Loading...</span> developers ranked worldwide. <a href="/countries">🌍 Countries & Worldwide →</a> · <a href="/badges/">🏅 README badges →</a> · <a href="/methodology/">📐 Methodology, coverage & API →</a></p>
+    <p class="sub">Commit count measures typing speed. RealGitRank scores a rolling 30-day window of merged work, adoption and consistency. <strong><span id="total">…</span> ranked</strong> of <span id="tracked">…</span> developers in today's snapshot · <span id="listed">…</span> listed without a score. <a href="/countries">🌍 Countries & Worldwide →</a> · <a href="/badges/">🏅 README badges →</a> · <a href="/methodology/">📐 Methodology, coverage & API →</a></p>
     <div class="controls">
       <div class="qwrap">
         <input id="q" type="text" placeholder="Search username, country, language..." autocomplete="off" />
@@ -91,10 +93,10 @@
       <select id="country"><option value="">All countries</option></select>
       <select id="lang"><option value="">All languages</option></select>
     </div>
-    <p class="qnote">Matching the start of a username searches every listed developer; matching anywhere inside the name covers the top 50,000. Open any profile directly with <code>/profile/?u=username</code>.</p>
+    <p class="qnote">Typing the start of a username searches the whole board; a match inside the name covers the top 50,000. Press <code>Enter</code> to open any username directly, or use <code>/profile/?u=username</code>.</p>
     <div class="stats" id="stats">Loading...</div>
     <table id="tbl">
-      <thead><tr><th>#</th><th>User</th><th>Score</th><th>Tier</th><th>Country</th><th>Lang</th><th>Merges (30d)</th><th>Badge</th></tr></thead>
+      <thead><tr><th>#</th><th>User</th><th>Score</th><th>Tier</th><th>Country</th><th>Lang</th><th>Merges (30d)</th></tr></thead>
       <tbody id="tbody"></tbody>
     </table>
     <button class="loadmore" id="loadmore">Load more</button>
@@ -119,14 +121,6 @@
       const langSel = document.getElementById('lang');
       const stats = document.getElementById('stats');
       const loadmore = document.getElementById('loadmore');
-      // Pre-built SVGs exist for the top 1,000; the badge service renders the rest on demand.
-      const BADGE_SERVICE = 'https://realgitrank-badges-ganx3c.freebuff.site';
-      function badgeFor(username, rank) {
-        return rank && rank <= 1000
-          ? `/badges/${encodeURIComponent(username)}.svg`
-          : `${BADGE_SERVICE}/badges/${encodeURIComponent(username)}.svg`;
-      }
-
       const qres = document.getElementById('qres');
       let nameIndex = null;
       const bucketCache = new Map();
@@ -174,23 +168,35 @@
           if (seq !== searchSeq) return;
           const seen = new Set();
           const hits = [];
-          const add = (name, rank, prefix) => {
+          const add = (name, rank, state, prefix) => {
             const key = String(name).toLowerCase();
             if (seen.has(key) || hits.length === 30) return;
             seen.add(key);
-            hits.push([name, rank, prefix]);
+            hits.push({ name, rank, state: state || (rank ? 'ranked' : 'listed'), prefix });
           };
-          for (const [name, rank] of bucket) {
-            if (String(name).toLowerCase().startsWith(v)) add(name, rank, true);
+          // New buckets carry [username, rank, score, state, page]; listed rows
+          // have rank null on purpose. Old 3-field rows still work.
+          for (const row of bucket) {
+            const [name, rank, , state] = row;
+            if (String(name).toLowerCase().startsWith(v)) add(name, rank, state, true);
           }
           for (const [name, rank] of names) {
-            if (String(name).toLowerCase().includes(v)) add(name, rank, false);
+            if (String(name).toLowerCase().includes(v)) add(name, rank, 'ranked', false);
           }
-          qres.innerHTML = hits.map(([name, rank, prefix]) =>
-            `<a href="/profile/?u=${encodeURIComponent(name)}&r=${rank}"${prefix ? '' : ' title="Matched inside the name (top 50,000)"'}>`
-            + `<span>${esc(name)}</span><span class="rk">#${rank}</span></a>`
-          ).join('');
-          qres.hidden = hits.length === 0;
+          // Typing the full login should always put that account first.
+          hits.sort((a, b) => (b.name.toLowerCase() === v) - (a.name.toLowerCase() === v));
+          qres.innerHTML = hits.map((h) => {
+            const label = h.state === 'listed' || !h.rank
+              ? '<span class="state">listed</span>'
+              : `<span class="rk">#${h.rank}</span>`;
+            const why = h.prefix ? '' : ' title="Matched inside the name (top 50,000)"';
+            return `<a href="/profile/?u=${encodeURIComponent(h.name)}"${why}>`
+              + `<span>${esc(h.name)}</span>${label}</a>`;
+          }).join('');
+          if (!hits.length) {
+            qres.innerHTML = `<a class="probe" href="/profile/?u=${encodeURIComponent(v)}">Open profile for “${esc(v)}” →</a>`;
+          }
+          qres.hidden = false;
         });
       }
 
@@ -199,17 +205,17 @@
         tr.dataset.u = (u.username||'').toLowerCase();
         tr.dataset.c = (u.country||'').toLowerCase();
         tr.dataset.l = (u.primary_language||'').toLowerCase();
+        const listed = Boolean(u.listed_only);
         const delta = typeof u.rank_delta === 'number' ? u.rank_delta : 0;
         const move = delta === 0 ? '' : `<span class="move ${delta > 0 ? 'up' : 'down'}" title="vs yesterday">${delta > 0 ? '▲' : '▼'}${Math.abs(delta)}</span>`;
         const tier = u.tier ? `<span class="tier t-${String(u.tier).toLowerCase()}" title="Top ${(100 - (u.percentile || 0)).toFixed(1)}%">${u.tier}</span>` : '—';
-        tr.innerHTML = `<td>${u.rank}${move}</td>
+        tr.innerHTML = `<td>${listed ? '—' : u.rank}${listed ? '<span class="move">listed</span>' : move}</td>
           <td><img src="${u.avatar_url||''}" alt="" width="24" height="24" style="border-radius:50%;vertical-align:middle;margin-right:6px" onerror="this.style.display='none'" /><a href="https://github.com/${u.username}" target="_blank" rel="noopener noreferrer">${u.username}</a> <button type="button" class="details" data-u="${u.username}" aria-label="Show details for ${u.username}">details</button></td>
-          <td class="score">${u.rank_score}</td>
+          <td class="score">${listed ? '—' : u.rank_score}</td>
           <td>${tier}</td>
           <td>${u.country||'—'}</td>
           <td>${u.primary_language||'—'}</td>
-          <td>${u.merged_prs}</td>
-          <td><img class="badge" src="${badgeFor(u.username, u.rank)}" alt="badge" loading="lazy" onerror="this.src='/badges/default.svg'" /></td>`;
+          <td>${u.merged_prs}</td>`;
         return tr;
       }
 
@@ -229,7 +235,13 @@
       }
 
       q.addEventListener('blur', () => setTimeout(() => { qres.hidden = true; }, 150));
-      q.addEventListener('keydown', (e) => { if (e.key === 'Escape') qres.hidden = true; });
+      q.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          const v = q.value.trim();
+          if (v.length >= 2) { e.preventDefault(); location.href = `/profile/?u=${encodeURIComponent(v)}`; }
+        }
+        if (e.key === 'Escape') qres.hidden = true;
+      });
 
       async function loadPage(p) {
         const r = await fetch(`/data/chunks/page_${p}.json`);
@@ -242,7 +254,11 @@
           const langs = [...new Set(allData.map(u => u.primary_language).filter(Boolean))].sort();
           countries.forEach(c => { const o = document.createElement('option'); o.value = c.toLowerCase(); o.textContent = c; countrySel.appendChild(o); });
           langs.forEach(l => { const o = document.createElement('option'); o.value = l.toLowerCase(); o.textContent = l; langSel.appendChild(o); });
-          document.getElementById('total').textContent = (await (await fetch('/data/chunks/index.json')).json()).total.toLocaleString();
+          fetch('/data/status.json').then((r) => r.json()).then((s) => {
+            document.getElementById('total').textContent = (s.users_ranked ?? s.users ?? 0).toLocaleString();
+            document.getElementById('tracked').textContent = (s.users_total ?? s.users ?? 0).toLocaleString();
+            document.getElementById('listed').textContent = (s.users_listed ?? s.listed_only ?? 0).toLocaleString();
+          }).catch(() => {});
         }
         applyFilter();
         if (currentPage >= totalPages) loadmore.style.display = 'none';

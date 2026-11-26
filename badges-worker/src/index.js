@@ -55,6 +55,9 @@ async function loadBucket(key) {
       login,
       rank: Number.isFinite(row[1]) ? row[1] : null,
       score: Number.isFinite(row[2]) ? row[2] : null,
+      // Explicit state when the pipeline publishes it; otherwise fall back to
+      // the old score-based inference for buckets cached from an older run.
+      listed: row[3] === "listed" || (row.length < 4 && !(row[2] > 0)),
     });
   }
   if (memo.size >= MEMO_LIMIT) memo.delete(memo.keys().next().value);
@@ -80,17 +83,18 @@ function fit(name, max = 17) {
  * push or merged PR in the window), so it must not be shown as "score 0".
  */
 function badgeSvg(user) {
-  const state = !user ? "unknown" : user.score > 0 ? "ranked" : "listed";
+  const state = !user ? "unknown" : user.listed ? "listed" : "ranked";
   const palette = {
     ranked: { from: "#1e3a8a", to: "#1e40af", accent: "#60a5fa" },
     listed: { from: "#334155", to: "#475569", accent: "#94a3b8" },
     unknown: { from: "#0f172a", to: "#1f2937", accent: "#64748b" },
   }[state];
 
-  const value =
-    state === "ranked" ? String(Math.round(user.score)) : state === "listed" ? "LISTED" : "—";
+  const score = state === "ranked" && Number.isFinite(user.score) ? String(Math.round(user.score)) : "—";
+  const value = state === "ranked" ? score : state === "listed" ? "LISTED" : "—";
+  const rankText = user && user.rank ? `#${user.rank}` : "ranked";
   const caption =
-    state === "ranked" ? `impact index · #${user.rank}` : state === "listed" ? "no public work in window" : "open realgitrank to verify";
+    state === "ranked" ? `impact index · ${rankText}` : state === "listed" ? "no public work in window" : "open realgitrank to verify";
   const unit = state === "ranked" ? "SCORE" : state === "listed" ? "LISTED" : "NOT FOUND";
   const handle = state === "unknown" ? "@your-username" : `@${fit(user.login)}`;
   const valueSize = state === "ranked" ? 22 : state === "listed" ? 13 : 22;

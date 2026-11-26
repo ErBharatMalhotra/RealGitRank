@@ -51,32 +51,43 @@
         }
       }
 
-      // Users ranked above the top-1000 profile cut-off only live in the leaderboard
-      // chunks (page_<n>.json, 250 rows each, rank ordered). Resolve the name to a
-      // rank through the prefix-sharded search index first, then fetch that one page.
-      async function rankFor(username) {
+      // Everyone outside the pre-built top-1,000 profiles lives in the leaderboard
+      // chunks. The search bucket gives the exact page pointer (listed accounts
+      // have no rank but do have a page), so a profile never scans the board.
+      async function locate(username) {
         const first = String(username || '').slice(0, 1).toLowerCase();
         const bucket = /[a-z0-9]/.test(first) ? first : 'other';
         const rows = await fetchJSON(`/data/search/${bucket}.json`);
         if (!Array.isArray(rows)) return null;
         const want = username.toLowerCase();
         const hit = rows.find((r) => String(r[0]).toLowerCase() === want);
-        return hit ? hit[1] : null;
+        if (!hit) return null;
+        return {
+          rank: Number.isFinite(hit[1]) ? hit[1] : null,
+          page: Number.isFinite(hit[4]) ? hit[4] : null,
+        };
       }
 
       async function findInChunks(username) {
         const want = username.toLowerCase();
-        const pages = [];
         const idx = await fetchJSON('/data/chunks/index.json');
         chunkSize = idx && idx.chunk_size ? idx.chunk_size : chunkSize;
-        let rank = Number.isFinite(hintRank) && hintRank > 0 ? hintRank : null;
-        if (rank === null) rank = await rankFor(username);
-        if (Number.isFinite(rank) && rank > 0) {
-          pages.push(Math.ceil(rank / chunkSize));
-        }
         const totalPages = idx && idx.pages ? idx.pages : 0;
-        for (let p = 1; p <= totalPages; p++) if (!pages.includes(p)) pages.push(p);
-        for (const p of pages) {
+        const located = await locate(username);
+        let center = located && located.page ? located.page : null;
+        const rank = located && located.rank ? located.rank : (Number.isFinite(hintRank) && hintRank > 0 ? hintRank : null);
+        if (!center && rank) center = Math.ceil(rank / chunkSize);
+        // Check the exact page first, then at most two pages either side. Scanning
+        // all 3,000+ pages made an unknown name look like a broken profile.
+        const pages = [];
+        if (center) {
+          pages.push(center);
+          for (let d = 1; d <= 2; d++) {
+            if (center - d >= 1) pages.push(center - d);
+            if (!totalPages || center + d <= totalPages) pages.push(center + d);
+          }
+        }
+        for (const p of pages.slice(0, 5)) {
           const data = await fetchJSON(`/data/chunks/page_${p}.json`);
           if (!Array.isArray(data)) continue;
           const hit = data.find((x) => (x.username || '').toLowerCase() === want);
@@ -99,15 +110,7 @@
 
       function listedOnlyNote(d) {
         if (!d.listed_only) return '';
-        return `<p class="muted" style="margin:0 0 8px;font-size:13px">Listed only · no public pushes or merged pull requests were observed in this 30-day window, so this account is not scored or tiered.</p>`;
-      }
-
-      function rankCell(d) {
-        return d.listed_only ? '—' : `#${esc(d.rank)}`;
-      }
-
-      function scoreCell(d) {
-        return d.listed_only ? '—' : esc(d.rank_score);
+        return `<p class="muted" style="margin:0 0 8px;font-size:13px">Listed · no public pushes or merged pull requests were observed in this 30-day window, so no score, rank or tier is claimed.</p>`;
       }
 
       function tierBadge(d) {
@@ -149,19 +152,39 @@
           <p class="muted" style="margin:10px 0 0;font-size:12px">Reported by the GitHub API. The Rank Score above only uses events published inside the 30-day window, so work pushed by a bot or kept private does not appear in it.</p></div>`;
       }
 
-      // Top 1,000 has a pre-built SVG; everyone else is rendered by the badge service.
+      // One badge rule for everyone: the badge service renders the ranked, listed
+      // and not-found states from the same snapshot data as this page.
       const BADGE_SERVICE = 'https://realgitrank-badges-ganx3c.freebuff.site';
-      function badgeFor(username, rank) {
-        return rank && rank <= 1000
-          ? `/badges/${encodeURIComponent(username)}.svg`
-          : `${BADGE_SERVICE}/badges/${encodeURIComponent(username)}.svg`;
+      function badgeFor(username) {
+        return `${BADGE_SERVICE}/badges/${encodeURIComponent(username)}.svg`;
+      }
+
+      function metricsBlock(d) {
+        const facts = `<div class="grid">
+              <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
+              <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
+              <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
+              ${d.ci_pushes ? `<div class="stat"><div class="label">CI-attributed pushes</div><div class="val">${esc(d.ci_pushes)}</div></div>` : ''}
+            </div>`;
+        if (d.listed_only) {
+          return `<div class="card">
+            <p style="margin:0 0 4px;font-weight:600">Listed · not scored in this 30-day window</p>
+            <p class="muted" style="margin:0 0 14px;font-size:13px">No public push or merged pull request was observed for this account. A rank, score or tier is intentionally not shown.</p>
+            ${facts}
+          </div>`;
+        }
+        return `<div class="card"><div class="grid">
+              <div class="stat"><div class="label">Rank Score</div><div class="val">${esc(d.rank_score)}</div></div>
+              <div class="stat"><div class="label">Global Rank</div><div class="val">#${esc(d.rank)}</div></div>
+              ${facts}
+            </div></div>`;
       }
 
       function notRanked(username) {
         el.innerHTML = `<h1>${esc(username)}</h1>
-          <p>Not ranked yet — this GitHub user hasn't shown up in a RealGitRank snapshot.</p>
+          <p>Not in this snapshot — this GitHub username was not observed in the current 30-day window.</p>
           <img class="badge" src="/badges/default.svg" width="200" height="60" alt="badge" />
-          <p class="muted">Contribute on GitHub and you'll appear in the next daily snapshot.</p>`;
+          <p class="muted">Check the spelling, or <a href="/">search the leaderboard</a>. Contribute on GitHub and the next daily run can pick the account up.</p>`;
       }
 
       function renderFromChunk(d) {
@@ -169,25 +192,16 @@
           <p>${tierBadge(d)}</p>
           ${listedOnlyNote(d)}
           ${moveText(d)}
-          <img class="badge" src="${badgeFor(d.username, d.rank)}" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
-          <div class="card">
-            <div class="grid">
-              <div class="stat"><div class="label">Rank Score</div><div class="val">${scoreCell(d)}</div></div>
-              <div class="stat"><div class="label">Global Rank</div><div class="val">${rankCell(d)}</div></div>
-              <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
-              <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
-              <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
-              ${d.ci_pushes ? `<div class="stat"><div class="label">CI-attributed pushes</div><div class="val">${esc(d.ci_pushes)}</div></div>` : ''}
-            </div>
-          </div>
+          <img class="badge" src="${badgeFor(d.username)}" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
+          ${metricsBlock(d)}
           ${portfolioBlock(d)}
           ${d.bio ? `<div class="card"><h3>Bio</h3><p style="margin:0">${esc(d.bio)}</p></div>` : ''}
           ${sparkBlock(d)}
           <div class="card">
             <h3>README Badge</h3>
-            <pre>[![RealGitRank](${badgeFor(d.username, d.rank)})](https://realgitrank.bharatdn.com/profile/${esc(d.username)})</pre>
+            <pre>[![RealGitRank](${badgeFor(d.username)})](https://realgitrank.bharatdn.com/profile/?u=${encodeURIComponent(d.username)})</pre>
           </div>
-          <p class="muted" style="font-size:13px">Ranked in today's snapshot. Detailed pillar breakdowns are generated for the top 1,000 developers.</p>
+          <p class="muted" style="font-size:13px">${d.listed_only ? 'Listed in today’s snapshot without a rank claim.' : 'Ranked in today’s snapshot.'} Detailed pillar breakdowns are generated for the top 1,000 developers.</p>
           <p class="muted" style="font-size:12px">An automated estimate from public GitHub events, not a statement of fact about a person. <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.</p>`;
       }
 
@@ -195,19 +209,12 @@
         el.innerHTML = `<h1>${esc(username)}</h1><p>${tierBadge(d)}</p>
           ${listedOnlyNote(d)}
           ${moveText(d)}
-          <img class="badge" src="/badges/${encodeURIComponent(username)}.svg" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
-          <div class="card"><div class="grid">
-            <div class="stat"><div class="label">Rank Score</div><div class="val">${scoreCell(d)}</div></div>
-            <div class="stat"><div class="label">Global Rank</div><div class="val">${rankCell(d)}</div></div>
-            <div class="stat"><div class="label">Country</div><div class="val" style="font-size:16px">${esc(d.country || '—')}</div></div>
-            <div class="stat"><div class="label">Language</div><div class="val" style="font-size:16px">${esc(d.primary_language || '—')}</div></div>
-            <div class="stat"><div class="label">Merged PRs</div><div class="val">${esc(d.merged_prs)}</div></div>
-            ${d.ci_pushes ? `<div class="stat"><div class="label">CI-attributed pushes</div><div class="val">${esc(d.ci_pushes)}</div></div>` : ''}
-          </div></div>
+          <img class="badge" src="${badgeFor(username)}" width="200" height="60" alt="badge" onerror="this.src='/badges/default.svg'" />
+          ${metricsBlock(d)}
           ${portfolioBlock(d)}
           ${sparkBlock(d)}
           <div class="card"><h3>README Badge</h3>
-            <pre>[![RealGitRank](https://realgitrank.bharatdn.com/badges/${esc(username)}.svg)](https://realgitrank.bharatdn.com/profile/${esc(username)})</pre>
+            <pre>[![RealGitRank](${badgeFor(username)})](https://realgitrank.bharatdn.com/profile/?u=${encodeURIComponent(username)})</pre>
           </div>
           <p class="muted" style="font-size:12px">An automated estimate from public GitHub events, not a statement of fact about a person. <a href="https://github.com/ErBharatMalhotra/RealGitRank/issues/new?title=Correction%20or%20opt-out%20request&body=GitHub%20username%3A%20%0AWhat%20should%20change%3A%20" target="_blank" rel="noopener noreferrer">Request a correction or removal</a>.</p>`;
       }

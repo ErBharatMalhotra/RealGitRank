@@ -1,12 +1,12 @@
-// Local check without wrangler: stubs fetch + caches and exercises the three
-// badge states, caching headers, and the not-found path.
+// Local check without wrangler: stubs fetch and exercises the three badge
+// states, explicit ranked/listed records, caching headers, and the not-found path.
 import assert from "node:assert/strict";
 import worker from "./src/index.js";
 
 const BUCKET = [
-  ["mattpocock", 1, 873.9],
-  ["emptyowner", 412000, 0],
-  ["CaseUser", 30061, 705.1],
+  ["mattpocock", 1, 873.9, "ranked", 1],
+  ["emptyowner", null, 0, "listed", 3400],
+  ["CaseUser", 30061, 705.1, "ranked", 121],
 ];
 
 let bucketFetches = 0;
@@ -31,6 +31,7 @@ assert.ok((ranked.headers.get("cache-control") || "").includes("s-maxage"), "cac
 
 const listed = await (await call("/badges/emptyowner.svg")).text();
 assert.ok(listed.includes("LISTED") && !listed.includes(">0<"), "listed state claims no zero score");
+assert.ok(!listed.includes("#null") && !listed.includes("null"), "listed state prints no rank");
 
 const missing = await (await call("/badges/nobodyhere.svg")).text();
 assert.ok(missing.includes("NOT FOUND"), "unknown user state");

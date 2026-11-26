@@ -104,12 +104,12 @@ const pillars = [
         ))}
       </tbody>
     </table>
-    <p class="note">Accounts with no observed push or merged pull request are listed as <code>listed_only</code> instead of being scored. Pillar sub-scores (<code>s_pr</code>, <code>s_quality</code>, <code>s_impact</code>, <code>s_consistency</code>) are 0–100 percentiles. <code>s_quality</code> is omitted when no test/file evidence exists, and each record’s <code>measured</code> object states which pillars counted. Percentile is against the whole ranked population.</p>
+            <p class="note">Accounts with no observed push or merged pull request are listed as <code>listed_only</code> instead of being scored; search results and badges label them <code>listed</code> and never show a rank for them. Pillar sub-scores (<code>s_pr</code>, <code>s_quality</code>, <code>s_impact</code>, <code>s_consistency</code>) are 0–100 percentiles. <code>s_quality</code> is omitted when no test/file evidence exists, and each record’s <code>measured</code> object states which pillars counted. Percentile is against the whole ranked population.</p>
 
     <h2>What is actually measured</h2>
     {coverage ? (
       <>
-        <p class="note">Computed from the published snapshot: {(coverage.users_total || coverage.users).toLocaleString()} ranked developers (the table below describes the {coverage.users.toLocaleString()} newest rows with full metrics), window {coverage.window_start} → {coverage.window_end} ({coverage.window_days} days), score version <code>{coverage.score_version}</code>.</p>
+        <p class="note">Computed from the published snapshot: {(coverage.users_ranked || coverage.users_total || coverage.users).toLocaleString()} ranked of {(coverage.users_total || coverage.users).toLocaleString()} tracked developers ({(coverage.users_listed || 0).toLocaleString()} listed without a score; the table below covers the top {coverage.users.toLocaleString()} with full metrics), window {coverage.window_start} → {coverage.window_end} ({coverage.window_days} days), score version <code>{coverage.score_version}</code>.</p>
         <table>
           <thead><tr><th>Signal</th><th>Observed</th><th>Coverage</th></tr></thead>
           <tbody>
@@ -200,10 +200,10 @@ const pillars = [
       <li><a class="endpoint" href="/api/user/sirine2907.json">/api/user/&lt;username&gt;.json</a> — one developer's record for the top 1,000, including <code>history</code>, <code>company</code>, <code>location</code> and <code>bio</code> when available. Outside the top 1,000 there is no per-user file; read that row from the chunks. Username casing must match the leaderboard.</li>
       <li><a class="endpoint" href="/data/chunks/index.json">/data/chunks/index.json</a> — pagination metadata for <code>/data/chunks/page_N.json</code> (250 rows per page).</li>
       <li><a class="endpoint" href="/data/search/index.json">/data/search/index.json</a> — search manifest: <code>total</code>, <code>detailed</code>, the bucket keys and the name index.</li>
-      <li><a class="endpoint" href="/data/search/e.json">/data/search/&lt;first-char&gt;.json</a> — <code>[username, rank, score]</code> for every listed developer whose name starts with that character; prefix search across the whole board loads one bucket.</li>
+      <li><a class="endpoint" href="/data/search/e.json">/data/search/&lt;first-char&gt;.json</a> — <code>[username, rank, score, state, page]</code> for every developer whose name starts with that character; prefix search across the whole board loads one bucket. <code>state</code> is <code>ranked</code> or <code>listed</code>; a listed account has <code>rank: null</code> and <code>page</code> points into the chunks.</li>
       <li><a class="endpoint" href="/data/search/names.json">/data/search/names.json</a> — rank-ordered <code>[username, rank]</code> for the top 50,000, so a search can match anywhere inside a name without shipping the full board.</li>
       <li><a class="endpoint" href="/data/coverage.json">/data/coverage.json</a> — measured/null counts for every pillar, bot evidence coverage, and the validation summary shown above.</li>
-      <li><a class="endpoint" href="/badges/default.svg">/badges/&lt;username&gt;.svg</a> — README badge; dedicated files are pre-built for the global top 1,000, and every other listed developer is rendered on demand by the badge service at <a class="endpoint" href="https://realgitrank-badges-ganx3c.freebuff.site/">realgitrank-badges-ganx3c.freebuff.site/badges/&lt;username&gt;.svg</a>. A listed account with no public work in the window shows <code>LISTED</code> instead of a zero score, and an unknown username shows <code>NOT FOUND</code>.</li>
+      <li><a class="endpoint" href="/badges/default.svg">/badges/&lt;username&gt;.svg</a> — README badge; every developer in the snapshot is rendered by the badge service at <a class="endpoint" href="https://realgitrank-badges-ganx3c.freebuff.site/">realgitrank-badges-ganx3c.freebuff.site/badges/&lt;username&gt;.svg</a> (the pre-built top-1,000 files remain online for existing README links). A listed account with no public work in the window shows <code>LISTED</code> instead of a zero score or a made-up rank, and an unknown username shows <code>NOT FOUND</code>.</li>
       <li><a class="endpoint" href="/llms.txt">/llms.txt</a> — a short plain-text guide for LLM and agent consumers.</li>
     </ul>
 

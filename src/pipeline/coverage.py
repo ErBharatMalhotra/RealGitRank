@@ -39,6 +39,10 @@ def build_coverage(entries, meta=None, validation=None):
         if e.get("primary_language") not in (None, "", "Unknown"):
             language += 1
 
+    users_total = int(meta.get("users_total") or total)
+    users_listed = int(meta.get("users_listed") or 0)
+    users_ranked = int(meta.get("users_ranked") or (users_total - users_listed))
+
     return {
         "generated_at": meta.get("generated_at"),
         "score_version": meta.get("score_version", "v2-percentile"),
@@ -46,7 +50,10 @@ def build_coverage(entries, meta=None, validation=None):
         "window_start": meta.get("window_start"),
         "window_end": meta.get("window_end"),
         "users": total,
-        "users_total": int(meta.get("users_total") or total),
+        "users_detailed": total,
+        "users_total": users_total,
+        "users_ranked": users_ranked,
+        "users_listed": users_listed,
         "source": meta.get("source"),
         "pillars": {
             key: {"label": label, "measured": measured[key], "pct": _pct(measured[key], total)}
@@ -100,7 +107,9 @@ def main():
         "window_days": status.get("window_days"),
         "window_start": status.get("window_start"),
         "window_end": status.get("window_end"),
-        "users_total": status.get("users"),
+        "users_total": status.get("users_total") or status.get("users"),
+        "users_ranked": status.get("users_ranked"),
+        "users_listed": status.get("users_listed") or status.get("listed_only"),
         "source": status.get("ingest"),
     }, validation)
     print(

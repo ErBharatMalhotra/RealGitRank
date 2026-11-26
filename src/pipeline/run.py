@@ -153,6 +153,7 @@ def main():
             entry.pop("tier", None)
             entry.pop("percentile", None)
             listed_only += 1
+    ranked_total = len(ranked) - listed_only
     clear_movement(lb)
     prev_date, previous = load_previous_snapshot("data/history", run_date)
     if previous and old_status.get("score_version") == SCORE_VERSION:
@@ -178,6 +179,7 @@ def main():
             "username": entry["username"],
             "rank": entry["rank"],
             "rank_score": entry.get("rank_score"),
+            "listed_only": bool(entry.get("listed_only")),
             "percentile": entry.get("percentile"),
             "tier": entry.get("tier"),
             "merged_prs": entry.get("merged_prs"),
@@ -219,6 +221,8 @@ def main():
         "score_version": SCORE_VERSION,
         "source": window_source_stats(end_date),
         "users_total": len(ranked),
+        "users_ranked": ranked_total,
+        "users_listed": listed_only,
         **window,
     }
     coverage = write_coverage(lb, coverage_meta, load_json("data/validation.json", None))
@@ -229,6 +233,9 @@ def main():
             "data_age_hours": 0,
             "status": "ok",
             "users": len(ranked),
+            "users_total": len(ranked),
+            "users_ranked": ranked_total,
+            "users_listed": listed_only,
             "listed_only": listed_only,
             "ci_pushes": sum(ci_by_name.values()),
             "detailed": len(lb),
