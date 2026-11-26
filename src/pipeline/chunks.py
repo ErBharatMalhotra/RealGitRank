@@ -118,9 +118,20 @@ def load_rows():
         tail = []
     rows = [public_row(u) for u in detailed if u.get("username")]
     detailed_names = {u["username"].lower() for u in rows}
-    rows.extend(public_row(u) for u in tail if u.get("username"))
-    # A stale tail can still name a user who is now in the detailed slice.
     rows = dedupe_rows(rows)
+    # A stale tail can still name a user who is now in the detailed slice. Prefer
+    # the detailed row (it has country, language and profile data) over the copy
+    # left behind by an older run.
+    seen = {u["username"].lower() for u in rows}
+    for u in tail:
+        if not u.get("username"):
+            continue
+        key = u["username"].lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append(public_row(u))
+    rows.sort(key=lambda u: u.get("rank") or 0)
     detailed_count = sum(1 for u in rows if u["username"].lower() in detailed_names)
     return rows, detailed_count
 
