@@ -29,9 +29,10 @@ DEFAULT_GATES = {
     "min_baseline_days": 5,
     "bot_rate_floor": 0.005,
     "min_rows_absolute": 10,
-    # Activity is an absolute count, so it has no 0-1000 ceiling. This bound is
-    # only for values no single account could plausibly reach in 12 months.
-    "score_max_absolute": 1_000_000,
+    # Activity is an absolute count summed over the 12-month window, so it has no
+    # 0-1000 ceiling and no per-day feel: the busiest real accounts reach a few
+    # million events. This bound only catches corrupt sums.
+    "score_max_absolute": 10_000_000,
 }
 HISTORY_LIMIT = 30
 

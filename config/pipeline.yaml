@@ -24,7 +24,7 @@ quality_gates:
   min_baseline_days: 5      # runs needed before growth/shift gates engage
   bot_rate_floor: 0.005     # ignore bot-rate noise below this baseline
   min_rows_absolute: 10     # absolute floor, independent of history
-  score_max_absolute: 1000000  # activity is an absolute count, no 0-1000 cap
+  score_max_absolute: 10000000  # 12-month absolute count; only catches corrupt sums
 
 hosting:
   provider: github_pages

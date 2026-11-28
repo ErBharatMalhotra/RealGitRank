@@ -117,7 +117,7 @@ def test_negative_and_implausible_scores_fail():
     assert any("negative score" in e for e in errors)
 
     huge = today()
-    huge["score_max"] = 2_000_000.0
+    huge["score_max"] = 12_000_000.0
     errors, _ = evaluate(huge, baseline(), GATES)
     assert any("implausible score" in e for e in errors)
 
@@ -132,6 +132,14 @@ def test_score_max_absolute_comes_from_config():
     snapshot["score_max"] = 8395.0
     errors, _ = evaluate(snapshot, baseline(), dict(GATES, score_max_absolute=5000))
     assert any("implausible score" in e for e in errors)
+
+
+def test_busiest_real_accounts_pass_the_absolute_gate():
+    """A 12-month absolute count legitimately reaches millions (seen: 2,037,174)."""
+    snapshot = today(mean=300.0, std=250.0)
+    snapshot["score_max"] = 2_037_174.0
+    errors, _ = evaluate(snapshot, baseline(), GATES)
+    assert errors == []
 
 
 def test_flat_scores_fail():
@@ -166,7 +174,7 @@ def test_gates_load_thresholds_from_pipeline_yaml():
     assert gates["bot_classification_jump_max_x"] == 2
     assert gates["min_baseline_days"] == 5
     assert gates["min_rows_absolute"] == 10
-    assert gates["score_max_absolute"] == 1_000_000
+    assert gates["score_max_absolute"] == 10_000_000
     assert set(DEFAULT_GATES) <= set(gates)
 
 
