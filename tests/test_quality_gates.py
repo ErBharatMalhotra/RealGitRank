@@ -89,12 +89,52 @@ def test_min_rows_absolute_floor_comes_from_config():
     assert errors == []
 
 
-def test_out_of_range_and_flat_scores_fail():
-    snapping = today()
-    snapping["score_max"] = 1200
-    errors, _ = evaluate(snapping, baseline(), GATES)
-    assert any("out of range" in e for e in errors)
+def test_five_digit_activity_scores_pass():
+    """Activity is an absolute count: 8,395 must not trip the old 1000 ceiling."""
+    snapshot = today(mean=300.0, std=250.0)
+    snapshot["score_min"] = 1.0
+    snapshot["score_max"] = 8395.0
+    errors, notes = evaluate(snapshot, baseline(), GATES)
+    assert errors == []
+    assert notes == []
 
+
+def test_summarize_preserves_activity_scores_above_1000():
+    lb = [{"username": f"user{i}", "rank_score": 10.0 + i, "is_bot_classified": False} for i in range(20)]
+    lb.append({"username": "top", "rank_score": 8395.0, "is_bot_classified": False})
+    summary = summarize(lb, "v3-activity")
+    assert summary["score_max"] == 8395.0
+    assert summary["score_version"] == "v3-activity"
+    history = baseline(rows=len(lb), mean=summary["score_mean"], std=summary["score_std"])
+    errors, _ = evaluate(summary, history, GATES)
+    assert errors == []
+
+
+def test_negative_and_implausible_scores_fail():
+    negative = today()
+    negative["score_min"] = -5.0
+    errors, _ = evaluate(negative, baseline(), GATES)
+    assert any("negative score" in e for e in errors)
+
+    huge = today()
+    huge["score_max"] = 2_000_000.0
+    errors, _ = evaluate(huge, baseline(), GATES)
+    assert any("implausible score" in e for e in errors)
+
+    broken = today()
+    broken["score_max"] = float("nan")
+    errors, _ = evaluate(broken, baseline(), GATES)
+    assert any("non-finite" in e for e in errors)
+
+
+def test_score_max_absolute_comes_from_config():
+    snapshot = today(mean=300.0, std=250.0)
+    snapshot["score_max"] = 8395.0
+    errors, _ = evaluate(snapshot, baseline(), dict(GATES, score_max_absolute=5000))
+    assert any("implausible score" in e for e in errors)
+
+
+def test_flat_scores_fail():
     flat, _ = evaluate(today(std=0.0), baseline(), GATES)
     assert any("zero variance" in e for e in flat)
 
@@ -126,6 +166,7 @@ def test_gates_load_thresholds_from_pipeline_yaml():
     assert gates["bot_classification_jump_max_x"] == 2
     assert gates["min_baseline_days"] == 5
     assert gates["min_rows_absolute"] == 10
+    assert gates["score_max_absolute"] == 1_000_000
     assert set(DEFAULT_GATES) <= set(gates)
 
 

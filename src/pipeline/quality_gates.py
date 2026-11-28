@@ -6,10 +6,11 @@ Gates (tuned in config/pipeline.yaml -> quality_gates):
 3. score distribution shifted more than K sigma from the rolling baseline
 4. bot-classification rate jumped more than X times the baseline
 
-Hard invariants always apply: scores stay inside [0, 1000] and never lose all variance.
+Hard invariants always apply: scores are finite and non-negative, an implausibly large
+activity total fails the run, and the distribution never loses all variance.
 A rolling baseline of the last 30 successful runs lives in data/gate_history.json.
 """
-import json, os, sys, statistics
+import json, math, os, sys, statistics
 from datetime import datetime, timezone
 
 try:
@@ -28,6 +29,9 @@ DEFAULT_GATES = {
     "min_baseline_days": 5,
     "bot_rate_floor": 0.005,
     "min_rows_absolute": 10,
+    # Activity is an absolute count, so it has no 0-1000 ceiling. This bound is
+    # only for values no single account could plausibly reach in 12 months.
+    "score_max_absolute": 1_000_000,
 }
 HISTORY_LIMIT = 30
 
@@ -76,8 +80,17 @@ def evaluate(today, history, gates=None):
             f"null usernames: {today['null_usernames']} "
             f"({null_pct:.2f}% > {gates['username_null_max_pct']}% allowed)"
         )
-    if today["score_max"] > 1000 or today["score_min"] < 0:
-        errors.append("score out of range")
+    if not (math.isfinite(today["score_min"]) and math.isfinite(today["score_max"])):
+        errors.append(
+            f"non-finite score (min {today['score_min']}, max {today['score_max']})"
+        )
+    elif today["score_min"] < 0:
+        errors.append(f"negative score: min {today['score_min']:.1f}")
+    elif today["score_max"] > gates["score_max_absolute"]:
+        errors.append(
+            f"implausible score: max {today['score_max']:.0f} > "
+            f"{gates['score_max_absolute']} allowed"
+        )
     if today["score_std"] == 0:
         errors.append("zero variance in scores")
 
