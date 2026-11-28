@@ -359,9 +359,15 @@ _PARQUET_COLUMNS = (
 )
 
 
+# A per-account twelve-month count tops out in the low millions, so int32 holds
+# every counter with three orders of magnitude to spare and halves the merge's
+# matrix (21.9M accounts x 7 counters is 1.2 GB as int64, 613 MB as int32).
+_COUNT_DTYPE = np.int32
+
+
 def _grow(values, needed):
     capacity = max(needed, int(values.shape[1] * 1.5) + 1024)
-    grown = np.zeros((values.shape[0], capacity), dtype=np.int64)
+    grown = np.zeros((values.shape[0], capacity), dtype=values.dtype)
     grown[:, : values.shape[1]] = values
     return grown
 
@@ -373,7 +379,7 @@ class ColumnarTotals:
 
     def __init__(self, capacity=4096):
         self.index = {}
-        self.values = np.zeros((len(_MERGE_COLUMNS), capacity), dtype=np.int64)
+        self.values = np.zeros((len(_MERGE_COLUMNS), capacity), dtype=_COUNT_DTYPE)
         self.size = 0
 
     def add_month(self, users):
@@ -434,7 +440,7 @@ def build_columns(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
     # Release the lookup dict first: the names list keeps the login strings alive
     # and that dict is the largest single object in the merge.
     totals.index = {}
-    totals.values = np.empty((len(_MERGE_COLUMNS), 0), dtype=np.int64)
+    totals.values = np.empty((len(_MERGE_COLUMNS), 0), dtype=_COUNT_DTYPE)
 
     activity = values[: len(COMPONENTS)].sum(axis=0)
     keep = np.flatnonzero(activity > 0)
@@ -447,7 +453,7 @@ def build_columns(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
         "issue_comments": values[4, keep],
         "releases": values[5, keep],
         "active_days": values[6, keep],
-        "window_days": np.full(keep.size, meta["window_days"], dtype=np.int64),
+        "window_days": np.full(keep.size, meta["window_days"], dtype=_COUNT_DTYPE),
         "rank_score": activity[keep],
     }
     meta["users"] = int(keep.size)
