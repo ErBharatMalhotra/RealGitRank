@@ -11,9 +11,10 @@ developer's score only changes when their own public activity changes.
 
 The engine reads the parquet written by ``activity.write_parquet`` so the
 pipeline keeps one inspectable intermediate file between ingest and ranking.
-Rows are streamed in score order and ranked as they arrive: a 12-month window
-holds millions of accounts, and fetching the whole table into Python (then
-sorting a second list) was several gigabytes on the CI runner.
+Rows are streamed in score order: a 12-month window holds millions of accounts,
+and materialising every row (then sorting a second list) was several gigabytes
+on the CI runner. Only the detailed board is kept in memory; the compact long
+tail is handed to the caller row by row.
 """
 import duckdb
 
@@ -34,8 +35,29 @@ _BATCH = 20_000
 _SCORE_SQL = " + ".join(f"COALESCE({name}, 0)" for name in COMPONENTS)
 
 
-def compute_rank_scores(parquet_file_path):
-    """Return ranked rows: absolute activity, components and rank 1..N."""
+def _entry(row, rank):
+    entry = {
+        "username": str(row[0]),
+        "country": "",
+        "primary_language": "Unknown",
+    }
+    for offset, name in enumerate(COMPONENTS, start=1):
+        entry[name] = int(row[offset] or 0)
+    entry["active_days"] = int(row[len(COMPONENTS) + 1] or 0)
+    entry["window_days"] = int(row[len(COMPONENTS) + 2] or 0)
+    entry["activity"] = int(row[len(COMPONENTS) + 3] or 0)
+    entry["rank_score"] = entry["activity"]
+    entry["rank"] = rank
+    return entry
+
+
+def rank_users(parquet_file_path, detail_limit=None, on_tail=None):
+    """Return ``(detailed_rows, total_users)`` in rank order.
+
+    ``detail_limit`` caps how many rows are kept in memory; every row after it
+    is passed to ``on_tail(entry)`` (used to stream the compact long tail to
+    disk) instead of being accumulated.
+    """
     con = duckdb.connect()
     try:
         cursor = con.execute(
@@ -50,7 +72,7 @@ def compute_rank_scores(parquet_file_path):
             """,
             [parquet_file_path],
         )
-        result = []
+        rows = []
         rank = 0
         while True:
             batch = cursor.fetchmany(_BATCH)
@@ -58,19 +80,17 @@ def compute_rank_scores(parquet_file_path):
                 break
             for row in batch:
                 rank += 1
-                entry = {
-                    "username": str(row[0]),
-                    "country": "",
-                    "primary_language": "Unknown",
-                }
-                for offset, name in enumerate(COMPONENTS, start=1):
-                    entry[name] = int(row[offset] or 0)
-                entry["active_days"] = int(row[len(COMPONENTS) + 1] or 0)
-                entry["window_days"] = int(row[len(COMPONENTS) + 2] or 0)
-                entry["activity"] = int(row[len(COMPONENTS) + 3] or 0)
-                entry["rank_score"] = entry["activity"]
-                entry["rank"] = rank
-                result.append(entry)
-        return result
+                entry = _entry(row, rank)
+                if detail_limit is None or rank <= detail_limit:
+                    rows.append(entry)
+                elif on_tail is not None:
+                    on_tail(entry)
+        return rows, rank
     finally:
         con.close()
+
+
+def compute_rank_scores(parquet_file_path):
+    """Return every ranked row (small inputs, tests and tooling)."""
+    rows, _ = rank_users(parquet_file_path)
+    return rows

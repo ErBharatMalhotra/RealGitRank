@@ -259,20 +259,19 @@ class _MergedRecord:
     the mapping API the rest of the module already uses.
     """
 
-    __slots__ = ("p", "m", "i", "rv", "ic", "rel", "d", "mr")
+    # No per-user merged-repo map here on purpose: a dict per account with merged
+    # PRs over a full year of BigQuery data costs gigabytes, and the repo detail
+    # is only published for the detailed board. ``merges_for`` reads it back from
+    # the monthly shards for those few thousand accounts instead.
+    __slots__ = ("p", "m", "i", "rv", "ic", "rel", "d")
 
     def __init__(self):
         self.p = self.m = self.i = self.rv = self.ic = self.rel = self.d = 0
-        self.mr = None
 
     def __getitem__(self, key):
-        if key == "mr":
-            return self.mr or {}
         return getattr(self, key)
 
     def get(self, key, default=None):
-        if key == "mr":
-            return self.mr if self.mr is not None else (default or {})
         return getattr(self, key, default)
 
 
@@ -306,12 +305,6 @@ def load_annual(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
             entry.ic += int(record.get("ic") or 0)
             entry.rel += int(record.get("rel") or 0)
             entry.d += int(record.get("d") or 0)
-            repo_counts = record.get("mr")
-            if repo_counts:
-                if entry.mr is None:
-                    entry.mr = {}
-                for repo, count in repo_counts.items():
-                    entry.mr[repo] = int(entry.mr.get(repo, 0)) + int(count)
 
     return users, {
         "window_days": days_covered,
@@ -324,6 +317,33 @@ def load_annual(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
 
 def _top_repos(counter, cap=REPO_CAP):
     return dict(sorted(counter.items(), key=lambda kv: (-int(kv[1]), kv[0]))[:cap])
+
+
+def merges_for(names, end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS, cap=REPO_CAP):
+    """Per-repo merged-PR counts for a small set of logins.
+
+    Second streaming pass over the monthly shards: the 12-month merge keeps no
+    repo detail (that was hundreds of megabytes for accounts nobody profiled),
+    so the top of the board gets its detail here.
+    """
+    wanted = {str(name) for name in names if name}
+    if not wanted:
+        return {}
+    totals = {}
+    for month in _months_back(end_date, max_months):
+        payload = load_month(month, monthly_dir)
+        if not payload:
+            continue
+        for login, record in (payload.get("users") or {}).items():
+            if login not in wanted:
+                continue
+            repo_counts = record.get("mr") or {}
+            if not repo_counts:
+                continue
+            entry = totals.setdefault(login, {})
+            for repo, count in repo_counts.items():
+                entry[repo] = entry.get(repo, 0) + int(count)
+    return {login: _top_repos(counter, cap) for login, counter in totals.items()}
 
 
 def build_rows(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
@@ -350,10 +370,6 @@ def build_rows(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
         row["active_days"] = int(record.get("d") or 0)
         row["rank_score"] = activity
         row["window_days"] = meta["window_days"]
-        if index < MERGES_LIMIT:
-            merged = _top_repos(record.get("mr") or {})
-            if merged:
-                row["counted_merges"] = merged
         rows.append(row)
 
     meta = dict(meta)

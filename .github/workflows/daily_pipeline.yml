@@ -11,12 +11,17 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  PYTHONUNBUFFERED: "1"
+
 jobs:
-  ingest-and-score:
+  # The BigQuery backfill takes ~75 minutes on its own. It used to share one job
+  # with the scoring half, so a failure there threw the whole backfill away and
+  # the next run paid for it again. Separate job + artifact keeps it.
+  backfill:
+    name: Backfill BigQuery activity
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
 
@@ -39,12 +44,46 @@ jobs:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
         run: python -m src.pipeline.ingest_bigquery --backfill-activity 12 || echo "activity backfill skipped"
 
+      - name: Upload activity store
+        uses: actions/upload-artifact@v4
+        with:
+          name: activity-store
+          path: |
+            data/activity
+            data/rolling
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+
+  ingest-and-score:
+    needs: backfill
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Restore activity store
+        uses: actions/download-artifact@v4
+        with:
+          name: activity-store
+          path: data
+
       - name: Run pipeline (gharchive.org -> monthly activity -> snapshots)
         env:
           GH_ENRICH_TOKEN: ${{ secrets.GH_ENRICH_TOKEN }}
           GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
-        run: python src/pipeline/run.py
+        run: python -u src/pipeline/run.py
         # gharchive.org is the source; BigQuery attribution is optional and only
         # runs when GCP credentials are configured (see ingest_bigquery.py).
 

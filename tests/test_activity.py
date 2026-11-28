@@ -113,8 +113,12 @@ def test_build_rows_ranks_by_total_and_exposes_components(tmp_path):
     top = rows[1]
     assert top["rank_score"] == 3
     assert top["merged_prs"] == 1
-    assert top["counted_merges"] == {"acme/app": 1}
+    assert "counted_merges" not in top
     assert meta["users"] == 2
+    # Repo detail is a second pass for the accounts that need it.
+    assert activity.merges_for(["alice", "bob"], "2026-11-24", str(tmp_path)) == {
+        "alice": {"acme/app": 1}
+    }
 
 
 def test_seed_from_rolling_reads_daily_shards_once(tmp_path):

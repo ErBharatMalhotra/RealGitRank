@@ -25,7 +25,7 @@ from history import (
 )
 from profiles import PROFILE_LIMIT, prune_profiles_for_leaderboard
 from rolling import WINDOW_DAYS, prune_window, window_source_stats
-from scoring_engine import compute_rank_scores
+from scoring_engine import rank_users
 
 SCORE_VERSION = "v3-activity"
 # Detailed rows committed to git. Everyone else is still ranked and published
@@ -41,6 +41,18 @@ def load_json(path, default):
             return json.load(f)
     except (OSError, ValueError):
         return default
+
+
+def stage(label):
+    """Progress + peak RSS, so a killed run says where it died and how big it got."""
+    peak = 0.0
+    try:
+        import resource
+
+        peak = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024.0
+    except (ImportError, OSError):
+        pass
+    print(f"[stage] {label} peak_rss_mb={peak:.0f}", flush=True)
 
 
 def carried_profile_fields(username, old_by_name, old_profiles):
@@ -72,10 +84,11 @@ def main():
     if not offline:
         from ingest_gharchive import ingest
 
-        print("Ingesting real GitHub event data (gharchive.org)...")
+        print("Ingesting real GitHub event data (gharchive.org)...", flush=True)
         if not ingest():
             print("FAIL: real ingest produced no data; refusing to publish invented numbers")
             return 1
+        stage("ingest")
     else:
         from rolling import available_dates
 
@@ -89,20 +102,49 @@ def main():
     # monthly store. Seeding is idempotent: already-recorded days are skipped.
     seeded = activity.seed_from_rolling()
     if seeded:
-        print(f"Seeded {seeded} daily shards into the monthly activity store")
+        print(f"Seeded {seeded} daily shards into the monthly activity store", flush=True)
 
     rows, window = activity.build_rows(end_date)
+    stage(f"merge 12-month activity ({len(rows)} users)")
     if not rows:
         print(f"FAIL: no activity rows in the 12-month window ending {end_date}")
         return 1
     print(
         f"Activity window {window['window_start']}..{window['window_end']} "
         f"({window['window_months']}/{activity.MAX_MONTHS} months, "
-        f"{window['window_days']} days, {len(rows)} users)"
+        f"{window['window_days']} days, {len(rows)} users)",
+        flush=True,
     )
 
     activity.write_parquet(rows, "data/activity.parquet")
-    scored = compute_rank_scores("data/activity.parquet")
+    del rows
+    stage("write parquet")
+    # Rank straight to disk: the detailed board stays in memory, every other
+    # account is written to the long tail row by row, so a 12-month window never
+    # needs a dict per account in RAM.
+    tail_count = 0
+    tail_file = open(LONG_TAIL_PATH, "w", encoding="utf-8")
+    tail_file.write("[")
+
+    def write_tail(entry):
+        nonlocal tail_count
+        if tail_count:
+            tail_file.write(",")
+        tail_file.write(json.dumps({
+            "username": entry["username"],
+            "rank": entry["rank"],
+            "rank_score": entry.get("rank_score"),
+            "merged_prs": entry.get("merged_prs"),
+            "total_pushes": entry.get("total_pushes"),
+        }, separators=(",", ":"), ensure_ascii=False))
+        tail_count += 1
+
+    try:
+        scored, total_users = rank_users("data/activity.parquet", LEADERBOARD_LIMIT, write_tail)
+    finally:
+        tail_file.write("]")
+        tail_file.close()
+    stage(f"rank {total_users} users")
 
     old_status = load_json("data/status.json", {})
     old_lb = load_json("data/leaderboard.json", [])
@@ -123,21 +165,21 @@ def main():
         entry["window_start"] = window["window_start"]
         entry["window_end"] = window["window_end"]
 
-    # compute_rank_scores returns rows already in rank order, so no second sort.
-    ranked = scored
-    for index, entry in enumerate(ranked, 1):
-        entry["rank"] = index
-    lb = ranked[:LEADERBOARD_LIMIT]
+    # rank_users returns the detailed board already in rank order with ranks set.
+    lb = scored
 
-    # Merged-repo provenance is published for the top profiles only; keeping it
-    # for every account in the year is not worth the memory.
-    profile_names = {entry["username"] for entry in lb[:PROFILE_LIMIT]}
-    merges_by_name = {
-        row["username"]: row["counted_merges"]
-        for row in rows
-        if row.get("counted_merges") and row["username"] in profile_names
-    }
-    del rows
+    # Merged-repo provenance is published for the detailed board only. Repo lists
+    # are not kept in the 12-month merge (millions of accounts, gigabytes), so
+    # they are read back from the monthly shards for these names alone.
+    merges_by_name = activity.merges_for(
+        (entry["username"] for entry in lb), end_date
+    )
+    for entry in lb:
+        merged = merges_by_name.get(entry["username"])
+        if merged:
+            entry["counted_merges"] = merged
+    del merges_by_name
+    stage("repo detail for detailed board")
 
     run_date = today.isoformat()
     clear_movement(lb)
@@ -155,33 +197,17 @@ def main():
     with open("data/leaderboard.json", "w", encoding="utf-8") as f:
         json.dump(lb, f, indent=2)
 
-    # Everyone outside the detailed slice stays ranked and searchable, with the
-    # fields a profile/mini-card needs. Derived data: never committed.
-    # Streamed, not accumulated: the long tail can be millions of rows and a list
-    # of dicts for it was hundreds of megabytes.
-    tail_count = 0
-    with open(LONG_TAIL_PATH, "w", encoding="utf-8") as f:
-        f.write("[")
-        for entry in ranked[LEADERBOARD_LIMIT:]:
-            if tail_count:
-                f.write(",")
-            f.write(json.dumps({
-                "username": entry["username"],
-                "rank": entry["rank"],
-                "rank_score": entry.get("rank_score"),
-                "merged_prs": entry.get("merged_prs"),
-                "total_pushes": entry.get("total_pushes"),
-            }, separators=(",", ":"), ensure_ascii=False))
-            tail_count += 1
-        f.write("]")
-    print(f"Live ranked users: {len(ranked)} ({len(lb)} detailed + {tail_count} compact)")
+    print(
+        f"Live ranked users: {total_users} ({len(lb)} detailed + {tail_count} compact)",
+        flush=True,
+    )
 
     os.makedirs("data/profiles", exist_ok=True)
     for entry in lb[:PROFILE_LIMIT]:
         username = entry["username"]
         profile = dict(entry)
         profile["rank"] = entry["rank"]
-        merged_repos = merges_by_name.get(username) or {}
+        merged_repos = entry.get("counted_merges") or {}
         if merged_repos:
             profile["counted_merges"] = [
                 {"repo": repo, "prs": int(count)}
@@ -208,8 +234,8 @@ def main():
         "generated_at": generated_at,
         "score_version": SCORE_VERSION,
         "source": window_source_stats(end_date),
-        "users_total": len(ranked),
-        "users_ranked": len(ranked),
+        "users_total": total_users,
+        "users_ranked": total_users,
         "users_listed": 0,
         "months_available": window["window_months"],
         **window,
@@ -221,9 +247,9 @@ def main():
             "last_run_utc": generated_at,
             "data_age_hours": 0,
             "status": "ok",
-            "users": len(ranked),
-            "users_total": len(ranked),
-            "users_ranked": len(ranked),
+            "users": total_users,
+            "users_total": total_users,
+            "users_ranked": total_users,
             "users_listed": 0,
             "listed_only": 0,
             "detailed": len(lb),
@@ -240,14 +266,16 @@ def main():
         }, f, indent=2)
 
     print(
-        f"Scored {len(scored)} users from real events. Top: {lb[0]['username']} "
-        f"({lb[0]['rank_score']} activity, {lb[0]['merged_prs']} merged PRs)"
+        f"Scored {total_users} users from real events. Top: {lb[0]['username']} "
+        f"({lb[0]['rank_score']} activity, {lb[0]['merged_prs']} merged PRs)",
+        flush=True,
     )
     print(
         f"Coverage: merged-PR signal {coverage['signals']['merged_prs']['pct']}%, "
-        f"pushes {coverage['signals']['total_pushes']['pct']}%"
+        f"pushes {coverage['signals']['total_pushes']['pct']}%",
+        flush=True,
     )
-    return 0
+    stage("final")
 
 
 if __name__ == "__main__":
