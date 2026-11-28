@@ -11,6 +11,9 @@ developer's score only changes when their own public activity changes.
 
 The engine reads the parquet written by ``activity.write_parquet`` so the
 pipeline keeps one inspectable intermediate file between ingest and ranking.
+Rows are streamed in score order and ranked as they arrive: a 12-month window
+holds millions of accounts, and fetching the whole table into Python (then
+sorting a second list) was several gigabytes on the CI runner.
 """
 import duckdb
 
@@ -23,52 +26,51 @@ COMPONENTS = (
     "releases",
 )
 
+COMPONENT_FIELDS = {key: key for key in COMPONENTS}
+
 COLUMNS = ("username",) + COMPONENTS + ("active_days", "window_days", "rank_score")
 
-
-def _load(path):
-    con = duckdb.connect()
-    try:
-        rel = con.execute(f"SELECT * FROM read_parquet('{path}')")
-        names = [d[0] for d in rel.description]
-        return names, rel.fetchall()
-    finally:
-        con.close()
+_BATCH = 20_000
+_SCORE_SQL = " + ".join(f"COALESCE({name}, 0)" for name in COMPONENTS)
 
 
 def compute_rank_scores(parquet_file_path):
     """Return ranked rows: absolute activity, components and rank 1..N."""
-    names, rows = _load(parquet_file_path)
-    index = {name: position for position, name in enumerate(names)}
-
-    def value(row, name, default=0):
-        position = index.get(name)
-        if position is None or row[position] is None:
-            return default
-        try:
-            return int(row[position])
-        except (TypeError, ValueError):
-            return default
-
-    result = []
-    for row in rows:
-        username = str(row[index["username"]] or "") if "username" in index else ""
-        if not username:
-            continue
-        components = {key: value(row, key) for key in COMPONENTS}
-        activity = sum(components.values())
-        if activity <= 0:
-            # No observed public activity in the window: not ranked, not listed.
-            continue
-        entry = {"username": username, "country": "", "primary_language": "Unknown"}
-        entry.update(components)
-        entry["active_days"] = value(row, "active_days")
-        entry["window_days"] = value(row, "window_days")
-        entry["activity"] = activity
-        entry["rank_score"] = activity
-        result.append(entry)
-
-    result.sort(key=lambda r: (-r["rank_score"], -r["merged_prs"], r["username"]))
-    for position, entry in enumerate(result, 1):
-        entry["rank"] = position
-    return result
+    con = duckdb.connect()
+    try:
+        cursor = con.execute(
+            f"""
+            SELECT username, {", ".join(COMPONENTS)},
+                   COALESCE(active_days, 0), COALESCE(window_days, 0),
+                   ({_SCORE_SQL}) AS activity
+            FROM read_parquet(?)
+            WHERE username IS NOT NULL AND username <> ''
+              AND ({_SCORE_SQL}) > 0
+            ORDER BY activity DESC, COALESCE(merged_prs, 0) DESC, username ASC
+            """,
+            [parquet_file_path],
+        )
+        result = []
+        rank = 0
+        while True:
+            batch = cursor.fetchmany(_BATCH)
+            if not batch:
+                break
+            for row in batch:
+                rank += 1
+                entry = {
+                    "username": str(row[0]),
+                    "country": "",
+                    "primary_language": "Unknown",
+                }
+                for offset, name in enumerate(COMPONENTS, start=1):
+                    entry[name] = int(row[offset] or 0)
+                entry["active_days"] = int(row[len(COMPONENTS) + 1] or 0)
+                entry["window_days"] = int(row[len(COMPONENTS) + 2] or 0)
+                entry["activity"] = int(row[len(COMPONENTS) + 3] or 0)
+                entry["rank_score"] = entry["activity"]
+                entry["rank"] = rank
+                result.append(entry)
+        return result
+    finally:
+        con.close()

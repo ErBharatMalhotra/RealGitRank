@@ -35,6 +35,9 @@ COMPLETE_MONTHS = 12
 MAX_MONTHS = COMPLETE_MONTHS + 1
 MONTHLY_DIR = os.path.join("data", "activity", "monthly")
 REPO_CAP = 10
+# Merged-repo detail is published for the detailed board only; keeping it for
+# every account in a multi-million-user merge costs hundreds of megabytes.
+MERGES_LIMIT = 50_000
 
 # GitHub's own Copilot agent account pushes and opens PRs like an app, not a
 # person, and would otherwise sit at the top of a human activity ranking.
@@ -247,6 +250,32 @@ def _months_back(end_date, count=MAX_MONTHS):
     return sorted(months)
 
 
+class _MergedRecord:
+    """One user's annual totals.
+
+    A slots object instead of a dict: the 12-month merge holds every account
+    seen in a year (millions), and a dict per user was several gigabytes on the
+    CI runner, which killed the process. ``record[key]`` and ``.get(key)`` keep
+    the mapping API the rest of the module already uses.
+    """
+
+    __slots__ = ("p", "m", "i", "rv", "ic", "rel", "d", "mr")
+
+    def __init__(self):
+        self.p = self.m = self.i = self.rv = self.ic = self.rel = self.d = 0
+        self.mr = None
+
+    def __getitem__(self, key):
+        if key == "mr":
+            return self.mr or {}
+        return getattr(self, key)
+
+    def get(self, key, default=None):
+        if key == "mr":
+            return self.mr if self.mr is not None else (default or {})
+        return getattr(self, key, default)
+
+
 def load_annual(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
     """Merge the newest `max_months` monthly shards into one per-user record."""
     months = _months_back(end_date, max_months)
@@ -266,13 +295,23 @@ def load_annual(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
             days_covered += len(counted_days)
 
         for login, record in (payload.get("users") or {}).items():
-            entry = users.setdefault(login, _new_record())
-            for key, _ in COMPONENTS:
-                entry[key] = int(entry.get(key) or 0) + int(record.get(key) or 0)
-            entry["mr"] = entry.get("mr") or {}
-            for repo, count in (record.get("mr") or {}).items():
-                entry["mr"][repo] = int(entry["mr"].get(repo, 0)) + int(count)
-            entry["d"] += int(record.get("d") or 0)
+            entry = users.get(login)
+            if entry is None:
+                entry = _MergedRecord()
+                users[login] = entry
+            entry.p += int(record.get("p") or 0)
+            entry.m += int(record.get("m") or 0)
+            entry.i += int(record.get("i") or 0)
+            entry.rv += int(record.get("rv") or 0)
+            entry.ic += int(record.get("ic") or 0)
+            entry.rel += int(record.get("rel") or 0)
+            entry.d += int(record.get("d") or 0)
+            repo_counts = record.get("mr")
+            if repo_counts:
+                if entry.mr is None:
+                    entry.mr = {}
+                for repo, count in repo_counts.items():
+                    entry.mr[repo] = int(entry.mr.get(repo, 0)) + int(count)
 
     return users, {
         "window_days": days_covered,
@@ -290,10 +329,20 @@ def _top_repos(counter, cap=REPO_CAP):
 def build_rows(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
     """Return (rows, meta) with one absolute-activity row per developer."""
     users, meta = load_annual(end_date, monthly_dir, max_months)
-    rows = []
+    # Sort logins first, then build one row per user in rank order and drop each
+    # merged record as it is consumed: holding both the merge map and every row
+    # dict at full size is what exhausted the runner's memory.
+    order = []
     for login, record in users.items():
         activity = _record_activity(record)
-        if activity <= 0:
+        if activity > 0:
+            order.append((activity, int(record.get("m") or 0), login))
+    order.sort(key=lambda item: (-item[0], -item[1], item[2]))
+
+    rows = []
+    for index, (activity, _, login) in enumerate(order):
+        record = users.pop(login, None)
+        if record is None:
             continue
         row = {"username": login, "country": "", "primary_language": "Unknown"}
         for key, field in COMPONENTS:
@@ -301,12 +350,12 @@ def build_rows(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
         row["active_days"] = int(record.get("d") or 0)
         row["rank_score"] = activity
         row["window_days"] = meta["window_days"]
-        merged = _top_repos(record.get("mr") or {})
-        if merged:
-            row["counted_merges"] = merged
+        if index < MERGES_LIMIT:
+            merged = _top_repos(record.get("mr") or {})
+            if merged:
+                row["counted_merges"] = merged
         rows.append(row)
 
-    rows.sort(key=lambda r: (-r["rank_score"], -r["merged_prs"], r["username"]))
     meta = dict(meta)
     meta["users"] = len(rows)
     return rows, meta
@@ -321,7 +370,9 @@ def write_parquet(rows, path="data/activity.parquet"):
         "username", "total_pushes", "merged_prs", "closed_issues", "pr_reviews",
         "issue_comments", "releases", "active_days", "window_days", "rank_score",
     )
-    table = pa.Table.from_pylist([{k: r.get(k) for k in columns} for r in rows])
+    # Column-wise construction: from_pylist() would copy every row into a second
+    # list of dicts first, doubling peak memory for millions of rows.
+    table = pa.Table.from_pydict({column: [r.get(column) for r in rows] for column in columns})
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     pq.write_table(table, path)
     return path

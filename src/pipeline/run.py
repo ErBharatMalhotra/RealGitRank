@@ -115,26 +115,29 @@ def main():
                 if isinstance(payload, dict) and payload.get("username"):
                     old_profiles[payload["username"]] = payload
 
-    # Provenance lives in the activity rows (it is not a scoring column).
-    merges_by_name = {r["username"]: (r.get("counted_merges") or {}) for r in rows}
-
-    by_name = {}
-    for rec in scored:
-        username = rec["username"]
-        entry = dict(rec)
-        entry.update(carried_profile_fields(username, old_by_name, old_profiles))
+    # Enrich in place: copying every scored row into a second dict keyed by name
+    # was another full copy of the board (millions of rows) at peak memory.
+    for entry in scored:
+        entry.update(carried_profile_fields(entry["username"], old_by_name, old_profiles))
         entry["score_version"] = SCORE_VERSION
         entry["window_start"] = window["window_start"]
         entry["window_end"] = window["window_end"]
-        by_name[username] = entry
 
-    ranked = sorted(
-        by_name.values(),
-        key=lambda u: (-u.get("rank_score", 0), -u.get("merged_prs", 0), u.get("username", "")),
-    )
+    # compute_rank_scores returns rows already in rank order, so no second sort.
+    ranked = scored
     for index, entry in enumerate(ranked, 1):
         entry["rank"] = index
     lb = ranked[:LEADERBOARD_LIMIT]
+
+    # Merged-repo provenance is published for the top profiles only; keeping it
+    # for every account in the year is not worth the memory.
+    profile_names = {entry["username"] for entry in lb[:PROFILE_LIMIT]}
+    merges_by_name = {
+        row["username"]: row["counted_merges"]
+        for row in rows
+        if row.get("counted_merges") and row["username"] in profile_names
+    }
+    del rows
 
     run_date = today.isoformat()
     clear_movement(lb)
@@ -154,19 +157,24 @@ def main():
 
     # Everyone outside the detailed slice stays ranked and searchable, with the
     # fields a profile/mini-card needs. Derived data: never committed.
-    tail = [
-        {
-            "username": entry["username"],
-            "rank": entry["rank"],
-            "rank_score": entry.get("rank_score"),
-            "merged_prs": entry.get("merged_prs"),
-            "total_pushes": entry.get("total_pushes"),
-        }
-        for entry in ranked[LEADERBOARD_LIMIT:]
-    ]
+    # Streamed, not accumulated: the long tail can be millions of rows and a list
+    # of dicts for it was hundreds of megabytes.
+    tail_count = 0
     with open(LONG_TAIL_PATH, "w", encoding="utf-8") as f:
-        json.dump(tail, f, separators=(",", ":"), ensure_ascii=False)
-    print(f"Live ranked users: {len(ranked)} ({len(lb)} detailed + {len(tail)} compact)")
+        f.write("[")
+        for entry in ranked[LEADERBOARD_LIMIT:]:
+            if tail_count:
+                f.write(",")
+            f.write(json.dumps({
+                "username": entry["username"],
+                "rank": entry["rank"],
+                "rank_score": entry.get("rank_score"),
+                "merged_prs": entry.get("merged_prs"),
+                "total_pushes": entry.get("total_pushes"),
+            }, separators=(",", ":"), ensure_ascii=False))
+            tail_count += 1
+        f.write("]")
+    print(f"Live ranked users: {len(ranked)} ({len(lb)} detailed + {tail_count} compact)")
 
     os.makedirs("data/profiles", exist_ok=True)
     for entry in lb[:PROFILE_LIMIT]:

@@ -91,13 +91,15 @@ function badgeSvg(user) {
   }[state];
 
   const score = state === "ranked" && Number.isFinite(user.score) ? String(Math.round(user.score)) : "—";
-  const value = state === "ranked" ? score : state === "listed" ? "LISTED" : "—";
+  // The unit line already says LISTED; repeating it as the value made the badge
+  // look broken ("LISTED / LISTED").
+  const value = state === "ranked" ? score : "—";
   const rankText = user && user.rank ? `#${user.rank}` : "ranked";
   const caption =
     state === "ranked" ? `12-mo activity · ${rankText}` : state === "listed" ? "no public work in window" : "open realgitrank to verify";
   const unit = state === "ranked" ? "ACTIVITY" : state === "listed" ? "LISTED" : "NOT FOUND";
   const handle = state === "unknown" ? "@your-username" : `@${fit(user.login)}`;
-  const valueSize = state === "ranked" ? 22 : state === "listed" ? 13 : 22;
+  const valueSize = 22;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="220" height="64" viewBox="0 0 220 64" role="img" aria-label="RealGitRank badge">
   <defs>
