@@ -121,6 +121,31 @@ def test_build_rows_ranks_by_total_and_exposes_components(tmp_path):
     }
 
 
+def test_build_columns_matches_the_row_builder_and_round_trips(tmp_path):
+    """Columnar merge must produce exactly the scores the dict merge produced."""
+    activity.add_day(
+        "2026-11-20",
+        agg(alice={"p": 2, "m": 1}, bob={"p": 10}),
+        str(tmp_path),
+    )
+    rows, row_meta = activity.build_rows("2026-11-24", str(tmp_path))
+    columns, meta = activity.build_columns("2026-11-24", str(tmp_path))
+
+    by_name = dict(zip(columns["username"], columns["rank_score"]))
+    assert by_name == {row["username"]: row["rank_score"] for row in rows}
+    assert meta["users"] == row_meta["users"] == 2
+    assert meta["window_days"] == row_meta["window_days"]
+
+    path = tmp_path / "activity.parquet"
+    activity.write_parquet_columns(columns, str(path))
+    from scoring_engine import compute_rank_scores
+
+    scored = compute_rank_scores(str(path))
+    assert [row["username"] for row in scored] == ["bob", "alice"]
+    assert [row["rank_score"] for row in scored] == [10, 3]
+    assert scored[1]["merged_prs"] == 1
+
+
 def test_seed_from_rolling_reads_daily_shards_once(tmp_path):
     rolling = tmp_path / "rolling"
     rolling.mkdir()

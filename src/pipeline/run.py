@@ -104,20 +104,23 @@ def main():
     if seeded:
         print(f"Seeded {seeded} daily shards into the monthly activity store", flush=True)
 
-    rows, window = activity.build_rows(end_date)
-    stage(f"merge 12-month activity ({len(rows)} users)")
-    if not rows:
+    # Columnar merge: a dict per account for a 20M-account window is what got the
+    # runner killed, so the merge never materialises per-user objects.
+    columns, window = activity.build_columns(end_date)
+    merged_users = window["users"]
+    stage(f"merge 12-month activity ({merged_users} users)")
+    if not merged_users:
         print(f"FAIL: no activity rows in the 12-month window ending {end_date}")
         return 1
     print(
         f"Activity window {window['window_start']}..{window['window_end']} "
         f"({window['window_months']}/{activity.MAX_MONTHS} months, "
-        f"{window['window_days']} days, {len(rows)} users)",
+        f"{window['window_days']} days, {merged_users} users)",
         flush=True,
     )
 
-    activity.write_parquet(rows, "data/activity.parquet")
-    del rows
+    activity.write_parquet_columns(columns, "data/activity.parquet")
+    del columns
     stage("write parquet")
     # Rank straight to disk: the detailed board stays in memory, every other
     # account is written to the long tail row by row, so a 12-month window never

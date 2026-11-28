@@ -29,6 +29,8 @@ import json
 import os
 from datetime import date
 
+import numpy as np
+
 # The score covers the current (partial) month plus the newest 12 complete
 # months, so a 12-month window is never short by the month in progress.
 COMPLETE_MONTHS = 12
@@ -346,52 +348,147 @@ def merges_for(names, end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS, 
     return {login: _top_repos(counter, cap) for login, counter in totals.items()}
 
 
-def build_rows(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
-    """Return (rows, meta) with one absolute-activity row per developer."""
-    users, meta = load_annual(end_date, monthly_dir, max_months)
-    # Sort logins first, then build one row per user in rank order and drop each
-    # merged record as it is consumed: holding both the merge map and every row
-    # dict at full size is what exhausted the runner's memory.
-    order = []
-    for login, record in users.items():
-        activity = _record_activity(record)
-        if activity > 0:
-            order.append((activity, int(record.get("m") or 0), login))
-    order.sort(key=lambda item: (-item[0], -item[1], item[2]))
+# Annual totals are held as parallel int64 columns keyed by a login -> slot dict.
+# A dict or object per account for a 20M-account window cost ~15 GB on the 16 GB
+# CI runner and the process was killed there; columns keep the merge proportional
+# to the number of accounts and copy nothing on the way to parquet.
+_MERGE_COLUMNS = ("p", "m", "i", "rv", "ic", "rel", "d")
+_PARQUET_COLUMNS = (
+    "username", "total_pushes", "merged_prs", "closed_issues", "pr_reviews",
+    "issue_comments", "releases", "active_days", "window_days", "rank_score",
+)
 
-    rows = []
-    for index, (activity, _, login) in enumerate(order):
-        record = users.pop(login, None)
-        if record is None:
+
+def _grow(values, needed):
+    capacity = max(needed, int(values.shape[1] * 1.5) + 1024)
+    grown = np.zeros((values.shape[0], capacity), dtype=np.int64)
+    grown[:, : values.shape[1]] = values
+    return grown
+
+
+class ColumnarTotals:
+    """Per-login annual counters in one matrix instead of millions of dicts."""
+
+    __slots__ = ("index", "values", "size")
+
+    def __init__(self, capacity=4096):
+        self.index = {}
+        self.values = np.zeros((len(_MERGE_COLUMNS), capacity), dtype=np.int64)
+        self.size = 0
+
+    def add_month(self, users):
+        index, values, size = self.index, self.values, self.size
+        for login, record in users.items():
+            slot = index.get(login)
+            if slot is None:
+                if size >= values.shape[1]:
+                    values = _grow(values, size + 1)
+                    self.values = values
+                slot = size
+                index[login] = slot
+                size += 1
+                for row, key in enumerate(_MERGE_COLUMNS):
+                    values[row, slot] = record.get(key) or 0
+            else:
+                for row, key in enumerate(_MERGE_COLUMNS):
+                    values[row, slot] += record.get(key) or 0
+        self.size = size
+
+
+def build_columns(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
+    """Return (columns, meta): parquet columns, one absolute-activity row per developer.
+
+    Same window and same arithmetic as ``load_annual``/``build_rows``, but without
+    a per-user record: the merge accumulates into numpy columns and the parquet
+    table is built from those columns directly.
+    """
+    months = _months_back(end_date, max_months)
+    totals = ColumnarTotals()
+    used = []
+    days_covered = 0
+
+    for month in months:
+        payload = load_month(month, monthly_dir)
+        if not payload:
             continue
+        used.append(month)
+        counted_days = [d for d in (payload.get("days") or []) if str(d) <= str(end_date)]
+        if payload.get("source") == "bigquery":
+            days_covered += int(payload.get("days_covered") or 0)
+        else:
+            days_covered += len(counted_days)
+        totals.add_month(payload.get("users") or {})
+        # Drop the month's parsed shard before the next one is loaded.
+        del payload
+
+    meta = {
+        "window_days": days_covered,
+        "window_months": len(used),
+        "months": used,
+        "window_start": f"{used[0]}-01" if used else None,
+        "window_end": str(end_date),
+    }
+
+    names = list(totals.index.keys())
+    values = totals.values[:, : totals.size]
+    # Release the lookup dict first: the names list keeps the login strings alive
+    # and that dict is the largest single object in the merge.
+    totals.index = {}
+    totals.values = np.empty((len(_MERGE_COLUMNS), 0), dtype=np.int64)
+
+    activity = values[: len(COMPONENTS)].sum(axis=0)
+    keep = np.flatnonzero(activity > 0)
+    columns = {
+        "username": [names[i] for i in keep],
+        "total_pushes": values[0, keep],
+        "merged_prs": values[1, keep],
+        "closed_issues": values[2, keep],
+        "pr_reviews": values[3, keep],
+        "issue_comments": values[4, keep],
+        "releases": values[5, keep],
+        "active_days": values[6, keep],
+        "window_days": np.full(keep.size, meta["window_days"], dtype=np.int64),
+        "rank_score": activity[keep],
+    }
+    meta["users"] = int(keep.size)
+    return columns, meta
+
+
+def write_parquet_columns(columns, path="data/activity.parquet"):
+    """Write the scoring columns to parquet straight from the numpy arrays."""
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    table = pa.Table.from_pydict({name: columns[name] for name in _PARQUET_COLUMNS})
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    pq.write_table(table, path)
+    return path
+
+
+def build_rows(end_date, monthly_dir=MONTHLY_DIR, max_months=MAX_MONTHS):
+    """Return (rows, meta) as dict rows, ranked. For tests and small windows.
+
+    The pipeline uses ``build_columns`` + ``write_parquet_columns``: materialising
+    a dict per account for a 20M-account window is what exhausted the runner.
+    """
+    columns, meta = build_columns(end_date, monthly_dir, max_months)
+    rows = []
+    for index, login in enumerate(columns["username"]):
         row = {"username": login, "country": "", "primary_language": "Unknown"}
-        for key, field in COMPONENTS:
-            row[field] = int(record.get(key) or 0)
-        row["active_days"] = int(record.get("d") or 0)
-        row["rank_score"] = activity
+        for _, field in COMPONENTS:
+            row[field] = int(columns[field][index])
+        row["active_days"] = int(columns["active_days"][index])
+        row["rank_score"] = int(columns["rank_score"][index])
         row["window_days"] = meta["window_days"]
         rows.append(row)
-
-    meta = dict(meta)
-    meta["users"] = len(rows)
+    rows.sort(key=lambda row: (-row["rank_score"], -row["merged_prs"], row["username"]))
     return rows, meta
 
 
 def write_parquet(rows, path="data/activity.parquet"):
-    """Write the scoring columns to parquet (provenance fields excluded)."""
-    import pyarrow as pa
-    import pyarrow.parquet as pq
-
-    columns = (
-        "username", "total_pushes", "merged_prs", "closed_issues", "pr_reviews",
-        "issue_comments", "releases", "active_days", "window_days", "rank_score",
-    )
-    # Column-wise construction: from_pylist() would copy every row into a second
-    # list of dicts first, doubling peak memory for millions of rows.
-    table = pa.Table.from_pydict({column: [r.get(column) for r in rows] for column in columns})
-    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-    pq.write_table(table, path)
-    return path
+    """Write dict rows to parquet (provenance fields excluded)."""
+    columns = {name: [row.get(name) for row in rows] for name in _PARQUET_COLUMNS}
+    return write_parquet_columns(columns, path)
 
 
 def prune_months(end_date, monthly_dir=MONTHLY_DIR, keep=MAX_MONTHS):
